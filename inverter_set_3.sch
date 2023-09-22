@@ -22,7 +22,7 @@ lab=GND}
 C {devices/vsource.sym} -220 -80 0 0 {name=Vdd value=5}
 C {sky130_fd_pr/nfet3_01v8.sym} 20 70 0 0 {name=M1
 L=0.15
-W=1.84
+W=1
 body=GND
 nf=1
 mult=1
@@ -52,7 +52,7 @@ C {sky130_fd_pr/corner.sym} 450 -150 0 0 {name=CORNER only_toplevel=false corner
 C {devices/gnd.sym} 40 140 0 0 {name=l2 lab=GND}
 C {devices/vdd.sym} 40 -70 0 0 {name=l1 lab=VDD}
 C {sky130_fd_pr/pfet_01v8.sym} 20 -40 0 0 {name=M3
-L=10.5
+L=1.55
 W=0.42
 nf=1
 mult=1
