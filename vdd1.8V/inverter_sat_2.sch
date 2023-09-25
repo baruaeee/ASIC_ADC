@@ -19,10 +19,24 @@ N 40 20 90 20 {
 lab=Vout}
 N 40 100 40 140 {
 lab=GND}
-C {devices/vsource.sym} -220 -80 0 0 {name=Vdd value=5}
+N -30 -100 0 -100 {
+lab=Vin}
+N -30 -100 -30 -40 {
+lab=Vin}
+N 40 40 180 40 {
+lab=Vout}
+N 40 100 180 100 {
+lab=GND}
+N 140 70 140 110 {
+lab=Vin}
+N -30 110 140 110 {
+lab=Vin}
+N -30 70 -30 110 {
+lab=Vin}
+C {devices/vsource.sym} -220 -80 0 0 {name=Vdd value=1.8}
 C {sky130_fd_pr/nfet3_01v8.sym} 20 70 0 0 {name=M1
 L=0.15
-W=0.558
+W=20
 body=GND
 nf=1
 mult=1
@@ -45,14 +59,14 @@ C {devices/lab_pin.sym} -220 0 2 0 {name=p2 sig_type=std_logic lab=Vin
 }
 C {devices/lab_pin.sym} 90 20 2 0 {name=p3 sig_type=std_logic lab=Vout
 }
-C {devices/code_shown.sym} 430 50 0 0 {name=SPICE only_toplevel=false value=".dc Vin 0 5 0.01
+C {devices/code_shown.sym} 430 50 0 0 {name=SPICE only_toplevel=false value=".dc Vin 0 1.8 0.01
 .save all"
 plot Vin Vout}
 C {sky130_fd_pr/corner.sym} 450 -150 0 0 {name=CORNER only_toplevel=false corner=tt}
 C {devices/gnd.sym} 40 140 0 0 {name=l2 lab=GND}
-C {devices/vdd.sym} 40 -70 0 0 {name=l1 lab=VDD}
+C {devices/vdd.sym} 40 -130 0 0 {name=l1 lab=VDD}
 C {sky130_fd_pr/pfet_01v8.sym} 20 -40 0 0 {name=M3
-L=0.267
+L=19.95
 W=0.42
 nf=1
 mult=1
@@ -63,5 +77,34 @@ ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
 nrd="'0.29 / W'" nrs="'0.29 / W'"
 sa=0 sb=0 sd=0
 model=pfet_01v8
+spiceprefix=X
+}
+C {sky130_fd_pr/pfet_01v8.sym} 20 -100 0 0 {name=M2
+L=19.95
+W=0.42
+nf=1
+mult=1
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=pfet_01v8
+spiceprefix=X
+}
+C {sky130_fd_pr/nfet3_01v8.sym} 160 70 0 0 {name=M4
+L=0.15
+W=20
+body=GND
+nf=1
+mult=1
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=nfet_01v8
 spiceprefix=X
 }
