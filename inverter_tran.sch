@@ -61,6 +61,5 @@ C {devices/lab_pin.sym} -220 0 2 0 {name=p2 sig_type=std_logic lab=Vin
 C {devices/lab_pin.sym} 80 -20 2 0 {name=p3 sig_type=std_logic lab=Vout
 }
 C {devices/code_shown.sym} 160 10 0 0 {name=SPICE only_toplevel=false value=".tran 0.01n 1u
-.save all"
-plot Vin Vout}
+.save all"}
 C {sky130_fd_pr/corner.sym} 150 -140 0 0 {name=CORNER only_toplevel=false corner=tt}
