@@ -1,0 +1,119 @@
+
+
+** sch_path: /home/exotic/Desktop/ASIC_ADC/xschem/Vth_sch/Inverter-th15_prelayout.sch
+**.subckt Inverter-th15_prelayout Vin Vout
+*.ipin Vin
+*.opin Vout
+VDD VDD GND 1.8
+.save i(vdd)
+Vin Vin GND pulse(0 0.2 0ns 1ns 1ns 5ns 10ns)
+.save i(vin)
+V_logic_high V_LH GND 1.25
+.save i(v_logic_high)
+V_logic_low V_LL GND 0.5
+.save i(v_logic_low)
+x1 VDD Vout Vin GND Inverter-th15_sym
+
+
+**** begin user architecture code
+
+
+.lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+
+.save all
+
+
+
+
+
+.dc Vin 0 1.8 0.01
+*.tran 1n 30n
+.control
+run
+set color0=white
+set color1=black
+plot Vin Vout V_LH V_LL
+set xbrushwidth=3
+.save all
+.endc
+.end
+
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  Inverter-th15_sym.sym # of pins=4
+** sym_path: /home/exotic/Desktop/ASIC_ADC/xschem/Vth_sch/Symbol/Inverter-th15_sym.sym
+** sch_path: /home/exotic/Desktop/ASIC_ADC/xschem/Vth_sch/Symbol/Inverter-th15_sym.sch
+* NGSPICE file created from Inverter-th15_sym.ext - technology: sky130A
+
+.subckt sky130_fd_pr__pfet_01v8_KGSDF3 a_n33_n2597# w_n211_n2719# a_15_n2500# a_n73_n2500#
++ VSUBS
+X0 a_15_n2500# a_n33_n2597# a_n73_n2500# w_n211_n2719# sky130_fd_pr__pfet_01v8 ad=7.25 pd=50.6 as=7.25 ps=50.6 w=25 l=0.15
+C0 w_n211_n2719# a_n33_n2597# 0.247f
+C1 w_n211_n2719# a_15_n2500# 1.54f
+C2 a_n73_n2500# w_n211_n2719# 1.54f
+C3 a_15_n2500# a_n33_n2597# 0.125f
+C4 a_n73_n2500# a_n33_n2597# 0.125f
+C5 a_n73_n2500# a_15_n2500# 3.98f
+C6 a_15_n2500# VSUBS 1.02f
+C7 a_n73_n2500# VSUBS 1.02f
+C8 a_n33_n2597# VSUBS 0.137f
+C9 w_n211_n2719# VSUBS 9.63f
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_YYPCPJ a_2500_n42# a_n2660_n216# a_n2500_n130# a_n2558_n42#
+X0 a_2500_n42# a_n2500_n130# a_n2558_n42# a_n2660_n216# sky130_fd_pr__nfet_01v8 ad=0.122 pd=1.42 as=0.122 ps=1.42 w=0.42 l=25
+C0 a_n2500_n130# a_n2558_n42# 0.0251f
+C1 a_2500_n42# a_n2500_n130# 0.0251f
+C2 a_2500_n42# a_n2660_n216# 0.0931f
+C3 a_n2558_n42# a_n2660_n216# 0.0931f
+C4 a_n2500_n130# a_n2660_n216# 13.9f
+.ends
+
+.subckt Inverter-th15_sym Vp Vout Vin Vn
+XXM12 Vin XM12/w_n211_n2719# Vout Vp VSUBS sky130_fd_pr__pfet_01v8_KGSDF3
+XXM7 Vin XM7/w_n211_n2719# Vout Vp VSUBS sky130_fd_pr__pfet_01v8_KGSDF3
+XXM8 m1_1116_n362# VSUBS Vin Vn sky130_fd_pr__nfet_01v8_YYPCPJ
+XXM9 m1_1116_576# VSUBS Vin m1_1116_n362# sky130_fd_pr__nfet_01v8_YYPCPJ
+XXM10 Vout VSUBS Vin m1_1116_576# sky130_fd_pr__nfet_01v8_YYPCPJ
+XXM11 Vin XM11/w_n211_n2719# Vp Vout VSUBS sky130_fd_pr__pfet_01v8_KGSDF3
+C0 m1_1116_576# m1_1116_n362# 0.0583f
+C1 Vout m1_1116_576# 0.0584f
+C2 XM12/w_n211_n2719# Vout 0.171f
+C3 XM12/w_n211_n2719# Vp 0.161f
+C4 XM11/w_n211_n2719# XM12/w_n211_n2719# 0.389f
+C5 Vin Vn 0.571f
+C6 Vn m1_1116_n362# 7.63e-24
+C7 XM7/w_n211_n2719# Vin 0.291f
+C8 Vin m1_1116_n362# 2.09f
+C9 Vin Vout 0.508f
+C10 Vp Vin 0.145f
+C11 XM11/w_n211_n2719# Vin 0.118f
+C12 XM7/w_n211_n2719# Vout 0.112f
+C13 XM7/w_n211_n2719# Vp 0.223f
+C14 XM11/w_n211_n2719# XM7/w_n211_n2719# 0.389f
+C15 Vin m1_1116_576# 2.07f
+C16 XM12/w_n211_n2719# Vin 0.0622f
+C17 Vp Vout 0.604f
+C18 XM11/w_n211_n2719# Vout 0.174f
+C19 XM11/w_n211_n2719# Vp 0.243f
+C20 XM7/w_n211_n2719# m1_1116_576# 1.13e-19
+C21 Vp VSUBS 3.06f
+C22 XM11/w_n211_n2719# VSUBS 9.63f
+C23 Vout VSUBS 4.05f
+C24 m1_1116_576# VSUBS 2.05f
+C25 Vin VSUBS 42.4f
+C26 m1_1116_n362# VSUBS 2.09f
+C27 Vn VSUBS 1.31f
+C28 XM7/w_n211_n2719# VSUBS 10f
+C29 XM12/w_n211_n2719# VSUBS 9.63f
+.ends
+
+
+
+.GLOBAL VDD
+.GLOBAL GND
+.GLOBAL V_LH
+.GLOBAL V_LL
+.end
