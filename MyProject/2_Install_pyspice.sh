@@ -11,7 +11,7 @@ make
 sudo make install
 
 # Install pyspice
-export PATH=/home/$USER/.local/bin:$PATH
+export PATH=/home/exotic/.local/bin:$PATH
 sudo apt install python3-pip -y
 pip install PySpice
 pyspice-post-installation --check-install
