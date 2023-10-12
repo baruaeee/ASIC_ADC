@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install ngspice
-
+cd /home/$USER/Desktop/
 wget  https://sourceforge.net/projects/ngspice/files/ng-spice-rework/old-releases/34/ngspice-34.tar.gz
 tar -zxvf ngspice-34.tar.gz
 cd ngspice-34/
