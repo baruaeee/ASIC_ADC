@@ -6,7 +6,7 @@ wget  https://sourceforge.net/projects/ngspice/files/ng-spice-rework/old-release
 tar -zxvf ngspice-34.tar.gz
 cd ngspice-34/
 mkdir release && cd release
-../configure --with-x --with-readline=yes --disable-debug --with-ngshared
+../configure --with-ngshared
 make
 sudo make install
 
