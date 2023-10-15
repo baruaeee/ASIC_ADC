@@ -24,4 +24,5 @@ make
 sudo make install
 make distclean
 cd ..
+# if everything work fine with xschem
 sudo rm -r skywater-pdk open_pdks
