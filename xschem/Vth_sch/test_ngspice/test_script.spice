@@ -1,0 +1,24 @@
+** sch_path: /home/exotic/Desktop/ASIC_ADC/xschem/Vth_sch/test_ngspice/test_script.sch
+**.subckt test_script
+*  TT_MODEL -  code  IS MISSING !!!!
+*  VDD -  vsource  IS MISSING !!!!
+*  l1 -  vdd  IS MISSING !!!!
+*  l2 -  gnd  IS MISSING !!!!
+*  Vin -  vsource  IS MISSING !!!!
+*  p1 -  ipin  IS MISSING !!!!
+*  M1 -  pfet_01v8  IS MISSING !!!!
+*  M2 -  nfet_01v8  IS MISSING !!!!
+*  l4 -  gnd  IS MISSING !!!!
+*  p2 -  ipin  IS MISSING !!!!
+*  p3 -  opin  IS MISSING !!!!
+*  l5 -  vdd  IS MISSING !!!!
+*  SPICE -  code_shown  IS MISSING !!!!
+*  l6 -  gnd  IS MISSING !!!!
+*  V_logic_high -  vsource  IS MISSING !!!!
+*  l3 -  vdd  IS MISSING !!!!
+*  l7 -  gnd  IS MISSING !!!!
+*  V_logic_low -  vsource  IS MISSING !!!!
+*  l8 -  vdd  IS MISSING !!!!
+*  l9 -  gnd  IS MISSING !!!!
+**.ends
+.end
