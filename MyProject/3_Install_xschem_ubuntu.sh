@@ -10,4 +10,7 @@ make
 sudo make install
 cd ..
 rm -r xschem
+cd ~/.xschem/simulations
+touch .spiceinit
+echo 'set ngbehavior=hs' >> .spiceinit
 

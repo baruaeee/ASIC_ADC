@@ -1,24 +1,31 @@
 ** sch_path: /home/exotic/Desktop/ASIC_ADC/xschem/Vth_sch/test_ngspice/test_script.sch
-**.subckt test_script
-*  TT_MODEL -  code  IS MISSING !!!!
-*  VDD -  vsource  IS MISSING !!!!
-*  l1 -  vdd  IS MISSING !!!!
-*  l2 -  gnd  IS MISSING !!!!
-*  Vin -  vsource  IS MISSING !!!!
-*  p1 -  ipin  IS MISSING !!!!
-*  M1 -  pfet_01v8  IS MISSING !!!!
-*  M2 -  nfet_01v8  IS MISSING !!!!
-*  l4 -  gnd  IS MISSING !!!!
-*  p2 -  ipin  IS MISSING !!!!
-*  p3 -  opin  IS MISSING !!!!
-*  l5 -  vdd  IS MISSING !!!!
-*  SPICE -  code_shown  IS MISSING !!!!
-*  l6 -  gnd  IS MISSING !!!!
-*  V_logic_high -  vsource  IS MISSING !!!!
-*  l3 -  vdd  IS MISSING !!!!
-*  l7 -  gnd  IS MISSING !!!!
-*  V_logic_low -  vsource  IS MISSING !!!!
-*  l8 -  vdd  IS MISSING !!!!
-*  l9 -  gnd  IS MISSING !!!!
+**.subckt test_script Vin Vin Vout
+*.ipin Vin
+*.ipin Vin
+*.opin Vout
+VDD VDD GND 1.8
+Vin Vin GND 0.5V
+XM1 Vout Vin VDD net1 sky130_fd_pr__pfet_01v8 L=0.15 W=25 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM2 Vout Vin GND net2 sky130_fd_pr__nfet_01v8 L=25 W=0.36 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+V_logic_high V_LH GND 1.25
+V_logic_low V_LL GND 0.5
+**** begin user architecture code
+
+
+.lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+
+.save all
+
+
+
+**** end user architecture code
 **.ends
+.GLOBAL VDD
+.GLOBAL GND
+.GLOBAL V_LH
+.GLOBAL V_LL
 .end
