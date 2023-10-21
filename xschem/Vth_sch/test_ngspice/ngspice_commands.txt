@@ -1,0 +1,2 @@
+----run ngspice in batche mode----
+ngspice -b -r inv-example.raw inv-example.cir

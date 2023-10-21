@@ -1,0 +1,70 @@
+** sch_path: /home/exotic/Desktop/ASIC_ADC/xschem/Vth_sch/Inverter-th15_prelayout.sch
+**.subckt Inverter-th15_prelayout Vin Vout
+*.ipin Vin
+*.opin Vout
+VDD VDD GND 1.8
+Vin Vin GND pulse(0 0.2 0ns 1ns 1ns 5ns 10ns)
+V_logic_high V_LH GND 1.25
+V_logic_low V_LL GND 0.5
+x1 VDD Vout Vin GND Inverter-th15_sym
+**** begin user architecture code
+
+
+.lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+
+.save all
+
+
+
+
+
+.dc Vin 0 1.8 0.01
+*.tran 1n 30n
+.control
+run
+set color0=white
+set color1=black
+plot Vin Vout V_LH V_LL
+set xbrushwidth=3
+.save all
+.endc
+.end
+
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  /home/exotic/Desktop/ASIC_ADC/xschem/Vth_sch/Symbol/Inverter-th15_sym.sym #
+*+ of pins=4
+** sym_path: /home/exotic/Desktop/ASIC_ADC/xschem/Vth_sch/Symbol/Inverter-th15_sym.sym
+** sch_path: /home/exotic/Desktop/ASIC_ADC/xschem/Vth_sch/Symbol/Inverter-th15_sym.sch
+.subckt Inverter-th15_sym Vp Vout Vin Vn
+*.iopin Vn
+*.iopin Vp
+*.ipin Vin
+*.opin Vout
+XM7 Vout Vin Vp net3 sky130_fd_pr__pfet_01v8 L=0.15 W=25 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM8 net2 Vin Vn net4 sky130_fd_pr__nfet_01v8 L=25 W=0.42 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM9 net1 Vin net2 net5 sky130_fd_pr__nfet_01v8 L=25 W=0.42 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM10 Vout Vin net1 net6 sky130_fd_pr__nfet_01v8 L=25 W=0.42 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM11 Vout Vin Vp net7 sky130_fd_pr__pfet_01v8 L=0.15 W=25 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM12 Vout Vin Vp net8 sky130_fd_pr__pfet_01v8 L=0.15 W=25 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+
+.GLOBAL VDD
+.GLOBAL GND
+.GLOBAL V_LH
+.GLOBAL V_LL
+.end
