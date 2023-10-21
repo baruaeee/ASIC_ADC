@@ -1,4 +1,4 @@
-v {xschem version=3.4.2 file_version=1.2
+v {xschem version=3.4.5 file_version=1.2
 }
 G {}
 K {}
@@ -55,4 +55,4 @@ C {devices/vsource.sym} -350 40 0 0 {name=V_logic_low value=0.5}
 C {devices/vdd.sym} -350 10 0 0 {name=l8 lab=V_LL}
 C {devices/gnd.sym} -350 70 0 0 {name=l9 lab=GND}
 C {devices/opin.sym} 160 40 0 0 {name=p2 lab=Vout}
-C {Vth_sch/Symbol/Inverter-th15_sym.sym} 10 40 0 0 {name=x1}
+C {/home/exotic/Desktop/ASIC_ADC/xschem/Vth_sch/Symbol/Inverter-th15_sym.sym} 10 40 0 0 {name=x1}
