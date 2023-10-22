@@ -1,7 +1,0 @@
-* Series DC test
-V1 1 0 DC 10
-R1 1 2 10k
-v2 2 3 DC 0
-R2 3 0 40k
-.op
-.END

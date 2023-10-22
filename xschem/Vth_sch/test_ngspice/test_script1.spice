@@ -1,27 +1,19 @@
 ** sch_path: /home/exotic/Desktop/ASIC_ADC/xschem/Vth_sch/test_ngspice/test_script1.sch
-**.subckt test_script1 Vin Vin Vout
-*.ipin Vin
-*.ipin Vin
+**.subckt test_script1 Vout
 *.opin Vout
-VDD VDD GND 1.8
-Vin Vin GND 0.3
-XM1 Vout Vin VDD net1 sky130_fd_pr__pfet_01v8 L=0.15 W=25 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
-+ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
-+ sa=0 sb=0 sd=0 mult=1 m=1
-XM2 Vout Vin GND net2 sky130_fd_pr__nfet_01v8 L=25 W=0.36 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
-+ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
-+ sa=0 sb=0 sd=0 mult=1 m=1
+R1 VDD Vout 1k m=1
+R2 Vout GND 1k m=1
+V1 VDD GND 3
 **** begin user architecture code
 
 
-.lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+*.lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
 
+.save all
 .op
-
-
 
 **** end user architecture code
 **.ends
-.GLOBAL VDD
 .GLOBAL GND
+.GLOBAL VDD
 .end
