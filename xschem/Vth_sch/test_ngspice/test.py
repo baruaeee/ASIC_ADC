@@ -1,20 +1,30 @@
 import subprocess
 
 # Run the ngspice command
-ngspice_command = ['ngspice', '-i', '-a', 'test_script1.spice']
+#ngspice_command = ['ngspice', '-i', '-a', 'res-script.spice']
+ngspice_command = ['ngspice', '-i', '-a', 'test_script.spice']
 ngspice_process = subprocess.Popen(ngspice_command, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
 
 # Pass a command to the ngspice console
 command_to_ngspice = 'print vout\n'
 ngspice_process.stdin.write(command_to_ngspice)
+#command_to_ngspice1 = 'print all\n'
+#ngspice_process.stdin.write(command_to_ngspice1)
 ngspice_process.stdin.flush()
 
 # Read the output from ngspice
+# Read the output from ngspice
 output, error = ngspice_process.communicate()
 
-# Print the output and error messages
-print("Output:")
-print(output)
-print("Error:")
-print(error)
+# Read the output and extract the desired data
+lines = output.splitlines()
+line_index = [index for index, line in enumerate(lines) if line.startswith('vout')]
+print(line_index)
+desired_line = lines[line_index[0]]  # Assuming the desired line is at index 19
+print("Desired data line:", desired_line)
+
+#Extract the specific data from the desired line
+data = desired_line.split('=')[1].strip()  # Assuming the data is after the '='
+
+print("Desired data:", float(data))
 
