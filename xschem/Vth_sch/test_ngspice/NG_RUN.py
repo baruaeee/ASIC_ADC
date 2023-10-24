@@ -36,11 +36,6 @@ def ng_run(file, result):
     # print("Desired data:", float(data))
     return data
 
-ng_run('res-script.spice', 'vout')
-
-
-# In[ ]:
-
 
 
 
