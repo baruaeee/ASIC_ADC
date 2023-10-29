@@ -1,4 +1,4 @@
-v {xschem version=3.4.2 file_version=1.2
+v {xschem version=3.4.5 file_version=1.2
 }
 G {}
 K {}
@@ -66,23 +66,6 @@ C {devices/gnd.sym} 70 100 0 0 {name=l4 lab=GND}
 C {devices/ipin.sym} -30 20 0 0 {name=p2 lab=Vin}
 C {devices/opin.sym} 120 20 0 0 {name=p3 lab=Vout}
 C {devices/vdd.sym} 70 -90 0 0 {name=l5 lab=VDD}
-C {devices/code_shown.sym} 360 -250 0 0 {name=SPICE only_toplevel=false value="
-*.dc Vin 0 1.8 0.01
-*.tran 1n 30n
-.control
-dc Vin 0 1.8 0.01
-plot Vin Vout V_LH V_LL
-*run
-*set color0=white
-*set color1=black
-reset
-tran 1n 30n
-plot Vin Vout V_LH V_LL
-set xbrushwidth=3
-.save all
-.endc
-.end
-"}
 C {devices/gnd.sym} -140 120 0 0 {name=l6 lab=GND}
 C {devices/vsource.sym} -350 -110 0 0 {name=V_logic_high value=1.25}
 C {devices/vdd.sym} -350 -140 0 0 {name=l3 lab=V_LH}
@@ -90,3 +73,16 @@ C {devices/gnd.sym} -350 -80 0 0 {name=l7 lab=GND}
 C {devices/vsource.sym} -350 40 0 0 {name=V_logic_low value=0.5}
 C {devices/vdd.sym} -350 10 0 0 {name=l8 lab=V_LL}
 C {devices/gnd.sym} -350 70 0 0 {name=l9 lab=GND}
+C {devices/code_shown.sym} 210 -280 0 0 {name=SPICE only_toplevel=false value="
+.dc Vin 0 1.8 0.01
+*.tran 1n 30n
+.control
+run
+set color0=white
+set color1=black
+plot Vin Vout V_LH V_LL
+set xbrushwidth=3
+.save all
+.endc
+.end
+"}
