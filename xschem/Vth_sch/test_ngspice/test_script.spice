@@ -4,17 +4,13 @@
 *.ipin Vin
 *.opin Vout
 VDD VDD GND 1.8
-Vin Vin GND 1.449466667V
+Vin Vin GND 1.345933333V
 
-XM1 Vout Vin VDD net1 sky130_fd_pr__pfet_01v8 L=0.15 W=25.0 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
+XM1 Vout Vin VDD net1 sky130_fd_pr__pfet_01v8 L=0.15 W=6.279999999999994 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
 + pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
 + sa=0 sb=0 sd=0 mult=1 m=1
 
-XM2 net2 Vin GND net3 sky130_fd_pr__nfet_01v8 L=21.815000000000378 W=0.36 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
-+ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
-+ sa=0 sb=0 sd=0 mult=1 m=1
-
-XM3 Vout Vin net2 net4 sky130_fd_pr__nfet_01v8 L=21.815000000000378 W=0.36 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
+XM2 Vout Vin GND net2 sky130_fd_pr__nfet_01v8 L=22.0 W=0.36 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
 + pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
 + sa=0 sb=0 sd=0 mult=1 m=1
 
