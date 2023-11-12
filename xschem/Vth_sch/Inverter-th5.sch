@@ -35,7 +35,7 @@ C {devices/gnd.sym} -220 100 0 0 {name=l2 lab=GND}
 C {devices/vsource.sym} -140 90 0 0 {name=Vin value="pulse(0 0.2 0ns 1ns 1ns 5ns 10ns)"}
 C {devices/ipin.sym} -140 20 0 0 {name=p1 lab=Vin}
 C {sky130_fd_pr/pfet_01v8.sym} 50 -40 0 0 {name=M1
-L=0.704
+L=8.941
 W=0.42
 nf=1
 mult=1
