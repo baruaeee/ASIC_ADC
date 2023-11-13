@@ -1,14 +1,10 @@
-v {xschem version=3.4.2 file_version=1.2
+v {xschem version=3.4.5 file_version=1.2
 }
 G {}
 K {}
 V {}
 S {}
 E {}
-N 10 70 30 70 {
-lab=Vin}
-N 10 -30 10 70 {
-lab=Vin}
 N -140 20 -140 60 {
 lab=Vin}
 N -30 20 10 20 {
@@ -41,6 +37,44 @@ N 70 -230 230 -230 {
 lab=VDD}
 N 70 -170 230 -170 {
 lab=Vout}
+N 70 -200 90 -200 {
+lab=VDD}
+N 90 -230 90 -200 {
+lab=VDD}
+N 230 -200 250 -200 {
+lab=VDD}
+N 250 -230 250 -200 {
+lab=VDD}
+N 390 -200 410 -200 {
+lab=VDD}
+N 410 -230 410 -200 {
+lab=VDD}
+N 390 -230 410 -230 {
+lab=VDD}
+N 70 -60 90 -60 {
+lab=#net1}
+N 90 -90 90 -60 {
+lab=#net1}
+N 70 -90 90 -90 {
+lab=#net1}
+N 70 -10 90 -10 {
+lab=#net2}
+N 90 -10 90 20 {
+lab=#net2}
+N 70 20 90 20 {
+lab=#net2}
+N 30 100 70 100 {
+lab=GND}
+N 30 70 30 100 {
+lab=GND}
+N 70 70 90 70 {
+lab=#net2}
+N 90 40 90 70 {
+lab=#net2}
+N 70 40 90 40 {
+lab=#net2}
+N 10 -30 10 20 {
+lab=Vin}
 C {devices/code.sym} 200 -40 0 0 {name=TT_MODEL only_toplevel=false value="
 .lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
 
@@ -54,7 +88,7 @@ C {devices/vsource.sym} -140 90 0 0 {name=Vin value="pulse(0 0.2 0ns 1ns 1ns 5ns
 C {devices/ipin.sym} -140 20 0 0 {name=p1 lab=Vin}
 C {sky130_fd_pr/pfet_01v8.sym} 50 -200 0 0 {name=M1
 L=0.15
-W=25
+W=30
 nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -64,20 +98,6 @@ ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
 nrd="'0.29 / W'" nrs="'0.29 / W'"
 sa=0 sb=0 sd=0
 model=pfet_01v8
-spiceprefix=X
-}
-C {sky130_fd_pr/nfet_01v8.sym} 50 70 0 0 {name=M2
-L=25
-W=0.36
-nf=1 
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
 spiceprefix=X
 }
 C {devices/gnd.sym} 70 100 0 0 {name=l4 lab=GND}
@@ -105,7 +125,7 @@ C {devices/vsource.sym} -350 40 0 0 {name=V_logic_low value=0.5}
 C {devices/vdd.sym} -350 10 0 0 {name=l8 lab=V_LL}
 C {devices/gnd.sym} -350 70 0 0 {name=l9 lab=GND}
 C {sky130_fd_pr/nfet_01v8.sym} 50 -10 0 0 {name=M3
-L=25
+L=35
 W=0.36
 nf=1 
 mult=1
@@ -119,7 +139,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/nfet_01v8.sym} 50 -90 0 0 {name=M4
-L=25
+L=35
 W=0.36
 nf=1 
 mult=1
@@ -134,7 +154,7 @@ spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8.sym} 210 -200 0 0 {name=M5
 L=0.15
-W=25
+W=30
 nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -149,7 +169,7 @@ spiceprefix=X
 C {devices/ipin.sym} 190 -200 0 0 {name=p4 lab=Vin}
 C {sky130_fd_pr/pfet_01v8.sym} 370 -200 0 0 {name=M6
 L=0.15
-W=25
+W=30
 nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -162,3 +182,17 @@ model=pfet_01v8
 spiceprefix=X
 }
 C {devices/ipin.sym} 350 -200 0 0 {name=p5 lab=Vin}
+C {sky130_fd_pr/pfet_01v8.sym} 50 70 0 0 {name=M2
+L=0.15
+W=1
+nf=1
+mult=1
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=pfet_01v8
+spiceprefix=X
+}
