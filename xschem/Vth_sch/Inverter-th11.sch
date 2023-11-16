@@ -23,7 +23,19 @@ N 10 -40 10 -30 {
 lab=Vin}
 N 10 -40 30 -40 {
 lab=Vin}
-C {devices/code.sym} -240 -210 0 0 {name=TT_MODEL only_toplevel=false value="
+N 70 -40 90 -40 {
+lab=VDD}
+N 90 -70 90 -40 {
+lab=VDD}
+N 70 -70 90 -70 {
+lab=VDD}
+N 70 70 90 70 {
+lab=GND}
+N 90 70 90 100 {
+lab=GND}
+N 70 100 90 100 {
+lab=GND}
+C {devices/code.sym} -230 -140 0 0 {name=TT_MODEL only_toplevel=false value="
 .lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
 
 .save all
@@ -36,7 +48,7 @@ C {devices/vsource.sym} -140 90 0 0 {name=Vin value="pulse(0 0.2 0ns 1ns 1ns 5ns
 C {devices/ipin.sym} -140 20 0 0 {name=p1 lab=Vin}
 C {sky130_fd_pr/pfet_01v8.sym} 50 -40 0 0 {name=M1
 L=0.15
-W=0.51
+W=7.1
 nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -49,7 +61,7 @@ model=pfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/nfet_01v8.sym} 50 70 0 0 {name=M2
-L=8.7
+L=7.1
 W=0.36
 nf=1 
 mult=1
@@ -73,7 +85,7 @@ C {devices/gnd.sym} -350 -80 0 0 {name=l7 lab=GND}
 C {devices/vsource.sym} -350 40 0 0 {name=V_logic_low value=0.5}
 C {devices/vdd.sym} -350 10 0 0 {name=l8 lab=V_LL}
 C {devices/gnd.sym} -350 70 0 0 {name=l9 lab=GND}
-C {devices/code_shown.sym} 210 -280 0 0 {name=SPICE only_toplevel=false value="
+C {devices/code_shown.sym} 190 -90 0 0 {name=SPICE only_toplevel=false value="
 .dc Vin 0 1.8 0.01
 *.tran 1n 30n
 .control
