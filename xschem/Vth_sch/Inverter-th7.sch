@@ -13,8 +13,6 @@ N -140 20 -140 60 {
 lab=Vin}
 N -30 20 10 20 {
 lab=Vin}
-N 70 -90 70 -70 {
-lab=VDD}
 N 70 -10 70 40 {
 lab=Vout}
 N 70 20 120 20 {
@@ -23,7 +21,19 @@ N 10 -40 10 -30 {
 lab=Vin}
 N 10 -40 30 -40 {
 lab=Vin}
-C {devices/code.sym} -240 -210 0 0 {name=TT_MODEL only_toplevel=false value="
+N 70 -40 90 -40 {
+lab=VDD}
+N 90 -70 90 -40 {
+lab=VDD}
+N 70 -70 90 -70 {
+lab=VDD}
+N 70 70 90 70 {
+lab=GND}
+N 90 70 90 100 {
+lab=GND}
+N 70 100 90 100 {
+lab=GND}
+C {devices/code.sym} -170 -120 0 0 {name=TT_MODEL only_toplevel=false value="
 .lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
 
 .save all
@@ -35,7 +45,7 @@ C {devices/gnd.sym} -220 100 0 0 {name=l2 lab=GND}
 C {devices/vsource.sym} -140 90 0 0 {name=Vin value="pulse(0 0.2 0ns 1ns 1ns 5ns 10ns)"}
 C {devices/ipin.sym} -140 20 0 0 {name=p1 lab=Vin}
 C {sky130_fd_pr/pfet_01v8.sym} 50 -40 0 0 {name=M1
-L=0.15
+L=0.163
 W=0.42
 nf=1
 mult=1
@@ -49,8 +59,8 @@ model=pfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/nfet_01v8.sym} 50 70 0 0 {name=M2
-L=0.153
-W=2.315
+L=0.15
+W=1.08
 nf=1 
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -62,18 +72,16 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {devices/gnd.sym} 70 100 0 0 {name=l4 lab=GND}
 C {devices/ipin.sym} -30 20 0 0 {name=p2 lab=Vin}
 C {devices/opin.sym} 120 20 0 0 {name=p3 lab=Vout}
-C {devices/vdd.sym} 70 -90 0 0 {name=l5 lab=VDD}
 C {devices/gnd.sym} -140 120 0 0 {name=l6 lab=GND}
-C {devices/vsource.sym} -350 -110 0 0 {name=V_logic_high value=1.25}
-C {devices/vdd.sym} -350 -140 0 0 {name=l3 lab=V_LH}
-C {devices/gnd.sym} -350 -80 0 0 {name=l7 lab=GND}
-C {devices/vsource.sym} -350 40 0 0 {name=V_logic_low value=0.5}
-C {devices/vdd.sym} -350 10 0 0 {name=l8 lab=V_LL}
-C {devices/gnd.sym} -350 70 0 0 {name=l9 lab=GND}
-C {devices/code_shown.sym} 210 -280 0 0 {name=SPICE only_toplevel=false value="
+C {devices/vsource.sym} -350 -80 0 0 {name=V_logic_high value=1.25}
+C {devices/vdd.sym} -350 -110 0 0 {name=l3 lab=V_LH}
+C {devices/gnd.sym} -350 -50 0 0 {name=l7 lab=GND}
+C {devices/vsource.sym} -350 70 0 0 {name=V_logic_low value=0.5}
+C {devices/vdd.sym} -350 40 0 0 {name=l8 lab=V_LL}
+C {devices/gnd.sym} -350 100 0 0 {name=l9 lab=GND}
+C {devices/code_shown.sym} 190 -100 0 0 {name=SPICE only_toplevel=false value="
 .dc Vin 0 1.8 0.01
 *.tran 1n 30n
 .control
@@ -86,3 +94,5 @@ set xbrushwidth=3
 .endc
 .end
 "}
+C {devices/vdd.sym} 70 -70 0 0 {name=l4 lab=VDD}
+C {devices/gnd.sym} 70 100 0 0 {name=l5 lab=GND}
