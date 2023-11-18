@@ -7,14 +7,12 @@ S {}
 E {}
 N 90 70 110 70 {
 lab=Vin}
-N -170 0 -170 40 {
-lab=Vin}
 N 150 70 170 70 {
-lab=GND}
+lab=Vn}
 N 170 70 170 100 {
-lab=GND}
+lab=Vn}
 N 150 100 170 100 {
-lab=GND}
+lab=Vn}
 N 150 10 170 10 {
 lab=#net1}
 N 170 -20 170 10 {
@@ -28,11 +26,11 @@ lab=Vin}
 N -70 70 -50 70 {
 lab=Vin}
 N -10 70 10 70 {
-lab=GND}
+lab=Vn}
 N 10 70 10 100 {
-lab=GND}
+lab=Vn}
 N -10 100 10 100 {
-lab=GND}
+lab=Vn}
 N -10 10 10 10 {
 lab=#net2}
 N 10 -20 10 10 {
@@ -44,9 +42,9 @@ lab=Vin}
 N -70 10 -70 70 {
 lab=Vin}
 N 110 -80 110 -50 {
-lab=V1}
+lab=#net3}
 N 110 -80 150 -80 {
-lab=V1}
+lab=#net3}
 N 150 -50 170 -50 {
 lab=#net1}
 N 170 -50 170 -20 {
@@ -54,36 +52,25 @@ lab=#net1}
 N -100 20 -70 20 {
 lab=Vin}
 N -10 40 30 40 {
-lab=V1}
+lab=#net3}
 N 30 -50 30 40 {
-lab=V1}
+lab=#net3}
 N 30 -50 110 -50 {
-lab=V1}
+lab=#net3}
 N -70 50 90 50 {
 lab=Vin}
 N 10 100 150 100 {
-lab=GND}
+lab=Vn}
 N 150 40 240 40 {
 lab=Vout}
 N -50 -80 -50 -50 {
-lab=VDD}
+lab=Vp}
 N -50 -80 -10 -80 {
-lab=VDD}
+lab=Vp}
 N 10 -50 10 -20 {
 lab=#net2}
 N -10 -50 10 -50 {
 lab=#net2}
-C {devices/code.sym} -270 -120 0 0 {name=TT_MODEL only_toplevel=false value="
-.lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
-
-.save all
-
-"}
-C {devices/vsource.sym} -250 70 0 0 {name=VDD value=1.8}
-C {devices/vdd.sym} -250 40 0 0 {name=l1 lab=VDD}
-C {devices/gnd.sym} -250 100 0 0 {name=l2 lab=GND}
-C {devices/vsource.sym} -170 70 0 0 {name=Vin value=0}
-C {devices/ipin.sym} -170 0 0 0 {name=p1 lab=Vin}
 C {sky130_fd_pr/nfet_01v8.sym} 130 70 0 0 {name=M2
 L=0.15
 W=17.7
@@ -100,28 +87,6 @@ spiceprefix=X
 }
 C {devices/ipin.sym} -100 20 0 0 {name=p2 lab=Vin}
 C {devices/opin.sym} 240 40 0 0 {name=p3 lab=Vout}
-C {devices/gnd.sym} -170 100 0 0 {name=l6 lab=GND}
-C {devices/vsource.sym} -350 -80 0 0 {name=V_logic_high value=1.25}
-C {devices/vdd.sym} -350 -110 0 0 {name=l3 lab=V_LH}
-C {devices/gnd.sym} -350 -50 0 0 {name=l7 lab=GND}
-C {devices/vsource.sym} -350 70 0 0 {name=V_logic_low value=0.5}
-C {devices/vdd.sym} -350 40 0 0 {name=l8 lab=V_LL}
-C {devices/gnd.sym} -350 100 0 0 {name=l9 lab=GND}
-C {devices/code_shown.sym} 300 -100 0 0 {name=SPICE only_toplevel=false value="
-.dc Vin 0 1.8 0.01
-*.tran 1n 30n
-.control
-run
-set color0=white
-set color1=black
-plot Vin Vout V_LH V_LL
-set xbrushwidth=3
-.save all
-.endc
-.end
-"}
-C {devices/vdd.sym} -10 -80 0 0 {name=l4 lab=VDD}
-C {devices/gnd.sym} 100 100 0 0 {name=l5 lab=GND}
 C {sky130_fd_pr/pfet_01v8.sym} 130 10 0 0 {name=M5
 L=18
 W=0.42
@@ -178,7 +143,6 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {devices/opin.sym} 150 -80 0 0 {name=p4 lab=V1}
 C {sky130_fd_pr/nfet_01v8.sym} -30 -50 0 0 {name=M6
 L=18
 W=0.36
@@ -193,3 +157,5 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
+C {devices/opin.sym} 10 100 1 0 {name=p1 lab=Vn}
+C {devices/opin.sym} -10 -80 3 0 {name=p4 lab=Vp}
