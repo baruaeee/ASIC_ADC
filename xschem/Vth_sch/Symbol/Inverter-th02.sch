@@ -157,5 +157,5 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {devices/opin.sym} 10 100 1 0 {name=p1 lab=Vn}
-C {devices/opin.sym} -10 -80 3 0 {name=p4 lab=Vp}
+C {devices/opin.sym} -10 -80 3 0 {name=p1 lab=Vp}
+C {devices/opin.sym} -10 100 1 0 {name=p4 lab=Vn}
