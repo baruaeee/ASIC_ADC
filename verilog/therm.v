@@ -3,428 +3,278 @@
 (* top =  1  *)
 (* src = "therm_code.v:1.1-28.10" *)
 module thermometer_to_binary(inverted_thermometer, binary);
-  (* src = "therm_code.v:3.22-3.28" *)
-  wire _000_;
-  (* src = "therm_code.v:3.22-3.28" *)
-  wire _001_;
-  (* src = "therm_code.v:3.22-3.28" *)
-  wire _002_;
-  (* src = "therm_code.v:3.22-3.28" *)
-  wire _003_;
-  (* src = "therm_code.v:2.18-2.38" *)
-  wire _004_;
-  (* src = "therm_code.v:2.18-2.38" *)
-  wire _005_;
-  (* src = "therm_code.v:2.18-2.38" *)
-  wire _006_;
-  (* src = "therm_code.v:2.18-2.38" *)
-  wire _007_;
-  (* src = "therm_code.v:2.18-2.38" *)
-  wire _008_;
-  (* src = "therm_code.v:2.18-2.38" *)
-  wire _009_;
-  (* src = "therm_code.v:2.18-2.38" *)
-  wire _010_;
-  (* src = "therm_code.v:2.18-2.38" *)
-  wire _011_;
-  (* src = "therm_code.v:2.18-2.38" *)
-  wire _012_;
-  (* src = "therm_code.v:2.18-2.38" *)
-  wire _013_;
-  (* src = "therm_code.v:2.18-2.38" *)
-  wire _014_;
-  (* src = "therm_code.v:2.18-2.38" *)
-  wire _015_;
-  (* src = "therm_code.v:2.18-2.38" *)
-  wire _016_;
-  (* src = "therm_code.v:2.18-2.38" *)
-  wire _017_;
-  (* src = "therm_code.v:2.18-2.38" *)
-  wire _018_;
-  (* src = "therm_code.v:2.18-2.38" *)
-  wire _019_;
-  wire _020_;
-  wire _021_;
-  wire _022_;
-  wire _023_;
-  wire _024_;
-  wire _025_;
-  wire _026_;
-  wire _027_;
-  wire _028_;
-  wire _029_;
-  wire _030_;
-  wire _031_;
-  wire _032_;
-  wire _033_;
-  wire _034_;
-  wire _035_;
-  wire _036_;
-  wire _037_;
-  wire _038_;
-  wire _039_;
-  wire _040_;
-  wire _041_;
-  wire _042_;
-  wire _043_;
-  wire _044_;
-  wire _045_;
-  wire _046_;
-  wire _047_;
-  wire _048_;
-  wire _049_;
-  wire _050_;
-  wire _051_;
-  wire _052_;
-  wire _053_;
-  wire _054_;
-  wire _055_;
-  wire _056_;
-  wire _057_;
-  wire _058_;
-  wire _059_;
-  wire _060_;
-  wire _061_;
-  wire _062_;
-  wire _063_;
-  wire _064_;
-  wire _065_;
-  wire _066_;
-  wire _067_;
-  wire _068_;
-  wire _069_;
-  wire _070_;
-  wire _071_;
-  wire _072_;
-  wire _073_;
-  wire _074_;
-  wire _075_;
-  wire _076_;
-  wire _077_;
-  wire _078_;
-  wire _079_;
-  wire _080_;
-  wire _081_;
-  wire _082_;
-  wire _083_;
-  wire _084_;
-  wire _085_;
-  wire _086_;
-  wire _087_;
-  wire _088_;
-  wire _089_;
-  wire _090_;
-  wire _091_;
-  wire _092_;
-  wire _093_;
-  wire _094_;
-  wire _095_;
-  wire _096_;
-  wire _097_;
-  wire _098_;
-  wire _099_;
-  wire _100_;
-  wire _101_;
-  wire _102_;
-  wire _103_;
-  wire _104_;
-  wire _105_;
-  wire _106_;
-  wire _107_;
-  wire _108_;
-  wire _109_;
-  wire _110_;
-  wire _111_;
-  wire _112_;
-  wire _113_;
-  wire _114_;
-  wire _115_;
-  wire _116_;
-  wire _117_;
-  wire _118_;
-  wire _119_;
-  wire _120_;
-  wire _121_;
-  wire _122_;
-  wire _123_;
-  wire _124_;
-  wire _125_;
-  wire _126_;
-  wire _127_;
-  wire _128_;
-  wire _129_;
-  wire _130_;
-  wire _131_;
-  wire _132_;
-  wire _133_;
-  wire _134_;
-  wire _135_;
-  wire _136_;
-  wire _137_;
-  wire _138_;
-  wire _139_;
-  wire _140_;
-  wire _141_;
-  wire _142_;
+  wire _00_;
+  wire _01_;
+  wire _02_;
+  wire _03_;
+  wire _04_;
+  wire _05_;
+  wire _06_;
+  wire _07_;
+  wire _08_;
+  wire _09_;
+  wire _10_;
+  wire _11_;
+  wire _12_;
+  wire _13_;
+  wire _14_;
+  wire _15_;
+  wire _16_;
+  wire _17_;
+  wire _18_;
+  wire _19_;
+  wire _20_;
+  wire _21_;
+  wire _22_;
+  wire _23_;
+  wire _24_;
+  wire _25_;
+  wire _26_;
+  wire _27_;
+  wire _28_;
+  wire _29_;
+  wire _30_;
+  wire _31_;
+  wire _32_;
   (* src = "therm_code.v:3.22-3.28" *)
   output [3:0] binary;
   wire [3:0] binary;
   (* src = "therm_code.v:2.18-2.38" *)
   input [15:0] inverted_thermometer;
   wire [15:0] inverted_thermometer;
-  sky130_fd_sc_hs__clkinv_1 _143_ (
-    .A(_019_),
-    .Y(_020_)
+  sky130_fd_sc_hs__clkinv_1 _33_ (
+    .A(inverted_thermometer[9]),
+    .Y(_00_)
   );
-  sky130_fd_sc_hs__nand2_1 _144_ (
-    .A(_006_),
-    .B(_005_),
-    .Y(_021_)
+  sky130_fd_sc_hs__nand2_1 _34_ (
+    .A(inverted_thermometer[11]),
+    .B(inverted_thermometer[10]),
+    .Y(_01_)
   );
-  sky130_fd_sc_hs__nand4_1 _145_ (
-    .A(_019_),
-    .B(_018_),
-    .C(_006_),
-    .D(_005_),
-    .Y(_022_)
+  sky130_fd_sc_hs__nand4_1 _35_ (
+    .A(inverted_thermometer[9]),
+    .B(inverted_thermometer[8]),
+    .C(inverted_thermometer[11]),
+    .D(inverted_thermometer[10]),
+    .Y(_02_)
   );
-  sky130_fd_sc_hs__nand4_1 _146_ (
-    .A(_008_),
-    .B(_007_),
-    .C(_010_),
-    .D(_009_),
-    .Y(_023_)
+  sky130_fd_sc_hs__nand4_1 _36_ (
+    .A(inverted_thermometer[13]),
+    .B(inverted_thermometer[12]),
+    .C(inverted_thermometer[15]),
+    .D(inverted_thermometer[14]),
+    .Y(_03_)
   );
-  sky130_fd_sc_hs__nor2_1 _147_ (
-    .A(_011_),
-    .B(_004_),
-    .Y(_024_)
+  sky130_fd_sc_hs__nor2_1 _37_ (
+    .A(inverted_thermometer[1]),
+    .B(inverted_thermometer[0]),
+    .Y(_04_)
   );
-  sky130_fd_sc_hs__nor3_1 _148_ (
-    .A(_013_),
-    .B(_011_),
-    .C(_004_),
-    .Y(_025_)
+  sky130_fd_sc_hs__nor3_1 _38_ (
+    .A(inverted_thermometer[3]),
+    .B(inverted_thermometer[1]),
+    .C(inverted_thermometer[0]),
+    .Y(_05_)
   );
-  sky130_fd_sc_hs__nor2_1 _149_ (
-    .A(_014_),
-    .B(_015_),
-    .Y(_026_)
+  sky130_fd_sc_hs__nor2_1 _39_ (
+    .A(inverted_thermometer[4]),
+    .B(inverted_thermometer[5]),
+    .Y(_06_)
   );
-  sky130_fd_sc_hs__nor3_1 _150_ (
-    .A(_014_),
-    .B(_015_),
-    .C(_016_),
-    .Y(_027_)
+  sky130_fd_sc_hs__nor3_1 _40_ (
+    .A(inverted_thermometer[4]),
+    .B(inverted_thermometer[5]),
+    .C(inverted_thermometer[6]),
+    .Y(_07_)
   );
-  sky130_fd_sc_hs__or4_1 _151_ (
-    .A(_012_),
-    .B(_013_),
-    .C(_011_),
-    .D(_004_),
-    .X(_028_)
+  sky130_fd_sc_hs__or4_1 _41_ (
+    .A(inverted_thermometer[2]),
+    .B(inverted_thermometer[3]),
+    .C(inverted_thermometer[1]),
+    .D(inverted_thermometer[0]),
+    .X(_08_)
   );
-  sky130_fd_sc_hs__or4_1 _152_ (
-    .A(_014_),
-    .B(_015_),
-    .C(_017_),
-    .D(_016_),
-    .X(_029_)
+  sky130_fd_sc_hs__or4_1 _42_ (
+    .A(inverted_thermometer[4]),
+    .B(inverted_thermometer[5]),
+    .C(inverted_thermometer[7]),
+    .D(inverted_thermometer[6]),
+    .X(_09_)
   );
-  sky130_fd_sc_hs__nor3_1 _153_ (
-    .A(_023_),
-    .B(_028_),
-    .C(_029_),
-    .Y(_030_)
+  sky130_fd_sc_hs__nor3_1 _43_ (
+    .A(_03_),
+    .B(_08_),
+    .C(_09_),
+    .Y(_10_)
   );
-  sky130_fd_sc_hs__nor4_1 _154_ (
-    .A(_022_),
-    .B(_023_),
-    .C(_028_),
-    .D(_029_),
-    .Y(_031_)
+  sky130_fd_sc_hs__nor4_1 _44_ (
+    .A(_02_),
+    .B(_03_),
+    .C(_08_),
+    .D(_09_),
+    .Y(_11_)
   );
-  sky130_fd_sc_hs__nor3_1 _155_ (
-    .A(_012_),
-    .B(_022_),
-    .C(_023_),
-    .Y(_032_)
+  sky130_fd_sc_hs__nor3_1 _45_ (
+    .A(inverted_thermometer[2]),
+    .B(_02_),
+    .C(_03_),
+    .Y(_12_)
   );
-  sky130_fd_sc_hs__nor4b_1 _156_ (
-    .A(_012_),
-    .B(_022_),
-    .C(_023_),
-    .D_N(_025_),
-    .Y(_033_)
+  sky130_fd_sc_hs__nor4b_1 _46_ (
+    .A(inverted_thermometer[2]),
+    .B(_02_),
+    .C(_03_),
+    .D_N(_05_),
+    .Y(_13_)
   );
-  sky130_fd_sc_hs__and4_1 _157_ (
-    .A(_014_),
-    .B(_015_),
-    .C(_017_),
-    .D(_016_),
-    .X(_034_)
+  sky130_fd_sc_hs__and4_1 _47_ (
+    .A(inverted_thermometer[4]),
+    .B(inverted_thermometer[5]),
+    .C(inverted_thermometer[7]),
+    .D(inverted_thermometer[6]),
+    .X(_14_)
   );
-  sky130_fd_sc_hs__nand2_1 _158_ (
-    .A(_033_),
-    .B(_034_),
-    .Y(_035_)
+  sky130_fd_sc_hs__nand2_1 _48_ (
+    .A(_13_),
+    .B(_14_),
+    .Y(_15_)
   );
-  sky130_fd_sc_hs__nor3_1 _159_ (
-    .A(_019_),
-    .B(_018_),
-    .C(_005_),
-    .Y(_036_)
+  sky130_fd_sc_hs__nor3_1 _49_ (
+    .A(inverted_thermometer[9]),
+    .B(inverted_thermometer[8]),
+    .C(inverted_thermometer[10]),
+    .Y(_16_)
   );
-  sky130_fd_sc_hs__or4_1 _160_ (
-    .A(_019_),
-    .B(_018_),
-    .C(_006_),
-    .D(_005_),
-    .X(_037_)
+  sky130_fd_sc_hs__or4_1 _50_ (
+    .A(inverted_thermometer[9]),
+    .B(inverted_thermometer[8]),
+    .C(inverted_thermometer[11]),
+    .D(inverted_thermometer[10]),
+    .X(_17_)
   );
-  sky130_fd_sc_hs__nand4_1 _161_ (
-    .A(_017_),
-    .B(_016_),
-    .C(_026_),
-    .D(_033_),
-    .Y(_038_)
+  sky130_fd_sc_hs__nand4_1 _51_ (
+    .A(inverted_thermometer[7]),
+    .B(inverted_thermometer[6]),
+    .C(_06_),
+    .D(_13_),
+    .Y(_18_)
   );
-  sky130_fd_sc_hs__nor2_1 _162_ (
-    .A(_018_),
-    .B(_021_),
-    .Y(_039_)
+  sky130_fd_sc_hs__nor2_1 _52_ (
+    .A(inverted_thermometer[8]),
+    .B(_01_),
+    .Y(_19_)
   );
-  sky130_fd_sc_hs__nand2_1 _163_ (
-    .A(_030_),
-    .B(_039_),
-    .Y(_040_)
+  sky130_fd_sc_hs__nand2_1 _53_ (
+    .A(_10_),
+    .B(_19_),
+    .Y(_20_)
   );
-  sky130_fd_sc_hs__nor3_1 _164_ (
-    .A(_008_),
-    .B(_007_),
-    .C(_009_),
-    .Y(_041_)
+  sky130_fd_sc_hs__nor3_1 _54_ (
+    .A(inverted_thermometer[13]),
+    .B(inverted_thermometer[12]),
+    .C(inverted_thermometer[14]),
+    .Y(_21_)
   );
-  sky130_fd_sc_hs__nor4b_1 _165_ (
-    .A(_028_),
-    .B(_029_),
-    .C(_037_),
-    .D_N(_041_),
-    .Y(_042_)
+  sky130_fd_sc_hs__nor4b_1 _55_ (
+    .A(_08_),
+    .B(_09_),
+    .C(_17_),
+    .D_N(_21_),
+    .Y(_22_)
   );
-  sky130_fd_sc_hs__nand2b_1 _166_ (
-    .A_N(_010_),
-    .B(_042_),
-    .Y(_043_)
+  sky130_fd_sc_hs__nand2b_1 _56_ (
+    .A_N(inverted_thermometer[15]),
+    .B(_22_),
+    .Y(_23_)
   );
-  sky130_fd_sc_hs__nand3b_1 _167_ (
-    .A_N(_007_),
-    .B(_010_),
-    .C(_009_),
-    .Y(_044_)
+  sky130_fd_sc_hs__nand3b_1 _57_ (
+    .A_N(inverted_thermometer[12]),
+    .B(inverted_thermometer[15]),
+    .C(inverted_thermometer[14]),
+    .Y(_24_)
   );
-  sky130_fd_sc_hs__or4_1 _168_ (
-    .A(_028_),
-    .B(_029_),
-    .C(_037_),
-    .D(_044_),
-    .X(_045_)
+  sky130_fd_sc_hs__or4_1 _58_ (
+    .A(_08_),
+    .B(_09_),
+    .C(_17_),
+    .D(_24_),
+    .X(_25_)
   );
-  sky130_fd_sc_hs__nor4_1 _169_ (
-    .A(_023_),
-    .B(_028_),
-    .C(_029_),
-    .D(_037_),
-    .Y(_046_)
+  sky130_fd_sc_hs__nor4_1 _59_ (
+    .A(_03_),
+    .B(_08_),
+    .C(_09_),
+    .D(_17_),
+    .Y(_26_)
   );
-  sky130_fd_sc_hs__a311oi_1 _170_ (
-    .A1(_020_),
-    .A2(_030_),
-    .A3(_039_),
-    .B1(_046_),
-    .C1(_031_),
-    .Y(_047_)
+  sky130_fd_sc_hs__a311oi_1 _60_ (
+    .A1(_00_),
+    .A2(_10_),
+    .A3(_19_),
+    .B1(_26_),
+    .C1(_11_),
+    .Y(_27_)
   );
-  sky130_fd_sc_hs__a2bb2oi_1 _171_ (
-    .A1_N(_008_),
-    .A2_N(_045_),
-    .B1(_034_),
-    .B2(_033_),
-    .Y(_048_)
+  sky130_fd_sc_hs__a2bb2oi_1 _61_ (
+    .A1_N(inverted_thermometer[13]),
+    .A2_N(_25_),
+    .B1(_14_),
+    .B2(_13_),
+    .Y(_28_)
   );
-  sky130_fd_sc_hs__nand4_1 _172_ (
-    .A(_038_),
-    .B(_043_),
-    .C(_047_),
-    .D(_048_),
-    .Y(_000_)
+  sky130_fd_sc_hs__nand4_1 _62_ (
+    .A(_18_),
+    .B(_23_),
+    .C(_27_),
+    .D(_28_),
+    .Y(binary[0])
   );
-  sky130_fd_sc_hs__a21oi_1 _173_ (
-    .A1(_030_),
-    .A2(_036_),
-    .B1(_042_),
-    .Y(_049_)
+  sky130_fd_sc_hs__a21oi_1 _63_ (
+    .A1(_10_),
+    .A2(_16_),
+    .B1(_22_),
+    .Y(_29_)
   );
-  sky130_fd_sc_hs__a41oi_1 _174_ (
-    .A1(_017_),
-    .A2(_025_),
-    .A3(_027_),
-    .A4(_032_),
-    .B1(_031_),
-    .Y(_050_)
+  sky130_fd_sc_hs__a41oi_1 _64_ (
+    .A1(inverted_thermometer[7]),
+    .A2(_05_),
+    .A3(_07_),
+    .A4(_12_),
+    .B1(_11_),
+    .Y(_30_)
   );
-  sky130_fd_sc_hs__nand4_1 _175_ (
-    .A(_013_),
-    .B(_024_),
-    .C(_032_),
-    .D(_034_),
-    .Y(_051_)
+  sky130_fd_sc_hs__nand4_1 _65_ (
+    .A(inverted_thermometer[3]),
+    .B(_04_),
+    .C(_12_),
+    .D(_14_),
+    .Y(_31_)
   );
-  sky130_fd_sc_hs__nand4_1 _176_ (
-    .A(_035_),
-    .B(_049_),
-    .C(_050_),
-    .D(_051_),
-    .Y(_001_)
+  sky130_fd_sc_hs__nand4_1 _66_ (
+    .A(_15_),
+    .B(_29_),
+    .C(_30_),
+    .D(_31_),
+    .Y(binary[1])
   );
-  sky130_fd_sc_hs__nand4b_1 _177_ (
-    .A_N(_014_),
-    .B(_017_),
-    .C(_016_),
-    .D(_033_),
-    .Y(_052_)
+  sky130_fd_sc_hs__nand4b_1 _67_ (
+    .A_N(inverted_thermometer[4]),
+    .B(inverted_thermometer[7]),
+    .C(inverted_thermometer[6]),
+    .D(_13_),
+    .Y(_32_)
   );
-  sky130_fd_sc_hs__nand4b_1 _178_ (
-    .A_N(_042_),
-    .B(_045_),
-    .C(_050_),
-    .D(_052_),
-    .Y(_002_)
+  sky130_fd_sc_hs__nand4b_1 _68_ (
+    .A_N(_22_),
+    .B(_25_),
+    .C(_30_),
+    .D(_32_),
+    .Y(binary[2])
   );
-  sky130_fd_sc_hs__nand3_1 _179_ (
-    .A(_040_),
-    .B(_045_),
-    .C(_049_),
-    .Y(_003_)
+  sky130_fd_sc_hs__nand3_1 _69_ (
+    .A(_20_),
+    .B(_25_),
+    .C(_29_),
+    .Y(binary[3])
   );
-  assign _014_ = inverted_thermometer[4];
-  assign _015_ = inverted_thermometer[5];
-  assign _017_ = inverted_thermometer[7];
-  assign _016_ = inverted_thermometer[6];
-  assign _019_ = inverted_thermometer[9];
-  assign _018_ = inverted_thermometer[8];
-  assign _006_ = inverted_thermometer[11];
-  assign _005_ = inverted_thermometer[10];
-  assign _008_ = inverted_thermometer[13];
-  assign _007_ = inverted_thermometer[12];
-  assign _010_ = inverted_thermometer[15];
-  assign _009_ = inverted_thermometer[14];
-  assign _012_ = inverted_thermometer[2];
-  assign _013_ = inverted_thermometer[3];
-  assign binary[0] = _000_;
-  assign binary[1] = _001_;
-  assign binary[2] = _002_;
-  assign binary[3] = _003_;
-  assign _011_ = inverted_thermometer[1];
-  assign _004_ = inverted_thermometer[0];
 endmodule
