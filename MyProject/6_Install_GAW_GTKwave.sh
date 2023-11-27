@@ -9,3 +9,7 @@ cd gaw3-20200922
 make -j$(nproc)
 sudo make install
 sudo rm -r -f gaw3-20200922 gaw3-20200922.tar.gz
+
+#### install GTKwave ####
+sudo apt-get update
+sudo apt-get -y install gtkwave
