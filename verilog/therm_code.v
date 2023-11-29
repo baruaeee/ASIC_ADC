@@ -1,10 +1,10 @@
 module thermometer_to_binary (
-    input [15:0] inverted_thermometer,
+    input [15:0] ith,
     output reg [3:0] binary
 );
 
 always @(*) begin
-    case (inverted_thermometer)
+    case (ith)
         16'b11111111111111x0: binary = 4'b0000;
         16'b1111111111111100: binary = 4'b0001;
         16'b1111111111111000: binary = 4'b0010;
