@@ -38,6 +38,8 @@ X34 inverted_thermometer.7 inverted_thermometer.6 14 33 inverted_thermometer.4 s
 X35 26 31 33 binary.2 23 sky130_fd_sc_hs__nand4b_1
 X36 21 26 30 binary.3 sky130_fd_sc_hs__nand3_1
 
+.lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+
 ************************
 * end of SPICE netlist *
 ************************
