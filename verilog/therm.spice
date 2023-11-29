@@ -22,26 +22,62 @@ X18 ith.4 ith.5 17 19 sky130_fd_sc_hd__nand3_1
 X19 ith.9 ith.8 ith.10 20 sky130_fd_sc_hd__nor3_1
 X20 ith.9 ith.8 ith.11 ith.10 21 sky130_fd_sc_hd__or4_1
 X21 11 12 21 22 sky130_fd_sc_hd__nor3_1
+
+
 X22 23 16 18 22 14 6 sky130_fd_sc_hd__a221oi_1
+
+
 X23 16 17 24 sky130_fd_sc_hd__nand2_1
+
+
 X24 ith.11 ith.10 25 ith.8 sky130_fd_sc_hd__nand3b_1
+
+
 X25 5 11 12 25 26 sky130_fd_sc_hd__nor4_1
+
+
 X26 27 9 16 26 1 17 sky130_fd_sc_hd__a32oi_1
+
+
 X27 ith.13 ith.12 ith.14 28 sky130_fd_sc_hd__nor3_1
+
+
 X28 ith.13 ith.12 ith.15 ith.14 29 sky130_fd_sc_hd__or4_1
+
+
 X29 11 12 21 29 30 sky130_fd_sc_hd__nor4_1
+
+
 X30 ith.12 4 31 sky130_fd_sc_hd__nor2_1
+
+
 X31 22 31 32 sky130_fd_sc_hd__nand2_1
+
+
 X32 33 2 22 30 31 sky130_fd_sc_hd__a31oi_1
+
+
 X33 23 27 33 binary.0 sky130_fd_sc_hd__nand3_1
+
+
 X34 34 13 20 22 28 sky130_fd_sc_hd__a22oi_1
+
+
 X35 ith.2 3 5 10 35 sky130_fd_sc_hd__or4_1
+
+
 X36 binary.1 7 15 34 35 19 sky130_fd_sc_hd__o311ai_0
+
+
 X37 36 28 31 22 sky130_fd_sc_hd__o21ai_0
+
+
 X38 binary.2 ith.4 24 35 36 sky130_fd_sc_hd__o211ai_1
+
+
+>>>>>>> ec09f578fdf1f6d8294fadaa5077aad674756571
 X39 32 34 binary.3 26 sky130_fd_sc_hd__nand3b_1
 
 ************************
 * end of SPICE netlist *
 ************************
-
