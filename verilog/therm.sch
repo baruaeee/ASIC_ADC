@@ -331,6 +331,120 @@ N -140 130 -130 130 {
 lab=ith.11}
 N -140 40 -140 130 {
 lab=ith.11}
+N 130 280 190 280 {
+lab=11}
+N 130 280 130 300 {
+lab=11}
+N 100 300 130 300 {
+lab=11}
+N 100 300 100 320 {
+lab=11}
+N 90 310 180 310 {
+lab=12}
+N 90 310 90 360 {
+lab=12}
+N 90 360 100 360 {
+lab=12}
+N 150 270 150 290 {
+lab=21}
+N 110 290 150 290 {
+lab=21}
+N 110 290 110 370 {
+lab=21}
+N 100 370 110 370 {
+lab=21}
+N 100 370 100 400 {
+lab=21}
+N 510 -90 510 -30 {
+lab=18}
+N 380 -30 510 -30 {
+lab=18}
+N 380 -30 380 190 {
+lab=18}
+N 370 190 380 190 {
+lab=18}
+N 370 190 370 240 {
+lab=18}
+N 370 240 390 240 {
+lab=18}
+N 110 130 210 130 {
+lab=6}
+N 210 130 210 190 {
+lab=6}
+N 210 190 360 190 {
+lab=6}
+N 360 190 360 320 {
+lab=6}
+N 360 320 390 320 {
+lab=6}
+N 510 -220 510 -200 {
+lab=16}
+N 500 -200 510 -200 {
+lab=16}
+N 500 -200 500 180 {
+lab=16}
+N 390 180 500 180 {
+lab=16}
+N 390 180 390 200 {
+lab=16}
+N 220 360 360 360 {
+lab=22}
+N 360 360 370 360 {
+lab=22}
+N 370 280 370 360 {
+lab=22}
+N 370 280 390 280 {
+lab=22}
+N 320 260 350 260 {
+lab=14}
+N 350 260 350 340 {
+lab=14}
+N 350 340 390 340 {
+lab=14}
+N 390 340 390 360 {
+lab=14}
+N 550 -370 570 -370 {
+lab=16}
+N 550 -370 550 -220 {
+lab=16}
+N 510 -220 550 -220 {
+lab=16}
+N 390 -50 570 -50 {
+lab=17}
+N 570 -330 570 -50 {
+lab=17}
+N 390 70 390 90 {
+lab=ith.8}
+N 390 70 580 70 {
+lab=ith.8}
+N 580 -270 580 70 {
+lab=ith.8}
+N 580 -270 600 -270 {
+lab=ith.8}
+N 390 170 590 170 {
+lab=ith.10}
+N 590 -230 590 170 {
+lab=ith.10}
+N 590 -230 600 -230 {
+lab=ith.10}
+N 30 330 80 330 {
+lab=ith.11}
+N 80 330 80 410 {
+lab=ith.11}
+N 560 -190 600 -190 {
+lab=ith.11}
+N 560 -190 560 250 {
+lab=ith.11}
+N 560 250 580 250 {
+lab=ith.11}
+N 580 250 580 310 {
+lab=ith.11}
+N 510 310 580 310 {
+lab=ith.11}
+N 510 310 510 410 {
+lab=ith.11}
+N 80 410 510 410 {
+lab=ith.11}
 C {sky130_stdcells/clkinv_1.sym} -50 80 0 0 {name=x0 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
 C {devices/ipin.sym} -170 -40 0 0 {name=p1 lab=ith.9 1}
 C {devices/lab_pin.sym} -10 80 2 0 {name=p2 sig_type=std_logic lab=1}
@@ -389,3 +503,11 @@ C {sky130_stdcells/nor3_1.sym} 450 130 0 0 {name=x19 VGND=VGND VNB=VNB VPB=VPB V
 C {devices/lab_pin.sym} 510 130 2 0 {name=p36 sig_type=std_logic lab=20}
 C {sky130_stdcells/or4_1.sym} 90 270 0 0 {name=x20 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
 C {devices/lab_pin.sym} 150 270 2 0 {name=p37 sig_type=std_logic lab=21}
+C {sky130_stdcells/nor3_1.sym} 160 360 0 0 {name=x21 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
+C {devices/lab_pin.sym} 220 360 2 0 {name=p38 sig_type=std_logic lab=22}
+C {sky130_stdcells/a221oi_1.sym} 470 280 0 0 {name=x22 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
+C {devices/lab_pin.sym} 550 280 2 0 {name=p39 sig_type=std_logic lab=23}
+C {sky130_stdcells/nand2_1.sym} 630 -350 0 0 {name=x23 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
+C {devices/lab_pin.sym} 690 -350 2 0 {name=p40 sig_type=std_logic lab=24}
+C {sky130_stdcells/nand3b_1.sym} 660 -230 0 0 {name=x24 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
+C {devices/lab_pin.sym} 720 -230 2 0 {name=p41 sig_type=std_logic lab=25}
