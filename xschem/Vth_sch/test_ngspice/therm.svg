@@ -704,7 +704,7 @@
 <polyline fill="none" stroke="black" points="279.5,-160.77 306.5,-160.77 "/>
 <text text-anchor="middle" x="293" y="-145.57" font-family="Times,serif" font-size="14.00">C</text>
 <polyline fill="none" stroke="black" points="306.5,-137.77 306.5,-206.77 "/>
-<text text-anchor="middle" x="405" y="-176.07" font-family="Times,serif" font-size="14.00">_1_</text>
+<text text-anchor="middle" x="405" y="-176.07" font-family="Times,serif" font-size="14.00">_x0_</text>
 <text text-anchor="middle" x="405" y="-161.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__nor3_1</text>
 <polyline fill="none" stroke="black" points="503.5,-137.77 503.5,-206.77 "/>
 <text text-anchor="middle" x="516.5" y="-168.57" font-family="Times,serif" font-size="14.00">Y</text>
@@ -753,7 +753,7 @@
 <polyline fill="none" stroke="black" points="283.5,-1438.27 311.5,-1438.27 "/>
 <text text-anchor="middle" x="297.5" y="-1423.07" font-family="Times,serif" font-size="14.00">D</text>
 <polyline fill="none" stroke="black" points="311.5,-1415.27 311.5,-1507.27 "/>
-<text text-anchor="middle" x="405.5" y="-1465.07" font-family="Times,serif" font-size="14.00">_2_</text>
+<text text-anchor="middle" x="405.5" y="-1465.07" font-family="Times,serif" font-size="14.00">_x1_</text>
 <text text-anchor="middle" x="405.5" y="-1450.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__or4_1</text>
 <polyline fill="none" stroke="black" points="499.5,-1415.27 499.5,-1507.27 "/>
 <text text-anchor="middle" x="512.5" y="-1457.57" font-family="Times,serif" font-size="14.00">X</text>
@@ -809,7 +809,7 @@
 <polyline fill="none" stroke="black" points="765.5,-2484.27 793.5,-2484.27 "/>
 <text text-anchor="middle" x="779.5" y="-2469.07" font-family="Times,serif" font-size="14.00">D</text>
 <polyline fill="none" stroke="black" points="793.5,-2461.27 793.5,-2553.27 "/>
-<text text-anchor="middle" x="887.5" y="-2511.07" font-family="Times,serif" font-size="14.00">_3_</text>
+<text text-anchor="middle" x="887.5" y="-2511.07" font-family="Times,serif" font-size="14.00">_x2_</text>
 <text text-anchor="middle" x="887.5" y="-2496.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__or4_1</text>
 <polyline fill="none" stroke="black" points="981.5,-2461.27 981.5,-2553.27 "/>
 <text text-anchor="middle" x="994.5" y="-2503.57" font-family="Times,serif" font-size="14.00">X</text>
@@ -854,7 +854,7 @@
 <polyline fill="none" stroke="black" points="1419,-1478.27 1446,-1478.27 "/>
 <text text-anchor="middle" x="1432.5" y="-1463.07" font-family="Times,serif" font-size="14.00">B</text>
 <polyline fill="none" stroke="black" points="1446,-1455.27 1446,-1501.27 "/>
-<text text-anchor="middle" x="1544.5" y="-1482.07" font-family="Times,serif" font-size="14.00">_4_</text>
+<text text-anchor="middle" x="1544.5" y="-1482.07" font-family="Times,serif" font-size="14.00">_x3_</text>
 <text text-anchor="middle" x="1544.5" y="-1467.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__nor2_1</text>
 <polyline fill="none" stroke="black" points="1643,-1455.27 1643,-1501.27 "/>
 <text text-anchor="middle" x="1656" y="-1474.57" font-family="Times,serif" font-size="14.00">Y</text>
@@ -873,7 +873,7 @@
 <polyline fill="none" stroke="black" points="1891.5,-1368.77 1927.5,-1368.77 "/>
 <text text-anchor="middle" x="1909.5" y="-1353.57" font-family="Times,serif" font-size="14.00">C1</text>
 <polyline fill="none" stroke="black" points="1927.5,-1345.77 1927.5,-1460.77 "/>
-<text text-anchor="middle" x="2031.5" y="-1407.07" font-family="Times,serif" font-size="14.00">_30_</text>
+<text text-anchor="middle" x="2031.5" y="-1407.07" font-family="Times,serif" font-size="14.00">_x29_</text>
 <text text-anchor="middle" x="2031.5" y="-1392.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__a221o_1</text>
 <polyline fill="none" stroke="black" points="2135.5,-1345.77 2135.5,-1460.77 "/>
 <text text-anchor="middle" x="2148.5" y="-1399.57" font-family="Times,serif" font-size="14.00">X</text>
@@ -899,7 +899,7 @@
 <polyline fill="none" stroke="black" points="1353,-1837.27 1419,-1837.27 "/>
 <text text-anchor="middle" x="1386" y="-1822.07" font-family="Times,serif" font-size="14.00">SLEEP</text>
 <polyline fill="none" stroke="black" points="1419,-1814.27 1419,-1860.27 "/>
-<text text-anchor="middle" x="1564" y="-1841.07" font-family="Times,serif" font-size="14.00">_5_</text>
+<text text-anchor="middle" x="1564" y="-1841.07" font-family="Times,serif" font-size="14.00">_x4_</text>
 <text text-anchor="middle" x="1564" y="-1826.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__lpflow_inputiso1p_1</text>
 <polyline fill="none" stroke="black" points="1709,-1814.27 1709,-1860.27 "/>
 <text text-anchor="middle" x="1722" y="-1833.57" font-family="Times,serif" font-size="14.00">X</text>
@@ -930,7 +930,7 @@
 <polyline fill="none" stroke="black" points="278,-2703.27 305,-2703.27 "/>
 <text text-anchor="middle" x="291.5" y="-2688.07" font-family="Times,serif" font-size="14.00">B</text>
 <polyline fill="none" stroke="black" points="305,-2680.27 305,-2726.27 "/>
-<text text-anchor="middle" x="405" y="-2707.07" font-family="Times,serif" font-size="14.00">_6_</text>
+<text text-anchor="middle" x="405" y="-2707.07" font-family="Times,serif" font-size="14.00">_x5_</text>
 <text text-anchor="middle" x="405" y="-2692.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__and2_0</text>
 <polyline fill="none" stroke="black" points="505,-2680.27 505,-2726.27 "/>
 <text text-anchor="middle" x="518" y="-2699.57" font-family="Times,serif" font-size="14.00">X</text>
@@ -970,7 +970,7 @@
 <polyline fill="none" stroke="black" points="279.5,-2407.77 306.5,-2407.77 "/>
 <text text-anchor="middle" x="293" y="-2392.57" font-family="Times,serif" font-size="14.00">C</text>
 <polyline fill="none" stroke="black" points="306.5,-2384.77 306.5,-2453.77 "/>
-<text text-anchor="middle" x="405" y="-2423.07" font-family="Times,serif" font-size="14.00">_7_</text>
+<text text-anchor="middle" x="405" y="-2423.07" font-family="Times,serif" font-size="14.00">_x6_</text>
 <text text-anchor="middle" x="405" y="-2408.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__nor3_1</text>
 <polyline fill="none" stroke="black" points="503.5,-2384.77 503.5,-2453.77 "/>
 <text text-anchor="middle" x="516.5" y="-2415.57" font-family="Times,serif" font-size="14.00">Y</text>
@@ -1015,7 +1015,7 @@
 <polyline fill="none" stroke="black" points="279.5,-1772.27 306.5,-1772.27 "/>
 <text text-anchor="middle" x="293" y="-1757.07" font-family="Times,serif" font-size="14.00">B</text>
 <polyline fill="none" stroke="black" points="306.5,-1749.27 306.5,-1795.27 "/>
-<text text-anchor="middle" x="405" y="-1776.07" font-family="Times,serif" font-size="14.00">_8_</text>
+<text text-anchor="middle" x="405" y="-1776.07" font-family="Times,serif" font-size="14.00">_x7_</text>
 <text text-anchor="middle" x="405" y="-1761.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__nor2_1</text>
 <polyline fill="none" stroke="black" points="503.5,-1749.27 503.5,-1795.27 "/>
 <text text-anchor="middle" x="516.5" y="-1768.57" font-family="Times,serif" font-size="14.00">Y</text>
@@ -1055,7 +1055,7 @@
 <polyline fill="none" stroke="black" points="755.5,-1875.77 782.5,-1875.77 "/>
 <text text-anchor="middle" x="769" y="-1860.57" font-family="Times,serif" font-size="14.00">C</text>
 <polyline fill="none" stroke="black" points="782.5,-1852.77 782.5,-1921.77 "/>
-<text text-anchor="middle" x="887" y="-1891.07" font-family="Times,serif" font-size="14.00">_9_</text>
+<text text-anchor="middle" x="887" y="-1891.07" font-family="Times,serif" font-size="14.00">_x8_</text>
 <text text-anchor="middle" x="887" y="-1876.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__nand3_1</text>
 <polyline fill="none" stroke="black" points="991.5,-1852.77 991.5,-1921.77 "/>
 <text text-anchor="middle" x="1004.5" y="-1883.57" font-family="Times,serif" font-size="14.00">Y</text>
@@ -1072,7 +1072,7 @@
 <polyline fill="none" stroke="black" points="1889.5,-1718.27 1925.5,-1718.27 "/>
 <text text-anchor="middle" x="1907.5" y="-1703.07" font-family="Times,serif" font-size="14.00">C1</text>
 <polyline fill="none" stroke="black" points="1925.5,-1695.27 1925.5,-1787.27 "/>
-<text text-anchor="middle" x="2031.5" y="-1745.07" font-family="Times,serif" font-size="14.00">_34_</text>
+<text text-anchor="middle" x="2031.5" y="-1745.07" font-family="Times,serif" font-size="14.00">_x33_</text>
 <text text-anchor="middle" x="2031.5" y="-1730.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__o211ai_1</text>
 <polyline fill="none" stroke="black" points="2137.5,-1695.27 2137.5,-1787.27 "/>
 <text text-anchor="middle" x="2150.5" y="-1737.57" font-family="Times,serif" font-size="14.00">Y</text>
@@ -1095,7 +1095,7 @@
 <polyline fill="none" stroke="black" points="755,-1963.27 783,-1963.27 "/>
 <text text-anchor="middle" x="769" y="-1948.07" font-family="Times,serif" font-size="14.00">D</text>
 <polyline fill="none" stroke="black" points="783,-1940.27 783,-2032.27 "/>
-<text text-anchor="middle" x="887.5" y="-1990.07" font-family="Times,serif" font-size="14.00">_10_</text>
+<text text-anchor="middle" x="887.5" y="-1990.07" font-family="Times,serif" font-size="14.00">_x9_</text>
 <text text-anchor="middle" x="887.5" y="-1975.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__nand4_1</text>
 <polyline fill="none" stroke="black" points="992,-1940.27 992,-2032.27 "/>
 <text text-anchor="middle" x="1005" y="-1982.57" font-family="Times,serif" font-size="14.00">Y</text>
@@ -1112,7 +1112,7 @@
 <polyline fill="none" stroke="black" points="1054,-1522.27 1082,-1522.27 "/>
 <text text-anchor="middle" x="1068" y="-1507.07" font-family="Times,serif" font-size="14.00">D</text>
 <polyline fill="none" stroke="black" points="1082,-1499.27 1082,-1591.27 "/>
-<text text-anchor="middle" x="1186.5" y="-1549.07" font-family="Times,serif" font-size="14.00">_20_</text>
+<text text-anchor="middle" x="1186.5" y="-1549.07" font-family="Times,serif" font-size="14.00">_x19_</text>
 <text text-anchor="middle" x="1186.5" y="-1534.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__nand4_1</text>
 <polyline fill="none" stroke="black" points="1291,-1499.27 1291,-1591.27 "/>
 <text text-anchor="middle" x="1304" y="-1541.57" font-family="Times,serif" font-size="14.00">Y</text>
@@ -1138,7 +1138,7 @@
 <polyline fill="none" stroke="black" points="279.5,-1851.27 306.5,-1851.27 "/>
 <text text-anchor="middle" x="293" y="-1836.07" font-family="Times,serif" font-size="14.00">B</text>
 <polyline fill="none" stroke="black" points="306.5,-1828.27 306.5,-1874.27 "/>
-<text text-anchor="middle" x="405" y="-1855.07" font-family="Times,serif" font-size="14.00">_11_</text>
+<text text-anchor="middle" x="405" y="-1855.07" font-family="Times,serif" font-size="14.00">_x10_</text>
 <text text-anchor="middle" x="405" y="-1840.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__nor2_1</text>
 <polyline fill="none" stroke="black" points="503.5,-1828.27 503.5,-1874.27 "/>
 <text text-anchor="middle" x="516.5" y="-1847.57" font-family="Times,serif" font-size="14.00">Y</text>
@@ -1155,7 +1155,7 @@
 <polyline fill="none" stroke="black" points="755,-1764.27 783,-1764.27 "/>
 <text text-anchor="middle" x="769" y="-1749.07" font-family="Times,serif" font-size="14.00">D</text>
 <polyline fill="none" stroke="black" points="783,-1741.27 783,-1833.27 "/>
-<text text-anchor="middle" x="887.5" y="-1791.07" font-family="Times,serif" font-size="14.00">_12_</text>
+<text text-anchor="middle" x="887.5" y="-1791.07" font-family="Times,serif" font-size="14.00">_x11_</text>
 <text text-anchor="middle" x="887.5" y="-1776.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__nand4_1</text>
 <polyline fill="none" stroke="black" points="992,-1741.27 992,-1833.27 "/>
 <text text-anchor="middle" x="1005" y="-1783.57" font-family="Times,serif" font-size="14.00">Y</text>
@@ -1205,7 +1205,7 @@
 <polyline fill="none" stroke="black" points="277.5,-2158.27 305.5,-2158.27 "/>
 <text text-anchor="middle" x="291.5" y="-2143.07" font-family="Times,serif" font-size="14.00">D</text>
 <polyline fill="none" stroke="black" points="305.5,-2135.27 305.5,-2227.27 "/>
-<text text-anchor="middle" x="405.5" y="-2185.07" font-family="Times,serif" font-size="14.00">_13_</text>
+<text text-anchor="middle" x="405.5" y="-2185.07" font-family="Times,serif" font-size="14.00">_x12_</text>
 <text text-anchor="middle" x="405.5" y="-2170.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__and4_1</text>
 <polyline fill="none" stroke="black" points="505.5,-2135.27 505.5,-2227.27 "/>
 <text text-anchor="middle" x="518.5" y="-2177.57" font-family="Times,serif" font-size="14.00">X</text>
@@ -1261,7 +1261,7 @@
 <polyline fill="none" stroke="black" points="273,-791.27 301,-791.27 "/>
 <text text-anchor="middle" x="287" y="-776.07" font-family="Times,serif" font-size="14.00">D</text>
 <polyline fill="none" stroke="black" points="301,-768.27 301,-860.27 "/>
-<text text-anchor="middle" x="405.5" y="-818.07" font-family="Times,serif" font-size="14.00">_14_</text>
+<text text-anchor="middle" x="405.5" y="-818.07" font-family="Times,serif" font-size="14.00">_x13_</text>
 <text text-anchor="middle" x="405.5" y="-803.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__nand4_1</text>
 <polyline fill="none" stroke="black" points="510,-768.27 510,-860.27 "/>
 <text text-anchor="middle" x="523" y="-810.57" font-family="Times,serif" font-size="14.00">Y</text>
@@ -1313,7 +1313,7 @@
 <polyline fill="none" stroke="black" points="755.5,-1699.27 782.5,-1699.27 "/>
 <text text-anchor="middle" x="769" y="-1684.07" font-family="Times,serif" font-size="14.00">B</text>
 <polyline fill="none" stroke="black" points="782.5,-1676.27 782.5,-1722.27 "/>
-<text text-anchor="middle" x="887" y="-1703.07" font-family="Times,serif" font-size="14.00">_15_</text>
+<text text-anchor="middle" x="887" y="-1703.07" font-family="Times,serif" font-size="14.00">_x14_</text>
 <text text-anchor="middle" x="887" y="-1688.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__nand2_1</text>
 <polyline fill="none" stroke="black" points="991.5,-1676.27 991.5,-1722.27 "/>
 <text text-anchor="middle" x="1004.5" y="-1695.57" font-family="Times,serif" font-size="14.00">Y</text>
@@ -1332,7 +1332,7 @@
 <polyline fill="none" stroke="black" points="1884.5,-1544.77 1921.5,-1544.77 "/>
 <text text-anchor="middle" x="1903" y="-1529.57" font-family="Times,serif" font-size="14.00">D1</text>
 <polyline fill="none" stroke="black" points="1921.5,-1521.77 1921.5,-1636.77 "/>
-<text text-anchor="middle" x="2032" y="-1583.07" font-family="Times,serif" font-size="14.00">_36_</text>
+<text text-anchor="middle" x="2032" y="-1583.07" font-family="Times,serif" font-size="14.00">_x35_</text>
 <text text-anchor="middle" x="2032" y="-1568.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__o2111ai_1</text>
 <polyline fill="none" stroke="black" points="2142.5,-1521.77 2142.5,-1636.77 "/>
 <text text-anchor="middle" x="2155.5" y="-1575.57" font-family="Times,serif" font-size="14.00">Y</text>
@@ -1353,7 +1353,7 @@
 <polyline fill="none" stroke="black" points="755.5,-1611.77 782.5,-1611.77 "/>
 <text text-anchor="middle" x="769" y="-1596.57" font-family="Times,serif" font-size="14.00">C</text>
 <polyline fill="none" stroke="black" points="782.5,-1588.77 782.5,-1657.77 "/>
-<text text-anchor="middle" x="887" y="-1627.07" font-family="Times,serif" font-size="14.00">_16_</text>
+<text text-anchor="middle" x="887" y="-1627.07" font-family="Times,serif" font-size="14.00">_x15_</text>
 <text text-anchor="middle" x="887" y="-1612.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__nand3_1</text>
 <polyline fill="none" stroke="black" points="991.5,-1588.77 991.5,-1657.77 "/>
 <text text-anchor="middle" x="1004.5" y="-1619.57" font-family="Times,serif" font-size="14.00">Y</text>
@@ -1381,7 +1381,7 @@
 <polyline fill="none" stroke="black" points="264.5,-1976.77 309.5,-1976.77 "/>
 <text text-anchor="middle" x="287" y="-1961.57" font-family="Times,serif" font-size="14.00">C</text>
 <polyline fill="none" stroke="black" points="309.5,-1953.77 309.5,-2022.77 "/>
-<text text-anchor="middle" x="414" y="-1992.07" font-family="Times,serif" font-size="14.00">_17_</text>
+<text text-anchor="middle" x="414" y="-1992.07" font-family="Times,serif" font-size="14.00">_x16_</text>
 <text text-anchor="middle" x="414" y="-1977.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__and3b_1</text>
 <polyline fill="none" stroke="black" points="518.5,-1953.77 518.5,-2022.77 "/>
 <text text-anchor="middle" x="531.5" y="-1984.57" font-family="Times,serif" font-size="14.00">X</text>
@@ -1426,7 +1426,7 @@
 <polyline fill="none" stroke="black" points="755.5,-1546.27 782.5,-1546.27 "/>
 <text text-anchor="middle" x="769" y="-1531.07" font-family="Times,serif" font-size="14.00">B</text>
 <polyline fill="none" stroke="black" points="782.5,-1523.27 782.5,-1569.27 "/>
-<text text-anchor="middle" x="887" y="-1550.07" font-family="Times,serif" font-size="14.00">_18_</text>
+<text text-anchor="middle" x="887" y="-1550.07" font-family="Times,serif" font-size="14.00">_x17_</text>
 <text text-anchor="middle" x="887" y="-1535.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__nand2_1</text>
 <polyline fill="none" stroke="black" points="991.5,-1523.27 991.5,-1569.27 "/>
 <text text-anchor="middle" x="1004.5" y="-1542.57" font-family="Times,serif" font-size="14.00">Y</text>
@@ -1441,7 +1441,7 @@
 <polyline fill="none" stroke="black" points="1423.5,-1710.77 1450.5,-1710.77 "/>
 <text text-anchor="middle" x="1437" y="-1695.57" font-family="Times,serif" font-size="14.00">C</text>
 <polyline fill="none" stroke="black" points="1450.5,-1687.77 1450.5,-1756.77 "/>
-<text text-anchor="middle" x="1544.5" y="-1726.07" font-family="Times,serif" font-size="14.00">_33_</text>
+<text text-anchor="middle" x="1544.5" y="-1726.07" font-family="Times,serif" font-size="14.00">_x32_</text>
 <text text-anchor="middle" x="1544.5" y="-1711.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__or3_1</text>
 <polyline fill="none" stroke="black" points="1638.5,-1687.77 1638.5,-1756.77 "/>
 <text text-anchor="middle" x="1651.5" y="-1718.57" font-family="Times,serif" font-size="14.00">X</text>
@@ -1462,7 +1462,7 @@
 <polyline fill="none" stroke="black" points="755.5,-1458.77 782.5,-1458.77 "/>
 <text text-anchor="middle" x="769" y="-1443.57" font-family="Times,serif" font-size="14.00">C</text>
 <polyline fill="none" stroke="black" points="782.5,-1435.77 782.5,-1504.77 "/>
-<text text-anchor="middle" x="887" y="-1474.07" font-family="Times,serif" font-size="14.00">_19_</text>
+<text text-anchor="middle" x="887" y="-1474.07" font-family="Times,serif" font-size="14.00">_x18_</text>
 <text text-anchor="middle" x="887" y="-1459.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__nand3_1</text>
 <polyline fill="none" stroke="black" points="991.5,-1435.77 991.5,-1504.77 "/>
 <text text-anchor="middle" x="1004.5" y="-1466.57" font-family="Times,serif" font-size="14.00">Y</text>
@@ -1498,7 +1498,7 @@
 <polyline fill="none" stroke="black" points="273,-418.27 301,-418.27 "/>
 <text text-anchor="middle" x="287" y="-403.07" font-family="Times,serif" font-size="14.00">D</text>
 <polyline fill="none" stroke="black" points="301,-395.27 301,-487.27 "/>
-<text text-anchor="middle" x="405.5" y="-445.07" font-family="Times,serif" font-size="14.00">_21_</text>
+<text text-anchor="middle" x="405.5" y="-445.07" font-family="Times,serif" font-size="14.00">_x20_</text>
 <text text-anchor="middle" x="405.5" y="-430.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__nand4_1</text>
 <polyline fill="none" stroke="black" points="510,-395.27 510,-487.27 "/>
 <text text-anchor="middle" x="523" y="-437.57" font-family="Times,serif" font-size="14.00">Y</text>
@@ -1552,7 +1552,7 @@
 <polyline fill="none" stroke="black" points="1419,-942.77 1446,-942.77 "/>
 <text text-anchor="middle" x="1432.5" y="-927.57" font-family="Times,serif" font-size="14.00">C</text>
 <polyline fill="none" stroke="black" points="1446,-919.77 1446,-988.77 "/>
-<text text-anchor="middle" x="1544.5" y="-958.07" font-family="Times,serif" font-size="14.00">_22_</text>
+<text text-anchor="middle" x="1544.5" y="-958.07" font-family="Times,serif" font-size="14.00">_x21_</text>
 <text text-anchor="middle" x="1544.5" y="-943.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__nor3_1</text>
 <polyline fill="none" stroke="black" points="1643,-919.77 1643,-988.77 "/>
 <text text-anchor="middle" x="1656" y="-950.57" font-family="Times,serif" font-size="14.00">Y</text>
@@ -1580,7 +1580,7 @@
 <polyline fill="none" stroke="black" points="273,-1141.27 301,-1141.27 "/>
 <text text-anchor="middle" x="287" y="-1126.07" font-family="Times,serif" font-size="14.00">D</text>
 <polyline fill="none" stroke="black" points="301,-1118.27 301,-1210.27 "/>
-<text text-anchor="middle" x="405.5" y="-1168.07" font-family="Times,serif" font-size="14.00">_23_</text>
+<text text-anchor="middle" x="405.5" y="-1168.07" font-family="Times,serif" font-size="14.00">_x22_</text>
 <text text-anchor="middle" x="405.5" y="-1153.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__nand4_1</text>
 <polyline fill="none" stroke="black" points="510,-1118.27 510,-1210.27 "/>
 <text text-anchor="middle" x="523" y="-1160.57" font-family="Times,serif" font-size="14.00">Y</text>
@@ -1595,7 +1595,7 @@
 <polyline fill="none" stroke="black" points="761.5,-865.77 788.5,-865.77 "/>
 <text text-anchor="middle" x="775" y="-850.57" font-family="Times,serif" font-size="14.00">C</text>
 <polyline fill="none" stroke="black" points="788.5,-842.77 788.5,-911.77 "/>
-<text text-anchor="middle" x="887" y="-881.07" font-family="Times,serif" font-size="14.00">_24_</text>
+<text text-anchor="middle" x="887" y="-881.07" font-family="Times,serif" font-size="14.00">_x23_</text>
 <text text-anchor="middle" x="887" y="-866.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__nor3_1</text>
 <polyline fill="none" stroke="black" points="985.5,-842.77 985.5,-911.77 "/>
 <text text-anchor="middle" x="998.5" y="-873.57" font-family="Times,serif" font-size="14.00">Y</text>
@@ -1653,7 +1653,7 @@
 <polyline fill="none" stroke="black" points="219,-1030.27 285,-1030.27 "/>
 <text text-anchor="middle" x="252" y="-1015.07" font-family="Times,serif" font-size="14.00">SLEEP</text>
 <polyline fill="none" stroke="black" points="285,-1007.27 285,-1053.27 "/>
-<text text-anchor="middle" x="424.5" y="-1034.07" font-family="Times,serif" font-size="14.00">_25_</text>
+<text text-anchor="middle" x="424.5" y="-1034.07" font-family="Times,serif" font-size="14.00">_x24_</text>
 <text text-anchor="middle" x="424.5" y="-1019.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__lpflow_isobufsrc_1</text>
 <polyline fill="none" stroke="black" points="564,-1007.27 564,-1053.27 "/>
 <text text-anchor="middle" x="577" y="-1026.57" font-family="Times,serif" font-size="14.00">X</text>
@@ -1693,7 +1693,7 @@
 <polyline fill="none" stroke="black" points="1055,-557.77 1091,-557.77 "/>
 <text text-anchor="middle" x="1073" y="-542.57" font-family="Times,serif" font-size="14.00">B1</text>
 <polyline fill="none" stroke="black" points="1091,-534.77 1091,-603.77 "/>
-<text text-anchor="middle" x="1190.5" y="-573.07" font-family="Times,serif" font-size="14.00">_26_</text>
+<text text-anchor="middle" x="1190.5" y="-573.07" font-family="Times,serif" font-size="14.00">_x25_</text>
 <text text-anchor="middle" x="1190.5" y="-558.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__a21o_1</text>
 <polyline fill="none" stroke="black" points="1290,-534.77 1290,-603.77 "/>
 <text text-anchor="middle" x="1303" y="-565.57" font-family="Times,serif" font-size="14.00">X</text>
@@ -1712,7 +1712,7 @@
 <polyline fill="none" stroke="black" points="1413.5,-808.77 1449.5,-808.77 "/>
 <text text-anchor="middle" x="1431.5" y="-793.57" font-family="Times,serif" font-size="14.00">B2</text>
 <polyline fill="none" stroke="black" points="1449.5,-785.77 1449.5,-900.77 "/>
-<text text-anchor="middle" x="1549" y="-847.07" font-family="Times,serif" font-size="14.00">_29_</text>
+<text text-anchor="middle" x="1549" y="-847.07" font-family="Times,serif" font-size="14.00">_x28_</text>
 <text text-anchor="middle" x="1549" y="-832.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__a32o_1</text>
 <polyline fill="none" stroke="black" points="1648.5,-785.77 1648.5,-900.77 "/>
 <text text-anchor="middle" x="1661.5" y="-839.57" font-family="Times,serif" font-size="14.00">X</text>
@@ -1740,7 +1740,7 @@
 <polyline fill="none" stroke="black" points="260,-622.77 305,-622.77 "/>
 <text text-anchor="middle" x="282.5" y="-607.57" font-family="Times,serif" font-size="14.00">C</text>
 <polyline fill="none" stroke="black" points="305,-599.77 305,-668.77 "/>
-<text text-anchor="middle" x="414" y="-638.07" font-family="Times,serif" font-size="14.00">_27_</text>
+<text text-anchor="middle" x="414" y="-638.07" font-family="Times,serif" font-size="14.00">_x26_</text>
 <text text-anchor="middle" x="414" y="-623.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__nand3b_1</text>
 <polyline fill="none" stroke="black" points="523,-599.77 523,-668.77 "/>
 <text text-anchor="middle" x="536" y="-630.57" font-family="Times,serif" font-size="14.00">Y</text>
@@ -1757,7 +1757,7 @@
 <polyline fill="none" stroke="black" points="761,-716.27 789,-716.27 "/>
 <text text-anchor="middle" x="775" y="-701.07" font-family="Times,serif" font-size="14.00">D</text>
 <polyline fill="none" stroke="black" points="789,-693.27 789,-785.27 "/>
-<text text-anchor="middle" x="887.5" y="-743.07" font-family="Times,serif" font-size="14.00">_28_</text>
+<text text-anchor="middle" x="887.5" y="-743.07" font-family="Times,serif" font-size="14.00">_x27_</text>
 <text text-anchor="middle" x="887.5" y="-728.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__nor4_1</text>
 <polyline fill="none" stroke="black" points="986,-693.27 986,-785.27 "/>
 <text text-anchor="middle" x="999" y="-735.57" font-family="Times,serif" font-size="14.00">Y</text>
@@ -1856,7 +1856,7 @@
 <polyline fill="none" stroke="black" points="1413,-1250.77 1440,-1250.77 "/>
 <text text-anchor="middle" x="1426.5" y="-1235.57" font-family="Times,serif" font-size="14.00">C</text>
 <polyline fill="none" stroke="black" points="1440,-1227.77 1440,-1296.77 "/>
-<text text-anchor="middle" x="1544.5" y="-1266.07" font-family="Times,serif" font-size="14.00">_31_</text>
+<text text-anchor="middle" x="1544.5" y="-1266.07" font-family="Times,serif" font-size="14.00">_x30_</text>
 <text text-anchor="middle" x="1544.5" y="-1251.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__nand3_1</text>
 <polyline fill="none" stroke="black" points="1649,-1227.77 1649,-1296.77 "/>
 <text text-anchor="middle" x="1662" y="-1258.57" font-family="Times,serif" font-size="14.00">Y</text>
@@ -1886,7 +1886,7 @@
 <polyline fill="none" stroke="black" points="1411.5,-1030.27 1447.5,-1030.27 "/>
 <text text-anchor="middle" x="1429.5" y="-1015.07" font-family="Times,serif" font-size="14.00">B1</text>
 <polyline fill="none" stroke="black" points="1447.5,-1007.27 1447.5,-1099.27 "/>
-<text text-anchor="middle" x="1549" y="-1057.07" font-family="Times,serif" font-size="14.00">_32_</text>
+<text text-anchor="middle" x="1549" y="-1057.07" font-family="Times,serif" font-size="14.00">_x31_</text>
 <text text-anchor="middle" x="1549" y="-1042.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__a31oi_1</text>
 <polyline fill="none" stroke="black" points="1650.5,-1007.27 1650.5,-1099.27 "/>
 <text text-anchor="middle" x="1663.5" y="-1049.57" font-family="Times,serif" font-size="14.00">Y</text>
@@ -1954,7 +1954,7 @@
 <polyline fill="none" stroke="black" points="1413,-743.27 1440,-743.27 "/>
 <text text-anchor="middle" x="1426.5" y="-728.07" font-family="Times,serif" font-size="14.00">B</text>
 <polyline fill="none" stroke="black" points="1440,-720.27 1440,-766.27 "/>
-<text text-anchor="middle" x="1544.5" y="-747.07" font-family="Times,serif" font-size="14.00">_35_</text>
+<text text-anchor="middle" x="1544.5" y="-747.07" font-family="Times,serif" font-size="14.00">_x34_</text>
 <text text-anchor="middle" x="1544.5" y="-732.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__nand2_1</text>
 <polyline fill="none" stroke="black" points="1649,-720.27 1649,-766.27 "/>
 <text text-anchor="middle" x="1662" y="-739.57" font-family="Times,serif" font-size="14.00">Y</text>
@@ -1999,7 +1999,7 @@
 <polyline fill="none" stroke="black" points="1882,-1280.77 1927,-1280.77 "/>
 <text text-anchor="middle" x="1904.5" y="-1265.57" font-family="Times,serif" font-size="14.00">C</text>
 <polyline fill="none" stroke="black" points="1927,-1257.77 1927,-1326.77 "/>
-<text text-anchor="middle" x="2036" y="-1296.07" font-family="Times,serif" font-size="14.00">_37_</text>
+<text text-anchor="middle" x="2036" y="-1296.07" font-family="Times,serif" font-size="14.00">_x36_</text>
 <text text-anchor="middle" x="2036" y="-1281.07" font-family="Times,serif" font-size="14.00">sky130_fd_sc_hd__nand3b_1</text>
 <polyline fill="none" stroke="black" points="2145,-1257.77 2145,-1326.77 "/>
 <text text-anchor="middle" x="2158" y="-1288.57" font-family="Times,serif" font-size="14.00">Y</text>
