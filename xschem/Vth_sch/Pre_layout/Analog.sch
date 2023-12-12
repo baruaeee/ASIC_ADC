@@ -287,3 +287,4 @@ C {Symbol/th13.sym} 400 -220 0 0 {name=x13}
 C {Symbol/th14.sym} 420 -150 0 0 {name=x14}
 C {Symbol/th15.sym} 440 -80 0 0 {name=x15}
 C {Symbol/th01.sym} -150 -500 0 0 {name=x1}
+C {devices/lab_pin.sym} -530 -760 2 0 {name=p19 sig_type=std_logic lab=1}
