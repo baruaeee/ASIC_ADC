@@ -41,7 +41,8 @@ X37 binary.2 21 35 34 sky130_fd_sc_hd__o21ai_0
 X38 36 20 22 7 23 sky130_fd_sc_hd__o31ai_1
 X39 34 36 binary.3 sky130_fd_sc_hd__nand2_1
 
+
+
 ************************
 * end of SPICE netlist *
 ************************
-
