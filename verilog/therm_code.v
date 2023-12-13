@@ -1,5 +1,5 @@
 module thermometer_to_binary (
-    input [15:0] ith,
+    input [14:0] ith,
     output reg [3:0] binary
 );
 
