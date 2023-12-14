@@ -29,36 +29,17 @@ X25 ith.1 ith.2 26 ith.0 sky130_fd_sc_hd__or3b_1
 X26 ith.5 ith.4 ith.7 ith.6 27 sky130_fd_sc_hd__or4_1
 X27 28 3 26 27 ith.3 sky130_fd_sc_hd__a211oi_1
 X28 29 ith.12 10 20 28 17 sky130_fd_sc_hd__a32oi_1
-X29 30 16 21 25 29 13 sky130_fd_sc_hd__o2111ai_1
-X30 14 20 31 4 sky130_fd_sc_hd__nand3b_1
-X31 7 23 32 sky130_fd_sc_hd__nand2_1
-X32 ith.3 2 27 33 sky130_fd_sc_hd__nor3_1
-X33 20 33 34 sky130_fd_sc_hd__nand2_1
-X34 12 31 32 34 35 sky130_fd_sc_hd__nand4_1
-X35 36 11 17 10 sky130_fd_sc_hd__o21ai_0
-X36 14 15 37 sky130_fd_sc_hd__nor2_1
-X37 38 21 37 36 sky130_fd_sc_hd__o21ai_0
-X38 39 20 22 7 23 sky130_fd_sc_hd__o31ai_1
-X39 36 39 40 sky130_fd_sc_hd__nand2_1
-V0 ith.1 41 DC 0
-V1 ith.0 42 DC 0
-V2 ith.3 43 DC 0
-V3 ith.2 44 DC 0
-V4 ith.5 45 DC 0
-V5 ith.4 46 DC 0
-V6 ith.7 47 DC 0
-V7 ith.6 48 DC 0
-V8 ith.8 49 DC 0
-V9 ith.9 50 DC 0
-V10 ith.11 51 DC 0
-V11 ith.10 52 DC 0
-V12 ith.13 53 DC 0
-V13 ith.12 54 DC 0
-V14 ith.14 55 DC 0
-V15 30 binary.0 DC 0
-V16 35 binary.1 DC 0
-V17 38 binary.2 DC 0
-V18 40 binary.3 DC 0
+X29 binary.0 16 21 25 29 13 sky130_fd_sc_hd__o2111ai_1
+X30 14 20 30 4 sky130_fd_sc_hd__nand3b_1
+X31 7 23 31 sky130_fd_sc_hd__nand2_1
+X32 ith.3 2 27 32 sky130_fd_sc_hd__nor3_1
+X33 20 32 33 sky130_fd_sc_hd__nand2_1
+X34 12 30 31 33 binary.1 sky130_fd_sc_hd__nand4_1
+X35 34 11 17 10 sky130_fd_sc_hd__o21ai_0
+X36 14 15 35 sky130_fd_sc_hd__nor2_1
+X37 binary.2 21 35 34 sky130_fd_sc_hd__o21ai_0
+X38 36 20 22 7 23 sky130_fd_sc_hd__o31ai_1
+X39 34 36 binary.3 sky130_fd_sc_hd__nand2_1
 
 ************************
 * end of SPICE netlist *
