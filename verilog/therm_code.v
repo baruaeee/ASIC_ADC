@@ -5,7 +5,7 @@ module thermometer_to_binary (
 
 always @(*) begin
     case (ith)
-        //16'b000000000000000: binary = 4'b0000; 	// ~0.0000
+        16'b000000000000000: binary = 4'b0000; 	// ~0.0000
         16'b000000000000001: binary = 4'b0001; 	// ~0.1188
         16'b000000000000011: binary = 4'b0010; 	// ~0.2376
         16'b000000000000111: binary = 4'b0011; 	// ~0.3564
@@ -22,7 +22,7 @@ always @(*) begin
         16'b011111111111111: binary = 4'b1110; 	// ~1.6632
         16'b111111111111111: binary = 4'b1111;	// ~1.7820
 
-        default: binary = 4'b0000; // Don't care
+        default: binary = 4'bxxxx; // Don't care
     endcase
 end
 
