@@ -43,11 +43,11 @@ C {devices/vsource.sym} -450 50 0 0 {name=V_logic_high value=1.25}
 C {devices/vdd.sym} -450 20 0 0 {name=l3 lab=V_LH}
 C {devices/vsource.sym} -330 50 0 0 {name=V_logic_low value=0.5}
 C {devices/vdd.sym} -330 20 0 0 {name=l8 lab=V_LL}
-C {devices/opin.sym} -160 -410 0 0 {name=p2 lab=V1}
+C {devices/opin.sym} 240 -410 0 0 {name=p2 lab=V1}
 C {devices/vdd.sym} -220 40 0 0 {name=l5 lab=VDD}
 C {devices/ipin.sym} -140 60 2 0 {name=p4 lab=Vin}
 C {devices/gnd.sym} -220 120 0 0 {name=l7 lab=GND}
-C {devices/opin.sym} -160 -390 0 0 {name=p5 lab=V2}
+C {devices/opin.sym} 240 -390 0 0 {name=p5 lab=V2}
 C {devices/opin.sym} -160 -350 0 0 {name=p7 lab=V4}
 C {devices/opin.sym} -160 -330 0 0 {name=p8 lab=V5}
 C {devices/opin.sym} -160 -310 0 0 {name=p9 lab=V6}
@@ -60,5 +60,5 @@ C {devices/opin.sym} -160 -190 0 0 {name=p15 lab=V12}
 C {devices/opin.sym} -160 -170 0 0 {name=p16 lab=V13}
 C {devices/opin.sym} -160 -150 0 0 {name=p17 lab=V14}
 C {devices/opin.sym} -160 -130 0 0 {name=p18 lab=V15}
-C {devices/opin.sym} -160 -370 0 0 {name=p3 lab=V3}
+C {devices/opin.sym} 240 -370 0 0 {name=p3 lab=V3}
 C {Symbol/Analog.sym} -190 -270 0 0 {name=x1}

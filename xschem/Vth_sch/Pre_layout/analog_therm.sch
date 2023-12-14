@@ -5,6 +5,12 @@ K {}
 V {}
 S {}
 E {}
+N -680 -180 -680 -140 {
+lab=Vin}
+N -500 -480 -470 -480 {
+lab=VDD}
+C {devices/ipin.sym} 110 -520 0 0 {name=p15 lab=p[14:0]}
+C {devices/opin.sym} 220 -520 0 0 {name=p199 lab=b[3:0] }
 C {devices/lab_pin.sym} -220 -380 2 1 {name=p1 lab=p[0]}
 C {sky130_stdcells/clkinv_1.sym} -340 -400 0 0 {name=x0 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
 C {devices/lab_pin.sym} -380 -400 2 1 {name=p2 lab=p[10]}
@@ -203,5 +209,56 @@ C {sky130_stdcells/nand2_1.sym} 900 -40 0 0 {name=x39 VGND=VGND VNB=VNB VPB=VPB 
 C {devices/lab_pin.sym} 840 -60 2 1 {name=p157 lab=34}
 C {devices/lab_pin.sym} 840 -20 2 1 {name=p158 lab=36}
 C {devices/lab_pin.sym} 960 -40 0 1 {name=p159 lab=b[3]}
-C {devices/ipin.sym} -570 -480 0 0 {name=p196 lab=p[14:0]}
-C {devices/opin.sym} -460 -480 0 0 {name=p197 lab=b[3:0] }
+C {Symbol/Analog.sym} -530 -320 0 0 {name=x40}
+C {devices/lab_pin.sym} -500 -460 0 1 {name=p160 lab=p[0]}
+C {devices/lab_pin.sym} -500 -440 0 1 {name=p162 lab=p[1]}
+C {devices/lab_pin.sym} -500 -420 0 1 {name=p164 lab=p[2]}
+C {devices/lab_pin.sym} -500 -400 0 1 {name=p166 lab=p[3]}
+C {devices/lab_pin.sym} -500 -380 0 1 {name=p168 lab=p[4]}
+C {devices/lab_pin.sym} -500 -360 0 1 {name=p170 lab=p[5]}
+C {devices/lab_pin.sym} -500 -340 0 1 {name=p172 lab=p[6]}
+C {devices/lab_pin.sym} -500 -320 0 1 {name=p174 lab=p[7]}
+C {devices/lab_pin.sym} -500 -300 0 1 {name=p176 lab=p[8]}
+C {devices/lab_pin.sym} -500 -280 0 1 {name=p178 lab=p[9]}
+C {devices/lab_pin.sym} -500 -260 0 1 {name=p180 lab=p[10]}
+C {devices/lab_pin.sym} -500 -240 0 1 {name=p182 lab=p[11]}
+C {devices/lab_pin.sym} -500 -220 0 1 {name=p184 lab=p[12]}
+C {devices/lab_pin.sym} -500 -200 0 1 {name=p186 lab=p[13]}
+C {devices/lab_pin.sym} -500 -180 0 1 {name=p188 lab=p[14]}
+C {devices/code_shown.sym} -710 130 0 0 {name=SPICE only_toplevel=false value="
+vvpwr vpwr 0 dc 1.8
+vvgnd vgnd 0 dc 0
+.dc Vin 0 1.8 0.01
+*.tran 1n 30n
+.control
+run
+set color0=white
+set color1=black
+plot Vin Vout V_LH V_LL
+set xbrushwidth=3
+.save all
+.endc
+.end
+"}
+C {devices/code.sym} -410 -550 0 0 {name=TT_MODELS
+only_toplevel=true
+format="tcleval( @value )"
+value=".lib $::SKYWATER_MODELS/sky130.lib.spice tt
+.include $::SKYWATER_STDCELLS/sky130_fd_sc_hd.spice
+"
+spice_ignore=false}
+C {devices/vsource.sym} -600 30 0 0 {name=V_logic_high value=1.25}
+C {devices/vdd.sym} -600 0 0 0 {name=l3 lab=V_LH}
+C {devices/gnd.sym} -600 60 0 0 {name=l7 lab=GND}
+C {devices/vsource.sym} -490 30 0 0 {name=V_logic_low value=0.5}
+C {devices/vdd.sym} -490 0 0 0 {name=l8 lab=V_LL}
+C {devices/gnd.sym} -490 60 0 0 {name=l9 lab=GND}
+C {devices/vsource.sym} -680 30 0 0 {name=VDD value=1.8}
+C {devices/vdd.sym} -680 0 0 0 {name=l1 lab=VDD}
+C {devices/gnd.sym} -680 60 0 0 {name=l2 lab=GND}
+C {devices/vsource.sym} -680 -110 0 0 {name=Vin value="pulse(0 0.2 0ns 1ns 1ns 5ns 10ns)"}
+C {devices/ipin.sym} -680 -180 0 0 {name=p161 lab=Vin}
+C {devices/gnd.sym} -680 -80 0 0 {name=l6 lab=GND}
+C {devices/gnd.sym} -500 -160 0 0 {name=l4 lab=GND}
+C {devices/vdd.sym} -470 -480 0 0 {name=l5 lab=VDD}
+C {devices/ipin.sym} -680 -480 0 0 {name=p163 lab=Vin}
