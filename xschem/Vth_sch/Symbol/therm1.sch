@@ -46,18 +46,18 @@ C {devices/lab_pin.sym} 20 -280 2 1 {name=p30 lab=p[11]}
 C {devices/lab_pin.sym} 20 -240 2 1 {name=p31 lab=p[10]}
 C {devices/lab_pin.sym} 140 -260 0 1 {name=p32 lab=9}
 C {sky130_stdcells/nor4_1.sym} 280 -260 0 0 {name=x9 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
-C {devices/lab_pin.sym} 220 -320 2 1 {name=p33 lab=p[4]}
-C {devices/lab_pin.sym} 220 -280 2 1 {name=p34 lab=p[6]}
-C {devices/lab_pin.sym} 220 -240 2 1 {name=p35 lab=p[8]}
-C {devices/lab_pin.sym} 220 -200 2 1 {name=p36 lab=p[9]}
+C {devices/lab_pin.sym} 220 -320 2 1 {name=p33 lab=4}
+C {devices/lab_pin.sym} 220 -280 2 1 {name=p34 lab=6}
+C {devices/lab_pin.sym} 220 -240 2 1 {name=p35 lab=8}
+C {devices/lab_pin.sym} 220 -200 2 1 {name=p36 lab=9}
 C {devices/lab_pin.sym} 340 -260 0 1 {name=p37 lab=10}
 C {sky130_stdcells/and2_0.sym} 500 -260 0 0 {name=x10 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
 C {devices/lab_pin.sym} 440 -280 2 1 {name=p38 lab=p[13]}
 C {devices/lab_pin.sym} 440 -240 2 1 {name=p39 lab=p[12]}
 C {devices/lab_pin.sym} 560 -260 0 1 {name=p40 lab=11}
 C {sky130_stdcells/nand2_1.sym} 720 -260 0 0 {name=x11 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
-C {devices/lab_pin.sym} 660 -280 2 1 {name=p41 lab=p[10]}
-C {devices/lab_pin.sym} 660 -240 2 1 {name=p42 lab=p[11]}
+C {devices/lab_pin.sym} 660 -280 2 1 {name=p41 lab=10}
+C {devices/lab_pin.sym} 660 -240 2 1 {name=p42 lab=11}
 C {devices/lab_pin.sym} 780 -260 0 1 {name=p43 lab=12}
 C {sky130_stdcells/nand3_1.sym} -320 -120 0 0 {name=x12 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
 C {devices/lab_pin.sym} -380 -160 2 1 {name=p44 lab=p[14]}
@@ -205,3 +205,6 @@ C {devices/lab_pin.sym} 840 -20 2 1 {name=p158 lab=36}
 C {devices/lab_pin.sym} 960 -40 0 1 {name=p159 lab=b[3]}
 C {devices/ipin.sym} -570 -480 0 0 {name=p196 lab=p[14:0]}
 C {devices/opin.sym} -460 -480 0 0 {name=p197 lab=b[3:0] }
+C {devices/vsource.sym} -910 -130 0 0 {name=VDD1 value=1.8}
+C {devices/vdd.sym} -910 -160 0 0 {name=l18 lab=VDD}
+C {devices/gnd.sym} -910 -100 0 0 {name=l19 lab=GND}
