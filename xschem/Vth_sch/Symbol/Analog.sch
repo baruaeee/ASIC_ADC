@@ -242,7 +242,6 @@ C {devices/opin.sym} 130 -220 0 0 {name=p8 lab=V9}
 C {devices/opin.sym} 150 -150 0 0 {name=p9 lab=V11}
 C {devices/opin.sym} 180 -80 0 0 {name=p10 lab=V13}
 C {devices/opin.sym} 170 -10 0 0 {name=p11 lab=V15}
-C {Symbol/th01.sym} -150 -500 0 0 {name=x1}
 C {devices/opin.sym} 600 -490 0 0 {name=p4 lab=V2}
 C {devices/opin.sym} 650 -420 0 0 {name=p12 lab=V4}
 C {devices/opin.sym} 660 -350 0 0 {name=p13 lab=V6}
@@ -250,19 +249,20 @@ C {devices/opin.sym} 680 -280 0 0 {name=p14 lab=V8}
 C {devices/opin.sym} 700 -210 0 0 {name=p15 lab=V10}
 C {devices/opin.sym} 720 -140 0 0 {name=p16 lab=V12}
 C {devices/opin.sym} 750 -70 0 0 {name=p17 lab=V14}
-C {Symbol/th02.sym} 420 -490 0 0 {name=x2}
-C {Symbol/th03.sym} -130 -430 0 0 {name=x3}
-C {Symbol/th04.sym} 440 -420 0 0 {name=x4}
-C {Symbol/th05.sym} -110 -360 0 0 {name=x5}
-C {Symbol/th06.sym} 460 -350 0 0 {name=x6}
-C {Symbol/th07.sym} -90 -290 0 0 {name=x7}
-C {Symbol/th08.sym} 480 -280 0 0 {name=x8}
-C {Symbol/th09.sym} -70 -220 0 0 {name=x9}
-C {Symbol/th10.sym} 500 -210 0 0 {name=x10}
-C {Symbol/th11.sym} -50 -150 0 0 {name=x11}
-C {Symbol/th12.sym} 520 -140 0 0 {name=x12}
-C {Symbol/th13.sym} -30 -80 0 0 {name=x13}
-C {Symbol/th14.sym} 540 -70 0 0 {name=x14}
-C {Symbol/th15.sym} -10 -10 0 0 {name=x15}
 C {devices/iopin.sym} 150 -540 3 0 {name=p3 lab=Vp}
 C {devices/iopin.sym} 280 10 3 0 {name=p18 lab=Vn}
+C {th01.sym} -150 -500 0 0 {name=x1}
+C {th02.sym} 420 -490 0 0 {name=x2}
+C {th03.sym} -130 -430 0 0 {name=x3}
+C {th04.sym} 440 -420 0 0 {name=x4}
+C {th05.sym} -110 -360 0 0 {name=x5}
+C {th06.sym} 460 -350 0 0 {name=x6}
+C {th07.sym} -90 -290 0 0 {name=x7}
+C {th08.sym} 480 -280 0 0 {name=x8}
+C {th09.sym} -70 -220 0 0 {name=x9}
+C {th10.sym} 500 -210 0 0 {name=x10}
+C {th11.sym} -50 -150 0 0 {name=x11}
+C {th12.sym} 520 -140 0 0 {name=x12}
+C {th13.sym} -30 -80 0 0 {name=x13}
+C {th14.sym} 540 -70 0 0 {name=x14}
+C {th15.sym} -10 -10 0 0 {name=x15}

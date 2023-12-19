@@ -50,8 +50,8 @@ spice_ignore=false}
 C {devices/opin.sym} 450 270 0 0 {name=p199 lab=b0 }
 C {devices/vsource.sym} 100 300 0 0 {name=Vin value=0}
 C {devices/gnd.sym} 100 330 0 0 {name=l3 lab=GND}
-C {Symbol/analog_therm.sym} 300 300 0 0 {name=x1}
 C {devices/opin.sym} 450 290 0 0 {name=p1 lab=b1}
 C {devices/opin.sym} 450 310 0 0 {name=p2 lab=b2}
 C {devices/opin.sym} 450 330 0 0 {name=p3 lab=b3}
 C {devices/ipin.sym} 100 250 2 1 {name=p4 lab=Vin}
+C {analog_therm.sym} 300 300 0 0 {name=x1}
