@@ -231,7 +231,6 @@ C {sky130_stdcells/nand2_1.sym} 1400 60 0 0 {name=x39 VGND=VGND VNB=VNB VPB=VPB 
 C {devices/lab_pin.sym} 1340 40 2 1 {name=p172 lab=34}
 C {devices/lab_pin.sym} 1340 80 2 1 {name=p173 lab=36}
 C {devices/opin.sym} 1580 0 0 0 {name=p199 lab=b0}
-C {Symbol/Analog.sym} -80 80 0 0 {name=x40}
 C {devices/ipin.sym} -230 -80 2 1 {name=p1 lab=Vin}
 C {devices/lab_pin.sym} -50 -60 0 1 {name=p2 lab=p0}
 C {devices/lab_pin.sym} -50 -40 0 1 {name=p3 lab=p1}
@@ -257,3 +256,4 @@ C {devices/code_shown.sym} -200 340 0 0 {name=SPICE only_toplevel=false value="
 vvpwr vpwr 0 dc 1.8
 vvgnd vgnd 0 dc 0
 "}
+C {Analog.sym} -80 80 0 0 {name=x40}

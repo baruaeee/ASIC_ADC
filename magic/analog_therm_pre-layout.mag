@@ -1,0 +1,10 @@
+magic
+tech sky130A
+timestamp 1702941827
+<< checkpaint >>
+rect -630 -330 9643 2726
+use analog_therm  x1
+timestamp 1702941818
+transform 1 0 19 0 1 1500
+box -19 -1200 8994 596
+<< end >>
