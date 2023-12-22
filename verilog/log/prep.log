@@ -1,0 +1,10 @@
+Qflow project preparation output log Thu Dec 21 20:55:36 2023
+
+--------------------------------
+Qflow project setup
+--------------------------------
+
+Technology set to sky130_fd_sc_hd
+Don't know about technology 'sky130_fd_sc_hd'
+Check /usr/share/qflow/tech/ for known technologies
+Error:  Cannot find tech init script /sky130_fd_sc_hd.sh to source
