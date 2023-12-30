@@ -1,0 +1,1187 @@
+cell 0 sky130_fd_sc_hd__buf_2_1
+left -184 right 184 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -138 -272
+   equiv name twfeed1 layer 1 -138 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed2 layer 1 -46 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed3 layer 1 46 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 138 -272
+   equiv name twfeed4 layer 1 138 272
+pin name A signal _47_[2] layer 1 -132 -38
+pin name X signal b[2] layer 1 53 -164
+cell 1 sky130_fd_sc_hd__buf_2_2
+left -184 right 184 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -138 -272
+   equiv name twfeed1 layer 1 -138 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed2 layer 1 -46 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed3 layer 1 46 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 138 -272
+   equiv name twfeed4 layer 1 138 272
+pin name A signal _47_[3] layer 1 -132 -38
+pin name X signal b[3] layer 1 53 -164
+cell 2 sky130_fd_sc_hd__dfrtp_1_1
+left -920 right 920 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -874 -272
+   equiv name twfeed1 layer 1 -874 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -782 -272
+   equiv name twfeed2 layer 1 -782 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 -690 -272
+   equiv name twfeed3 layer 1 -690 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 -598 -272
+   equiv name twfeed4 layer 1 -598 272
+pin name twfeed5 signal TW_PASS_THRU layer 1 -506 -272
+   equiv name twfeed5 layer 1 -506 272
+pin name twfeed6 signal TW_PASS_THRU layer 1 -414 -272
+   equiv name twfeed6 layer 1 -414 272
+pin name twfeed7 signal TW_PASS_THRU layer 1 -322 -272
+   equiv name twfeed7 layer 1 -322 272
+pin name twfeed8 signal TW_PASS_THRU layer 1 -230 -272
+   equiv name twfeed8 layer 1 -230 272
+pin name twfeed9 signal TW_PASS_THRU layer 1 -138 -272
+   equiv name twfeed9 layer 1 -138 272
+pin name twfeed10 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed10 layer 1 -46 272
+pin name twfeed11 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed11 layer 1 46 272
+pin name twfeed12 signal TW_PASS_THRU layer 1 138 -272
+   equiv name twfeed12 layer 1 138 272
+pin name twfeed13 signal TW_PASS_THRU layer 1 230 -272
+   equiv name twfeed13 layer 1 230 272
+pin name twfeed14 signal TW_PASS_THRU layer 1 322 -272
+   equiv name twfeed14 layer 1 322 272
+pin name twfeed15 signal TW_PASS_THRU layer 1 414 -272
+   equiv name twfeed15 layer 1 414 272
+pin name twfeed16 signal TW_PASS_THRU layer 1 506 -272
+   equiv name twfeed16 layer 1 506 272
+pin name twfeed17 signal TW_PASS_THRU layer 1 598 -272
+   equiv name twfeed17 layer 1 598 272
+pin name twfeed18 signal TW_PASS_THRU layer 1 690 -272
+   equiv name twfeed18 layer 1 690 272
+pin name twfeed19 signal TW_PASS_THRU layer 1 782 -272
+   equiv name twfeed19 layer 1 782 272
+pin name twfeed20 signal TW_PASS_THRU layer 1 874 -272
+   equiv name twfeed20 layer 1 874 272
+pin name CLK signal clk layer 1 -867 -12
+pin name D signal _0_[0] layer 1 -591 -44
+pin name Q signal _47_[0] layer 1 876 -166
+pin name RESET_B signal _1_ layer 1 578 -121
+cell 3 sky130_fd_sc_hd__dfrtp_1_2
+left -920 right 920 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -874 -272
+   equiv name twfeed1 layer 1 -874 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -782 -272
+   equiv name twfeed2 layer 1 -782 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 -690 -272
+   equiv name twfeed3 layer 1 -690 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 -598 -272
+   equiv name twfeed4 layer 1 -598 272
+pin name twfeed5 signal TW_PASS_THRU layer 1 -506 -272
+   equiv name twfeed5 layer 1 -506 272
+pin name twfeed6 signal TW_PASS_THRU layer 1 -414 -272
+   equiv name twfeed6 layer 1 -414 272
+pin name twfeed7 signal TW_PASS_THRU layer 1 -322 -272
+   equiv name twfeed7 layer 1 -322 272
+pin name twfeed8 signal TW_PASS_THRU layer 1 -230 -272
+   equiv name twfeed8 layer 1 -230 272
+pin name twfeed9 signal TW_PASS_THRU layer 1 -138 -272
+   equiv name twfeed9 layer 1 -138 272
+pin name twfeed10 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed10 layer 1 -46 272
+pin name twfeed11 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed11 layer 1 46 272
+pin name twfeed12 signal TW_PASS_THRU layer 1 138 -272
+   equiv name twfeed12 layer 1 138 272
+pin name twfeed13 signal TW_PASS_THRU layer 1 230 -272
+   equiv name twfeed13 layer 1 230 272
+pin name twfeed14 signal TW_PASS_THRU layer 1 322 -272
+   equiv name twfeed14 layer 1 322 272
+pin name twfeed15 signal TW_PASS_THRU layer 1 414 -272
+   equiv name twfeed15 layer 1 414 272
+pin name twfeed16 signal TW_PASS_THRU layer 1 506 -272
+   equiv name twfeed16 layer 1 506 272
+pin name twfeed17 signal TW_PASS_THRU layer 1 598 -272
+   equiv name twfeed17 layer 1 598 272
+pin name twfeed18 signal TW_PASS_THRU layer 1 690 -272
+   equiv name twfeed18 layer 1 690 272
+pin name twfeed19 signal TW_PASS_THRU layer 1 782 -272
+   equiv name twfeed19 layer 1 782 272
+pin name twfeed20 signal TW_PASS_THRU layer 1 874 -272
+   equiv name twfeed20 layer 1 874 272
+pin name CLK signal clk layer 1 -867 -12
+pin name D signal _0_[1] layer 1 -591 -44
+pin name Q signal _47_[1] layer 1 876 -166
+pin name RESET_B signal _1_ layer 1 578 -121
+cell 4 sky130_fd_sc_hd__dfrtp_1_3
+left -920 right 920 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -874 -272
+   equiv name twfeed1 layer 1 -874 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -782 -272
+   equiv name twfeed2 layer 1 -782 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 -690 -272
+   equiv name twfeed3 layer 1 -690 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 -598 -272
+   equiv name twfeed4 layer 1 -598 272
+pin name twfeed5 signal TW_PASS_THRU layer 1 -506 -272
+   equiv name twfeed5 layer 1 -506 272
+pin name twfeed6 signal TW_PASS_THRU layer 1 -414 -272
+   equiv name twfeed6 layer 1 -414 272
+pin name twfeed7 signal TW_PASS_THRU layer 1 -322 -272
+   equiv name twfeed7 layer 1 -322 272
+pin name twfeed8 signal TW_PASS_THRU layer 1 -230 -272
+   equiv name twfeed8 layer 1 -230 272
+pin name twfeed9 signal TW_PASS_THRU layer 1 -138 -272
+   equiv name twfeed9 layer 1 -138 272
+pin name twfeed10 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed10 layer 1 -46 272
+pin name twfeed11 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed11 layer 1 46 272
+pin name twfeed12 signal TW_PASS_THRU layer 1 138 -272
+   equiv name twfeed12 layer 1 138 272
+pin name twfeed13 signal TW_PASS_THRU layer 1 230 -272
+   equiv name twfeed13 layer 1 230 272
+pin name twfeed14 signal TW_PASS_THRU layer 1 322 -272
+   equiv name twfeed14 layer 1 322 272
+pin name twfeed15 signal TW_PASS_THRU layer 1 414 -272
+   equiv name twfeed15 layer 1 414 272
+pin name twfeed16 signal TW_PASS_THRU layer 1 506 -272
+   equiv name twfeed16 layer 1 506 272
+pin name twfeed17 signal TW_PASS_THRU layer 1 598 -272
+   equiv name twfeed17 layer 1 598 272
+pin name twfeed18 signal TW_PASS_THRU layer 1 690 -272
+   equiv name twfeed18 layer 1 690 272
+pin name twfeed19 signal TW_PASS_THRU layer 1 782 -272
+   equiv name twfeed19 layer 1 782 272
+pin name twfeed20 signal TW_PASS_THRU layer 1 874 -272
+   equiv name twfeed20 layer 1 874 272
+pin name CLK signal clk layer 1 -867 -12
+pin name D signal _0_[2] layer 1 -591 -44
+pin name Q signal _47_[2] layer 1 876 -166
+pin name RESET_B signal _1_ layer 1 578 -121
+cell 5 sky130_fd_sc_hd__dfrtp_1_4
+left -920 right 920 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -874 -272
+   equiv name twfeed1 layer 1 -874 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -782 -272
+   equiv name twfeed2 layer 1 -782 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 -690 -272
+   equiv name twfeed3 layer 1 -690 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 -598 -272
+   equiv name twfeed4 layer 1 -598 272
+pin name twfeed5 signal TW_PASS_THRU layer 1 -506 -272
+   equiv name twfeed5 layer 1 -506 272
+pin name twfeed6 signal TW_PASS_THRU layer 1 -414 -272
+   equiv name twfeed6 layer 1 -414 272
+pin name twfeed7 signal TW_PASS_THRU layer 1 -322 -272
+   equiv name twfeed7 layer 1 -322 272
+pin name twfeed8 signal TW_PASS_THRU layer 1 -230 -272
+   equiv name twfeed8 layer 1 -230 272
+pin name twfeed9 signal TW_PASS_THRU layer 1 -138 -272
+   equiv name twfeed9 layer 1 -138 272
+pin name twfeed10 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed10 layer 1 -46 272
+pin name twfeed11 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed11 layer 1 46 272
+pin name twfeed12 signal TW_PASS_THRU layer 1 138 -272
+   equiv name twfeed12 layer 1 138 272
+pin name twfeed13 signal TW_PASS_THRU layer 1 230 -272
+   equiv name twfeed13 layer 1 230 272
+pin name twfeed14 signal TW_PASS_THRU layer 1 322 -272
+   equiv name twfeed14 layer 1 322 272
+pin name twfeed15 signal TW_PASS_THRU layer 1 414 -272
+   equiv name twfeed15 layer 1 414 272
+pin name twfeed16 signal TW_PASS_THRU layer 1 506 -272
+   equiv name twfeed16 layer 1 506 272
+pin name twfeed17 signal TW_PASS_THRU layer 1 598 -272
+   equiv name twfeed17 layer 1 598 272
+pin name twfeed18 signal TW_PASS_THRU layer 1 690 -272
+   equiv name twfeed18 layer 1 690 272
+pin name twfeed19 signal TW_PASS_THRU layer 1 782 -272
+   equiv name twfeed19 layer 1 782 272
+pin name twfeed20 signal TW_PASS_THRU layer 1 874 -272
+   equiv name twfeed20 layer 1 874 272
+pin name CLK signal clk layer 1 -867 -12
+pin name D signal _0_[3] layer 1 -591 -44
+pin name Q signal _47_[3] layer 1 876 -166
+pin name RESET_B signal _1_ layer 1 578 -121
+cell 6 sky130_fd_sc_hd__nor3_4_1
+left -598 right 598 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -552 -272
+   equiv name twfeed1 layer 1 -552 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -460 -272
+   equiv name twfeed2 layer 1 -460 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 -368 -272
+   equiv name twfeed3 layer 1 -368 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 -276 -272
+   equiv name twfeed4 layer 1 -276 272
+pin name twfeed5 signal TW_PASS_THRU layer 1 -184 -272
+   equiv name twfeed5 layer 1 -184 272
+pin name twfeed6 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed6 layer 1 -92 272
+pin name twfeed7 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed7 layer 1 0 272
+pin name twfeed8 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed8 layer 1 92 272
+pin name twfeed9 signal TW_PASS_THRU layer 1 184 -272
+   equiv name twfeed9 layer 1 184 272
+pin name twfeed10 signal TW_PASS_THRU layer 1 276 -272
+   equiv name twfeed10 layer 1 276 272
+pin name twfeed11 signal TW_PASS_THRU layer 1 368 -272
+   equiv name twfeed11 layer 1 368 272
+pin name twfeed12 signal TW_PASS_THRU layer 1 460 -272
+   equiv name twfeed12 layer 1 460 272
+pin name twfeed13 signal TW_PASS_THRU layer 1 552 -272
+   equiv name twfeed13 layer 1 552 272
+pin name A signal p[12] layer 1 -407 -36
+pin name B signal p[13] layer 1 443 -36
+pin name C signal p[14] layer 1 263 -38
+pin name Y signal _2_ layer 1 552 -174
+cell 7 sky130_fd_sc_hd__nor2_1_1
+left -138 right 138 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed1 layer 1 -92 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed2 layer 1 0 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed3 layer 1 92 272
+pin name A signal p[10] layer 1 86 -32
+pin name B signal p[11] layer 1 -86 -32
+pin name Y signal _3_ layer 1 -2 -157
+cell 8 sky130_fd_sc_hd__nor2_1_2
+left -138 right 138 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed1 layer 1 -92 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed2 layer 1 0 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed3 layer 1 92 272
+pin name A signal p[8] layer 1 86 -32
+pin name B signal p[9] layer 1 -86 -32
+pin name Y signal _4_ layer 1 -2 -157
+cell 9 sky130_fd_sc_hd__nand3_1_1
+left -184 right 184 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -138 -272
+   equiv name twfeed1 layer 1 -138 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed2 layer 1 -46 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed3 layer 1 46 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 138 -272
+   equiv name twfeed4 layer 1 138 272
+pin name A signal _2_ layer 1 136 -40
+pin name B signal _3_ layer 1 26 -63
+pin name C signal _4_ layer 1 -140 -65
+pin name Y signal _5_ layer 1 42 -187
+cell 10 sky130_fd_sc_hd__nand4_1_1
+left -230 right 230 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -184 -272
+   equiv name twfeed1 layer 1 -184 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed2 layer 1 -92 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed3 layer 1 0 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed4 layer 1 92 272
+pin name twfeed5 signal TW_PASS_THRU layer 1 184 -272
+   equiv name twfeed5 layer 1 184 272
+pin name A signal p[0] layer 1 189 -6
+pin name B signal p[1] layer 1 5 -160
+pin name C signal p[2] layer 1 -90 -143
+pin name D signal p[3] layer 1 -180 -40
+pin name Y signal _6_ layer 1 143 -164
+cell 11 sky130_fd_sc_hd__clkinv_1_1
+left -138 right 138 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed1 layer 1 -92 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed2 layer 1 0 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed3 layer 1 92 272
+pin name A signal _6_ layer 1 -97 -102
+pin name Y signal _7_ layer 1 -3 -171
+cell 12 sky130_fd_sc_hd__clkinv_1_2
+left -138 right 138 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed1 layer 1 -92 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed2 layer 1 0 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed3 layer 1 92 272
+pin name A signal p[5] layer 1 -97 -102
+pin name Y signal _8_ layer 1 -3 -171
+cell 13 sky130_fd_sc_hd__clkinv_1_3
+left -138 right 138 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed1 layer 1 -92 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed2 layer 1 0 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed3 layer 1 92 272
+pin name A signal p[6] layer 1 -97 -102
+pin name Y signal _9_ layer 1 -3 -171
+cell 14 sky130_fd_sc_hd__clkinv_1_4
+left -138 right 138 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed1 layer 1 -92 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed2 layer 1 0 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed3 layer 1 92 272
+pin name A signal p[7] layer 1 -97 -102
+pin name Y signal _10_ layer 1 -3 -171
+cell 15 sky130_fd_sc_hd__nand4_1_2
+left -230 right 230 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -184 -272
+   equiv name twfeed1 layer 1 -184 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed2 layer 1 -92 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed3 layer 1 0 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed4 layer 1 92 272
+pin name twfeed5 signal TW_PASS_THRU layer 1 184 -272
+   equiv name twfeed5 layer 1 184 272
+pin name A signal _8_ layer 1 189 -6
+pin name B signal _9_ layer 1 5 -160
+pin name C signal _10_ layer 1 -90 -143
+pin name D signal p[4] layer 1 -180 -40
+pin name Y signal _11_ layer 1 143 -164
+cell 16 sky130_fd_sc_hd__nand2_1_1
+left -138 right 138 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed1 layer 1 -92 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed2 layer 1 0 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed3 layer 1 92 272
+pin name A signal p[4] layer 1 83 -32
+pin name B signal p[5] layer 1 -86 -34
+pin name Y signal _12_ layer 1 51 -158
+cell 17 sky130_fd_sc_hd__nand2_1_2
+left -138 right 138 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed1 layer 1 -92 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed2 layer 1 0 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed3 layer 1 92 272
+pin name A signal _10_ layer 1 83 -32
+pin name B signal p[6] layer 1 -86 -34
+pin name Y signal _13_ layer 1 51 -158
+cell 18 sky130_fd_sc_hd__o21ai_0_1
+left -184 right 184 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -138 -272
+   equiv name twfeed1 layer 1 -138 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed2 layer 1 -46 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed3 layer 1 46 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 138 -272
+   equiv name twfeed4 layer 1 138 272
+pin name A1 signal _12_ layer 1 -134 -15
+pin name A2 signal _13_ layer 1 -24 -28
+pin name B1 signal _11_ layer 1 140 32
+pin name Y signal _14_ layer 1 135 -149
+cell 19 sky130_fd_sc_hd__nand2_1_3
+left -138 right 138 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed1 layer 1 -92 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed2 layer 1 0 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed3 layer 1 92 272
+pin name A signal p[1] layer 1 83 -32
+pin name B signal p[2] layer 1 -86 -34
+pin name Y signal _15_ layer 1 51 -158
+cell 20 sky130_fd_sc_hd__or2_2_1
+left -230 right 230 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -184 -272
+   equiv name twfeed1 layer 1 -184 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed2 layer 1 -92 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed3 layer 1 0 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed4 layer 1 92 272
+pin name twfeed5 signal TW_PASS_THRU layer 1 184 -272
+   equiv name twfeed5 layer 1 184 272
+pin name A signal p[1] layer 1 -17 -63
+pin name B signal p[2] layer 1 -181 -63
+pin name X signal _16_ layer 1 91 -168
+cell 21 sky130_fd_sc_hd__nand2_1_4
+left -138 right 138 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed1 layer 1 -92 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed2 layer 1 0 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed3 layer 1 92 272
+pin name A signal _16_ layer 1 83 -32
+pin name B signal _15_ layer 1 -86 -34
+pin name Y signal _17_ layer 1 51 -158
+cell 22 sky130_fd_sc_hd__nor3_1_1
+left -184 right 184 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -138 -272
+   equiv name twfeed1 layer 1 -138 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed2 layer 1 -46 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed3 layer 1 46 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 138 -272
+   equiv name twfeed4 layer 1 138 272
+pin name A signal p[5] layer 1 140 -40
+pin name B signal p[6] layer 1 -27 -40
+pin name C signal p[7] layer 1 -133 -40
+pin name Y signal _18_ layer 1 35 -168
+cell 23 sky130_fd_sc_hd__nor3b_1_1
+left -276 right 276 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -230 -272
+   equiv name twfeed1 layer 1 -230 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -138 -272
+   equiv name twfeed2 layer 1 -138 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed3 layer 1 -46 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed4 layer 1 46 272
+pin name twfeed5 signal TW_PASS_THRU layer 1 138 -272
+   equiv name twfeed5 layer 1 138 272
+pin name twfeed6 signal TW_PASS_THRU layer 1 230 -272
+   equiv name twfeed6 layer 1 230 272
+pin name A signal p[3] layer 1 53 -11
+pin name B signal p[4] layer 1 -39 -11
+pin name C_N signal p[0] layer 1 156 -11
+pin name Y signal _19_ layer 1 -5 -176
+cell 24 sky130_fd_sc_hd__a32oi_1_1
+left -322 right 322 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -276 -272
+   equiv name twfeed1 layer 1 -276 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -184 -272
+   equiv name twfeed2 layer 1 -184 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed3 layer 1 -92 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed4 layer 1 0 272
+pin name twfeed5 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed5 layer 1 92 272
+pin name twfeed6 signal TW_PASS_THRU layer 1 184 -272
+   equiv name twfeed6 layer 1 184 272
+pin name twfeed7 signal TW_PASS_THRU layer 1 276 -272
+   equiv name twfeed7 layer 1 276 272
+pin name A1 signal _17_ layer 1 -11 -161
+pin name A2 signal _18_ layer 1 91 -131
+pin name A3 signal _19_ layer 1 186 -39
+pin name B1 signal _14_ layer 1 -135 -30
+pin name B2 signal _7_ layer 1 -279 -40
+pin name Y signal _20_ layer 1 -114 -179
+cell 25 sky130_fd_sc_hd__nor4_1_1
+left -230 right 230 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -184 -272
+   equiv name twfeed1 layer 1 -184 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed2 layer 1 -92 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed3 layer 1 0 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed4 layer 1 92 272
+pin name twfeed5 signal TW_PASS_THRU layer 1 184 -272
+   equiv name twfeed5 layer 1 184 272
+pin name A signal _9_ layer 1 187 -40
+pin name B signal _10_ layer 1 64 -40
+pin name C signal _12_ layer 1 -38 -31
+pin name D signal _6_ layer 1 -188 -65
+pin name Y signal _21_ layer 1 94 -168
+cell 26 sky130_fd_sc_hd__nor2_1_3
+left -138 right 138 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed1 layer 1 -92 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed2 layer 1 0 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed3 layer 1 92 272
+pin name A signal p[13] layer 1 86 -32
+pin name B signal p[14] layer 1 -86 -32
+pin name Y signal _22_ layer 1 -2 -157
+cell 27 sky130_fd_sc_hd__nand2_1_5
+left -138 right 138 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed1 layer 1 -92 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed2 layer 1 0 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed3 layer 1 92 272
+pin name A signal p[8] layer 1 83 -32
+pin name B signal p[9] layer 1 -86 -34
+pin name Y signal _23_ layer 1 51 -158
+cell 28 sky130_fd_sc_hd__nand2_1_6
+left -138 right 138 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed1 layer 1 -92 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed2 layer 1 0 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed3 layer 1 92 272
+pin name A signal p[10] layer 1 83 -32
+pin name B signal p[11] layer 1 -86 -34
+pin name Y signal _24_ layer 1 51 -158
+cell 29 sky130_fd_sc_hd__nor2_1_4
+left -138 right 138 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed1 layer 1 -92 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed2 layer 1 0 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed3 layer 1 92 272
+pin name A signal _23_ layer 1 86 -32
+pin name B signal _24_ layer 1 -86 -32
+pin name Y signal _25_ layer 1 -2 -157
+cell 30 sky130_fd_sc_hd__and2_2_1
+left -276 right 276 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -230 -272
+   equiv name twfeed1 layer 1 -230 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -138 -272
+   equiv name twfeed2 layer 1 -138 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed3 layer 1 -46 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed4 layer 1 46 272
+pin name twfeed5 signal TW_PASS_THRU layer 1 138 -272
+   equiv name twfeed5 layer 1 138 272
+pin name twfeed6 signal TW_PASS_THRU layer 1 230 -272
+   equiv name twfeed6 layer 1 230 272
+pin name A signal p[13] layer 1 -190 -32
+pin name B signal p[14] layer 1 -43 -32
+pin name X signal _26_ layer 1 112 -192
+cell 31 sky130_fd_sc_hd__o211ai_1_1
+left -276 right 276 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -230 -272
+   equiv name twfeed1 layer 1 -230 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -138 -272
+   equiv name twfeed2 layer 1 -138 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed3 layer 1 -46 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed4 layer 1 46 272
+pin name twfeed5 signal TW_PASS_THRU layer 1 138 -272
+   equiv name twfeed5 layer 1 138 272
+pin name twfeed6 signal TW_PASS_THRU layer 1 230 -272
+   equiv name twfeed6 layer 1 230 272
+pin name A1 signal _22_ layer 1 -228 -40
+pin name A2 signal _26_ layer 1 -118 -40
+pin name B1 signal p[12] layer 1 33 -40
+pin name C1 signal _25_ layer 1 150 -3
+pin name Y signal _27_ layer 1 188 -162
+cell 32 sky130_fd_sc_hd__clkinv_1_5
+left -138 right 138 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed1 layer 1 -92 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed2 layer 1 0 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed3 layer 1 92 272
+pin name A signal p[9] layer 1 -97 -102
+pin name Y signal _28_ layer 1 -3 -171
+cell 33 sky130_fd_sc_hd__nand4_1_3
+left -230 right 230 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -184 -272
+   equiv name twfeed1 layer 1 -184 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed2 layer 1 -92 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed3 layer 1 0 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed4 layer 1 92 272
+pin name twfeed5 signal TW_PASS_THRU layer 1 184 -272
+   equiv name twfeed5 layer 1 184 272
+pin name A signal _2_ layer 1 189 -6
+pin name B signal p[8] layer 1 5 -160
+pin name C signal _28_ layer 1 -90 -143
+pin name D signal _3_ layer 1 -180 -40
+pin name Y signal _29_ layer 1 143 -164
+cell 34 sky130_fd_sc_hd__clkinv_1_6
+left -138 right 138 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed1 layer 1 -92 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed2 layer 1 0 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed3 layer 1 92 272
+pin name A signal p[11] layer 1 -97 -102
+pin name Y signal _30_ layer 1 -3 -171
+cell 35 sky130_fd_sc_hd__and2_2_2
+left -276 right 276 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -230 -272
+   equiv name twfeed1 layer 1 -230 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -138 -272
+   equiv name twfeed2 layer 1 -138 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed3 layer 1 -46 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed4 layer 1 46 272
+pin name twfeed5 signal TW_PASS_THRU layer 1 138 -272
+   equiv name twfeed5 layer 1 138 272
+pin name twfeed6 signal TW_PASS_THRU layer 1 230 -272
+   equiv name twfeed6 layer 1 230 272
+pin name A signal p[8] layer 1 -190 -32
+pin name B signal p[9] layer 1 -43 -32
+pin name X signal _31_ layer 1 112 -192
+cell 36 sky130_fd_sc_hd__nand4_1_4
+left -230 right 230 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -184 -272
+   equiv name twfeed1 layer 1 -184 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed2 layer 1 -92 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed3 layer 1 0 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed4 layer 1 92 272
+pin name twfeed5 signal TW_PASS_THRU layer 1 184 -272
+   equiv name twfeed5 layer 1 184 272
+pin name A signal _2_ layer 1 189 -6
+pin name B signal p[10] layer 1 5 -160
+pin name C signal _31_ layer 1 -90 -143
+pin name D signal _30_ layer 1 -180 -40
+pin name Y signal _32_ layer 1 143 -164
+cell 37 sky130_fd_sc_hd__nand3_1_2
+left -184 right 184 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -138 -272
+   equiv name twfeed1 layer 1 -138 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed2 layer 1 -46 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed3 layer 1 46 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 138 -272
+   equiv name twfeed4 layer 1 138 272
+pin name A signal _27_ layer 1 136 -40
+pin name B signal _29_ layer 1 26 -63
+pin name C signal _32_ layer 1 -140 -65
+pin name Y signal _33_ layer 1 42 -187
+cell 38 sky130_fd_sc_hd__o2bb2ai_1_1
+left -322 right 322 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -276 -272
+   equiv name twfeed1 layer 1 -276 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -184 -272
+   equiv name twfeed2 layer 1 -184 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed3 layer 1 -92 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed4 layer 1 0 272
+pin name twfeed5 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed5 layer 1 92 272
+pin name twfeed6 signal TW_PASS_THRU layer 1 184 -272
+   equiv name twfeed6 layer 1 184 272
+pin name twfeed7 signal TW_PASS_THRU layer 1 276 -272
+   equiv name twfeed7 layer 1 276 272
+pin name A1_N signal _21_ layer 1 -270 -45
+pin name A2_N signal _33_ layer 1 -179 -145
+pin name B1 signal _5_ layer 1 270 -36
+pin name B2 signal _20_ layer 1 142 -32
+pin name Y signal _0_[0] layer 1 15 -150
+cell 39 sky130_fd_sc_hd__nand2_1_7
+left -138 right 138 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed1 layer 1 -92 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed2 layer 1 0 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed3 layer 1 92 272
+pin name A signal _19_ layer 1 83 -32
+pin name B signal _18_ layer 1 -86 -34
+pin name Y signal _34_ layer 1 51 -158
+cell 40 sky130_fd_sc_hd__nand4_1_5
+left -230 right 230 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -184 -272
+   equiv name twfeed1 layer 1 -184 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed2 layer 1 -92 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed3 layer 1 0 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed4 layer 1 92 272
+pin name twfeed5 signal TW_PASS_THRU layer 1 184 -272
+   equiv name twfeed5 layer 1 184 272
+pin name A signal _2_ layer 1 189 -6
+pin name B signal p[1] layer 1 5 -160
+pin name C signal _3_ layer 1 -90 -143
+pin name D signal _4_ layer 1 -180 -40
+pin name Y signal _35_ layer 1 143 -164
+cell 41 sky130_fd_sc_hd__nor3_1_2
+left -184 right 184 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -138 -272
+   equiv name twfeed1 layer 1 -138 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed2 layer 1 -46 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed3 layer 1 46 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 138 -272
+   equiv name twfeed4 layer 1 138 272
+pin name A signal _9_ layer 1 140 -40
+pin name B signal _10_ layer 1 -27 -40
+pin name C signal _12_ layer 1 -133 -40
+pin name Y signal _36_ layer 1 35 -168
+cell 42 sky130_fd_sc_hd__and2_2_3
+left -276 right 276 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -230 -272
+   equiv name twfeed1 layer 1 -230 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -138 -272
+   equiv name twfeed2 layer 1 -138 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed3 layer 1 -46 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed4 layer 1 46 272
+pin name twfeed5 signal TW_PASS_THRU layer 1 138 -272
+   equiv name twfeed5 layer 1 138 272
+pin name twfeed6 signal TW_PASS_THRU layer 1 230 -272
+   equiv name twfeed6 layer 1 230 272
+pin name A signal p[12] layer 1 -190 -32
+pin name B signal p[13] layer 1 -43 -32
+pin name X signal _37_ layer 1 112 -192
+cell 43 sky130_fd_sc_hd__nand4_1_6
+left -230 right 230 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -184 -272
+   equiv name twfeed1 layer 1 -184 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed2 layer 1 -92 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed3 layer 1 0 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed4 layer 1 92 272
+pin name twfeed5 signal TW_PASS_THRU layer 1 184 -272
+   equiv name twfeed5 layer 1 184 272
+pin name A signal _36_ layer 1 189 -6
+pin name B signal _7_ layer 1 5 -160
+pin name C signal _25_ layer 1 -90 -143
+pin name D signal _37_ layer 1 -180 -40
+pin name Y signal _38_ layer 1 143 -164
+cell 44 sky130_fd_sc_hd__nor2_1_5
+left -138 right 138 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed1 layer 1 -92 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed2 layer 1 0 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed3 layer 1 92 272
+pin name A signal p[11] layer 1 86 -32
+pin name B signal _23_ layer 1 -86 -32
+pin name Y signal _39_ layer 1 -2 -157
+cell 45 sky130_fd_sc_hd__nand3_1_3
+left -184 right 184 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -138 -272
+   equiv name twfeed1 layer 1 -138 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed2 layer 1 -46 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed3 layer 1 46 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 138 -272
+   equiv name twfeed4 layer 1 138 272
+pin name A signal _21_ layer 1 136 -40
+pin name B signal _2_ layer 1 26 -63
+pin name C signal _39_ layer 1 -140 -65
+pin name Y signal _40_ layer 1 42 -187
+cell 46 sky130_fd_sc_hd__nor3_1_3
+left -184 right 184 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -138 -272
+   equiv name twfeed1 layer 1 -138 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed2 layer 1 -46 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed3 layer 1 46 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 138 -272
+   equiv name twfeed4 layer 1 138 272
+pin name A signal p[7] layer 1 140 -40
+pin name B signal _12_ layer 1 -27 -40
+pin name C signal _6_ layer 1 -133 -40
+pin name Y signal _41_ layer 1 35 -168
+cell 47 sky130_fd_sc_hd__nand4_1_7
+left -230 right 230 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -184 -272
+   equiv name twfeed1 layer 1 -184 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed2 layer 1 -92 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed3 layer 1 0 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed4 layer 1 92 272
+pin name twfeed5 signal TW_PASS_THRU layer 1 184 -272
+   equiv name twfeed5 layer 1 184 272
+pin name A signal _41_ layer 1 189 -6
+pin name B signal _2_ layer 1 5 -160
+pin name C signal _3_ layer 1 -90 -143
+pin name D signal _4_ layer 1 -180 -40
+pin name Y signal _42_ layer 1 143 -164
+cell 48 sky130_fd_sc_hd__o2111ai_1_1
+left -322 right 322 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -276 -272
+   equiv name twfeed1 layer 1 -276 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -184 -272
+   equiv name twfeed2 layer 1 -184 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed3 layer 1 -92 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed4 layer 1 0 272
+pin name twfeed5 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed5 layer 1 92 272
+pin name twfeed6 signal TW_PASS_THRU layer 1 184 -272
+   equiv name twfeed6 layer 1 184 272
+pin name twfeed7 signal TW_PASS_THRU layer 1 276 -272
+   equiv name twfeed7 layer 1 276 272
+pin name A1 signal _35_ layer 1 268 -11
+pin name A2 signal _34_ layer 1 138 -11
+pin name B1 signal _42_ layer 1 12 -11
+pin name C1 signal _38_ layer 1 -85 -85
+pin name D1 signal _40_ layer 1 -192 -3
+pin name Y signal _0_[1] layer 1 -245 -158
+cell 49 sky130_fd_sc_hd__nand2_1_8
+left -138 right 138 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed1 layer 1 -92 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed2 layer 1 0 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed3 layer 1 92 272
+pin name A signal _36_ layer 1 83 -32
+pin name B signal _7_ layer 1 -86 -34
+pin name Y signal _43_ layer 1 51 -158
+cell 50 sky130_fd_sc_hd__nand2_1_9
+left -138 right 138 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed1 layer 1 -92 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed2 layer 1 0 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed3 layer 1 92 272
+pin name A signal _7_ layer 1 83 -32
+pin name B signal _18_ layer 1 -86 -34
+pin name Y signal _44_ layer 1 51 -158
+cell 51 sky130_fd_sc_hd__o21ai_0_2
+left -184 right 184 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -138 -272
+   equiv name twfeed1 layer 1 -138 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed2 layer 1 -46 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed3 layer 1 46 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 138 -272
+   equiv name twfeed4 layer 1 138 272
+pin name A1 signal _22_ layer 1 -134 -15
+pin name A2 signal _37_ layer 1 -24 -28
+pin name B1 signal _25_ layer 1 140 32
+pin name Y signal _45_ layer 1 135 -149
+cell 52 sky130_fd_sc_hd__o221ai_1_1
+left -322 right 322 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -276 -272
+   equiv name twfeed1 layer 1 -276 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -184 -272
+   equiv name twfeed2 layer 1 -184 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed3 layer 1 -92 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed4 layer 1 0 272
+pin name twfeed5 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed5 layer 1 92 272
+pin name twfeed6 signal TW_PASS_THRU layer 1 184 -272
+   equiv name twfeed6 layer 1 184 272
+pin name twfeed7 signal TW_PASS_THRU layer 1 276 -272
+   equiv name twfeed7 layer 1 276 272
+pin name A1 signal _5_ layer 1 259 -38
+pin name A2 signal _44_ layer 1 145 -40
+pin name B1 signal _45_ layer 1 -86 -40
+pin name B2 signal _43_ layer 1 29 -40
+pin name C1 signal _42_ layer 1 -267 -40
+pin name Y signal _0_[2] layer 1 -279 -171
+cell 53 sky130_fd_sc_hd__nand2_1_10
+left -138 right 138 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed1 layer 1 -92 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed2 layer 1 0 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed3 layer 1 92 272
+pin name A signal _39_ layer 1 83 -32
+pin name B signal _2_ layer 1 -86 -34
+pin name Y signal _46_ layer 1 51 -158
+cell 54 sky130_fd_sc_hd__a41oi_1_1
+left -322 right 322 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -276 -272
+   equiv name twfeed1 layer 1 -276 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -184 -272
+   equiv name twfeed2 layer 1 -184 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed3 layer 1 -92 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed4 layer 1 0 272
+pin name twfeed5 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed5 layer 1 92 272
+pin name twfeed6 signal TW_PASS_THRU layer 1 184 -272
+   equiv name twfeed6 layer 1 184 272
+pin name twfeed7 signal TW_PASS_THRU layer 1 276 -272
+   equiv name twfeed7 layer 1 276 272
+pin name A1 signal _29_ layer 1 264 -11
+pin name A2 signal _45_ layer 1 88 -30
+pin name A3 signal _46_ layer 1 -4 -30
+pin name A4 signal _5_ layer 1 -101 -9
+pin name B1 signal _43_ layer 1 -190 -9
+pin name Y signal _0_[3] layer 1 91 -196
+cell 55 sky130_fd_sc_hd__clkinv_1_7
+left -138 right 138 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -92 -272
+   equiv name twfeed1 layer 1 -92 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 0 -272
+   equiv name twfeed2 layer 1 0 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 92 -272
+   equiv name twfeed3 layer 1 92 272
+pin name A signal rst layer 1 -97 -102
+pin name Y signal _1_ layer 1 -3 -171
+cell 56 sky130_fd_sc_hd__buf_2_3
+left -184 right 184 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -138 -272
+   equiv name twfeed1 layer 1 -138 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed2 layer 1 -46 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed3 layer 1 46 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 138 -272
+   equiv name twfeed4 layer 1 138 272
+pin name A signal _47_[0] layer 1 -132 -38
+pin name X signal b[0] layer 1 53 -164
+cell 57 sky130_fd_sc_hd__buf_2_4
+left -184 right 184 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -138 -272
+   equiv name twfeed1 layer 1 -138 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed2 layer 1 -46 272
+pin name twfeed3 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed3 layer 1 46 272
+pin name twfeed4 signal TW_PASS_THRU layer 1 138 -272
+   equiv name twfeed4 layer 1 138 272
+pin name A signal _47_[1] layer 1 -132 -38
+pin name X signal b[1] layer 1 53 -164
+cell 58 sky130_fd_sc_hd__diode_2_1
+left -92 right 92 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed1 layer 1 -46 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed2 layer 1 46 272
+pin name DIODE signal clk layer 1 0 0
+cell 59 sky130_fd_sc_hd__diode_2_2
+left -92 right 92 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed1 layer 1 -46 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed2 layer 1 46 272
+pin name DIODE signal rst layer 1 0 0
+cell 60 sky130_fd_sc_hd__diode_2_3
+left -92 right 92 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed1 layer 1 -46 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed2 layer 1 46 272
+pin name DIODE signal p[0] layer 1 0 0
+cell 61 sky130_fd_sc_hd__diode_2_4
+left -92 right 92 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed1 layer 1 -46 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed2 layer 1 46 272
+pin name DIODE signal p[1] layer 1 0 0
+cell 62 sky130_fd_sc_hd__diode_2_5
+left -92 right 92 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed1 layer 1 -46 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed2 layer 1 46 272
+pin name DIODE signal p[2] layer 1 0 0
+cell 63 sky130_fd_sc_hd__diode_2_6
+left -92 right 92 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed1 layer 1 -46 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed2 layer 1 46 272
+pin name DIODE signal p[3] layer 1 0 0
+cell 64 sky130_fd_sc_hd__diode_2_7
+left -92 right 92 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed1 layer 1 -46 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed2 layer 1 46 272
+pin name DIODE signal p[4] layer 1 0 0
+cell 65 sky130_fd_sc_hd__diode_2_8
+left -92 right 92 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed1 layer 1 -46 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed2 layer 1 46 272
+pin name DIODE signal p[5] layer 1 0 0
+cell 66 sky130_fd_sc_hd__diode_2_9
+left -92 right 92 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed1 layer 1 -46 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed2 layer 1 46 272
+pin name DIODE signal p[6] layer 1 0 0
+cell 67 sky130_fd_sc_hd__diode_2_10
+left -92 right 92 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed1 layer 1 -46 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed2 layer 1 46 272
+pin name DIODE signal p[7] layer 1 0 0
+cell 68 sky130_fd_sc_hd__diode_2_11
+left -92 right 92 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed1 layer 1 -46 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed2 layer 1 46 272
+pin name DIODE signal p[8] layer 1 0 0
+cell 69 sky130_fd_sc_hd__diode_2_12
+left -92 right 92 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed1 layer 1 -46 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed2 layer 1 46 272
+pin name DIODE signal p[9] layer 1 0 0
+cell 70 sky130_fd_sc_hd__diode_2_13
+left -92 right 92 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed1 layer 1 -46 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed2 layer 1 46 272
+pin name DIODE signal p[10] layer 1 0 0
+cell 71 sky130_fd_sc_hd__diode_2_14
+left -92 right 92 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed1 layer 1 -46 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed2 layer 1 46 272
+pin name DIODE signal p[11] layer 1 0 0
+cell 72 sky130_fd_sc_hd__diode_2_15
+left -92 right 92 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed1 layer 1 -46 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed2 layer 1 46 272
+pin name DIODE signal p[12] layer 1 0 0
+cell 73 sky130_fd_sc_hd__diode_2_16
+left -92 right 92 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed1 layer 1 -46 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed2 layer 1 46 272
+pin name DIODE signal p[13] layer 1 0 0
+cell 74 sky130_fd_sc_hd__diode_2_17
+left -92 right 92 bottom -272 top 272
+pin name twfeed1 signal TW_PASS_THRU layer 1 -46 -272
+   equiv name twfeed1 layer 1 -46 272
+pin name twfeed2 signal TW_PASS_THRU layer 1 46 -272
+   equiv name twfeed2 layer 1 46 272
+pin name DIODE signal p[14] layer 1 0 0
+pad 1 name twpin_clk
+corners 4 -46 -34 -46 34 46 34 46 -34
+pin name clk signal clk layer 1 0 0
+
+pad 2 name twpin_rst
+corners 4 -46 -34 -46 34 46 34 46 -34
+pin name rst signal rst layer 1 0 0
+
+pad 3 name twpin_p[0]
+corners 4 -46 -34 -46 34 46 34 46 -34
+pin name p[0] signal p[0] layer 1 0 0
+
+pad 4 name twpin_p[1]
+corners 4 -46 -34 -46 34 46 34 46 -34
+pin name p[1] signal p[1] layer 1 0 0
+
+pad 5 name twpin_p[2]
+corners 4 -46 -34 -46 34 46 34 46 -34
+pin name p[2] signal p[2] layer 1 0 0
+
+pad 6 name twpin_p[3]
+corners 4 -46 -34 -46 34 46 34 46 -34
+pin name p[3] signal p[3] layer 1 0 0
+
+pad 7 name twpin_p[4]
+corners 4 -46 -34 -46 34 46 34 46 -34
+pin name p[4] signal p[4] layer 1 0 0
+
+pad 8 name twpin_p[5]
+corners 4 -46 -34 -46 34 46 34 46 -34
+pin name p[5] signal p[5] layer 1 0 0
+
+pad 9 name twpin_p[6]
+corners 4 -46 -34 -46 34 46 34 46 -34
+pin name p[6] signal p[6] layer 1 0 0
+
+pad 10 name twpin_p[7]
+corners 4 -46 -34 -46 34 46 34 46 -34
+pin name p[7] signal p[7] layer 1 0 0
+
+pad 11 name twpin_p[8]
+corners 4 -46 -34 -46 34 46 34 46 -34
+pin name p[8] signal p[8] layer 1 0 0
+
+pad 12 name twpin_p[9]
+corners 4 -46 -34 -46 34 46 34 46 -34
+pin name p[9] signal p[9] layer 1 0 0
+
+pad 13 name twpin_p[10]
+corners 4 -46 -34 -46 34 46 34 46 -34
+pin name p[10] signal p[10] layer 1 0 0
+
+pad 14 name twpin_p[11]
+corners 4 -46 -34 -46 34 46 34 46 -34
+pin name p[11] signal p[11] layer 1 0 0
+
+pad 15 name twpin_p[12]
+corners 4 -46 -34 -46 34 46 34 46 -34
+pin name p[12] signal p[12] layer 1 0 0
+
+pad 16 name twpin_p[13]
+corners 4 -46 -34 -46 34 46 34 46 -34
+pin name p[13] signal p[13] layer 1 0 0
+
+pad 17 name twpin_p[14]
+corners 4 -46 -34 -46 34 46 34 46 -34
+pin name p[14] signal p[14] layer 1 0 0
+
+pad 18 name twpin_b[0]
+corners 4 -46 -34 -46 34 46 34 46 -34
+pin name b[0] signal b[0] layer 1 0 0
+
+pad 19 name twpin_b[1]
+corners 4 -46 -34 -46 34 46 34 46 -34
+pin name b[1] signal b[1] layer 1 0 0
+
+pad 20 name twpin_b[2]
+corners 4 -46 -34 -46 34 46 34 46 -34
+pin name b[2] signal b[2] layer 1 0 0
+
+pad 21 name twpin_b[3]
+corners 4 -46 -34 -46 34 46 34 46 -34
+pin name b[3] signal b[3] layer 1 0 0
+
+padgroup p_vector permute
+twpin_p[0]  nonfixed
+twpin_p[1]  nonfixed
+twpin_p[2]  nonfixed
+twpin_p[3]  nonfixed
+twpin_p[4]  nonfixed
+twpin_p[5]  nonfixed
+twpin_p[6]  nonfixed
+twpin_p[7]  nonfixed
+twpin_p[8]  nonfixed
+twpin_p[9]  nonfixed
+twpin_p[10]  nonfixed
+twpin_p[11]  nonfixed
+twpin_p[12]  nonfixed
+twpin_p[13]  nonfixed
+twpin_p[14]  nonfixed
+restrict side L
+
+padgroup b_vector permute
+twpin_b[0]  nonfixed
+twpin_b[1]  nonfixed
+twpin_b[2]  nonfixed
+twpin_b[3]  nonfixed
+restrict side R
+

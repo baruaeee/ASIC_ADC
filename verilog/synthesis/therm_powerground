@@ -1,0 +1,2 @@
+set vddnet="VPWR"
+set gndnet="VNB"
