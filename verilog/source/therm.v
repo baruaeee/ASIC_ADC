@@ -1,1 +1,1 @@
-../therm.v
+../../../OpenLane/designs/therm/src/therm.v
