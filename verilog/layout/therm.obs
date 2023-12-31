@@ -1,0 +1,12 @@
+obstruction -1.84 27.54 23.46 28.22 li1
+obstruction -1.84 -1.36 23.46 -0.06 li1
+obstruction -1.84 -1.36 0.0 28.22 li1
+obstruction 22.08 -1.36 23.46 28.22 li1
+obstruction -1.84 -0.06 0.0 27.54 met2
+obstruction 22.08 -0.06 23.46 27.54 met2
+obstruction -1.84 -0.06 0.0 27.54 met4
+obstruction 22.08 -0.06 23.46 27.54 met4
+obstruction 0.0 27.54 22.08 28.22 met1
+obstruction 0.0 -1.36 22.08 -0.06 met1
+obstruction 0.0 27.54 22.08 28.22 met3
+obstruction 0.0 -1.36 22.08 -0.06 met3

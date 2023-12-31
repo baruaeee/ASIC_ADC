@@ -1,144 +1,324 @@
 * NGSPICE file created from thermometer_to_binary.ext - technology: scmos
 
-* Black-box entry subcircuit for AND2X2 abstract view
-.subckt AND2X2 A B gnd Y vdd
+* Black-box entry subcircuit for sky130_fd_sc_ms__nand3_1 abstract view
+.subckt sky130_fd_sc_ms__nand3_1 VGND VNB VPB VPWR
 .ends
 
-* Black-box entry subcircuit for NAND2X1 abstract view
-.subckt NAND2X1 A B gnd Y vdd
+* Black-box entry subcircuit for sky130_fd_sc_ms__fill_4 abstract view
+.subckt sky130_fd_sc_ms__fill_4 VGND VNB VPB VPWR
 .ends
 
-* Black-box entry subcircuit for INVX1 abstract view
-.subckt INVX1 A gnd Y vdd
+* Black-box entry subcircuit for sky130_fd_sc_ms__nor3b_1 abstract view
+.subckt sky130_fd_sc_ms__nor3b_1 VGND VNB VPB VPWR
 .ends
 
-* Black-box entry subcircuit for FILL abstract view
-.subckt FILL gnd vdd
+* Black-box entry subcircuit for sky130_fd_sc_ms__fill_1 abstract view
+.subckt sky130_fd_sc_ms__fill_1 VGND VNB VPB VPWR
 .ends
 
-* Black-box entry subcircuit for AOI22X1 abstract view
-.subckt AOI22X1 A B C D gnd Y vdd
+* Black-box entry subcircuit for sky130_fd_sc_ms__diode_2 abstract view
+.subckt sky130_fd_sc_ms__diode_2 VGND VNB VPB VPWR
 .ends
 
-* Black-box entry subcircuit for NOR3X1 abstract view
-.subckt NOR3X1 A B C gnd Y vdd
+* Black-box entry subcircuit for sky130_fd_sc_ms__nor2_1 abstract view
+.subckt sky130_fd_sc_ms__nor2_1 VGND VNB VPB VPWR
 .ends
 
-* Black-box entry subcircuit for NAND3X1 abstract view
-.subckt NAND3X1 A B C gnd Y vdd
+* Black-box entry subcircuit for sky130_fd_sc_ms__nand3b_1 abstract view
+.subckt sky130_fd_sc_ms__nand3b_1 VGND VNB VPB VPWR
 .ends
 
-* Black-box entry subcircuit for XOR2X1 abstract view
-.subckt XOR2X1 A B gnd Y vdd
+* Black-box entry subcircuit for sky130_fd_sc_ms__and2_1 abstract view
+.subckt sky130_fd_sc_ms__and2_1 VGND VNB VPB VPWR
 .ends
 
-* Black-box entry subcircuit for OAI21X1 abstract view
-.subckt OAI21X1 A B C gnd Y vdd
+* Black-box entry subcircuit for sky130_fd_sc_ms__nor3_4 abstract view
+.subckt sky130_fd_sc_ms__nor3_4 VGND VNB VPB VPWR
 .ends
 
-* Black-box entry subcircuit for BUFX2 abstract view
-.subckt BUFX2 A gnd Y vdd
+* Black-box entry subcircuit for sky130_fd_sc_ms__buf_1 abstract view
+.subckt sky130_fd_sc_ms__buf_1 VGND VNB VPB VPWR
 .ends
 
-* Black-box entry subcircuit for AOI21X1 abstract view
-.subckt AOI21X1 A B C gnd Y vdd
+* Black-box entry subcircuit for sky130_fd_sc_ms__nand2_1 abstract view
+.subckt sky130_fd_sc_ms__nand2_1 VGND VNB VPB VPWR
 .ends
 
-* Black-box entry subcircuit for NOR2X1 abstract view
-.subckt NOR2X1 A B gnd Y vdd
+* Black-box entry subcircuit for sky130_fd_sc_ms__nor2b_1 abstract view
+.subckt sky130_fd_sc_ms__nor2b_1 VGND VNB VPB VPWR
 .ends
 
-* Black-box entry subcircuit for OR2X2 abstract view
-.subckt OR2X2 A B gnd Y vdd
+* Black-box entry subcircuit for sky130_fd_sc_ms__clkinv_1 abstract view
+.subckt sky130_fd_sc_ms__clkinv_1 VGND VNB VPB VPWR
 .ends
 
-.subckt thermometer_to_binary vdd gnd p[0] p[1] p[2] p[3] p[4] p[5] p[6] p[7] p[8]
-+ p[9] p[10] p[11] p[12] p[13] p[14] b[0] b[1] b[2] b[3]
-XAND2X2_5 p[12] p[13] gnd AND2X2_5/Y vdd AND2X2
-XNAND2X1_10 p[4] p[5] gnd NOR2X1_4/B vdd NAND2X1
-XINVX1_6 p[9] gnd INVX1_6/Y vdd INVX1
-XFILL_0_0_0 gnd vdd FILL
-XAOI22X1_1 AND2X2_2/Y OAI21X1_6/C AND2X2_4/Y NOR2X1_3/Y gnd NAND3X1_4/C vdd AOI22X1
-XNAND2X1_11 p[6] p[7] gnd NOR2X1_13/B vdd NAND2X1
-XINVX1_7 p[11] gnd INVX1_7/Y vdd INVX1
-XFILL_0_0_1 gnd vdd FILL
-XNAND2X1_12 p[8] p[9] gnd OR2X2_3/A vdd NAND2X1
-XFILL_3_0_0 gnd vdd FILL
-XNAND2X1_14 p[14] AND2X2_5/Y gnd AOI21X1_3/A vdd NAND2X1
-XNAND2X1_13 p[10] p[11] gnd OR2X2_3/B vdd NAND2X1
-XNOR3X1_1 NOR3X1_1/A NOR3X1_1/B XOR2X1_1/Y gnd NOR3X1_1/Y vdd NOR3X1
-XNAND2X1_15 p[12] NOR2X1_7/Y gnd AOI21X1_3/B vdd NAND2X1
-XFILL_3_0_1 gnd vdd FILL
-XFILL_1_1_0 gnd vdd FILL
-XNAND3X1_1 p[10] INVX1_7/Y AND2X2_1/Y gnd NAND3X1_1/Y vdd NAND3X1
-XXOR2X1_1 p[1] p[2] gnd XOR2X1_1/Y vdd XOR2X1
-XFILL_1_1_1 gnd vdd FILL
-XNAND3X1_2 p[1] NOR2X1_1/Y OAI21X1_6/C gnd NAND3X1_4/A vdd NAND3X1
-XNAND3X1_3 NOR2X1_2/Y AND2X2_5/Y AND2X2_4/Y gnd NAND3X1_4/B vdd NAND3X1
-XNAND3X1_4 NAND3X1_4/A NAND3X1_4/B NAND3X1_4/C gnd BUFX2_2/A vdd NAND3X1
-XOAI21X1_1 OAI21X1_1/A OAI21X1_1/B AND2X2_4/Y gnd OAI21X1_1/Y vdd OAI21X1
-XOAI21X1_2 AND2X2_5/Y NOR2X1_7/Y NOR2X1_2/Y gnd OR2X2_1/A vdd OAI21X1
-XNAND3X1_5 NAND3X1_5/A OR2X2_1/Y OAI21X1_5/Y gnd BUFX2_4/A vdd NAND3X1
-XOAI21X1_3 NOR2X1_5/Y AND2X2_2/Y OAI21X1_6/C gnd OAI21X1_4/C vdd OAI21X1
-XNAND3X1_6 p[4] INVX1_2/Y NOR2X1_11/Y gnd NAND3X1_6/Y vdd NAND3X1
-XNAND3X1_7 p[6] INVX1_3/Y AND2X2_3/Y gnd NAND3X1_7/Y vdd NAND3X1
-XBUFX2_1 BUFX2_1/A gnd b[0] vdd BUFX2
-XBUFX2_2 BUFX2_2/A gnd b[1] vdd BUFX2
-XOAI21X1_4 OR2X2_1/B OR2X2_1/A OAI21X1_4/C gnd BUFX2_3/A vdd OAI21X1
-XFILL_3_1 gnd vdd FILL
-XAOI21X1_1 NOR2X1_6/B NAND3X1_1/Y NOR2X1_6/A gnd OAI21X1_1/A vdd AOI21X1
-XAOI21X1_2 NAND3X1_6/Y NAND3X1_7/Y OR2X2_2/Y gnd OAI21X1_6/A vdd AOI21X1
-XNAND3X1_8 p[0] INVX1_4/Y INVX1_5/Y gnd NOR3X1_1/B vdd NAND3X1
-XBUFX2_3 BUFX2_3/A gnd b[2] vdd BUFX2
-XAOI21X1_3 AOI21X1_3/A AOI21X1_3/B OR2X2_3/Y gnd OAI21X1_1/B vdd AOI21X1
-XOAI21X1_5 NOR2X1_6/Y OAI21X1_6/C AND2X2_4/Y gnd OAI21X1_5/Y vdd OAI21X1
-XNAND3X1_9 p[8] INVX1_6/Y NOR2X1_8/Y gnd NOR2X1_6/B vdd NAND3X1
-XOAI21X1_6 OAI21X1_6/A NOR3X1_1/Y OAI21X1_6/C gnd OAI21X1_6/Y vdd OAI21X1
-XNOR2X1_1 NOR3X1_1/B NOR3X1_1/A gnd NOR2X1_1/Y vdd NOR2X1
-XFILL_2_0_0 gnd vdd FILL
-XNOR2X1_2 OR2X2_3/A OR2X2_3/B gnd NOR2X1_2/Y vdd NOR2X1
-XBUFX2_4 BUFX2_4/A gnd b[3] vdd BUFX2
-XNOR2X1_3 NOR2X1_6/A NOR2X1_3/B gnd NOR2X1_3/Y vdd NOR2X1
-XFILL_2_0_1 gnd vdd FILL
-XFILL_1_1 gnd vdd FILL
-XNOR2X1_4 p[7] NOR2X1_4/B gnd NOR2X1_4/Y vdd NOR2X1
-XFILL_0_1_0 gnd vdd FILL
-XNAND2X1_1 OAI21X1_6/Y OAI21X1_1/Y gnd BUFX2_1/A vdd NAND2X1
-XNOR2X1_5 NOR3X1_1/A OR2X2_2/Y gnd NOR2X1_5/Y vdd NOR2X1
-XFILL_0_1_1 gnd vdd FILL
-XNAND2X1_2 INVX1_7/Y AND2X2_1/Y gnd NOR2X1_3/B vdd NAND2X1
-XFILL_3_1_0 gnd vdd FILL
-XNAND2X1_3 AND2X2_4/A AND2X2_4/B gnd OR2X2_1/B vdd NAND2X1
-XNOR2X1_6 NOR2X1_6/A NOR2X1_6/B gnd NOR2X1_6/Y vdd NOR2X1
-XNOR2X1_7 p[13] p[14] gnd NOR2X1_7/Y vdd NOR2X1
-XNAND2X1_5 INVX1_1/Y NOR2X1_7/Y gnd NOR2X1_6/A vdd NAND2X1
-XFILL_3_1_1 gnd vdd FILL
-XNAND2X1_4 NOR2X1_3/Y AND2X2_4/Y gnd NAND3X1_5/A vdd NAND2X1
-XNOR2X1_9 p[8] p[9] gnd NOR2X1_9/Y vdd NOR2X1
-XNAND2X1_6 NOR2X1_8/Y NOR2X1_9/Y gnd NOR2X1_10/B vdd NAND2X1
-XNOR2X1_8 p[10] p[11] gnd NOR2X1_8/Y vdd NOR2X1
-XNAND2X1_7 p[1] p[2] gnd OR2X2_2/A vdd NAND2X1
-XNAND2X1_8 p[0] p[3] gnd OR2X2_2/B vdd NAND2X1
-XNAND2X1_9 INVX1_2/Y NOR2X1_11/Y gnd NOR3X1_1/A vdd NAND2X1
-XNOR2X1_10 NOR2X1_6/A NOR2X1_10/B gnd OAI21X1_6/C vdd NOR2X1
-XNOR2X1_11 p[6] p[7] gnd NOR2X1_11/Y vdd NOR2X1
-XFILL_1_0_1 gnd vdd FILL
-XFILL_1_0_0 gnd vdd FILL
-XNOR2X1_12 OR2X2_2/A OR2X2_2/B gnd AND2X2_4/A vdd NOR2X1
-XNOR2X1_13 NOR2X1_4/B NOR2X1_13/B gnd AND2X2_4/B vdd NOR2X1
-XFILL_2_1_0 gnd vdd FILL
-XINVX1_1 p[12] gnd INVX1_1/Y vdd INVX1
-XFILL_2_1_1 gnd vdd FILL
-XAND2X2_1 p[8] p[9] gnd AND2X2_1/Y vdd AND2X2
-XAND2X2_2 AND2X2_4/A NOR2X1_4/Y gnd AND2X2_2/Y vdd AND2X2
-XINVX1_2 p[5] gnd INVX1_2/Y vdd INVX1
-XOR2X2_1 OR2X2_1/A OR2X2_1/B gnd OR2X2_1/Y vdd OR2X2
-XAND2X2_3 p[4] p[5] gnd AND2X2_3/Y vdd AND2X2
-XINVX1_3 p[7] gnd INVX1_3/Y vdd INVX1
-XAND2X2_4 AND2X2_4/A AND2X2_4/B gnd AND2X2_4/Y vdd AND2X2
-XINVX1_5 p[4] gnd INVX1_5/Y vdd INVX1
-XOR2X2_3 OR2X2_3/A OR2X2_3/B gnd OR2X2_3/Y vdd OR2X2
-XOR2X2_2 OR2X2_2/A OR2X2_2/B gnd OR2X2_2/Y vdd OR2X2
-XINVX1_4 p[3] gnd INVX1_4/Y vdd INVX1
+* Black-box entry subcircuit for sky130_fd_sc_ms__a41oi_1 abstract view
+.subckt sky130_fd_sc_ms__a41oi_1 VGND VNB VPB VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_ms__o2111ai_1 abstract view
+.subckt sky130_fd_sc_ms__o2111ai_1 VGND VNB VPB VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_ms__o221ai_1 abstract view
+.subckt sky130_fd_sc_ms__o221ai_1 VGND VNB VPB VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_ms__or2b_2 abstract view
+.subckt sky130_fd_sc_ms__or2b_2 VGND VNB VPB VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_ms__dfrtp_1 abstract view
+.subckt sky130_fd_sc_ms__dfrtp_1 RESET_B VGND VNB VPB VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_ms__o21bai_1 abstract view
+.subckt sky130_fd_sc_ms__o21bai_1 VGND VNB VPB VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_ms__nand4_1 abstract view
+.subckt sky130_fd_sc_ms__nand4_1 VGND VNB VPB VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_ms__o2bb2ai_1 abstract view
+.subckt sky130_fd_sc_ms__o2bb2ai_1 VGND VNB VPB VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_ms__nor3_1 abstract view
+.subckt sky130_fd_sc_ms__nor3_1 VGND VNB VPB VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_ms__a2bb2oi_1 abstract view
+.subckt sky130_fd_sc_ms__a2bb2oi_1 VGND VNB VPB VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_ms__and3_1 abstract view
+.subckt sky130_fd_sc_ms__and3_1 VGND VNB VPB VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_ms__o21ai_1 abstract view
+.subckt sky130_fd_sc_ms__o21ai_1 VGND VNB VPB VPWR
+.ends
+
+.subckt thermometer_to_binary VPWR VGND clk rst p[0] p[1] p[2] p[3] p[4] p[5] p[6]
++ p[7] p[8] p[9] p[10] p[11] p[12] p[13] p[14] b[0] b[1] b[2] b[3]
+Xsky130_fd_sc_ms__nand3_1_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_4/VPB
++ VPWR sky130_fd_sc_ms__nand3_1
+Xsky130_fd_sc_ms__fill_4_5_1_0 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_3/VPB
++ VPWR sky130_fd_sc_ms__fill_4
+Xsky130_fd_sc_ms__nand3_1_2 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__and3_1_1/VPB
++ VPWR sky130_fd_sc_ms__nand3_1
+Xsky130_fd_sc_ms__nand3_1_3 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_4/VPB
++ VPWR sky130_fd_sc_ms__nand3_1
+Xsky130_fd_sc_ms__nor3b_1_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__nor2_1_9/VPB
++ VPWR sky130_fd_sc_ms__nor3b_1
+Xsky130_fd_sc_ms__fill_1_2_1_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_4/VPB
++ VPWR sky130_fd_sc_ms__fill_1
+Xsky130_fd_sc_ms__diode_2_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_3/VPB
++ VPWR sky130_fd_sc_ms__diode_2
+Xsky130_fd_sc_ms__fill_1_5_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__and3_1_1/VPB
++ VPWR sky130_fd_sc_ms__fill_1
+Xsky130_fd_sc_ms__nor2_1_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_4/VPB
++ VPWR sky130_fd_sc_ms__nor2_1
+Xsky130_fd_sc_ms__fill_4_0_0_0 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__nor2_1_9/VPB
++ VPWR sky130_fd_sc_ms__fill_4
+Xsky130_fd_sc_ms__nand3_1_4 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_4/VPB
++ VPWR sky130_fd_sc_ms__nand3_1
+Xsky130_fd_sc_ms__nand3b_1_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__and3_1_1/VPB
++ VPWR sky130_fd_sc_ms__nand3b_1
+Xsky130_fd_sc_ms__diode_2_2 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__and3_1_1/VPB
++ VPWR sky130_fd_sc_ms__diode_2
+Xsky130_fd_sc_ms__nor2_1_2 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__nor2_1_9/VPB
++ VPWR sky130_fd_sc_ms__nor2_1
+Xsky130_fd_sc_ms__nand3_1_5 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_4/VPB
++ VPWR sky130_fd_sc_ms__nand3_1
+Xsky130_fd_sc_ms__and2_1_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_4/VPB
++ VPWR sky130_fd_sc_ms__and2_1
+Xsky130_fd_sc_ms__nand3b_1_2 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__and3_1_1/VPB
++ VPWR sky130_fd_sc_ms__nand3b_1
+Xsky130_fd_sc_ms__diode_2_3 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__and3_1_1/VPB
++ VPWR sky130_fd_sc_ms__diode_2
+Xsky130_fd_sc_ms__nor2_1_3 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_3/VPB
++ VPWR sky130_fd_sc_ms__nor2_1
+Xsky130_fd_sc_ms__nor3_4_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_4/VPB
++ VPWR sky130_fd_sc_ms__nor3_4
+Xsky130_fd_sc_ms__fill_1_5_1_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_3/VPB
++ VPWR sky130_fd_sc_ms__fill_1
+Xsky130_fd_sc_ms__and2_1_2 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_3/VPB
++ VPWR sky130_fd_sc_ms__and2_1
+Xsky130_fd_sc_ms__diode_2_4 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_4/VPB
++ VPWR sky130_fd_sc_ms__diode_2
+Xsky130_fd_sc_ms__nor2_1_4 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_4/VPB
++ VPWR sky130_fd_sc_ms__nor2_1
+Xsky130_fd_sc_ms__fill_1_3_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_4/VPB
++ VPWR sky130_fd_sc_ms__fill_1
+Xsky130_fd_sc_ms__fill_4_3_0_0 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__and3_1_1/VPB
++ VPWR sky130_fd_sc_ms__fill_4
+Xsky130_fd_sc_ms__and2_1_3 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__nor2_1_9/VPB
++ VPWR sky130_fd_sc_ms__and2_1
+Xsky130_fd_sc_ms__diode_2_5 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_4/VPB
++ VPWR sky130_fd_sc_ms__diode_2
+Xsky130_fd_sc_ms__nor2_1_5 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_4/VPB
++ VPWR sky130_fd_sc_ms__nor2_1
+Xsky130_fd_sc_ms__and2_1_4 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_4/VPB
++ VPWR sky130_fd_sc_ms__and2_1
+Xsky130_fd_sc_ms__diode_2_6 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__nor2_1_9/VPB
++ VPWR sky130_fd_sc_ms__diode_2
+Xsky130_fd_sc_ms__nor2_1_6 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_3/VPB
++ VPWR sky130_fd_sc_ms__nor2_1
+Xsky130_fd_sc_ms__fill_1_0_0_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__nor2_1_9/VPB
++ VPWR sky130_fd_sc_ms__fill_1
+Xsky130_fd_sc_ms__buf_1_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_3/VPB
++ VPWR sky130_fd_sc_ms__buf_1
+Xsky130_fd_sc_ms__fill_4_1_1_0 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_4/VPB
++ VPWR sky130_fd_sc_ms__fill_4
+Xsky130_fd_sc_ms__diode_2_7 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__and3_1_1/VPB
++ VPWR sky130_fd_sc_ms__diode_2
+Xsky130_fd_sc_ms__fill_4_6_0_0 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_3/VPB
++ VPWR sky130_fd_sc_ms__fill_4
+Xsky130_fd_sc_ms__nor2_1_7 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_3/VPB
++ VPWR sky130_fd_sc_ms__nor2_1
+Xsky130_fd_sc_ms__fill_1_1_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__nor2_1_9/VPB
++ VPWR sky130_fd_sc_ms__fill_1
+Xsky130_fd_sc_ms__buf_1_2 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_3/VPB
++ VPWR sky130_fd_sc_ms__buf_1
+Xsky130_fd_sc_ms__diode_2_8 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_3/VPB
++ VPWR sky130_fd_sc_ms__diode_2
+Xsky130_fd_sc_ms__nor2_1_8 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_3/VPB
++ VPWR sky130_fd_sc_ms__nor2_1
+Xsky130_fd_sc_ms__buf_1_3 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_3/VPB
++ VPWR sky130_fd_sc_ms__buf_1
+Xsky130_fd_sc_ms__diode_2_9 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_3/VPB
++ VPWR sky130_fd_sc_ms__diode_2
+Xsky130_fd_sc_ms__fill_1_3_0_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__and3_1_1/VPB
++ VPWR sky130_fd_sc_ms__fill_1
+Xsky130_fd_sc_ms__nor2_1_9 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__nor2_1_9/VPB
++ VPWR sky130_fd_sc_ms__nor2_1
+Xsky130_fd_sc_ms__buf_1_4 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_4/VPB
++ VPWR sky130_fd_sc_ms__buf_1
+Xsky130_fd_sc_ms__fill_4_4_1_0 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__and3_1_1/VPB
++ VPWR sky130_fd_sc_ms__fill_4
+Xsky130_fd_sc_ms__nand2_1_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_3/VPB
++ VPWR sky130_fd_sc_ms__nand2_1
+Xsky130_fd_sc_ms__nand2_1_2 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_3/VPB
++ VPWR sky130_fd_sc_ms__nand2_1
+Xsky130_fd_sc_ms__fill_1_1_1_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_4/VPB
++ VPWR sky130_fd_sc_ms__fill_1
+Xsky130_fd_sc_ms__nand2_1_3 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_4/VPB
++ VPWR sky130_fd_sc_ms__nand2_1
+Xsky130_fd_sc_ms__nor2b_1_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_3/VPB
++ VPWR sky130_fd_sc_ms__nor2b_1
+Xsky130_fd_sc_ms__fill_1_6_0_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_3/VPB
++ VPWR sky130_fd_sc_ms__fill_1
+Xsky130_fd_sc_ms__nand2_1_4 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__and3_1_1/VPB
++ VPWR sky130_fd_sc_ms__nand2_1
+Xsky130_fd_sc_ms__nor2b_1_2 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__and3_1_1/VPB
++ VPWR sky130_fd_sc_ms__nor2b_1
+Xsky130_fd_sc_ms__nor2b_1_3 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__nor2_1_9/VPB
++ VPWR sky130_fd_sc_ms__nor2b_1
+Xsky130_fd_sc_ms__nand2_1_5 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_4/VPB
++ VPWR sky130_fd_sc_ms__nand2_1
+Xsky130_fd_sc_ms__fill_1_4_1_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__and3_1_1/VPB
++ VPWR sky130_fd_sc_ms__fill_1
+Xsky130_fd_sc_ms__nor2b_1_4 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_4/VPB
++ VPWR sky130_fd_sc_ms__nor2b_1
+Xsky130_fd_sc_ms__fill_4_2_0_0 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_4/VPB
++ VPWR sky130_fd_sc_ms__fill_4
+Xsky130_fd_sc_ms__nor2b_1_5 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_4/VPB
++ VPWR sky130_fd_sc_ms__nor2b_1
+Xsky130_fd_sc_ms__clkinv_1_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_4/VPB
++ VPWR sky130_fd_sc_ms__clkinv_1
+Xsky130_fd_sc_ms__a41oi_1_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_4/VPB
++ VPWR sky130_fd_sc_ms__a41oi_1
+Xsky130_fd_sc_ms__fill_1_6_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_3/VPB
++ VPWR sky130_fd_sc_ms__fill_1
+Xsky130_fd_sc_ms__fill_4_0_1_0 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__nor2_1_9/VPB
++ VPWR sky130_fd_sc_ms__fill_4
+Xsky130_fd_sc_ms__clkinv_1_2 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_4/VPB
++ VPWR sky130_fd_sc_ms__clkinv_1
+Xsky130_fd_sc_ms__o2111ai_1_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__and3_1_1/VPB
++ VPWR sky130_fd_sc_ms__o2111ai_1
+Xsky130_fd_sc_ms__fill_4_5_0_0 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_3/VPB
++ VPWR sky130_fd_sc_ms__fill_4
+Xsky130_fd_sc_ms__fill_1_6_2 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_3/VPB
++ VPWR sky130_fd_sc_ms__fill_1
+Xsky130_fd_sc_ms__o221ai_1_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__and3_1_1/VPB
++ VPWR sky130_fd_sc_ms__o221ai_1
+Xsky130_fd_sc_ms__fill_1_2_0_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_4/VPB
++ VPWR sky130_fd_sc_ms__fill_1
+Xsky130_fd_sc_ms__fill_4_3_1_0 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__and3_1_1/VPB
++ VPWR sky130_fd_sc_ms__fill_4
+Xsky130_fd_sc_ms__fill_1_4_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__and3_1_1/VPB
++ VPWR sky130_fd_sc_ms__fill_1
+Xsky130_fd_sc_ms__or2b_2_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_3/VPB
++ VPWR sky130_fd_sc_ms__or2b_2
+Xsky130_fd_sc_ms__diode_2_10 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_3/VPB
++ VPWR sky130_fd_sc_ms__diode_2
+Xsky130_fd_sc_ms__dfrtp_1_1 sky130_fd_sc_ms__dfrtp_1_4/RESET_B VGND sky130_fd_sc_ms__buf_1_4/VNB
++ sky130_fd_sc_ms__buf_1_3/VPB VPWR sky130_fd_sc_ms__dfrtp_1
+Xsky130_fd_sc_ms__o21bai_1_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__nor2_1_9/VPB
++ VPWR sky130_fd_sc_ms__o21bai_1
+Xsky130_fd_sc_ms__diode_2_11 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__nor2_1_9/VPB
++ VPWR sky130_fd_sc_ms__diode_2
+Xsky130_fd_sc_ms__fill_1_0_1_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__nor2_1_9/VPB
++ VPWR sky130_fd_sc_ms__fill_1
+Xsky130_fd_sc_ms__dfrtp_1_2 sky130_fd_sc_ms__dfrtp_1_4/RESET_B VGND sky130_fd_sc_ms__buf_1_4/VNB
++ sky130_fd_sc_ms__and3_1_1/VPB VPWR sky130_fd_sc_ms__dfrtp_1
+Xsky130_fd_sc_ms__fill_1_5_0_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_3/VPB
++ VPWR sky130_fd_sc_ms__fill_1
+Xsky130_fd_sc_ms__fill_4_6_1_0 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_3/VPB
++ VPWR sky130_fd_sc_ms__fill_4
+Xsky130_fd_sc_ms__diode_2_12 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__nor2_1_9/VPB
++ VPWR sky130_fd_sc_ms__diode_2
+Xsky130_fd_sc_ms__nand4_1_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__nor2_1_9/VPB
++ VPWR sky130_fd_sc_ms__nand4_1
+Xsky130_fd_sc_ms__o2bb2ai_1_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_3/VPB
++ VPWR sky130_fd_sc_ms__o2bb2ai_1
+Xsky130_fd_sc_ms__dfrtp_1_3 sky130_fd_sc_ms__dfrtp_1_4/RESET_B VGND sky130_fd_sc_ms__buf_1_4/VNB
++ sky130_fd_sc_ms__buf_1_3/VPB VPWR sky130_fd_sc_ms__dfrtp_1
+Xsky130_fd_sc_ms__diode_2_13 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__nor2_1_9/VPB
++ VPWR sky130_fd_sc_ms__diode_2
+Xsky130_fd_sc_ms__nand4_1_2 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_4/VPB
++ VPWR sky130_fd_sc_ms__nand4_1
+Xsky130_fd_sc_ms__dfrtp_1_4 sky130_fd_sc_ms__dfrtp_1_4/RESET_B VGND sky130_fd_sc_ms__buf_1_4/VNB
++ sky130_fd_sc_ms__and3_1_1/VPB VPWR sky130_fd_sc_ms__dfrtp_1
+Xsky130_fd_sc_ms__o2bb2ai_1_2 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__and3_1_1/VPB
++ VPWR sky130_fd_sc_ms__o2bb2ai_1
+Xsky130_fd_sc_ms__diode_2_14 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__nor2_1_9/VPB
++ VPWR sky130_fd_sc_ms__diode_2
+Xsky130_fd_sc_ms__nand4_1_3 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_4/VPB
++ VPWR sky130_fd_sc_ms__nand4_1
+Xsky130_fd_sc_ms__fill_1_3_1_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__and3_1_1/VPB
++ VPWR sky130_fd_sc_ms__fill_1
+Xsky130_fd_sc_ms__nor3_1_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_3/VPB
++ VPWR sky130_fd_sc_ms__nor3_1
+Xsky130_fd_sc_ms__fill_4_1_0_0 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_4/VPB
++ VPWR sky130_fd_sc_ms__fill_4
+Xsky130_fd_sc_ms__diode_2_15 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__nor2_1_9/VPB
++ VPWR sky130_fd_sc_ms__diode_2
+Xsky130_fd_sc_ms__nand4_1_4 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_4/VPB
++ VPWR sky130_fd_sc_ms__nand4_1
+Xsky130_fd_sc_ms__a2bb2oi_1_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__and3_1_1/VPB
++ VPWR sky130_fd_sc_ms__a2bb2oi_1
+Xsky130_fd_sc_ms__diode_2_16 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__nor2_1_9/VPB
++ VPWR sky130_fd_sc_ms__diode_2
+Xsky130_fd_sc_ms__and3_1_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__and3_1_1/VPB
++ VPWR sky130_fd_sc_ms__and3_1
+Xsky130_fd_sc_ms__fill_1_6_1_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_3/VPB
++ VPWR sky130_fd_sc_ms__fill_1
+Xsky130_fd_sc_ms__diode_2_17 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__nor2_1_9/VPB
++ VPWR sky130_fd_sc_ms__diode_2
+Xsky130_fd_sc_ms__and3_1_2 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__nor2_1_9/VPB
++ VPWR sky130_fd_sc_ms__and3_1
+Xsky130_fd_sc_ms__fill_4_4_0_0 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__and3_1_1/VPB
++ VPWR sky130_fd_sc_ms__fill_4
+Xsky130_fd_sc_ms__o21ai_1_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_4/VPB
++ VPWR sky130_fd_sc_ms__o21ai_1
+Xsky130_fd_sc_ms__fill_1_1_0_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_4/VPB
++ VPWR sky130_fd_sc_ms__fill_1
+Xsky130_fd_sc_ms__fill_4_2_1_0 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__buf_1_4/VPB
++ VPWR sky130_fd_sc_ms__fill_4
+Xsky130_fd_sc_ms__fill_1_4_0_1 VGND sky130_fd_sc_ms__buf_1_4/VNB sky130_fd_sc_ms__and3_1_1/VPB
++ VPWR sky130_fd_sc_ms__fill_1
 .ends
 

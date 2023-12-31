@@ -1,7 +1,8 @@
 box 0 0 0 0
 drc off
 snap int
-lef read /usr/share/qflow/tech/osu018/osu018_stdcells.lef
+lef read /usr/local/share/pdk/sky130A/libs.ref/sky130_fd_sc_ms/techlef/sky130_fd_sc_ms__nom.tlef
+lef read /usr/local/share/pdk/sky130A/libs.ref/sky130_fd_sc_ms/lef/sky130_fd_sc_ms.lef
 def read thermometer_to_binary
 load thermometer_to_binary
 select top cell
