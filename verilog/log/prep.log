@@ -1,10 +1,11 @@
-Qflow project preparation output log Thu Dec 21 20:55:36 2023
+Qflow project preparation output log Mon Dec 25 22:53:30 2023
 
 --------------------------------
 Qflow project setup
 --------------------------------
 
 Technology set to sky130_fd_sc_hd
-Don't know about technology 'sky130_fd_sc_hd'
-Check /usr/share/qflow/tech/ for known technologies
-Error:  Cannot find tech init script /sky130_fd_sc_hd.sh to source
+
+No actions specified on command line;
+creating qflow script file /home/exotic/Desktop/ASIC_ADC/verilog/qflow_exec.sh only.
+Uncomment lines in this file and source the file to run the flow.

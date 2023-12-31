@@ -1,4 +1,4 @@
-lef read /usr/share/qflow/tech/osu018/osu018_stdcells.lef
+lef read /usr/local/share/pdk/sky130A/libs.ref/sky130_fd_sc_ms/lef/sky130_fd_sc_ms.lef
 load thermometer_to_binary
 drc on
 select top cell
