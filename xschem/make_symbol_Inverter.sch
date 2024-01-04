@@ -1,4 +1,4 @@
-v {xschem version=3.4.2 file_version=1.2
+v {xschem version=3.4.5 file_version=1.2
 }
 G {}
 K {}
@@ -21,6 +21,12 @@ N 70 -80 70 -60 {
 lab=Vdd}
 N 70 100 70 120 {
 lab=GND}
+N 70 70 90 70 {}
+N 90 70 90 100 {}
+N 70 100 90 100 {}
+N 70 -30 90 -30 {}
+N 90 -60 90 -30 {}
+N 70 -60 90 -60 {}
 C {sky130_fd_pr/pfet_01v8.sym} 50 -30 0 0 {name=M1
 L=0.15
 W=1
