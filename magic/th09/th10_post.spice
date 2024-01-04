@@ -1,0 +1,122 @@
+** sch_path: /home/exotic/Desktop/ASIC_ADC/xschem/Vth_sch/Pre_layout/th10.sch
+**.subckt th10 Vin Vout
+*.ipin Vin
+*.opin Vout
+VDD VDD GND 1.8
+Vin Vin GND pulse(0 0.2 0ns 1ns 1ns 5ns 10ns)
+V_logic_high V_LH GND 1.25
+V_logic_low V_LL GND 0.5
+x1 VDD Vout Vin GND th10
+**** begin user architecture code
+
+
+.lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+
+.save all
+
+
+
+
+
+.dc Vin 0 1.8 0.01
+*.tran 1n 30n
+.control
+run
+set color0=white
+set color1=black
+plot Vin Vout V_LH V_LL
+set xbrushwidth=3
+.save all
+.endc
+.end
+
+
+**** end user architecture code
+**.ends
+
+* NGSPICE file created from th10.ext - technology: sky130A
+
+.subckt sky130_fd_pr__pfet_01v8_XGS3BL a_n73_n100# a_15_n100# w_n211_n319# a_n33_n197#
++ VSUBS
+X0 a_15_n100# a_n33_n197# a_n73_n100# w_n211_n319# sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+C0 a_n33_n197# w_n211_n319# 0.239f
+C1 a_n33_n197# a_n73_n100# 0.0236f
+C2 a_n33_n197# a_15_n100# 0.0236f
+C3 w_n211_n319# a_n73_n100# 0.0817f
+C4 a_15_n100# w_n211_n319# 0.0817f
+C5 a_15_n100# a_n73_n100# 0.162f
+C6 a_15_n100# VSUBS 0.0498f
+C7 a_n73_n100# VSUBS 0.0498f
+C8 a_n33_n197# VSUBS 0.117f
+C9 w_n211_n319# VSUBS 1.23f
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_L7T3GD a_n33_n130# a_15_n42# a_n175_n216# a_n73_n42#
+X0 a_15_n42# a_n33_n130# a_n73_n42# a_n175_n216# sky130_fd_pr__nfet_01v8 ad=0.122 pd=1.42 as=0.122 ps=1.42 w=0.42 l=0.15
+C0 a_n73_n42# a_n33_n130# 0.0209f
+C1 a_n73_n42# a_15_n42# 0.0699f
+C2 a_n33_n130# a_15_n42# 0.0209f
+C3 a_15_n42# a_n175_n216# 0.0729f
+C4 a_n73_n42# a_n175_n216# 0.0729f
+C5 a_n33_n130# a_n175_n216# 0.338f
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_QPDSQG a_n87_n42# w_n225_n261# a_n33_n139# a_29_n42#
++ VSUBS
+X0 a_29_n42# a_n33_n139# a_n87_n42# w_n225_n261# sky130_fd_pr__pfet_01v8 ad=0.122 pd=1.42 as=0.122 ps=1.42 w=0.42 l=0.29
+C0 a_n33_n139# w_n225_n261# 0.229f
+C1 a_n33_n139# a_n87_n42# 0.00625f
+C2 a_n33_n139# a_29_n42# 0.00625f
+C3 w_n225_n261# a_n87_n42# 0.0499f
+C4 a_29_n42# w_n225_n261# 0.0499f
+C5 a_29_n42# a_n87_n42# 0.0532f
+C6 a_29_n42# VSUBS 0.029f
+C7 a_n87_n42# VSUBS 0.029f
+C8 a_n33_n139# VSUBS 0.128f
+C9 w_n225_n261# VSUBS 1.09f
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_M479BZ a_15_n42# w_n211_n261# a_n33_n139# a_n73_n42#
++ VSUBS
+X0 a_15_n42# a_n33_n139# a_n73_n42# w_n211_n261# sky130_fd_pr__pfet_01v8 ad=0.122 pd=1.42 as=0.122 ps=1.42 w=0.42 l=0.15
+C0 a_n33_n139# w_n211_n261# 0.236f
+C1 a_n33_n139# a_n73_n42# 0.0192f
+C2 a_n33_n139# a_15_n42# 0.0192f
+C3 w_n211_n261# a_n73_n42# 0.0463f
+C4 a_15_n42# w_n211_n261# 0.0463f
+C5 a_15_n42# a_n73_n42# 0.0699f
+C6 a_15_n42# VSUBS 0.0263f
+C7 a_n73_n42# VSUBS 0.0263f
+C8 a_n33_n139# VSUBS 0.115f
+C9 w_n211_n261# VSUBS 1.03f
+.ends
+
+.subckt th10 Vp V10 Vin Vn
+XXM0 Vn m1_878_n414# Vp Vn Vn sky130_fd_pr__pfet_01v8_XGS3BL
+XXM1 Vin m1_878_n414# Vn m1_718_n418# sky130_fd_pr__nfet_01v8_L7T3GD
+XXM2 Vp Vp Vin m1_718_n418# Vn sky130_fd_pr__pfet_01v8_QPDSQG
+XXM3 V10 Vp m1_718_n418# Vp Vn sky130_fd_pr__pfet_01v8_M479BZ
+XXM4 m1_718_n418# V10 Vn Vn sky130_fd_pr__nfet_01v8_L7T3GD
+C0 m1_718_n418# V10 0.191f
+C1 m1_718_n418# Vp 0.272f
+C2 V10 Vp 0.0825f
+C3 m1_718_n418# m1_878_n414# 0.0145f
+C4 m1_878_n414# V10 9.3e-21
+C5 m1_878_n414# Vp 0.0408f
+C6 m1_718_n418# Vin 0.308f
+C7 Vin V10 1.33e-19
+C8 Vin Vp 0.301f
+C9 m1_878_n414# Vin 0.0391f
+C10 Vin Vn 0.74f
+C11 m1_718_n418# Vn 0.707f
+C12 Vp Vn 4.07f
+C13 V10 Vn 0.385f
+C14 m1_878_n414# Vn 0.318f
+.ends
+
+
+.GLOBAL VDD
+.GLOBAL GND
+.GLOBAL V_LH
+.GLOBAL V_LL
+.end

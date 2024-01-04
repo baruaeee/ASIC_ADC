@@ -1,0 +1,91 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1704331930
+<< nwell >>
+rect -246 -261 246 261
+<< pmos >>
+rect -50 -42 50 42
+<< pdiff >>
+rect -108 30 -50 42
+rect -108 -30 -96 30
+rect -62 -30 -50 30
+rect -108 -42 -50 -30
+rect 50 30 108 42
+rect 50 -30 62 30
+rect 96 -30 108 30
+rect 50 -42 108 -30
+<< pdiffc >>
+rect -96 -30 -62 30
+rect 62 -30 96 30
+<< nsubdiff >>
+rect -210 191 -114 225
+rect 114 191 210 225
+rect -210 129 -176 191
+rect 176 129 210 191
+rect -210 -191 -176 -129
+rect 176 -191 210 -129
+rect -210 -225 -114 -191
+rect 114 -225 210 -191
+<< nsubdiffcont >>
+rect -114 191 114 225
+rect -210 -129 -176 129
+rect 176 -129 210 129
+rect -114 -225 114 -191
+<< poly >>
+rect -50 123 50 139
+rect -50 89 -34 123
+rect 34 89 50 123
+rect -50 42 50 89
+rect -50 -89 50 -42
+rect -50 -123 -34 -89
+rect 34 -123 50 -89
+rect -50 -139 50 -123
+<< polycont >>
+rect -34 89 34 123
+rect -34 -123 34 -89
+<< locali >>
+rect -210 191 -114 225
+rect 114 191 210 225
+rect -210 129 -176 191
+rect 176 129 210 191
+rect -50 89 -34 123
+rect 34 89 50 123
+rect -96 30 -62 46
+rect -96 -46 -62 -30
+rect 62 30 96 46
+rect 62 -46 96 -30
+rect -50 -123 -34 -89
+rect 34 -123 50 -89
+rect -210 -191 -176 -129
+rect 176 -191 210 -129
+rect -210 -225 -114 -191
+rect 114 -225 210 -191
+<< viali >>
+rect -34 89 34 123
+rect -96 -30 -62 30
+rect 62 -30 96 30
+rect -34 -123 34 -89
+<< metal1 >>
+rect -46 123 46 129
+rect -46 89 -34 123
+rect 34 89 46 123
+rect -46 83 46 89
+rect -102 30 -56 42
+rect -102 -30 -96 30
+rect -62 -30 -56 30
+rect -102 -42 -56 -30
+rect 56 30 102 42
+rect 56 -30 62 30
+rect 96 -30 102 30
+rect 56 -42 102 -30
+rect -46 -89 46 -83
+rect -46 -123 -34 -89
+rect 34 -123 46 -89
+rect -46 -129 46 -123
+<< properties >>
+string FIXED_BBOX -193 -208 193 208
+string gencell sky130_fd_pr__pfet_01v8
+string library sky130
+string parameters w 0.42 l 0.5 m 1 nf 1 diffcov 100 polycov 100 guard 1 glc 1 grc 1 gtc 1 gbc 1 tbcov 100 rlcov 100 topc 1 botc 1 poverlap 0 doverlap 1 lmin 0.15 wmin 0.42 compatible {sky130_fd_pr__pfet_01v8  sky130_fd_pr__pfet_01v8_lvt sky130_fd_pr__pfet_01v8_hvt  sky130_fd_pr__pfet_g5v0d10v5} full_metal 1 viasrc 100 viadrn 100 viagate 100 viagb 0 viagr 0 viagl 0 viagt 0
+<< end >>
