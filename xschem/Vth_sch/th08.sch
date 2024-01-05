@@ -99,7 +99,7 @@ C {devices/gnd.sym} -350 -30 0 0 {name=l7 lab=GND}
 C {devices/vsource.sym} -350 90 0 0 {name=V_logic_low value=0.5}
 C {devices/vdd.sym} -350 60 0 0 {name=l8 lab=V_LL}
 C {devices/gnd.sym} -350 120 0 0 {name=l9 lab=GND}
-C {sky130_fd_pr/pfet_01v8.sym} 210 -130 0 0 {name=M7
+C {sky130_fd_pr/pfet_01v8.sym} 210 -130 0 0 {name=M2
 L=0.47
 W=0.42
 nf=1
@@ -113,7 +113,7 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {sky130_fd_pr/nfet_01v8.sym} 210 -10 0 0 {name=M10
+C {sky130_fd_pr/nfet_01v8.sym} 210 -10 0 0 {name=M3
 L=0.15
 W=0.468
 nf=1 
@@ -144,7 +144,7 @@ spiceprefix=X
 }
 C {devices/gnd.sym} 70 20 0 0 {name=l4 lab=GND}
 C {devices/vdd.sym} 50 -180 0 0 {name=l5 lab=VDD}
-C {sky130_fd_pr/nfet_01v8.sym} 30 -10 0 0 {name=M3
+C {sky130_fd_pr/nfet_01v8.sym} 30 -10 0 0 {name=M0
 L=0.67
 W=0.36
 nf=1 

@@ -1,0 +1,66 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1704490846
+<< checkpaint >>
+rect -938 -766 4174 2258
+rect 4613 -925 9725 2099
+<< error_s >>
+rect 5682 1770 5740 1776
+rect 5682 1736 5694 1770
+rect 5682 1730 5740 1736
+rect 305 998 339 1016
+rect 305 962 375 998
+rect 5436 963 5470 981
+rect 2861 962 2914 963
+rect 322 928 393 962
+rect 2843 928 2914 962
+rect 132 719 190 725
+rect 132 685 144 719
+rect 132 679 190 685
+rect 322 583 392 928
+rect 2844 927 2914 928
+rect 2861 893 2932 927
+rect 322 547 375 583
+rect 2861 530 2931 893
+rect 2861 494 2914 530
+rect 5400 477 5470 963
+rect 5586 560 5644 566
+rect 5586 526 5598 560
+rect 5586 520 5644 526
+rect 5400 441 5453 477
+<< metal1 >>
+rect 0 0 200 200
+rect 0 -400 200 -200
+rect 0 -800 200 -600
+rect 0 -1200 200 -1000
+use sky130_fd_pr__nfet_01v8_9GNSAK  XM0
+timestamp 0
+transform 1 0 5663 0 1 1148
+box -263 -760 263 760
+use sky130_fd_pr__pfet_01v8_UTD9YE  XM1
+timestamp 0
+transform 1 0 4157 0 1 702
+box -1296 -261 1296 261
+use sky130_fd_pr__nfet_01v8_VZ7MP4  XM2
+timestamp 0
+transform 1 0 7169 0 1 587
+box -1296 -252 1296 252
+use sky130_fd_pr__pfet_01v8_UGSTRG  XM3
+timestamp 0
+transform 1 0 161 0 1 1866
+box -214 -1319 214 1319
+use sky130_fd_pr__nfet_01v8_VZ7MP4  XM4
+timestamp 0
+transform 1 0 1618 0 1 746
+box -1296 -252 1296 252
+<< labels >>
+flabel metal1 0 0 200 200 0 FreeSans 256 0 0 0 Vp
+port 0 nsew
+flabel metal1 0 -400 200 -200 0 FreeSans 256 0 0 0 Vin
+port 1 nsew
+flabel metal1 0 -800 200 -600 0 FreeSans 256 0 0 0 Vout
+port 2 nsew
+flabel metal1 0 -1200 200 -1000 0 FreeSans 256 0 0 0 Vn
+port 3 nsew
+<< end >>

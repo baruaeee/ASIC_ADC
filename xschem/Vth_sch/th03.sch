@@ -25,12 +25,6 @@ N 90 -60 90 -30 {
 lab=VDD}
 N -120 30 -120 60 {
 lab=#net1}
-N -120 0 -100 0 {
-lab=#net2}
-N -100 -30 -100 0 {
-lab=#net2}
-N -120 -30 -100 -30 {
-lab=#net2}
 N -120 90 -100 90 {
 lab=GND}
 N -100 90 -100 120 {
@@ -56,9 +50,17 @@ lab=VDD}
 N 60 -90 60 -80 {
 lab=VDD}
 N -120 -60 -100 -60 {
-lab=#net2}
-N -100 -60 -100 -30 {
-lab=#net2}
+lab=GND}
+N -110 -0 0 -0 {
+lab=VDD}
+N 0 -90 -0 -0 {
+lab=VDD}
+N -100 -60 -20 -60 {
+lab=GND}
+N -20 -60 -20 120 {
+lab=GND}
+N -120 0 -110 0 {
+lab=VDD}
 C {devices/code.sym} -360 -140 0 0 {name=TT_MODEL only_toplevel=false value="
 .lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
 
@@ -91,9 +93,9 @@ C {devices/gnd.sym} -450 120 0 0 {name=l7 lab=GND}
 C {devices/vsource.sym} -350 90 0 0 {name=V_logic_low value=0.5}
 C {devices/vdd.sym} -350 60 0 0 {name=l8 lab=V_LL}
 C {devices/gnd.sym} -350 120 0 0 {name=l9 lab=GND}
-C {sky130_fd_pr/pfet_01v8.sym} 40 -30 0 0 {name=M7
-L=0.150
-W=2.3000
+C {sky130_fd_pr/pfet_01v8.sym} 40 -30 0 0 {name=M3
+L=0.15
+W=1.5
 nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -105,9 +107,9 @@ sa=0 sb=0 sd=0
 model=pfet_01v8
 spiceprefix=X
 }
-C {sky130_fd_pr/nfet_01v8.sym} 40 90 0 0 {name=M10
-L=2.2000
-W=0.360
+C {sky130_fd_pr/nfet_01v8.sym} 40 90 0 0 {name=M4
+L=1.5
+W=0.36
 nf=1 
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -121,7 +123,7 @@ spiceprefix=X
 }
 C {devices/opin.sym} 60 30 0 0 {name=p4 lab=Vout}
 C {sky130_fd_pr/pfet_01v8.sym} -140 0 0 0 {name=M1
-L=5.000
+L=1.39
 W=0.42
 nf=1
 mult=1
@@ -136,9 +138,9 @@ spiceprefix=X
 }
 C {devices/gnd.sym} -100 120 0 0 {name=l4 lab=GND}
 C {devices/vdd.sym} -120 -90 0 0 {name=l5 lab=VDD}
-C {sky130_fd_pr/nfet_01v8.sym} -140 90 0 0 {name=M3
+C {sky130_fd_pr/nfet_01v8.sym} -140 90 0 0 {name=M0
 L=0.15
-W=5.000
+W=1.3
 nf=1 
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -151,7 +153,7 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/nfet_01v8.sym} -140 -60 0 0 {name=M2
-L=5.0
+L=1.5
 W=0.36
 nf=1 
 mult=1
