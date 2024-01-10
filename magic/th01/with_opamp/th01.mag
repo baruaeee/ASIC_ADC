@@ -1,0 +1,95 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1704752409
+<< locali >>
+rect 488 -334 638 -272
+rect 2067 -752 2415 -718
+rect 2067 -823 2101 -752
+rect 1680 -1150 1762 -1002
+<< metal1 >>
+rect -427 -25 495 9
+rect 409 -41 495 -25
+rect 2006 -41 2206 -40
+rect 409 -47 2687 -41
+rect 454 -103 2687 -47
+rect 454 -272 516 -103
+rect 2006 -240 2206 -103
+rect 2625 -227 2687 -103
+rect 454 -334 638 -272
+rect 1925 -331 1995 -271
+rect 455 -429 857 -395
+rect 455 -564 489 -429
+rect 454 -567 654 -564
+rect 265 -601 654 -567
+rect 454 -764 654 -601
+rect 1960 -567 1995 -331
+rect 2244 -567 2279 -237
+rect 2982 -474 3182 -284
+rect 3566 -290 3624 -224
+rect 1960 -602 2711 -567
+rect 1960 -713 1995 -602
+rect 1669 -747 1995 -713
+rect 455 -958 489 -764
+rect 1669 -947 1727 -747
+rect 2676 -853 2711 -602
+rect 2982 -674 3930 -474
+rect 3780 -902 3816 -674
+rect 455 -992 627 -958
+rect 1469 -1116 1539 -1001
+rect 1958 -1008 2014 -942
+rect 2267 -973 2527 -903
+rect 3744 -964 3816 -902
+rect 2267 -986 2349 -973
+rect 2138 -1096 2349 -986
+rect 2138 -1116 2348 -1096
+rect 1469 -1157 2348 -1116
+rect 1389 -1186 2348 -1157
+rect 1389 -1192 1507 -1186
+rect 1389 -1297 1424 -1192
+rect 184 -1303 236 -1297
+rect -105 -1346 184 -1312
+rect 184 -1361 236 -1355
+rect 1380 -1303 1432 -1297
+rect 1380 -1361 1432 -1355
+<< via1 >>
+rect 184 -1355 236 -1303
+rect 1380 -1355 1432 -1303
+<< metal2 >>
+rect 178 -1355 184 -1303
+rect 236 -1312 242 -1303
+rect 1374 -1312 1380 -1303
+rect 236 -1346 1380 -1312
+rect 236 -1355 242 -1346
+rect 1374 -1355 1380 -1346
+rect 1432 -1355 1438 -1303
+use op-amp  op-amp_0
+timestamp 1704752409
+transform 1 0 -3208 0 1 -1286
+box -56 -1534 4334 1686
+use sky130_fd_pr__pfet_01v8_E9WT88  XM4
+timestamp 1704674176
+transform 1 0 1282 0 1 -303
+box -828 -261 828 261
+use sky130_fd_pr__nfet_01v8_JBS6VA  XM5
+timestamp 1704674176
+transform 0 -1 1296 1 0 -975
+box -211 -842 211 842
+use sky130_fd_pr__nfet_01v8_43TXAA  XM6
+timestamp 1704674176
+transform 1 0 3134 0 1 -934
+box -796 -252 796 252
+use sky130_fd_pr__pfet_01v8_MGA5QL  XM7
+timestamp 1704674176
+transform 0 -1 2929 1 0 -256
+box -214 -819 214 819
+<< labels >>
+flabel metal1 454 -764 654 -564 0 FreeSans 256 0 0 0 Vin
+port 1 nsew
+flabel metal1 2138 -1186 2338 -986 0 FreeSans 256 0 0 0 Vn
+port 3 nsew
+flabel metal1 3730 -674 3930 -474 0 FreeSans 256 0 0 0 Vout
+port 2 nsew
+flabel metal1 2006 -240 2206 -40 0 FreeSans 256 0 0 0 Vp
+port 0 nsew
+<< end >>
