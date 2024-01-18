@@ -1,0 +1,90 @@
+magic
+tech sky130A
+timestamp 1704877912
+<< pwell >>
+rect -328 -126 328 126
+<< nmos >>
+rect -230 -21 230 21
+<< ndiff >>
+rect -259 15 -230 21
+rect -259 -15 -253 15
+rect -236 -15 -230 15
+rect -259 -21 -230 -15
+rect 230 15 259 21
+rect 230 -15 236 15
+rect 253 -15 259 15
+rect 230 -21 259 -15
+<< ndiffc >>
+rect -253 -15 -236 15
+rect 236 -15 253 15
+<< psubdiff >>
+rect -310 91 -262 108
+rect 262 91 310 108
+rect -310 60 -293 91
+rect 293 60 310 91
+rect -310 -91 -293 -60
+rect 293 -91 310 -60
+rect -310 -108 -262 -91
+rect 262 -108 310 -91
+<< psubdiffcont >>
+rect -262 91 262 108
+rect -310 -60 -293 60
+rect 293 -60 310 60
+rect -262 -108 262 -91
+<< poly >>
+rect -230 57 230 65
+rect -230 40 -222 57
+rect 222 40 230 57
+rect -230 21 230 40
+rect -230 -40 230 -21
+rect -230 -57 -222 -40
+rect 222 -57 230 -40
+rect -230 -65 230 -57
+<< polycont >>
+rect -222 40 222 57
+rect -222 -57 222 -40
+<< locali >>
+rect -310 91 -262 108
+rect 262 91 310 108
+rect -310 60 -293 91
+rect 293 60 310 91
+rect -230 40 -222 57
+rect 222 40 230 57
+rect -253 15 -236 23
+rect -253 -23 -236 -15
+rect 236 15 253 23
+rect 236 -23 253 -15
+rect -230 -57 -222 -40
+rect 222 -57 230 -40
+rect -310 -91 -293 -60
+rect 293 -91 310 -60
+rect -310 -108 -262 -91
+rect 262 -108 310 -91
+<< viali >>
+rect -222 40 222 57
+rect -253 -15 -236 15
+rect 236 -15 253 15
+rect -222 -57 222 -40
+<< metal1 >>
+rect -228 57 228 60
+rect -228 40 -222 57
+rect 222 40 228 57
+rect -228 37 228 40
+rect -256 15 -233 21
+rect -256 -15 -253 15
+rect -236 -15 -233 15
+rect -256 -21 -233 -15
+rect 233 15 256 21
+rect 233 -15 236 15
+rect 253 -15 256 15
+rect 233 -21 256 -15
+rect -228 -40 228 -37
+rect -228 -57 -222 -40
+rect 222 -57 228 -40
+rect -228 -60 228 -57
+<< properties >>
+string FIXED_BBOX -301 -99 301 99
+string gencell sky130_fd_pr__nfet_01v8
+string library sky130
+string parameters w 0.42 l 4.6 m 1 nf 1 diffcov 100 polycov 100 guard 1 glc 1 grc 1 gtc 1 gbc 1 tbcov 100 rlcov 100 topc 1 botc 1 poverlap 0 doverlap 1 lmin 0.15 wmin 0.42 compatible {sky130_fd_pr__nfet_01v8 sky130_fd_pr__nfet_01v8_lvt  sky130_fd_bs_flash__special_sonosfet_star  sky130_fd_pr__nfet_g5v0d10v5 sky130_fd_pr__nfet_05v0_nvt  sky130_fd_pr__nfet_03v3_nvt} full_metal 1 viasrc 100 viadrn 100 viagate 100 viagb 0 viagr 0 viagl 0 viagt 0
+<< end >>

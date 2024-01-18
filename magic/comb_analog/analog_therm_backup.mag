@@ -1,0 +1,81 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1705443172
+<< error_s >>
+rect 30686 6443 30687 6471
+rect 30714 6430 30715 6443
+<< metal1 >>
+rect 32218 10082 33964 10084
+rect 32218 10015 33966 10082
+rect 32218 9840 32287 10015
+rect 33766 9772 33966 10015
+use th09  th09_0
+timestamp 1705440721
+transform 1 0 31258 0 1 9576
+box 670 -1498 1918 398
+use therm  x1
+timestamp 1705015937
+transform 1 0 39508 0 1 868
+box 0 0 7058 9202
+use th02  x16
+timestamp 1705440580
+transform 1 0 31028 0 1 4712
+box 1100 -1960 4395 680
+use th03  x17
+timestamp 1705440596
+transform 1 0 29930 0 1 2290
+box 414 -920 1840 706
+use th04  x18
+timestamp 1705440610
+transform 1 0 30267 0 1 4434
+box 279 -1300 1216 476
+use th05  x19
+timestamp 1705440623
+transform 1 0 26550 0 1 4200
+box 394 -966 2064 258
+use th06  x20
+timestamp 1705440654
+transform 1 0 27090 0 1 2480
+box 308 -1110 1542 62
+use th07  x21
+timestamp 1705440679
+transform 1 0 28738 0 1 4650
+box 296 -1290 1462 -44
+use th08  x22
+timestamp 1705440694
+transform 1 0 28604 0 1 2712
+box 330 -1392 1396 54
+use th10  x24
+timestamp 1705440736
+transform 1 0 28284 0 1 6116
+box 394 -1164 1590 790
+use th11  x25
+timestamp 1705440755
+transform 1 0 26692 0 1 5462
+box 160 -636 1584 1464
+use th12  x26
+timestamp 1705440773
+transform 1 0 29827 0 1 6144
+box 375 -1092 1662 716
+use th13  x27
+timestamp 1705440792
+transform 1 0 33074 0 1 9416
+box 240 -1200 2062 556
+use th14  x28
+timestamp 1705440829
+transform 1 0 31552 0 1 6976
+box 300 -1200 4172 772
+use th15  x29
+timestamp 1705440844
+transform 1 0 25187 0 1 8128
+box 915 -950 6436 1862
+use preamp  x30
+timestamp 1705440528
+transform 1 0 31712 0 1 1669
+box 398 -255 1470 780
+use th01  x31
+timestamp 1705440556
+transform 1 0 32790 0 1 2608
+box 618 -1168 2664 -180
+<< end >>

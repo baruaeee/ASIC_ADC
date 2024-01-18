@@ -1,0 +1,20 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1704969648
+<< metal1 >>
+rect 881 2557 1619 2591
+rect 773 2201 1586 2235
+rect 1552 1999 1586 2201
+rect 1177 1853 1351 1887
+rect 1317 1643 1351 1853
+rect 1317 1609 2145 1643
+use preamp  preamp_0
+timestamp 1704968048
+transform 1 0 -250 0 1 1861
+box 398 -255 1470 780
+use th01  x1
+timestamp 1704969259
+transform 1 0 828 0 1 2776
+box 618 -1168 2664 -180
+<< end >>
