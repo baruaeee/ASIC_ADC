@@ -55,14 +55,10 @@ N -10 -70 -10 70 {
 lab=Vop}
 N -100 -40 -80 -40 {
 lab=Vop}
-N -80 -40 -80 -10 {
-lab=Vop}
 N -100 -10 -80 -10 {
 lab=Vop}
 N -100 20 -80 20 {
-lab=Vop}
-N -80 -10 -80 20 {
-lab=Vop}
+lab=VDD}
 N -140 -40 -140 20 {
 lab=Vin}
 N -80 -10 -10 -10 {
@@ -74,6 +70,12 @@ lab=GND}
 N -100 -100 -100 -70 {
 lab=VDD}
 N -100 -100 30 -100 {
+lab=VDD}
+N -80 -40 -80 -10 {
+lab=Vop}
+N -80 20 -40 20 {
+lab=VDD}
+N -40 -100 -40 20 {
 lab=VDD}
 C {devices/code.sym} -360 -110 0 0 {name=TT_MODEL only_toplevel=false value="
 .lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt

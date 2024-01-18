@@ -55,5 +55,5 @@ C {devices/vdd.sym} -220 40 0 0 {name=l5 lab=VDD}
 C {devices/gnd.sym} -220 120 0 0 {name=l7 lab=GND}
 C {devices/opin.sym} -50 -240 0 0 {name=p5 lab=b1}
 C {devices/opin.sym} -50 -220 0 0 {name=p3 lab=b2}
-C {Symbol/analog_therm.sym} -200 -230 0 0 {name=x1}
 C {devices/opin.sym} -50 -200 0 0 {name=p1 lab=b3}
+C {/home/exotic/Desktop/ASIC_ADC/xschem/Vth_sch/Symbol/analog_therm.sym} -200 -230 0 0 {name=x1}

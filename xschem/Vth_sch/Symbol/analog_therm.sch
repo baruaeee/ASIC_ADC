@@ -36,7 +36,6 @@ lab=b3}
 N 1530 120 1580 120 {
 lab=b3}
 C {devices/lab_pin.sym} 280 -280 2 1 {name=p14 lab=p0}
-C {sky130_stdcells/clkinv_1.sym} 160 -300 0 0 {name=x0 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
 C {devices/lab_pin.sym} 120 -300 2 1 {name=p16 lab=p10}
 C {devices/lab_pin.sym} 200 -300 0 1 {name=p17 lab=1}
 C {sky130_stdcells/nand2_1.sym} 340 -300 0 0 {name=x1 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
@@ -231,7 +230,7 @@ C {sky130_stdcells/nand2_1.sym} 1400 60 0 0 {name=x39 VGND=VGND VNB=VNB VPB=VPB 
 C {devices/lab_pin.sym} 1340 40 2 1 {name=p172 lab=34}
 C {devices/lab_pin.sym} 1340 80 2 1 {name=p173 lab=36}
 C {devices/opin.sym} 1580 0 0 0 {name=p199 lab=b0}
-C {devices/ipin.sym} -230 -80 2 1 {name=p1 lab=Vin}
+C {devices/ipin.sym} -350 -80 2 1 {name=p1 lab=Vin}
 C {devices/lab_pin.sym} -50 -60 0 1 {name=p2 lab=p0}
 C {devices/lab_pin.sym} -50 -40 0 1 {name=p3 lab=p1}
 C {devices/lab_pin.sym} -50 -20 0 1 {name=p5 lab=p2}
@@ -256,4 +255,5 @@ C {devices/code_shown.sym} -200 340 0 0 {name=SPICE only_toplevel=false value="
 vvpwr vpwr 0 dc 1.8
 vvgnd vgnd 0 dc 0
 "}
-C {Analog.sym} -80 80 0 0 {name=x40}
+C {/home/exotic/Desktop/ASIC_ADC/xschem/Vth_sch/Symbol/Analog1.sym} -200 80 0 0 {name=x40}
+C {sky130_stdcells/clkinv_1.sym} 160 -300 0 0 {name=x41 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }

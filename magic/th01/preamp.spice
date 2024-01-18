@@ -1,42 +1,41 @@
 * NGSPICE file created from preamp.ext - technology: sky130A
 
-.subckt sky130_fd_pr__pfet_01v8_4N47A3 w_n231_n369# a_n93_n150# a_35_n150# a_n35_n247#
+.subckt sky130_fd_pr__pfet_01v8_FP437E w_n521_n261# a_n383_n42# a_n325_n139# a_325_n42#
 + VSUBS
-X0 a_35_n150# a_n35_n247# a_n93_n150# w_n231_n369# sky130_fd_pr__pfet_01v8 ad=0.435 pd=3.58 as=0.435 ps=3.58 w=1.5 l=0.35
-C0 a_35_n150# a_n35_n247# 0.0165f
-C1 a_n93_n150# a_n35_n247# 0.0165f
-C2 a_n93_n150# a_35_n150# 0.166f
-C3 a_n35_n247# w_n231_n369# 0.233f
-C4 a_35_n150# w_n231_n369# 0.116f
-C5 a_n93_n150# w_n231_n369# 0.116f
-C6 a_35_n150# VSUBS 0.0757f
-C7 a_n93_n150# VSUBS 0.0757f
-C8 a_n35_n247# VSUBS 0.141f
-C9 w_n231_n369# VSUBS 1.52f
+X0 a_325_n42# a_n325_n139# a_n383_n42# w_n521_n261# sky130_fd_pr__pfet_01v8 ad=0.122 pd=1.42 as=0.122 ps=1.42 w=0.42 l=3.25
+C0 a_325_n42# a_n325_n139# 0.0222f
+C1 w_n521_n261# a_n383_n42# 0.0498f
+C2 a_325_n42# w_n521_n261# 0.0498f
+C3 a_325_n42# a_n383_n42# 0.00865f
+C4 w_n521_n261# a_n325_n139# 1.13f
+C5 a_n383_n42# a_n325_n139# 0.0222f
+C6 a_325_n42# VSUBS 0.0355f
+C7 a_n383_n42# VSUBS 0.0355f
+C8 a_n325_n139# VSUBS 0.87f
+C9 w_n521_n261# VSUBS 2.3f
 .ends
 
-.subckt sky130_fd_pr__nfet_01v8_48YMBA a_n518_n42# a_460_n42# a_n620_n216# a_n460_n130#
-X0 a_460_n42# a_n460_n130# a_n518_n42# a_n620_n216# sky130_fd_pr__nfet_01v8 ad=0.122 pd=1.42 as=0.122 ps=1.42 w=0.42 l=4.6
-C0 a_460_n42# a_n518_n42# 0.00624f
-C1 a_n518_n42# a_n460_n130# 0.0236f
-C2 a_460_n42# a_n460_n130# 0.0236f
-C3 a_460_n42# a_n620_n216# 0.0868f
-C4 a_n518_n42# a_n620_n216# 0.0868f
-C5 a_n460_n130# a_n620_n216# 2.69f
+.subckt sky130_fd_pr__nfet_01v8_L7T3GD a_n33_n130# a_15_n42# a_n175_n216# a_n73_n42#
+X0 a_15_n42# a_n33_n130# a_n73_n42# a_n175_n216# sky130_fd_pr__nfet_01v8 ad=0.122 pd=1.42 as=0.122 ps=1.42 w=0.42 l=0.15
+C0 a_n33_n130# a_15_n42# 0.0209f
+C1 a_n33_n130# a_n73_n42# 0.0209f
+C2 a_15_n42# a_n73_n42# 0.0699f
+C3 a_15_n42# a_n175_n216# 0.0729f
+C4 a_n73_n42# a_n175_n216# 0.0729f
+C5 a_n33_n130# a_n175_n216# 0.338f
 .ends
 
 .subckt preamp Vp Vin Vpamp Vn
-XXM0 Vpamp Vn Vpamp Vin Vpamp sky130_fd_pr__pfet_01v8_4N47A3
-XXM1 Vp Vpamp Vpamp Vin sky130_fd_pr__nfet_01v8_48YMBA
-C0 Vn Vpamp 0.213f
-C1 Vpamp Vp 0.0775f
-C2 Vin Vpamp 0.488f
-C3 Vn Vp 0.0228f
-C4 Vin Vn 0.0147f
-C5 Vin Vp 0.233f
-C6 Vpamp 0 1.57f
-C7 Vp 0 0.377f
-C8 Vin 0 2.67f
-C9 Vn 0 0.247f
+XXM0 Vpamp Vpamp Vin Vn Vpamp sky130_fd_pr__pfet_01v8_FP437E
+XXM1 Vin Vpamp Vpamp Vp sky130_fd_pr__nfet_01v8_L7T3GD
+C0 Vp Vpamp 0.116f
+C1 Vin Vp 0.116f
+C2 Vin Vpamp 0.665f
+C3 Vn Vpamp 0.0667f
+C4 Vn Vin 0.0405f
+C5 Vin 0 1.35f
+C6 Vpamp 0 2.29f
+C7 Vp 0 0.324f
+C8 Vn 0 0.123f
 .ends
 
