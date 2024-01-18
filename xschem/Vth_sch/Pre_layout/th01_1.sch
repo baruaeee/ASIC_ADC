@@ -66,7 +66,7 @@ C {devices/vdd.sym} -330 20 0 0 {name=l8 lab=V_LL}
 C {devices/opin.sym} 260 40 0 0 {name=p2 lab=Vout}
 C {devices/vdd.sym} -220 40 0 0 {name=l4 lab=VDD}
 C {devices/ipin.sym} -40 -100 0 0 {name=p3 lab=Vin}
-C {/home/exotic/Desktop/ASIC_ADC/xschem/Vth_sch/Symbol/th01.sym} 110 40 0 0 {name=x1}
 C {/home/exotic/Desktop/ASIC_ADC/xschem/Vth_sch/Symbol/preamp.sym} 110 -80 0 0 {name=x2}
 C {devices/gnd.sym} 260 -60 0 0 {name=l2 lab=GND}
 C {devices/vdd.sym} 260 -100 0 0 {name=l5 lab=VDD}
+C {/home/exotic/Desktop/ASIC_ADC/xschem/Vth_sch/Symbol/th01.sym} 110 40 0 0 {name=x1}

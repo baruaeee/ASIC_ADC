@@ -6,23 +6,23 @@ V {}
 S {}
 E {}
 N -330 -130 -310 -130 {
-lab=Vout}
+lab=Vpamp}
 N -310 -130 -310 -100 {
-lab=Vout}
+lab=Vpamp}
 N -330 -100 -310 -100 {
-lab=Vout}
+lab=Vpamp}
 N -330 -70 -310 -70 {
-lab=Vout}
+lab=Vpamp}
 N -370 -130 -370 -70 {
 lab=Vin}
 N -310 -100 -310 -70 {
-lab=Vout}
+lab=Vpamp}
 N -310 -100 -250 -100 {
-lab=Vout}
+lab=Vpamp}
 C {devices/ipin.sym} -370 -100 0 0 {name=p4 lab=Vin}
 C {devices/opin.sym} -250 -100 0 0 {name=p1 lab=Vpamp}
 C {sky130_fd_pr/nfet_01v8.sym} -350 -130 0 0 {name=M1
-L=4.6
+L=0.15
 W=0.42
 nf=1
 mult=1
@@ -36,8 +36,8 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8.sym} -350 -70 0 0 {name=M0
-L=0.35
-W=1.5
+L=3.25
+W=0.42
 nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
