@@ -1,0 +1,96 @@
+* NGSPICE file created from th12.ext - technology: sky130A
+
+.subckt sky130_fd_pr__pfet_01v8_P28Q2U a_n33_n232# a_15_n135# w_n211_n354# a_n73_n135#
++ VSUBS
+X0 a_15_n135# a_n33_n232# a_n73_n135# w_n211_n354# sky130_fd_pr__pfet_01v8 ad=0.391 pd=3.28 as=0.391 ps=3.28 w=1.35 l=0.15
+C0 w_n211_n354# a_15_n135# 0.103f
+C1 a_n33_n232# a_n73_n135# 0.0258f
+C2 a_n33_n232# w_n211_n354# 0.24f
+C3 a_n33_n232# a_15_n135# 0.0258f
+C4 a_n73_n135# w_n211_n354# 0.103f
+C5 a_n73_n135# a_15_n135# 0.218f
+C6 a_15_n135# VSUBS 0.0639f
+C7 a_n73_n135# VSUBS 0.0639f
+C8 a_n33_n232# VSUBS 0.118f
+C9 w_n211_n354# VSUBS 1.35f
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_HZA4VB a_n360_n216# a_n200_n130# a_200_n42# a_n258_n42#
+X0 a_200_n42# a_n200_n130# a_n258_n42# a_n360_n216# sky130_fd_pr__nfet_01v8 ad=0.122 pd=1.42 as=0.122 ps=1.42 w=0.42 l=2
+C0 a_n258_n42# a_200_n42# 0.0134f
+C1 a_n258_n42# a_n200_n130# 0.0196f
+C2 a_200_n42# a_n200_n130# 0.0196f
+C3 a_200_n42# a_n360_n216# 0.0841f
+C4 a_n258_n42# a_n360_n216# 0.0841f
+C5 a_n200_n130# a_n360_n216# 1.26f
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_XGS3BL a_n73_n100# a_15_n100# w_n211_n319# a_n33_n197#
++ VSUBS
+X0 a_15_n100# a_n33_n197# a_n73_n100# w_n211_n319# sky130_fd_pr__pfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+C0 w_n211_n319# a_15_n100# 0.0817f
+C1 a_n33_n197# a_n73_n100# 0.0236f
+C2 a_n33_n197# w_n211_n319# 0.239f
+C3 a_n33_n197# a_15_n100# 0.0236f
+C4 a_n73_n100# w_n211_n319# 0.0817f
+C5 a_n73_n100# a_15_n100# 0.162f
+C6 a_15_n100# VSUBS 0.0498f
+C7 a_n73_n100# VSUBS 0.0498f
+C8 a_n33_n197# VSUBS 0.117f
+C9 w_n211_n319# VSUBS 1.23f
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_WV9GCW a_n158_n42# w_n296_n261# a_n100_n139# a_100_n42#
++ VSUBS
+X0 a_100_n42# a_n100_n139# a_n158_n42# w_n296_n261# sky130_fd_pr__pfet_01v8 ad=0.122 pd=1.42 as=0.122 ps=1.42 w=0.42 l=1
+C0 w_n296_n261# a_100_n42# 0.0499f
+C1 a_n100_n139# a_n158_n42# 0.0144f
+C2 a_n100_n139# w_n296_n261# 0.434f
+C3 a_n100_n139# a_100_n42# 0.0144f
+C4 a_n158_n42# w_n296_n261# 0.0499f
+C5 a_n158_n42# a_100_n42# 0.024f
+C6 a_100_n42# VSUBS 0.0315f
+C7 a_n158_n42# VSUBS 0.0315f
+C8 a_n100_n139# VSUBS 0.302f
+C9 w_n296_n261# VSUBS 1.38f
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_648S5X a_n73_n100# a_n33_n188# a_15_n100# a_n175_n274#
+X0 a_15_n100# a_n33_n188# a_n73_n100# a_n175_n274# sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+C0 a_n73_n100# a_15_n100# 0.162f
+C1 a_n73_n100# a_n33_n188# 0.0254f
+C2 a_15_n100# a_n33_n188# 0.0254f
+C3 a_15_n100# a_n175_n274# 0.132f
+C4 a_n73_n100# a_n175_n274# 0.132f
+C5 a_n33_n188# a_n175_n274# 0.343f
+.ends
+
+.subckt th12 Vp Vout Vin Vn
+XXM0 Vn m1_773_n853# Vp Vn Vn sky130_fd_pr__pfet_01v8_P28Q2U
+XXM1 Vn Vin m1_773_n853# m1_532_n361# sky130_fd_pr__nfet_01v8_HZA4VB
+XXM2 m1_532_n361# Vp Vp Vin Vn sky130_fd_pr__pfet_01v8_XGS3BL
+XXM3 Vp Vp m1_532_n361# Vout Vn sky130_fd_pr__pfet_01v8_WV9GCW
+XXM4 Vn m1_532_n361# Vout Vn sky130_fd_pr__nfet_01v8_648S5X
+C0 m1_532_n361# Vin 0.399f
+C1 Vout Vp 0.0968f
+C2 Vout m1_773_n853# 0.00284f
+C3 Vn Vin 0.0743f
+C4 Vout m1_532_n361# 0.181f
+C5 Vp m1_773_n853# 0.0827f
+C6 m1_532_n361# Vp 0.227f
+C7 m1_532_n361# m1_773_n853# 0.0208f
+C8 Vn Vout 0.0631f
+C9 Vn Vp 0.464f
+C10 Vn m1_773_n853# 0.257f
+C11 Vout Vin 4.83e-19
+C12 Vn m1_532_n361# 0.197f
+C13 Vin Vp 0.44f
+C14 Vin m1_773_n853# 0.102f
+C15 Vp 0 4.13f
+C16 Vout 0 0.415f
+C17 m1_773_n853# 0 0.183f
+C18 m1_532_n361# 0 0.839f
+C19 Vin 0 1.54f
+C20 Vn 0 0.175f
+.ends
+
