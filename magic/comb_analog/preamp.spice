@@ -1,41 +1,38 @@
 * NGSPICE file created from preamp.ext - technology: sky130A
 
-.subckt sky130_fd_pr__pfet_01v8_FP437E w_n521_n261# a_n383_n42# a_n325_n139# a_325_n42#
+.subckt sky130_fd_pr__pfet_01v8_MWHFPY a_n73_n63# a_n33_n160# w_n211_n282# a_15_n63#
 + VSUBS
-X0 a_325_n42# a_n325_n139# a_n383_n42# w_n521_n261# sky130_fd_pr__pfet_01v8 ad=0.122 pd=1.42 as=0.122 ps=1.42 w=0.42 l=3.25
-C0 a_325_n42# a_n325_n139# 0.0222f
-C1 w_n521_n261# a_n383_n42# 0.0498f
-C2 a_325_n42# w_n521_n261# 0.0498f
-C3 a_325_n42# a_n383_n42# 0.00865f
-C4 w_n521_n261# a_n325_n139# 1.13f
-C5 a_n383_n42# a_n325_n139# 0.0222f
-C6 a_325_n42# VSUBS 0.0355f
-C7 a_n383_n42# VSUBS 0.0355f
-C8 a_n325_n139# VSUBS 0.87f
-C9 w_n521_n261# VSUBS 2.3f
+X0 a_15_n63# a_n33_n160# a_n73_n63# w_n211_n282# sky130_fd_pr__pfet_01v8 ad=0.183 pd=1.84 as=0.183 ps=1.84 w=0.63 l=0.15
+C0 a_15_n63# w_n211_n282# 0.0591f
+C1 a_n33_n160# a_n73_n63# 0.021f
+C2 a_n73_n63# w_n211_n282# 0.0591f
+C3 a_n33_n160# w_n211_n282# 0.237f
+C4 a_n73_n63# a_15_n63# 0.103f
+C5 a_n33_n160# a_15_n63# 0.021f
+C6 a_15_n63# VSUBS 0.0348f
+C7 a_n73_n63# VSUBS 0.0348f
+C8 a_n33_n160# VSUBS 0.116f
+C9 w_n211_n282# VSUBS 1.1f
 .ends
 
-.subckt sky130_fd_pr__nfet_01v8_L7T3GD a_n33_n130# a_15_n42# a_n175_n216# a_n73_n42#
-X0 a_15_n42# a_n33_n130# a_n73_n42# a_n175_n216# sky130_fd_pr__nfet_01v8 ad=0.122 pd=1.42 as=0.122 ps=1.42 w=0.42 l=0.15
-C0 a_n33_n130# a_15_n42# 0.0209f
-C1 a_n33_n130# a_n73_n42# 0.0209f
-C2 a_15_n42# a_n73_n42# 0.0699f
-C3 a_15_n42# a_n175_n216# 0.0729f
-C4 a_n73_n42# a_n175_n216# 0.0729f
-C5 a_n33_n130# a_n175_n216# 0.338f
+.subckt sky130_fd_pr__nfet_01v8_DPSGWY a_350_n100# a_n408_n100# a_n350_n188# a_n510_n274#
+X0 a_350_n100# a_n350_n188# a_n408_n100# a_n510_n274# sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=3.5
+C0 a_n408_n100# a_350_n100# 0.0188f
+C1 a_n350_n188# a_350_n100# 0.0439f
+C2 a_n350_n188# a_n408_n100# 0.0439f
+C3 a_350_n100# a_n510_n274# 0.159f
+C4 a_n408_n100# a_n510_n274# 0.159f
+C5 a_n350_n188# a_n510_n274# 2.13f
 .ends
 
 .subckt preamp Vp Vin Vpamp Vn
-XXM0 Vpamp Vpamp Vin Vn Vpamp sky130_fd_pr__pfet_01v8_FP437E
-XXM1 Vin Vpamp Vpamp Vp sky130_fd_pr__nfet_01v8_L7T3GD
-C0 Vp Vpamp 0.116f
-C1 Vin Vp 0.116f
-C2 Vin Vpamp 0.665f
-C3 Vn Vpamp 0.0667f
-C4 Vn Vin 0.0405f
-C5 Vin 0 1.35f
-C6 Vpamp 0 2.29f
-C7 Vp 0 0.324f
-C8 Vn 0 0.123f
+XXM0 Vn Vin Vp Vpamp Vn sky130_fd_pr__pfet_01v8_MWHFPY
+XXM1 Vpamp Vp Vin Vn sky130_fd_pr__nfet_01v8_DPSGWY
+C0 Vpamp Vin 0.0855f
+C1 Vp Vin 0.332f
+C2 Vp Vpamp 0.0555f
+C3 Vpamp Vn 0.626f
+C4 Vp Vn 1.83f
+C5 Vin Vn 2.45f
 .ends
 
