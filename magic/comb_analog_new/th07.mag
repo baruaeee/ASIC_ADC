@@ -1,0 +1,87 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1706236611
+<< pwell >>
+rect 430 -778 498 -744
+<< nsubdiff >>
+rect 401 -40 629 -6
+<< locali >>
+rect 387 -40 663 -6
+rect 697 -40 699 -6
+rect 609 -976 633 -942
+<< viali >>
+rect 663 -40 697 -6
+rect 633 -976 667 -942
+<< metal1 >>
+rect 624 31 724 32
+rect 319 -3 724 31
+rect 319 -215 353 -3
+rect 624 -6 724 -3
+rect 624 -40 663 -6
+rect 697 -40 724 -6
+rect 624 -68 724 -40
+rect 492 -146 558 -94
+rect 589 -201 623 -197
+rect 319 -249 499 -215
+rect 553 -235 627 -201
+rect 553 -241 587 -235
+rect 589 -241 627 -235
+rect 553 -275 627 -241
+rect 665 -212 699 -68
+rect 665 -246 782 -212
+rect 904 -248 1055 -214
+rect 593 -317 627 -275
+rect 315 -353 559 -319
+rect 593 -351 875 -317
+rect 315 -392 349 -353
+rect 314 -492 414 -392
+rect 315 -845 349 -492
+rect 593 -559 627 -351
+rect 1021 -388 1055 -248
+rect 984 -419 1084 -388
+rect 901 -453 1084 -419
+rect 391 -593 857 -559
+rect 391 -744 425 -593
+rect 492 -688 558 -628
+rect 823 -675 857 -593
+rect 901 -723 935 -453
+rect 984 -488 1084 -453
+rect 391 -778 499 -744
+rect 554 -778 815 -744
+rect 315 -879 555 -845
+rect 637 -914 671 -778
+rect 871 -787 935 -723
+rect 808 -892 874 -832
+rect 632 -930 732 -914
+rect 627 -942 732 -930
+rect 627 -976 633 -942
+rect 667 -976 732 -942
+rect 627 -988 732 -976
+rect 632 -1014 732 -988
+use sky130_fd_pr__nfet_01v8_VGVEGU  XM0
+timestamp 1706231216
+transform 1 0 526 0 1 -760
+box -212 -252 212 252
+use sky130_fd_pr__pfet_01v8_EDPLE3  XM1
+timestamp 1706231216
+transform 1 0 525 0 1 -231
+box -211 -261 211 261
+use sky130_fd_pr__pfet_01v8_JM8GTH  XM2
+timestamp 1706231216
+transform 1 0 842 0 1 -231
+box -246 -261 246 261
+use sky130_fd_pr__nfet_01v8_MYA4RC  XM3
+timestamp 1706229878
+transform -1 0 843 0 1 -756
+box -211 -256 211 256
+<< labels >>
+flabel metal1 624 -68 724 32 0 FreeSans 256 0 0 0 Vp
+port 0 nsew
+flabel metal1 314 -492 414 -392 0 FreeSans 256 0 0 0 Vin
+port 1 nsew
+flabel metal1 632 -1014 732 -914 0 FreeSans 256 0 0 0 Vn
+port 3 nsew
+flabel metal1 984 -488 1084 -388 0 FreeSans 256 0 0 0 V07
+port 2 nsew
+<< end >>

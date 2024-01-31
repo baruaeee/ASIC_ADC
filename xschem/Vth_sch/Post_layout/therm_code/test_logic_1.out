@@ -1,0 +1,239 @@
+
+No compatibility mode selected!
+
+
+Circuit: ** sch_path: /home/exotic/desktop/asic_adc/xschem/vth_sch/test_logic_1.sch
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v14: no DC value, transient time 0 value used
+Warning: v13: no DC value, transient time 0 value used
+Warning: v12: no DC value, transient time 0 value used
+Warning: v11: no DC value, transient time 0 value used
+Warning: v10: no DC value, transient time 0 value used
+Warning: v9: no DC value, transient time 0 value used
+Warning: v8: no DC value, transient time 0 value used
+Warning: v7: no DC value, transient time 0 value used
+Warning: v6: no DC value, transient time 0 value used
+Warning: v5: no DC value, transient time 0 value used
+Warning: v4: no DC value, transient time 0 value used
+Warning: v3: no DC value, transient time 0 value used
+Warning: v2: no DC value, transient time 0 value used
+Warning: v1: no DC value, transient time 0 value used
+Warning: v0: no DC value, transient time 0 value used
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        1.8
+p0                                        0.45
+p1                                        0.45
+p2                                        0.45
+p3                                        0.45
+p4                                        0.45
+p5                                        0.45
+p6                                        0.45
+p7                                        0.45
+p8                                        0.45
+p9                                        0.45
+p10                                       0.45
+p11                                       0.45
+p12                                       0.45
+p13                                       0.45
+p14                                       0.45
+x1._21_                            2.69668e-09
+x1._19_                            2.69596e-09
+x1._02_                                    1.8
+x1._20_                            2.69668e-09
+x1.net7                            2.59407e-09
+x1.net17                           2.69671e-09
+x1.net11                           2.59407e-09
+x1._07_                            2.69668e-09
+x1._17_                            2.69668e-09
+x1.net5                            2.69659e-09
+x1._12_                            2.69668e-09
+x1._04_                                    1.8
+x1._03_                             2.6967e-09
+x1.net12                           2.59407e-09
+x1.net13                           2.59407e-09
+x1._00_                             2.6967e-09
+x1._01_                            2.69669e-09
+x1.net16                           2.69668e-09
+x1._13_                                    1.8
+x1._09_                            2.69668e-09
+x1._18_                            2.69676e-09
+x1.net14                           2.59407e-09
+x1.net2                            2.59407e-09
+x1._15_                            2.69693e-09
+x1._14_                                    1.8
+x1.net15                           2.59407e-09
+x1.net3                            2.59407e-09
+x1.net6                            2.59407e-09
+x1.net4                            2.59407e-09
+x1._06_                            2.69668e-09
+x1._16_                            2.69668e-09
+x1._10_                            2.69668e-09
+pb[0]                              4.93168e-09
+b[1]                               4.93168e-09
+x1.net18                           2.59349e-09
+b[2]                               4.93168e-09
+x1.net19                           2.69668e-09
+b[3]                               4.93168e-09
+x1.net1                            2.59407e-09
+x1.net10                           2.59407e-09
+x1.net8                            2.59407e-09
+x1.net9                            2.59407e-09
+x1._22_                            2.69668e-09
+x1._11_                            2.69668e-09
+x1._25_                             2.6967e-09
+x1._24_                            2.69676e-09
+x1._23_                                    1.8
+x1._05_                            2.69672e-09
+x1._08_                                    1.8
+v14#branch                                   0
+v13#branch                                   0
+v12#branch                                   0
+v11#branch                                   0
+v10#branch                                   0
+v9#branch                                    0
+v8#branch                                    0
+v7#branch                                    0
+v6#branch                                    0
+v5#branch                                    0
+v4#branch                                    0
+v3#branch                                    0
+v2#branch                                    0
+v1#branch                                    0
+v0#branch                                    0
+vdd#branch                        -2.27266e-07
+
+
+No. of Data Rows : 321
+ERROR: (internal)  This operation is not defined for display type PrinterOnly.
+Can't open viewport for graphics.
+binary raw file "/home/exotic/.xschem/simulations/test_logic_1.raw"
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v14: no DC value, transient time 0 value used
+Warning: v13: no DC value, transient time 0 value used
+Warning: v12: no DC value, transient time 0 value used
+Warning: v11: no DC value, transient time 0 value used
+Warning: v10: no DC value, transient time 0 value used
+Warning: v9: no DC value, transient time 0 value used
+Warning: v8: no DC value, transient time 0 value used
+Warning: v7: no DC value, transient time 0 value used
+Warning: v6: no DC value, transient time 0 value used
+Warning: v5: no DC value, transient time 0 value used
+Warning: v4: no DC value, transient time 0 value used
+Warning: v3: no DC value, transient time 0 value used
+Warning: v2: no DC value, transient time 0 value used
+Warning: v1: no DC value, transient time 0 value used
+Warning: v0: no DC value, transient time 0 value used
+No. of Data Columns : 1556  
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        1.8
+p0                                        0.45
+p1                                        0.45
+p2                                        0.45
+p3                                        0.45
+p4                                        0.45
+p5                                        0.45
+p6                                        0.45
+p7                                        0.45
+p8                                        0.45
+p9                                        0.45
+p10                                       0.45
+p11                                       0.45
+p12                                       0.45
+p13                                       0.45
+p14                                       0.45
+x1._21_                              0.0351697
+x1._19_                              0.0181612
+x1._02_                                 1.6193
+x1._20_                              0.0485484
+x1.net7                              0.0996099
+x1.net17                             0.0361207
+x1.net11                              0.092596
+x1._07_                               0.024825
+x1._17_                              0.0473559
+x1.net5                               0.113819
+x1._12_                              0.0622481
+x1._04_                                1.68611
+x1._03_                              0.0860791
+x1.net12                             0.0796854
+x1.net13                             0.0407757
+x1._00_                              0.0817102
+x1._01_                              0.0602526
+x1.net16                             0.0385746
+x1._13_                                1.61359
+x1._09_                              0.0332055
+x1._18_                              0.0290409
+x1.net14                              0.068145
+x1.net2                              0.0729247
+x1._15_                               0.055012
+x1._14_                                1.34584
+x1.net15                             0.0649518
+x1.net3                              0.0634519
+x1.net6                              0.0811166
+x1.net4                              0.0320333
+x1._06_                              0.0561878
+x1._16_                              0.0176716
+x1._10_                              0.0300318
+pb[0]                                0.0137154
+b[1]                                 0.0137149
+x1.net18                              0.037731
+b[2]                                 0.0137152
+x1.net19                             0.0377142
+b[3]                                 0.0137152
+x1.net1                              0.0316014
+x1.net10                             0.0382881
+x1.net8                              0.0695411
+x1.net9                              0.0299218
+x1._22_                              0.0340653
+x1._11_                              0.0237355
+x1._25_                              0.0383533
+x1._24_                               0.019135
+x1._23_                                1.75185
+x1._05_                              0.0158365
+x1._08_                                1.64787
+v14#branch                          9.1524e-06
+v13#branch                          3.9561e-06
+v12#branch                          9.1475e-06
+v11#branch                         9.15065e-06
+v10#branch                         9.15159e-06
+v9#branch                           9.1508e-06
+v8#branch                          9.15112e-06
+v7#branch                          9.14838e-06
+v6#branch                          9.15226e-06
+v5#branch                          9.15353e-06
+v4#branch                          9.14813e-06
+v3#branch                          9.14728e-06
+v2#branch                          9.15126e-06
+v1#branch                          9.15421e-06
+v0#branch                          9.14745e-06
+vdd#branch                         -0.00591048
+
+
+No. of Data Rows : 321
+
+Total analysis time (seconds) = 25.134
+
+Total elapsed time (seconds) = 641.564 
+
+Total DRAM available = 1928.250 MB.
+DRAM currently available =   71.781 MB.
+Maximum ngspice program size =  682.656 MB.
+Current ngspice program size =  666.238 MB.
+
+Shared ngspice pages =    9.793 MB.
+Text (code) pages =    5.316 MB.
+Stack = 0 bytes.
+Library pages =  664.707 MB.
+

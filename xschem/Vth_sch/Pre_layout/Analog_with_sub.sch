@@ -31,7 +31,7 @@ N -380 -280 -350 -280 {
 lab=#net1}
 C {devices/code.sym} -690 -190 0 0 {name=TT_MODEL only_toplevel=false value="
 .lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
-
+.include /usr/local/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
 .save all
 
 "}
@@ -56,4 +56,4 @@ C {devices/gnd.sym} -220 120 0 0 {name=l7 lab=GND}
 C {devices/opin.sym} -50 -240 0 0 {name=p5 lab=b1}
 C {devices/opin.sym} -50 -220 0 0 {name=p3 lab=b2}
 C {devices/opin.sym} -50 -200 0 0 {name=p1 lab=b3}
-C {/home/exotic/Desktop/ASIC_ADC/xschem/Vth_sch/Symbol/analog_therm.sym} -200 -230 0 0 {name=x1}
+C {analog_therm.sym} -200 -230 0 0 {name=x1}

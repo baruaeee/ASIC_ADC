@@ -55,7 +55,7 @@ C {devices/ipin.sym} 580 40 0 0 {name=p4 lab=Vin}
 C {devices/opin.sym} 800 40 0 0 {name=p1 lab=Vout}
 C {sky130_fd_pr/pfet_01v8.sym} 780 -20 0 0 {name=M5
 L=0.15
-W=3.1
+W=2.5
 nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -68,7 +68,7 @@ model=pfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/nfet_01v8.sym} 780 100 0 0 {name=M4
-L=2.97
+L=0.80
 W=0.48
 nf=1 
 mult=1
@@ -82,9 +82,9 @@ model=nfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8.sym} 600 -40 0 0 {name=M2
-L=2.96
-W=0.42
-nf=1
+L=1.00
+W=0.55
+nf=4
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
@@ -97,7 +97,7 @@ spiceprefix=X
 }
 C {sky130_fd_pr/nfet_01v8.sym} 600 100 0 0 {name=M3
 L=0.15
-W=3.1
+W=3.5
 nf=1 
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 

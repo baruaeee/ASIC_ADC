@@ -10,7 +10,7 @@ lab=Vin}
 N 600 -60 600 0 {
 lab=#net1}
 N 640 -30 730 -30 {
-lab=Vout}
+lab=V11}
 N 640 0 660 0 {
 lab=Vn}
 N 660 0 660 30 {
@@ -105,7 +105,7 @@ spiceprefix=X
 }
 C {sky130_fd_pr/pfet_01v8.sym} 440 -140 0 0 {name=M2
 L=0.15
-W=0.425
+W=0.43
 nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -118,7 +118,7 @@ model=pfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/nfet_01v8.sym} 440 0 0 0 {name=M1
-L=0.5
+L=1.8
 W=0.36
 nf=1 
 mult=1

@@ -65,7 +65,7 @@ C {devices/opin.sym} 540 70 1 0 {name=p1 lab=Vn}
 C {devices/opin.sym} 540 -130 3 0 {name=p3 lab=Vp}
 C {devices/ipin.sym} 480 -20 0 0 {name=p2 lab=Vin}
 C {sky130_fd_pr/pfet_01v8.sym} 700 -80 0 0 {name=M2
-L=0.47000
+L=0.5
 W=0.42
 nf=1
 mult=1
@@ -80,7 +80,7 @@ spiceprefix=X
 }
 C {sky130_fd_pr/nfet_01v8.sym} 700 40 0 0 {name=M3
 L=0.15
-W=0.46000
+W=0.462
 nf=1 
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 

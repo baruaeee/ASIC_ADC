@@ -1,0 +1,74 @@
+* NGSPICE file created from th07.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_VGVEGU a_n142_n216# a_n74_n42# a_n33_n130# a_16_n42#
+X0 a_16_n42# a_n33_n130# a_n74_n42# a_n142_n216# sky130_fd_pr__nfet_01v8 ad=0.122 pd=1.42 as=0.122 ps=1.42 w=0.42 l=0.16
+C0 a_n33_n130# a_16_n42# 0.0191f
+C1 a_n74_n42# a_16_n42# 0.0684f
+C2 a_n74_n42# a_n33_n130# 0.0191f
+C3 a_16_n42# a_n142_n216# 0.0652f
+C4 a_n74_n42# a_n142_n216# 0.0652f
+C5 a_n33_n130# a_n142_n216# 0.317f
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_EDPLE3 a_15_n42# w_n211_n261# a_n33_n139# a_n73_n42#
++ VSUBS
+X0 a_15_n42# a_n33_n139# a_n73_n42# w_n211_n261# sky130_fd_pr__pfet_01v8 ad=0.122 pd=1.42 as=0.122 ps=1.42 w=0.42 l=0.15
+C0 a_n33_n139# a_n73_n42# 0.0192f
+C1 a_15_n42# a_n73_n42# 0.0699f
+C2 w_n211_n261# a_n33_n139# 0.187f
+C3 w_n211_n261# a_15_n42# 0.0197f
+C4 a_15_n42# a_n33_n139# 0.0192f
+C5 w_n211_n261# a_n73_n42# 0.0197f
+C6 a_15_n42# VSUBS 0.0445f
+C7 a_n73_n42# VSUBS 0.0445f
+C8 a_n33_n139# VSUBS 0.143f
+C9 w_n211_n261# VSUBS 0.749f
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_JM8GTH a_50_n42# w_n246_n261# a_n50_n139# a_n108_n42#
++ VSUBS
+X0 a_50_n42# a_n50_n139# a_n108_n42# w_n246_n261# sky130_fd_pr__pfet_01v8 ad=0.122 pd=1.42 as=0.122 ps=1.42 w=0.42 l=0.5
+C0 a_n50_n139# a_n108_n42# 0.00909f
+C1 a_50_n42# a_n108_n42# 0.0391f
+C2 w_n246_n261# a_n50_n139# 0.223f
+C3 w_n246_n261# a_50_n42# 0.0224f
+C4 a_50_n42# a_n50_n139# 0.00909f
+C5 w_n246_n261# a_n108_n42# 0.0224f
+C6 a_50_n42# VSUBS 0.0488f
+C7 a_n108_n42# VSUBS 0.0488f
+C8 a_n50_n139# VSUBS 0.209f
+C9 w_n246_n261# VSUBS 0.88f
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_MYA4RC a_n73_n46# a_n33_n134# a_15_n46# a_n175_n186#
+X0 a_15_n46# a_n33_n134# a_n73_n46# a_n175_n186# sky130_fd_pr__nfet_01v8 ad=0.133 pd=1.5 as=0.133 ps=1.5 w=0.46 l=0.15
+C0 a_n73_n46# a_15_n46# 0.0763f
+C1 a_n33_n134# a_n73_n46# 0.0212f
+C2 a_n33_n134# a_15_n46# 0.0212f
+C3 a_15_n46# a_n175_n186# 0.0671f
+C4 a_n73_n46# a_n175_n186# 0.0756f
+C5 a_n33_n134# a_n175_n186# 0.314f
+.ends
+
+.subckt th07 Vp Vin V07 Vn
+XXM0 Vn m1_808_n892# Vin Vn sky130_fd_pr__nfet_01v8_VGVEGU
+XXM1 m1_808_n892# Vp Vin Vp Vn sky130_fd_pr__pfet_01v8_EDPLE3
+XXM2 V07 Vp m1_808_n892# Vp Vn sky130_fd_pr__pfet_01v8_JM8GTH
+XXM3 V07 m1_808_n892# Vn Vn sky130_fd_pr__nfet_01v8_MYA4RC
+C0 Vin Vp 0.157f
+C1 m1_808_n892# Vp 0.209f
+C2 Vin m1_808_n892# 0.365f
+C3 V07 Vp 0.0569f
+C4 Vin V07 0.00135f
+C5 V07 m1_808_n892# 0.112f
+C6 Vn Vp 0.0157f
+C7 Vin Vn 0.0306f
+C8 Vn m1_808_n892# 0.0848f
+C9 V07 Vn 0.0149f
+C10 Vin 0 0.493f
+C11 Vp 0 1.56f
+C12 m1_808_n892# 0 0.511f
+C13 Vn 0 0.161f
+C14 V07 0 0.261f
+.ends
+

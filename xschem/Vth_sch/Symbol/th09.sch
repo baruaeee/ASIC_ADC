@@ -122,7 +122,7 @@ model=pfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/nfet_01v8.sym} 430 50 0 0 {name=M0
-L=1.57
+L=1.58
 W=0.36
 nf=1 
 mult=1
