@@ -255,5 +255,5 @@ C {devices/code_shown.sym} -200 340 0 0 {name=SPICE only_toplevel=false value="
 vvpwr vpwr 0 dc 1.8
 vvgnd vgnd 0 dc 0
 "}
-C {/home/exotic/Desktop/ASIC_ADC/xschem/Vth_sch/Symbol/Analog1.sym} -200 80 0 0 {name=x40}
 C {sky130_stdcells/clkinv_1.sym} 160 -300 0 0 {name=x41 VGND=VGND VNB=VNB VPB=VPB VPWR=VPWR prefix=sky130_fd_sc_hd__ }
+C {Analog.sym} -200 80 0 0 {name=x40}

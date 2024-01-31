@@ -11,20 +11,12 @@ N 590 -20 590 40 {
 lab=#net1}
 N 590 -80 590 -20 {
 lab=#net1}
-N 630 10 720 10 {
-lab=Vout}
 N 630 40 650 40 {
 lab=Vn}
 N 650 40 650 70 {
 lab=Vn}
 N 630 70 650 70 {
 lab=Vn}
-N 630 -20 660 -20 {
-lab=Vout}
-N 660 -50 660 -20 {
-lab=Vout}
-N 630 -50 660 -50 {
-lab=Vout}
 N 630 -80 660 -80 {
 lab=Vp}
 N 660 -110 660 -80 {
@@ -64,13 +56,15 @@ lab=#net1}
 N 470 70 630 70 {
 lab=Vn}
 N 630 -20 630 10 {
-lab=Vout}
+lab=V08}
+N 630 -50 630 -20 {
+lab=V08}
 C {devices/opin.sym} 450 70 1 0 {name=p1 lab=Vn}
 C {devices/opin.sym} 450 -130 3 0 {name=p3 lab=Vp}
-C {devices/ipin.sym} 390 40 0 0 {name=p2 lab=Vin}
+C {devices/ipin.sym} 390 -20 0 0 {name=p2 lab=Vin}
 C {sky130_fd_pr/pfet_01v8.sym} 610 -80 0 0 {name=M2
-L=0.47
-W=0.42
+L=0.48
+W=0.43
 nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -96,10 +90,10 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {devices/opin.sym} 720 10 0 0 {name=p4 lab=V08}
+C {devices/opin.sym} 630 -20 0 0 {name=p4 lab=V08}
 C {sky130_fd_pr/pfet_01v8.sym} 430 -100 0 0 {name=M1
-L=0.15
-W=0.67
+L=0.16
+W=0.668
 nf=1
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -112,7 +106,7 @@ model=pfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/nfet_01v8.sym} 430 40 0 0 {name=M0
-L=0.67
+L=1.13
 W=0.36
 nf=1 
 mult=1

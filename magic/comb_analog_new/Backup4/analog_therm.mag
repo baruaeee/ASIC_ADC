@@ -1,0 +1,13 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1706468101
+use therm  therm_0
+timestamp 1706468101
+transform 1 0 4297 0 1 72
+box -111 1962 7123 6820
+use Analog  x1
+timestamp 1706466859
+transform 1 0 0 0 1 7400
+box 1538 -6946 5443 -488
+<< end >>

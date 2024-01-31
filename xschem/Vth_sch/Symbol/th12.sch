@@ -8,7 +8,7 @@ E {}
 N 600 -60 600 0 {
 lab=#net1}
 N 640 -30 730 -30 {
-lab=Vout}
+lab=V12}
 N 640 0 660 0 {
 lab=Vn}
 N 660 0 660 30 {
@@ -72,7 +72,7 @@ lab=Vn}
 C {devices/opin.sym} 460 90 1 0 {name=p1 lab=Vn}
 C {devices/opin.sym} 460 -170 3 0 {name=p3 lab=Vp}
 C {devices/ipin.sym} 400 0 0 0 {name=p5 lab=Vin}
-C {devices/opin.sym} 730 -30 0 0 {name=p6 lab=Vout}
+C {devices/opin.sym} 730 -30 0 0 {name=p6 lab=V12}
 C {sky130_fd_pr/pfet_01v8.sym} 620 -60 0 0 {name=M3
 L=1.0
 W=0.42
@@ -116,7 +116,7 @@ model=pfet_01v8
 spiceprefix=X
 }
 C {sky130_fd_pr/nfet_01v8.sym} 440 0 0 0 {name=M1
-L=2.0
+L=2.90
 W=0.36
 nf=1 
 mult=1

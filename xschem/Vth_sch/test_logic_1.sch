@@ -77,7 +77,6 @@ value=".lib $::SKYWATER_MODELS/sky130.lib.spice tt
 "
 spice_ignore=false}
 C {devices/opin.sym} -130 -160 0 0 {name=p199 lab=b[3:0] }
-C {Symbol/therm.sym} 270 -90 0 0 {name=x1}
 C {devices/lab_pin.sym} 120 -230 2 1 {name=p14 lab=p0}
 C {devices/lab_pin.sym} 120 -210 0 0 {name=p15 lab=p1}
 C {devices/lab_pin.sym} 120 -190 0 0 {name=p16 lab=p2}
@@ -93,7 +92,8 @@ C {devices/lab_pin.sym} 120 -10 2 1 {name=p25 lab=p11}
 C {devices/lab_pin.sym} 120 10 0 0 {name=p26 lab=p12}
 C {devices/lab_pin.sym} 120 30 0 0 {name=p27 lab=p13}
 C {devices/lab_pin.sym} 120 50 0 0 {name=p28 lab=p14}
-C {devices/lab_pin.sym} 420 -230 0 1 {name=p29 lab=b0}
-C {devices/lab_pin.sym} 420 -210 0 1 {name=p30 lab=b1}
-C {devices/lab_pin.sym} 420 -190 0 1 {name=p31 lab=b2}
-C {devices/lab_pin.sym} 420 -170 0 1 {name=p32 lab=b3}
+C {devices/lab_pin.sym} 420 -230 0 1 {name=p29 lab=b[0]}
+C {devices/lab_pin.sym} 420 -210 0 1 {name=p30 lab=b[1]}
+C {devices/lab_pin.sym} 420 -190 0 1 {name=p31 lab=b[2]}
+C {devices/lab_pin.sym} 420 -170 0 1 {name=p32 lab=b[3]}
+C {/home/exotic/Desktop/ASIC_ADC/xschem/Vth_sch/Symbol/therm.sym} 270 -90 0 0 {name=x1}

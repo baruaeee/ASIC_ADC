@@ -205,6 +205,6 @@ C {devices/lab_pin.sym} 840 -20 2 1 {name=p158 lab=36}
 C {devices/lab_pin.sym} 960 -40 0 1 {name=p159 lab=b[3]}
 C {devices/ipin.sym} -570 -480 0 0 {name=p196 lab=p[14:0]}
 C {devices/opin.sym} -460 -480 0 0 {name=p197 lab=b[3:0] }
-C {devices/vsource.sym} -910 -130 0 0 {name=VDD1 value=1.8}
-C {devices/vdd.sym} -910 -160 0 0 {name=l18 lab=VDD}
-C {devices/gnd.sym} -910 -100 0 0 {name=l19 lab=GND}
+C {devices/vsource.sym} -620 -190 0 0 {name=VDD value=1.8}
+C {devices/vdd.sym} -620 -220 0 0 {name=l18 lab=VDD}
+C {devices/gnd.sym} -620 -160 0 0 {name=l19 lab=GND}
