@@ -1,80 +1,87 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1705440679
+timestamp 1706236611
 << pwell >>
-rect 400 -1066 448 -896
-rect 476 -1180 542 -1114
+rect 430 -778 498 -744
+<< nsubdiff >>
+rect 401 -40 629 -6
 << locali >>
-rect 650 -154 1040 -82
-rect 334 -332 480 -276
-rect 648 -888 1034 -816
-rect 536 -1064 682 -1008
+rect 387 -40 663 -6
+rect 697 -40 699 -6
+rect 609 -976 633 -942
+<< viali >>
+rect 663 -40 697 -6
+rect 633 -976 667 -942
 << metal1 >>
-rect 402 -92 1106 -44
-rect 402 -280 450 -92
-rect 478 -230 544 -164
-rect 740 -246 940 -92
-rect 1058 -240 1106 -92
-rect 402 -342 484 -280
-rect 402 -344 450 -342
-rect 538 -350 632 -262
-rect 1058 -280 1126 -240
-rect 1058 -296 1158 -280
-rect 1052 -328 1158 -296
-rect 1052 -344 1126 -328
-rect 1274 -344 1396 -268
-rect 296 -461 545 -395
-rect 296 -574 362 -461
-rect 584 -558 632 -350
-rect 852 -450 1260 -402
-rect 852 -558 900 -450
-rect 296 -774 496 -574
-rect 584 -606 900 -558
-rect 1348 -576 1396 -344
-rect 296 -1133 362 -774
-rect 584 -816 632 -606
-rect 852 -696 900 -606
-rect 852 -744 1208 -696
-rect 400 -864 632 -816
-rect 400 -1066 448 -864
-rect 478 -966 544 -900
-rect 1160 -954 1208 -744
-rect 1262 -776 1462 -576
-rect 1266 -960 1314 -776
-rect 1238 -990 1314 -960
-rect 536 -1064 1155 -998
-rect 476 -1133 542 -1114
-rect 727 -1117 967 -1064
-rect 1210 -1072 1314 -990
-rect 296 -1180 542 -1133
-rect 728 -1121 967 -1117
-rect 296 -1199 541 -1180
-rect 728 -1290 928 -1121
-rect 1148 -1164 1210 -1110
+rect 624 31 724 32
+rect 319 -3 724 31
+rect 319 -215 353 -3
+rect 624 -6 724 -3
+rect 624 -40 663 -6
+rect 697 -40 724 -6
+rect 624 -68 724 -40
+rect 492 -146 558 -94
+rect 589 -201 623 -197
+rect 319 -249 499 -215
+rect 553 -235 627 -201
+rect 553 -241 587 -235
+rect 589 -241 627 -235
+rect 553 -275 627 -241
+rect 665 -212 699 -68
+rect 665 -246 782 -212
+rect 904 -248 1055 -214
+rect 593 -317 627 -275
+rect 315 -353 559 -319
+rect 593 -351 875 -317
+rect 315 -392 349 -353
+rect 314 -492 414 -392
+rect 315 -845 349 -492
+rect 593 -559 627 -351
+rect 1021 -388 1055 -248
+rect 984 -419 1084 -388
+rect 901 -453 1084 -419
+rect 391 -593 857 -559
+rect 391 -744 425 -593
+rect 492 -688 558 -628
+rect 823 -675 857 -593
+rect 901 -723 935 -453
+rect 984 -488 1084 -453
+rect 391 -778 499 -744
+rect 554 -778 815 -744
+rect 315 -879 555 -845
+rect 637 -914 671 -778
+rect 871 -787 935 -723
+rect 808 -892 874 -832
+rect 632 -930 732 -914
+rect 627 -942 732 -930
+rect 627 -976 633 -942
+rect 667 -976 732 -942
+rect 627 -988 732 -976
+rect 632 -1014 732 -988
 use sky130_fd_pr__nfet_01v8_VGVEGU  XM0
-timestamp 1704382376
-transform 1 0 508 0 1 -1036
+timestamp 1706231216
+transform 1 0 526 0 1 -760
 box -212 -252 212 252
 use sky130_fd_pr__pfet_01v8_EDPLE3  XM1
-timestamp 1704382376
-transform 1 0 509 0 1 -307
+timestamp 1706231216
+transform 1 0 525 0 1 -231
 box -211 -261 211 261
-use sky130_fd_pr__pfet_01v8_NZD9V2  XM2
-timestamp 1704374400
-transform 1 0 1217 0 1 -305
-box -243 -261 243 261
-use sky130_fd_pr__nfet_01v8_97T34Z  XM3
-timestamp 1704382376
-transform 1 0 1179 0 1 -1034
+use sky130_fd_pr__pfet_01v8_JM8GTH  XM2
+timestamp 1706231216
+transform 1 0 842 0 1 -231
+box -246 -261 246 261
+use sky130_fd_pr__nfet_01v8_MYA4RC  XM3
+timestamp 1706229878
+transform -1 0 843 0 1 -756
 box -211 -256 211 256
 << labels >>
-flabel metal1 740 -246 940 -46 0 FreeSans 256 0 0 0 Vp
+flabel metal1 624 -68 724 32 0 FreeSans 256 0 0 0 Vp
 port 0 nsew
-flabel metal1 296 -774 496 -574 0 FreeSans 256 0 0 0 Vin
+flabel metal1 314 -492 414 -392 0 FreeSans 256 0 0 0 Vin
 port 1 nsew
-flabel metal1 728 -1290 928 -1090 0 FreeSans 256 0 0 0 Vn
+flabel metal1 632 -1014 732 -914 0 FreeSans 256 0 0 0 Vn
 port 3 nsew
-flabel metal1 1262 -776 1462 -576 0 FreeSans 256 0 0 0 V07
+flabel metal1 984 -488 1084 -388 0 FreeSans 256 0 0 0 V07
 port 2 nsew
 << end >>
