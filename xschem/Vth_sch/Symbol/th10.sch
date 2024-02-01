@@ -16,29 +16,19 @@ lab=Vn}
 N 640 30 660 30 {
 lab=Vn}
 N 640 -60 670 -60 {
-lab=Vp}
+lab=#net2}
 N 670 -90 670 -60 {
-lab=Vp}
+lab=#net2}
 N 640 -90 670 -90 {
-lab=Vp}
-N 460 -110 460 -60 {
-lab=#net1}
-N 400 -140 400 -130 {
-lab=Vin}
-N 400 -140 420 -140 {
-lab=Vin}
-N 460 -60 460 -30 {
-lab=#net1}
-N 400 -130 400 -40 {
-lab=Vin}
+lab=#net2}
 N 400 0 420 0 {
 lab=Vin}
-N 460 -140 480 -140 {
-lab=Vp}
-N 480 -170 480 -140 {
-lab=Vp}
-N 460 -170 480 -170 {
-lab=Vp}
+N 460 -100 480 -100 {
+lab=#net3}
+N 480 -130 480 -100 {
+lab=#net3}
+N 460 -130 480 -130 {
+lab=#net3}
 N 460 0 480 0 {
 lab=Vn}
 N 400 -40 400 0 {
@@ -51,24 +41,25 @@ N 460 90 640 90 {
 lab=Vn}
 N 640 30 640 90 {
 lab=Vn}
-N 640 -170 640 -150 {
-lab=Vp}
-N 480 -170 640 -170 {
-lab=Vp}
-N 460 -60 600 -60 {
-lab=#net1}
-N 640 -150 640 -90 {
-lab=Vp}
 N 480 0 570 0 {
 lab=Vn}
 N 570 0 570 90 {
 lab=Vn}
 N 460 60 550 60 {
-lab=Vp}
-N 550 -170 550 60 {
-lab=Vp}
+lab=#net2}
+N 460 -40 600 -40 {
+lab=#net1}
+N 460 -70 460 -30 {
+lab=#net1}
+N 400 -100 400 -40 {
+lab=Vin}
+N 400 -100 420 -100 {
+lab=Vin}
+N 480 -130 640 -130 {}
+N 550 -130 550 60 {}
+N 640 -130 640 -90 {}
 C {devices/opin.sym} 460 90 1 0 {name=p1 lab=Vn}
-C {devices/opin.sym} 460 -170 3 0 {name=p3 lab=Vp}
+C {devices/opin.sym} 460 -130 3 0 {name=p3 lab=Vp}
 C {devices/ipin.sym} 400 0 0 0 {name=p5 lab=Vin}
 C {devices/opin.sym} 730 -30 0 0 {name=p6 lab=V10}
 C {sky130_fd_pr/pfet_01v8.sym} 620 -60 0 0 {name=M3
@@ -99,7 +90,7 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {sky130_fd_pr/pfet_01v8.sym} 440 -140 0 0 {name=M2
+C {sky130_fd_pr/pfet_01v8.sym} 440 -100 0 0 {name=M2
 L=0.28
 W=0.42
 nf=1
