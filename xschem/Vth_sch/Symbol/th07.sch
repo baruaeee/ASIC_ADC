@@ -11,8 +11,6 @@ N 680 -20 680 40 {
 lab=#net1}
 N 680 -80 680 -20 {
 lab=#net1}
-N 720 -20 810 -20 {
-lab=V07}
 N 720 40 740 40 {
 lab=Vn}
 N 740 40 740 70 {
@@ -58,9 +56,9 @@ lab=#net1}
 N 560 70 720 70 {
 lab=Vn}
 N 720 -20 720 10 {
-lab=V07}
+lab=#net2}
 N 720 -50 720 -20 {
-lab=V07}
+lab=#net2}
 C {devices/opin.sym} 540 70 1 0 {name=p1 lab=Vn}
 C {devices/opin.sym} 540 -130 3 0 {name=p3 lab=Vp}
 C {devices/ipin.sym} 480 -20 0 0 {name=p2 lab=Vin}
@@ -92,7 +90,7 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
-C {devices/opin.sym} 810 -20 0 0 {name=p4 lab=V07}
+C {devices/opin.sym} 720 -20 0 0 {name=p4 lab=V07}
 C {sky130_fd_pr/pfet_01v8.sym} 520 -100 0 0 {name=M1
 L=0.151
 W=0.42
