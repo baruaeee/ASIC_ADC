@@ -1,0 +1,131 @@
+\o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 09/24/2018 21:00 (ip-172-18-22-224) $
+\o Sub version:		sub-version  p015 
+\o Arguments:		-mpssession virtuoso2044 -mpshost exotic-virtual-machine 
+\o Working Directory:	exotic-virtual-machine:/home/exotic/Desktop/ASIC_ADC/Cadence_FreePdk045/ADC_FreePDK45
+\o 64-bit offsets
+\o Qt version: 		5.9.1
+\o Log file is "/home/exotic/Desktop/ASIC_ADC/Cadence_FreePdk045/ADC_FreePDK45/libManager.log".
+\o Opening libManager window.
+\a nrResizeWindow(cdsLibManager list(120 31 891 491))
+\a nrSetCurrentWindow(cdsLibManager)
+\o changeWorkingDir("/home/exotic/Desktop/ASIC_ADC/Cadence_FreePdk045/ADC_FreePDK45") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o MPS service: map window
+\o Library Manager customization server connected.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "ADC"
+\a cdsLibManager->libLineEdit->value = "ADC"
+\a cdsLibManager->cellListBox->value = "inv_tb_W_pre"
+\a cdsLibManager->cellLineEdit->value = "inv_tb_W_pre"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "inv_tb_W_pre"
+\a cdsLibManager->cellLineEdit->value = "inv_tb_W_pre"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 16 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "ADC"
+\a cdsLibManager->libLineEdit->value = "ADC"
+\a cdsLibManager->cellListBox->value = "inv_tb_W_pre"
+\a cdsLibManager->cellLineEdit->value = "inv_tb_W_pre"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->libListBox->value = "ADC"
+\a cdsLibManager->libLineEdit->value = "ADC"
+\a cdsLibManager->cellListBox->value = "inv_tb_W_pre"
+\a cdsLibManager->cellLineEdit->value = "inv_tb_W_pre"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ADC"
+\a cdsLibManager->libLineEdit->value = "ADC"
+\a cdsLibManager->cellListBox->value = "inv_tb_W_pre"
+\a cdsLibManager->cellLineEdit->value = "inv_tb_W_pre"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ADC"
+\a cdsLibManager->libLineEdit->value = "ADC"
+\a cdsLibManager->cellListBox->value = "inv_tb_W_pre"
+\a cdsLibManager->cellLineEdit->value = "inv_tb_W_pre"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ADC"
+\a cdsLibManager->libLineEdit->value = "ADC"
+\a cdsLibManager->cellListBox->value = "inv_tb_W_pre"
+\a cdsLibManager->cellLineEdit->value = "inv_tb_W_pre"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ADC"
+\a cdsLibManager->libLineEdit->value = "ADC"
+\a cdsLibManager->cellListBox->value = "inv_tb_W_pre"
+\a cdsLibManager->cellLineEdit->value = "inv_tb_W_pre"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"

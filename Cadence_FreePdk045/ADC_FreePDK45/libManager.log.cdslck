@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      exotic
+HostName                       exotic-virtual-machine
+ProcessIdentifier              3099
+ProcessCreationTime_UTC        1711541947
+ProcessCreationTime_Readable   Wed Mar 27 13:19:07 2024 CET
+AppIdentifier                  /opt/cadence/IC618/tools/dfII/bin/64bit/libManager
+OSType                         lnx86
+ReasonForPlacingEditLock       log file
+FilePathUsedToEditLock         /home/exotic/Desktop/ASIC_ADC/Cadence_FreePdk045/ADC_FreePDK45/libManager.log
+TimeEditLocked                 Wed Mar 27 13:19:07 2024 CET
