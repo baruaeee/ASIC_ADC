@@ -1,14 +1,86 @@
 \o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 09/24/2018 21:00 (ip-172-18-22-224) $
 \o Sub version:		sub-version  p015 
-\o Arguments:		-mpssession virtuoso2219 -mpshost exotic-virtual-machine 
+\o Arguments:		-mpssession virtuoso22544 -mpshost exotic-virtual-machine 
 \o Working Directory:	exotic-virtual-machine:/home/exotic/Desktop/ASIC_ADC/Cadence_FreePdk045/ADC_FreePDK45
 \o 64-bit offsets
 \o changeWorkingDir("/home/exotic/Desktop/ASIC_ADC/Cadence_FreePdk045/ADC_FreePDK45") unnecessary.
 \o ddSetForcedLib("") unnecessary.
 \a nrSetWindowVisibility(cdsLibManager "show")
 \o MPS service: map window
+\a nrResizeWindow(cdsLibManager list(54 39 1008 491))
 \o Qt version: 		5.9.1
 \o Log file is "/home/exotic/Desktop/ASIC_ADC/Cadence_FreePdk045/ADC_FreePDK45/libManager.log".
 \o Opening libManager window.
-\a nrResizeWindow(cdsLibManager list(120 31 891 491))
 \o Library Manager customization server connected.
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "ADC"
+\a cdsLibManager->libLineEdit->value = "ADC"
+\a cdsLibManager->cellListBox->value = "preamp"
+\a cdsLibManager->cellLineEdit->value = "preamp"
+\a cdsLibManager->viewListBox->value = "physConfig"
+\a cdsLibManager->viewLineEdit->value = "physConfig"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ADC"
+\a cdsLibManager->libLineEdit->value = "ADC"
+\a cdsLibManager->cellListBox->value = "preamp"
+\a cdsLibManager->cellLineEdit->value = "preamp"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ADC"
+\a cdsLibManager->libLineEdit->value = "ADC"
+\a cdsLibManager->cellListBox->value = "preamp"
+\a cdsLibManager->cellLineEdit->value = "preamp"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ADC"
+\a cdsLibManager->libLineEdit->value = "ADC"
+\a cdsLibManager->cellListBox->value = "preamp"
+\a cdsLibManager->cellLineEdit->value = "preamp"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS service: shutdown
+\o libManager is exiting.
+\a exit(0)
