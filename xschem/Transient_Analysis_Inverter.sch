@@ -1,4 +1,4 @@
-v {xschem version=3.4.2 file_version=1.2
+v {xschem version=3.4.5 file_version=1.2
 }
 G {}
 K {}
@@ -19,6 +19,20 @@ N -30 20 10 20 {
 lab=Vin}
 N 70 20 110 20 {
 lab=Vout}
+N 70 -30 90 -30 {
+lab=VDD}
+N 90 -60 90 -30 {
+lab=VDD}
+N 70 -60 90 -60 {
+lab=VDD}
+N 70 70 90 70 {
+lab=GND}
+N 90 70 90 90 {
+lab=GND}
+N 90 90 90 100 {
+lab=GND}
+N 70 100 90 100 {
+lab=GND}
 C {devices/code.sym} 0 -210 0 0 {name=TT_MODEL only_toplevel=false value="
 .lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
 
