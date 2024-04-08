@@ -1,0 +1,9 @@
+-- Base gpdk045 library definition file	
+
+DEFINE analogLib $(compute:THIS_TOOL_INST_ROOT)/tools/dfII//etc/cdslib/artist/analogLib
+DEFINE basic $(compute:THIS_TOOL_INST_ROOT)/tools/dfII/etc/cdslib/basic
+DEFINE sheets $(compute:THIS_TOOL_INST_ROOT)/tools/dfII/etc/cdslib/sheets/US_8ths
+
+UNDEFINE gpdk045
+DEFINE gpdk045 /home/exotic/pdks/gpdk045_v_5_0/gpdk045
+DEFINE ADC /home/exotic/Desktop/ASIC_ADC/Cadence_gpdk45/ADC
