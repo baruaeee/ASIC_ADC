@@ -1,4 +1,4 @@
-v {xschem version=3.4.2 file_version=1.2
+v {xschem version=3.4.5 file_version=1.2
 }
 G {}
 K {}
@@ -13,6 +13,18 @@ N 0 -160 20 -160 {
 lab=Vin}
 N 60 -130 60 -90 {
 lab=Vout}
+N 60 -60 80 -60 {
+lab=GND}
+N 80 -60 80 -30 {
+lab=GND}
+N 60 -30 80 -30 {
+lab=GND}
+N 60 -160 80 -160 {
+lab=VDD}
+N 80 -190 80 -160 {
+lab=VDD}
+N 60 -190 80 -190 {
+lab=VDD}
 C {devices/code.sym} -200 -160 0 0 {name=TT_MODEL only_toplevel=false corner=tt}
 C {devices/vsource.sym} -220 40 0 0 {name=VDD value=1.8}
 C {devices/vdd.sym} -220 10 0 0 {name=l1 lab=VDD}
