@@ -1,0 +1,6 @@
+[Logging Service: 4]
+[2024-10-13 01:19:17.882 +0200] [INFO] [cadence.virtuoso.ade.loggingservice] - HistoryRecorderManager init {"dbBasePath": "/home/cae3/Desktop/ADC/Cadence_Sky/ADC/inv_tb_YT/maestro/results/maestro"}
+[2024-10-13 01:19:17.882 +0200] [INFO] [cadence.virtuoso.ade.loggingservice] - useGRPC grpc service... {"brokerAddress": "cae-europractice1.othr.de:37131", "serviceName": "DaVinciService_697246_1728774350", "axlSession": "fnxSession1"}
+[2024-10-13 01:19:17.883 +0200] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Logging Service has successfully started. Waiting for incoming messages ... {"hostname": "cae-europractice1.othr.de", "processid": 702464, "logfile": "/home/cae3/Desktop/ADC/Cadence_Sky/logs_cae3/logs0/LoggingService4.log"}
+[2024-10-13 01:19:17.899 +0200] [INFO] [cadence.virtuoso.ade.loggingservice] - logging service gRPC started {"broker address": "cae-europractice1.othr.de:40361"}
+[2024-10-13 01:22:13.398 +0200] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Logging Service stop!!!! {"hostname": "cae-europractice1.othr.de", "processid": 702464, "logfile": "/home/cae3/Desktop/ADC/Cadence_Sky/logs_cae3/logs0/LoggingService4.log"}

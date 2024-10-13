@@ -1,0 +1,21 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 23.1 - CAT38 08/24/2023 05:08 (sjfdcl1184) $
+\o Sub version:		sub-version  p306 
+\o Arguments:		-display :10.0 -mpssession virtuoso732000 -mpshost cae-europractice1.othr.de -mpsversion 23.1 -namespace CDBA -cdslib /home/cae1/Desktop/ASIC_ADC/Cadence_sky/cds.lib 
+\o Working Directory:	cae-europractice1.othr.de:/home/cae1/Desktop/ASIC_ADC/Cadence_sky
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		5.15.9
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(cdsLibEditor list(585 321 500 400))
+\a nrListItemAction(cdsLibEditor->mainTable 3 1)
+\o Active cell: 3 1 "/home/cae3/Desktop/ADC/Cadence_Sky/ADC"
+\a nrListItemRename(cdsLibEditor->mainTable, 3 1 "/home/cae1/Desktop/ADC/Cadence_Sky/ADC")
+\o QUESTION (CLE-200): The directory "/home/cae1/Desktop/ADC/Cadence_Sky/ADC" \ndoesn't exist. If other tools use this file, \nan error will occur unless you either create \nthe directory you have specified or change the \npath to an existing directory. \n\nDo you want to create a new library? 
+\a nrSetWindowVisibility(needCreateDialog "show")
+\a nrSetCurrentWindow(needCreateDialog)
+\a nrResizeWindow(needCreateDialog list(646 394 369 196))
+\a needCreateDialog->cancelButton->value = t
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemRename(cdsLibEditor->mainTable, 3 1 "/home/cae1/Desktop/ASIC_ADC/Cadence_sky/ADC")
+\a cdsLibEditor->fileSaveButton->value = t
+\a exit(0)

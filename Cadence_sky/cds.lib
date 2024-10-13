@@ -1,0 +1,9 @@
+# File Created by Sajib Barua (Student MA about OpenFPGA) at Sun Oct 13 12:38:17 2024
+# assisted by CdsLibEditor
+# File Created by Standard CAE user at Fri Oct 11 02:31:15 2024
+# assisted by CdsLibEditor
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+DEFINE sky130_fd_pr_main /eda/cadence/pdks/sky130_release_004a/libs/sky130_fd_pr_main
+
+DEFINE ADC /home/cae1/Desktop/ASIC_ADC/Cadence_sky/ADC
