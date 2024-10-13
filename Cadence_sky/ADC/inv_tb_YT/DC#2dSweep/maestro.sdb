@@ -17,7 +17,7 @@
 				<value>(None)</value>
 			</plottingoption>
 			<plottingoption>plottingmode
-				<value>Replace</value>
+				<value>Append</value>
 			</plottingoption>
 			<plottingoption>plottype
 				<value>None</value>
@@ -36,6 +36,9 @@
 			</plottingoption>
 			<plottingoption>distributedplot_enabled
 				<value>no</value>
+			</plottingoption>
+			<plottingoption>autoplotmode
+				<value>Append</value>
 			</plottingoption>
 		</plottingoptions>
 		<tests>
@@ -61,6 +64,20 @@
 						<value>active</value>
 					</option>
 				</tooloptions>
+				<vars>
+					<var>nL
+						<value>150n:150n:1000n</value>
+					</var>
+					<var>nW
+						<value>420n:150n:1000n</value>
+					</var>
+					<var>pL
+						<value>150n:150n:1000n</value>
+					</var>
+					<var>pW
+						<value>550n:150n:1000n</value>
+					</var>
+				</vars>
 			</test>
 		</tests>
 		<checksasserts netlist="0">
@@ -69,6 +86,9 @@
 		<exploreroptions>
 			<exploreroption>waveformtemplate
 				<value>(None)</value>
+			</exploreroption>
+			<exploreroption>autoplotmode
+				<value>Append</value>
 			</exploreroption>
 		</exploreroptions>
 		<overwritehistory>0</overwritehistory>
