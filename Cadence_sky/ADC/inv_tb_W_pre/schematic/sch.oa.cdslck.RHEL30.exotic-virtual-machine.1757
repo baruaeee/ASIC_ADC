@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      exotic
+HostName                       exotic-virtual-machine
+ProcessIdentifier              1757
+ProcessCreationTime_UTC        1711669339
+ProcessCreationTime_Readable   Fri Mar 29 00:42:19 2024 CET
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/exotic/Desktop/ASIC_ADC/Cadence_FreePdk045/ADC_FreePDK45/ADC/inv_tb_W_pre/schematic/sch.oa.cdslck
+TimeEditLocked                 Fri Mar 29 02:45:02 2024 CET
