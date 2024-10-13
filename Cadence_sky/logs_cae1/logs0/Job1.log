@@ -39,6 +39,10 @@ Resetting statistical vars
 
 *Info*    Setting parameter values ...
 
+Setting var nL = "150n"
+Setting var nW = "420n"
+Setting var pL = "150n"
+Setting var pW = "550n"
 Setting var temperature = "27"
 Setting temp(T) = 27
 
@@ -55,13 +59,14 @@ Setting temp(T) = 27
 generate netlist...
 Loading hnlInit.cxt 
 Loading seCore.cxt 
-Initializing the control file using cp:
-    cp /mnt/cae_storage_sw/eda/cadence/2023-24/RHELx86/IC_23.10.020/tools.lnx86/dfII/etc/si/control.spectre /home/cae1/simulation/ADC/inv_tb_YT/DC-Sweep/results/maestro/ExplorerRun.0/1/ADC_inv_tb_YT_1/netlist/control
-Copying Spectre source file 'spectre.inp'
-Copying Spectre command file 'spectre.sim'
-Begin Incremental Netlisting Oct 13 12:47:04 2024
+Begin Incremental Netlisting Oct 13 17:33:45 2024
+WARNING (OSSHNL-226): There are more design variables used in the current netlisting session as
+compared to the last session in the current run directory. The netlist(s)
+generated in the last netlisting session cannot be reused for incremental
+netlisting. Therefore re-netlisting the design.
+
 Loading json.cxt 
-End netlisting Oct 13 12:47:04 2024
+End netlisting Oct 13 17:33:45 2024
 
 Netlisting Statistics:
 	Number of components:    6
@@ -84,7 +89,6 @@ simulate...
 To view the simulator output, right-click on the test name, result 
 name, or any value in the "Results" tab of the Outputs section and 
 choose "Output Log" menu option.
-Loading paraplot.cxt 
 INFO (ADE-3071): Simulation completed successfully.
 reading simulation data...
       ...successful.

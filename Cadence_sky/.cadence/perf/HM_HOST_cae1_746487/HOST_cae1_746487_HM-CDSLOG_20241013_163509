@@ -101,12 +101,3 @@
 \# The Health Monitor tool is installed. You can access it from CIW - Tools - Diagnostic Center or use the shell command 'cdsPerfDiag -p 746487' to open it when Virtuoso freezes.
 \o Loading diagCenter.cxt 
 \# (PerfDiag): Use backtrace from GLIBC.
-\# Available memory:         20,195 MB at UTC 2024.10.13 14:35:15.957
-\# Memory report: Maximum memory size now 20,551 MB at UTC 2024.10.13 14:35:15.957
-\# Thread usage report: 11 active threads, active load 1.40 at UTC 2024.10.13 14:35:15.958
-\o Job 0 timed out after no activity in 300 seconds.
-\o Loading simui.cxt 
-\o 
-\o *Info*    Received signal SIGTERM.
-\o 
-\o 
