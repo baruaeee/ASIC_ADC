@@ -1,0 +1,359 @@
+\# Program start time:     UTC 2024.10.20 18:38:33.741
+\# Local time: GMT+02:00 (UTC+02:00) 2024.10.20 20:38:33.741
+\o Program:		@(#)$CDS: virtuoso version IC23.1-64b 09/20/2023 08:29 (cpgbld16) $
+\o Hierarchy:		/mnt/cae_storage_sw/eda/cadence/2023-24/RHELx86/IC_23.10.020/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC23.1-64b.ISR2.29  (64-bit addresses)
+\# Command line:	/eda/cadence/2023-24/RHELx86/IC_23.10.020/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost cae-europractice1.othr.de -beanport 11867 -beanbinlog  -beanLogFile /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/amps_Service24.log -mpssession virtuoso1190405 -mpshost cae-europractice1.othr.de -davinciService DaVinciService_1190405_1729093354 -axlSession fnxSession6 -axlServiceIdFlag 24 -uuid 0d455a8b-cc77-4279-900d-a8ced1549b32 -heartbeat /dev/shm/swift-heartbeat.FUmDnAOP1C -log /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service24.log -adeBrokerAddress cae-europractice1.othr.de:36615 -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D03D0EC7EFC06BC4D66BB9E118E69D9383DB1CC43CF28867C66E3BF1FFC06BC4D66E38F1FFC06BC4D01F6C138B221DB5800001E69 -interactive -offlineExprEval -upfrontMode -fenixMode assembler -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
+\# Host name (type):	cae-europractice1.othr.de (x86_64)
+\# Operating system:	Linux 5.15.0-210.163.7.el8uek.x86_64 #2 SMP Tue Sep 10 18:31:09 PDT 2024
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:3349 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        706 MB
+\# Available memory:	     28,364 MB
+\# System memory:	     31,807 MB
+\# Maximum memory size:	     31,260 MB
+\# Max mem available:	     28,524 MB
+\# Initial memory used:	        160 MB
+\#        process size:	      1,627 MB
+\# Thread usage limits (effective/default):	maxthreads 127001/127001 maxload 16.00/16.00
+\# Qt version:		5.15.9
+\# Window Manager:	other
+\# User Name:		cae3
+\o Working Directory:	cae-europractice1.othr.de:/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky
+\# Process Id:		1988434
+\o 
+\o COPYRIGHT (C) 1992-2023  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2023  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Load shared object file /eda/cadence/2023-24/RHELx86/PEGASUSDFM_23.11.000/tools.lnx86/ret/lib/64bit/libretboot.so
+\o Load shared object file /eda/cadence/2023-24/RHELx86/PEGASUSDFM_23.11.000/tools.lnx86/lpa/lib/64bit/libretclef.so
+\o 
+\o Load shared object file /eda/cadence/2023-24/RHELx86/PEGASUSDFM_23.11.000/tools.lnx86/lpa/lib/64bit/libretmb.so
+\o 
+\o Hotspot Browser 1.0.0 (May  5 2016 12:15:38)
+\o Loading /eda/cadence/2023-24/RHELx86/PEGASUSDFM_23.11.000/tools.lnx86/mmg/bin/64bit/etc/context/6.1.0/64bit/ccp.cxt
+\o Loading pegasusui.cxt
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading layers.cxt 
+\o Loading drv.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o Loading sipLayout.cxt 
+\o INFO (ELI-00333) Client process connection mode is LSCS.
+\# [20:38:33.381852] Configured Lic search path (23.02-s003): 5280@hs-lic3.oth-regensburg.de:27003@hs-lic1.oth-regensburg.de:27003@hs-lic1.oth-regensburg.de:
+\# Memory report: using         325 MB, process size 1,840 MB at UTC 2024.10.20 18:38:37.262
+\p > 
+\o Loading tilp.cxt 
+\o Loading validator.cxt 
+\o Loading vrf.cxt 
+\o Loading multiTechPlugin.cxt 
+\o Loading exportDie.cxt 
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\# The Health Monitor tool is installed. You can access it from CIW - Tools - Diagnostic Center or use the shell command 'cdsPerfDiag -p 1988434' to open it when Virtuoso freezes.
+\o Loading diagCenter.cxt 
+\# (PerfDiag): Use backtrace from GLIBC.
+\i _axlRunServices()
+\# [20:38:37.119721] Periodic Lic check successful
+\# [20:38:37.644011] Feature usage summary:
+\o Loading simui.cxt 
+\o [2024-10-20 20:38:37.672 +0200] [PROCESS] [cadence.virtuoso.ade.services] - Netlist Service has successfully started. Waiting for incoming messages ... {"jobid": "24", "hostname": "cae-europractice1.othr.de", "processid": 1988434, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service24.log"}
+\# Available memory:         28,365 MB at UTC 2024.10.20 18:38:47.728
+\# Memory report: Maximum memory size now 28,775 MB at UTC 2024.10.20 18:38:47.729
+\# Thread usage report: 11 active threads, active load 1.40 at UTC 2024.10.20 18:38:47.729
+\o [2024-10-20 20:41:07.273 +0200] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "24", "history": "Interactive.0", "point": 0, "testname": "ADC_TB_single_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.0", "logFile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service24.log", "logFileSize": "5638"}
+\# Unzipping history /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/inv_tb_Wt_pre/maestro/history/Interactive.0.zip::historyData.sdb
+\o Loading vqp.cxt 
+\o Loading vdsil.cxt 
+\o *Warning* AXL Context Manager : job 24 is already registered. 
+\o 
+\o Loading hdlPkg.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = ADC
+\o 	Cell         = TB_single
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = Interactive.0
+\o 	Results DB   = /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/inv_tb_Wt_pre/maestro/results/maestro/Interactive.0.rdb
+\o 	Results Dir  = /home/cae3/simulation/ADC/inv_tb_Wt_pre/maestro/results/maestro/Interactive.0/1/ADC_TB_single_1
+\o 	Results Loc  = /home/cae3/simulation/ADC/inv_tb_Wt_pre/maestro/results/maestro
+\o 	Project Dir  = /home/cae3/simulation
+\o 	Setup DB loc = /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/inv_tb_Wt_pre/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading viva.cxt 
+\o Loading sky130_fd_pr_main/libInit.il ...
+\o 	Loading sky130_fd_pr_main/loadCxt.ile ... done!
+\o 	Loading context 'sky130_fd_pr_main' from library 'sky130_fd_pr_main' ... done!
+\o 	Loading context 'pdkUtils' from library 'sky130_fd_pr_main' ... done!
+\o 	Loading sky130_fd_pr_main/display.drf ... done!
+\o 	Loading sky130_fd_pr_main/libInitCktPro.il ... done!
+\o 	Loading sky130_fd_pr_main/libInitCustomExit.il ... 	Loading Environment Settings ...
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o done!
+\o Loaded sky130_fd_pr_main/libInit.il successfully!
+\# Memory report: using         492 MB, process size 2,390 MB at UTC 2024.10.20 18:41:09.380
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\# Unzipping history /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/inv_tb_Wt_pre/maestro/history/Interactive.0.zip::historyData.sdb
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Loading elec.cxt 
+\o [2024-10-20 20:41:09.930 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Started preparing netlist {"jobid": "24", "history": "Interactive.0", "point": 0, "testname": "ADC_TB_single_1", "testnameKey": "ADC_TB_single_1", "event": "start", "category": "design-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Loading monte.cxt 
+\o Reusing AHDL Data dir
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cae3/simulation/ADC/inv_tb_Wt_pre/maestro/results/maestro/Interactive.0/psf/ADC_TB_single_1
+\o 
+\o generate netlist...
+\o Loading hnlInit.cxt 
+\o Loading seCore.cxt 
+\o Initializing the control file using cp:
+\o     cp /mnt/cae_storage_sw/eda/cadence/2023-24/RHELx86/IC_23.10.020/tools.lnx86/dfII/etc/si/control.spectre /home/cae3/simulation/ADC/inv_tb_Wt_pre/maestro/results/maestro/Interactive.0/psf/ADC_TB_single_1/netlist/control
+\o Copying Spectre source file 'spectre.inp'
+\o Copying Spectre command file 'spectre.sim'
+\o Begin Incremental Netlisting Oct 20 20:41:10 2024
+\o Loading json.cxt 
+\o End netlisting Oct 20 20:41:10 2024
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   11
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-10-20 20:41:10.971 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished preparing netlist {"jobid": "24", "history": "Interactive.0", "point": 0, "testname": "ADC_TB_single_1", "testnameKey": "ADC_TB_single_1", "event": "finish", "category": "design-netlist"}
+\o [2024-10-20 20:41:10.973 +0200] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "24", "history": "Interactive.0", "point": 0, "testname": "ADC_inv_tb_YT_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.0", "logFile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service24.log", "logFileSize": "7887"}
+\# Unzipping history /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/inv_tb_Wt_pre/maestro/history/Interactive.0.zip::historyData.sdb
+\o *Warning* AXL Context Manager : job 24 is already registered. 
+\o 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = ADC
+\o 	Cell         = inv_tb_YT
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = Interactive.0
+\o 	Results DB   = /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/inv_tb_Wt_pre/maestro/results/maestro/Interactive.0.rdb
+\o 	Results Dir  = /home/cae3/simulation/ADC/inv_tb_Wt_pre/maestro/results/maestro/Interactive.0/1/ADC_inv_tb_YT_1
+\o 	Results Loc  = /home/cae3/simulation/ADC/inv_tb_Wt_pre/maestro/results/maestro
+\o 	Project Dir  = /home/cae3/simulation
+\o 	Setup DB loc = /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/inv_tb_Wt_pre/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\# Unzipping history /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/inv_tb_Wt_pre/maestro/history/Interactive.0.zip::historyData.sdb
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o [2024-10-20 20:41:12.553 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Started preparing netlist {"jobid": "24", "history": "Interactive.0", "point": 0, "testname": "ADC_inv_tb_YT_1", "testnameKey": "ADC_inv_tb_YT_1", "event": "start", "category": "design-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Reusing AHDL Data dir
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cae3/simulation/ADC/inv_tb_Wt_pre/maestro/results/maestro/Interactive.0/psf/ADC_inv_tb_YT_1
+\o 
+\o generate netlist...
+\o Initializing the control file using cp:
+\o     cp /mnt/cae_storage_sw/eda/cadence/2023-24/RHELx86/IC_23.10.020/tools.lnx86/dfII/etc/si/control.spectre /home/cae3/simulation/ADC/inv_tb_Wt_pre/maestro/results/maestro/Interactive.0/psf/ADC_inv_tb_YT_1/netlist/control
+\o Copying Spectre source file 'spectre.inp'
+\o Copying Spectre command file 'spectre.sim'
+\o Begin Incremental Netlisting Oct 20 20:41:12 2024
+\o End netlisting Oct 20 20:41:12 2024
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   11
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o *Warning*	Additional design variables have been found during netlisting.
+\o  		A value is necessary for successful simulation.
+\o 		To simulate, assign values to all design variables with 
+\o 		the Variables->Edit... menu, and use "Netlist and Run".
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-10-20 20:41:13.334 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished preparing netlist {"jobid": "24", "history": "Interactive.0", "point": 0, "testname": "ADC_inv_tb_YT_1", "testnameKey": "ADC_inv_tb_YT_1", "event": "finish", "category": "design-netlist"}
+\o [2024-10-20 20:41:15.425 +0200] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "24", "history": "Interactive.0", "point": 1, "testname": "ADC_TB_single_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.0", "logFile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service24.log", "logFileSize": "13081"}
+\o [2024-10-20 20:41:15.425 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "24", "history": "Interactive.0", "point": 1, "testname": "ADC_TB_single_1", "event": "start", "category": "point-netlist"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\# Unzipping history /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/inv_tb_Wt_pre/maestro/history/Interactive.0.zip::historyData.sdb
+\o *Warning* AXL Context Manager : job 24 is already registered. 
+\o 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = ADC
+\o 	Cell         = TB_single
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = Interactive.0
+\o 	Results DB   = /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/inv_tb_Wt_pre/maestro/results/maestro/Interactive.0.rdb
+\o 	Results Dir  = /home/cae3/simulation/ADC/inv_tb_Wt_pre/maestro/results/maestro/Interactive.0/1/ADC_TB_single_1
+\o 	Results Loc  = /home/cae3/simulation/ADC/inv_tb_Wt_pre/maestro/results/maestro
+\o 	Project Dir  = /home/cae3/simulation
+\o 	Setup DB loc = /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/inv_tb_Wt_pre/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\# Unzipping history /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/inv_tb_Wt_pre/maestro/history/Interactive.0.zip::historyData.sdb
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cae3/simulation/ADC/inv_tb_Wt_pre/maestro/results/maestro/Interactive.0/1/ADC_TB_single_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cae3/simulation/ADC/inv_tb_Wt_pre/maestro/results/maestro/Interactive.0/1/ADC_TB_single_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-10-20 20:41:17.752 +0200] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 849.4023 MBytes, peak memory used: 849.4023 MBytes {"jobid": "24", "hostname": "cae-europractice1.othr.de", "processid": 1988434, "history": "Interactive.0", "testname": "ADC_TB_single_1", "point": 1, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service24.log"}
+\o [2024-10-20 20:41:17.753 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "24", "history": "Interactive.0", "point": 1, "testname": "ADC_TB_single_1", "event": "finish", "category": "point-netlist"}
+\o [2024-10-20 20:41:19.761 +0200] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "24", "history": "Interactive.0", "point": 1, "testname": "ADC_inv_tb_YT_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.0", "logFile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service24.log", "logFileSize": "16316"}
+\o [2024-10-20 20:41:19.762 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "24", "history": "Interactive.0", "point": 1, "testname": "ADC_inv_tb_YT_1", "event": "start", "category": "point-netlist"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\# Unzipping history /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/inv_tb_Wt_pre/maestro/history/Interactive.0.zip::historyData.sdb
+\o *Warning* AXL Context Manager : job 24 is already registered. 
+\o 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = ADC
+\o 	Cell         = inv_tb_YT
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = Interactive.0
+\o 	Results DB   = /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/inv_tb_Wt_pre/maestro/results/maestro/Interactive.0.rdb
+\o 	Results Dir  = /home/cae3/simulation/ADC/inv_tb_Wt_pre/maestro/results/maestro/Interactive.0/1/ADC_inv_tb_YT_1
+\o 	Results Loc  = /home/cae3/simulation/ADC/inv_tb_Wt_pre/maestro/results/maestro
+\o 	Project Dir  = /home/cae3/simulation
+\o 	Setup DB loc = /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/inv_tb_Wt_pre/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\# Unzipping history /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/inv_tb_Wt_pre/maestro/history/Interactive.0.zip::historyData.sdb
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cae3/simulation/ADC/inv_tb_Wt_pre/maestro/results/maestro/Interactive.0/1/ADC_inv_tb_YT_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cae3/simulation/ADC/inv_tb_Wt_pre/maestro/results/maestro/Interactive.0/1/ADC_inv_tb_YT_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-10-20 20:41:21.535 +0200] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 853.1016 MBytes, peak memory used: 853.1016 MBytes {"jobid": "24", "hostname": "cae-europractice1.othr.de", "processid": 1988434, "history": "Interactive.0", "testname": "ADC_inv_tb_YT_1", "point": 1, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service24.log"}
+\o [2024-10-20 20:41:21.536 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "24", "history": "Interactive.0", "point": 1, "testname": "ADC_inv_tb_YT_1", "event": "finish", "category": "point-netlist"}
+\o [2024-10-20 20:46:22.975 +0200] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Netlist Service process exits. {"jobid": "24", "hostname": "cae-europractice1.othr.de", "processid": 1988434, "history": "Interactive.0", "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service24.log"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\# Lic Summary:
+\# [20:46:24.028562] Cdslmd servers:5280@hs-lic3.oth-regensburg.de:27003@hs-lic1.oth-regensburg.de:27003@hs-lic1.oth-regensburg.de:
+\# [20:46:24.028601] Feature usage summary:
+\# Memory report: on exit            519 MB, process size 2,419 MB at UTC 2024.10.20 18:46:24.028
+\# Memory report: peak usage         527 MB, process size 2,427 MB

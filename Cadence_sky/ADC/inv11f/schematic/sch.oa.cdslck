@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      cae3
+HostName                       cae-europractice1.othr.de
+ProcessIdentifier              1190405
+ProcessCreationTime_UTC        1729093300
+ProcessCreationTime_Readable   Wed Oct 16 17:41:40 2024 CEST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/inv11f/schematic/sch.oa.cdslck
+TimeEditLocked                 Sat Oct 26 12:05:44 2024 CEST

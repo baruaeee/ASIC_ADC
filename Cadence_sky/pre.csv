@@ -1,0 +1,5 @@
+Type,Name,Value,Enabled,Tags,Notes
+variable,pre_n_L,150n:300n:1.1u,enabled,,
+variable,pre_n_W,420nn:300n:1.1u,enabled,,
+variable,pre_p_L,150n:300n:1.1u,enabled,,
+variable,pre_p_W,530n:300n:1.1u,enabled,,

@@ -1,0 +1,107 @@
+;====================Set to Maestro mode explorer =============================
+ocnSetXLMode("explorer")
+ocnxlProjectDir( "~/simulation" )
+ocnxlTargetCellView( "ADC" "inv_tb_YT" "DC-Sweep" )
+ocnxlResultsLocation( "" )
+ocnxlSimResultsLocation( "" )
+ocnxlMaxJobFail( 20 )
+
+;====================== Tests setup ============================================
+
+;---------- Test "ADC_inv_tb_YT_1" ------------- 
+ocnxlBeginTest("ADC_inv_tb_YT_1")
+simulator( 'spectre )
+design( "ADC" "inv_tb_YT" "schematic")
+modelFile( 
+    '("/mnt/cae_storage_sw/eda/cadence/pdks/sky130_release_004a/libs/sky130_fd_pr_main/../../models/sky130.lib.spice" "tt")
+)
+analysis('dc ?saveOppoint t  ?dev "/V1"  ?param "dc"  
+		?start "0"  ?stop "1.8"  ?lin "50"  )
+desVar(	  "nL" "150n:150n:1000n"	)
+desVar(	  "nW" "420n:150n:1000n"	)
+desVar(	  "pL" "150n:150n:1000n"	)
+desVar(	  "pW" "550n:150n:1000n"	)
+desVar(	  "div1L" 1.05u	)
+desVar(	  "div1W" 550n	)
+desVar(	  "div2L" 150n	)
+desVar(	  "div2W" 1u	)
+envOption(
+	'autoDisplay  nil 
+	'analysisOrder  list("pz" "dcmatch" "stb" "tran" "envlp" "ac" "dc" "lf" "noise" "xf" "sp" "pss" "pac" "pstb" "pnoise" "pxf" "psp" "qpss" "qpac" "qpnoise" "qpxf" "qpsp" "hb" "hbac" "hbstb" "hbnoise" "hbxf" "sens" "acmatch") 
+)
+option(	'pzSeverity  "None" 
+	'noiseSeverity  "None" 
+	'spSeverity  "None" 
+	'acSeverity  "None" 
+	'dcOpSeverity  "None" 
+	'dcSeverity  "None" 
+	'tranSeverity  "None" 
+)
+saveOption( ?infoOptions list(list("modelParameter" "models" "rawfile" "" "" "" t) list("element" "inst" "rawfile" "" "" "" t) list("outputParameter" "output" "rawfile" "" "" "" t) list("designParamVals" "parameters" "rawfile" "" "" "" t) list("primitives" "primitives" "rawfile" "" "" "" t) list("subckts" "subckts" "rawfile" "" "" "" t) list("asserts" "assert" "rawfile" "" "" "" nil) list("extremeinfo" "all" "logfile" "" "yes" "" nil) list("allcap" "allcap" "file" "" "" "" nil) list("simStatistics" "simstat" "rawfile" "" "" "" nil) list("<Click_To_Add>" "none" "rawfile" "" "" "" nil) ) )
+save( 'v "/div_out" "/LL" "/OUT" )
+temp( 27 ) 
+ocnxlOutputExpr( "v(\"/OUT\" ?result \"dc\")" ?name "v /OUT; dc (V)")
+ocnxlOutputExpr( "v(\"/IN\" ?result \"dc\")" ?name "v /IN; dc (V)")
+ocnxlOutputExpr( "v(\"/div_out\" ?result \"dc\")" ?name "v /div_out; dc (V)" ?evalType 'point)
+ocnxlOutputSignal( "/div_out" ?save t)
+ocnxlOutputExpr( "v(\"/LL\" ?result \"dc\")" ?name "v /LL; dc (V)" ?evalType 'point)
+ocnxlOutputSignal( "/LL" ?save t)
+ocnxlOutputExpr( "cross(v(\"/OUT\" ?result \"dc\") v(\"/LL\" ?result \"dc\") 1 \"falling\" nil nil nil)" ?name "x" ?plot t ?evalType 'point)
+ocnxlOutputSignal( "/OUT" ?save t)
+ocnxlEndTest() ; "ADC_inv_tb_YT_1"
+
+;====================== Sweeps setup ===========================================
+
+;====================== Model Group setup ==========================================
+
+;====================== Corners setup ==========================================
+
+;====================== Checks and Asserts setup ============================================
+ocnxlPutChecksAsserts(?netlist nil)
+
+;====================== Job setup ==============================================
+ocnxlJobSetup( '(
+	"blockemail" "1"
+	"communicationtimeout" "180"
+	"configuretimeout" "300"
+	"defaultcpuvalue" "1"
+	"defaultmemoryvalue" "1000"
+	"distributionmethod" "Local"
+	"jobruntype" "ICRP"
+	"estimatecpuvalue" ""
+	"estimatememoryvalue" ""
+	"estimationsimulationmode" "0"
+	"lingertimeout" "300"
+	"maxjobs" "1"
+	"name" "Maestro Default"
+	"preemptivestart" "1"
+	"providecpuandmemorydata" "1"
+	"reconfigureimmediately" "1"
+	"runpointsvalue" "5"
+	"runtimeout" "-1"
+	"scaleestimatedbycpu" "100"
+	"scaleestimatedbymemory" "100"
+	"showerrorwhenretrying" "1"
+	"showoutputlogerror" "0"
+	"startmaxjobsimmed" "1"
+	"starttimeout" "300"
+	"userquotaspace" "0"
+	"userquotavalue" ""
+	"usesameprocess" "1"
+	"warndisklow" "0"
+	"warnthresholdvalue" "100"
+) )
+
+;====================== Disabled items =========================================
+
+;====================== Run Mode Options ======================================
+
+;====================== Starting Point Info ======================================
+
+;====================== Run command ============================================
+ocnxlRun( ?mode 'sweepsAndCorners ?nominalCornerEnabled t ?allCornersEnabled t ?allSweepsEnabled t)
+ocnxlOutputSummary(?exprSummary t ?specSummary t ?detailed t ?wave t)
+ocnxlOpenResults()
+
+;====================== End XL Mode command ===================================
+ocnxlEndXLMode("explorer")

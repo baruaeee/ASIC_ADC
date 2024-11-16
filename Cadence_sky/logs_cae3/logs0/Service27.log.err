@@ -1,0 +1,4 @@
+2024/10/20 21:00:01 System is not a supported distribution
+2024/10/20 21:00:01 An error occurred. We don't recognize OS 
+2024/10/20 21:00:01 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2024/10/20 21:00:01 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>

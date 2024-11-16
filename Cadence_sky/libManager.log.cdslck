@@ -6,11 +6,11 @@
 LockStakeVersion               1.1
 LoginName                      cae3
 HostName                       cae-europractice1.othr.de
-ProcessIdentifier              697436
-ProcessCreationTime_UTC        1728774321
-ProcessCreationTime_Readable   Sun Oct 13 01:05:21 2024 CEST
+ProcessIdentifier              2817981
+ProcessCreationTime_UTC        1730254205
+ProcessCreationTime_Readable   Wed Oct 30 03:10:05 2024 CET
 AppIdentifier                  /eda/cadence/2023-24/RHELx86/IC_23.10.020/tools/dfII/bin/64bit/libManager
 OSType                         lnx86
 ReasonForPlacingEditLock       log file
-FilePathUsedToEditLock         /home/cae3/Desktop/ADC/Cadence_Sky/libManager.log
-TimeEditLocked                 Sun Oct 13 01:05:31 2024 CEST
+FilePathUsedToEditLock         /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/libManager.log
+TimeEditLocked                 Wed Oct 30 03:10:14 2024 CET

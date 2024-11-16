@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      cae3
+HostName                       cae-europractice1.othr.de
+ProcessIdentifier              2283882
+ProcessCreationTime_UTC        1729508008
+ProcessCreationTime_Readable   Mon Oct 21 12:53:28 2024 CEST
+AppIdentifier                  /eda/cadence/2023-24/RHELx86/IC_23.10.020/tools.lnx86/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       Set lock by hiiLockFile
+FilePathUsedToEditLock         /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Job33.log
+TimeEditLocked                 Mon Oct 21 12:53:29 2024 CEST

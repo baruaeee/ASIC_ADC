@@ -17,7 +17,7 @@
 				<value>(None)</value>
 			</plottingoption>
 			<plottingoption>plottingmode
-				<value>Append</value>
+				<value>Replace</value>
 			</plottingoption>
 			<plottingoption>plottype
 				<value>None</value>
@@ -38,7 +38,7 @@
 				<value>no</value>
 			</plottingoption>
 			<plottingoption>autoplotmode
-				<value>Append</value>
+				<value>Replace</value>
 			</plottingoption>
 		</plottingoptions>
 		<tests>
@@ -65,19 +65,24 @@
 					</option>
 				</tooloptions>
 				<vars>
-					<var>nL
-						<value>150n:150n:1000n</value>
+					<var>n15L
+						<value>1u</value>
 					</var>
-					<var>nW
-						<value>420n:150n:1000n</value>
+					<var>n15W
+						<value>420n</value>
 					</var>
-					<var>pL
-						<value>150n:150n:1000n</value>
+					<var>p15L
+						<value>150n</value>
 					</var>
-					<var>pW
-						<value>550n:150n:1000n</value>
+					<var>p15W
+						<value>1u</value>
 					</var>
 				</vars>
+				<outputs>
+					<output>xval(intersect(getData("/OUT" ?result 'dc) getData("/LL" ?result 'dc)))
+						<evalType>point</evalType>
+					</output>
+				</outputs>
 			</test>
 		</tests>
 		<checksasserts netlist="0">
@@ -88,7 +93,7 @@
 				<value>(None)</value>
 			</exploreroption>
 			<exploreroption>autoplotmode
-				<value>Append</value>
+				<value>Replace</value>
 			</exploreroption>
 		</exploreroptions>
 		<overwritehistory>0</overwritehistory>
@@ -99,6 +104,9 @@
 			<copyreferenceresults>1</copyreferenceresults>
 		</incrementalsimsetup>
 		<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
+		<incrementalsimulationoptions>
+			<incrementalSimulation>0</incrementalSimulation>
+		</incrementalsimulationoptions>
 	</active>
 	<history>History
 	</history>
