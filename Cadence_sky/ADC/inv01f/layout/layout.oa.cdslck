@@ -6,11 +6,11 @@
 LockStakeVersion               1.1
 LoginName                      cae3
 HostName                       cae-europractice1.othr.de
-ProcessIdentifier              2817718
-ProcessCreationTime_UTC        1730254199
-ProcessCreationTime_Readable   Wed Oct 30 03:09:59 2024 CET
+ProcessIdentifier              357511
+ProcessCreationTime_UTC        1731743857
+ProcessCreationTime_Readable   Sat Nov 16 08:57:37 2024 CET
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/preampF_comm_B/schematic/sch.oa.cdslck
-TimeEditLocked                 Sat Nov  2 12:05:25 2024 CET
+FilePathUsedToEditLock         /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/inv01f/layout/layout.oa.cdslck
+TimeEditLocked                 Sat Nov 16 10:30:14 2024 CET
