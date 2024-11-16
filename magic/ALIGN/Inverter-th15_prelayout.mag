@@ -1,9 +1,0 @@
-magic
-tech sky130A
-magscale 1 2
-timestamp 1696298537
-use Inverter-th15_sym  x1
-timestamp 1696298537
-transform 1 0 53 0 1 1800
-box 0 -1200 17124 8878
-<< end >>

@@ -1,6 +1,0 @@
-name=TT_MODEL only_toplevel=false value="
-.lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
-
-.save all
-
-"
