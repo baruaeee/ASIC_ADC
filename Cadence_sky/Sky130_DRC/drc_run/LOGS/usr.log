@@ -1,0 +1,10 @@
+Pegasus 23.11-s009 FbGK7KjMGPhkNci2o09sLg 2024-11-18 13:48:59 550543 cae-europractice1.othr.de
+Copyright 2023 Cadence Design Systems, Inc.
+All rights reserved worldwide.
+
+INFO:    Command Line Options: --log_dir LOGS -top_cell inv03f -ui_data --control /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/drc_run/pegasusdrcctl /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/drc_run/.technology.rul
+INFO:    Launch host CPU: Model: AMD Ryzen Threadripper PRO 5975WX 32-Cores, OS: Oracle Linux Server release 8.10, Logical cores: 16, Physical cores: 16, Cache: 512 KB, CPU Speed: 3593.24 MHz
+         Launch host Memory: MemTotal: 31806 MB,  MemFree: 699 MB,  SwapTotal: 0 MB,  SwapFree: 0 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 77 MB
+INFO:    Current path: /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/drc_run
+INFO:    Run directory same as current path
+INFO:    Log directory: /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/drc_run/LOGS

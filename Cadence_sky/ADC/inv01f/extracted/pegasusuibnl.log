@@ -1,0 +1,20 @@
+
+INFO:    Checking out 1 license(s) of feature: 'Pegasus_LVS' version 23.1
+INFO:    License checkout successful ... 2024-11-18 01:15:22
+Tool:      pegasusBuildNetlist 23.11-s009, sub-version s009
+
+COMMAND LINE INTERFACE
+   help                  This information 
+   cdl                   Load cdl     file
+   vlg                   Load verilog file
+   out                   Output filename  
+   top                   Top cell name    
+   q                     Exit             
+
+CmdLine: /eda/cadence/2023-24/RHELx86/PEGASUS_23.11.000/tools.lnx86/Pegasus/bin/64bit/pegasusBuildNetlist -o /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/ADC/inv01f/extracted/INV01f.cdl -tc INV01f -global_log_file /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/ADC/inv01f/extracted/pegasusuibnl.log 
+> o /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/ADC/inv01f/extracted/INV01f.cdl
+> tc INV01f
+> q
+Quiting...
+error: (_pvsDBox 'error "Could not find cell INV01f.  Using the empty cell option will automatically create empty cells when no cell can be found")
+INFO:    Checking in all SoftShare licenses.

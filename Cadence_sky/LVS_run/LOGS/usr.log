@@ -1,0 +1,10 @@
+Pegasus 23.11-s009 FbGK7KjMGPhkNci2o09sLg 2024-11-18 14:04:19 552029 cae-europractice1.othr.de
+Copyright 2023 Cadence Design Systems, Inc.
+All rights reserved worldwide.
+
+INFO:    Command Line Options: -lvs -top_cell inv03f -log_dir LOGS -source_top_cell inv03f -spice /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run/inv03f.spi -control /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run/pegasuslvsctl -ui_data -gdb_data /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run/.technology.rul
+INFO:    Launch host CPU: Model: AMD Ryzen Threadripper PRO 5975WX 32-Cores, OS: Oracle Linux Server release 8.10, Logical cores: 16, Physical cores: 16, Cache: 512 KB, CPU Speed: 3593.24 MHz
+         Launch host Memory: MemTotal: 31806 MB,  MemFree: 684 MB,  SwapTotal: 0 MB,  SwapFree: 0 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 76 MB
+INFO:    Current path: /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run
+INFO:    Run directory same as current path
+INFO:    Log directory: /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run/LOGS

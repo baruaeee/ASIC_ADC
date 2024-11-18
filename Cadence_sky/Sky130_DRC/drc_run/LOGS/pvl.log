@@ -1,0 +1,603 @@
+
+########################################################################
+Get environment info ...
+########################################################################
+ENV VAR: TCL_LIBRARY = /mnt/cae_storage_sw/eda/cadence/2023-24/RHELx86/PEGASUS_23.11.000/share/lib/tcltk/08.64/tcl8.6
+ENV VAR: TCLX_LIBRARY = /mnt/cae_storage_sw/eda/cadence/2023-24/RHELx86/PEGASUS_23.11.000/share/lib/tclx/08.40
+ENV VAR: TCLLIBPATH = /mnt/cae_storage_sw/eda/cadence/2023-24/RHELx86/PEGASUS_23.11.000/share/lib/itcl/3.4.1 /mnt/cae_storage_sw/eda/cadence/2023-24/RHELx86/PEGASUS_23.11.000/share/lib/tclxml/3.2 /mnt/cae_storage_sw/eda/cadence/2023-24/RHELx86/PEGASUS_23.11.000/share/lib/tcllib/1.18 /mnt/cae_storage_sw/eda/cadence/2023-24/RHELx86/PEGASUS_23.11.000/tools.lnx86/pegasus/bin/64bit/../../../../share/lib/itcl/3.4.1 /mnt/cae_storage_sw/eda/cadence/2023-24/RHELx86/PEGASUS_23.11.000/tools.lnx86/pegasus/bin/64bit/../../../../share/lib/tclxml/3.2 /mnt/cae_storage_sw/eda/cadence/2023-24/RHELx86/PEGASUS_23.11.000/tools.lnx86/pegasus/bin/64bit/../../../../share/lib/tcllib/1.18
+ENV VAR: PEGASUS_PVL_LIBRARY = /mnt/cae_storage_sw/eda/cadence/2023-24/RHELx86/PEGASUS_23.11.000/tools.lnx86/pegasus/bin/64bit/../../../Pegasus/bin/64bit/etc/pvl/tcl
+ENV VAR: PEGASUS_TVL_LIBRARY = /mnt/cae_storage_sw/eda/cadence/2023-24/RHELx86/PEGASUS_23.11.000/tools.lnx86/pegasus/bin/64bit/../../../Pegasus/bin/64bit/etc/preproc/tcl
+ENV VAR: PEGASUS_LVS_DEVICE_DFM_LIBRARY = /mnt/cae_storage_sw/eda/cadence/2023-24/RHELx86/PEGASUS_23.11.000/tools.lnx86/pegasus/bin/64bit/../../../Pegasus/bin/64bit/etc/lvs_device_dfm/tcl
+
+
+########################################################################
+Parsing Control File /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/drc_run/pegasusdrcctl ...
+########################################################################
+TEXT_DEPTH -primary;
+INCR_CONN no;
+VIRTUAL_CONNECT -colon no;
+VIRTUAL_CONNECT -semicolon_as_colon yes;
+VIRTUAL_CONNECT -report no;
+VIRTUAL_CONNECT -depth -primary;
+REPORT_SUMMARY -drc "inv03f.sum" -replace;
+MAX_RESULTS -drc 1000;
+RESULTS_DB -drc "/home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/drc_run/inv03f.drc_errors.ascii" -ascii;
+CELL_NAME -drc no;
+ABORT_ON_LAYOUT_ERROR yes;
+LAYOUT_FORMAT gdsii;
+LAYOUT_PATH "/home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/drc_run/inv03f.gds.gz";
+
+########################################################################
+Parsing Rule File /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/drc_run/.technology.rul ...
+########################################################################
+TECHNOLOGY sky130_fd_pr_main -ruleSet default -techLib /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/pvtech.lib;
+WARNING: The rule set 'Metal Fill' in technology 'sky130_fd_pr_main' has file './pvlFILL.rul' given for 'DrcRules'. However, this file does not exist, or cannot be read, and will be ignored.
+WARNING: The rule set 'antenna' in technology 'sky130_fd_pr_main' has file './pvlAnt.rul' given for 'DrcRules'. However, this file does not exist, or cannot be read, and will be ignored.
+WARNING: In technology 'sky130_fd_pr_main', the rule set 'default' is not a Pegasus rule set.
+It will be accepted for this run but should be changed to a pegasusRuleSet.
+[INFO] TECHNOLOGY: Rules file /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./pvlDRC.rul will be included after the remainder of the current rules are processed.
+[INFO] TECHNOLOGY sky130_fd_pr_main -techLib /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/pvtech.lib: End of additions.
+INCR_CONN YES;
+[WARN]: INCR_CONN at line 2 in file /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./pvlDRC.rul is skipped. It is set in control file.
+RESULTS_DB -drc "mult_seq.drc_errors.ascii" -ascii;
+[WARN]: RESULTS_DB -ascii at line 3 in file /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./pvlDRC.rul is skipped. It is set in control file.
+TOLERANCE 0.001;
+LAYER_DEF nwell 1000;
+LAYER_MAP 64 -datatype 20 1000;
+LAYER_DEF diff 1001;
+LAYER_MAP 65 -datatype 20 1001;
+LAYER_DEF poly 1008;
+LAYER_MAP 66 -datatype 20 1008;
+LAYER_DEF licon1 1012;
+LAYER_MAP 66 -datatype 44 1012;
+LAYER_DEF li1 1013;
+LAYER_MAP 67 -datatype 20 1013;
+LAYER_DEF mcon 1014;
+LAYER_MAP 67 -datatype 44 1014;
+LAYER_DEF met1 1015;
+LAYER_MAP 68 -datatype 20 1015;
+LAYER_DEF via 1016;
+LAYER_MAP 68 -datatype 44 1016;
+LAYER_DEF met2 1017;
+LAYER_MAP 69 -datatype 20 1017;
+LAYER_DEF via2 1019;
+LAYER_MAP 69 -datatype 44 1019;
+LAYER_DEF met3 1020;
+LAYER_MAP 70 -datatype 20 1020;
+LAYER_DEF via3 1021;
+LAYER_MAP 70 -datatype 44 1021;
+LAYER_DEF met4 1022;
+LAYER_MAP 71 -datatype 20 1022;
+LAYER_DEF via4 1023;
+LAYER_MAP 71 -datatype 44 1023;
+LAYER_DEF met5 1024;
+LAYER_MAP 72 -datatype 20 1024;
+LAYER_DEF pad 1026;
+LAYER_MAP 76 -datatype 20 1026;
+LAYER_DEF capacitor 1031;
+LAYER_MAP 82 -datatype 64 1031;
+LAYER_DEF inductor 1034;
+LAYER_MAP 82 -datatype 24 1034;
+LAYER_DEF polyGate 1074;
+LAYER_MAP 66 -datatype 9 1074;
+LAYER_DEF padText 1089;
+LAYER_MAP 76 -texttype 5 1089;
+LAYER_DEF diffLabel 1090;
+LAYER_MAP 65 -datatype 6 1090;
+LAYER_DEF nwellLabel 1092;
+LAYER_MAP 64 -datatype 5 1092;
+LAYER_DEF polyLabel 1093;
+LAYER_MAP 66 -datatype 5 1093;
+LAYER_DEF met1Label 1094;
+LAYER_MAP 68 -datatype 5 1094;
+LAYER_DEF met2Label 1095;
+LAYER_MAP 69 -datatype 5 1095;
+LAYER_DEF met3Label 1096;
+LAYER_MAP 70 -datatype 5 1096;
+LAYER_DEF met4Label 1097;
+LAYER_MAP 71 -datatype 5 1097;
+LAYER_DEF met5Label 1098;
+LAYER_MAP 72 -datatype 5 1098;
+LAYER_DEF li1Block 1099;
+LAYER_MAP 67 -datatype 10 1099;
+LAYER_DEF met1Block 1100;
+LAYER_MAP 68 -datatype 10 1100;
+LAYER_DEF met2Block 1101;
+LAYER_MAP 69 -datatype 10 1101;
+LAYER_DEF met3Block 1102;
+LAYER_MAP 70 -datatype 10 1102;
+LAYER_DEF met4Block 1103;
+LAYER_MAP 71 -datatype 10 1103;
+LAYER_DEF met5Block 1104;
+LAYER_MAP 72 -datatype 10 1104;
+LAYER_DEF diffBndry 1106;
+LAYER_MAP 65 -datatype 4 1106;
+LAYER_DEF mconBndry 1108;
+LAYER_MAP 67 -datatype 60 1108;
+LAYER_DEF polyBndry 1109;
+LAYER_MAP 66 -datatype 4 1109;
+LAYER_DEF viaBndry 1110;
+LAYER_MAP 68 -datatype 60 1110;
+LAYER_DEF via2Bndry 1111;
+LAYER_MAP 69 -datatype 60 1111;
+LAYER_DEF via3Bndry 1112;
+LAYER_MAP 70 -datatype 60 1112;
+LAYER_DEF via4Bndry 1113;
+LAYER_MAP 71 -datatype 60 1113;
+LAYER_DEF li1tt 1114 1115 1116 1117;
+LAYER_MAP 67 -texttype 20 1114;
+LAYER_MAP 67 -texttype 5 1115;
+LAYER_MAP 67 -texttype 23 1116;
+LAYER_MAP 67 -texttype 16 1117;
+LAYER_DEF met1tt 1118 1119 1120 1121;
+LAYER_MAP 68 -texttype 20 1118;
+LAYER_MAP 68 -texttype 5 1119;
+LAYER_MAP 68 -texttype 23 1120;
+LAYER_MAP 68 -texttype 16 1121;
+LAYER_DEF met2tt 1122 1123 1124 1125;
+LAYER_MAP 69 -texttype 20 1122;
+LAYER_MAP 69 -texttype 5 1123;
+LAYER_MAP 69 -texttype 23 1124;
+LAYER_MAP 69 -texttype 16 1125;
+LAYER_DEF met3tt 1126 1127 1128 1129;
+LAYER_MAP 70 -texttype 20 1126;
+LAYER_MAP 70 -texttype 5 1127;
+LAYER_MAP 70 -texttype 23 1128;
+LAYER_MAP 70 -texttype 16 1129;
+LAYER_DEF met4tt 1130 1131 1132 1133;
+LAYER_MAP 71 -texttype 20 1130;
+LAYER_MAP 71 -texttype 5 1131;
+LAYER_MAP 71 -texttype 23 1132;
+LAYER_MAP 71 -texttype 16 1133;
+LAYER_DEF met5tt 1134 1135 1136 1137;
+LAYER_MAP 72 -texttype 20 1134;
+LAYER_MAP 72 -texttype 5 1135;
+LAYER_MAP 72 -texttype 23 1136;
+LAYER_MAP 72 -texttype 16 1137;
+LAYER_DEF polytt 1138 1139 1140 1141;
+LAYER_MAP 66 -texttype 20 1138;
+LAYER_MAP 66 -texttype 5 1139;
+LAYER_MAP 66 -texttype 23 1140;
+LAYER_MAP 66 -texttype 16 1141;
+LAYER_DEF difftt 1142 1143 1144 1145;
+LAYER_MAP 65 -texttype 20 1142;
+LAYER_MAP 65 -texttype 6 1143;
+LAYER_MAP 65 -texttype 23 1144;
+LAYER_MAP 65 -texttype 16 1145;
+LAYER_DEF poly_pin 1146;
+LAYER_MAP 66 -datatype 16 1146;
+LAYER_DEF li1_pin 1147;
+LAYER_MAP 67 -datatype 16 1147;
+LAYER_DEF met1_pin 1148;
+LAYER_MAP 68 -datatype 16 1148;
+LAYER_DEF met2_pin 1149;
+LAYER_MAP 69 -datatype 16 1149;
+LAYER_DEF met3_pin 1150;
+LAYER_MAP 70 -datatype 16 1150;
+LAYER_DEF met4_pin 1151;
+LAYER_MAP 71 -datatype 16 1151;
+LAYER_DEF met5_pin 1152;
+LAYER_MAP 72 -datatype 16 1152;
+LAYER_DEF nwellpt 1153;
+LAYER_MAP 64 -texttype 16 1153;
+LAYER_MAP 64 -texttype 0 1153;
+LAYER_DEF polypt 1154;
+LAYER_MAP 66 -texttype 16 1154;
+LAYER_MAP 66 -texttype 0 1154;
+LAYER_DEF li1pt 1155;
+LAYER_MAP 67 -texttype 16 1155;
+LAYER_MAP 67 -texttype 0 1155;
+LAYER_DEF met1pt 1156;
+LAYER_MAP 68 -texttype 16 1156;
+LAYER_MAP 68 -texttype 0 1156;
+LAYER_DEF met2pt 1157;
+LAYER_MAP 69 -texttype 16 1157;
+LAYER_MAP 69 -texttype 0 1157;
+LAYER_DEF met3pt 1158;
+LAYER_MAP 70 -texttype 16 1158;
+LAYER_MAP 70 -texttype 0 1158;
+LAYER_DEF met4pt 1159;
+LAYER_MAP 71 -texttype 16 1159;
+LAYER_MAP 71 -texttype 0 1159;
+LAYER_DEF met5pt 1160;
+LAYER_MAP 72 -texttype 16 1160;
+LAYER_MAP 72 -texttype 0 1160;
+LAYER_DEF padtt 1167 1089;
+LAYER_MAP 76 -texttype 20 1167;
+LAYER_DEF pad_pin 1168;
+LAYER_MAP 76 -datatype 16 1168;
+LAYER_DEF padpt 1169;
+LAYER_MAP 76 -texttype 16 1169;
+LAYER_MAP 76 -texttype 0 1169;
+LAYER_DEF met5Pin 1152;
+LAYER_DEF met4Pin 1151;
+LAYER_DEF met3Pin 1150;
+LAYER_DEF met2Pin 1149;
+LAYER_DEF met1Pin 1148;
+LAYER_DEF li1Pin 1147;
+LAYER_DEF polyPin 1146;
+LAYER_DEF diffPin 1222;
+LAYER_MAP 65 -datatype 16 1222;
+TREAT_NON_BASELAYER_AS_TOPLAYER yes;
+BASE_LAYER diff;
+BASE_LAYER poly;
+LAYER_DEF pwellLabel 1229;
+LAYER_MAP 64 -datatype 59 1229;
+LAYER_DEF pwelltt 1230;
+LAYER_MAP 64 -texttype 59 1230;
+LAYER_DEF pwell_pin 1231;
+LAYER_MAP 122 -datatype 16 1231;
+LAYER_DEF pwellpt 1232;
+LAYER_MAP 122 -texttype 16 1232;
+LAYER_MAP 122 -texttype 0 1232;
+COPY inductor -outputlayer inductor_exempt;
+AND diff nwell -outputlayer PDIFF;
+NOT diff nwell -outputlayer NDIFF;
+NOT diff poly -outputlayer SRCDRN;
+AND poly diff -outputlayer POLYandDIFF;
+COPY POLYandDIFF -outputlayer GATE;
+EDGE_BOOLEAN -inside GATE diff -outputlayer GATESIDE;
+EDGE_BOOLEAN -coincident_only -inside GATE diff -outputlayer GATEEND;
+COPY GATE -outputlayer MOSGATE;
+COPY MOSGATE -outputlayer EMOSGATE;
+DISCONNECT
+CONNECT li1 met1 -by mcon;
+CONNECT met1 met2 -by via;
+CONNECT met3 met2 -by via2;
+CONNECT met3 met4 -by via3;
+CONNECT met4 met5 -by via4;
+CONNECT met5 pad;
+
+RULE R0_nwell_X1 {
+    CAPTION "nwell_X1: off 0.005 grid nwell vertex";
+    OFFGRID nwell 5 ; // -outputlayer _EPTMPL262170
+}
+
+RULE R1_diff_X1 {
+    CAPTION "diff_X1: off 0.005 grid diff vertex";
+    OFFGRID diff 5 ; // -outputlayer _EPTMPL262171
+}
+
+RULE R2_poly_X1 {
+    CAPTION "poly_X1: off 0.005 grid poly vertex";
+    OFFGRID poly 5 ; // -outputlayer _EPTMPL262172
+}
+
+RULE R3_li1_X1 {
+    CAPTION "li1_X1: off 0.005 grid li1 vertex";
+    OFFGRID li1 5 ; // -outputlayer _EPTMPL262173
+}
+
+RULE R4_mcon_X1 {
+    CAPTION "mcon_X1: off 0.005 grid mcon vertex";
+    OFFGRID mcon 5 ; // -outputlayer _EPTMPL262174
+}
+
+RULE R5_met1_X1 {
+    CAPTION "met1_X1: off 0.005 grid met1 vertex";
+    OFFGRID met1 5 ; // -outputlayer _EPTMPL262175
+}
+
+RULE R6_via_X1 {
+    CAPTION "via_X1: off 0.005 grid via vertex";
+    OFFGRID via 5 ; // -outputlayer _EPTMPL262176
+}
+
+RULE R7_met2_X1 {
+    CAPTION "met2_X1: off 0.005 grid met2 vertex";
+    OFFGRID met2 5 ; // -outputlayer _EPTMPL262177
+}
+
+RULE R8_via2_X1 {
+    CAPTION "via2_X1: off 0.005 grid via2 vertex";
+    OFFGRID via2 5 ; // -outputlayer _EPTMPL262178
+}
+
+RULE R9_met3_X1 {
+    CAPTION "met3_X1: off 0.005 grid met3 vertex";
+    OFFGRID met3 5 ; // -outputlayer _EPTMPL262179
+}
+
+RULE R10_via3_X1 {
+    CAPTION "via3_X1: off 0.005 grid via3 vertex";
+    OFFGRID via3 5 ; // -outputlayer _EPTMPL262180
+}
+
+RULE R11_met4_X1 {
+    CAPTION "met4_X1: off 0.005 grid met4 vertex";
+    OFFGRID met4 5 ; // -outputlayer _EPTMPL262181
+}
+
+RULE R12_via4_X1 {
+    CAPTION "via4_X1: off 0.005 grid via4 vertex";
+    OFFGRID via4 5 ; // -outputlayer _EPTMPL262182
+}
+
+RULE R13_met5_X1 {
+    CAPTION "met5_X1: off 0.005 grid met5 vertex";
+    OFFGRID met5 5 ; // -outputlayer _EPTMPL262183
+}
+
+RULE R14_pad_X1 {
+    CAPTION "pad_X1: off 0.005 grid pad vertex";
+    OFFGRID pad 5 ; // -outputlayer _EPTMPL262184
+}
+
+RULE R15_cap_X1 {
+    CAPTION "cap_X1: off 0.005 grid capacitor vertex";
+    OFFGRID capacitor 5 ; // -outputlayer _EPTMPL262185
+}
+
+RULE R16_ind_X1 {
+    CAPTION "ind_X1: off 0.005 grid inductor vertex";
+    OFFGRID inductor 5 ; // -outputlayer _EPTMPL262186
+}
+
+RULE R17_nwell_X2 {
+    CAPTION "nwell_X2: non-octagonal nwell edge";
+    ANGLE nwell -ltgt 0 45 ; // -outputlayer _EPTMPL262187
+    ANGLE nwell -ltgt 45 90 ; // -outputlayer _EPTMPL262188
+}
+
+RULE R18_diff_X2 {
+    CAPTION "diff_X2: non-octagonal diff edge";
+    ANGLE diff -ltgt 0 45 ; // -outputlayer _EPTMPL262189
+    ANGLE diff -ltgt 45 90 ; // -outputlayer _EPTMPL262190
+}
+
+RULE R19_met1_X2 {
+    CAPTION "met1_X2: non-octagonal met1 edge";
+    ANGLE met1 -ltgt 0 45 ; // -outputlayer _EPTMPL262191
+    ANGLE met1 -ltgt 45 90 ; // -outputlayer _EPTMPL262192
+}
+
+RULE R20_met2_X2 {
+    CAPTION "met2_X2: non-octagonal met2 edge";
+    ANGLE met2 -ltgt 0 45 ; // -outputlayer _EPTMPL262193
+    ANGLE met2 -ltgt 45 90 ; // -outputlayer _EPTMPL262194
+}
+
+RULE R21_met3_X2 {
+    CAPTION "met3_X2: non-octagonal met3 edge";
+    ANGLE met3 -ltgt 0 45 ; // -outputlayer _EPTMPL262195
+    ANGLE met3 -ltgt 45 90 ; // -outputlayer _EPTMPL262196
+}
+
+RULE R22_met4_X2 {
+    CAPTION "met4_X2: non-octagonal met4 edge";
+    ANGLE met4 -ltgt 0 45 ; // -outputlayer _EPTMPL262197
+    ANGLE met4 -ltgt 45 90 ; // -outputlayer _EPTMPL262198
+}
+
+RULE R23_met5_X2 {
+    CAPTION "met5_X2: non-octagonal met5 edge";
+    ANGLE met5 -ltgt 0 45 ; // -outputlayer _EPTMPL262199
+    ANGLE met5 -ltgt 45 90 ; // -outputlayer _EPTMPL262200
+}
+
+RULE R24_cap_X2 {
+    CAPTION "cap_X2: non-octagonal capacitor edge";
+    ANGLE capacitor -ltgt 0 45 ; // -outputlayer _EPTMPL262201
+    ANGLE capacitor -ltgt 45 90 ; // -outputlayer _EPTMPL262202
+}
+
+RULE R25_ind_X2 {
+    CAPTION "ind_X2: non-octagonal inductor edge";
+    ANGLE inductor -ltgt 0 45 ; // -outputlayer _EPTMPL262203
+    ANGLE inductor -ltgt 45 90 ; // -outputlayer _EPTMPL262204
+}
+Layer 'padText' and 'padtt_1089_<1>' have the same mask number 1089.
+Layer 'poly_pin' and 'polyPin' have the same mask number 1146.
+Layer 'li1_pin' and 'li1Pin' have the same mask number 1147.
+Layer 'met1_pin' and 'met1Pin' have the same mask number 1148.
+Layer 'met2_pin' and 'met2Pin' have the same mask number 1149.
+Layer 'met3_pin' and 'met3Pin' have the same mask number 1150.
+Layer 'met4_pin' and 'met4Pin' have the same mask number 1151.
+Layer 'met5_pin' and 'met5Pin' have the same mask number 1152.
+Operation 'CAT' at line 132 in file /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./pvlDRC.rul is not selected for executing, remove it.
+Operation 'CAT' at line 138 in file /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./pvlDRC.rul is not selected for executing, remove it.
+Operation 'CAT' at line 144 in file /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./pvlDRC.rul is not selected for executing, remove it.
+Operation 'CAT' at line 150 in file /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./pvlDRC.rul is not selected for executing, remove it.
+Operation 'CAT' at line 156 in file /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./pvlDRC.rul is not selected for executing, remove it.
+Operation 'CAT' at line 162 in file /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./pvlDRC.rul is not selected for executing, remove it.
+Operation 'CAT' at line 168 in file /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./pvlDRC.rul is not selected for executing, remove it.
+Operation 'CAT' at line 174 in file /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./pvlDRC.rul is not selected for executing, remove it.
+Operation 'CAT' at line 233 in file /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./pvlDRC.rul is not selected for executing, remove it.
+Operation 'COPY' at line 284 in file /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./pvlDRC.rul is not selected for executing, remove it.
+Operation 'AND' at line 285 in file /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./pvlDRC.rul is not selected for executing, remove it.
+Operation 'NOT' at line 286 in file /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./pvlDRC.rul is not selected for executing, remove it.
+Operation 'NOT' at line 287 in file /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./pvlDRC.rul is not selected for executing, remove it.
+Operation 'AND' at line 288 in file /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./pvlDRC.rul is not selected for executing, remove it.
+Operation 'COPY' at line 289 in file /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./pvlDRC.rul is not selected for executing, remove it.
+Operation 'EDGE_BOOLEAN' at line 290 in file /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./pvlDRC.rul is not selected for executing, remove it.
+Operation 'EDGE_BOOLEAN' at line 291 in file /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./pvlDRC.rul is not selected for executing, remove it.
+Operation 'COPY' at line 293 in file /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./pvlDRC.rul is not selected for executing, remove it.
+Operation 'COPY' at line 294 in file /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./pvlDRC.rul is not selected for executing, remove it.
+Operation 'DISCONNECT' at line 295 in file /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./pvlDRC.rul is not selected for executing, remove it.
+Operation 'CONNECT' at line 301 in file /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./pvlDRC.rul is not selected for executing, remove it.
+Operation 'CONNECT' at line 302 in file /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./pvlDRC.rul is not selected for executing, remove it.
+Operation 'CONNECT' at line 303 in file /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./pvlDRC.rul is not selected for executing, remove it.
+Operation 'CONNECT' at line 304 in file /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./pvlDRC.rul is not selected for executing, remove it.
+Operation 'CONNECT' at line 305 in file /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./pvlDRC.rul is not selected for executing, remove it.
+Operation 'CONNECT' at line 306 in file /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./pvlDRC.rul is not selected for executing, remove it.
+
+
+operation group: 1/35
+    R0_nwell_X1:L262170 = OFFGRID nwell 5
+========================================================================
+
+
+operation group: 2/35
+    R1_diff_X1:L262171 = OFFGRID diff 5
+========================================================================
+
+
+operation group: 3/35
+    R2_poly_X1:L262172 = OFFGRID poly 5
+========================================================================
+
+
+operation group: 4/35
+    R3_li1_X1:L262173 = OFFGRID li1 5
+========================================================================
+
+
+operation group: 5/35
+    R4_mcon_X1:L262174 = OFFGRID mcon 5
+========================================================================
+
+
+operation group: 6/35
+    R5_met1_X1:L262175 = OFFGRID met1 5
+========================================================================
+
+
+operation group: 7/35
+    R6_via_X1:L262176 = OFFGRID via 5
+========================================================================
+
+
+operation group: 8/35
+    R7_met2_X1:L262177 = OFFGRID met2 5
+========================================================================
+
+
+operation group: 9/35
+    R8_via2_X1:L262178 = OFFGRID via2 5
+========================================================================
+
+
+operation group: 10/35
+    R9_met3_X1:L262179 = OFFGRID met3 5
+========================================================================
+
+
+operation group: 11/35
+    R10_via3_X1:L262180 = OFFGRID via3 5
+========================================================================
+
+
+operation group: 12/35
+    R11_met4_X1:L262181 = OFFGRID met4 5
+========================================================================
+
+
+operation group: 13/35
+    R12_via4_X1:L262182 = OFFGRID via4 5
+========================================================================
+
+
+operation group: 14/35
+    R13_met5_X1:L262183 = OFFGRID met5 5
+========================================================================
+
+
+operation group: 15/35
+    R14_pad_X1:L262184 = OFFGRID pad 5
+========================================================================
+
+
+operation group: 16/35
+    R15_cap_X1:L262185 = OFFGRID capacitor 5
+========================================================================
+
+
+operation group: 17/35
+    R16_ind_X1:L262186 = OFFGRID inductor 5
+========================================================================
+
+
+operation group: 18/35
+    R17_nwell_X2:L262187 = ANGLE nwell -ltgt 0 45
+========================================================================
+
+
+operation group: 19/35
+    R17_nwell_X2:L262188 = ANGLE nwell -ltgt 45 90
+========================================================================
+
+
+operation group: 20/35
+    R18_diff_X2:L262189 = ANGLE diff -ltgt 0 45
+========================================================================
+
+
+operation group: 21/35
+    R18_diff_X2:L262190 = ANGLE diff -ltgt 45 90
+========================================================================
+
+
+operation group: 22/35
+    R19_met1_X2:L262191 = ANGLE met1 -ltgt 0 45
+========================================================================
+
+
+operation group: 23/35
+    R19_met1_X2:L262192 = ANGLE met1 -ltgt 45 90
+========================================================================
+
+
+operation group: 24/35
+    R20_met2_X2:L262193 = ANGLE met2 -ltgt 0 45
+========================================================================
+
+
+operation group: 25/35
+    R20_met2_X2:L262194 = ANGLE met2 -ltgt 45 90
+========================================================================
+
+
+operation group: 26/35
+    R21_met3_X2:L262195 = ANGLE met3 -ltgt 0 45
+========================================================================
+
+
+operation group: 27/35
+    R21_met3_X2:L262196 = ANGLE met3 -ltgt 45 90
+========================================================================
+
+
+operation group: 28/35
+    R22_met4_X2:L262197 = ANGLE met4 -ltgt 0 45
+========================================================================
+
+
+operation group: 29/35
+    R22_met4_X2:L262198 = ANGLE met4 -ltgt 45 90
+========================================================================
+
+
+operation group: 30/35
+    R23_met5_X2:L262199 = ANGLE met5 -ltgt 0 45
+========================================================================
+
+
+operation group: 31/35
+    R23_met5_X2:L262200 = ANGLE met5 -ltgt 45 90
+========================================================================
+
+
+operation group: 32/35
+    R24_cap_X2:L262201 = ANGLE capacitor -ltgt 0 45
+========================================================================
+
+
+operation group: 33/35
+    R24_cap_X2:L262202 = ANGLE capacitor -ltgt 45 90
+========================================================================
+
+
+operation group: 34/35
+    R25_ind_X2:L262203 = ANGLE inductor -ltgt 0 45
+========================================================================
+
+
+operation group: 35/35
+    R25_ind_X2:L262204 = ANGLE inductor -ltgt 45 90
+========================================================================
+Completed execution after parsing the rules, as requested by the "-p" flag or "-get_rules" flag 
+
+
+Design rule check finished normally. Mon Nov 18 13:49:01 2024
+
+

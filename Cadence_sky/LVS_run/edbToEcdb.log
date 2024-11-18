@@ -1,0 +1,17 @@
+
+/mnt/cae_storage_sw/eda/cadence/2023-24/RHELx86/PEGASUS_23.11.000/tools.lnx86/Pegasus/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : inv03f_552029.db
+ECDB dir        : ./
+Top Cell        : inv03f
+CDL netlist     : ./inv03f.net
+Layer map file  : ./inv03f.ecdbmap
+Text map file   : ./inv03f.ports
+Dependency map  : inv03f.lmap.perc
+Lvs file        : ./inv03f.lvsfile
+Float net file  : .inv03f.info.softchk
+threads         : 32
+debug           : 0
+Source Library  : inv03f_552029

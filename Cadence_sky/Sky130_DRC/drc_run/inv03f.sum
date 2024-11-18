@@ -1,0 +1,86 @@
+********************************************************************************
+*** Pegasus DRC SUMMARY
+***
+Execute on Date/Time    : Mon Nov 18 13:49:01 2024
+Pegasus VERSION         : 23.11-s009 Thu Aug 31 12:45:19 PDT 2023
+Rule Deck Path          : /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/drc_run/.technology.rul
+Rule Deck Title         :
+Layout System           : GDSII
+Layout Path             : /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/drc_run/inv03f.gds.gz
+Current Directory       : /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/drc_run
+User Name               : cae1
+Maximum Results         : 1000
+Maximum Result Vertices : 4096
+Layout Depth            : ALL
+Text Depth              : 0
+Summary File            : /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/drc_run/inv03f.sum
+Geometry Flagging       : ACUTE = NO  ANGLED = NO  SKEW = NO  OFFGRID = NO
+                          NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
+Keep Empty Checks       : YES
+Excluded Cells          : 
+Layout Primary Cell     : inv03f
+ASCII DRC Error Report  : /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/drc_run/inv03f.drc_errors.ascii
+DRC Results Database    :
+--------------------------------------------------------------------------------
+--- RUNNING TIME WARNINGS
+---
+--------------------------------------------------------------------------------
+--- ORIGINAL LAYER STATISTICS
+---
+LAYER nwell ................................ Total Original Geometry:          2 (         2)
+LAYER diff ................................. Total Original Geometry:          6 (         6)
+LAYER poly ................................. Total Original Geometry:         12 (        12)
+LAYER li1 .................................. Total Original Geometry:         11 (        12)
+LAYER mcon ................................. Total Original Geometry:          6 (         7)
+LAYER met1 ................................. Total Original Geometry:         10 (        11)
+LAYER via .................................. Total Original Geometry:          0 (         0)
+LAYER met2 ................................. Total Original Geometry:          0 (         0)
+LAYER via2 ................................. Total Original Geometry:          0 (         0)
+LAYER met3 ................................. Total Original Geometry:          0 (         0)
+LAYER via3 ................................. Total Original Geometry:          0 (         0)
+LAYER met4 ................................. Total Original Geometry:          0 (         0)
+LAYER via4 ................................. Total Original Geometry:          0 (         0)
+LAYER met5 ................................. Total Original Geometry:          0 (         0)
+LAYER pad .................................. Total Original Geometry:          0 (         0)
+LAYER capacitor ............................ Total Original Geometry:          0 (         0)
+LAYER inductor ............................. Total Original Geometry:          0 (         0)
+--------------------------------------------------------------------------------
+--- WARNINGS FROM FLAG STATEMENT
+---
+--------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS
+---
+RULECHECK R0_nwell_X1 .................................. Total Result          0 (         0)
+RULECHECK R10_via3_X1 .................................. Total Result          0 (         0)
+RULECHECK R11_met4_X1 .................................. Total Result          0 (         0)
+RULECHECK R12_via4_X1 .................................. Total Result          0 (         0)
+RULECHECK R13_met5_X1 .................................. Total Result          0 (         0)
+RULECHECK R14_pad_X1 ................................... Total Result          0 (         0)
+RULECHECK R15_cap_X1 ................................... Total Result          0 (         0)
+RULECHECK R16_ind_X1 ................................... Total Result          0 (         0)
+RULECHECK R17_nwell_X2 ................................. Total Result          0 (         0)
+RULECHECK R18_diff_X2 .................................. Total Result          0 (         0)
+RULECHECK R19_met1_X2 .................................. Total Result          0 (         0)
+RULECHECK R1_diff_X1 ................................... Total Result          0 (         0)
+RULECHECK R20_met2_X2 .................................. Total Result          0 (         0)
+RULECHECK R21_met3_X2 .................................. Total Result          0 (         0)
+RULECHECK R22_met4_X2 .................................. Total Result          0 (         0)
+RULECHECK R23_met5_X2 .................................. Total Result          0 (         0)
+RULECHECK R24_cap_X2 ................................... Total Result          0 (         0)
+RULECHECK R25_ind_X2 ................................... Total Result          0 (         0)
+RULECHECK R2_poly_X1 ................................... Total Result          0 (         0)
+RULECHECK R3_li1_X1 .................................... Total Result          0 (         0)
+RULECHECK R4_mcon_X1 ................................... Total Result          0 (         0)
+RULECHECK R5_met1_X1 ................................... Total Result          0 (         0)
+RULECHECK R6_via_X1 .................................... Total Result          0 (         0)
+RULECHECK R7_met2_X1 ................................... Total Result          0 (         0)
+RULECHECK R8_via2_X1 ................................... Total Result          0 (         0)
+RULECHECK R9_met3_X1 ................................... Total Result          0 (         0)
+--------------------------------------------------------------------------------
+--- SUMMARY
+---
+Total CPU Time                    : 1(s)
+Total Real Time                   : 2(s)
+Total Original Geometry           : 47 (50)
+Total DRC RuleChecks              : 26
+Total DRC Results                 : 0 (0)

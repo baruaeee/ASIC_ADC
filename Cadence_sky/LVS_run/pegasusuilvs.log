@@ -1,0 +1,515 @@
+Running: /eda/cadence/2023-24/RHELx86/PEGASUS_23.11.000/tools.lnx86/Pegasus/bin/64bit/pegasusvirt \
+  -isPegasus \
+  -mode lvs \
+  -global_log_file /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run/pegasusuilvs.log \
+  -control /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run/pegasuslvsctl \
+  -df2_version IC23.1.0 \
+  -run_dir /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run/ \
+  -no_rules_check \
+  -schLibName ADC \
+  -schCellName inv03f \
+  -schViewName schematic \
+  -simViewList auCdl\ schematic \
+  -simStopList auCdl \
+  -displayPinInfo \
+  -source_cdl /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run/inv03f.cdl \
+  -spice /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run/inv03f.spi \
+  -layLibName ADC \
+  -layCellName inv03f \
+  -layViewName layout \
+  -igds /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run/inv03f.gds.gz \
+  -layScale 0.001 \
+  -layTechLib sky130_fd_pr_main \
+  -convertPin geometry \
+  -replaceBusBitChar nil \
+  -noConvertHalfWidthPath nil \
+  -layHierDepth 32 \
+  -layMaxVertices 2048 \
+  -enableColoring yes \
+  -rulesFile /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run/.technology.rul \
+  -log_dir LOGS
+
+
+
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.04s.
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version IC23.1-64b 09/20/2023 08:16 (cpgbld16) $
+          : sub-version  IC23.1-64b.ISR2.29 
+Started at: 18-Nov-2024  14:04:14
+User Name : cae1
+Host Name : cae-europractice1.othr.de
+Directory : /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-20): Output Stream file '/home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run/inv03f.gds.gz' already exists. It will be overwritten.
+Loading sky130_fd_pr_main/libInit.il ...
+	Loading sky130_fd_pr_main/loadCxt.ile ... done!
+	Loading context 'sky130_fd_pr_main' from library 'sky130_fd_pr_main' ... done!
+	Loading context 'pdkUtils' from library 'sky130_fd_pr_main' ... done!
+	Loading sky130_fd_pr_main/libInitCktPro.il ... done!
+	Loading sky130_fd_pr_main/libInitCustomExit.il ... 	Loading Environment Settings ...
+done!
+Loaded sky130_fd_pr_main/libInit.il successfully!
+INFO (XSTRM-217): Reading the layer map file, /mnt/cae_storage_sw/eda/cadence/pdks/sky130/sky130_release_004a/libs/sky130_fd_pr_main/sky130_fd_pr_main.layermap
+WARNING (XSTRM-333): The '-enableColoring' option will be ignored during XStream Out. This is because there is no color entry in the layer map and the object map file.
+INFO (XSTRM-427): Based on current hardware configuration, running XStream Out translation in multi-threaded mode with 4 threads.
+INFO (XSTRM-280): The output file will be a compressed file because the file name has extension .gz
+INFO (XSTRM-162): You have not used the '-viaMap' option. If the OpenAccess design has native oaVia instances, use the '-viaMap' option for preserving oaVia instances in a XStream Out - XStream In round trip. Using the '-viaMap' option improves performance and VM usage of applications using the Streamed-In design.
+
+Summary of Options :
+library                                 ADC
+strmFile                                /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run/inv03f.gds.gz
+topCell                                 inv03f
+view                                    layout
+runDir                                  /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run/
+logFile                                 /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run//PIPO1.LOG
+techLib                                 sky130_fd_pr_main
+hierDepth                               32
+maxVertices                             2048
+layerMap                                /mnt/cae_storage_sw/eda/cadence/pdks/sky130/sky130_release_004a/libs/sky130_fd_pr_main/sky130_fd_pr_main.layermap
+userSkillFile                           /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run//strmout.il
+labelDepth                              32
+case                                    Preserve
+convertDot                              node
+
+INFO (XSTRM-180): You have not used the '-objectMap' option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the '-objectMap' option to translate/preserve these objects using XStream.
+INFO (XSTRM-223): 1. Translating stdVia sky130_fd_pr_main/PYL1CON_C/layout as STRUCTURE PYL1CON_C_CDNS_731935054890.
+INFO (XSTRM-223): 2. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_731935054891.
+INFO (XSTRM-223): 3. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_731935054892.
+INFO (XSTRM-223): 4. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_731935054890.
+INFO (XSTRM-223): 5. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_731935054891.
+INFO (XSTRM-223): 6. Translating cellview ADC/inv03f/layout as STRUCTURE inv03f.
+
+Summary of Objects Translated:
+	Scalar Instances:                       2
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  0
+	Rectangles:                             73
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Stitch:                                 0
+	Standard Vias                           4
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               1
+	Text:                                   0
+	TextDisplay:                            0
+	Cells:                                  6
+
+Elapsed Time: 0.4s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 33520KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '2' warning(s) found.
+
+Creation of CDL for ADC/inv03f/schematic is started
+ si -batch /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run/ >/home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run/SI.OUT 2>/home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run/SI.LOG 
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.04s.
+
+Running simulation in directory: "/home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run/".
+
+Loading sky130_fd_pr_main/libInit.il ...
+	Loading sky130_fd_pr_main/loadCxt.ile ... done!
+	Loading context 'sky130_fd_pr_main' from library 'sky130_fd_pr_main' ... done!
+	Loading context 'pdkUtils' from library 'sky130_fd_pr_main' ... done!
+	Loading sky130_fd_pr_main/libInitCktPro.il ... done!
+	Loading sky130_fd_pr_main/libInitCustomExit.il ... 	Loading Environment Settings ...
+done!
+Loaded sky130_fd_pr_main/libInit.il successfully!
+Loading hnlInit.cxt 
+Running Artist Hierarchical Netlisting ...
+End netlisting Nov 18 14:04:15 2024
+
+Running simin
+
+Running runSim()...
+
+
+Running runsim with simulator: "auCdl"
+Begin simulation:    Nov 18 14:04:15 2024
+
+auCdl netlisting completed
+End simulation:      Nov 18 14:04:15 2024
+INFO (AUCDL-21): (Analog) CDL netlisting completed successfully.
+
+Pegasus 23.11-s009 FbGK7KjMGPhkNci2o09sLg 2024-11-18 14:04:19 552029 cae-europractice1.othr.de
+Copyright 2023 Cadence Design Systems, Inc.
+All rights reserved worldwide.
+
+INFO:    Command Line Options: -lvs -top_cell inv03f -log_dir LOGS -source_top_cell inv03f -spice /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run/inv03f.spi -control /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run/pegasuslvsctl -ui_data -gdb_data /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run/.technology.rul
+INFO:    Launch host CPU: Model: AMD Ryzen Threadripper PRO 5975WX 32-Cores, OS: Oracle Linux Server release 8.10, Logical cores: 16, Physical cores: 16, Cache: 512 KB, CPU Speed: 3593.24 MHz
+         Launch host Memory: MemTotal: 31806 MB,  MemFree: 684 MB,  SwapTotal: 0 MB,  SwapFree: 0 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 76 MB
+INFO:    Current path: /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run
+INFO:    Run directory same as current path
+INFO:    Log directory: /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run/LOGS
+INFO:    PVL parsing results:
+WARNING: The rule set 'Metal Fill' in technology 'sky130_fd_pr_main' has file './pvlFILL.rul' given for 'DrcRules'. However, this file does not exist, or cannot be read, and will be ignored.
+WARNING: The rule set 'antenna' in technology 'sky130_fd_pr_main' has file './pvlAnt.rul' given for 'DrcRules'. However, this file does not exist, or cannot be read, and will be ignored.
+WARNING: In technology 'sky130_fd_pr_main', the rule set 'default' is not a Pegasus rule set.
+It will be accepted for this run but should be changed to a pegasusRuleSet.
+WARNING: INCR_CONN: rule is ignored in LVS/ERC flow.
+WARNING: option -drc is skipped at line 3 in file /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./pvlDRC.rul
+
+INFO:    See "/home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run/LOGS/pvl.log" for additional details.
+
+INFO:    Checking out 1 license(s) of feature: 'Pegasus_LVS' version 23.1
+INFO:    License checkout successful ... 2024-11-18 14:04:22
+
+INFO:    Checking out 1 license(s) of feature: 'Pegasus_16nm' version 23.1
+INFO:    License checkout successful ... 2024-11-18 14:04:23
+WARNING: Neither hcell nor -automatch option is specified.
+INFO:    Worker 0 started on host cae-europractice1.othr.de with 1 cpu(s)
+         CPU: Model: AMD Ryzen Threadripper PRO 5975WX 32-Cores, OS: Oracle Linux Server release 8.10, Logical cores: 16, Physical cores: 16, Cache: 512 KB, CPU Speed: 3593.24 MHz
+         Memory: MemTotal: 31806 MB,  MemFree: 683 MB,  SwapTotal: 0 MB,  SwapFree: 0 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 76 MB
+INFO:    LVS report file: /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run/inv03f.rep 
+INFO:    Extracted layout netlist: /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run/inv03f.spi 
+INFO:    Setting LAYOUT_PATH to: /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run/inv03f.gds.gz 
+INFO:    Setting LAYOUT_PRIMARY to: inv03f 
+INFO:    Setting SCHEMATIC_PATH to: /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run/inv03f.cdl 
+INFO:    Setting SCHEMATIC_PRIMARY to: inv03f 
+
+INFO:    Gdsii input summary
+         File name: /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run/inv03f.gds.gz
+         File size: 1265
+         Version: 5.0
+         Library name: ADC
+         Last modified: 2024-11-18 1:14:40
+         Last accessed: 2024-11-18 14:4:14
+         Database unit in user units: 0.001
+         Database unit in meters: 1e-09
+         Magnification: 1 
+
+INFO:    Cell Summary:
+         ----------------------------------------------------------------------------
+             CELL                           INSTANCE    GEOMETRY      LABELS        HREF        FREF
+         ----------------------------------------------------------------------------
+         PYL1CON_C_CDNS_731935054890               0           0           0           1           1
+         L1M1_C_CDNS_731935054891                  0           3           0           1           1
+         L1M1_C_CDNS_731935054892                  0           3           0           2           2
+         nfet_01v8_CDNS_731935054890               0           2           0           1           1
+         pfet_01v8_CDNS_731935054891               0           2           0           1           1
+         inv03f                                    6          17           0           1           1
+         ----------------------------------------------------------------------------
+         TOTAL CELL = 6;  INSTANCE = 6;  GEOMETRY = 27;  LABEL = 0
+
+INFO:    Layer Summary:
+         ----------------------------------------------------------------------------
+             LAYER                  ID       HPN      HTC        FPN       FTC
+         ----------------------------------------------------------------------------
+         li1                      1013        11         0        12         0
+         mcon                     1014         6         0         7         0
+         met1                     1015        10         0        11         0
+         via                      1016         0         0         0         0
+         met2                     1017         0         0         0         0
+         via2                     1019         0         0         0         0
+         met3                     1020         0         0         0         0
+         via3                     1021         0         0         0         0
+         met4                     1022         0         0         0         0
+         via4                     1023         0         0         0         0
+         met5                     1024         0         0         0         0
+         pad                      1026         0         0         0         0
+         ----------------------------------------------------------------------------
+
+INFO:    CHIP EXTENT: -70 -200 1450 4340
+
+
+INFO:    Ports ...
+         ========================================================================
+
+INFO:    Texts For Connectivity ...
+         ========================================================================
+
+INFO:    Texts For SELECT -LABEL ...
+         ========================================================================
+
+INFO:    Texts For EXPAND_TEXT_ORIGIN ...
+         ========================================================================
+
+INFO:    Texts For DFM_TEXT ...
+         ========================================================================
+
+INFO:    Texts For Device Text Model Layer ...
+         ========================================================================
+
+INFO:    Texts For Device Text Property Layer ...
+         ========================================================================
+
+INFO:    Layer Summary(Texts For Connectivity):
+         ----------------------------------------------------------------------------
+             LAYER                  ID       TEXTS
+         ----------------------------------------------------------------------------
+         ----------------------------------------------------------------------------
+
+INFO:    Layer Summary(Texts For SELECT -LABEL):
+         ----------------------------------------------------------------------------
+             LAYER                  ID       TEXTS
+         ----------------------------------------------------------------------------
+         ----------------------------------------------------------------------------
+
+INFO:    Layer Summary(Texts For EXPAND_TEXT_ORIGIN):
+         ----------------------------------------------------------------------------
+             LAYER                  ID       TEXTS
+         ----------------------------------------------------------------------------
+         ----------------------------------------------------------------------------
+
+INFO:    Layer Summary(Texts For DFM_TEXT):
+         ----------------------------------------------------------------------------
+             LAYER                  ID       TEXTS
+         ----------------------------------------------------------------------------
+         ----------------------------------------------------------------------------
+
+INFO:    Expanded Cell Summary
+         PYL1CON_C_CDNS_731935054890 is expanded.
+         pfet_01v8_CDNS_731935054891 is expanded.
+         nfet_01v8_CDNS_731935054890 is expanded.
+         L1M1_C_CDNS_731935054891 is expanded.
+INFO:    Status: Runset 100% complete as of 2024-11-18 14:04:24   Elapsed: 00:00:01
+         Worker: Active CPUs  Total Mem(MB)  Active Mem(MB)  CPU time(s)
+              0:    1 /   1             20              10            1
+INFO:	 Status: Finishing as of 2024-11-18 14:04:24   Elapsed: 00:00:01   CPU time[s]: 1
+INFO:    Resource usage by worker at exit:
+                  CPU      Elapsed  CPUs       CPU       Peak        Peak engine
+         Worker:  time[s]  time[s]  Allocated  usage[%]  Memory[MB]  Memory[MB]
+              0:        1        1          1     73.98          20           10
+         Worker resource usage  summary: Total CPU[s]: 1  Run duration[s]: 1  Max peak memory[MB]: 20
+         Worker CPU utilization summary: 1 of 1 available CPU seconds (100.00%) with 1 average available CPU(s)
+INFO:    Extraction result: CLEAN (Reporter)
+INFO:    Generating summary in /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run/inv03f.sum
+INFO:    All selected rules completed
+         Total CPU Time                    : 1(s)
+         Total Real Time                   : 2(s)
+         Total Original Geometry           : 27(30)
+         Total ERC RuleChecks              : 0
+         Total ERC Results                 : 0 (0)
+INFO:    Pegasus extracted connectivity database creation started
+INFO:    CmdLine: /mnt/cae_storage_sw/eda/cadence/2023-24/RHELx86/PEGASUS_23.11.000/tools.lnx86/Pegasus/bin/64bit/edbToEcdb -kf -edb inv03f_552029.db -ecdb ./ -topcell inv03f -netlist ./inv03f.net -layermap ./inv03f.ecdbmap -textmap ./inv03f.ports -dependmap inv03f.lmap.perc -kvp ifs:nJ -lvsfile ./inv03f.lvsfile -saveFloatingNets .inv03f.info.softchk 
+INFO:    Opening layer file 'inv03f_552029.db/__layer'...
+INFO:    Loading layer map file './inv03f.ecdbmap'...
+INFO:    Loading text map file './inv03f.ports'...
+INFO:    Loading dependency map file 'inv03f.lmap.perc'...
+INFO:    Pre loading edb directory contents...
+INFO:    ECDB file name './/.inv03f.ecdb'...
+INFO:    Loading lvs file './inv03f.lvsfile'...
+INFO:    Writing db header information...(0s)
+INFO:    Transfering cdl structures to ecdb structures...
+INFO:    Read Netlist (32 threads)...
+INFO:      DONE - (4s)
+INFO:    Process (32 threads)...
+INFO:    Cell(       0):  50% Done...(4s), L1M1_C_CDNS_731935054892                
+INFO:    Cell(       1): 100% Done...(4s), inv03f                                  
+INFO:      DONE - (0s)
+INFO:    Cells creation time: (4s)
+INFO:    Write netlist items...         (4s)
+INFO:    Saving name table to db...
+INFO:    Save device templates to the db...
+INFO:    Save connect rules to the db...
+INFO:    Write calculated header information to the top of file...
+INFO:    Erasing cdl subckts...          (0s)
+
+INFO:    edbToEcdb Header Information:
+  ECDB file version   : 38
+  DevTmpl offset      : 0
+  Connect offset      : 1572
+  NameTable offset    : 1398
+  Layer Map offset    : 167
+  Cell Start offset   : 1258
+  Cell End offset     : 1398
+  Aux Data offset     : 1648
+  Labels     offset   : 0
+  Layer RW   offset   : 0
+  NVP                 : ifs:0.01 
+  Scale               : 4000
+  GDS Scale           : 1000
+  File size (static)  : 1820
+  File size (dynamic) : 0
+  Cell count          : 2
+  ECDB create time    : 4
+  EDB info            : 10
+  Top Cell            : inv03f
+  EDB info (Trans)    : WRITTEN_64 W_NOT_NET_ORDER 
+
+INFO:    edbToEcdb Sizes written to disk (MB):
+  NameTbl             :     0.000170
+  Layers              :     0.000730
+  Shapes              :     0.000150
+  XYTree              :     0.000123
+  LookUpTbls          :     0.000016
+  Cells               :     0.000147
+  Insts               :     0.000036
+  Ports               :     0.000012
+  Nets                :     0.000016
+  Pins                :     0.000005
+  Labels              :     0.000000
+  DevTmpl             :     0.000004
+  Connect             :     0.000072
+  Header              :     0.000167
+  AuxData             :     0.000170
+  NvnLabels           :     0.000002
+---------------------------------
+  Total               :     0.001820
+
+INFO:    Manager summary: CPU(s): 0 Elapsed(s): 4 Peak memory(MB): 227.38
+INFO:    Pegasus extracted connectivity database creation completed. 2024-11-18 14:04:28
+INFO:    Pegasus REPORTDB creation started...
+INFO:    Processing file inv03f.rep
+INFO:    Manager summary: CPU(s): 0 Elapsed(s): 1 Peak memory(MB): 0.00
+INFO:    Pegasus REPORTDB creation completed. 2024-11-18 14:04:29
+
+
+INFO:    Comparing netlists ...
+INFO:    Setup VLDB (0s)
+INFO:    Init sch rules (0s)
+INFO:    Init lay rules (0s)
+INFO:    Init structures (0s)
+INFO:    Set cells to delete (0s)
+INFO:    Check expand on pin error (0s)
+INFO:    Reading schematic network
+INFO:     inputting cdl netlist /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run/inv03f.cdl...
+WARNING (NVN-13002): *.BIPOLAR is not supported.
+WARNING (NVN-13002): *.RESI is not supported.
+WARNING (NVN-13002): *.RESVAL is not supported.
+WARNING (NVN-13002): *.CAPVAL is not supported.
+WARNING (NVN-13002): *.DIOPERI is not supported.
+WARNING (NVN-13002): *.DIOAREA is not supported.
+WARNING (NVN-13002): *.EQUATION is not supported.
+WARNING (NVN-13003): "*.SCALE" is not supported. Use ".OPTION SCALE" instead or specify  'lvs_cdn_flow_options -cdl_use_scale' in the rule file.
+INFO:     finished loading cdl netlist /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run/inv03f.cdl (0s)
+INFO:     commit cdl netlist(s)...
+INFO:     finished committing cdl netlists (0s)
+INFO:    Post sch netlist rule processing (0s)
+INFO:    Reading layout network
+INFO:     inputting (fast parser) cdl netlist  /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run/inv03f.spi...
+INFO:     finished loading cdl netlist /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/LVS_run/inv03f.spi (0s)
+INFO:     commit cdl netlist(s)...
+INFO:     finished committing cdl netlists (0s)
+INFO:    Post lay netlist rule processing (0s)
+INFO:    Processing blackBox rules (0s)
+INFO:    Processing bindings (0s)
+INFO:    Commit sch verilog netlist (0s)
+INFO:    Commit lay verilog netlist (0s)
+INFO:    Erase netlist data (0s)
+INFO:    Set blackbox cells (0s)
+INFO:    Sch put cells in memory (0s)
+INFO:    Sch update netlist rules (0s)
+INFO:    Sch set devices to delete (0s)
+INFO:    Sch adjust device pins (0s)
+INFO:    Sch calc hier order (0s)
+INFO:    Sch process inherited connections (0s)
+INFO:    Sch generate qrc files (0s)
+INFO:    Sch handle global pins (0s)
+INFO:    Sch apply rule actions with processed netlist (0s)
+INFO:    Sch process cell supply (0s)
+INFO:    Lay put cells in memory (0s)
+INFO:    Lay update netlist rules (0s)
+INFO:    Lay set devices to delete (0s)
+INFO:    Lay calc hier order (0s)
+INFO:    Lay process inherited connections (0s)
+INFO:    Lay generate qrc files (0s)
+INFO:    Lay handle global pins (0s)
+INFO:    Lay apply rule actions with processed netlist (0s)
+INFO:    Lay process cell supply (0s)
+INFO:    Check if interposer flow (0s)
+INFO:    Check binding file (0s)
+INFO:    Set topcell global pin indicator (0s)
+INFO:    Calculate preserve parameterized cells (0s)
+INFO:    Check generic device bindings (0s)
+INFO:    Calculate primitive device bindings (0s)
+INFO:    Remove unused device parameters (0s)
+INFO:    Set instances to flatten inside cells (0s)
+INFO:    Calculate parameters (0s)
+INFO:    Start sch normalization (0s)
+INFO:    Start lay normalization (0s)
+INFO:    Calculate primitive device bindings (2nd time) (0s)
+INFO:    Finalize binding (0s)
+INFO:    Sch join nets (0s)
+INFO:    Sch setup hier normalization (0s)
+INFO:    Sch remove feedthroughs and black box cell instances (0s)
+INFO:    Sch remove identical pins (0s)
+INFO:    Sch calc connection counts (0s)
+INFO:    Run genHierCells (0s)
+INFO:    Reset normalization flags (0s)
+INFO:    Lay join nets (0s)
+INFO:    Lay setup hier normalization (0s)
+INFO:    Lay remove feedthroughs and black box cell instances (0s)
+INFO:    Lay remove identical pins (0s)
+INFO:    Lay calc connection counts (0s)
+INFO:    Normalize sch (0s)
+INFO:    Read in color file (0s)
+INFO:    Set scale factor per cell (0s)
+INFO:    Setup property init rules (0s)
+INFO:    Write sch vldb file (0s)
+INFO:    Write lay vldb file (0s)
+INFO:    Apply preserve parameterized cells (0s)
+INFO:    Cleanup after VLDB processing (0s)
+WARNING (NVN-15002): Rule 'lvs_recognize_gates -all' was set, but either
+           the power net or the ground net (or both) was missing as follows.
+               schematic power
+               schematic ground
+               layout power
+               layout ground
+           Rule 'lvs_recognize_gates -all' requires both power and ground nets to operate.
+           These can be identified using rules 'lvs_power_name' and 'lvs_ground_name'.
+           Resetting rule to 'lvs_recognize_gates -simple'
+INFO (NVN-10007): Found ecdb file .inv03f.ecdb, will use during comparison.
+
+INFO:    Cell comparison output format:
+            <Comparing|Top Cell> <Layout Cell> vs <Schematic Cell>
+               <Layout instances> insts vs <Schematic instances> insts  (<Time>)-<Status>
+
+         Top Cell  inv03f vs inv03f
+            0 insts vs 2 insts . . . . . . . . . . . . . . . . . . . . . .  (0s)-mismatch
+
+INFO:    Generating the LVS report...
+           Report Init (0s)
+           Load common queries (0s)
+           Create report (0s)
+           Cleanup (0s)
+INFO:    Report finished
+
+INFO:    Extraction Run Summary
+         Total CPU Time        : 1(s)
+         Total Real Time       : 2(s)
+         Peak Memory Used      : 21.00(M)
+
+
+INFO:    NVN Run Summary
+         Total CPU Time        : 1(s)
+         Total Real Time       : 0(s)
+         Peak Memory Used      : 247.43(M)
+
+
+INFO:    LVS Summary
+         Total CPU Time        : 2(s)
+         Total Real Time       : 2(s)
+         Peak Memory Used      : 247.43(M)
+
+    #############################################################
+    #                                                           #
+    # Run Result             : MISMATCH                         #
+    #                                                           #
+    # Run Summary            : [ERROR] Connectivity Mismatches  #
+    #                        : [WARN]  Layout Netlist Is Empty  #
+    #                        : [INFO]  ERC Results: Empty       #
+    #                        : [INFO]  Extraction Clean         #
+    #                                                           #
+    # ERC Summary File       : inv03f.sum                       #
+    # Extraction Report File : inv03f.rep                       #
+    # Comparison Report File : inv03f.rep.cls                   #
+    #                                                           #
+    #############################################################
+
+INFO:    Checking in all SoftShare licenses.
+
+Pegasus finished normally. 2024-11-18 14:04:29
+
+

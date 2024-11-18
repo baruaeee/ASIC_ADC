@@ -1,0 +1,26 @@
+;----------------------------------------------------------------------------
+; @(#)$CDS: assura version av4.1:Production:dfII23.1-64b:IC23.1-64b.RTM.28 06/19/23 11:35 (sjfdsl120) $
+; sub-version 4.1_USR6_EHF15
+;----------------------------------------------------------------------------
+
+
+;----------------------------------------------------------------------------
+; RSF include(/home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/inv01f.rsf) Section
+; Specified in the Assura UI
+;----------------------------------------------------------------------------
+
+
+
+;----------------------------------------------------------------------------
+; avParameter Section
+; Created by the Assura UI
+;----------------------------------------------------------------------------
+
+avParameters(
+  ?inputLayout ( "df2" "ADC" )
+  ?cellName "inv01f"
+  ?viewName "layout"
+  ?rulesFile "/eda/cadence/pdks/sky130/sky130_release_004a/Sky130_DRC/sky130_rev_0.0_1.0.drc.pvl"
+  ?set ("drc?")
+  ?avrpt t
+)

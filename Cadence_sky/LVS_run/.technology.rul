@@ -1,0 +1,1 @@
+technology "sky130_fd_pr_main" -ruleSet "default" -techLib "/home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/pvtech.lib";
