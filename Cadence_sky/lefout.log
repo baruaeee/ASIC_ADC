@@ -1,0 +1,26 @@
+
+********************************************************************************
+Product   : Virtuoso(R) LEF Out 
+Program   : @(#)$CDS: lefout version IC23.1-64b 09/20/2023 08:14 (cpgbld16) $
+SubVersion: sub-version  IC23.1-64b.ISR2.29 
+Started at: 18-Nov-2024  15:31:43
+User Name : cae1
+Host Name : cae-europractice1.othr.de
+Directory : /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky
+DB Version: 	20230920 (SJ)
+CADENCE Design Systems, Inc.
+********************************************************************************
+Running: lefout -lib ADC -cells "inv01f" -views "layout" -lef /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/ADC/inv01f/INV01.lef -ver 5.8
+WARNING: (OALEFDEF-23247): oaLayer dnwell: The OpenAccess layer material 'recognition' is not mapped to the LEF layer TYPE, LEF58_TYPE pair, but the LEF layer will be printed as TYPE MASTERSLICE layer to keep it compatible with the Innovus flow. The layer material will not be preserved during LEF In - LEF Out roundtrip.
+WARNING: (OALEFDEF-50104): LAYER li1: The routing direction for this layer is not specified. A HORIZONTAL routing direction was assumed. Ensure that routing layers in the technology database have valid routing directions.
+WARNING: (OALEFDEF-50104): LAYER rdl: The routing direction for this layer is not specified. A HORIZONTAL routing direction was assumed. Ensure that routing layers in the technology database have valid routing directions.
+WARNING: (OALEFDEF-50039): VIA subTap: The via uses more than three layers. This via was ignored. Ensure that the vias are correctly defined.
+WARNING: (OALEFDEF-50039): VIA nwellTap: The via uses more than three layers. This via was ignored. Ensure that the vias are correctly defined.
+WARNING: (OALEFDEF-50039): VIA diffConn: The via uses more than three layers. This via was ignored. Ensure that the vias are correctly defined.
+WARNING: (OALEFDEF-50039): VIA polyConn: The via uses more than three layers. This via was ignored. Ensure that the vias are correctly defined.
+WARNING: (OALEFDEF-50144): NONDEFAULTRULE virtuosoDefaultSetup: LAYER poly: invalid definition. This rule will be ignored. Ensure all layers in the valid routing layers constraint have a minWidth constraint defined and are metal or poly-routing material.
+WARNING: (OALEFDEF-90016): Design inv01f layout does not have a snapBoundary. Searching for a prBoundary.
+
+Elapsed Time: 0.4s
+
+lefout translation completed (errors: 0, warnings: 9).
