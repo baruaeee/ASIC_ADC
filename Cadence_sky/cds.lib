@@ -4,6 +4,8 @@
 # assisted by CdsLibEditor
 DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
 DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
-DEFINE sky130_fd_pr_main /eda/cadence/pdks/sky130_release_004a/libs/sky130_fd_pr_main
+DEFINE sky130_fd_pr_main /eda/cadence/pdks/sky130/sky130_release_004a/libs/sky130_fd_pr_main
 
-DEFINE ADC /home/cae1/Desktop/ASIC_ADC/Cadence_sky/ADC
+DEFINE ADC /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/ADC
+DEFINE avTech /eda/cadence/2023-24/RHELx86/ASSURA_04.16.115_231/tools.lnx86/assura/etc/avtech/avTech
+DEFINE OpenFPGA /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/OpenFPGA
