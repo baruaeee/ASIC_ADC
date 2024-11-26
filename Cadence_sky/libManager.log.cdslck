@@ -4,13 +4,13 @@
 # Information about current Edit Lock Owner.
 #
 LockStakeVersion               1.1
-LoginName                      cae3
+LoginName                      cae1
 HostName                       cae-europractice1.othr.de
-ProcessIdentifier              697436
-ProcessCreationTime_UTC        1728774321
-ProcessCreationTime_Readable   Sun Oct 13 01:05:21 2024 CEST
+ProcessIdentifier              922339
+ProcessCreationTime_UTC        1732625640
+ProcessCreationTime_Readable   Tue Nov 26 13:54:00 2024 CET
 AppIdentifier                  /eda/cadence/2023-24/RHELx86/IC_23.10.020/tools/dfII/bin/64bit/libManager
 OSType                         lnx86
 ReasonForPlacingEditLock       log file
-FilePathUsedToEditLock         /home/cae3/Desktop/ADC/Cadence_Sky/libManager.log
-TimeEditLocked                 Sun Oct 13 01:05:31 2024 CEST
+FilePathUsedToEditLock         /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/libManager.log
+TimeEditLocked                 Tue Nov 26 13:54:05 2024 CET
