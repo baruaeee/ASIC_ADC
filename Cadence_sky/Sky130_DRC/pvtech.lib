@@ -1,1 +1,1 @@
-DEFINE sky130_fd_pr_main ./pvs
+DEFINE sky130_pvs ./pvs

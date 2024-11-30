@@ -1,8 +1,0 @@
-CADENCE IHNL11140
-$model
-ADC/inv03f/schematic inv03f
-$endmodel
-$net
-$endnet
-$param
-$endparam

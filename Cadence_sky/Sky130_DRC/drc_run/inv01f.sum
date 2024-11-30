@@ -1,25 +1,25 @@
 ********************************************************************************
 *** Pegasus DRC SUMMARY
 ***
-Execute on Date/Time    : Sun Nov 17 23:55:21 2024
+Execute on Date/Time    : Sat Nov 30 16:21:37 2024
 Pegasus VERSION         : 23.11-s009 Thu Aug 31 12:45:19 PDT 2023
-Rule Deck Path          : /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/drc_run/.technology.rul
+Rule Deck Path          : /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/Sky130_DRC/drc_run/.technology.rul
 Rule Deck Title         :
 Layout System           : GDSII
-Layout Path             : /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/drc_run/inv01f.gds.gz
-Current Directory       : /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/drc_run
-User Name               : cae1
+Layout Path             : /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/Sky130_DRC/drc_run/inv01f.gds.gz
+Current Directory       : /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/Sky130_DRC/drc_run
+User Name               : cae3
 Maximum Results         : 1000
 Maximum Result Vertices : 4096
 Layout Depth            : ALL
 Text Depth              : 0
-Summary File            : /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/drc_run/inv01f.sum
+Summary File            : /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/Sky130_DRC/drc_run/inv01f.sum
 Geometry Flagging       : ACUTE = NO  ANGLED = NO  SKEW = NO  OFFGRID = NO
                           NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
 Keep Empty Checks       : YES
 Excluded Cells          : 
 Layout Primary Cell     : inv01f
-ASCII DRC Error Report  : /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/Sky130_DRC/drc_run/inv01f.drc_errors.ascii
+ASCII DRC Error Report  : /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/Sky130_DRC/drc_run/inv01f.drc_errors.ascii
 DRC Results Database    :
 --------------------------------------------------------------------------------
 --- RUNNING TIME WARNINGS
@@ -29,7 +29,7 @@ DRC Results Database    :
 ---
 LAYER diff ................................. Total Original Geometry:          6 (         6)
 LAYER tap .................................. Total Original Geometry:          2 (         2)
-LAYER nwell ................................ Total Original Geometry:          2 (         2)
+LAYER nwell ................................ Total Original Geometry:          3 (         3)
 LAYER dnwell ............................... Total Original Geometry:          0 (         0)
 LAYER pwbm ................................. Total Original Geometry:          0 (         0)
 LAYER pwde ................................. Total Original Geometry:          0 (         0)
@@ -45,9 +45,9 @@ LAYER psdm ................................. Total Original Geometry:          4
 LAYER rpm .................................. Total Original Geometry:          0 (         0)
 LAYER npc .................................. Total Original Geometry:          1 (         1)
 LAYER licon1 ............................... Total Original Geometry:         11 (        11)
-LAYER li1 .................................. Total Original Geometry:         12 (        12)
-LAYER mcon ................................. Total Original Geometry:          8 (         8)
-LAYER met1 ................................. Total Original Geometry:         13 (        13)
+LAYER li1 .................................. Total Original Geometry:         10 (        11)
+LAYER mcon ................................. Total Original Geometry:          7 (         8)
+LAYER met1 ................................. Total Original Geometry:          6 (         7)
 LAYER via .................................. Total Original Geometry:          0 (         0)
 LAYER met2 ................................. Total Original Geometry:          0 (         0)
 LAYER via2 ................................. Total Original Geometry:          0 (         0)
@@ -379,6 +379,6 @@ RULECHECK vpp.9 ........................................ Total Result          0
 ---
 Total CPU Time                    : 1(s)
 Total Real Time                   : 2(s)
-Total Original Geometry           : 75 (75)
+Total Original Geometry           : 66 (69)
 Total DRC RuleChecks              : 279
 Total DRC Results                 : 0 (0)

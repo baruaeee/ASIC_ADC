@@ -3,9 +3,8 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 pvsRuleSet( "default"
-       (DrcRules             "./pvlDRC.rul" )
-       (LvsRules             "./pvlDRC.rul" )
-       (ErcRules             "./pvlDRC.rul" )
+       (DrcRules             "./sky130_rev_0.0_1.0.drc.pvl" )
+       (LvsRules             "./sky130.lvs.pvl" )
 )
  
 pvsRuleSet( "antenna"

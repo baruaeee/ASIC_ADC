@@ -1,6 +1,6 @@
 \o Program:		@(#)$CDS: cdsLibEditor version 23.1 - CAT38 08/24/2023 05:08 (sjfdcl1184) $
 \o Sub version:		sub-version  p306 
-\o Arguments:		-display :13.0 -mpssession virtuoso357511 -mpshost cae-europractice1.othr.de -mpsversion 23.1 -namespace CDBA -cdslib /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/cds.lib 
+\o Arguments:		-display :13.0 -mpssession virtuoso366742 -mpshost cae-europractice1.othr.de -mpsversion 23.1 -namespace CDBA -cdslib /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/cds.lib 
 \o Working Directory:	cae-europractice1.othr.de:/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky
 \o 64-bit offsets
 \a nrSetWindowVisibility(cdsLibEditor "show")
@@ -9,14 +9,14 @@
 \a nrResizeWindow(cdsLibEditor list(585 321 500 400))
 \a nrListItemAction(cdsLibEditor->mainTable 0 0)
 \o Active cell: 0 0 "analogLib"
-\a nrListItemAction(cdsLibEditor->mainTable 5 0)
-\o Active cell: 5 0 ""
+\a cdsLibEditor->fileNewButton->value = t
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 ""
+\o QUESTION (CLE-232): You must choose one edit format for your new file to continue editing.\n\nMost Cadence tools use only "cds.lib" for the library definition list.\nCadence "cds.lib" is the recommended edit format.\n\nYour edit format choice remains in effect until the new file is saved. 
+\o QUESTION (CLE-233): Cadence Library Path Editor enables saving your edits in either format\nwhen using the "Save As" command. 
+\a nrSetWindowVisibility(newEditFormatDialog "show")
+\a nrSetCurrentWindow(newEditFormatDialog)
+\a nrResizeWindow(newEditFormatDialog list(629 343 411 306))
+\a newEditFormatDialog->okButton->value = t
 \a nrSetCurrentWindow(cdsLibEditor)
-\a nrListItemAction(cdsLibEditor->mainTable 5 1)
-\o Active cell: 5 1 ""
-\a nrListItemRename(cdsLibEditor->mainTable, 5 1 "/eda/cadence/pdks/sky130/sky130_scl_9T_0_0_5/oa/sky130_scl_9T")
-\a nrListItemAction(cdsLibEditor->mainTable 5 0)
-\o Active cell: 5 0 ""
-\a nrListItemRename(cdsLibEditor->mainTable, 5 0 "sky130_scl_9T")
-\a cdsLibEditor->fileSaveButton->value = t
 \a exit(0)

@@ -1,0 +1,30 @@
+
+INFO:    Checking out 1 license(s) of feature: 'Pegasus_UI' version 23.1
+INFO:    License checkout successful ... 2024-11-30 16:04:45
+WARNING: In technology 'sky130_pvs', the rule set 'Metal Fill' is not a Pegasus rule set.
+It will be accepted for this run but should be changed to a pegasusRuleSet.
+WARNING: In technology 'sky130_pvs', the rule set 'antenna' is not a Pegasus rule set.
+It will be accepted for this run but should be changed to a pegasusRuleSet.
+WARNING: In technology 'sky130_pvs', the rule set 'default' is not a Pegasus rule set.
+It will be accepted for this run but should be changed to a pegasusRuleSet.
+WARNING: In technology 'sky130_pvs', the rule set 'Metal Fill' is not a Pegasus rule set.
+It will be accepted for this run but should be changed to a pegasusRuleSet.
+WARNING: In technology 'sky130_pvs', the rule set 'antenna' is not a Pegasus rule set.
+It will be accepted for this run but should be changed to a pegasusRuleSet.
+WARNING: In technology 'sky130_pvs', the rule set 'default' is not a Pegasus rule set.
+It will be accepted for this run but should be changed to a pegasusRuleSet.
+Checking in SoftShare license Pegasus_UI ... succeeded (1s).
+
+INFO:    Checking out 1 license(s) of feature: 'Pegasus_UI' version 23.1
+INFO:    License checkout successful ... 2024-11-30 16:22:09
+WARNING: In technology 'sky130_pvs', the rule set 'Metal Fill' is not a Pegasus rule set.
+It will be accepted for this run but should be changed to a pegasusRuleSet.
+WARNING: In technology 'sky130_pvs', the rule set 'antenna' is not a Pegasus rule set.
+It will be accepted for this run but should be changed to a pegasusRuleSet.
+WARNING: In technology 'sky130_pvs', the rule set 'default' is not a Pegasus rule set.
+It will be accepted for this run but should be changed to a pegasusRuleSet.
+Checking in SoftShare license Pegasus_UI ... succeeded (1s).
+
+INFO:    Checking out 1 license(s) of feature: 'Pegasus_UI' version 23.1
+INFO:    License checkout successful ... 2024-11-30 16:25:39
+Checking in SoftShare license Pegasus_UI ... succeeded (1s).
