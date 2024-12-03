@@ -1,12 +1,7 @@
 
-*** Checking layout cellview 'ADC/inv02f/layout' against source cellview 'ADC/inv02f/schematic'. - Mon Nov 18 02:07:40 2024 ***
+*** Checking layout cellview 'ADC/inv15f/layout' against source cellview 'ADC/inv15f/schematic'. - Sun Dec  1 01:53:32 2024 ***
 
-INFO (LX-1018): Schematic pin 'A' has no corresponding layout pin.
-INFO (LX-1018): Schematic pin 'GND' has no corresponding layout pin.
-INFO (LX-1018): Schematic pin 'VDD' has no corresponding layout pin.
-INFO (LX-1018): Schematic pin 'Y' has no corresponding layout pin.
-INFO (LX-1001): Schematic instance 'NM1' has no corresponding layout instance.
-INFO (LX-1001): Schematic instance 'PM1' has no corresponding layout instance.
+INFO (LX-1041): Layout terminal 'A' has no pin figures.
 
 *** Check Against Source complete. ***
 

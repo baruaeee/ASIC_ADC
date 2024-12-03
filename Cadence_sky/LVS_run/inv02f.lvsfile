@@ -1,7 +1,0 @@
-;| version 1
-connect li1 poly by licon1
-connect met1 li1 by mcon
-connect met2 met1 by via
-connect met3 met2 by via2
-connect met4 met3 by via3
-connect met5 met4 by via4

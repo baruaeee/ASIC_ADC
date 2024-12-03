@@ -1,7 +1,0 @@
-;| version 1
-connect li1 met1 by mcon
-connect met1 met2 by via
-connect met3 met2 by via2
-connect met3 met4 by via3
-connect met4 met5 by via4
-connect met5 pad

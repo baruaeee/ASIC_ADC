@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version IC23.1-64b 09/20/2023 08:16 (cpgbld16) $
           : sub-version  IC23.1-64b.ISR2.29 
-Started at: 30-Nov-2024  16:25:46
+Started at: 01-Dec-2024  05:22:31
 User Name : cae3
 Host Name : cae-europractice1.othr.de
 Directory : /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky
@@ -10,7 +10,6 @@ CADENCE Design Systems, Inc.
 ********************************************************************************
 Info: Cellview Rev Num:99,  Tech Rev Num:59
 
-WARNING (XSTRM-20): Output Stream file '/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/inv01f.gds.gz' already exists. It will be overwritten.
 INFO (XSTRM-217): Reading the layer map file, /mnt/cae_storage_sw/eda/cadence/pdks/sky130/sky130_release_004a/libs/sky130_fd_pr_main/sky130_fd_pr_main.layermap
 WARNING (XSTRM-333): The '-enableColoring' option will be ignored during XStream Out. This is because there is no color entry in the layer map and the object map file.
 INFO (XSTRM-427): Based on current hardware configuration, running XStream Out translation in multi-threaded mode with 4 threads.
@@ -19,34 +18,34 @@ INFO (XSTRM-162): You have not used the '-viaMap' option. If the OpenAccess desi
 
 Summary of Options :
 library                                 ADC
-strmFile                                /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/inv01f.gds.gz
-topCell                                 inv01f
+strmFile                                /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/inv10f.gds.gz
+topCell                                 inv10f
 view                                    layout
-runDir                                  /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/
-logFile                                 /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run//PIPO1.LOG
+runDir                                  /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run
+logFile                                 /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/PIPO1.LOG
 techLib                                 sky130_fd_pr_main
 hierDepth                               32
 maxVertices                             2048
 layerMap                                /mnt/cae_storage_sw/eda/cadence/pdks/sky130/sky130_release_004a/libs/sky130_fd_pr_main/sky130_fd_pr_main.layermap
-userSkillFile                           /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run//strmout.il
+userSkillFile                           /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/strmout.il
 labelDepth                              32
 case                                    Preserve
 convertDot                              node
 
 INFO (XSTRM-180): You have not used the '-objectMap' option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the '-objectMap' option to translate/preserve these objects using XStream.
-INFO (XSTRM-223): 1. Translating stdVia sky130_fd_pr_main/PYL1CON_C/layout as STRUCTURE PYL1CON_C_CDNS_732980346910.
-INFO (XSTRM-223): 2. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_732980346911.
-INFO (XSTRM-223): 3. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_732980346912.
-INFO (XSTRM-223): 4. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_732980346910.
-INFO (XSTRM-223): 5. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_732980346911.
-INFO (XSTRM-223): 6. Translating cellview ADC/inv01f/layout as STRUCTURE inv01f.
+INFO (XSTRM-223): 1. Translating stdVia sky130_fd_pr_main/PYL1CON_C/layout as STRUCTURE PYL1CON_C_CDNS_733026951060.
+INFO (XSTRM-223): 2. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_733026951061.
+INFO (XSTRM-223): 3. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_733026951062.
+INFO (XSTRM-223): 4. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_733026951060.
+INFO (XSTRM-223): 5. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_733026951061.
+INFO (XSTRM-223): 6. Translating cellview ADC/inv10f/layout as STRUCTURE inv10f.
 
 Summary of Objects Translated:
 	Scalar Instances:                       2
 	Array Instances:                        0
 	Polygons:                               0
 	Paths:                                  0
-	Rectangles:                             73
+	Rectangles:                             74
 	Lines:                                  0
 	Arcs:                                   0
 	Donuts:                                 0
@@ -62,10 +61,10 @@ Summary of Objects Translated:
 	Standard Vias                           4
 	Custom Vias:                            0
 	CdsGen Vias:                            0
-	Pathsegs:                               0
-	Text:                                   0
+	Pathsegs:                               1
+	Text:                                   4
 	TextDisplay:                            0
 	Cells:                                  6
 
-Elapsed Time: 0.5s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 33512KB
-INFO (XSTRM-234): Translation completed. '0' error(s) and '2' warning(s) found.
+Elapsed Time: 0.5s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 33536KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

@@ -1,0 +1,5 @@
+# SVDB: Port Table (ports)
+# SVDB: Layout Primary div_fixed
+A 3 A 150 2610 met1
+Y 1 Y 1360 1660 met1
+VSS 2 VSS 320 -10 met1

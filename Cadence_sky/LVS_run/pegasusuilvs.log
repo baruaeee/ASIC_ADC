@@ -4,20 +4,20 @@ Running: /eda/cadence/2023-24/RHELx86/PEGASUS_23.11.000/tools.lnx86/Pegasus/bin/
   -global_log_file /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/pegasusuilvs.log \
   -control /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/pegasuslvsctl \
   -df2_version IC23.1.0 \
-  -run_dir /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/ \
+  -run_dir /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run \
   -no_rules_check \
   -schLibName ADC \
-  -schCellName inv01f \
+  -schCellName inv10f \
   -schViewName schematic \
   -simViewList auCdl\ schematic \
   -simStopList auCdl \
   -displayPinInfo \
-  -source_cdl /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/inv01f.cdl \
-  -spice /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/inv01f.spi \
+  -source_cdl /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/inv10f.cdl \
+  -spice /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/inv10f.spi \
   -layLibName ADC \
-  -layCellName inv01f \
+  -layCellName inv10f \
   -layViewName layout \
-  -igds /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/inv01f.gds.gz \
+  -igds /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/inv10f.gds.gz \
   -layScale 0.001 \
   -layTechLib sky130_fd_pr_main \
   -convertPin geometry \
@@ -36,7 +36,7 @@ Virtuoso Framework License (111) was checked out successfully. Total checkout ti
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version IC23.1-64b 09/20/2023 08:16 (cpgbld16) $
           : sub-version  IC23.1-64b.ISR2.29 
-Started at: 30-Nov-2024  16:25:46
+Started at: 01-Dec-2024  05:22:31
 User Name : cae3
 Host Name : cae-europractice1.othr.de
 Directory : /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky
@@ -44,7 +44,6 @@ CADENCE Design Systems, Inc.
 ********************************************************************************
 Info: Cellview Rev Num:99,  Tech Rev Num:59
 
-WARNING (XSTRM-20): Output Stream file '/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/inv01f.gds.gz' already exists. It will be overwritten.
 Loading sky130_fd_pr_main/libInit.il ...
 	Loading sky130_fd_pr_main/loadCxt.ile ... done!
 	Loading context 'sky130_fd_pr_main' from library 'sky130_fd_pr_main' ... done!
@@ -61,34 +60,34 @@ INFO (XSTRM-162): You have not used the '-viaMap' option. If the OpenAccess desi
 
 Summary of Options :
 library                                 ADC
-strmFile                                /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/inv01f.gds.gz
-topCell                                 inv01f
+strmFile                                /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/inv10f.gds.gz
+topCell                                 inv10f
 view                                    layout
-runDir                                  /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/
-logFile                                 /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run//PIPO1.LOG
+runDir                                  /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run
+logFile                                 /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/PIPO1.LOG
 techLib                                 sky130_fd_pr_main
 hierDepth                               32
 maxVertices                             2048
 layerMap                                /mnt/cae_storage_sw/eda/cadence/pdks/sky130/sky130_release_004a/libs/sky130_fd_pr_main/sky130_fd_pr_main.layermap
-userSkillFile                           /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run//strmout.il
+userSkillFile                           /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/strmout.il
 labelDepth                              32
 case                                    Preserve
 convertDot                              node
 
 INFO (XSTRM-180): You have not used the '-objectMap' option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the '-objectMap' option to translate/preserve these objects using XStream.
-INFO (XSTRM-223): 1. Translating stdVia sky130_fd_pr_main/PYL1CON_C/layout as STRUCTURE PYL1CON_C_CDNS_732980346910.
-INFO (XSTRM-223): 2. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_732980346911.
-INFO (XSTRM-223): 3. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_732980346912.
-INFO (XSTRM-223): 4. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_732980346910.
-INFO (XSTRM-223): 5. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_732980346911.
-INFO (XSTRM-223): 6. Translating cellview ADC/inv01f/layout as STRUCTURE inv01f.
+INFO (XSTRM-223): 1. Translating stdVia sky130_fd_pr_main/PYL1CON_C/layout as STRUCTURE PYL1CON_C_CDNS_733026951060.
+INFO (XSTRM-223): 2. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_733026951061.
+INFO (XSTRM-223): 3. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_733026951062.
+INFO (XSTRM-223): 4. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_733026951060.
+INFO (XSTRM-223): 5. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_733026951061.
+INFO (XSTRM-223): 6. Translating cellview ADC/inv10f/layout as STRUCTURE inv10f.
 
 Summary of Objects Translated:
 	Scalar Instances:                       2
 	Array Instances:                        0
 	Polygons:                               0
 	Paths:                                  0
-	Rectangles:                             73
+	Rectangles:                             74
 	Lines:                                  0
 	Arcs:                                   0
 	Donuts:                                 0
@@ -104,17 +103,17 @@ Summary of Objects Translated:
 	Standard Vias                           4
 	Custom Vias:                            0
 	CdsGen Vias:                            0
-	Pathsegs:                               0
-	Text:                                   0
+	Pathsegs:                               1
+	Text:                                   4
 	TextDisplay:                            0
 	Cells:                                  6
 
-Elapsed Time: 0.5s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 33512KB
-INFO (XSTRM-234): Translation completed. '0' error(s) and '2' warning(s) found.
+Elapsed Time: 0.5s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 33536KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
 
-Creation of CDL for ADC/inv01f/schematic is started
+Creation of CDL for ADC/inv10f/schematic is started
  si -batch /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/ >/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/SI.OUT 2>/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/SI.LOG 
-Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.04s.
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.05s.
 
 Running simulation in directory: "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/".
 
@@ -128,16 +127,491 @@ done!
 Loaded sky130_fd_pr_main/libInit.il successfully!
 Loading hnlInit.cxt 
 Running Artist Hierarchical Netlisting ...
-"ERROR (OSSHNL-503): Netlister failed to open netlist file '/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run//netlist'. Netlisting has stopped. Ensure that you have right permissions in run directory and netlist again.\n\n"
-End netlisting Nov 30 16:25:48 2024
-ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
-*WARNING* (ilRemoveProtect): could not find pointer; FILE hnl/lxRemoveDevice.cpp LINE 3131
-*WARNING* (ilRemoveProtect): could not find pointer; FILE hnl/lxRemoveDevice.cpp LINE 3134
-*WARNING* (ilRemoveProtect): could not find pointer; FILE hnl/hnl.cpp LINE 5420
-*WARNING* (ilRemoveProtect): could not find pointer; FILE hnl/hnl.cpp LINE 5421
-*WARNING* (ilRemoveProtect): could not find pointer; FILE hnl/hnl.cpp LINE 5422
-INFO (AUCDL-22): (Analog) CDL netlisting failed.*WARNING* (ilRemoveProtect): could not find pointer; FILE hnl/hnl.cpp LINE 5423
+End netlisting Dec  1 05:22:32 2024
+
+Running simin
+
+Running runSim()...
 
 
+Running runsim with simulator: "auCdl"
+Begin simulation:    Dec  1 05:22:32 2024
 
-ERROR: Problem creating CDL for ADC/inv01f/schematic
+auCdl netlisting completed
+End simulation:      Dec  1 05:22:32 2024
+INFO (AUCDL-21): (Analog) CDL netlisting completed successfully.
+
+Pegasus 23.11-s009 FbGK7KjMGPhkNci2o09sLg 2024-12-01 05:22:35 1162519 cae-europractice1.othr.de
+Copyright 2023 Cadence Design Systems, Inc.
+All rights reserved worldwide.
+
+INFO:    Command Line Options: -lvs -top_cell inv10f -log_dir LOGS -source_top_cell inv10f -spice /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/inv10f.spi -control /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/pegasuslvsctl -ui_data -gdb_data /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/.technology.rul
+INFO:    Launch host CPU: Model: AMD Ryzen Threadripper PRO 5975WX 32-Cores, OS: Oracle Linux Server release 8.10, Logical cores: 16, Physical cores: 16, Cache: 512 KB, CPU Speed: 3593.24 MHz
+         Launch host Memory: MemTotal: 31806 MB,  MemFree: 494 MB,  SwapTotal: 0 MB,  SwapFree: 0 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 83 MB
+INFO:    Current path: /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run
+INFO:    Run directory same as current path
+INFO:    Log directory: /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/LOGS
+INFO:    PVL parsing results:
+WARNING: In technology 'sky130_pvs', the rule set 'default' is not a Pegasus rule set.
+It will be accepted for this run but should be changed to a pegasusRuleSet.
+WARNING: LAYOUT_FORMAT at line 24 in file /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./sky130.lvs.pvl is skipped. It is set in control file.
+WARNING: LAYOUT_PATH at line 28 in file /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./sky130.lvs.pvl is skipped. It is set in control file.
+WARNING: Cmd-line override: LAYOUT_PRIMARY "inv10f";
+WARNING: REPORT_SUMMARY statement at line 36 in file /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./sky130.lvs.pvl is ignored.
+       summary file has been specified as /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/inv10f.sum
+WARNING: option -drc is skipped at line 40 in file /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./sky130.lvs.pvl
+WARNING: MAX_RESULTS -erc at line 44 in file /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./sky130.lvs.pvl is skipped. It is set in control file.
+WARNING: option -drc is skipped at line 48 in file /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./sky130.lvs.pvl
+WARNING: ABORT_ON_LAYOUT_ERROR at line 52 in file /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./sky130.lvs.pvl is skipped. It is set in control file.
+WARNING: TEXT_DEPTH at line 54 in file /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./sky130.lvs.pvl is skipped. It is set in control file.
+WARNING: LVS_RECOGNIZE_GATES at line 56 in file /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./sky130.lvs.pvl is skipped. Pegasus only takes the first LVS_RECOGNIZE_GATES command.
+WARNING: LVS_RECOGNIZE_GATES at line 972 in file /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./sky130.lvs.pvl is skipped. Pegasus only takes the first LVS_RECOGNIZE_GATES command.
+
+INFO:    See "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/LOGS/pvl.log" for additional details.
+
+INFO:    Checking out 1 license(s) of feature: 'Pegasus_LVS' version 23.1
+INFO:    License checkout successful ... 2024-12-01 05:22:42
+
+INFO:    Checking out 1 license(s) of feature: 'Pegasus_16nm' version 23.1
+INFO:    License checkout successful ... 2024-12-01 05:22:42
+WARNING: Neither hcell nor -automatch option is specified.
+INFO:    Worker 0 started on host cae-europractice1.othr.de with 1 cpu(s)
+         CPU: Model: AMD Ryzen Threadripper PRO 5975WX 32-Cores, OS: Oracle Linux Server release 8.10, Logical cores: 16, Physical cores: 16, Cache: 512 KB, CPU Speed: 3593.24 MHz
+         Memory: MemTotal: 31806 MB,  MemFree: 484 MB,  SwapTotal: 0 MB,  SwapFree: 0 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 83 MB
+INFO:    LVS report file: /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/top.lvsrpt 
+INFO:    Extracted layout netlist: /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/inv10f.spi 
+INFO:    Setting LAYOUT_PATH to: /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/inv10f.gds.gz 
+INFO:    Setting LAYOUT_PRIMARY to: inv10f 
+INFO:    Setting SCHEMATIC_PATH to: /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/inv10f.cdl 
+INFO:    Setting SCHEMATIC_PRIMARY to: inv10f 
+
+INFO:    Gdsii input summary
+         File name: /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/inv10f.gds.gz
+         File size: 1348
+         Version: 5.0
+         Library name: ADC
+         Last modified: 2024-11-16 8:57:8
+         Last accessed: 2024-12-1 5:22:31
+         Database unit in user units: 0.001
+         Database unit in meters: 1e-09
+         Magnification: 1 
+
+INFO:    Cell Summary:
+         ----------------------------------------------------------------------------
+             CELL                           INSTANCE    GEOMETRY      LABELS        HREF        FREF
+         ----------------------------------------------------------------------------
+         PYL1CON_C_CDNS_733026951060               0           3           0           1           1
+         L1M1_C_CDNS_733026951061                  0           3           0           1           1
+         L1M1_C_CDNS_733026951062                  0           4           0           2           2
+         nfet_01v8_CDNS_733026951060               0          15           0           1           1
+         pfet_01v8_CDNS_733026951061               0          16           0           1           1
+         inv10f                                    6          34           4           1           1
+         ----------------------------------------------------------------------------
+         TOTAL CELL = 6;  INSTANCE = 6;  GEOMETRY = 75;  LABEL = 4
+
+INFO:    Layer Summary:
+         ----------------------------------------------------------------------------
+             LAYER                            ID       HPN      HTC        FPN       FTC
+         ----------------------------------------------------------------------------
+         diff                               1001         6         0         6         0
+         tap                                1003         2         0         2         0
+         nwell_in                           1004         3         0         3         0
+         hvtp                               1009         0         0         0         0
+         hvi                                1011         0         0         0         0
+         lvtn                               1013         0         0         0         0
+         poly_in                            1014        12         0        12         0
+         nsdm                               1017         4         0         4         0
+         psdm                               1018         4         0         4         0
+         rpm                                1019         0         0         0         0
+         urpm                               1020         0         0         0         0
+         npc                                1021         1         0         1         0
+         licon1                             1022        13         0        13         0
+         li1_in                             1023        11         0        12         0
+         mcon                               1025         7         0         9         0
+         met1_in                            1026         8         0         9         0
+         via                                1028         0         0         0         0
+         met2_in                            1029         0         0         0         0
+         via2                               1031         0         0         0         0
+         met3_in                            1032         0         0         0         0
+         via3_in                            1034         0         0         0         0
+         met4_in                            1035         0         0         0         0
+         via4                               1037         0         0         0         0
+         met5_in                            1038         0         0         0         0
+         capm                               1043         0         0         0         0
+         areaid.sl                          1055         0         0         0         0
+         areaid.hl                          1081         0         0         0         0
+         poly_res                           1091         0         0         0         0
+         diff_res                           1092         0         0         0         0
+         li1_label                          1115         0         0         0         0
+         met1_label                         1116         0         4         0         4
+         met2_label                         1117         0         0         0         0
+         met3_label                         1118         0         0         0         0
+         met4_label                         1119         0         0         0         0
+         met5_label                         1120         0         0         0         0
+         pwell_in                           1123         0         0         0         0
+         pwell_label                        1124         0         0         0         0
+         nwell_label                        1128         0         0         0         0
+         li1_pin                            1139         0         0         0         0
+         met1_pin                           1141         4         0         4         0
+         met2_pin                           1143         0         0         0         0
+         met3_pin                           1145         0         0         0         0
+         met4_pin                           1147         0         0         0         0
+         met5_pin                           1149         0         0         0         0
+         nwell_pin                          1154         0         0         0         0
+         pwell_pin                          1157         0         0         0         0
+         met1_res                           1265         0         0         0         0
+         met2_res                           1266         0         0         0         0
+         met3_res                           1267         0         0         0         0
+         met4_res                           1268         0         0         0         0
+         met5_res                           1269         0         0         0         0
+         ----------------------------------------------------------------------------
+
+INFO:    CHIP EXTENT: -180 -265 1560 4445
+
+
+INFO:    Ports ...
+         ========================================================================
+
+INFO:    Texts For Connectivity ...
+         ========================================================================
+         Y (1.250, 1.605) 1116 inv10f
+         VSS (0.280, -0.010) 1116 inv10f
+         VDD (0.370, 4.135) 1116 inv10f
+         A (0.500, 1.865) 1116 inv10f
+
+INFO:    Texts For SELECT -LABEL ...
+         ========================================================================
+
+INFO:    Texts For EXPAND_TEXT_ORIGIN ...
+         ========================================================================
+
+INFO:    Texts For DFM_TEXT ...
+         ========================================================================
+
+INFO:    Texts For Device Text Model Layer ...
+         ========================================================================
+
+INFO:    Texts For Device Text Property Layer ...
+         ========================================================================
+
+INFO:    Layer Summary(Texts For Connectivity):
+         ----------------------------------------------------------------------------
+             LAYER                            ID       TEXTS
+         ----------------------------------------------------------------------------
+         met1_label                         1116         4
+         ----------------------------------------------------------------------------
+
+INFO:    Layer Summary(Texts For SELECT -LABEL):
+         ----------------------------------------------------------------------------
+             LAYER                            ID       TEXTS
+         ----------------------------------------------------------------------------
+         ----------------------------------------------------------------------------
+
+INFO:    Layer Summary(Texts For EXPAND_TEXT_ORIGIN):
+         ----------------------------------------------------------------------------
+             LAYER                            ID       TEXTS
+         ----------------------------------------------------------------------------
+         ----------------------------------------------------------------------------
+
+INFO:    Layer Summary(Texts For DFM_TEXT):
+         ----------------------------------------------------------------------------
+             LAYER                            ID       TEXTS
+         ----------------------------------------------------------------------------
+         ----------------------------------------------------------------------------
+
+INFO:    Expanded Cell Summary
+         PYL1CON_C_CDNS_733026951060 is expanded.
+         L1M1_C_CDNS_733026951061 is expanded.
+INFO:    Status: Runset 100% complete as of 2024-12-01 05:22:43   Elapsed: 00:00:02
+         Worker: Active CPUs  Total Mem(MB)  Active Mem(MB)  CPU time(s)
+              0:    1 /   1             25              15            1
+INFO:	 Status: Finishing as of 2024-12-01 05:22:43   Elapsed: 00:00:02   CPU time[s]: 2
+INFO:    Resource usage by worker at exit:
+                  CPU      Elapsed  CPUs       CPU       Peak        Peak engine
+         Worker:  time[s]  time[s]  Allocated  usage[%]  Memory[MB]  Memory[MB]
+              0:        1        2          1     62.54          25           15
+         Worker resource usage  summary: Total CPU[s]: 1  Run duration[s]: 2  Max peak memory[MB]: 25
+         Worker CPU utilization summary: 1 of 2 available CPU seconds (50.00%) with 1 average available CPU(s)
+INFO:    Extraction result: CLEAN (Reporter)
+INFO:    Generating summary in /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/inv10f.sum
+INFO:    All selected rules completed
+         Total CPU Time                    : 1(s)
+         Total Real Time                   : 2(s)
+         Total Original Geometry           : 75(79)
+         Total ERC RuleChecks              : 0
+         Total ERC Results                 : 0 (0)
+INFO:    Pegasus extracted connectivity database creation started
+INFO:    CmdLine: /mnt/cae_storage_sw/eda/cadence/2023-24/RHELx86/PEGASUS_23.11.000/tools.lnx86/Pegasus/bin/64bit/edbToEcdb -kf -edb inv10f_1162519.db -ecdb ./ -topcell inv10f -netlist ./inv10f.net -layermap ./inv10f.ecdbmap -textmap ./inv10f.ports -dependmap inv10f.lmap.perc -kvp ifs:Op -lvsfile ./inv10f.lvsfile -saveFloatingNets .inv10f.info.softchk 
+INFO:    Opening layer file 'inv10f_1162519.db/__layer'...
+INFO:    Loading layer map file './inv10f.ecdbmap'...
+INFO:    Loading text map file './inv10f.ports'...
+INFO:    Loading dependency map file 'inv10f.lmap.perc'...
+INFO:    Pre loading edb directory contents...
+INFO:    ECDB file name './/.inv10f.ecdb'...
+INFO:    Loading lvs file './inv10f.lvsfile'...
+INFO:    Writing db header information...(0s)
+INFO:    Transfering cdl structures to ecdb structures...
+INFO:    Read Netlist (32 threads)...
+INFO:      DONE - (1s)
+INFO:    Process (32 threads)...
+INFO:    Cell(       0):  25% Done...(1s), L1M1_C_CDNS_733026951062                
+INFO:    Cell(       1):  50% Done...(1s), nfet_01v8_CDNS_733026951060             
+INFO:    Cell(       2):  75% Done...(1s), pfet_01v8_CDNS_733026951061             
+INFO:    Cell(       3): 100% Done...(1s), inv10f                                  
+INFO:      DONE - (0s)
+INFO:    Cells creation time: (1s)
+INFO:    Write netlist items...         (1s)
+INFO:    Saving name table to db...
+INFO:    Save device templates to the db...
+INFO:    Save connect rules to the db...
+INFO:    Write calculated header information to the top of file...
+INFO:    Erasing cdl subckts...          (0s)
+
+INFO:    edbToEcdb Header Information:
+  ECDB file version   : 38
+  DevTmpl offset      : 6807
+  Connect offset      : 7131
+  NameTable offset    : 5982
+  Layer Map offset    : 167
+  Cell Start offset   : 5702
+  Cell End offset     : 5982
+  Aux Data offset     : 7495
+  Labels     offset   : 0
+  Layer RW   offset   : 0
+  NVP                 : ifs:0.01 
+  Scale               : 4000
+  GDS Scale           : 1000
+  File size (static)  : 11496
+  File size (dynamic) : 0
+  Cell count          : 4
+  ECDB create time    : 1
+  EDB info            : 10
+  Top Cell            : inv10f
+  EDB info (Trans)    : WRITTEN_64 W_NOT_NET_ORDER 
+
+INFO:    edbToEcdb Sizes written to disk (MB):
+  NameTbl             :     0.000825
+  Layers              :     0.003167
+  Shapes              :     0.000946
+  XYTree              :     0.000798
+  LookUpTbls          :     0.000158
+  Cells               :     0.000309
+  Insts               :     0.000108
+  Ports               :     0.000096
+  Nets                :     0.000088
+  Pins                :     0.000037
+  Labels              :     0.000112
+  DevTmpl             :     0.000324
+  Connect             :     0.000360
+  Header              :     0.000167
+  AuxData             :     0.003999
+  NvnLabels           :     0.000002
+---------------------------------
+  Total               :     0.011496
+
+INFO:    Manager summary: CPU(s): 1 Elapsed(s): 1 Peak memory(MB): 369.96
+INFO:    Pegasus extracted connectivity database creation completed. 2024-12-01 05:22:45
+INFO:    Pegasus REPORTDB creation started...
+INFO:    Processing file top.lvsrpt
+INFO:    Manager summary: CPU(s): 1 Elapsed(s): 1 Peak memory(MB): 0.00
+INFO:    Pegasus REPORTDB creation completed. 2024-12-01 05:22:47
+
+
+INFO:    Comparing netlists ...
+INFO:    Setup VLDB (0s)
+INFO:    Init sch rules (0s)
+INFO:    Init lay rules (0s)
+INFO:    Init structures (0s)
+INFO:    Set cells to delete (0s)
+INFO:    Check expand on pin error (0s)
+INFO:    Reading schematic network
+INFO:     inputting cdl netlist /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/inv10f.cdl...
+WARNING (NVN-13002): *.BIPOLAR is not supported.
+WARNING (NVN-13002): *.RESI is not supported.
+WARNING (NVN-13002): *.RESVAL is not supported.
+WARNING (NVN-13002): *.CAPVAL is not supported.
+WARNING (NVN-13002): *.DIOPERI is not supported.
+WARNING (NVN-13002): *.DIOAREA is not supported.
+WARNING (NVN-13002): *.EQUATION is not supported.
+INFO:     finished loading cdl netlist /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/inv10f.cdl (0s)
+INFO:     commit cdl netlist(s)...
+INFO:     finished committing cdl netlists (0s)
+INFO:    Post sch netlist rule processing (0s)
+INFO:    Reading layout network
+INFO:     inputting (fast parser) cdl netlist  /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/inv10f.spi...
+INFO:     finished loading cdl netlist /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/inv10f.spi (0s)
+INFO:     commit cdl netlist(s)...
+INFO:     finished committing cdl netlists (0s)
+INFO:    Post lay netlist rule processing (0s)
+INFO:    Processing blackBox rules (0s)
+INFO:    Processing bindings (0s)
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_m1m2m3m4_shieldm5' used in rule 'lvs_black_box' cannot be found in the layout. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_m1m2m3m4_shieldm5' used in rule 'lvs_black_box' cannot be found in the schematic. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_m1m2m3m4_shieldl1m5' used in rule 'lvs_black_box' cannot be found in the layout. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_m1m2m3m4_shieldl1m5' used in rule 'lvs_black_box' cannot be found in the schematic. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_m1m2m3_shieldl1' used in rule 'lvs_black_box' cannot be found in the layout. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_m1m2m3_shieldl1' used in rule 'lvs_black_box' cannot be found in the schematic. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_m1m2_noshield' used in rule 'lvs_black_box' cannot be found in the layout. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_m1m2_noshield' used in rule 'lvs_black_box' cannot be found in the schematic. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_l1m1m2m3m4_shieldpom5' used in rule 'lvs_black_box' cannot be found in the layout. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_l1m1m2m3m4_shieldpom5' used in rule 'lvs_black_box' cannot be found in the schematic. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_l1m1m2m3m4_shieldm5' used in rule 'lvs_black_box' cannot be found in the layout. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_l1m1m2m3m4_shieldm5' used in rule 'lvs_black_box' cannot be found in the schematic. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_l1m1m2m3_shieldpom4' used in rule 'lvs_black_box' cannot be found in the layout. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_l1m1m2m3_shieldpom4' used in rule 'lvs_black_box' cannot be found in the schematic. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_l1m1m2m3_shieldm4' used in rule 'lvs_black_box' cannot be found in the layout. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_l1m1m2m3_shieldm4' used in rule 'lvs_black_box' cannot be found in the schematic. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_l1m1m2_shieldpom3' used in rule 'lvs_black_box' cannot be found in the layout. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_11p5x11p7_l1m1m2_shieldpom3' used in rule 'lvs_black_box' cannot be found in the schematic. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_08p6x07p8_m1m2m3_shieldl1m5_floatm4' used in rule 'lvs_black_box' cannot be found in the layout. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_08p6x07p8_m1m2m3_shieldl1m5_floatm4' used in rule 'lvs_black_box' cannot be found in the schematic. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_08p6x07p8_m1m2m3_shieldl1' used in rule 'lvs_black_box' cannot be found in the layout. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_08p6x07p8_m1m2m3_shieldl1' used in rule 'lvs_black_box' cannot be found in the schematic. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_08p6x07p8_m1m2_noshield' used in rule 'lvs_black_box' cannot be found in the layout. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_08p6x07p8_m1m2_noshield' used in rule 'lvs_black_box' cannot be found in the schematic. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_04p4x04p6_m1m2m3_shieldl1' used in rule 'lvs_black_box' cannot be found in the layout. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_04p4x04p6_m1m2m3_shieldl1' used in rule 'lvs_black_box' cannot be found in the schematic. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_04p4x04p6_m1m2_noshield' used in rule 'lvs_black_box' cannot be found in the layout. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_04p4x04p6_m1m2_noshield' used in rule 'lvs_black_box' cannot be found in the schematic. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_02p4x04p6_m1m2_noshield' used in rule 'lvs_black_box' cannot be found in the layout. 
+Skipping this rule.
+WARNING (NVN-15140): Cell 'cap_vpp_02p4x04p6_m1m2_noshield' used in rule 'lvs_black_box' cannot be found in the schematic. 
+Skipping this rule.
+INFO:    Commit sch verilog netlist (0s)
+INFO:    Commit lay verilog netlist (0s)
+INFO:    Erase netlist data (0s)
+INFO:    Set blackbox cells (0s)
+INFO:    Sch put cells in memory (0s)
+INFO:    Sch update netlist rules (0s)
+INFO:    Sch set devices to delete (0s)
+INFO:    Sch adjust device pins (0s)
+INFO:    Sch calc hier order (0s)
+INFO:    Sch process inherited connections (0s)
+INFO:    Sch generate qrc files (0s)
+INFO:    Sch handle global pins (0s)
+INFO:    Sch apply rule actions with processed netlist (0s)
+INFO:    Sch process cell supply (0s)
+INFO:    Lay put cells in memory (0s)
+INFO:    Lay update netlist rules (0s)
+INFO:    Lay set devices to delete (0s)
+INFO:    Lay calc hier order (0s)
+INFO:    Lay process inherited connections (0s)
+INFO:    Lay generate qrc files (0s)
+INFO:    Lay handle global pins (0s)
+INFO:    Lay apply rule actions with processed netlist (0s)
+INFO:    Lay process cell supply (0s)
+INFO:    Check if interposer flow (0s)
+INFO:    Check binding file (0s)
+INFO:    Set topcell global pin indicator (0s)
+INFO:    Calculate preserve parameterized cells (0s)
+INFO:    Check generic device bindings (0s)
+INFO:    Calculate primitive device bindings (0s)
+INFO:    Remove unused device parameters (0s)
+INFO:    Set instances to flatten inside cells (0s)
+INFO:    Calculate parameters (0s)
+INFO:    Start sch normalization (0s)
+INFO:    Start lay normalization (0s)
+INFO:    Calculate primitive device bindings (2nd time) (0s)
+INFO:    Finalize binding (0s)
+INFO:    Sch join nets (0s)
+INFO:    Sch setup hier normalization (0s)
+INFO:    Sch remove feedthroughs and black box cell instances (0s)
+INFO:    Sch remove identical pins (0s)
+INFO:    Sch calc connection counts (0s)
+INFO:    Run genHierCells (0s)
+INFO:    Reset normalization flags (0s)
+INFO:    Lay join nets (0s)
+INFO:    Lay setup hier normalization (0s)
+INFO:    Lay remove feedthroughs and black box cell instances (0s)
+INFO:    Lay remove identical pins (0s)
+INFO:    Lay calc connection counts (0s)
+INFO:    Normalize sch (0s)
+INFO:    Read in color file (0s)
+INFO:    Set scale factor per cell (0s)
+INFO:    Setup property init rules (0s)
+INFO:    Write sch vldb file (0s)
+INFO:    Write lay vldb file (0s)
+INFO:    Apply preserve parameterized cells (0s)
+INFO:    Cleanup after VLDB processing (0s)
+WARNING (NVN-15320): The rule 'lvs_short_equivalent_nodes' was set to 'yes' and 
+           the rule 'lvs_reduce_split_gates' was not specified. 
+           Changing the default setting of 'lvs_reduce_split_gates' from 'yes' to 'no'.
+INFO (NVN-10007): Found ecdb file .inv10f.ecdb, will use during comparison.
+
+INFO:    Cell comparison output format:
+            <Comparing|Top Cell> <Layout Cell> vs <Schematic Cell>
+               <Layout instances> insts vs <Schematic instances> insts  (<Time>)-<Status>
+
+         Top Cell  inv10f vs inv10f
+            2 insts vs 2 insts . . . . . . . . . . . . . . . . . . . . . . . . (0s)-match
+
+INFO:    Generating the LVS report...
+           Report Init (0s)
+           Load common queries (0s)
+           Create report (0s)
+           Cleanup (0s)
+INFO:    Report finished
+
+INFO:    Extraction Run Summary
+         Total CPU Time        : 1(s)
+         Total Real Time       : 2(s)
+         Peak Memory Used      : 26.00(M)
+
+
+INFO:    NVN Run Summary
+         Total CPU Time        : 1(s)
+         Total Real Time       : 1(s)
+         Peak Memory Used      : 266.99(M)
+
+
+INFO:    LVS Summary
+         Total CPU Time        : 2(s)
+         Total Real Time       : 3(s)
+         Peak Memory Used      : 266.99(M)
+
+    ########################################################
+    #                                                      #
+    # Run Result             : MATCH                       #
+    #                                                      #
+    # Run Summary            : [INFO]  ERC Results: Empty  #
+    #                        : [INFO]  Extraction Clean    #
+    #                                                      #
+    # ERC Summary File       : inv10f.sum                  #
+    # Extraction Report File : top.lvsrpt                  #
+    # Comparison Report File : top.lvsrpt.cls              #
+    #                                                      #
+    ########################################################
+
+INFO:    Checking in all SoftShare licenses.
+
+Pegasus finished normally. 2024-12-01 05:22:48
+
+

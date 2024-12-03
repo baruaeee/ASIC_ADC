@@ -3,15 +3,15 @@
 ========================================================================
 
 Delete EDB      : N
-EDB Library dir : inv03f_552029.db
+EDB Library dir : inv10f_1162519.db
 ECDB dir        : ./
-Top Cell        : inv03f
-CDL netlist     : ./inv03f.net
-Layer map file  : ./inv03f.ecdbmap
-Text map file   : ./inv03f.ports
-Dependency map  : inv03f.lmap.perc
-Lvs file        : ./inv03f.lvsfile
-Float net file  : .inv03f.info.softchk
+Top Cell        : inv10f
+CDL netlist     : ./inv10f.net
+Layer map file  : ./inv10f.ecdbmap
+Text map file   : ./inv10f.ports
+Dependency map  : inv10f.lmap.perc
+Lvs file        : ./inv10f.lvsfile
+Float net file  : .inv10f.info.softchk
 threads         : 32
 debug           : 0
-Source Library  : inv03f_552029
+Source Library  : inv10f_1162519

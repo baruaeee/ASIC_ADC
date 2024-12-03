@@ -1,4 +1,10 @@
-1732980101 0 1732980101 "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/Sky130_DRC/drc_run/" "pegasusrv" "" "" "" "" "" "" "" "" "" "" "" true
-1732980099 0 1732980099 "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/Sky130_DRC/drc_run/inv01f.drc_errors.ascii" "pvsdrcrv" "" "" "" "" "" "" "" "" "" "" "" true
-1732980051 0 1732980051 "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/" "pegasusrv" "" "" "" "" "" "" "" "" "" "" "" true
-1732980046 0 1732980046 "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/LVS_run/inv01f.drc_errors.ascii" "pvsdrcrv" "" "" "" "" "" "" "" "" "" "" "" true
+1733194248 0 1733194248 "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/" "pegasusrv" "" "" "" "" "" "" "" "" "" "" "" true
+1733194134 0 1733194134 "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/preampF_comm_B.drc_errors.ascii" "pvsdrcrv" "" "" "" "" "" "" "" "" "" "" "" true
+1733191111 0 1733191111 "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/preampF.drc_errors.ascii" "pvsdrcrv" "" "" "" "" "" "" "" "" "" "" "" true
+1733100312 0 1733100312 "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/div_fixed.drc_errors.ascii" "pvsdrcrv" "" "" "" "" "" "" "" "" "" "" "" true
+1733082889 0 1733082889 "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/inv01f.drc_errors.ascii" "pvsdrcrv" "" "" "" "" "" "" "" "" "" "" "" true
+1733081202 0 1733081202 "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/inv02f.drc_errors.ascii" "pvsdrcrv" "" "" "" "" "" "" "" "" "" "" "" true
+1733079946 0 1733079946 "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/inv03f.drc_errors.ascii" "pvsdrcrv" "" "" "" "" "" "" "" "" "" "" "" true
+1733079026 0 1733079026 "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/inv04f.drc_errors.ascii" "pvsdrcrv" "" "" "" "" "" "" "" "" "" "" "" true
+1733076633 0 1733076633 "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/inv05f.drc_errors.ascii" "pvsdrcrv" "" "" "" "" "" "" "" "" "" "" "" true
+1733071063 0 1733071063 "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/inv06f.drc_errors.ascii" "pvsdrcrv" "" "" "" "" "" "" "" "" "" "" "" true

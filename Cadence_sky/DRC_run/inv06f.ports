@@ -1,0 +1,6 @@
+# SVDB: Port Table (ports)
+# SVDB: Layout Primary inv06f
+A 3 A 555 2325 met1
+VSS 1 VSS 320 -10 met1
+VDD 4 VDD 370 4135 met1
+Y 2 Y 1320 2305 met1
