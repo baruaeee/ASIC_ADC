@@ -1,0 +1,46 @@
+TOOL:	xrun(64)	23.03-s007: Started on Dec 04, 2024 at 20:22:19 CET
+xrun
+	-compile
+	-nocopy
+	-nostdout
+	-nowarn DLNOHV
+	-nowarn SPDUSD
+	-messages
+	-update
+	-log /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/.cadence/dfII/TextSupport/Logs/Parser/verilog/ADC/functional/compile13.log
+	-incdir "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/"
+	-xmvlogargs " -messages "
+	-cdslib /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/cds.lib
+	-makelib ADC
+	-view functional
+	-SPECIFICUNIT inv14f
+	/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/inv14f/functional/verilog.v
+	-endlib
+Recompiling... reason: unable to stat '/./home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/pre#2dtherm/functional/verilog.v'.
+TOOL:	xrun(64)	23.03-s007: Exiting on Dec 04, 2024 at 20:22:19 CET  (total: 00:00:00)
+
+
+
+ ========================================================================================================
+		                  HDL IMPORT QUICK STATUS REPORT
+ ========================================================================================================
+ HDL SETUP MODE	: 0 - IMPROVED LEGACY FLOW
+ ========================================================================================================
+ HDL SETUP STATUS	: SUCCESS
+ ========================================================================================================
+ cds.lib USED	: "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/cds.lib"
+ ========================================================================================================
+ COMPILER OPTIONS	: " -messages "
+ ========================================================================================================
+ PCDB DM CHECKS	: SUCCESS
+ ========================================================================================================
+ PCDB UPDATE REQUIRED	: YES
+ ========================================================================================================
+ IMPORT CONFIGURATION	: CHECK BELOW SETTINGS
+		: generateShadow(false)
+		: enableBlackBox(false)
+		: enableSpecificUnit(true)
+		: updateCDF(false)
+ ========================================================================================================
+ OVERALL IMPORT STATUS	: FAILED
+ ========================================================================================================

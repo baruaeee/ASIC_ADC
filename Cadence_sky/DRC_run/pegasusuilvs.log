@@ -27,16 +27,18 @@ Running: /eda/cadence/2023-24/RHELx86/PEGASUS_23.11.000/tools.lnx86/Pegasus/bin/
   -layMaxVertices 2048 \
   -enableColoring yes \
   -rulesFile /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/.technology.rul \
-  -log_dir LOGS
+  -log_dir LOGS \
+  -cdslib /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/cds.lib
 
 
 
 Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.04s.
+INFO (DB-120008): oaSocket connection timeout value was set to 2 seconds.
 ********************************************************************************
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version IC23.1-64b 09/20/2023 08:16 (cpgbld16) $
           : sub-version  IC23.1-64b.ISR2.29 
-Started at: 03-Dec-2024  03:50:26
+Started at: 06-Dec-2024  14:22:17
 User Name : cae3
 Host Name : cae-europractice1.othr.de
 Directory : /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky
@@ -76,20 +78,19 @@ case                                    Preserve
 convertDot                              node
 
 INFO (XSTRM-180): You have not used the '-objectMap' option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the '-objectMap' option to translate/preserve these objects using XStream.
-INFO (XSTRM-223): 1. Translating stdVia sky130_fd_pr_main/PYL1CON_C/layout as STRUCTURE PYL1CON_C_CDNS_733194226940.
-INFO (XSTRM-223): 2. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_733194226941.
-INFO (XSTRM-223): 3. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_733194226942.
-INFO (XSTRM-223): 4. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_733194226943.
-INFO (XSTRM-223): 5. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_733194226940.
-INFO (XSTRM-223): 6. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_733194226941.
-INFO (XSTRM-223): 7. Translating cellview ADC/preampF_comm_B/layout as STRUCTURE preampF_comm_B.
+INFO (XSTRM-223): 1. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_733491337740.
+INFO (XSTRM-223): 2. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_733491337741.
+INFO (XSTRM-223): 3. Translating stdVia sky130_fd_pr_main/PYL1CON_C/layout as STRUCTURE PYL1CON_C_CDNS_733491337742.
+INFO (XSTRM-223): 4. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_733491337740.
+INFO (XSTRM-223): 5. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_733491337741.
+INFO (XSTRM-223): 6. Translating cellview ADC/preampF_comm_B/layout as STRUCTURE preampF_comm_B.
 
 Summary of Objects Translated:
 	Scalar Instances:                       2
 	Array Instances:                        0
 	Polygons:                               0
 	Paths:                                  0
-	Rectangles:                             82
+	Rectangles:                             81
 	Lines:                                  0
 	Arcs:                                   0
 	Donuts:                                 0
@@ -102,20 +103,22 @@ Summary of Objects Translated:
 	Markers:                                0
 	Rows:                                   0
 	Stitch:                                 0
-	Standard Vias                           5
+	Standard Vias                           3
 	Custom Vias:                            0
 	CdsGen Vias:                            0
 	Pathsegs:                               1
 	Text:                                   4
 	TextDisplay:                            0
-	Cells:                                  7
+	Cells:                                  6
 
-Elapsed Time: 0.4s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 33564KB
+Elapsed Time: 0.5s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 33568KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '2' warning(s) found.
 
 Creation of CDL for ADC/preampF_comm_B/schematic is started
- si -batch /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/ >/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/SI.OUT 2>/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/SI.LOG 
-Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.03s.
+ si -batch /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/ -cdslib /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/cds.lib >/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/SI.OUT 2>/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/SI.LOG 
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.05s.
+INFO (DB-120008): oaSocket connection timeout value was set to 2 seconds.
+MPS timeout is set to '60' seconds.
 
 Running simulation in directory: "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/".
 
@@ -129,27 +132,28 @@ done!
 Loaded sky130_fd_pr_main/libInit.il successfully!
 Loading hnlInit.cxt 
 Running Artist Hierarchical Netlisting ...
-End netlisting Dec  3 03:50:28 2024
+End netlisting Dec  6 14:22:19 2024
 
 Running simin
+MPS timeout is set to '60' seconds.
 
 Running runSim()...
 
 
 Running runsim with simulator: "auCdl"
-Begin simulation:    Dec  3 03:50:28 2024
+Begin simulation:    Dec  6 14:22:19 2024
 
 auCdl netlisting completed
-End simulation:      Dec  3 03:50:28 2024
+End simulation:      Dec  6 14:22:19 2024
 INFO (AUCDL-21): (Analog) CDL netlisting completed successfully.
 
-Pegasus 23.11-s009 FbGK7KjMGPhkNci2o09sLg 2024-12-03 03:50:31 1295558 cae-europractice1.othr.de
+Pegasus 23.11-s009 FbGK7KjMGPhkNci2o09sLg 2024-12-06 14:22:22 1514629 cae-europractice1.othr.de
 Copyright 2023 Cadence Design Systems, Inc.
 All rights reserved worldwide.
 
 INFO:    Command Line Options: -lvs -top_cell preampF_comm_B -log_dir LOGS -source_top_cell preampF_comm_B -spice /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/preampF_comm_B.spi -control /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/pegasuslvsctl -ui_data -gdb_data /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/.technology.rul
 INFO:    Launch host CPU: Model: AMD Ryzen Threadripper PRO 5975WX 32-Cores, OS: Oracle Linux Server release 8.10, Logical cores: 16, Physical cores: 16, Cache: 512 KB, CPU Speed: 3593.24 MHz
-         Launch host Memory: MemTotal: 31806 MB,  MemFree: 1029 MB,  SwapTotal: 0 MB,  SwapFree: 0 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 83 MB
+         Launch host Memory: MemTotal: 31806 MB,  MemFree: 581 MB,  SwapTotal: 0 MB,  SwapFree: 0 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 88 MB
 INFO:    Current path: /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run
 INFO:    Run directory same as current path
 INFO:    Log directory: /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/LOGS
@@ -171,14 +175,14 @@ WARNING: LVS_RECOGNIZE_GATES at line 972 in file /home/cae3/Desktop/ADC/ASIC_ADC
 INFO:    See "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/LOGS/pvl.log" for additional details.
 
 INFO:    Checking out 1 license(s) of feature: 'Pegasus_LVS' version 23.1
-INFO:    License checkout successful ... 2024-12-03 03:50:38
+INFO:    License checkout successful ... 2024-12-06 14:22:29
 
 INFO:    Checking out 1 license(s) of feature: 'Pegasus_16nm' version 23.1
-INFO:    License checkout successful ... 2024-12-03 03:50:38
+INFO:    License checkout successful ... 2024-12-06 14:22:29
 WARNING: Neither hcell nor -automatch option is specified.
 INFO:    Worker 0 started on host cae-europractice1.othr.de with 1 cpu(s)
          CPU: Model: AMD Ryzen Threadripper PRO 5975WX 32-Cores, OS: Oracle Linux Server release 8.10, Logical cores: 16, Physical cores: 16, Cache: 512 KB, CPU Speed: 3593.24 MHz
-         Memory: MemTotal: 31806 MB,  MemFree: 1025 MB,  SwapTotal: 0 MB,  SwapFree: 0 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 83 MB
+         Memory: MemTotal: 31806 MB,  MemFree: 570 MB,  SwapTotal: 0 MB,  SwapFree: 0 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 88 MB
 INFO:    LVS report file: /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/preampF_comm_B.rep 
 INFO:    Extracted layout netlist: /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/preampF_comm_B.spi 
 INFO:    Setting LAYOUT_PATH to: /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/preampF_comm_B.gds.gz 
@@ -188,11 +192,11 @@ INFO:    Setting SCHEMATIC_PRIMARY to: preampF_comm_B
 
 INFO:    Gdsii input summary
          File name: /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/preampF_comm_B.gds.gz
-         File size: 1517
+         File size: 1505
          Version: 5.0
          Library name: ADC
-         Last modified: 2024-11-16 8:57:8
-         Last accessed: 2024-12-3 3:50:27
+         Last modified: 2024-12-6 1:51:52
+         Last accessed: 2024-12-6 14:22:17
          Database unit in user units: 0.001
          Database unit in meters: 1e-09
          Magnification: 1 
@@ -201,15 +205,14 @@ INFO:    Cell Summary:
          ----------------------------------------------------------------------------
              CELL                           INSTANCE    GEOMETRY      LABELS        HREF        FREF
          ----------------------------------------------------------------------------
-         PYL1CON_C_CDNS_733194226940               0           3           0           1           1
-         L1M1_C_CDNS_733194226941                  0           3           0           1           1
-         L1M1_C_CDNS_733194226942                  0           3           0           1           1
-         L1M1_C_CDNS_733194226943                  0           5           0           2           2
-         pfet_01v8_CDNS_733194226940               0          26           0           1           1
-         nfet_01v8_CDNS_733194226941               0          25           0           1           1
-         preampF_comm_B                            7          18           4           1           1
+         L1M1_C_CDNS_733491337740                  0           3           0           1           1
+         L1M1_C_CDNS_733491337741                  0           3           0           1           1
+         PYL1CON_C_CDNS_733491337742               0           3           0           1           1
+         pfet_01v8_CDNS_733491337740               0          26           0           1           1
+         nfet_01v8_CDNS_733491337741               0          25           0           1           1
+         preampF_comm_B                            5          22           4           1           1
          ----------------------------------------------------------------------------
-         TOTAL CELL = 7;  INSTANCE = 7;  GEOMETRY = 83;  LABEL = 4
+         TOTAL CELL = 6;  INSTANCE = 5;  GEOMETRY = 82;  LABEL = 4
 
 INFO:    Layer Summary:
          ----------------------------------------------------------------------------
@@ -221,16 +224,16 @@ INFO:    Layer Summary:
          hvtp                               1009         0         0         0         0
          hvi                                1011         0         0         0         0
          lvtn                               1013         0         0         0         0
-         poly_in                            1014        14         0        14         0
+         poly_in                            1014        13         0        13         0
          nsdm                               1017         2         0         2         0
          psdm                               1018         2         0         2         0
          rpm                                1019         0         0         0         0
          urpm                               1020         0         0         0         0
          npc                                1021         1         0         1         0
          licon1                             1022        15         0        15         0
-         li1_in                             1023        13         0        14         0
-         mcon                               1025        11         0        14         0
-         met1_in                            1026        12         0        13         0
+         li1_in                             1023        15         0        15         0
+         mcon                               1025        12         0        12         0
+         met1_in                            1026         9         0         9         0
          via                                1028         0         0         0         0
          met2_in                            1029         0         0         0         0
          via2                               1031         0         0         0         0
@@ -268,7 +271,7 @@ INFO:    Layer Summary:
          met5_res                           1269         0         0         0         0
          ----------------------------------------------------------------------------
 
-INFO:    CHIP EXTENT: -70 -200 1490 4340
+INFO:    CHIP EXTENT: -70 -200 1490 4380
 
 
 INFO:    Ports ...
@@ -276,10 +279,10 @@ INFO:    Ports ...
 
 INFO:    Texts For Connectivity ...
          ========================================================================
-         Y (0.620, 3.185) 1116 preampF_comm_B
-         VSS (0.350, -0.025) 1116 preampF_comm_B
-         VDD (0.370, 4.120) 1116 preampF_comm_B
-         A (0.415, 2.375) 1116 preampF_comm_B
+         Y (1.195, 3.275) 1116 preampF_comm_B
+         VSS (0.320, -0.010) 1116 preampF_comm_B
+         VDD (0.370, 4.135) 1116 preampF_comm_B
+         A (0.400, 1.005) 1116 preampF_comm_B
 
 INFO:    Texts For SELECT -LABEL ...
          ========================================================================
@@ -322,17 +325,17 @@ INFO:    Layer Summary(Texts For DFM_TEXT):
          ----------------------------------------------------------------------------
 
 INFO:    Expanded Cell Summary
-         PYL1CON_C_CDNS_733194226940 is expanded.
-         L1M1_C_CDNS_733194226941 is expanded.
-         L1M1_C_CDNS_733194226942 is expanded.
-INFO:    Status: Runset 100% complete as of 2024-12-03 03:50:39   Elapsed: 00:00:02
+         L1M1_C_CDNS_733491337740 is expanded.
+         L1M1_C_CDNS_733491337741 is expanded.
+         PYL1CON_C_CDNS_733491337742 is expanded.
+INFO:    Status: Runset 100% complete as of 2024-12-06 14:22:30   Elapsed: 00:00:02
          Worker: Active CPUs  Total Mem(MB)  Active Mem(MB)  CPU time(s)
               0:    1 /   1             25              15            1
-INFO:	 Status: Finishing as of 2024-12-03 03:50:39   Elapsed: 00:00:02   CPU time[s]: 2
+INFO:	 Status: Finishing as of 2024-12-06 14:22:30   Elapsed: 00:00:02   CPU time[s]: 2
 INFO:    Resource usage by worker at exit:
                   CPU      Elapsed  CPUs       CPU       Peak        Peak engine
          Worker:  time[s]  time[s]  Allocated  usage[%]  Memory[MB]  Memory[MB]
-              0:        1        2          1     63.09          25           15
+              0:        1        2          1     62.50          25           15
          Worker resource usage  summary: Total CPU[s]: 1  Run duration[s]: 2  Max peak memory[MB]: 25
          Worker CPU utilization summary: 1 of 2 available CPU seconds (50.00%) with 1 average available CPU(s)
 INFO:    Extraction result: CLEAN (Reporter)
@@ -340,12 +343,12 @@ INFO:    Generating summary in /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_r
 INFO:    All selected rules completed
          Total CPU Time                    : 1(s)
          Total Real Time                   : 2(s)
-         Total Original Geometry           : 83(88)
+         Total Original Geometry           : 82(82)
          Total ERC RuleChecks              : 0
          Total ERC Results                 : 0 (0)
 INFO:    Pegasus extracted connectivity database creation started
-INFO:    CmdLine: /mnt/cae_storage_sw/eda/cadence/2023-24/RHELx86/PEGASUS_23.11.000/tools.lnx86/Pegasus/bin/64bit/edbToEcdb -kf -edb preampF_comm_B_1295558.db -ecdb ./ -topcell preampF_comm_B -netlist ./preampF_comm_B.net -layermap ./preampF_comm_B.ecdbmap -textmap ./preampF_comm_B.ports -dependmap preampF_comm_B.lmap.perc -kvp ifs:jr -lvsfile ./preampF_comm_B.lvsfile -saveFloatingNets .preampF_comm_B.info.softchk 
-INFO:    Opening layer file 'preampF_comm_B_1295558.db/__layer'...
+INFO:    CmdLine: /mnt/cae_storage_sw/eda/cadence/2023-24/RHELx86/PEGASUS_23.11.000/tools.lnx86/Pegasus/bin/64bit/edbToEcdb -kf -edb preampF_comm_B_1514629.db -ecdb ./ -topcell preampF_comm_B -netlist ./preampF_comm_B.net -layermap ./preampF_comm_B.ecdbmap -textmap ./preampF_comm_B.ports -dependmap preampF_comm_B.lmap.perc -kvp ifs:Xr -lvsfile ./preampF_comm_B.lvsfile -saveFloatingNets .preampF_comm_B.info.softchk 
+INFO:    Opening layer file 'preampF_comm_B_1514629.db/__layer'...
 INFO:    Loading layer map file './preampF_comm_B.ecdbmap'...
 INFO:    Loading text map file './preampF_comm_B.ports'...
 INFO:    Loading dependency map file 'preampF_comm_B.lmap.perc'...
@@ -355,15 +358,14 @@ INFO:    Loading lvs file './preampF_comm_B.lvsfile'...
 INFO:    Writing db header information...(0s)
 INFO:    Transfering cdl structures to ecdb structures...
 INFO:    Read Netlist (32 threads)...
-INFO:      DONE - (2s)
+INFO:      DONE - (1s)
 INFO:    Process (32 threads)...
-INFO:    Cell(       0):  25% Done...(2s), L1M1_C_CDNS_733194226943                
-INFO:    Cell(       3):  50% Done...(2s), preampF_comm_B                          
-INFO:    Cell(       1):  75% Done...(2s), pfet_01v8_CDNS_733194226940             
-INFO:    Cell(       2): 100% Done...(2s), nfet_01v8_CDNS_733194226941             
+INFO:    Cell(       2):  33% Done...(1s), preampF_comm_B                          
+INFO:    Cell(       0):  66% Done...(1s), pfet_01v8_CDNS_733491337740             
+INFO:    Cell(       1): 100% Done...(1s), nfet_01v8_CDNS_733491337741             
 INFO:      DONE - (0s)
-INFO:    Cells creation time: (2s)
-INFO:    Write netlist items...         (2s)
+INFO:    Cells creation time: (1s)
+INFO:    Write netlist items...         (1s)
 INFO:    Saving name table to db...
 INFO:    Save device templates to the db...
 INFO:    Save connect rules to the db...
@@ -372,37 +374,37 @@ INFO:    Erasing cdl subckts...          (0s)
 
 INFO:    edbToEcdb Header Information:
   ECDB file version   : 38
-  DevTmpl offset      : 7012
-  Connect offset      : 7336
-  NameTable offset    : 6177
+  DevTmpl offset      : 6768
+  Connect offset      : 7092
+  NameTable offset    : 5968
   Layer Map offset    : 167
-  Cell Start offset   : 5897
-  Cell End offset     : 6177
-  Aux Data offset     : 7700
+  Cell Start offset   : 5758
+  Cell End offset     : 5968
+  Aux Data offset     : 7456
   Labels     offset   : 0
   Layer RW   offset   : 0
   NVP                 : ifs:0.01 
   Scale               : 4000
   GDS Scale           : 1000
-  File size (static)  : 11701
+  File size (static)  : 11457
   File size (dynamic) : 0
-  Cell count          : 4
-  ECDB create time    : 2
+  Cell count          : 3
+  ECDB create time    : 1
   EDB info            : 10
   Top Cell            : preampF_comm_B
   EDB info (Trans)    : WRITTEN_64 W_NOT_NET_ORDER 
 
 INFO:    edbToEcdb Sizes written to disk (MB):
-  NameTbl             :     0.000835
-  Layers              :     0.003200
-  Shapes              :     0.001034
-  XYTree              :     0.000874
-  LookUpTbls          :     0.000156
-  Cells               :     0.000309
-  Insts               :     0.000108
-  Ports               :     0.000096
-  Nets                :     0.000088
-  Pins                :     0.000037
+  NameTbl             :     0.000800
+  Layers              :     0.003179
+  Shapes              :     0.001001
+  XYTree              :     0.000854
+  LookUpTbls          :     0.000157
+  Cells               :     0.000233
+  Insts               :     0.000072
+  Ports               :     0.000084
+  Nets                :     0.000080
+  Pins                :     0.000033
   Labels              :     0.000112
   DevTmpl             :     0.000324
   Connect             :     0.000360
@@ -410,14 +412,14 @@ INFO:    edbToEcdb Sizes written to disk (MB):
   AuxData             :     0.003999
   NvnLabels           :     0.000002
 ---------------------------------
-  Total               :     0.011701
+  Total               :     0.011457
 
-INFO:    Manager summary: CPU(s): 1 Elapsed(s): 2 Peak memory(MB): 372.34
-INFO:    Pegasus extracted connectivity database creation completed. 2024-12-03 03:50:42
+INFO:    Manager summary: CPU(s): 1 Elapsed(s): 1 Peak memory(MB): 302.57
+INFO:    Pegasus extracted connectivity database creation completed. 2024-12-06 14:22:32
 INFO:    Pegasus REPORTDB creation started...
 INFO:    Processing file preampF_comm_B.rep
-INFO:    Manager summary: CPU(s): 0 Elapsed(s): 0 Peak memory(MB): 0.00
-INFO:    Pegasus REPORTDB creation completed. 2024-12-03 03:50:43
+INFO:    Manager summary: CPU(s): 0 Elapsed(s): 1 Peak memory(MB): 0.00
+INFO:    Pegasus REPORTDB creation completed. 2024-12-06 14:22:34
 
 
 INFO:    Comparing netlists ...
@@ -615,6 +617,6 @@ INFO:    LVS Summary
 
 INFO:    Checking in all SoftShare licenses.
 
-Pegasus finished normally. 2024-12-03 03:50:45
+Pegasus finished normally. 2024-12-06 14:22:35
 
 

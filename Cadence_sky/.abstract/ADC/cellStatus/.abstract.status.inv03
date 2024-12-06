@@ -1,0 +1,5 @@
+cUiSetViewStatus {inv03} {layout} {0}
+cUiSetViewStatus {inv03} {logical} {0}
+cUiSetViewStatus {inv03} {abstract.pin} {0}
+cUiSetViewStatus {inv03} {abstract.ext} {0}
+cUiSetViewStatus {inv03} {abstract} {0}

@@ -1,0 +1,8 @@
+CADENCE IHNL11140
+$model
+ADC/preampF_comm_B/schematic preampF_comm_B
+$endmodel
+$net
+$endnet
+$param
+$endparam

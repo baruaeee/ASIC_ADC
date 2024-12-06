@@ -1,0 +1,10 @@
+Pegasus 23.11-s009 FbGK7KjMGPhkNci2o09sLg 2024-12-05 17:31:34 1437649 cae-europractice1.othr.de
+Copyright 2023 Cadence Design Systems, Inc.
+All rights reserved worldwide.
+
+INFO:    Command Line Options: -lvs -top_cell preampF_comm_B -log_dir LOGS -source_top_cell preampF_comm_B -spice /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/preampF_comm_B.spi -control /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/pegasuslvsctl -ui_data -gdb_data /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/.technology.rul
+INFO:    Launch host CPU: Model: AMD Ryzen Threadripper PRO 5975WX 32-Cores, OS: Oracle Linux Server release 8.10, Logical cores: 16, Physical cores: 16, Cache: 512 KB, CPU Speed: 3593.24 MHz
+         Launch host Memory: MemTotal: 31806 MB,  MemFree: 1577 MB,  SwapTotal: 0 MB,  SwapFree: 0 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 84 MB
+INFO:    Current path: /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run
+INFO:    Run directory same as current path
+INFO:    Log directory: /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/LOGS

@@ -1,0 +1,53 @@
+TOOL:	xrun(64)	23.03-s007: Started on Dec 04, 2024 at 16:11:22 CET
+xrun
+	-compile
+	-nocopy
+	-nostdout
+	-nowarn DLNOHV
+	-nowarn SPDUSD
+	-messages
+	-update
+	-log /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/.cadence/dfII/TextSupport/Logs/Parser/verilog/ADC/functional/compile18.log
+	-incdir "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/"
+	-cdslib /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/cds.lib
+	-view functional
+	-work ADC
+	/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/pre#2dtherm/functional/verilog.v
+file: /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/pre#2dtherm/functional/verilog.v
+	module ADC.div_fixed:functional
+		errors: 0, warnings: 0
+	module ADC.inv15f:functional
+		errors: 0, warnings: 0
+module pre-therm( IN, Y01, Y02, Y03, Y07, Y08, Y09, Y10, Y11, Y12, Y13, Y14, Y15, VDD, VSS );
+          |
+xmvlog: *E,EXPSMC (/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/pre#2dtherm/functional/verilog.v,19|10): expecting a semicolon (';') [12.1(IEEE)].
+	module ADC.pre:functional
+		errors: 1, warnings: 0
+xrun: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 1).
+TOOL:	xrun(64)	23.03-s007: Exiting on Dec 04, 2024 at 16:11:23 CET  (total: 00:00:01)
+
+
+
+ ========================================================================================================
+		                  HDL IMPORT QUICK STATUS REPORT
+ ========================================================================================================
+ HDL SETUP MODE	: 0 - IMPROVED LEGACY FLOW
+ ========================================================================================================
+ HDL SETUP STATUS	: SUCCESS
+ ========================================================================================================
+ cds.lib USED	: "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/cds.lib"
+ ========================================================================================================
+ COMPILER OPTIONS	: ""
+ ========================================================================================================
+ PCDB DM CHECKS	: SUCCESS
+ ========================================================================================================
+ PCDB UPDATE REQUIRED	: NO
+ ========================================================================================================
+ IMPORT CONFIGURATION	: CHECK BELOW SETTINGS
+		: generateShadow(false)
+		: enableBlackBox(false)
+		: enableSpecificUnit(false)
+		: updateCDF(false)
+ ========================================================================================================
+ OVERALL IMPORT STATUS	: FAILED
+ ========================================================================================================

@@ -9,9 +9,9 @@ logFile	"/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run//PIPO1.LOG"
 maxVertices	2048
 pinAttNum	0
 runDir	"/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/"
-strmFile	"/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/preampF_comm_B.gds.gz"
+strmFile	"/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/pre_therm.gds.gz"
 strmVersion	5
 techLib	"sky130_fd_pr_main"
-topCell	"preampF_comm_B"
+topCell	"pre_therm"
 view	"layout"
 enableColoring

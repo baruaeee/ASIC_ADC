@@ -1,0 +1,5 @@
+cUiSetViewStatus {inv_tb_W_pre} {layout} {0}
+cUiSetViewStatus {inv_tb_W_pre} {logical} {0}
+cUiSetViewStatus {inv_tb_W_pre} {abstract.pin} {0}
+cUiSetViewStatus {inv_tb_W_pre} {abstract.ext} {0}
+cUiSetViewStatus {inv_tb_W_pre} {abstract} {0}

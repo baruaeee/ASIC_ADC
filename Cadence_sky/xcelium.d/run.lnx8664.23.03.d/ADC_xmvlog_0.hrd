@@ -1,0 +1,10 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-INCDIR
+"/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/"
+-VIEW
+functional
+-SPECIFICUNIT
+pre_therm

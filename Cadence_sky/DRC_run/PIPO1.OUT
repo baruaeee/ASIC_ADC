@@ -1,9 +1,10 @@
-Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.04s.
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.05s.
+INFO (DB-120008): oaSocket connection timeout value was set to 2 seconds.
 ********************************************************************************
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version IC23.1-64b 09/20/2023 08:16 (cpgbld16) $
           : sub-version  IC23.1-64b.ISR2.29 
-Started at: 03-Dec-2024  03:50:26
+Started at: 06-Dec-2024  14:56:44
 User Name : cae3
 Host Name : cae-europractice1.othr.de
 Directory : /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky
@@ -11,7 +12,7 @@ CADENCE Design Systems, Inc.
 ********************************************************************************
 Info: Cellview Rev Num:99,  Tech Rev Num:59
 
-WARNING (XSTRM-20): Output Stream file '/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/preampF_comm_B.gds.gz' already exists. It will be overwritten.
+WARNING (XSTRM-20): Output Stream file '/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/pre_therm.gds.gz' already exists. It will be overwritten.
 Loading sky130_fd_pr_main/libInit.il ...
 	Loading sky130_fd_pr_main/loadCxt.ile ... done!
 	Loading context 'sky130_fd_pr_main' from library 'sky130_fd_pr_main' ... done!
@@ -28,8 +29,8 @@ INFO (XSTRM-162): You have not used the '-viaMap' option. If the OpenAccess desi
 
 Summary of Options :
 library                                 ADC
-strmFile                                /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/preampF_comm_B.gds.gz
-topCell                                 preampF_comm_B
+strmFile                                /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/pre_therm.gds.gz
+topCell                                 pre_therm
 view                                    layout
 runDir                                  /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/
 logFile                                 /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run//PIPO1.LOG
@@ -43,20 +44,28 @@ case                                    Preserve
 convertDot                              node
 
 INFO (XSTRM-180): You have not used the '-objectMap' option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the '-objectMap' option to translate/preserve these objects using XStream.
-INFO (XSTRM-223): 1. Translating stdVia sky130_fd_pr_main/PYL1CON_C/layout as STRUCTURE PYL1CON_C_CDNS_733194226940.
-INFO (XSTRM-223): 2. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_733194226941.
-INFO (XSTRM-223): 3. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_733194226942.
-INFO (XSTRM-223): 4. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_733194226943.
-INFO (XSTRM-223): 5. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_733194226940.
-INFO (XSTRM-223): 6. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_733194226941.
-INFO (XSTRM-223): 7. Translating cellview ADC/preampF_comm_B/layout as STRUCTURE preampF_comm_B.
+INFO (XSTRM-223): 1. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_733493404660.
+INFO (XSTRM-223): 2. Translating stdVia sky130_fd_pr_main/M2M3_C/layout as STRUCTURE M2M3_C_CDNS_733493404661.
+INFO (XSTRM-223): 3. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_733493404662.
+INFO (XSTRM-223): 4. Translating stdVia sky130_fd_pr_main/PYL1CON_C/layout as STRUCTURE PYL1CON_C_CDNS_733493404663.
+INFO (XSTRM-223): 5. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_733493404664.
+INFO (XSTRM-223): 6. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_733493404665.
+INFO (XSTRM-223): 7. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_733493404666.
+INFO (XSTRM-223): 8. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_733493404660.
+INFO (XSTRM-223): 9. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_733493404661.
+INFO (XSTRM-223): 10. Translating cellview ADC/inv01f/layout as STRUCTURE inv01f.
+INFO (XSTRM-223): 11. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_733493404667.
+INFO (XSTRM-223): 12. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_733493404662.
+INFO (XSTRM-223): 13. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_733493404663.
+INFO (XSTRM-223): 14. Translating cellview ADC/preampF/layout as STRUCTURE preampF.
+INFO (XSTRM-223): 15. Translating cellview ADC/pre_therm/layout as STRUCTURE pre_therm.
 
 Summary of Objects Translated:
-	Scalar Instances:                       2
+	Scalar Instances:                       6
 	Array Instances:                        0
 	Polygons:                               0
 	Paths:                                  0
-	Rectangles:                             82
+	Rectangles:                             172
 	Lines:                                  0
 	Arcs:                                   0
 	Donuts:                                 0
@@ -69,13 +78,13 @@ Summary of Objects Translated:
 	Markers:                                0
 	Rows:                                   0
 	Stitch:                                 0
-	Standard Vias                           5
+	Standard Vias                           17
 	Custom Vias:                            0
 	CdsGen Vias:                            0
-	Pathsegs:                               1
-	Text:                                   4
+	Pathsegs:                               2
+	Text:                                   11
 	TextDisplay:                            0
-	Cells:                                  7
+	Cells:                                  15
 
-Elapsed Time: 0.4s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 33564KB
+Elapsed Time: 0.5s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 33952KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '2' warning(s) found.

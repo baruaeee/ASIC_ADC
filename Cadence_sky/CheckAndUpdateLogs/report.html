@@ -10,10 +10,10 @@
     <body class="page">
         <h1 id="Top"></h1>
         <hr/>
-        <h2 id="ADC preampF layout">ADC preampF layout</h2>
+        <h2 id="ADC pre_therm layout">ADC pre_therm layout</h2>
         <a href="#Top">Top</a>
         <p>
-            <pre>ADC preampF physConfig<br/>ADC preampF schematic</pre>
+            <pre>ADC pre_therm physConfig<br/>ADC pre_therm schematic</pre>
         </p>
         <h3>Summary</h3>
         <table id="info0">
@@ -26,15 +26,15 @@
             <tbody>
                 <tr>
                     <td data-value="Checks">Checks</td>
-                    <td data-value="13">13</td>
+                    <td data-value="8">8</td>
                 </tr>
                 <tr>
                     <td data-value="Passes">Passes</td>
-                    <td data-value="13">13</td>
+                    <td data-value="3">3</td>
                 </tr>
                 <tr>
                     <td data-value="Fails">Fails</td>
-                    <td data-value="0">0</td>
+                    <td data-value="5">5</td>
                 </tr>
                 <tr>
                     <td data-value="Needs attention">Needs attention</td>
@@ -42,7 +42,7 @@
                 </tr>
                 <tr>
                     <td data-value="%Clean">%Clean</td>
-                    <td class="Green" data-value="100">100</td>
+                    <td class="Yellow" data-value="55">55</td>
                 </tr>
             </tbody>
         </table>
@@ -53,6 +53,7 @@
                 <tr>
                     <th/>
                     <th>Passes</th>
+                    <th>Errors</th>
                     <th>Status</th>
                     <th>%Clean</th>
                 </tr>
@@ -60,93 +61,140 @@
             <tfoot>
                 <tr>
                     <td data-value="Total">Total</td>
-                    <td data-value="38">38</td>
-                    <td class="Green" data-value="Passed">Passed</td>
-                    <td class="Green" data-value="100">100</td>
+                    <td data-value="21">21</td>
+                    <td data-value="9">9</td>
+                    <td class="Red" data-value="Failed">Failed</td>
+                    <td class="Yellow" data-value="55">55</td>
                 </tr>
             </tfoot>
             <tbody>
                 <tr>
                     <td data-value="Complex">Complex</td>
-                    <td data-value="2">2</td>
-                    <td class="Green" data-value="Passed">Passed</td>
-                    <td class="Green" data-value="100">100</td>
+                    <td data-value="0">0</td>
+                    <td data-value="0">0</td>
+                    <td data-value=""/>
+                    <td data-value=""/>
                 </tr>
                 <tr>
                     <td data-value="Connectivity - Instances">Connectivity - Instances</td>
-                    <td data-value="2">2</td>
-                    <td class="Green" data-value="Passed">Passed</td>
-                    <td class="Green" data-value="100">100</td>
+                    <td data-value="0">0</td>
+                    <td data-value="0">0</td>
+                    <td data-value=""/>
+                    <td data-value=""/>
                 </tr>
                 <tr>
                     <td data-value="Connectivity - Terminals">Connectivity - Terminals</td>
-                    <td data-value="4">4</td>
+                    <td data-value="2">2</td>
+                    <td data-value="0">0</td>
                     <td class="Green" data-value="Passed">Passed</td>
                     <td class="Green" data-value="100">100</td>
                 </tr>
                 <tr>
                     <td data-value="Master">Master</td>
-                    <td data-value="2">2</td>
-                    <td class="Green" data-value="Passed">Passed</td>
-                    <td class="Green" data-value="100">100</td>
+                    <td data-value="0">0</td>
+                    <td data-value="0">0</td>
+                    <td data-value=""/>
+                    <td data-value=""/>
                 </tr>
                 <tr>
                     <td data-value="Name - Instances">Name - Instances</td>
-                    <td data-value="2">2</td>
-                    <td class="Green" data-value="Passed">Passed</td>
+                    <td data-value="0">0</td>
+                    <td data-value=""/>
+                    <td data-value=""/>
                     <td data-value=""/>
                 </tr>
                 <tr>
                     <td data-value="Name - Nets">Name - Nets</td>
-                    <td data-value="4">4</td>
+                    <td data-value="5">5</td>
+                    <td data-value=""/>
                     <td class="Green" data-value="Passed">Passed</td>
                     <td data-value=""/>
                 </tr>
                 <tr>
                     <td data-value="Parameter">Parameter</td>
-                    <td data-value="2">2</td>
-                    <td class="Green" data-value="Passed">Passed</td>
-                    <td class="Green" data-value="100">100</td>
+                    <td data-value="0">0</td>
+                    <td data-value="0">0</td>
+                    <td data-value=""/>
+                    <td data-value=""/>
                 </tr>
                 <tr>
                     <td data-value="Unbound - Instances">Unbound - Instances</td>
+                    <td data-value="0">0</td>
                     <td data-value="2">2</td>
-                    <td class="Green" data-value="Passed">Passed</td>
-                    <td class="Green" data-value="100">100</td>
+                    <td class="Red" data-value="Failed">Failed</td>
+                    <td class="Red" data-value="0">0</td>
                 </tr>
                 <tr>
                     <td data-value="Unbound - Nets">Unbound - Nets</td>
-                    <td data-value="4">4</td>
-                    <td class="Green" data-value="Passed">Passed</td>
-                    <td class="Green" data-value="100">100</td>
+                    <td data-value="5">5</td>
+                    <td data-value="1">1</td>
+                    <td class="Red" data-value="Failed">Failed</td>
+                    <td class="LightGreen" data-value="83">83</td>
                 </tr>
                 <tr>
                     <td data-value="Unbound - Terminals">Unbound - Terminals</td>
-                    <td data-value="4">4</td>
-                    <td class="Green" data-value="Passed">Passed</td>
-                    <td class="Green" data-value="100">100</td>
+                    <td data-value="2">2</td>
+                    <td data-value="1">1</td>
+                    <td class="Red" data-value="Failed">Failed</td>
+                    <td class="Yellow" data-value="66">66</td>
                 </tr>
                 <tr>
                     <td data-value="Ungenerated - Instances">Ungenerated - Instances</td>
+                    <td data-value="0">0</td>
                     <td data-value="2">2</td>
-                    <td class="Green" data-value="Passed">Passed</td>
-                    <td class="Green" data-value="100">100</td>
+                    <td class="Red" data-value="Failed">Failed</td>
+                    <td class="Red" data-value="0">0</td>
                 </tr>
                 <tr>
                     <td data-value="Ungenerated - Nets">Ungenerated - Nets</td>
-                    <td data-value="4">4</td>
+                    <td data-value="5">5</td>
+                    <td data-value="0">0</td>
                     <td class="Green" data-value="Passed">Passed</td>
                     <td class="Green" data-value="100">100</td>
                 </tr>
                 <tr>
                     <td data-value="Ungenerated - Terminals">Ungenerated - Terminals</td>
-                    <td data-value="4">4</td>
-                    <td class="Green" data-value="Passed">Passed</td>
-                    <td class="Green" data-value="100">100</td>
+                    <td data-value="2">2</td>
+                    <td data-value="3">3</td>
+                    <td class="Red" data-value="Failed">Failed</td>
+                    <td class="Orange" data-value="40">40</td>
                 </tr>
             </tbody>
         </table>
         <br/>
+        <h3>Messages</h3>
+        <h4>Unbound - Instances</h4>
+        <p>
+            <pre>Error (LX-1001): Layout instance 'I86' has no corresponding schematic instance.</pre>
+        </p>
+        <p>
+            <pre>Error (LX-1001): Layout instance 'I90' has no corresponding schematic instance.</pre>
+        </p>
+        <h4>Unbound - Nets</h4>
+        <p>
+            <pre>Error (LX-1378): Layout net 'Y04' has no corresponding schematic net.</pre>
+        </p>
+        <h4>Unbound - Terminals</h4>
+        <p>
+            <pre>Error (LX-1029): Layout pin 'Y04' has no corresponding schematic pin.</pre>
+        </p>
+        <h4>Ungenerated - Instances</h4>
+        <p>
+            <pre>Error (LX-1001): Schematic instance 'I0' has no corresponding layout instance.</pre>
+        </p>
+        <p>
+            <pre>Error (LX-1001): Schematic instance 'I01' has no corresponding layout instance.</pre>
+        </p>
+        <h4>Ungenerated - Terminals</h4>
+        <p>
+            <pre>Error (LX-1018): Schematic pin 'VDD' has no corresponding layout pin.</pre>
+        </p>
+        <p>
+            <pre>Error (LX-1018): Schematic pin 'VSS' has no corresponding layout pin.</pre>
+        </p>
+        <p>
+            <pre>Error (LX-1041): Layout terminal 'Y04' has no pin figures.</pre>
+        </p>
         <hr/>
         <h2 id="Options">Options</h2>
         <a href="#Top">Top</a>
@@ -161,11 +209,11 @@
             <tbody>
                 <tr>
                     <td data-value="Schematic">Schematic</td>
-                    <td data-value="ADC preampF schematic">ADC preampF schematic</td>
+                    <td data-value="ADC pre_therm schematic">ADC pre_therm schematic</td>
                 </tr>
                 <tr>
                     <td data-value="Layout">Layout</td>
-                    <td data-value="ADC preampF layout">ADC preampF layout</td>
+                    <td data-value="ADC pre_therm layout">ADC pre_therm layout</td>
                 </tr>
                 <tr>
                     <td data-value="Binder">Binder</td>

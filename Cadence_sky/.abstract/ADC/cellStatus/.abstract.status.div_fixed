@@ -1,0 +1,6 @@
+cUiSelectCellP {div_fixed}
+cUiSetViewStatus {div_fixed} {layout} {1}
+cUiSetViewStatus {div_fixed} {logical} {0}
+cUiSetViewStatus {div_fixed} {abstract.pin} {3}
+cUiSetViewStatus {div_fixed} {abstract.ext} {1}
+cUiSetViewStatus {div_fixed} {abstract} {3}

@@ -1,0 +1,17 @@
+
+/mnt/cae_storage_sw/eda/cadence/2023-24/RHELx86/PEGASUS_23.11.000/tools.lnx86/Pegasus/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : preampF_comm_B_1437649.db
+ECDB dir        : ./
+Top Cell        : preampF_comm_B
+CDL netlist     : ./preampF_comm_B.net
+Layer map file  : ./preampF_comm_B.ecdbmap
+Text map file   : ./preampF_comm_B.ports
+Dependency map  : preampF_comm_B.lmap.perc
+Lvs file        : ./preampF_comm_B.lvsfile
+Float net file  : .preampF_comm_B.info.softchk
+threads         : 32
+debug           : 0
+Source Library  : preampF_comm_B_1437649

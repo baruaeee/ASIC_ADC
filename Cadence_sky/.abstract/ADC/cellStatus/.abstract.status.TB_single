@@ -1,0 +1,5 @@
+cUiSetViewStatus {TB_single} {layout} {0}
+cUiSetViewStatus {TB_single} {logical} {0}
+cUiSetViewStatus {TB_single} {abstract.pin} {0}
+cUiSetViewStatus {TB_single} {abstract.ext} {0}
+cUiSetViewStatus {TB_single} {abstract} {0}

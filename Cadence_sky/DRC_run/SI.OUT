@@ -1,4 +1,6 @@
-Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.03s.
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.05s.
+INFO (DB-120008): oaSocket connection timeout value was set to 2 seconds.
+MPS timeout is set to '60' seconds.
 
 Running simulation in directory: "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/".
 
@@ -12,16 +14,17 @@ done!
 Loaded sky130_fd_pr_main/libInit.il successfully!
 Loading hnlInit.cxt 
 Running Artist Hierarchical Netlisting ...
-End netlisting Dec  3 03:50:28 2024
+End netlisting Dec  6 14:22:19 2024
 
 Running simin
+MPS timeout is set to '60' seconds.
 
 Running runSim()...
 
 
 Running runsim with simulator: "auCdl"
-Begin simulation:    Dec  3 03:50:28 2024
+Begin simulation:    Dec  6 14:22:19 2024
 
 auCdl netlisting completed
-End simulation:      Dec  3 03:50:28 2024
+End simulation:      Dec  6 14:22:19 2024
 INFO (AUCDL-21): (Analog) CDL netlisting completed successfully.

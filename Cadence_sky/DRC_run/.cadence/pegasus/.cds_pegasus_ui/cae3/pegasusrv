@@ -1,5 +1,5 @@
 [General]
-RunTabLayout=@ByteArray(\x1\xd9\xd0\xcb\0\x3\0\0\0\0\0\0\0\0\0\0\0\0\x4\xaf\0\0\x2\x63\0\0\0\0\0\0\0\0\xff\xff\xff\xff\xff\xff\xff\xff\0\0\0\0\0\0\0\0\x6\x90\0\0\0\0\0\0\0\0\0\0\x4\xaf\0\0\x2\x63)
+RunTabLayout=@ByteArray(\x1\xd9\xd0\xcb\0\x3\0\0\0\0\0\0\0\0\0\0\0\0\x4\r\0\0\0\xfc\0\0\0\0\0\0\0\0\xff\xff\xff\xff\xff\xff\xff\xff\0\0\0\0\0\0\0\0\x6\x90\0\0\0\0\0\0\0\0\0\0\x4\r\0\0\0\xfc)
 
 [DRC]
 ZoomMode=Zoom
@@ -7,19 +7,19 @@ ZoomMode=Zoom
 [LVS]
 Comparison\Filter=Fail
 Comparison\ShowStatistics=false
-Extraction\Filter=Aborted|Conflicting|Fail|NotRun|OK|UserCritical|UserFixed|UserInfo|UserReviewed|UserWaived|UserWarning|Warning
+Extraction\Filter=All
 Extraction\TreeMode=Rule
 
 [Layout]
 Splitters\CellBrowser=200
-Splitters\ExtractionCellBrowser=-72
+Splitters\ExtractionCellBrowser=-40
 Splitters\RunBrowser=200
 
 [RuleBrowser]
-SplitterState=@ByteArray(\0\0\0\xff\0\0\0\x1\0\0\0\x2\0\0\x1i\0\0\0\xbe\x1\xff\xff\xff\xff\x1\0\0\0\x2\0)
+SplitterState=@ByteArray(\0\0\0\xff\0\0\0\x1\0\0\0\x2\0\0\x1|\0\0\0\x91\x1\xff\xff\xff\xff\x1\0\0\0\x2\0)
 
 [Table_MarkerTable]
-Header=@ByteArray(\0\0\0\xff\0\0\0\0\0\0\0\x1\0\0\0\0\0\0\0\x4\x1\0\0\0\0\0\0\0\0\0\0\0\a`\0\0\0\x2\0\0\0\x5\0\0\0\x64\0\0\0\x6\0\0\0\x64\0\0\0\xc8\0\0\0\a\x1\x1\x1\x1\0\0\0\0\0\0\0\0\0\0\0\0\x64\xff\xff\xff\xff\0\0\0\x84\0\0\0\0\0\0\0\a\0\0\0\x1d\0\0\0\x1\0\0\0\0\0\0\0$\0\0\0\x1\0\0\0\0\0\0\0 \0\0\0\x1\0\0\0\0\0\0\0\x1e\0\0\0\x1\0\0\0\0\0\0\0I\0\0\0\x1\0\0\0\0\0\0\0\0\0\0\0\x1\0\0\0\0\0\0\0\0\0\0\0\x1\0\0\0\0\0\0\x3\xe8\0\0\0\0\x64)
+Header=@ByteArray(\0\0\0\xff\0\0\0\0\0\0\0\x1\0\0\0\x1\0\0\0\0\x1\0\0\0\0\0\0\0\0\0\0\0\a`\0\0\0\x2\0\0\0\x6\0\0\0\x64\0\0\0\x5\0\0\0\x64\0\0\x1\xa1\0\0\0\a\x1\x1\x1\x1\0\0\0\0\0\0\0\0\0\0\0\0\x64\xff\xff\xff\xff\0\0\0\x84\0\0\0\0\0\0\0\a\0\0\0\x1d\0\0\0\x1\0\0\0\0\0\0\0$\0\0\0\x1\0\0\0\0\0\0\0 \0\0\0\x1\0\0\0\0\0\0\0\x1e\0\0\0\x1\0\0\0\0\0\0\0Z\0\0\0\x1\0\0\0\0\0\0\0\x64\0\0\0\x1\0\0\0\0\0\0\0\x64\0\0\0\x1\0\0\0\0\0\0\x3\xe8\0\0\0\0\x64)
 
 [isl]
 viewMode=Zoom
@@ -28,6 +28,8 @@ viewMode=Zoom
 LayoutCellMap=
 LayoutOSSDir=
 SchematicOSSDir=/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/
+TargetLayTextual=true
 TargetLayViewer=true
-TargetSchViewer=true
+TargetSchTextual=true
+TargetSchViewer=false
 ViewMode=Zoom

@@ -1,0 +1,6 @@
+cUiSelectCellP {preampF_comm_B}
+cUiSetViewStatus {preampF_comm_B} {layout} {1}
+cUiSetViewStatus {preampF_comm_B} {logical} {0}
+cUiSetViewStatus {preampF_comm_B} {abstract.pin} {1}
+cUiSetViewStatus {preampF_comm_B} {abstract.ext} {1}
+cUiSetViewStatus {preampF_comm_B} {abstract} {3}

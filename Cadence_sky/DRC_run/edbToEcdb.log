@@ -3,7 +3,7 @@
 ========================================================================
 
 Delete EDB      : N
-EDB Library dir : preampF_comm_B_1295558.db
+EDB Library dir : preampF_comm_B_1514629.db
 ECDB dir        : ./
 Top Cell        : preampF_comm_B
 CDL netlist     : ./preampF_comm_B.net
@@ -14,4 +14,4 @@ Lvs file        : ./preampF_comm_B.lvsfile
 Float net file  : .preampF_comm_B.info.softchk
 threads         : 32
 debug           : 0
-Source Library  : preampF_comm_B_1295558
+Source Library  : preampF_comm_B_1514629

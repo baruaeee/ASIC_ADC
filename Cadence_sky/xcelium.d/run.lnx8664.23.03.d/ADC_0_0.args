@@ -1,0 +1,26 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-RUNMODE
+-NOCOPYRIGHT
+-NOSTDOUT
+-NOWARN
+DLNOHV
+-NOWARN
+SPDUSD
+-INCDIR
+"/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/"
+-UPDATE
+-CDSLIB
+./xcelium.d/run.lnx8664.23.03.d/cdsrun.lib
+-HDLVAR
+./xcelium.d/run.lnx8664.23.03.d/hdlrun.var
+-work
+ADC
+-messages
+-VIEW
+functional
+-SPECIFICUNIT
+pre_therm
+/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/pre_therm/functional/verilog.v

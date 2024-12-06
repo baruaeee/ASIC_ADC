@@ -1,0 +1,55 @@
+--TIMESTAMP:	1733351681	Wed Dec  4 23:34:41 2024
+#
+ADC div_fixed symbol
+I9
+#
+ADC inv01f symbol
+I90
+#
+ADC inv02f symbol
+I89
+#
+ADC inv03f symbol
+I83
+#
+ADC inv04f symbol
+I82
+#
+ADC inv05f symbol
+I80
+#
+ADC inv06f symbol
+I52
+#
+ADC inv07f symbol
+I49
+#
+ADC inv08f symbol
+I42
+#
+ADC inv09f symbol
+I39
+#
+ADC inv10f symbol
+I35
+#
+ADC inv11f symbol
+I34
+#
+ADC inv12f symbol
+I33
+#
+ADC inv13f symbol
+I32
+#
+ADC inv14f symbol
+I23
+#
+ADC inv15f symbol
+I22
+#
+ADC preampF symbol
+I86
+#
+ADC preampF_comm_B symbol
+I78
