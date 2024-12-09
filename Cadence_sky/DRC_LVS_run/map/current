@@ -1,14 +1,50 @@
 ( ( nil
   version "2.1"
   mapType "incremental"
-  blockName "preampF_comm_B"
+  blockName "pre_therm"
   repList "auCdl schematic"
   stopList "auCdl"
   hierDelim "."
-  netlistDir "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/"
+  netlistDir "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/"
  )
 ( model
-( "ADC/preampF_comm_B/schematic" "preampF_comm_B" )
+( "ADC/inv04f/schematic" "inv04f" )
+( "ADC/inv02f/schematic" "inv02f" )
+( "ADC/inv06f/schematic" "inv06f" )
+( "ADC/inv11f/schematic" "inv11f" )
+( "ADC/inv05f/schematic" "inv05f" )
+( "ADC/preamp1F/schematic" "preamp1F" )
+( "ADC/inv03f/schematic" "inv03f" )
+( "ADC/inv09f/schematic" "inv09f" )
+( "ADC/inv07f/schematic" "inv07f" )
+( "ADC/inv08f/schematic" "inv08f" )
+( "ADC/inv14f/schematic" "inv14f" )
+( "ADC/inv12f/schematic" "inv12f" )
+( "ADC/pre_therm/schematic" "pre_therm" )
+( "ADC/inv01f/schematic" "inv01f" )
+( "ADC/inv13f/schematic" "inv13f" )
+( "ADC/preampF/schematic" "preampF" )
+( "ADC/inv15f/schematic" "inv15f" )
+( "ADC/div_fixed/schematic" "div_fixed" )
+( "ADC/inv10f/schematic" "inv10f" )
  )
-( "preampF_comm_B" "ihnl/cds0/map" )
+( "inv12f" "ihnl/cds6/map" )
+( "inv01f" "ihnl/cds16/map" )
+( "inv10f" "ihnl/cds17/map" )
+( "inv09f" "ihnl/cds7/map" )
+( "inv06f" "ihnl/cds12/map" )
+( "inv07f" "ihnl/cds0/map" )
+( "preampF" "ihnl/cds15/map" )
+( "inv14f" "ihnl/cds4/map" )
+( "inv08f" "ihnl/cds3/map" )
+( "inv15f" "ihnl/cds2/map" )
+( "inv03f" "ihnl/cds9/map" )
+( "preamp1F" "ihnl/cds10/map" )
+( "div_fixed" "ihnl/cds8/map" )
+( "inv02f" "ihnl/cds11/map" )
+( "inv13f" "ihnl/cds5/map" )
+( "inv05f" "ihnl/cds14/map" )
+( "inv04f" "ihnl/cds13/map" )
+( "inv11f" "ihnl/cds1/map" )
+( "pre_therm" "ihnl/cds18/map" )
  )

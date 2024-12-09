@@ -1,0 +1,5 @@
+cUiSetViewStatus {preampF_comm_B_F} {layout} {0}
+cUiSetViewStatus {preampF_comm_B_F} {logical} {0}
+cUiSetViewStatus {preampF_comm_B_F} {abstract.pin} {0}
+cUiSetViewStatus {preampF_comm_B_F} {abstract.ext} {0}
+cUiSetViewStatus {preampF_comm_B_F} {abstract} {0}

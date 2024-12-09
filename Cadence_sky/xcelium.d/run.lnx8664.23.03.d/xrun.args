@@ -12,7 +12,7 @@ SPDUSD
 -messages
 -update
 -log
-/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/.cadence/dfII/TextSupport/Logs/Parser/verilog/ADC/functional/compile19.log
+/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/.cadence/dfII/TextSupport/Logs/Parser/verilog/ADC/functional/compile20.log
 -incdir
 "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/"
 -cdslib
@@ -22,6 +22,6 @@ ADC
 -view
 functional
 -SPECIFICUNIT
-pre_therm
-/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/pre_therm/functional/verilog.v
+therm
+/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/therm/functional/verilog.v
 -endlib

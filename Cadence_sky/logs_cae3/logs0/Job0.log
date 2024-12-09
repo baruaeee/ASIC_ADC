@@ -1,14 +1,14 @@
-\# Program start time:     UTC 2024.10.16 15:42:37.208
-\# Local time: GMT+02:00 (UTC+02:00) 2024.10.16 17:42:37.208
+\# Program start time:     UTC 2024.12.08 17:14:50.186
+\# Local time: GMT+01:00 (UTC+01:00) 2024.12.08 18:14:50.186
 \o Program:		@(#)$CDS: virtuoso version IC23.1-64b 09/20/2023 08:29 (cpgbld16) $
 \o Hierarchy:		/mnt/cae_storage_sw/eda/cadence/2023-24/RHELx86/IC_23.10.020/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC23.1-64b.ISR2.29  (64-bit addresses)
-\# Command line:	/eda/cadence/2023-24/RHELx86/IC_23.10.020/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso1190405 -mpshost cae-europractice1.othr.de -davinciService DaVinciService_1190405_1729093354 -log /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Job0.log -licenseLockFileName /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/.tmp_cae3/.cae-europractice1.othr.de_1190405 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 0
+\# Command line:	/eda/cadence/2023-24/RHELx86/IC_23.10.020/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso1923075 -mpshost cae-europractice1.othr.de -davinciService DaVinciService_1923075_1733678085 -log /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Job0.log -licenseLockFileName /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/.tmp_cae3/.cae-europractice1.othr.de_1923075 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 0
 \# Host name (type):	cae-europractice1.othr.de (x86_64)
 \# Operating system:	Linux 5.15.0-210.163.7.el8uek.x86_64 #2 SMP Tue Sep 10 18:31:09 PDT 2024
 \# Linux /etc/issue:	\S
 \# Linux /etc/issue:	Kernel \r on an \m
-\# X display name (WxH):	:2356 (1024x868)
+\# X display name (WxH):	:7073 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
 \# X server:			The X.Org Foundation
 \# Depth of Visual (Root):	24 (24)
@@ -18,11 +18,11 @@
 \# 			current id 0x0, current max 0x1ffffa (2097146)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	        687 MB
-\# Available memory:	     25,098 MB
+\# Initial sbrk value:	        696 MB
+\# Available memory:	     27,911 MB
 \# System memory:	     31,807 MB
-\# Maximum memory size:	     31,280 MB
-\# Max mem available:	     25,258 MB
+\# Maximum memory size:	     31,271 MB
+\# Max mem available:	     28,072 MB
 \# Initial memory used:	        160 MB
 \#        process size:	      1,627 MB
 \# Thread usage limits (effective/default):	maxthreads 127001/127001 maxload 16.00/16.00
@@ -30,7 +30,7 @@
 \# Window Manager:	other
 \# User Name:		cae3
 \o Working Directory:	cae-europractice1.othr.de:/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky
-\# Process Id:		1191060
+\# Process Id:		1923982
 \o 
 \o COPYRIGHT (C) 1992-2023  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           (C) 1992-2023  UNIX SYSTEMS Laboratories INC.,
@@ -80,13 +80,23 @@
 \o *Info*    Exporting services from client ... 
 \o 
 \o Loading adexlDM.cxt 
+\# Memory report: using         300 MB, process size 1,814 MB at UTC 2024.12.08 17:14:54.092
 \o Loading cpf.cxt 
 \o Loading cli.cxt 
 \o Loading lp.cxt 
 \o Loading sipLayout.cxt 
 \o INFO (ELI-00333) Client process connection mode is ICRP.
-\# [17:42:37.381892] Configured Lic search path (23.02-s003): 5280@hs-lic3.oth-regensburg.de:27003@hs-lic1.oth-regensburg.de:27003@hs-lic1.oth-regensburg.de:
-\# Memory report: using         328 MB, process size 1,843 MB at UTC 2024.10.16 15:42:40.111
+\# [18:14:50.381852] Configured Lic search path (23.02-s003): 5280@hs-lic3.oth-regensburg.de:27003@hs-lic1.oth-regensburg.de:27003@hs-lic1.oth-regensburg.de:
+\o //
+\o //  Calibre Skill Interface * (v2023.4_17.10) *
+\o //
+\o //                         Copyright Siemens 1996-2020     
+\o //                             All Rights Reserved.
+\o //         THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //            WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //              OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //
 \o *Info*    Client has finished starting ... 
 \o 
 \o Loading vdsil.cxt 
@@ -98,13 +108,12 @@
 \o Loading exportDie.cxt 
 \# Loading perfDiag...
 \# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
-\# The Health Monitor tool is installed. You can access it from CIW - Tools - Diagnostic Center or use the shell command 'cdsPerfDiag -p 1191060' to open it when Virtuoso freezes.
+\# The Health Monitor tool is installed. You can access it from CIW - Tools - Diagnostic Center or use the shell command 'cdsPerfDiag -p 1923982' to open it when Virtuoso freezes.
 \o Loading diagCenter.cxt 
 \# (PerfDiag): Use backtrace from GLIBC.
-\# Available memory:         25,123 MB at UTC 2024.10.16 15:42:47.957
-\# Memory report: Maximum memory size now 25,480 MB at UTC 2024.10.16 15:42:47.957
-\# Thread usage report: 11 active threads, active load 1.40 at UTC 2024.10.16 15:42:47.957
-\o Job 0 timed out after no activity in 300 seconds.
+\# Available memory:         27,884 MB at UTC 2024.12.08 17:15:00.957
+\# Memory report: Maximum memory size now 28,245 MB at UTC 2024.12.08 17:15:00.957
+\# Thread usage report: 11 active threads, active load 1.40 at UTC 2024.12.08 17:15:00.957
 \o Loading simui.cxt 
 \o 
 \o *Info*    Received signal SIGTERM.

@@ -1,4 +1,2 @@
-1733493413 0 1733493413 "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/" "pegasusrv" "" "" "" "" "" "" "" "" "" "" "" true
-1733493413 0 1733493413 "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/pre_therm.drc_errors.ascii" "pvsdrcrv" "" "" "" "" "" "" "" "" "" "" "" true
-1733424834 0 1733424834 "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/inv02f.drc_errors.ascii" "pvsdrcrv" "" "" "" "" "" "" "" "" "" "" "" true
-1733423802 0 1733423802 "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/preampF_comm_B.drc_errors.ascii" "pvsdrcrv" "" "" "" "" "" "" "" "" "" "" "" true
+1733705711 0 1733705711 "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run" "pegasusrv" "" "" "" "" "" "" "" "" "" "" "" true
+1733705709 0 1733705709 "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/pre_therm.drc_errors.ascii" "pvsdrcrv" "" "" "" "" "" "" "" "" "" "" "" true

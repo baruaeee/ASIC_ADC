@@ -1,7 +1,0 @@
-cell: "preampF"
-selected net: "VSS"
-rejected nets: "VDD" 
-contact layer: ""
-lower layer: "pwell"
-upper layer:  "ptap"
-command:  "sconnect ptap pwell"

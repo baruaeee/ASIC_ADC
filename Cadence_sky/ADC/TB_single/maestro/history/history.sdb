@@ -39,8 +39,8 @@
 			<simdir>$AXL_PROJECT_DIR/ADC/TB_single/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
 		</historyentry>
 		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
-			<timestamp>Nov 8 12:57:54 2024</timestamp>
-			<uuid>{38f2278d-8221-47b6-829b-75df32c117ea}</uuid>
+			<timestamp>Dec 7 18:47:51 2024</timestamp>
+			<uuid>{2199fd4f-7902-4948-97eb-412ca90a8883}</uuid>
 			<locked>0</locked>
 			<mode>Single Run, Sweeps and Corners</mode>
 			<resultsname>/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/TB_single/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>

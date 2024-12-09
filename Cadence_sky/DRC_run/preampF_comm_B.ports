@@ -1,6 +1,0 @@
-# SVDB: Port Table (ports)
-# SVDB: Layout Primary preampF_comm_B
-A 3 A 400 1005 met1
-VSS 1 VSS 320 -10 met1
-VDD 4 VDD 370 4135 met1
-Y 2 Y 1195 3275 met1

@@ -1,0 +1,20 @@
+
+INFO:    Checking out 1 license(s) of feature: 'Pegasus_LVS' version 23.1
+INFO:    License checkout successful ... 2024-12-08 20:45:16
+Tool:      pegasusBuildNetlist 23.11-s009, sub-version s009
+
+COMMAND LINE INTERFACE
+   help                  This information 
+   cdl                   Load cdl     file
+   vlg                   Load verilog file
+   out                   Output filename  
+   top                   Top cell name    
+   q                     Exit             
+
+CmdLine: /eda/cadence/2023-24/RHELx86/PEGASUS_23.11.000/tools.lnx86/Pegasus/bin/64bit/pegasusBuildNetlist -o /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/pre_therm/cdl/pre_therm.cdl -tc pre_therm -global_log_file /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/pre_therm/cdl/pegasusuibnl.log 
+> o /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/pre_therm/cdl/pre_therm.cdl
+> tc pre_therm
+> q
+Quiting...
+error: (_pvsDBox 'error "Could not find cell pre_therm.  Using the empty cell option will automatically create empty cells when no cell can be found")
+INFO:    Checking in all SoftShare licenses.

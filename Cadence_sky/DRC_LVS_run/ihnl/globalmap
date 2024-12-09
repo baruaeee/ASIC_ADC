@@ -1,6 +1,24 @@
 CADENCE IHNL11140
 $model
-ADC/preampF_comm_B/schematic preampF_comm_B
+ADC/inv05f/schematic inv05f
+ADC/pre_therm/schematic pre_therm
+ADC/inv06f/schematic inv06f
+ADC/inv01f/schematic inv01f
+ADC/inv11f/schematic inv11f
+ADC/div_fixed/schematic div_fixed
+ADC/inv14f/schematic inv14f
+ADC/inv12f/schematic inv12f
+ADC/inv07f/schematic inv07f
+ADC/inv03f/schematic inv03f
+ADC/inv15f/schematic inv15f
+ADC/preampF/schematic preampF
+ADC/preamp1F/schematic preamp1F
+ADC/inv02f/schematic inv02f
+ADC/inv13f/schematic inv13f
+ADC/inv10f/schematic inv10f
+ADC/inv08f/schematic inv08f
+ADC/inv04f/schematic inv04f
+ADC/inv09f/schematic inv09f
 $endmodel
 $net
 $endnet

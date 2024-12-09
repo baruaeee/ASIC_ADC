@@ -1,25 +1,25 @@
 ********************************************************************************
 *** Pegasus DRC SUMMARY
 ***
-Execute on Date/Time    : Thu Dec  5 03:16:57 2024
+Execute on Date/Time    : Mon Dec  9 01:55:07 2024
 Pegasus VERSION         : 23.11-s009 Thu Aug 31 12:45:19 PDT 2023
-Rule Deck Path          : /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/.technology.rul
+Rule Deck Path          : /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/.technology.rul
 Rule Deck Title         :
 Layout System           : GDSII
-Layout Path             : /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/pre_therm.gds.gz
-Current Directory       : /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run
+Layout Path             : /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/pre_therm.gds.gz
+Current Directory       : /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run
 User Name               : cae3
 Maximum Results         : 1000
 Maximum Result Vertices : 4096
 Layout Depth            : ALL
 Text Depth              : 0
-Summary File            : /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/pre_therm.sum
+Summary File            : /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/pre_therm.sum
 Geometry Flagging       : ACUTE = NO  ANGLED = NO  SKEW = NO  OFFGRID = NO
                           NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
 Keep Empty Checks       : YES
 Excluded Cells          : 
 Layout Primary Cell     : pre_therm
-ASCII DRC Error Report  : /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/pre_therm.drc_errors.ascii
+ASCII DRC Error Report  : /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/pre_therm.drc_errors.ascii
 DRC Results Database    :
 --------------------------------------------------------------------------------
 --- RUNNING TIME WARNINGS
@@ -27,9 +27,9 @@ DRC Results Database    :
 --------------------------------------------------------------------------------
 --- ORIGINAL LAYER STATISTICS
 ---
-LAYER diff ................................. Total Original Geometry:         24 (        24)
-LAYER tap .................................. Total Original Geometry:          8 (         8)
-LAYER nwell ................................ Total Original Geometry:         10 (        10)
+LAYER diff ................................. Total Original Geometry:        104 (       110)
+LAYER tap .................................. Total Original Geometry:         38 (        38)
+LAYER nwell ................................ Total Original Geometry:         53 (        54)
 LAYER dnwell ............................... Total Original Geometry:          0 (         0)
 LAYER pwbm ................................. Total Original Geometry:          0 (         0)
 LAYER pwde ................................. Total Original Geometry:          0 (         0)
@@ -38,22 +38,22 @@ LAYER hvtp ................................. Total Original Geometry:          0
 LAYER hvi .................................. Total Original Geometry:          0 (         0)
 LAYER tunm ................................. Total Original Geometry:          0 (         0)
 LAYER lvtn ................................. Total Original Geometry:          0 (         0)
-LAYER poly ................................. Total Original Geometry:         49 (        52)
+LAYER poly ................................. Total Original Geometry:        204 (       231)
 LAYER hvntm ................................ Total Original Geometry:          0 (         0)
-LAYER nsdm ................................. Total Original Geometry:         18 (        18)
-LAYER psdm ................................. Total Original Geometry:         18 (        18)
+LAYER nsdm ................................. Total Original Geometry:         88 (        89)
+LAYER psdm ................................. Total Original Geometry:         96 (        97)
 LAYER rpm .................................. Total Original Geometry:          0 (         0)
-LAYER npc .................................. Total Original Geometry:          1 (         4)
-LAYER licon1 ............................... Total Original Geometry:         47 (        50)
-LAYER li1 .................................. Total Original Geometry:         40 (        50)
-LAYER mcon ................................. Total Original Geometry:         25 (        42)
-LAYER met1 ................................. Total Original Geometry:         40 (        56)
-LAYER via .................................. Total Original Geometry:          1 (         7)
-LAYER met2 ................................. Total Original Geometry:          9 (        15)
-LAYER via2 ................................. Total Original Geometry:          0 (         0)
-LAYER met3 ................................. Total Original Geometry:          0 (         0)
-LAYER via3 ................................. Total Original Geometry:          0 (         0)
-LAYER met4 ................................. Total Original Geometry:          0 (         0)
+LAYER npc .................................. Total Original Geometry:          1 (        18)
+LAYER licon1 ............................... Total Original Geometry:        181 (       202)
+LAYER li1 .................................. Total Original Geometry:        167 (       221)
+LAYER mcon ................................. Total Original Geometry:         79 (       151)
+LAYER met1 ................................. Total Original Geometry:        114 (       204)
+LAYER via .................................. Total Original Geometry:          3 (        50)
+LAYER met2 ................................. Total Original Geometry:         50 (        97)
+LAYER via2 ................................. Total Original Geometry:          2 (        16)
+LAYER met3 ................................. Total Original Geometry:          4 (        14)
+LAYER via3 ................................. Total Original Geometry:          2 (         8)
+LAYER met4 ................................. Total Original Geometry:          5 (         8)
 LAYER via4 ................................. Total Original Geometry:          0 (         0)
 LAYER met5 ................................. Total Original Geometry:          0 (         0)
 LAYER pad .................................. Total Original Geometry:          0 (         0)
@@ -164,7 +164,7 @@ RULECHECK hvntm.5 ...................................... Total Result          0
 RULECHECK hvntm.6a ..................................... Total Result          0 (         0)
 RULECHECK hvntm.6b ..................................... Total Result          0 (         0)
 RULECHECK hvntm.9 ...................................... Total Result          0 (         0)
-RULECHECK hvnwell.8 .................................... Total Result          1 (         1)
+RULECHECK hvnwell.8 .................................... Total Result          0 (         0)
 RULECHECK hvpoly.13 .................................... Total Result          0 (         0)
 RULECHECK hvpoly.14 .................................... Total Result          0 (         0)
 RULECHECK hvtp.1 ....................................... Total Result          0 (         0)
@@ -274,7 +274,7 @@ RULECHECK npc.4 ........................................ Total Result          0
 RULECHECK nsm.1 ........................................ Total Result          0 (         0)
 RULECHECK nsm.2 ........................................ Total Result          0 (         0)
 RULECHECK nwell.1 ...................................... Total Result          0 (         0)
-RULECHECK nwell.2ab .................................... Total Result          1 (         1)
+RULECHECK nwell.2ab .................................... Total Result          0 (         0)
 RULECHECK nwell.4 ...................................... Total Result          0 (         0)
 RULECHECK nwell.5 ...................................... Total Result          0 (         0)
 RULECHECK nwell.6 ...................................... Total Result          0 (         0)
@@ -379,6 +379,6 @@ RULECHECK vpp.9 ........................................ Total Result          0
 ---
 Total CPU Time                    : 1(s)
 Total Real Time                   : 2(s)
-Total Original Geometry           : 290 (354)
+Total Original Geometry           : 1191 (1608)
 Total DRC RuleChecks              : 279
-Total DRC Results                 : 2 (2)
+Total DRC Results                 : 0 (0)

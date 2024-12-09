@@ -1,0 +1,268 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  ADC
+* Top Cell Name: pre_therm
+* View Name:     schematic
+* Netlisted on:  Dec  9 01:54:24 2024
+************************************************************************
+
+*.BIPOLAR
+*.RESI = 2000 
+*.RESVAL
+*.CAPVAL
+*.DIOPERI
+*.DIOAREA
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: ADC
+* Cell Name:    inv07f
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inv07f A VDD VSS Y
+*.PININFO A:I Y:O VDD:B VSS:B
+MNM1 Y A VSS VSS nfet_01v8 W=980n L=300n M=1
+MPM1 Y A VDD VDD pfet_01v8 W=570n L=155n M=1
+.ENDS
+
+************************************************************************
+* Library Name: ADC
+* Cell Name:    inv11f
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inv11f A VDD VSS Y
+*.PININFO A:I Y:O VDD:B VSS:B
+MNM1 Y A VSS VSS nfet_01v8 W=420n L=950n M=1
+MPM1 Y A VDD VDD pfet_01v8 W=850n L=260n M=1
+.ENDS
+
+************************************************************************
+* Library Name: ADC
+* Cell Name:    inv15f
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inv15f A VDD VSS Y
+*.PININFO A:I Y:O VDD:B VSS:B
+MNM0 Y A VSS VSS nfet_01v8 W=420n L=950n M=1
+MPM0 Y A VDD VDD pfet_01v8 W=850n L=150n M=1
+.ENDS
+
+************************************************************************
+* Library Name: ADC
+* Cell Name:    inv08f
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inv08f A VDD VSS Y
+*.PININFO A:I Y:O VDD:B VSS:B
+MNM1 Y A VSS VSS nfet_01v8 W=490n L=990n M=1
+MPM1 Y A VDD VDD pfet_01v8 W=850n L=165n M=1
+.ENDS
+
+************************************************************************
+* Library Name: ADC
+* Cell Name:    inv14f
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inv14f A VDD VSS Y
+*.PININFO A:I Y:O VDD:B VSS:B
+MNM0 Y A VSS VSS nfet_01v8 W=480n L=675n M=1
+MPM0 Y A VDD VDD pfet_01v8 W=765n L=150n M=1
+.ENDS
+
+************************************************************************
+* Library Name: ADC
+* Cell Name:    inv13f
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inv13f A VDD VSS Y
+*.PININFO A:I Y:O VDD:B VSS:B
+MNM0 Y A VSS VSS nfet_01v8 W=540n L=550n M=1
+MPM0 Y A VDD VDD pfet_01v8 W=850n L=160n M=1
+.ENDS
+
+************************************************************************
+* Library Name: ADC
+* Cell Name:    inv12f
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inv12f A VDD VSS Y
+*.PININFO A:I Y:O VDD:B VSS:B
+MNM0 Y A VSS VSS nfet_01v8 W=800n L=330n M=1
+MPM0 Y A VDD VDD pfet_01v8 W=750n L=150n M=1
+.ENDS
+
+************************************************************************
+* Library Name: ADC
+* Cell Name:    inv09f
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inv09f A VDD VSS Y
+*.PININFO A:I Y:O VDD:B VSS:B
+MNM1 Y A VSS VSS nfet_01v8 W=420n L=1.1u M=1
+MPM1 Y A VDD VDD pfet_01v8 W=1.54u L=150n M=1
+.ENDS
+
+************************************************************************
+* Library Name: ADC
+* Cell Name:    div_fixed
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT div_fixed A VSS Y
+*.PININFO A:I Y:O VSS:B
+MPM0 Y VSS A A pfet_01v8 W=550n L=1.05u M=1
+MPM1 VSS VSS Y A pfet_01v8 W=1u L=150n M=1
+.ENDS
+
+************************************************************************
+* Library Name: ADC
+* Cell Name:    inv03f
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inv03f A VDD VSS Y
+*.PININFO A:I Y:O VDD:B VSS:B
+MNM1 Y A VSS VSS nfet_01v8 W=640n L=450n M=1
+MPM1 Y A VDD VDD pfet_01v8 W=650n L=350n M=1
+.ENDS
+
+************************************************************************
+* Library Name: ADC
+* Cell Name:    preamp1F
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT preamp1F A VDD VSS Y
+*.PININFO A:I Y:O VDD:B VSS:B
+MNM0 VDD A Y VSS nfet_01v8 W=420n L=550n M=1
+MPM1 VSS A Y VDD pfet_01v8 W=550n L=250n M=1
+.ENDS
+
+************************************************************************
+* Library Name: ADC
+* Cell Name:    inv02f
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inv02f A VDD VSS Y
+*.PININFO A:I Y:O VDD:B VSS:B
+MNM1 Y A VSS VSS nfet_01v8 W=420n L=285n M=1
+MPM1 Y A VDD VDD pfet_01v8 W=800n L=250n M=1
+.ENDS
+
+************************************************************************
+* Library Name: ADC
+* Cell Name:    inv06f
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inv06f A VDD VSS Y
+*.PININFO A:I Y:O VDD:B VSS:B
+MNM1 Y A VSS VSS nfet_01v8 W=725n L=320n M=1
+MPM1 Y A VDD VDD pfet_01v8 W=560n L=435n M=1
+.ENDS
+
+************************************************************************
+* Library Name: ADC
+* Cell Name:    inv04f
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inv04f A VDD VSS Y
+*.PININFO A:I Y:O VDD:B VSS:B
+MNM1 Y A VSS VSS nfet_01v8 W=705n L=600n M=1
+MPM1 Y A VDD VDD pfet_01v8 W=620n L=190n M=1
+.ENDS
+
+************************************************************************
+* Library Name: ADC
+* Cell Name:    inv05f
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inv05f A VDD VSS Y
+*.PININFO A:I Y:O VDD:B VSS:B
+MNM1 Y A VSS VSS nfet_01v8 W=650n L=400n M=1
+MPM1 Y A VDD VDD pfet_01v8 W=695n L=150n M=1
+.ENDS
+
+************************************************************************
+* Library Name: ADC
+* Cell Name:    preampF
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT preampF A VDD VSS Y
+*.PININFO A:I Y:O VDD:B VSS:B
+MNM0 VDD A Y VSS nfet_01v8 W=1.02u L=150n M=1
+MPM1 VSS A Y VDD pfet_01v8 W=550n L=1.05u M=1
+.ENDS
+
+************************************************************************
+* Library Name: ADC
+* Cell Name:    inv01f
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inv01f A VDD VSS Y
+*.PININFO A:I Y:O VDD:B VSS:B
+MNM1 Y A VSS VSS nfet_01v8 W=445n L=650n M=1
+MPM1 Y A VDD VDD pfet_01v8 W=790n L=630n M=1
+.ENDS
+
+************************************************************************
+* Library Name: ADC
+* Cell Name:    inv10f
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT inv10f A VDD VSS Y
+*.PININFO A:I Y:O VDD:B VSS:B
+MNM1 Y A VSS VSS nfet_01v8 W=945n L=155n M=1
+MPM1 Y A VDD VDD pfet_01v8 W=865n L=245n M=1
+.ENDS
+
+************************************************************************
+* Library Name: ADC
+* Cell Name:    pre_therm
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT pre_therm IN VDD VSS Y01 Y02 Y03 Y04 Y05 Y06 Y07 Y08 Y09 Y10 Y11 Y12 
++ Y13 Y14 Y15
+*.PININFO IN:I Y01:O Y02:O Y03:O Y04:O Y05:O Y06:O Y07:O Y08:O Y09:O Y10:O 
+*.PININFO Y11:O Y12:O Y13:O Y14:O Y15:O VDD:B VSS:B
+XI07 IN VDD VSS Y07 / inv07f
+XI11 div_out VDD VSS Y11 / inv11f
+XI114 div_out VDD VSS Y15 / inv15f
+XI08 IN VDD VSS Y08 / inv08f
+XI112 div_out VDD VSS Y14 / inv14f
+XI13 div_out VDD VSS Y13 / inv13f
+XI12 div_out VDD VSS Y12 / inv12f
+XI09 IN VDD VSS Y09 / inv09f
+XI0-2 IN VSS div_out / div_fixed
+XI03 pre1_out VDD VSS Y03 / inv03f
+XI0-1 IN VDD VSS pre1_out / preamp1F
+XI02 pre_out VDD VSS Y02 / inv02f
+XI06 IN VDD VSS Y06 / inv06f
+XI04 pre1_out VDD VSS Y04 / inv04f
+XI05 pre1_out VDD VSS Y05 / inv05f
+XI0 IN VDD VSS pre_out / preampF
+XI01 pre_out VDD VSS Y01 / inv01f
+XI10 div_out VDD VSS Y10 / inv10f
+.ENDS
+

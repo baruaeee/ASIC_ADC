@@ -1,13 +1,13 @@
 Running: /eda/cadence/2023-24/RHELx86/PEGASUS_23.11.000/tools.lnx86/Pegasus/bin/64bit/pegasusvirt \
   -isPegasus \
   -mode drc \
-  -global_log_file /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/pegasusuidrc.log \
-  -control /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/pegasusdrcctl \
-  -cell_tree /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run//cell_tree.txt \
+  -global_log_file /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/pegasusuidrc.log \
+  -control /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/pegasusdrcctl \
+  -cell_tree /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/cell_tree.txt \
   -layLibName ADC \
-  -layCellName preampF_comm_B \
+  -layCellName pre_therm \
   -layViewName layout \
-  -igds /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/preampF_comm_B.gds.gz \
+  -igds /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/pre_therm.gds.gz \
   -layScale 0.001 \
   -layTechLib sky130_fd_pr_main \
   -convertPin geometry \
@@ -16,23 +16,21 @@ Running: /eda/cadence/2023-24/RHELx86/PEGASUS_23.11.000/tools.lnx86/Pegasus/bin/
   -layHierDepth 32 \
   -layMaxVertices 2048 \
   -enableColoring yes \
-  -rulesFile /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/.technology.rul \
+  -rulesFile /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/.technology.rul \
   -log_dir LOGS \
   -df2_version IC23.1.0 \
-  -sign IPVS_1733416193_1175709 \
-  -run_dir /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/ \
-  -no_rules_check \
-  -cdslib /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/cds.lib
+  -sign IPVS_1733705697_1952644 \
+  -run_dir /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run \
+  -no_rules_check
 
 
 
-Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.04s.
-INFO (DB-120008): oaSocket connection timeout value was set to 2 seconds.
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.05s.
 ********************************************************************************
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version IC23.1-64b 09/20/2023 08:16 (cpgbld16) $
           : sub-version  IC23.1-64b.ISR2.29 
-Started at: 05-Dec-2024  17:29:55
+Started at: 09-Dec-2024  01:55:00
 User Name : cae3
 Host Name : cae-europractice1.othr.de
 Directory : /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky
@@ -40,7 +38,7 @@ CADENCE Design Systems, Inc.
 ********************************************************************************
 Info: Cellview Rev Num:99,  Tech Rev Num:59
 
-WARNING (XSTRM-20): Output Stream file '/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/preampF_comm_B.gds.gz' already exists. It will be overwritten.
+WARNING (XSTRM-20): Output Stream file '/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/pre_therm.gds.gz' already exists. It will be overwritten.
 Loading sky130_fd_pr_main/libInit.il ...
 	Loading sky130_fd_pr_main/loadCxt.ile ... done!
 	Loading context 'sky130_fd_pr_main' from library 'sky130_fd_pr_main' ... done!
@@ -57,36 +55,90 @@ INFO (XSTRM-162): You have not used the '-viaMap' option. If the OpenAccess desi
 
 Summary of Options :
 library                                 ADC
-strmFile                                /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/preampF_comm_B.gds.gz
-topCell                                 preampF_comm_B
+strmFile                                /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/pre_therm.gds.gz
+topCell                                 pre_therm
 view                                    layout
-runDir                                  /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/
-logFile                                 /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run//PIPO1.LOG
+runDir                                  /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run
+logFile                                 /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/PIPO1.LOG
 techLib                                 sky130_fd_pr_main
 hierDepth                               32
 maxVertices                             2048
 layerMap                                /mnt/cae_storage_sw/eda/cadence/pdks/sky130/sky130_release_004a/libs/sky130_fd_pr_main/sky130_fd_pr_main.layermap
-userSkillFile                           /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run//strmout.il
+userSkillFile                           /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/strmout.il
 labelDepth                              32
 case                                    Preserve
 convertDot                              node
 
 INFO (XSTRM-180): You have not used the '-objectMap' option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the '-objectMap' option to translate/preserve these objects using XStream.
-INFO (XSTRM-223): 1. Translating stdVia sky130_fd_pr_main/PYL1CON_C/layout as STRUCTURE PYL1CON_C_CDNS_733416195410.
-INFO (XSTRM-223): 2. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_733416195411.
-INFO (XSTRM-223): 3. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_733416195412.
-INFO (XSTRM-223): 4. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_733416195413.
-INFO (XSTRM-223): 5. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_733416195414.
-INFO (XSTRM-223): 6. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_733416195410.
-INFO (XSTRM-223): 7. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_733416195411.
-INFO (XSTRM-223): 8. Translating cellview ADC/preampF_comm_B/layout as STRUCTURE preampF_comm_B.
+INFO (XSTRM-223): 1. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_733705700480.
+INFO (XSTRM-223): 2. Translating stdVia sky130_fd_pr_main/M2M3_C/layout as STRUCTURE M2M3_C_CDNS_733705700481.
+INFO (XSTRM-223): 3. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_733705700482.
+INFO (XSTRM-223): 4. Translating stdVia sky130_fd_pr_main/M3M4_C/layout as STRUCTURE M3M4_C_CDNS_733705700483.
+INFO (XSTRM-223): 5. Translating stdVia sky130_fd_pr_main/PYL1CON_C/layout as STRUCTURE PYL1CON_C_CDNS_733705700484.
+INFO (XSTRM-223): 6. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_733705700485.
+INFO (XSTRM-223): 7. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_733705700486.
+INFO (XSTRM-223): 8. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_733705700487.
+INFO (XSTRM-223): 9. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_733705700480.
+INFO (XSTRM-223): 10. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_733705700481.
+INFO (XSTRM-223): 11. Translating cellview ADC/inv01f/layout as STRUCTURE inv01f.
+INFO (XSTRM-223): 12. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_733705700488.
+INFO (XSTRM-223): 13. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_733705700482.
+INFO (XSTRM-223): 14. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_733705700483.
+INFO (XSTRM-223): 15. Translating cellview ADC/preampF/layout as STRUCTURE preampF.
+INFO (XSTRM-223): 16. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_733705700484.
+INFO (XSTRM-223): 17. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_733705700485.
+INFO (XSTRM-223): 18. Translating cellview ADC/inv02f/layout as STRUCTURE inv02f.
+INFO (XSTRM-223): 19. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_733705700486.
+INFO (XSTRM-223): 20. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_733705700487.
+INFO (XSTRM-223): 21. Translating cellview ADC/preamp1F/layout as STRUCTURE preamp1F.
+INFO (XSTRM-223): 22. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_733705700488.
+INFO (XSTRM-223): 23. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_733705700489.
+INFO (XSTRM-223): 24. Translating cellview ADC/inv03f/layout as STRUCTURE inv03f.
+INFO (XSTRM-223): 25. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7337057004810.
+INFO (XSTRM-223): 26. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7337057004811.
+INFO (XSTRM-223): 27. Translating cellview ADC/inv04f/layout as STRUCTURE inv04f.
+INFO (XSTRM-223): 28. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7337057004812.
+INFO (XSTRM-223): 29. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7337057004813.
+INFO (XSTRM-223): 30. Translating cellview ADC/inv05f/layout as STRUCTURE inv05f.
+INFO (XSTRM-223): 31. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7337057004814.
+INFO (XSTRM-223): 32. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7337057004815.
+INFO (XSTRM-223): 33. Translating cellview ADC/inv06f/layout as STRUCTURE inv06f.
+INFO (XSTRM-223): 34. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7337057004816.
+INFO (XSTRM-223): 35. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7337057004817.
+INFO (XSTRM-223): 36. Translating cellview ADC/inv07f/layout as STRUCTURE inv07f.
+INFO (XSTRM-223): 37. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7337057004818.
+INFO (XSTRM-223): 38. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7337057004819.
+INFO (XSTRM-223): 39. Translating cellview ADC/inv08f/layout as STRUCTURE inv08f.
+INFO (XSTRM-223): 40. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7337057004820.
+INFO (XSTRM-223): 41. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7337057004821.
+INFO (XSTRM-223): 42. Translating cellview ADC/inv09f/layout as STRUCTURE inv09f.
+INFO (XSTRM-223): 43. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7337057004822.
+INFO (XSTRM-223): 44. Translating cellview ADC/div_fixed/layout as STRUCTURE div_fixed.
+INFO (XSTRM-223): 45. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7337057004823.
+INFO (XSTRM-223): 46. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7337057004824.
+INFO (XSTRM-223): 47. Translating cellview ADC/inv10f/layout as STRUCTURE inv10f.
+INFO (XSTRM-223): 48. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7337057004825.
+INFO (XSTRM-223): 49. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7337057004826.
+INFO (XSTRM-223): 50. Translating cellview ADC/inv11f/layout as STRUCTURE inv11f.
+INFO (XSTRM-223): 51. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7337057004827.
+INFO (XSTRM-223): 52. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7337057004828.
+INFO (XSTRM-223): 53. Translating cellview ADC/inv12f/layout as STRUCTURE inv12f.
+INFO (XSTRM-223): 54. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7337057004829.
+INFO (XSTRM-223): 55. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7337057004830.
+INFO (XSTRM-223): 56. Translating cellview ADC/inv13f/layout as STRUCTURE inv13f.
+INFO (XSTRM-223): 57. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7337057004831.
+INFO (XSTRM-223): 58. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7337057004832.
+INFO (XSTRM-223): 59. Translating cellview ADC/inv14f/layout as STRUCTURE inv14f.
+INFO (XSTRM-223): 60. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7337057004833.
+INFO (XSTRM-223): 61. Translating cellview ADC/inv15f/layout as STRUCTURE inv15f.
+INFO (XSTRM-223): 62. Translating cellview ADC/pre_therm/layout as STRUCTURE pre_therm.
 
 Summary of Objects Translated:
-	Scalar Instances:                       2
+	Scalar Instances:                       54
 	Array Instances:                        0
 	Polygons:                               0
 	Paths:                                  0
-	Rectangles:                             87
+	Rectangles:                             1261
 	Lines:                                  0
 	Arcs:                                   0
 	Donuts:                                 0
@@ -99,29 +151,29 @@ Summary of Objects Translated:
 	Markers:                                0
 	Rows:                                   0
 	Stitch:                                 0
-	Standard Vias                           8
+	Standard Vias                           126
 	Custom Vias:                            0
 	CdsGen Vias:                            0
-	Pathsegs:                               1
-	Text:                                   4
+	Pathsegs:                               19
+	Text:                                   141
 	TextDisplay:                            0
-	Cells:                                  8
+	Cells:                                  62
 
-Elapsed Time: 0.5s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 33568KB
+Elapsed Time: 0.3s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 38936KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '2' warning(s) found.
 
 
-Pegasus 23.11-s009 FbGK7KjMGPhkNci2o09sLg 2024-12-05 17:29:56 1437261 cae-europractice1.othr.de
+Pegasus 23.11-s009 FbGK7KjMGPhkNci2o09sLg 2024-12-09 01:55:01 1957305 cae-europractice1.othr.de
 Copyright 2023 Cadence Design Systems, Inc.
 All rights reserved worldwide.
 
-INFO:    Command Line Options: --log_dir LOGS -top_cell preampF_comm_B -ui_data --control /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/pegasusdrcctl /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/.technology.rul
+INFO:    Command Line Options: --log_dir LOGS -top_cell pre_therm -ui_data --control /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/pegasusdrcctl /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/.technology.rul
 INFO:    Launch host CPU: Model: AMD Ryzen Threadripper PRO 5975WX 32-Cores, OS: Oracle Linux Server release 8.10, Logical cores: 16, Physical cores: 16, Cache: 512 KB, CPU Speed: 3593.24 MHz
-         Launch host Memory: MemTotal: 31806 MB,  MemFree: 1539 MB,  SwapTotal: 0 MB,  SwapFree: 0 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 84 MB
-INFO:    Current path: /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run
+         Launch host Memory: MemTotal: 31806 MB,  MemFree: 573 MB,  SwapTotal: 0 MB,  SwapFree: 0 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 87 MB
+INFO:    Current path: /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run
 INFO:    Run directory same as current path
-INFO:    Log directory: /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/LOGS
-INFO:    Setting LAYOUT_PRIMARY to: preampF_comm_B 
+INFO:    Log directory: /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/LOGS
+INFO:    Setting LAYOUT_PRIMARY to: pre_therm 
 INFO:    PVL parsing results:
 WARNING: In technology 'sky130_pvs', the rule set 'default' is not a Pegasus rule set.
 It will be accepted for this run but should be changed to a pegasusRuleSet.
@@ -130,27 +182,27 @@ WARNING: MAX_RESULTS -drc at line 21 in file /home/cae3/Desktop/ADC/ASIC_ADC/Cad
 WARNING: ABORT_ON_LAYOUT_ERROR at line 29 in file /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./sky130_rev_0.0_1.0.drc.pvl is skipped. It is set in control file.
 WARNING: TEXT_DEPTH at line 31 in file /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./sky130_rev_0.0_1.0.drc.pvl is skipped. It is set in control file.
 WARNING: LAYOUT_PATH at line 3000 in file /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./sky130_rev_0.0_1.0.drc.pvl is skipped. It is set in control file.
-WARNING: Cmd-line override: LAYOUT_PRIMARY "preampF_comm_B";
+WARNING: Cmd-line override: LAYOUT_PRIMARY "pre_therm";
 WARNING: RESULTS_DB -ascii at line 3002 in file /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/Sky130_DRC/pvs/./sky130_rev_0.0_1.0.drc.pvl is skipped. It is set in control file.
 
-INFO:    See "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/LOGS/pvl.log" for additional details.
+INFO:    See "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/LOGS/pvl.log" for additional details.
 
 INFO:    Checking out 1 license(s) of feature: 'Pegasus_DRC' version 23.1
-INFO:    License checkout successful ... 2024-12-05 17:30:02
+INFO:    License checkout successful ... 2024-12-09 01:55:08
 
 INFO:    Checking out 1 license(s) of feature: 'Pegasus_16nm' version 23.1
-INFO:    License checkout successful ... 2024-12-05 17:30:02
+INFO:    License checkout successful ... 2024-12-09 01:55:08
 INFO:    Worker 0 started on host cae-europractice1.othr.de with 1 cpu(s)
          CPU: Model: AMD Ryzen Threadripper PRO 5975WX 32-Cores, OS: Oracle Linux Server release 8.10, Logical cores: 16, Physical cores: 16, Cache: 512 KB, CPU Speed: 3593.24 MHz
-         Memory: MemTotal: 31806 MB,  MemFree: 1542 MB,  SwapTotal: 0 MB,  SwapFree: 0 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 84 MB
+         Memory: MemTotal: 31806 MB,  MemFree: 572 MB,  SwapTotal: 0 MB,  SwapFree: 0 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 87 MB
 
 INFO:    Gdsii input summary
-         File name: /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/preampF_comm_B.gds.gz
-         File size: 1645
+         File name: /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/pre_therm.gds.gz
+         File size: 14213
          Version: 5.0
          Library name: ADC
-         Last modified: 2024-12-4 16:11:44
-         Last accessed: 2024-12-5 17:29:55
+         Last modified: 2024-12-8 17:46:1
+         Last accessed: 2024-12-9 1:55:0
          Database unit in user units: 0.001
          Database unit in meters: 1e-09
          Magnification: 1 
@@ -165,26 +217,80 @@ WARNING: Cell name parameter "s8fs_cmux4_fm" for inside_cell [-not] operation no
 
 INFO:    Cell Summary:
          ----------------------------------------------------------------------------
-             CELL                           INSTANCE    GEOMETRY      LABELS        HREF        FREF
+             CELL                            INSTANCE    GEOMETRY      LABELS        HREF        FREF
          ----------------------------------------------------------------------------
-         PYL1CON_C_CDNS_733416195410               0           3           0           1           1
-         L1M1_C_CDNS_733416195411                  0           3           0           1           1
-         L1M1_C_CDNS_733416195412                  0           5           0           1           1
-         M1M2_C_CDNS_733416195413                  0           3           0           4           4
-         L1M1_C_CDNS_733416195414                  0           3           0           1           1
-         pfet_01v8_CDNS_733416195410               0          26           0           1           1
-         nfet_01v8_CDNS_733416195411               0          25           0           1           1
-         preampF_comm_B                           10          16           0           1           1
+         M1M2_C_CDNS_733705700480                   0           3           0          34          34
+         M2M3_C_CDNS_733705700481                   0           4           0           8           8
+         M1M2_C_CDNS_733705700482                   0           4           0           8           8
+         M3M4_C_CDNS_733705700483                   0           4           0           4           4
+         PYL1CON_C_CDNS_733705700484                0           3           0          18          18
+         L1M1_C_CDNS_733705700485                   0           3           0          18          18
+         L1M1_C_CDNS_733705700486                   0           4           0          21          21
+         L1M1_C_CDNS_733705700487                   0           3           0          13          13
+         nfet_01v8_CDNS_733705700480                0          13           0           1           1
+         pfet_01v8_CDNS_733705700481                0          16           0           1           1
+         inv01f                                     6          30           0           1           1
+         L1M1_C_CDNS_733705700488                   0           5           0           2           2
+         pfet_01v8_CDNS_733705700482                0          14           0           2           2
+         nfet_01v8_CDNS_733705700483                0          17           0           1           1
+         preampF                                    7          32           0           1           1
+         pfet_01v8_CDNS_733705700484                0          16           0           1           1
+         nfet_01v8_CDNS_733705700485                0          13           0           1           1
+         inv02f                                     6          30           0           1           1
+         pfet_01v8_CDNS_733705700486                0          14           0           1           1
+         nfet_01v8_CDNS_733705700487                0          13           0           1           1
+         preamp1F                                   5          31           0           1           1
+         pfet_01v8_CDNS_733705700488                0          14           0           1           1
+         nfet_01v8_CDNS_733705700489                0          13           0           1           1
+         inv03f                                     6          30           0           1           1
+         pfet_01v8_CDNS_7337057004810               0          14           0           1           1
+         nfet_01v8_CDNS_7337057004811               0          15           0           1           1
+         inv04f                                     6          30           0           1           1
+         pfet_01v8_CDNS_7337057004812               0          16           0           1           1
+         nfet_01v8_CDNS_7337057004813               0          13           0           1           1
+         inv05f                                     6          31           0           1           1
+         nfet_01v8_CDNS_7337057004814               0          15           0           1           1
+         pfet_01v8_CDNS_7337057004815               0          14           0           1           1
+         inv06f                                     6          30           0           1           1
+         nfet_01v8_CDNS_7337057004816               0          15           0           1           1
+         pfet_01v8_CDNS_7337057004817               0          14           0           1           1
+         inv07f                                     6          30           0           1           1
+         nfet_01v8_CDNS_7337057004818               0          13           0           1           1
+         pfet_01v8_CDNS_7337057004819               0          16           0           1           1
+         inv08f                                     6          31           0           1           1
+         nfet_01v8_CDNS_7337057004820               0          13           0           1           1
+         pfet_01v8_CDNS_7337057004821               0          26           0           1           1
+         inv09f                                     6          33           0           1           1
+         pfet_01v8_CDNS_7337057004822               0          16           0           1           1
+         div_fixed                                  6          32           0           1           1
+         nfet_01v8_CDNS_7337057004823               0          15           0           1           1
+         pfet_01v8_CDNS_7337057004824               0          16           0           1           1
+         inv10f                                     6          30           0           1           1
+         nfet_01v8_CDNS_7337057004825               0          13           0           2           2
+         pfet_01v8_CDNS_7337057004826               0          16           0           1           1
+         inv11f                                     6          29           0           1           1
+         nfet_01v8_CDNS_7337057004827               0          15           0           1           1
+         pfet_01v8_CDNS_7337057004828               0          16           0           1           1
+         inv12f                                     6          30           0           1           1
+         nfet_01v8_CDNS_7337057004829               0          13           0           1           1
+         pfet_01v8_CDNS_7337057004830               0          16           0           1           1
+         inv13f                                     6          29           0           1           1
+         nfet_01v8_CDNS_7337057004831               0          13           0           1           1
+         pfet_01v8_CDNS_7337057004832               0          16           0           1           1
+         inv14f                                     6          29           0           1           1
+         pfet_01v8_CDNS_7337057004833               0          16           0           1           1
+         inv15f                                     6          29           0           1           1
+         pre_therm                                 72         104           0           1           1
          ----------------------------------------------------------------------------
-         TOTAL CELL = 8;  INSTANCE = 10;  GEOMETRY = 84;  LABEL = 0
+         TOTAL CELL = 62;  INSTANCE = 180;  GEOMETRY = 1191;  LABEL = 0
 
 INFO:    Layer Summary:
          ----------------------------------------------------------------------------
              LAYER                               ID       HPN      HTC        FPN       FTC
          ----------------------------------------------------------------------------
-         diff                                  1001         6         0         6         0
-         tap                                   1003         2         0         2         0
-         nwell                                 1004         1         0         1         0
+         diff                                  1001       104         0       110         0
+         tap                                   1003        38         0        38         0
+         nwell                                 1004        53         0        54         0
          dnwell                                1005         0         0         0         0
          pwbm                                  1006         0         0         0         0
          pwde                                  1007         0         0         0         0
@@ -193,22 +299,22 @@ INFO:    Layer Summary:
          hvi                                   1011         0         0         0         0
          tunm                                  1012         0         0         0         0
          lvtn                                  1013         0         0         0         0
-         poly                                  1014        13         0        13         0
+         poly                                  1014       204         0       231         0
          hvntm                                 1016         0         0         0         0
-         nsdm                                  1017         2         0         2         0
-         psdm                                  1018         2         0         2         0
+         nsdm                                  1017        88         0        89         0
+         psdm                                  1018        96         0        97         0
          rpm                                   1019         0         0         0         0
-         npc                                   1021         1         0         1         0
-         licon1                                1022        15         0        15         0
-         li1                                   1023        15         0        15         0
-         mcon                                  1025        11         0        11         0
-         met1                                  1026        12         0        15         0
-         via                                   1028         1         0         4         0
-         met2                                  1029         3         0         6         0
-         via2                                  1031         0         0         0         0
-         met3                                  1032         0         0         0         0
-         via3                                  1034         0         0         0         0
-         met4                                  1035         0         0         0         0
+         npc                                   1021         1         0        18         0
+         licon1                                1022       181         0       202         0
+         li1                                   1023       167         0       221         0
+         mcon                                  1025        79         0       151         0
+         met1                                  1026       114         0       204         0
+         via                                   1028         3         0        50         0
+         met2                                  1029        50         0        97         0
+         via2                                  1031         2         0        16         0
+         met3                                  1032         4         0        14         0
+         via3                                  1034         2         0         8         0
+         met4                                  1035         5         0         8         0
          via4                                  1037         0         0         0         0
          met5                                  1038         0         0         0         0
          pad                                   1040         0         0         0         0
@@ -230,7 +336,7 @@ INFO:    Layer Summary:
          met4_fuse                             1096         0         0         0         0
          ----------------------------------------------------------------------------
 
-INFO:    CHIP EXTENT: -70 -200 1490 4340
+INFO:    CHIP EXTENT: -1155 -1285 12640 15210
 
 
 INFO:    Ports ...
@@ -273,13 +379,63 @@ INFO:    Layer Summary(Texts For DFM_TEXT):
          ----------------------------------------------------------------------------
 
 INFO:    Expanded Cell Summary
-         PYL1CON_C_CDNS_733416195410 is expanded.
-         L1M1_C_CDNS_733416195411 is expanded.
-         L1M1_C_CDNS_733416195414 is expanded.
-         L1M1_C_CDNS_733416195412 is expanded.
-         pfet_01v8_CDNS_733416195410 is expanded.
-         nfet_01v8_CDNS_733416195411 is expanded.
-         M1M2_C_CDNS_733416195413 is expanded.
+         nfet_01v8_CDNS_733705700480 is expanded.
+         pfet_01v8_CDNS_733705700481 is expanded.
+         nfet_01v8_CDNS_733705700483 is expanded.
+         pfet_01v8_CDNS_733705700484 is expanded.
+         nfet_01v8_CDNS_733705700485 is expanded.
+         pfet_01v8_CDNS_733705700486 is expanded.
+         nfet_01v8_CDNS_733705700487 is expanded.
+         pfet_01v8_CDNS_733705700488 is expanded.
+         nfet_01v8_CDNS_733705700489 is expanded.
+         pfet_01v8_CDNS_7337057004810 is expanded.
+         nfet_01v8_CDNS_7337057004811 is expanded.
+         pfet_01v8_CDNS_7337057004812 is expanded.
+         nfet_01v8_CDNS_7337057004813 is expanded.
+         nfet_01v8_CDNS_7337057004814 is expanded.
+         pfet_01v8_CDNS_7337057004815 is expanded.
+         nfet_01v8_CDNS_7337057004816 is expanded.
+         pfet_01v8_CDNS_7337057004817 is expanded.
+         nfet_01v8_CDNS_7337057004818 is expanded.
+         pfet_01v8_CDNS_7337057004819 is expanded.
+         nfet_01v8_CDNS_7337057004820 is expanded.
+         pfet_01v8_CDNS_7337057004821 is expanded.
+         pfet_01v8_CDNS_7337057004822 is expanded.
+         nfet_01v8_CDNS_7337057004823 is expanded.
+         pfet_01v8_CDNS_7337057004824 is expanded.
+         pfet_01v8_CDNS_7337057004826 is expanded.
+         nfet_01v8_CDNS_7337057004827 is expanded.
+         pfet_01v8_CDNS_7337057004828 is expanded.
+         nfet_01v8_CDNS_7337057004829 is expanded.
+         pfet_01v8_CDNS_7337057004830 is expanded.
+         nfet_01v8_CDNS_7337057004831 is expanded.
+         pfet_01v8_CDNS_7337057004832 is expanded.
+         pfet_01v8_CDNS_7337057004833 is expanded.
+         inv01f is expanded.
+         preampF is expanded.
+         inv02f is expanded.
+         preamp1F is expanded.
+         inv03f is expanded.
+         inv04f is expanded.
+         inv05f is expanded.
+         inv06f is expanded.
+         inv07f is expanded.
+         inv08f is expanded.
+         inv09f is expanded.
+         div_fixed is expanded.
+         inv10f is expanded.
+         inv11f is expanded.
+         inv12f is expanded.
+         inv13f is expanded.
+         inv14f is expanded.
+         inv15f is expanded.
+         M1M2_C_CDNS_733705700480 is expanded.
+         M2M3_C_CDNS_733705700481 is expanded.
+         M1M2_C_CDNS_733705700482 is expanded.
+         M3M4_C_CDNS_733705700483 is expanded.
+         PYL1CON_C_CDNS_733705700484 is expanded.
+         L1M1_C_CDNS_733705700485 is expanded.
+         L1M1_C_CDNS_733705700487 is expanded.
 INFO:    Rule dnwell.2 completed with no violations, 1/279
 INFO:    Rule dnwell.3 completed with no violations, 2/279
 INFO:    Rule dnwell.4 completed with no violations, 3/279
@@ -569,26 +725,26 @@ INFO:    Rule pwres.7b completed with no violations, 277/279
 INFO:    Rule pwres.8 completed with no violations, 278/279
          Remaining rules: vpp.5 
 INFO:    Rule vpp.5 completed with no violations, 279/279
-INFO:    Status: Runset 100% complete as of 2024-12-05 17:30:03   Elapsed: 00:00:02
+INFO:    Status: Runset 100% complete as of 2024-12-09 01:55:09   Elapsed: 00:00:02
          Worker: Active CPUs  Total Mem(MB)  Active Mem(MB)  CPU time(s)
-              0:    1 /   1             21              12            1
-INFO:	 Status: Finishing as of 2024-12-05 17:30:03   Elapsed: 00:00:02   CPU time[s]: 2
+              0:    1 /   1             24              12            1
+INFO:	 Status: Finishing as of 2024-12-09 01:55:09   Elapsed: 00:00:02   CPU time[s]: 2
 INFO:    Resource usage by worker at exit:
                   CPU      Elapsed  CPUs       CPU       Peak        Peak engine
          Worker:  time[s]  time[s]  Allocated  usage[%]  Memory[MB]  Memory[MB]
-              0:        1        2          1     64.56          21           12
-         Worker resource usage  summary: Total CPU[s]: 1  Run duration[s]: 2  Max peak memory[MB]: 21
+              0:        1        2          1     63.43          24           12
+         Worker resource usage  summary: Total CPU[s]: 1  Run duration[s]: 2  Max peak memory[MB]: 24
          Worker CPU utilization summary: 1 of 2 available CPU seconds (50.00%) with 1 average available CPU(s)
-INFO:    Generating summary in /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/preampF_comm_B.sum
+INFO:    Generating summary in /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/pre_therm.sum
 INFO:    All selected rules completed
          Total CPU Time                    : 1(s)
          Total Real Time                   : 2(s)
-         Total Original Geometry           : 84(93)
+         Total Original Geometry           : 1191(1608)
          Total DRC RuleChecks              : 279
          Total DRC Results                 : 0 (0)
-         ASCII report database is /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_run/preampF_comm_B.drc_errors.ascii
+         ASCII report database is /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/pre_therm.drc_errors.ascii
 INFO:    Checking in all SoftShare licenses.
 
-Pegasus finished normally. 2024-12-05 17:30:03
+Pegasus finished normally. 2024-12-09 01:55:09
 
 

@@ -1,3 +1,0 @@
-ADC pre_therm layout pre_therm
-ADC inv01f layout inv01f
-ADC preampF layout preampF

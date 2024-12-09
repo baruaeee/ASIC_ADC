@@ -7,20 +7,7 @@ pvsRuleSet( "default"
        (LvsRules             "./sky130.lvs.pvl" )
 )
  
-pvsRuleSet( "antenna"
-       (DrcRules             "./pvlAnt.rul" )
-)
-
-pvsRuleSet( "Metal Fill"
-       (DrcRules             "./pvlFILL.rul" )
-)
-
 ruleSet( "rcx_typical"
-       (RcxSetupDir          "../qrc/typical" )
+       (RcxSetupDir          "/eda/cadence/pdks/sky130/sky130_release_004a/quantus/extraction/typical" )
 )
-ruleSet( "rcx_worst"
-       (RcxSetupDir          "../qrc/rcworst" )
-)
-ruleSet( "rcx_best"
-       (RcxSetupDir          "../qrc/rcbest" )
-)
+

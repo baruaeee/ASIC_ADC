@@ -1,14 +1,14 @@
-\# Program start time:     UTC 2024.10.16 19:41:40.793
-\# Local time: GMT+02:00 (UTC+02:00) 2024.10.16 21:41:40.793
+\# Program start time:     UTC 2024.12.06 21:14:28.515
+\# Local time: GMT+01:00 (UTC+01:00) 2024.12.06 22:14:28.515
 \o Program:		@(#)$CDS: virtuoso version IC23.1-64b 09/20/2023 08:29 (cpgbld16) $
 \o Hierarchy:		/mnt/cae_storage_sw/eda/cadence/2023-24/RHELx86/IC_23.10.020/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC23.1-64b.ISR2.29  (64-bit addresses)
-\# Command line:	/eda/cadence/2023-24/RHELx86/IC_23.10.020/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost cae-europractice1.othr.de -beanport 11867 -beanbinlog  -beanLogFile /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/amps_Service3.log -mpssession virtuoso1190405 -mpshost cae-europractice1.othr.de -davinciService DaVinciService_1190405_1729093354 -axlSession fnxSession1 -axlServiceIdFlag 3 -uuid a946d232-4445-495b-9b98-9211775f40ba -heartbeat /dev/shm/swift-heartbeat.jGeJqv8fKB -log /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log -adeBrokerAddress cae-europractice1.othr.de:36615 -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D03D0EC7EFC06BC4D66BB9E118E69D9383DB1CC43CF28867C66E3BF1FFC06BC4D66E38F1FFC06BC4D01F399EDEAF4DB5D00001EB7 -interactive -offlineExprEval -upfrontMode -fenixMode explorer -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
+\# Command line:	/eda/cadence/2023-24/RHELx86/IC_23.10.020/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost cae-europractice1.othr.de -beanport 11614 -beanbinlog  -beanLogFile /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/amps_Service3.log -mpssession virtuoso1566856 -mpshost cae-europractice1.othr.de -davinciService DaVinciService_1566856_1733518944 -axlSession fnxSession0 -axlServiceIdFlag 3 -uuid e5628a38-89d7-4253-869b-929d68886ed3 -heartbeat /dev/shm/swift-heartbeat.YrEnEkFTx8 -log /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log -adeBrokerAddress cae-europractice1.othr.de:43781 -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D03D0EC7EFC06BC4D66BB9E118E69D9383DB1CC43CF28867C66E3BF1FFC06BC4D66E38F1FFC06BC4D01B0E62D9534DB1E00001E78 -interactive -offlineExprEval -upfrontMode -fenixMode explorer -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
 \# Host name (type):	cae-europractice1.othr.de (x86_64)
 \# Operating system:	Linux 5.15.0-210.163.7.el8uek.x86_64 #2 SMP Tue Sep 10 18:31:09 PDT 2024
 \# Linux /etc/issue:	\S
 \# Linux /etc/issue:	Kernel \r on an \m
-\# X display name (WxH):	:5838 (1024x868)
+\# X display name (WxH):	:5644 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
 \# X server:			The X.Org Foundation
 \# Depth of Visual (Root):	24 (24)
@@ -18,19 +18,19 @@
 \# 			current id 0x0, current max 0x1ffffa (2097146)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	        701 MB
-\# Available memory:	     25,047 MB
+\# Initial sbrk value:	        683 MB
+\# Available memory:	     25,658 MB
 \# System memory:	     31,807 MB
-\# Maximum memory size:	     31,266 MB
-\# Max mem available:	     25,208 MB
+\# Maximum memory size:	     31,284 MB
+\# Max mem available:	     25,818 MB
 \# Initial memory used:	        160 MB
-\#        process size:	      1,627 MB
+\#        process size:	      1,628 MB
 \# Thread usage limits (effective/default):	maxthreads 127001/127001 maxload 16.00/16.00
 \# Qt version:		5.15.9
 \# Window Manager:	other
 \# User Name:		cae3
 \o Working Directory:	cae-europractice1.othr.de:/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky
-\# Process Id:		1243275
+\# Process Id:		1576381
 \o 
 \o COPYRIGHT (C) 1992-2023  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           (C) 1992-2023  UNIX SYSTEMS Laboratories INC.,
@@ -76,6 +76,7 @@
 \o Loading caa.cxt 
 \o Loading amps.cxt 
 \o Loading adexlCore.cxt 
+\# Memory report: using         284 MB, process size 1,798 MB at UTC 2024.12.06 21:14:32.122
 \o Loading adexl.cxt 
 \o *Info*    Exporting services from client ... 
 \o 
@@ -85,8 +86,17 @@
 \o Loading lp.cxt 
 \o Loading sipLayout.cxt 
 \o INFO (ELI-00333) Client process connection mode is LSCS.
-\# [21:41:40.381796] Configured Lic search path (23.02-s003): 5280@hs-lic3.oth-regensburg.de:27003@hs-lic1.oth-regensburg.de:27003@hs-lic1.oth-regensburg.de:
-\# Memory report: using         325 MB, process size 1,840 MB at UTC 2024.10.16 19:41:44.582
+\# [22:14:28.381852] Configured Lic search path (23.02-s003): 5280@hs-lic3.oth-regensburg.de:27003@hs-lic1.oth-regensburg.de:27003@hs-lic1.oth-regensburg.de:
+\o //
+\o //  Calibre Skill Interface * (v2023.4_17.10) *
+\o //
+\o //                         Copyright Siemens 1996-2020     
+\o //                             All Rights Reserved.
+\o //         THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //            WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //              OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //
 \p > 
 \o Loading tilp.cxt 
 \o Loading validator.cxt 
@@ -95,21 +105,788 @@
 \o Loading exportDie.cxt 
 \# Loading perfDiag...
 \# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
-\# The Health Monitor tool is installed. You can access it from CIW - Tools - Diagnostic Center or use the shell command 'cdsPerfDiag -p 1243275' to open it when Virtuoso freezes.
+\# The Health Monitor tool is installed. You can access it from CIW - Tools - Diagnostic Center or use the shell command 'cdsPerfDiag -p 1576381' to open it when Virtuoso freezes.
 \o Loading diagCenter.cxt 
 \# (PerfDiag): Use backtrace from GLIBC.
 \i _axlRunServices()
-\# [21:41:44.474963] Periodic Lic check successful
-\# [21:41:44.999257] Feature usage summary:
+\# [22:14:36.456376] Periodic Lic check successful
+\# [22:14:36.456378] Feature usage summary:
 \o Loading simui.cxt 
-\o [2024-10-16 21:41:45.032 +0200] [PROCESS] [cadence.virtuoso.ade.services] - Netlist Service has successfully started. Waiting for incoming messages ... {"jobid": "3", "hostname": "cae-europractice1.othr.de", "processid": 1243275, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log"}
-\# Available memory:         25,028 MB at UTC 2024.10.16 19:41:51.081
-\# Memory report: Maximum memory size now 25,438 MB at UTC 2024.10.16 19:41:51.081
-\# Thread usage report: 11 active threads, active load 1.40 at UTC 2024.10.16 19:41:51.081
-\o [2024-10-16 21:46:47.557 +0200] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Netlist Service process exits. {"jobid": "3", "hostname": "cae-europractice1.othr.de", "processid": 1243275, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log"}
+\o [2024-12-06 22:14:36.478 +0100] [PROCESS] [cadence.virtuoso.ade.services] - Netlist Service has successfully started. Waiting for incoming messages ... {"jobid": "3", "hostname": "cae-europractice1.othr.de", "processid": 1576381, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log"}
+\o [2024-12-06 22:14:36.520 +0100] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "3", "history": "ExplorerRun.0", "point": 0, "testname": "ADC_TB_single_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log", "logFileSize": "5510"}
+\# Memory report: using         415 MB, process size 2,313 MB at UTC 2024.12.06 21:14:37.522
+\# Unzipping history /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/TB_single/maestro/history/ExplorerRun.0.zip::historyData.sdb
+\o Loading vqp.cxt 
 \o Loading vdsil.cxt 
+\o *Warning* AXL Context Manager : job 3 is already registered. 
+\o 
+\o Loading hdlPkg.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = ADC
+\o 	Cell         = TB_single
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = ExplorerRun.0
+\o 	Results DB   = /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/TB_single/maestro/results/maestro/ExplorerRun.0.rdb
+\o 	Results Dir  = /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/1/ADC_TB_single_1
+\o 	Results Loc  = /home/cae3/simulation/ADC/TB_single/maestro/results/maestro
+\o 	Project Dir  = /home/cae3/simulation
+\o 	Setup DB loc = /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/TB_single/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading viva.cxt 
+\o Loading sky130_fd_pr_main/libInit.il ...
+\o 	Loading sky130_fd_pr_main/loadCxt.ile ... done!
+\o 	Loading context 'sky130_fd_pr_main' from library 'sky130_fd_pr_main' ... done!
+\o 	Loading context 'pdkUtils' from library 'sky130_fd_pr_main' ... done!
+\o 	Loading sky130_fd_pr_main/display.drf ... done!
+\o 	Loading sky130_fd_pr_main/libInitCktPro.il ... done!
+\o 	Loading sky130_fd_pr_main/libInitCustomExit.il ... 	Loading Environment Settings ...
+\o Loading spectrei.cxt 
+\# Available memory:         25,653 MB at UTC 2024.12.06 21:14:38.002
+\# Memory report: Maximum memory size now 26,117 MB at UTC 2024.12.06 21:14:38.002
+\# Thread usage report: 11 active threads, active load 1.40 at UTC 2024.12.06 21:14:38.002
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o done!
+\o Loaded sky130_fd_pr_main/libInit.il successfully!
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\# Unzipping history /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/TB_single/maestro/history/ExplorerRun.0.zip::historyData.sdb
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Loading elec.cxt 
+\o [2024-12-06 22:14:38.962 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Started preparing netlist {"jobid": "3", "history": "ExplorerRun.0", "point": 0, "testname": "ADC_TB_single_1", "testnameKey": "ADC_TB_single_1", "event": "start", "category": "design-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var n15L = "350n"
+\o Setting var n15W = "700n"
+\o Setting var p15L = "350n"
+\o Setting var p15W = "660n"
+\o Setting var pre_n_L = "900n:100n:1.5u"
+\o Setting var pre_n_W = "420n:50n:600n"
+\o Setting var pre_p_L = "150n"
+\o Setting var pre_p_W = "900n:100:1.5u"
+\o Loading monte.cxt 
+\o Reusing AHDL Data dir
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/psf/ADC_TB_single_1
+\o 
+\o generate netlist...
+\o Loading hnlInit.cxt 
+\o Loading seCore.cxt 
+\o Initializing the control file using cp:
+\o     cp /mnt/cae_storage_sw/eda/cadence/2023-24/RHELx86/IC_23.10.020/tools.lnx86/dfII/etc/si/control.spectre /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/psf/ADC_TB_single_1/netlist/control
+\o Copying Spectre source file 'spectre.inp'
+\o Copying Spectre command file 'spectre.sim'
+\o Begin Incremental Netlisting Dec  6 22:14:39 2024
+\o WARNING (ADE-6003): Terminal "GND", specified in the CDF termOrder, does not exist
+\o            in the cell-view "ADC" "div_fixed" "schematic"
+\o WARNING (ADE-6003): Terminal "IN", specified in the CDF termOrder, does not exist
+\o            in the cell-view "ADC" "div_fixed" "schematic"
+\o WARNING (ADE-6003): Terminal "OUT", specified in the CDF termOrder, does not exist
+\o            in the cell-view "ADC" "div_fixed" "schematic"
+\o WARNING (ADE-6004): Mismatch was found between the terminals in the cellView and those on the
+\o            termOrder property on the CDF. Because of the mismatch, the CDF termOrder will
+\o            be ignored. The terminals in the cellView will be netlisted in the alphabetical
+\o            order of their names. Eliminate the mismatch if you want the CDF termOrder
+\o            property to be used for netlisting.
+\o            To edit CDF of a cell, 
+\o            i) Open CIW->Tools->CDF->Edit.
+\o            ii) Select Library Name & Cell Name.
+\o            iii) Click on the Edit button in the simulation information section of the
+\o                 Edit CDF window.
+\o Loading json.cxt 
+\o End netlisting Dec  6 22:14:39 2024
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   71
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 4
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-12-06 22:14:39.966 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished preparing netlist {"jobid": "3", "history": "ExplorerRun.0", "point": 0, "testname": "ADC_TB_single_1", "testnameKey": "ADC_TB_single_1", "event": "finish", "category": "design-netlist"}
+\o [2024-12-06 22:14:42.015 +0100] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "3", "history": "ExplorerRun.0", "point": 1, "testname": "ADC_TB_single_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log", "logFileSize": "7978"}
+\o [2024-12-06 22:14:42.016 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 1, "testname": "ADC_TB_single_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var n15L = "350n"
+\o Setting var n15W = "700n"
+\o Setting var p15L = "350n"
+\o Setting var p15W = "660n"
+\o Setting var pre_n_L = "900n"
+\o Setting var pre_n_W = "420n"
+\o Setting var pre_p_L = "150n"
+\o Setting var pre_p_W = "900n"
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/1/ADC_TB_single_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/1/ADC_TB_single_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\# Memory report: using         526 MB, process size 2,426 MB at UTC 2024.12.06 21:14:44.200
+\o [2024-12-06 22:14:44.199 +0100] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 842.5391 MBytes, peak memory used: 842.5391 MBytes {"jobid": "3", "hostname": "cae-europractice1.othr.de", "processid": 1576381, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "point": 1, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log"}
+\o [2024-12-06 22:14:44.201 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 1, "testname": "ADC_TB_single_1", "event": "finish", "category": "point-netlist"}
+\o [2024-12-06 22:14:45.209 +0100] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "3", "history": "ExplorerRun.0", "point": 2, "testname": "ADC_TB_single_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log", "logFileSize": "13828"}
+\o [2024-12-06 22:14:45.209 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 2, "testname": "ADC_TB_single_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var pre_n_W = "470n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/2/ADC_TB_single_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/2/ADC_TB_single_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-12-06 22:14:46.906 +0100] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 842.9688 MBytes, peak memory used: 842.9688 MBytes {"jobid": "3", "hostname": "cae-europractice1.othr.de", "processid": 1576381, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "point": 2, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log"}
+\o [2024-12-06 22:14:46.907 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 2, "testname": "ADC_TB_single_1", "event": "finish", "category": "point-netlist"}
+\o [2024-12-06 22:14:47.911 +0100] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "3", "history": "ExplorerRun.0", "point": 3, "testname": "ADC_TB_single_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log", "logFileSize": "15705"}
+\o [2024-12-06 22:14:47.911 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 3, "testname": "ADC_TB_single_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var pre_n_W = "520n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/3/ADC_TB_single_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/3/ADC_TB_single_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-12-06 22:14:49.720 +0100] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 843.7422 MBytes, peak memory used: 843.7422 MBytes {"jobid": "3", "hostname": "cae-europractice1.othr.de", "processid": 1576381, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "point": 3, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log"}
+\o [2024-12-06 22:14:49.721 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 3, "testname": "ADC_TB_single_1", "event": "finish", "category": "point-netlist"}
+\o [2024-12-06 22:14:50.725 +0100] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "3", "history": "ExplorerRun.0", "point": 4, "testname": "ADC_TB_single_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log", "logFileSize": "17582"}
+\o [2024-12-06 22:14:50.725 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 4, "testname": "ADC_TB_single_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var pre_n_W = "570n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/4/ADC_TB_single_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/4/ADC_TB_single_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-12-06 22:14:52.521 +0100] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 845.0312 MBytes, peak memory used: 845.0312 MBytes {"jobid": "3", "hostname": "cae-europractice1.othr.de", "processid": 1576381, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "point": 4, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log"}
+\o [2024-12-06 22:14:52.523 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 4, "testname": "ADC_TB_single_1", "event": "finish", "category": "point-netlist"}
+\o [2024-12-06 22:14:53.527 +0100] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "3", "history": "ExplorerRun.0", "point": 5, "testname": "ADC_TB_single_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log", "logFileSize": "19459"}
+\o [2024-12-06 22:14:53.527 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 5, "testname": "ADC_TB_single_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var pre_n_L = "1u"
+\o Setting var pre_n_W = "420n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/5/ADC_TB_single_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/5/ADC_TB_single_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-12-06 22:14:55.390 +0100] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 847.0938 MBytes, peak memory used: 847.0938 MBytes {"jobid": "3", "hostname": "cae-europractice1.othr.de", "processid": 1576381, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "point": 5, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log"}
+\o [2024-12-06 22:14:55.391 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 5, "testname": "ADC_TB_single_1", "event": "finish", "category": "point-netlist"}
+\o [2024-12-06 22:14:56.397 +0100] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "3", "history": "ExplorerRun.0", "point": 6, "testname": "ADC_TB_single_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log", "logFileSize": "21366"}
+\o [2024-12-06 22:14:56.398 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 6, "testname": "ADC_TB_single_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var pre_n_W = "470n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/6/ADC_TB_single_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/6/ADC_TB_single_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-12-06 22:14:58.091 +0100] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 847.0938 MBytes, peak memory used: 847.0938 MBytes {"jobid": "3", "hostname": "cae-europractice1.othr.de", "processid": 1576381, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "point": 6, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log"}
+\o [2024-12-06 22:14:58.092 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 6, "testname": "ADC_TB_single_1", "event": "finish", "category": "point-netlist"}
+\o [2024-12-06 22:14:59.103 +0100] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "3", "history": "ExplorerRun.0", "point": 7, "testname": "ADC_TB_single_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log", "logFileSize": "23243"}
+\o [2024-12-06 22:14:59.104 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 7, "testname": "ADC_TB_single_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var pre_n_W = "520n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/7/ADC_TB_single_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/7/ADC_TB_single_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-12-06 22:15:00.699 +0100] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 847.0938 MBytes, peak memory used: 847.0938 MBytes {"jobid": "3", "hostname": "cae-europractice1.othr.de", "processid": 1576381, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "point": 7, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log"}
+\o [2024-12-06 22:15:00.699 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 7, "testname": "ADC_TB_single_1", "event": "finish", "category": "point-netlist"}
+\o [2024-12-06 22:15:01.709 +0100] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "3", "history": "ExplorerRun.0", "point": 8, "testname": "ADC_TB_single_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log", "logFileSize": "25120"}
+\o [2024-12-06 22:15:01.709 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 8, "testname": "ADC_TB_single_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var pre_n_W = "570n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/8/ADC_TB_single_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/8/ADC_TB_single_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-12-06 22:15:03.268 +0100] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 847.0938 MBytes, peak memory used: 847.0938 MBytes {"jobid": "3", "hostname": "cae-europractice1.othr.de", "processid": 1576381, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "point": 8, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log"}
+\o [2024-12-06 22:15:03.269 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 8, "testname": "ADC_TB_single_1", "event": "finish", "category": "point-netlist"}
+\o [2024-12-06 22:15:04.275 +0100] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "3", "history": "ExplorerRun.0", "point": 9, "testname": "ADC_TB_single_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log", "logFileSize": "26997"}
+\o [2024-12-06 22:15:04.275 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 9, "testname": "ADC_TB_single_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var pre_n_L = "1.1u"
+\o Setting var pre_n_W = "420n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/9/ADC_TB_single_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/9/ADC_TB_single_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-12-06 22:15:06.047 +0100] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 847.0938 MBytes, peak memory used: 847.0938 MBytes {"jobid": "3", "hostname": "cae-europractice1.othr.de", "processid": 1576381, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "point": 9, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log"}
+\o [2024-12-06 22:15:06.048 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 9, "testname": "ADC_TB_single_1", "event": "finish", "category": "point-netlist"}
+\o [2024-12-06 22:15:07.064 +0100] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "3", "history": "ExplorerRun.0", "point": 10, "testname": "ADC_TB_single_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log", "logFileSize": "28906"}
+\o [2024-12-06 22:15:07.065 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 10, "testname": "ADC_TB_single_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var pre_n_W = "470n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/10/ADC_TB_single_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/10/ADC_TB_single_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-12-06 22:15:08.965 +0100] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 847.0938 MBytes, peak memory used: 847.1758 MBytes {"jobid": "3", "hostname": "cae-europractice1.othr.de", "processid": 1576381, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "point": 10, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log"}
+\o [2024-12-06 22:15:08.966 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 10, "testname": "ADC_TB_single_1", "event": "finish", "category": "point-netlist"}
+\o [2024-12-06 22:15:09.971 +0100] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "3", "history": "ExplorerRun.0", "point": 11, "testname": "ADC_TB_single_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log", "logFileSize": "30789"}
+\o [2024-12-06 22:15:09.971 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 11, "testname": "ADC_TB_single_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var pre_n_W = "520n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/11/ADC_TB_single_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/11/ADC_TB_single_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-12-06 22:15:11.849 +0100] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 847.4102 MBytes, peak memory used: 847.4102 MBytes {"jobid": "3", "hostname": "cae-europractice1.othr.de", "processid": 1576381, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "point": 11, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log"}
+\o [2024-12-06 22:15:11.849 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 11, "testname": "ADC_TB_single_1", "event": "finish", "category": "point-netlist"}
+\o [2024-12-06 22:15:12.854 +0100] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "3", "history": "ExplorerRun.0", "point": 12, "testname": "ADC_TB_single_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log", "logFileSize": "32672"}
+\o [2024-12-06 22:15:12.854 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 12, "testname": "ADC_TB_single_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var pre_n_W = "570n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/12/ADC_TB_single_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/12/ADC_TB_single_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-12-06 22:15:14.653 +0100] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 848.1836 MBytes, peak memory used: 848.1836 MBytes {"jobid": "3", "hostname": "cae-europractice1.othr.de", "processid": 1576381, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "point": 12, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log"}
+\o [2024-12-06 22:15:14.654 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 12, "testname": "ADC_TB_single_1", "event": "finish", "category": "point-netlist"}
+\o [2024-12-06 22:15:15.660 +0100] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "3", "history": "ExplorerRun.0", "point": 13, "testname": "ADC_TB_single_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log", "logFileSize": "34555"}
+\o [2024-12-06 22:15:15.660 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 13, "testname": "ADC_TB_single_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var pre_n_L = "1.2u"
+\o Setting var pre_n_W = "420n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/13/ADC_TB_single_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/13/ADC_TB_single_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-12-06 22:15:17.384 +0100] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 848.9570 MBytes, peak memory used: 848.9570 MBytes {"jobid": "3", "hostname": "cae-europractice1.othr.de", "processid": 1576381, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "point": 13, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log"}
+\o [2024-12-06 22:15:17.384 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 13, "testname": "ADC_TB_single_1", "event": "finish", "category": "point-netlist"}
+\o [2024-12-06 22:15:18.388 +0100] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "3", "history": "ExplorerRun.0", "point": 14, "testname": "ADC_TB_single_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log", "logFileSize": "36470"}
+\o [2024-12-06 22:15:18.389 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 14, "testname": "ADC_TB_single_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var pre_n_W = "470n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/14/ADC_TB_single_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/14/ADC_TB_single_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-12-06 22:15:20.044 +0100] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 850.2461 MBytes, peak memory used: 850.2461 MBytes {"jobid": "3", "hostname": "cae-europractice1.othr.de", "processid": 1576381, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "point": 14, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log"}
+\o [2024-12-06 22:15:20.045 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 14, "testname": "ADC_TB_single_1", "event": "finish", "category": "point-netlist"}
+\o [2024-12-06 22:15:21.048 +0100] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "3", "history": "ExplorerRun.0", "point": 15, "testname": "ADC_TB_single_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log", "logFileSize": "38353"}
+\o [2024-12-06 22:15:21.049 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 15, "testname": "ADC_TB_single_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var pre_n_W = "520n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/15/ADC_TB_single_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/15/ADC_TB_single_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-12-06 22:15:22.784 +0100] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 851.2773 MBytes, peak memory used: 851.2773 MBytes {"jobid": "3", "hostname": "cae-europractice1.othr.de", "processid": 1576381, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "point": 15, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log"}
+\o [2024-12-06 22:15:22.784 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 15, "testname": "ADC_TB_single_1", "event": "finish", "category": "point-netlist"}
+\o [2024-12-06 22:15:23.788 +0100] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "3", "history": "ExplorerRun.0", "point": 16, "testname": "ADC_TB_single_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log", "logFileSize": "40236"}
+\o [2024-12-06 22:15:23.789 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 16, "testname": "ADC_TB_single_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var pre_n_W = "570n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/16/ADC_TB_single_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/16/ADC_TB_single_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-12-06 22:15:25.723 +0100] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 853.0820 MBytes, peak memory used: 853.0820 MBytes {"jobid": "3", "hostname": "cae-europractice1.othr.de", "processid": 1576381, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "point": 16, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log"}
+\o [2024-12-06 22:15:25.724 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 16, "testname": "ADC_TB_single_1", "event": "finish", "category": "point-netlist"}
+\o [2024-12-06 22:15:26.730 +0100] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "3", "history": "ExplorerRun.0", "point": 17, "testname": "ADC_TB_single_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log", "logFileSize": "42119"}
+\o [2024-12-06 22:15:26.730 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 17, "testname": "ADC_TB_single_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var pre_n_L = "1.3u"
+\o Setting var pre_n_W = "420n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/17/ADC_TB_single_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/17/ADC_TB_single_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-12-06 22:15:28.483 +0100] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 853.0820 MBytes, peak memory used: 853.0820 MBytes {"jobid": "3", "hostname": "cae-europractice1.othr.de", "processid": 1576381, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "point": 17, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log"}
+\o [2024-12-06 22:15:28.484 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 17, "testname": "ADC_TB_single_1", "event": "finish", "category": "point-netlist"}
+\o [2024-12-06 22:15:29.493 +0100] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "3", "history": "ExplorerRun.0", "point": 18, "testname": "ADC_TB_single_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log", "logFileSize": "44034"}
+\o [2024-12-06 22:15:29.493 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 18, "testname": "ADC_TB_single_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var pre_n_W = "470n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/18/ADC_TB_single_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/18/ADC_TB_single_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-12-06 22:15:31.333 +0100] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 853.0820 MBytes, peak memory used: 853.0820 MBytes {"jobid": "3", "hostname": "cae-europractice1.othr.de", "processid": 1576381, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "point": 18, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log"}
+\o [2024-12-06 22:15:31.335 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 18, "testname": "ADC_TB_single_1", "event": "finish", "category": "point-netlist"}
+\o [2024-12-06 22:15:32.342 +0100] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "3", "history": "ExplorerRun.0", "point": 19, "testname": "ADC_TB_single_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log", "logFileSize": "45917"}
+\o [2024-12-06 22:15:32.342 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 19, "testname": "ADC_TB_single_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var pre_n_W = "520n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/19/ADC_TB_single_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/19/ADC_TB_single_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-12-06 22:15:34.210 +0100] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 853.0820 MBytes, peak memory used: 853.0820 MBytes {"jobid": "3", "hostname": "cae-europractice1.othr.de", "processid": 1576381, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "point": 19, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log"}
+\o [2024-12-06 22:15:34.211 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 19, "testname": "ADC_TB_single_1", "event": "finish", "category": "point-netlist"}
+\o [2024-12-06 22:15:35.221 +0100] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "3", "history": "ExplorerRun.0", "point": 20, "testname": "ADC_TB_single_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log", "logFileSize": "47800"}
+\o [2024-12-06 22:15:35.222 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 20, "testname": "ADC_TB_single_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var pre_n_W = "570n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/20/ADC_TB_single_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/20/ADC_TB_single_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-12-06 22:15:36.799 +0100] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 853.0820 MBytes, peak memory used: 853.0820 MBytes {"jobid": "3", "hostname": "cae-europractice1.othr.de", "processid": 1576381, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "point": 20, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log"}
+\o [2024-12-06 22:15:36.800 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 20, "testname": "ADC_TB_single_1", "event": "finish", "category": "point-netlist"}
+\o [2024-12-06 22:15:37.805 +0100] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "3", "history": "ExplorerRun.0", "point": 21, "testname": "ADC_TB_single_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log", "logFileSize": "49683"}
+\o [2024-12-06 22:15:37.805 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 21, "testname": "ADC_TB_single_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var pre_n_L = "1.4u"
+\o Setting var pre_n_W = "420n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/21/ADC_TB_single_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/21/ADC_TB_single_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-12-06 22:15:39.659 +0100] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 853.0820 MBytes, peak memory used: 853.0820 MBytes {"jobid": "3", "hostname": "cae-europractice1.othr.de", "processid": 1576381, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "point": 21, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log"}
+\o [2024-12-06 22:15:39.659 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 21, "testname": "ADC_TB_single_1", "event": "finish", "category": "point-netlist"}
+\o [2024-12-06 22:15:40.663 +0100] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "3", "history": "ExplorerRun.0", "point": 22, "testname": "ADC_TB_single_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log", "logFileSize": "51598"}
+\o [2024-12-06 22:15:40.663 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 22, "testname": "ADC_TB_single_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var pre_n_W = "470n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/22/ADC_TB_single_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/22/ADC_TB_single_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-12-06 22:15:42.258 +0100] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 853.0820 MBytes, peak memory used: 853.0820 MBytes {"jobid": "3", "hostname": "cae-europractice1.othr.de", "processid": 1576381, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "point": 22, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log"}
+\o [2024-12-06 22:15:42.259 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 22, "testname": "ADC_TB_single_1", "event": "finish", "category": "point-netlist"}
+\o [2024-12-06 22:15:43.265 +0100] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "3", "history": "ExplorerRun.0", "point": 23, "testname": "ADC_TB_single_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log", "logFileSize": "53481"}
+\o [2024-12-06 22:15:43.265 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 23, "testname": "ADC_TB_single_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var pre_n_W = "520n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/23/ADC_TB_single_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/23/ADC_TB_single_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-12-06 22:15:44.972 +0100] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 853.0820 MBytes, peak memory used: 853.0820 MBytes {"jobid": "3", "hostname": "cae-europractice1.othr.de", "processid": 1576381, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "point": 23, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log"}
+\o [2024-12-06 22:15:44.973 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 23, "testname": "ADC_TB_single_1", "event": "finish", "category": "point-netlist"}
+\o [2024-12-06 22:15:45.977 +0100] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "3", "history": "ExplorerRun.0", "point": 24, "testname": "ADC_TB_single_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log", "logFileSize": "55364"}
+\o [2024-12-06 22:15:45.977 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 24, "testname": "ADC_TB_single_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var pre_n_W = "570n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/24/ADC_TB_single_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/24/ADC_TB_single_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-12-06 22:15:47.669 +0100] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 853.0820 MBytes, peak memory used: 853.0820 MBytes {"jobid": "3", "hostname": "cae-europractice1.othr.de", "processid": 1576381, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "point": 24, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log"}
+\o [2024-12-06 22:15:47.670 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 24, "testname": "ADC_TB_single_1", "event": "finish", "category": "point-netlist"}
+\o [2024-12-06 22:15:48.674 +0100] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "3", "history": "ExplorerRun.0", "point": 25, "testname": "ADC_TB_single_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log", "logFileSize": "57247"}
+\o [2024-12-06 22:15:48.674 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 25, "testname": "ADC_TB_single_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var pre_n_L = "1.5u"
+\o Setting var pre_n_W = "420n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/25/ADC_TB_single_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/25/ADC_TB_single_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-12-06 22:15:50.531 +0100] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 853.0820 MBytes, peak memory used: 853.0820 MBytes {"jobid": "3", "hostname": "cae-europractice1.othr.de", "processid": 1576381, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "point": 25, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log"}
+\o [2024-12-06 22:15:50.532 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 25, "testname": "ADC_TB_single_1", "event": "finish", "category": "point-netlist"}
+\o [2024-12-06 22:15:51.535 +0100] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "3", "history": "ExplorerRun.0", "point": 26, "testname": "ADC_TB_single_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log", "logFileSize": "59162"}
+\o [2024-12-06 22:15:51.536 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 26, "testname": "ADC_TB_single_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var pre_n_W = "470n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/26/ADC_TB_single_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/26/ADC_TB_single_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-12-06 22:15:53.135 +0100] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 853.0820 MBytes, peak memory used: 853.0820 MBytes {"jobid": "3", "hostname": "cae-europractice1.othr.de", "processid": 1576381, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "point": 26, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log"}
+\o [2024-12-06 22:15:53.136 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 26, "testname": "ADC_TB_single_1", "event": "finish", "category": "point-netlist"}
+\o [2024-12-06 22:15:54.140 +0100] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "3", "history": "ExplorerRun.0", "point": 27, "testname": "ADC_TB_single_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log", "logFileSize": "61045"}
+\o [2024-12-06 22:15:54.140 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 27, "testname": "ADC_TB_single_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var pre_n_W = "520n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/27/ADC_TB_single_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/27/ADC_TB_single_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-12-06 22:15:55.870 +0100] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 853.0820 MBytes, peak memory used: 853.0820 MBytes {"jobid": "3", "hostname": "cae-europractice1.othr.de", "processid": 1576381, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "point": 27, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log"}
+\o [2024-12-06 22:15:55.871 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 27, "testname": "ADC_TB_single_1", "event": "finish", "category": "point-netlist"}
+\o [2024-12-06 22:15:56.874 +0100] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "3", "history": "ExplorerRun.0", "point": 28, "testname": "ADC_TB_single_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log", "logFileSize": "62928"}
+\o [2024-12-06 22:15:56.875 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 28, "testname": "ADC_TB_single_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var pre_n_W = "570n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/28/ADC_TB_single_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/28/ADC_TB_single_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-12-06 22:15:58.763 +0100] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 853.0820 MBytes, peak memory used: 853.0820 MBytes {"jobid": "3", "hostname": "cae-europractice1.othr.de", "processid": 1576381, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "point": 28, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log"}
+\o [2024-12-06 22:15:58.764 +0100] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "3", "history": "ExplorerRun.0", "point": 28, "testname": "ADC_TB_single_1", "event": "finish", "category": "point-netlist"}
+\o [2024-12-06 22:21:00.518 +0100] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Netlist Service process exits. {"jobid": "3", "hostname": "cae-europractice1.othr.de", "processid": 1576381, "history": "ExplorerRun.0", "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service3.log"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
 \# Lic Summary:
-\# [21:46:48.054433] Cdslmd servers:5280@hs-lic3.oth-regensburg.de:27003@hs-lic1.oth-regensburg.de:27003@hs-lic1.oth-regensburg.de:
-\# [21:46:48.578762] Feature usage summary:
-\# Memory report: on exit            402 MB, process size 2,301 MB at UTC 2024.10.16 19:46:48.578
-\# Memory report: peak usage         410 MB, process size 2,309 MB
+\# [22:21:01.055978] Cdslmd servers:5280@hs-lic3.oth-regensburg.de:27003@hs-lic1.oth-regensburg.de:27003@hs-lic1.oth-regensburg.de:
+\# [22:21:01.580315] Feature usage summary:
+\# Memory report: on exit            529 MB, process size 2,429 MB at UTC 2024.12.06 21:21:01.580
+\# Memory report: peak usage         537 MB, process size 2,437 MB

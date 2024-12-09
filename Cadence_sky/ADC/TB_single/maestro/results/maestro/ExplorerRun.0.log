@@ -1,6 +1,6 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Fri Nov  8 12:57:55 2024 
+Current time: Sat Dec  7 18:47:51 2024 
 Best design point: 1
 Design specs: 
 	ADC_TB_single_1	corner	Nominal - 
@@ -10,4 +10,4 @@ ExplorerRun.0
 Number of points completed: 1
 Number of simulation errors: 0
 ExplorerRun.0 completed. 
-Current time: Fri Nov  8 12:58:23 2024 
+Current time: Sat Dec  7 18:48:19 2024 
