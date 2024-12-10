@@ -11,95 +11,100 @@ module therm_tb ();
 		.b(b), .Y(Y), .clk(clk), .rst(rst)
 	);
 	// clock generation
-	alwayes #5 clk = ~clk;
+	initial begin 
+		clk = 0;
+		forever begin  
+			#10 clk=~clk; 
+		end 
+	end
 
 	// test sequences
 	initial begin
 		// initialize signals
-		clk = 0;
-		rst = 0;
+		//clk = 0;
+		rst = 1;
 
 		// release reset
-		#10 rst = 0;
+		#30 rst = 0;
 
 		// test case0
 		Y = 15'b111111111111111;
-		#10;
+		#30;
 		$display("Input: %b, Output: %b, Clock: %b, Reset: %b", Y, b, clk, rst);
 
 		// test case1
 		Y = 15'b111111111111110;
-		#10;
+		#30;
 		$display("Input: %b, Output: %b, Clock: %b, Reset: %b", Y, b, clk, rst);
 
 		// test case2
 		Y = 15'b111111111111100;
-		#10;
+		#30;
 		$display("Input: %b, Output: %b, Clock: %b, Reset: %b", Y, b, clk, rst);
 
 		// test case3
 		Y = 15'b111111111111000;
-		#10;
+		#30;
 		$display("Input: %b, Output: %b, Clock: %b, Reset: %b", Y, b, clk, rst);
 
 		// test case4
 		Y = 15'b111111111110000;
-		#10;
+		#30;
 		$display("Input: %b, Output: %b, Clock: %b, Reset: %b", Y, b, clk, rst);
 
 		// test case5
 		Y = 15'b111111111100000;
-		#10;
+		#30;
 		$display("Input: %b, Output: %b, Clock: %b, Reset: %b", Y, b, clk, rst);
 
 		// test case6
 		Y = 15'b111111111000000;
-		#10;
+		#30;
 		$display("Input: %b, Output: %b, Clock: %b, Reset: %b", Y, b, clk, rst);
 
 		// test case7
 		Y = 15'b111111110000000;
-		#10;
+		#30;
 		$display("Input: %b, Output: %b, Clock: %b, Reset: %b", Y, b, clk, rst);
 
 		// test case8
 		Y = 15'b111111100000000;
-		#10;
+		#30;
 		$display("Input: %b, Output: %b, Clock: %b, Reset: %b", Y, b, clk, rst);
 
 		// test case9
 		Y = 15'b111111000000000;
-		#10;
+		#30;
 		$display("Input: %b, Output: %b, Clock: %b, Reset: %b", Y, b, clk, rst);
 
 		// test case10
 		Y = 15'b111110000000000;
-		#10;
+		#30;
 		$display("Input: %b, Output: %b, Clock: %b, Reset: %b", Y, b, clk, rst);
 
 		// test case11
 		Y = 15'b111100000000000;
-		#10;
+		#30;
 		$display("Input: %b, Output: %b, Clock: %b, Reset: %b", Y, b, clk, rst);
 
 		// test case12
 		Y = 15'b111000000000000;
-		#10;
+		#30;
 		$display("Input: %b, Output: %b, Clock: %b, Reset: %b", Y, b, clk, rst);
 
 		// test case13
 		Y = 15'b110000000000000;
-		#10;
+		#30;
 		$display("Input: %b, Output: %b, Clock: %b, Reset: %b", Y, b, clk, rst);
 
 		// test case14
 		Y = 15'b100000000000000;
-		#10;
+		#30;
 		$display("Input: %b, Output: %b, Clock: %b, Reset: %b", Y, b, clk, rst);
 
 		// test case15
 		Y = 15'b000000000000000;
-		#10;
+		#30;
 		$display("Input: %b, Output: %b, Clock: %b, Reset: %b", Y, b, clk, rst);
 		
 		$finish;
