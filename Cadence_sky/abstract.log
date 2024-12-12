@@ -24,44 +24,88 @@ INFO (ABS-20049): The layer dPoly_licon_ouRpm, defined in the spacingTables sect
 INFO (ABS-20049): The layer dLicon_Diff_oTap, defined in the spacingTables section of the foundry constraint group, is also defined in the techDerivedLayers section of the technology file. The abstract generator does not support derived layers and this layer will, therefore, be ignored. As a result, the abstracts generated will not have any shape on this layer.
 INFO (ABS-20049): The layer dPoly_licon, defined in the spacingTables section of the foundry constraint group, is also defined in the techDerivedLayers section of the technology file. The abstract generator does not support derived layers and this layer will, therefore, be ignored. As a result, the abstracts generated will not have any shape on this layer.
 INFO (ABS-10503): Loading options for library ADC from file /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/.abstract/ADC/.abstract.options.
-INFO (ABS-10501): Library ADC Loading 49 cells
-INFO (ABS-10502): Library ADC Loaded 49 cells
+INFO (ABS-10501): Library ADC Loading 48 cells
+INFO (ABS-10502): Library ADC Loaded 48 cells
 INFO (ABS-10507): Library ADC opened
 INFO (ABS-10509): Saving existing options file for library ADC to /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/.abstract/ADC/.abstract.options.prev
 INFO (ABS-10511): Saving current option settings for library ADC to the file /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/.abstract/ADC/.abstract.options.
 INFO (ABS-11900): Cell pre_therm: Step Pins started
 INFO (ABS-12015): Cell pre_therm: The PR boundary does not enclose all cellview geometries. This is because not all layers with geometry for calculating PR boundary have been specified in the "Using geometry on layers" field on the "Boundary" tab. Ensure that all the required layers have been specified in this field.
 INFO (ABS-12042): Cell pre_therm: Deleting nets and terminals with no pins because these are not relevant for layout tools.
-INFO (ABS-12001): Cell pre_therm: There are 19 existing terminals. No pins will be added for them.
+*WARNING* (ABS-12027): Cell pre_therm: the existing terminal Y12 specified in the "Exclude existing pins on layers" field does not have have any pin shape. This terminal will be deleted. The equivalent terminal will be created based on the value specified in the "Map text labels to pins" field on the "Map" tab.
+INFO (ABS-12001): Cell pre_therm: There are 17 existing terminals. No pins will be added for them.
 INFO (ABS-12002): Cell pre_therm: No terminals have been created. Use the Map text labels to pins option in the Map tab of the Pins step to define cell pins.
 INFO (ABS-11901): Cell pre_therm: Step Pins finished
 INFO (ABS-10509): Saving existing options file for library ADC to /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/.abstract/ADC/.abstract.options.prev
 INFO (ABS-10511): Saving current option settings for library ADC to the file /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/.abstract/ADC/.abstract.options.
 INFO (ABS-11900): Cell pre_therm: Step Extract started
-INFO (ABS-13002): Cell pre_therm: extracting 19 nets
-INFO (ABS-13004): Cell pre_therm: extracting the net Y01, 1 of 19.
-INFO (ABS-13004): Cell pre_therm: extracting the net IN, 2 of 19.
-INFO (ABS-13004): Cell pre_therm: extracting the net Y02, 3 of 19.
-INFO (ABS-13004): Cell pre_therm: extracting the net preampF1, 4 of 19.
-INFO (ABS-13004): Cell pre_therm: extracting the net Y03, 5 of 19.
-INFO (ABS-13004): Cell pre_therm: extracting the net Y04, 6 of 19.
-INFO (ABS-13004): Cell pre_therm: extracting the net Y05, 7 of 19.
-INFO (ABS-13004): Cell pre_therm: extracting the net Y06, 8 of 19.
-INFO (ABS-13004): Cell pre_therm: extracting the net Y07, 9 of 19.
-INFO (ABS-13004): Cell pre_therm: extracting the net Y08, 10 of 19.
-INFO (ABS-13004): Cell pre_therm: extracting the net Y09, 11 of 19.
-INFO (ABS-13004): Cell pre_therm: extracting the net Y10, 12 of 19.
-INFO (ABS-13004): Cell pre_therm: extracting the net Y11, 13 of 19.
-INFO (ABS-13004): Cell pre_therm: extracting the net Y12, 14 of 19.
-INFO (ABS-13004): Cell pre_therm: extracting the net Y13, 15 of 19.
-INFO (ABS-13004): Cell pre_therm: extracting the net Y14, 16 of 19.
-INFO (ABS-13004): Cell pre_therm: extracting the net Y15, 17 of 19.
+INFO (ABS-13002): Cell pre_therm: extracting 17 nets
+INFO (ABS-13004): Cell pre_therm: extracting the net Y15, 1 of 17.
+INFO (ABS-13004): Cell pre_therm: extracting the net Y14, 2 of 17.
+INFO (ABS-13004): Cell pre_therm: extracting the net Y13, 3 of 17.
+INFO (ABS-13011): Cell pre_therm: the must join terminal Y13_mj1 has been created.
+INFO (ABS-13004): Cell pre_therm: extracting the net Y11, 4 of 17.
+INFO (ABS-13004): Cell pre_therm: extracting the net Y10, 5 of 17.
+INFO (ABS-13004): Cell pre_therm: extracting the net Y09, 6 of 17.
+INFO (ABS-13004): Cell pre_therm: extracting the net Y08, 7 of 17.
+INFO (ABS-13004): Cell pre_therm: extracting the net Y07, 8 of 17.
+INFO (ABS-13004): Cell pre_therm: extracting the net Y06, 9 of 17.
+INFO (ABS-13004): Cell pre_therm: extracting the net Y05, 10 of 17.
+INFO (ABS-13004): Cell pre_therm: extracting the net Y04, 11 of 17.
+INFO (ABS-13004): Cell pre_therm: extracting the net Y03, 12 of 17.
+INFO (ABS-13004): Cell pre_therm: extracting the net Y02, 13 of 17.
+INFO (ABS-13004): Cell pre_therm: extracting the net Y01, 14 of 17.
+INFO (ABS-13004): Cell pre_therm: extracting the net IN, 15 of 17.
 INFO (ABS-12052): Cell pre_therm: Extracting Power nets. Checking for shorts, if any. Once short detection is complete, the individual progress of net extraction will be reported.
-INFO (ABS-12054): Cell pre_therm: Checking short for power net VDD, 18 of 19.
-INFO (ABS-12054): Cell pre_therm: Checking short for power net VSS, 19 of 19.
+INFO (ABS-12054): Cell pre_therm: Checking short for power net VSS, 17 of 18.
+INFO (ABS-12054): Cell pre_therm: Checking short for power net VDD, 18 of 18.
 INFO (ABS-12053): Cell pre_therm: The power nets do not have any shorts.
-INFO (ABS-13004): Cell pre_therm: extracting the net VDD, 18 of 19.
-INFO (ABS-13004): Cell pre_therm: extracting the net VSS, 19 of 19.
+INFO (ABS-13004): Cell pre_therm: extracting the net VSS, 17 of 18.
+INFO (ABS-13004): Cell pre_therm: extracting the net VDD, 18 of 18.
+INFO (ABS-11901): Cell pre_therm: Step Extract finished
+INFO (ABS-10509): Saving existing options file for library ADC to /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/.abstract/ADC/.abstract.options.prev
+INFO (ABS-10511): Saving current option settings for library ADC to the file /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/.abstract/ADC/.abstract.options.
+INFO (ABS-11900): Cell pre_therm: Step Pins started
+INFO (ABS-12015): Cell pre_therm: The PR boundary does not enclose all cellview geometries. This is because not all layers with geometry for calculating PR boundary have been specified in the "Using geometry on layers" field on the "Boundary" tab. Ensure that all the required layers have been specified in this field.
+INFO (ABS-12042): Cell pre_therm: Deleting nets and terminals with no pins because these are not relevant for layout tools.
+*WARNING* (ABS-12027): Cell pre_therm: the existing terminal Y12 specified in the "Exclude existing pins on layers" field does not have have any pin shape. This terminal will be deleted. The equivalent terminal will be created based on the value specified in the "Map text labels to pins" field on the "Map" tab.
+INFO (ABS-12001): Cell pre_therm: There are 17 existing terminals. No pins will be added for them.
+INFO (ABS-12002): Cell pre_therm: No terminals have been created. Use the Map text labels to pins option in the Map tab of the Pins step to define cell pins.
+INFO (ABS-11901): Cell pre_therm: Step Pins finished
+INFO (ABS-10509): Saving existing options file for library ADC to /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/.abstract/ADC/.abstract.options.prev
+INFO (ABS-10511): Saving current option settings for library ADC to the file /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/.abstract/ADC/.abstract.options.
+INFO (ABS-11900): Cell pre_therm: Step Pins started
+INFO (ABS-12015): Cell pre_therm: The PR boundary does not enclose all cellview geometries. This is because not all layers with geometry for calculating PR boundary have been specified in the "Using geometry on layers" field on the "Boundary" tab. Ensure that all the required layers have been specified in this field.
+INFO (ABS-12042): Cell pre_therm: Deleting nets and terminals with no pins because these are not relevant for layout tools.
+INFO (ABS-12001): Cell pre_therm: There are 18 existing terminals. No pins will be added for them.
+INFO (ABS-12002): Cell pre_therm: No terminals have been created. Use the Map text labels to pins option in the Map tab of the Pins step to define cell pins.
+INFO (ABS-11901): Cell pre_therm: Step Pins finished
+INFO (ABS-10509): Saving existing options file for library ADC to /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/.abstract/ADC/.abstract.options.prev
+INFO (ABS-10511): Saving current option settings for library ADC to the file /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/.abstract/ADC/.abstract.options.
+INFO (ABS-11900): Cell pre_therm: Step Extract started
+INFO (ABS-13002): Cell pre_therm: extracting 18 nets
+INFO (ABS-13004): Cell pre_therm: extracting the net Y15, 1 of 18.
+INFO (ABS-13004): Cell pre_therm: extracting the net Y14, 2 of 18.
+INFO (ABS-13004): Cell pre_therm: extracting the net Y13, 3 of 18.
+INFO (ABS-13004): Cell pre_therm: extracting the net Y12, 4 of 18.
+INFO (ABS-13004): Cell pre_therm: extracting the net Y11, 5 of 18.
+INFO (ABS-13004): Cell pre_therm: extracting the net Y10, 6 of 18.
+INFO (ABS-13004): Cell pre_therm: extracting the net Y09, 7 of 18.
+INFO (ABS-13004): Cell pre_therm: extracting the net Y08, 8 of 18.
+INFO (ABS-13004): Cell pre_therm: extracting the net Y07, 9 of 18.
+INFO (ABS-13004): Cell pre_therm: extracting the net Y06, 10 of 18.
+INFO (ABS-13004): Cell pre_therm: extracting the net Y05, 11 of 18.
+INFO (ABS-13004): Cell pre_therm: extracting the net Y04, 12 of 18.
+INFO (ABS-13004): Cell pre_therm: extracting the net Y03, 13 of 18.
+INFO (ABS-13004): Cell pre_therm: extracting the net Y02, 14 of 18.
+INFO (ABS-13004): Cell pre_therm: extracting the net Y01, 15 of 18.
+INFO (ABS-13004): Cell pre_therm: extracting the net IN, 16 of 18.
+INFO (ABS-12052): Cell pre_therm: Extracting Power nets. Checking for shorts, if any. Once short detection is complete, the individual progress of net extraction will be reported.
+INFO (ABS-12054): Cell pre_therm: Checking short for power net VSS, 17 of 18.
+INFO (ABS-12054): Cell pre_therm: Checking short for power net VDD, 18 of 18.
+INFO (ABS-12053): Cell pre_therm: The power nets do not have any shorts.
+INFO (ABS-13004): Cell pre_therm: extracting the net VSS, 17 of 18.
+INFO (ABS-13004): Cell pre_therm: extracting the net VDD, 18 of 18.
 INFO (ABS-11901): Cell pre_therm: Step Extract finished
 INFO (ABS-10509): Saving existing options file for library ADC to /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/.abstract/ADC/.abstract.options.prev
 INFO (ABS-10511): Saving current option settings for library ADC to the file /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/.abstract/ADC/.abstract.options.
@@ -78,41 +122,8 @@ INFO (ABS-19026): Cell pre_therm: Generating detailed blockages for layer via4
 INFO (ABS-19026): Cell pre_therm: Generating detailed blockages for layer met5
 *WARNING* (ABS-11026): Bus annotation cannot be completed for the specified abstract because the logical view for cell pre_therm is invalid.
 INFO (ABS-11901): Cell pre_therm: Step Abstract finished
-INFO (ABS-14004): Power Rail Analysis: 
-
-========================================================================
-Rails found
-========================================================================
-
-rail  type    net  layer  width  offset  shape     direction   cells
-------------------------------------------------------------------------
-1     power   VDD  met1   0.52   13.72   abutment  horizontal  pre_therm
-2     power   VDD  met1   0.52   4.4     abutment  horizontal  pre_therm
-3     ground  VSS  met1   0.52   -0.26   abutment  horizontal  pre_therm
-4     ground  VSS  met1   0.52   9.06    abutment  horizontal  pre_therm
-
-INFO (ABS-14005): Using power rails 1 and 3 to set terminal properties.
- These settings may be altered using the Adjust 'Power 
- rail widths and offsets:' option table.
-*WARNING* (ABS-20045): Failed to create the 'MACRO' site on disk. File '/mnt/cae_storage_sw/eda/cadence/pdks/sky130/sky130_release_004a/libs/sky130_fd_pr_main/tech.db' is not writable.
-INFO (ABS-10014): Created the MACRO site in VM
-INFO (ABS-10509): Saving existing options file for library ADC to /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/.abstract/ADC/.abstract.options.prev
-INFO (ABS-10511): Saving current option settings for library ADC to the file /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/.abstract/ADC/.abstract.options.
-INFO (ABS-11900): Cell pre_therm: Step Abstract started
-INFO (ABS-19026): Cell pre_therm: Generating detailed blockages for layer mcon
-INFO (ABS-19026): Cell pre_therm: Generating detailed blockages for layer met1
-INFO (ABS-19026): Cell pre_therm: Generating detailed blockages for layer via
-INFO (ABS-19026): Cell pre_therm: Generating detailed blockages for layer met2
-INFO (ABS-19026): Cell pre_therm: Generating detailed blockages for layer via2
-INFO (ABS-19026): Cell pre_therm: Generating detailed blockages for layer met3
-INFO (ABS-19026): Cell pre_therm: Generating detailed blockages for layer via3
-INFO (ABS-19026): Cell pre_therm: Generating detailed blockages for layer met4
-INFO (ABS-19026): Cell pre_therm: Generating detailed blockages for layer via4
-INFO (ABS-19026): Cell pre_therm: Generating detailed blockages for layer met5
-*WARNING* (ABS-11026): Bus annotation cannot be completed for the specified abstract because the logical view for cell pre_therm is invalid.
-INFO (ABS-11901): Cell pre_therm: Step Abstract finished
-*WARNING* (ABS-20045): Failed to create the 'MACRO' site on disk. File '/mnt/cae_storage_sw/eda/cadence/pdks/sky130/sky130_release_004a/libs/sky130_fd_pr_main/tech.db' is not writable.
-INFO (ABS-10014): Created the MACRO site in VM
+*WARNING* (ABS-20045): Failed to create the 'CoreSite' site on disk. File '/mnt/cae_storage_sw/eda/cadence/pdks/sky130/sky130_release_004a/libs/sky130_fd_pr_main/tech.db' is not writable.
+INFO (ABS-10014): Created the CoreSite site in VM
 Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.06s.
 INFO (DB-120008): oaSocket connection timeout value was set to 2 seconds.
 
@@ -120,7 +131,7 @@ INFO (DB-120008): oaSocket connection timeout value was set to 2 seconds.
 Product   : Virtuoso(R) LEF Out 
 Program   : @(#)$CDS: lefout version IC23.1-64b 09/20/2023 08:14 (cpgbld16) $
 SubVersion: sub-version  IC23.1-64b.ISR2.29 
-Started at: 09-Dec-2024  01:59:27
+Started at: 12-Dec-2024  00:05:34
 User Name : cae3
 Host Name : cae-europractice1.othr.de
 Directory : /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky
@@ -138,71 +149,7 @@ Loading sky130_fd_pr_main/libInit.il ...
 done!
 Loaded sky130_fd_pr_main/libInit.il successfully!
 
-Elapsed Time: 1.2s
-
-lefout translation completed (errors: 0, warnings: 0).
-Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.05s.
-INFO (DB-120008): oaSocket connection timeout value was set to 2 seconds.
-
-********************************************************************************
-Product   : Virtuoso(R) LEF Out 
-Program   : @(#)$CDS: lefout version IC23.1-64b 09/20/2023 08:14 (cpgbld16) $
-SubVersion: sub-version  IC23.1-64b.ISR2.29 
-Started at: 09-Dec-2024  02:01:05
-User Name : cae3
-Host Name : cae-europractice1.othr.de
-Directory : /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky
-DB Version: 	20230920 (SJ)
-CADENCE Design Systems, Inc.
-********************************************************************************
-Running: lefout -lib ADC -cells "pre_therm" -views "abstract" -log lefout.log -lef /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/pre_therm_MACRO.lef -ver 5.8
-Loading sky130_fd_pr_main/libInit.il ...
-	Loading sky130_fd_pr_main/loadCxt.ile ... done!
-	Loading context 'sky130_fd_pr_main' from library 'sky130_fd_pr_main' ... done!
-	Loading context 'pdkUtils' from library 'sky130_fd_pr_main' ... done!
-	Loading sky130_fd_pr_main/display.drf ... done!
-	Loading sky130_fd_pr_main/libInitCktPro.il ... done!
-	Loading sky130_fd_pr_main/libInitCustomExit.il ... 	Loading Environment Settings ...
-done!
-Loaded sky130_fd_pr_main/libInit.il successfully!
-WARNING: (OALEFDEF-23247): oaLayer dnwell: The OpenAccess layer material 'recognition' is not mapped to the LEF layer TYPE, LEF58_TYPE pair, but the LEF layer will be printed as TYPE MASTERSLICE layer to keep it compatible with the Innovus flow. The layer material will not be preserved during LEF In - LEF Out roundtrip.
-WARNING: (OALEFDEF-50104): LAYER li1: The routing direction for this layer is not specified. A HORIZONTAL routing direction was assumed. Ensure that routing layers in the technology database have valid routing directions.
-WARNING: (OALEFDEF-50104): LAYER rdl: The routing direction for this layer is not specified. A HORIZONTAL routing direction was assumed. Ensure that routing layers in the technology database have valid routing directions.
-WARNING: (OALEFDEF-50039): VIA subTap: The via uses more than three layers. This via was ignored. Ensure that the vias are correctly defined.
-WARNING: (OALEFDEF-50039): VIA nwellTap: The via uses more than three layers. This via was ignored. Ensure that the vias are correctly defined.
-WARNING: (OALEFDEF-50039): VIA diffConn: The via uses more than three layers. This via was ignored. Ensure that the vias are correctly defined.
-WARNING: (OALEFDEF-50039): VIA polyConn: The via uses more than three layers. This via was ignored. Ensure that the vias are correctly defined.
-WARNING: (OALEFDEF-50144): NONDEFAULTRULE virtuosoDefaultSetup: LAYER poly: invalid definition. This rule will be ignored. Ensure all layers in the valid routing layers constraint have a minWidth constraint defined and are metal or poly-routing material.
-
-Elapsed Time: 0.5s
-
-lefout translation completed (errors: 0, warnings: 8).
-Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.05s.
-INFO (DB-120008): oaSocket connection timeout value was set to 2 seconds.
-
-********************************************************************************
-Product   : Virtuoso(R) LEF Out 
-Program   : @(#)$CDS: lefout version IC23.1-64b 09/20/2023 08:14 (cpgbld16) $
-SubVersion: sub-version  IC23.1-64b.ISR2.29 
-Started at: 09-Dec-2024  02:01:54
-User Name : cae3
-Host Name : cae-europractice1.othr.de
-Directory : /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky
-DB Version: 	20230920 (SJ)
-CADENCE Design Systems, Inc.
-********************************************************************************
-Running: lefout -lib ADC -cells "pre_therm" -views "abstract" -log lefout.log -lef /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/pre_therm_MACRO.lef -ver 5.8 -noTech
-Loading sky130_fd_pr_main/libInit.il ...
-	Loading sky130_fd_pr_main/loadCxt.ile ... done!
-	Loading context 'sky130_fd_pr_main' from library 'sky130_fd_pr_main' ... done!
-	Loading context 'pdkUtils' from library 'sky130_fd_pr_main' ... done!
-	Loading sky130_fd_pr_main/display.drf ... done!
-	Loading sky130_fd_pr_main/libInitCktPro.il ... done!
-	Loading sky130_fd_pr_main/libInitCustomExit.il ... 	Loading Environment Settings ...
-done!
-Loaded sky130_fd_pr_main/libInit.il successfully!
-
-Elapsed Time: 0.3s
+Elapsed Time: 1.4s
 
 lefout translation completed (errors: 0, warnings: 0).
 INFO (ABS-10508): Library ADC closing /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC

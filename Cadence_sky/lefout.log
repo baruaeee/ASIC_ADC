@@ -3,7 +3,7 @@
 Product   : Virtuoso(R) LEF Out 
 Program   : @(#)$CDS: lefout version IC23.1-64b 09/20/2023 08:14 (cpgbld16) $
 SubVersion: sub-version  IC23.1-64b.ISR2.29 
-Started at: 09-Dec-2024  02:01:54
+Started at: 12-Dec-2024  00:05:34
 User Name : cae3
 Host Name : cae-europractice1.othr.de
 Directory : /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky
@@ -12,6 +12,6 @@ CADENCE Design Systems, Inc.
 ********************************************************************************
 Running: lefout -lib ADC -cells "pre_therm" -views "abstract" -log lefout.log -lef /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/pre_therm_MACRO.lef -ver 5.8 -noTech
 
-Elapsed Time: 0.3s
+Elapsed Time: 1.4s
 
 lefout translation completed (errors: 0, warnings: 0).

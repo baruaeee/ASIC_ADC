@@ -3,7 +3,7 @@
 
 # Pegasus Version 23.11-s009
 
-[ virtuoso6.BatchTriggers.RunDRC ]
+[ virtuoso6.BatchTriggers.RunLVS ]
 BatchPostTrigger ""
 BatchPreTrigger  ""
 EnableTriggers   "FALSE"

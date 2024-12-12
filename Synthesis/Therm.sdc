@@ -39,7 +39,9 @@ set_output_delay -min 0.01 -clock clk [get_ports b*]
 #set_max_delay 10.0 -from [get_ports Y*] -to [get_ports b*]
 
 # False paths (optional)
-set_false_path -from [get_ports rst] -to [get_ports b*]
+#set_false_path -from [get_ports rst] -to [get_ports b*]
+set_false_path -from [get_ports rst]
+set_false_path -from [get_ports rst]
 
 # Multicycle path (if needed)
 # set_multicycle_path 2 -setup -from [get_ports Y*] -to [get_ports b*]

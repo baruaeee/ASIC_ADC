@@ -1,0 +1,42 @@
+##############################################################################################################
+#####  
+#####                                       Pegasus LVS COMPARISON
+#####  
+#####  Version                       :   23.11-s009
+#####  NVN Run Start                 :   Wed Dec 11 23:34:19 2024
+#####  ERC Summary File              :   pre_therm.sum
+#####  Extraction Report File        :   pre_therm.rep
+#####  Comparison Report File        :   pre_therm.rep.cls
+#####  Top Cell                      :   pre_therm  <vs>  pre_therm
+#####  
+#####                                :      @     @
+#####                                :       @   @ 
+#####                                :        @ @  
+#####  Run Result                    :     MISMATCH
+#####                                :        @ @  
+#####                                :       @   @ 
+#####                                :      @     @
+#####  
+#####  Run Summary                   :   [ERROR] Connectivity Mismatches
+#####                                :   [ERROR] Pin Mismatches
+#####                                :   [WARN]  Extraction Warnings (refer to Extraction Report File)
+#####                                :   [INFO]  ERC Results: Empty
+#####  
+#####  Layout Design                 :   ADC pre_therm layout
+#####  Schematic File                :   /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/pre_therm.cdl (cdl)
+#####  Rules File                    :   /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/.technology.rul
+#####  Pin Swap File                 :   pre_therm.rep.cps
+#####  
+#####  Extraction CPU Time           :   0h 0m 1s - (1s)
+#####  Extraction Exec Time          :   0h 0m 2s - (2s)
+#####  Extraction Peak Memory Usage  :   26.00MB
+#####  NVN CPU Time                  :   0h 0m 1s - (1s)                 
+#####  NVN Exec Time                 :   0h 0m 1s - (1s)                 
+#####  NVN Peak Memory Usage         :   269.55MB
+#####  LVS Total CPU Time            :   0h 0m 2s - (2s)                 
+#####  LVS Total Exec Time           :   0h 0m 3s - (3s)                 
+#####  LVS Total Peak Memory Usage   :   269.55MB
+#####  
+##############################################################################################################
+
+

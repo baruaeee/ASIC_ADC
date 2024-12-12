@@ -1,6 +1,6 @@
 \o Program:		@(#)$CDS: libManager version 23.1 - CAT38 08/24/2023 05:06 (sjfdcl1184) $
 \o Sub version:		sub-version  p306 
-\o Arguments:		-unmapped -mpssession virtuoso1952528 -mpshost cae-europractice1.othr.de -masterPID 1952528 -ADVM 
+\o Arguments:		-unmapped -mpssession virtuoso2153802 -mpshost cae-europractice1.othr.de -masterPID 2153802 -ADVM 
 \o Working Directory:	cae-europractice1.othr.de:/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky
 \o 64-bit offsets
 \o Qt version: 		5.15.9
@@ -19,78 +19,13 @@
 \a cdsLibManager->libLineEdit->value = "ADC"
 \a cdsLibManager->cellListBox->value = "pre_therm"
 \a cdsLibManager->cellLineEdit->value = "pre_therm"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 3 0)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "ADC"
-\a cdsLibManager->libLineEdit->value = "ADC"
-\a cdsLibManager->cellListBox->value = "pre_therm"
-\a cdsLibManager->cellLineEdit->value = "pre_therm"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "ADC"
-\a cdsLibManager->libLineEdit->value = "ADC"
-\a cdsLibManager->cellListBox->value = "pre_therm"
-\a cdsLibManager->cellLineEdit->value = "pre_therm"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "ADC"
-\a cdsLibManager->libLineEdit->value = "ADC"
-\a cdsLibManager->cellListBox->value = "pre_therm"
-\a cdsLibManager->cellLineEdit->value = "pre_therm"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->cellListBox->value = "pre_therm1"
 \a cdsLibManager->cellLineEdit->value = "pre_therm1"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "preampF_comm_B_F"
-\a cdsLibManager->cellLineEdit->value = "preampF_comm_B_F"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup1" 83 181 2 "preampF_comm_B_F")
+\a cdsLibManager->cellListBox->value = "pre_therm"
+\a cdsLibManager->cellLineEdit->value = "pre_therm"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a lmgrLogShowPopup("mainListPopup2" 58 135 2 "symbol")
 \a cdsLibManager->editDeleteButton->value = t
 \a deleteForm->deleteFilterEdit->value = "*"
 \a deleteForm->notDeleteFilterEdit->value = "*"
@@ -103,248 +38,36 @@
 \a nrSetCurrentWindow(mcMBXDLG)
 \a nrResizeWindow(mcMBXDLG list(249 169 268 91))
 \a mcMBXDLG->pushButton1->value = t
-\o Deleting cell "preampF_comm_B_F" from library "ADC".
+\o Deleting view "symbol" from cell "pre_therm" in library "ADC".
 \a nrSetWindowVisibility(workingDialogForm "show")
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(workingDialogForm)
-\o Deleted cell 'ADC/preampF_comm_B_F'.
-\o Deletion of 1 cell done.
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
 \a nrResizeWindow(workingDialogForm list(269 177 268 133))
+\a workingDialogForm->Close->value = t
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "ADC"
-\a cdsLibManager->libLineEdit->value = "ADC"
-\a cdsLibManager->cellListBox->value = "preampF_comm_B"
-\a cdsLibManager->cellLineEdit->value = "preampF_comm_B"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup1" 61 175 2 "preampF_comm_B")
-\a cdsLibManager->editRenameButton->value = t
-\a basicRenameForm->basicRenameFromEdit->value = "preampF_comm_B"
-\a nrSetWindowVisibility(basicRenameForm "show")
-\a basicRenameForm->basicRenameToEdit->value = "preampF_comm_B"
-\a nrSetCurrentWindow(basicRenameForm)
-\a nrResizeWindow(basicRenameForm list(284 148 239 190))
-\a basicRenameForm->basicRenameToEdit->value = "therm"
-\a nrDialogAccept(basicRenameForm)
-\a basicRenameForm->OK->value = t
-\w Warning: Can't obtain lock details for the lock file
-\w /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/preampF_comm_B/layout (copy 1).cdslck.
-\w Lock on the file path "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/preampF_comm_B/layout (copy 1)" is refused since it is a directory.
-\w Warning: Can't obtain lock details for the lock file
-\w /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/preampF_comm_B/layout (copy 2) (copy 1).cdslck.
-\w Lock on the file path "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/preampF_comm_B/layout (copy 2) (copy 1)" is refused since it is a directory.
-\o Renaming Cell "preampF_comm_B" to "therm" in library "ADC".
-\a nrSetCurrentWindow(workingDialogForm)
-\a nrResizeWindow(workingDialogForm list(274 206 268 133))
-\o Rename failed - check the CDS.log for details.
-\o ERROR (CLM-219): Error during rename of Cell "preampF_comm_B" to "therm".\n\nCheck the message log for details.
-\a nrSetWindowVisibility(errorDialog "show")
-\a nrSetCurrentWindow(errorDialog)
-\a nrResizeWindow(errorDialog list(213 176 380 134))
-\a errorDialog->errorOkButton->value = t
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->libListBox->value = "ADC"
-\a cdsLibManager->libLineEdit->value = "ADC"
-\a cdsLibManager->cellListBox->value = "preampF_comm_B"
-\a cdsLibManager->cellLineEdit->value = "preampF_comm_B"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a nrSetCurrentWindow(cdsLibManager)
-\a lmgrLogShowPopup("mainListPopup1" 79 177 2 "preampF_comm_B")
-\a cdsLibManager->editRenameButton->value = t
-\a basicRenameForm->basicRenameToEdit->value = "preampF_comm_B"
-\a nrSetCurrentWindow(basicRenameForm)
-\a nrResizeWindow(basicRenameForm list(289 177 239 190))
-\a basicRenameForm->basicRenameToEdit->value = "therm"
-\a basicRenameForm->OK->value = t
-\o ERROR (CLM-224): Cell ADC/therm already exists. \nSpecify another cell to rename to.
-\a nrSetCurrentWindow(errorDialog)
-\a nrResizeWindow(errorDialog list(286 211 245 122))
-\a errorDialog->errorOkButton->value = t
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(basicRenameForm)
-\a basicRenameForm->Cancel->value = t
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "therm"
-\a cdsLibManager->cellLineEdit->value = "therm"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "preampF_comm_B"
-\a cdsLibManager->cellLineEdit->value = "preampF_comm_B"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup1" 70 162 2 "preampF_comm_B")
-\a cdsLibManager->cellListBox->value = "preampF"
-\a cdsLibManager->cellLineEdit->value = "preampF"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "preampF_comm_B"
-\a cdsLibManager->cellLineEdit->value = "preampF_comm_B"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup1" 42 162 2 "preampF_comm_B")
-\a cdsLibManager->editDeleteButton->value = t
-\a nrSetCurrentWindow(deleteForm)
-\a nrResizeWindow(deleteForm list(90 31 627 425))
-\a deleteForm->OK->value = t
-\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
-\a nrSetWindowVisibility(mcMBXDLG "show")
-\a nrSetCurrentWindow(mcMBXDLG)
-\a nrResizeWindow(mcMBXDLG list(249 169 268 91))
-\a mcMBXDLG->pushButton1->value = t
-\o Deleting cell "preampF_comm_B" from library "ADC".
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(workingDialogForm)
-\o Batching session updates...
-\o Deleted cell 'ADC/preampF_comm_B'.
-\o Deletion of 1 cell done.
-\a nrResizeWindow(workingDialogForm list(274 206 268 133))
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "ADC"
-\a cdsLibManager->libLineEdit->value = "ADC"
-\a cdsLibManager->cellListBox->value = "therm"
-\a cdsLibManager->cellLineEdit->value = "therm"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\a lmgrLogShowPopup("mainListPopup2" 67 136 2 "symbol")
-\a cdsLibManager->editDeleteButton->value = t
-\a nrSetCurrentWindow(deleteForm)
-\a deleteForm->OK->value = t
-\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
-\a nrSetWindowVisibility(mcMBXDLG "show")
-\a nrSetCurrentWindow(mcMBXDLG)
-\a nrResizeWindow(mcMBXDLG list(249 169 268 91))
-\a mcMBXDLG->pushButton1->value = t
-\o Deleting view "symbol" from cell "therm" in library "ADC".
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(workingDialogForm)
-\o Deleted cellview 'ADC/therm/symbol'.
+\o Deleted cellview 'ADC/pre_therm/symbol'.
 \o Deletion of 1 view done.
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a nrResizeWindow(workingDialogForm list(274 206 268 133))
-\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->libListBox->value = "ADC"
 \a cdsLibManager->libLineEdit->value = "ADC"
-\a cdsLibManager->cellListBox->value = "therm"
-\a cdsLibManager->cellLineEdit->value = "therm"
+\a cdsLibManager->cellListBox->value = "pre_therm"
+\a cdsLibManager->cellLineEdit->value = "pre_therm"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = "layout1"
-\a cdsLibManager->viewLineEdit->value = "layout1"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = "layout1"
-\a cdsLibManager->viewLineEdit->value = "layout1"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "layout1"
-\a cdsLibManager->viewLineEdit->value = "layout1"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a lmgrLogShowPopup("mainListPopup2" 54 85 2 "layout")
-\a cdsLibManager->editDeleteButton->value = t
-\a nrSetCurrentWindow(deleteForm)
-\a deleteForm->notDeleteListBox->value = '("schematic" )
-\a deleteForm->moveToDeleteButton->value = t
-\a deleteForm->notDeleteListBox->value = '("layout1" )
-\a deleteForm->moveToDeleteButton->value = t
-\a deleteForm->notDeleteListBox->value = '("abstract.pin" )
-\a deleteForm->moveToDeleteButton->value = t
-\a deleteForm->notDeleteListBox->value = '("abstract.ext" )
-\a deleteForm->moveToDeleteButton->value = t
-\a deleteForm->notDeleteListBox->value = '("abstract" )
-\a deleteForm->moveToDeleteButton->value = t
-\a deleteForm->OK->value = t
-\o QUESTION (CLM-199): The following 6 items are marked for deletion.  Are you sure?
-\a nrSetWindowVisibility(mcMBXDLG "show")
-\a nrSetCurrentWindow(mcMBXDLG)
-\a nrResizeWindow(mcMBXDLG list(249 169 268 91))
-\a mcMBXDLG->pushButton1->value = t
-\o Deleting 6 views from cell "therm" in library "ADC".
-\o Deleting view "abstract".
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(workingDialogForm)
-\o Deleted cellview 'ADC/therm/abstract'.
-\o Deleting view "abstract.ext".
-\o Deleted cellview 'ADC/therm/abstract.ext'.
-\o Deleting view "abstract.pin".
-\o Deleted cellview 'ADC/therm/abstract.pin'.
-\o Deleting view "layout".
-\o Deleted cellview 'ADC/therm/layout'.
-\o Deleting view "layout1".
-\o Deleted cellview 'ADC/therm/layout1'.
-\o Deleting view "schematic".
-\o Deleted cellview 'ADC/therm/schematic'.
-\o Deletion of 6 views done.
-\a nrResizeWindow(workingDialogForm list(274 206 268 133))
-\a cdsLibManager->viewLineEdit->value = "layout1"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "ADC"
-\a cdsLibManager->libLineEdit->value = "ADC"
-\a cdsLibManager->cellListBox->value = "therm"
-\a cdsLibManager->cellLineEdit->value = "therm"
-\a cdsLibManager->viewListBox->value = "functional"
-\a cdsLibManager->viewLineEdit->value = "functional"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "functional"
-\a cdsLibManager->viewLineEdit->value = "functional"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = "functional"
-\a cdsLibManager->viewLineEdit->value = "functional"
 \o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
-\o ddSetForcedLib("/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/cds.lib")
+\a nrListItemAction(cdsLibManager->gdmXTView 6 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(0 27 806 491))
+\a nrResizeWindow(cdsLibManager list(0 27 542 491))
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
@@ -353,14 +76,14 @@
 \a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->libListBox->value = "ADC"
 \a cdsLibManager->libLineEdit->value = "ADC"
-\a cdsLibManager->cellListBox->value = "therm"
-\a cdsLibManager->cellLineEdit->value = "therm"
-\a cdsLibManager->viewListBox->value = "functional"
-\a cdsLibManager->viewLineEdit->value = "functional"
+\a cdsLibManager->cellListBox->value = "pre_therm"
+\a cdsLibManager->cellLineEdit->value = "pre_therm"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "functional"
-\a cdsLibManager->viewLineEdit->value = "functional"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
@@ -369,14 +92,14 @@
 \a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->libListBox->value = "ADC"
 \a cdsLibManager->libLineEdit->value = "ADC"
-\a cdsLibManager->cellListBox->value = "therm"
-\a cdsLibManager->cellLineEdit->value = "therm"
-\a cdsLibManager->viewListBox->value = "functional"
-\a cdsLibManager->viewLineEdit->value = "functional"
+\a cdsLibManager->cellListBox->value = "pre_therm"
+\a cdsLibManager->cellLineEdit->value = "pre_therm"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "functional"
-\a cdsLibManager->viewLineEdit->value = "functional"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
@@ -385,59 +108,11 @@
 \a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->libListBox->value = "ADC"
 \a cdsLibManager->libLineEdit->value = "ADC"
-\a cdsLibManager->cellListBox->value = "therm"
-\a cdsLibManager->cellLineEdit->value = "therm"
-\a cdsLibManager->viewListBox->value = "functional"
-\a cdsLibManager->viewLineEdit->value = "functional"
+\a cdsLibManager->cellListBox->value = "pre_therm"
+\a cdsLibManager->cellLineEdit->value = "pre_therm"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "functional"
-\a cdsLibManager->viewLineEdit->value = "functional"
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "ADC"
-\a cdsLibManager->libLineEdit->value = "ADC"
-\a cdsLibManager->cellListBox->value = "therm"
-\a cdsLibManager->cellLineEdit->value = "therm"
-\a cdsLibManager->viewListBox->value = "functional"
-\a cdsLibManager->viewLineEdit->value = "functional"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "functional"
-\a cdsLibManager->viewLineEdit->value = "functional"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "ADC"
-\a cdsLibManager->libLineEdit->value = "ADC"
-\a cdsLibManager->cellListBox->value = "therm"
-\a cdsLibManager->cellLineEdit->value = "therm"
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"

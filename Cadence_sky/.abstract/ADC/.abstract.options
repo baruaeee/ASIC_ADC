@@ -1,6 +1,6 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Abstract Options File
-;; Abstract_Generator version sub-version  IC23.1-64b.ISR2.29  on Dec  9 02:24:21 2024
+;; Abstract_Generator version sub-version  IC23.1-64b.ISR2.29  on Dec 12 10:43:47 2024
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 absSetOption( "DateTimeLog"                "false")
@@ -111,7 +111,7 @@ absSetOption( "ReadOnlyTechnology"         "true")
 absSetOption( "numOfPointsInEllipseOrDonut" "64")
 
 
-absDeselectBin("Core" )
+absSelectBin("Core" )
 absSetBinOption( "Core" "PinsTextPinMap"             "((text drawing)(met1 drawing)(met2 drawing))")
 absSetBinOption( "Core" "PinsPowerNames"             "^((V(DD|CC))|(v(dd|cc)))(!)?$")
 absSetBinOption( "Core" "PinsGroundNames"            "^((VSS|GND)|(vss|gnd))(!)?$")
@@ -266,7 +266,7 @@ absSetBinOption( "Core" "AbstractAdjustStairStepWidth" "0.07")
 absSetBinOption( "Core" "AbstractFractureRectilinearShapes" "false")
 absSetBinOption( "Core" "AbstractRemoveRedundantBlockages" "false")
 absSetBinOption( "Core" "AbstractSiteName"           "")
-absSetBinOption( "Core" "AbstractSiteNameDefine"     "MACRO")
+absSetBinOption( "Core" "AbstractSiteNameDefine"     "CoreSite")
 absSetBinOption( "Core" "AbstractSiteArrayPattern"   "false")
 absSetBinOption( "Core" "AbstractSiteArrayCells"     "")
 absSetBinOption( "Core" "AbstractSiteArrayCellsTable" "")
@@ -903,7 +903,7 @@ absSetBinOption( "Block" "VerifyConfigFile"           "")
 absSetBinOption( "Block" "VerifyTargetGeom"           "")
 absSetBinOption( "Block" "VerifyTargetIgnore"         "EXCHANGEFORMATS-USER-525\nEXCHANGEFORMATS-USER-392\nEXCHANGEFORMATS-USER-34\nno clock net\nCannot determine standard cell height")
 
-absSelectBin("Ignore" )
+absDeselectBin("Ignore" )
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; End Abstract Options File
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

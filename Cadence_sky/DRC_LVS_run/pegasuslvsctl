@@ -18,7 +18,6 @@ lvs_report_opt -none;
 report_summary -erc "pre_therm.sum" -replace;
 max_results -erc 1000;
 results_db -erc "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/pre_therm.erc_errors.ascii" -ascii;
-mask_svdb_dir "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/svdb";
 schematic_format cdl;
 schematic_path "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/pre_therm.cdl";
 abort_on_layout_error yes;

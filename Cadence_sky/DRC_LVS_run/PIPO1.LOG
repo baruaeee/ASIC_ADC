@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version IC23.1-64b 09/20/2023 08:16 (cpgbld16) $
           : sub-version  IC23.1-64b.ISR2.29 
-Started at: 09-Dec-2024  01:55:00
+Started at: 11-Dec-2024  23:59:55
 User Name : cae3
 Host Name : cae-europractice1.othr.de
 Directory : /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky
@@ -34,67 +34,67 @@ case                                    Preserve
 convertDot                              node
 
 INFO (XSTRM-180): You have not used the '-objectMap' option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the '-objectMap' option to translate/preserve these objects using XStream.
-INFO (XSTRM-223): 1. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_733705700480.
-INFO (XSTRM-223): 2. Translating stdVia sky130_fd_pr_main/M2M3_C/layout as STRUCTURE M2M3_C_CDNS_733705700481.
-INFO (XSTRM-223): 3. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_733705700482.
-INFO (XSTRM-223): 4. Translating stdVia sky130_fd_pr_main/M3M4_C/layout as STRUCTURE M3M4_C_CDNS_733705700483.
-INFO (XSTRM-223): 5. Translating stdVia sky130_fd_pr_main/PYL1CON_C/layout as STRUCTURE PYL1CON_C_CDNS_733705700484.
-INFO (XSTRM-223): 6. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_733705700485.
-INFO (XSTRM-223): 7. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_733705700486.
-INFO (XSTRM-223): 8. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_733705700487.
-INFO (XSTRM-223): 9. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_733705700480.
-INFO (XSTRM-223): 10. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_733705700481.
-INFO (XSTRM-223): 11. Translating cellview ADC/inv01f/layout as STRUCTURE inv01f.
-INFO (XSTRM-223): 12. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_733705700488.
-INFO (XSTRM-223): 13. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_733705700482.
-INFO (XSTRM-223): 14. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_733705700483.
-INFO (XSTRM-223): 15. Translating cellview ADC/preampF/layout as STRUCTURE preampF.
-INFO (XSTRM-223): 16. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_733705700484.
-INFO (XSTRM-223): 17. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_733705700485.
-INFO (XSTRM-223): 18. Translating cellview ADC/inv02f/layout as STRUCTURE inv02f.
-INFO (XSTRM-223): 19. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_733705700486.
-INFO (XSTRM-223): 20. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_733705700487.
-INFO (XSTRM-223): 21. Translating cellview ADC/preamp1F/layout as STRUCTURE preamp1F.
-INFO (XSTRM-223): 22. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_733705700488.
-INFO (XSTRM-223): 23. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_733705700489.
-INFO (XSTRM-223): 24. Translating cellview ADC/inv03f/layout as STRUCTURE inv03f.
-INFO (XSTRM-223): 25. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7337057004810.
-INFO (XSTRM-223): 26. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7337057004811.
-INFO (XSTRM-223): 27. Translating cellview ADC/inv04f/layout as STRUCTURE inv04f.
-INFO (XSTRM-223): 28. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7337057004812.
-INFO (XSTRM-223): 29. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7337057004813.
-INFO (XSTRM-223): 30. Translating cellview ADC/inv05f/layout as STRUCTURE inv05f.
-INFO (XSTRM-223): 31. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7337057004814.
-INFO (XSTRM-223): 32. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7337057004815.
-INFO (XSTRM-223): 33. Translating cellview ADC/inv06f/layout as STRUCTURE inv06f.
-INFO (XSTRM-223): 34. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7337057004816.
-INFO (XSTRM-223): 35. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7337057004817.
-INFO (XSTRM-223): 36. Translating cellview ADC/inv07f/layout as STRUCTURE inv07f.
-INFO (XSTRM-223): 37. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7337057004818.
-INFO (XSTRM-223): 38. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7337057004819.
-INFO (XSTRM-223): 39. Translating cellview ADC/inv08f/layout as STRUCTURE inv08f.
-INFO (XSTRM-223): 40. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7337057004820.
-INFO (XSTRM-223): 41. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7337057004821.
-INFO (XSTRM-223): 42. Translating cellview ADC/inv09f/layout as STRUCTURE inv09f.
-INFO (XSTRM-223): 43. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7337057004822.
-INFO (XSTRM-223): 44. Translating cellview ADC/div_fixed/layout as STRUCTURE div_fixed.
-INFO (XSTRM-223): 45. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7337057004823.
-INFO (XSTRM-223): 46. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7337057004824.
-INFO (XSTRM-223): 47. Translating cellview ADC/inv10f/layout as STRUCTURE inv10f.
-INFO (XSTRM-223): 48. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7337057004825.
-INFO (XSTRM-223): 49. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7337057004826.
-INFO (XSTRM-223): 50. Translating cellview ADC/inv11f/layout as STRUCTURE inv11f.
-INFO (XSTRM-223): 51. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7337057004827.
-INFO (XSTRM-223): 52. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7337057004828.
-INFO (XSTRM-223): 53. Translating cellview ADC/inv12f/layout as STRUCTURE inv12f.
-INFO (XSTRM-223): 54. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7337057004829.
-INFO (XSTRM-223): 55. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7337057004830.
-INFO (XSTRM-223): 56. Translating cellview ADC/inv13f/layout as STRUCTURE inv13f.
-INFO (XSTRM-223): 57. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7337057004831.
-INFO (XSTRM-223): 58. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7337057004832.
-INFO (XSTRM-223): 59. Translating cellview ADC/inv14f/layout as STRUCTURE inv14f.
-INFO (XSTRM-223): 60. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7337057004833.
-INFO (XSTRM-223): 61. Translating cellview ADC/inv15f/layout as STRUCTURE inv15f.
+INFO (XSTRM-223): 1. Translating stdVia sky130_fd_pr_main/M3M4_C/layout as STRUCTURE M3M4_C_CDNS_733957995420.
+INFO (XSTRM-223): 2. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_733957995421.
+INFO (XSTRM-223): 3. Translating stdVia sky130_fd_pr_main/M2M3_C/layout as STRUCTURE M2M3_C_CDNS_733957995422.
+INFO (XSTRM-223): 4. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_733957995423.
+INFO (XSTRM-223): 5. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_733957995424.
+INFO (XSTRM-223): 6. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_733957995425.
+INFO (XSTRM-223): 7. Translating stdVia sky130_fd_pr_main/PYL1CON_C/layout as STRUCTURE PYL1CON_C_CDNS_733957995426.
+INFO (XSTRM-223): 8. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_733957995420.
+INFO (XSTRM-223): 9. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_733957995421.
+INFO (XSTRM-223): 10. Translating cellview ADC/inv12f/layout as STRUCTURE inv12f.
+INFO (XSTRM-223): 11. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_733957995427.
+INFO (XSTRM-223): 12. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_733957995422.
+INFO (XSTRM-223): 13. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_733957995423.
+INFO (XSTRM-223): 14. Translating cellview ADC/inv15f/layout as STRUCTURE inv15f.
+INFO (XSTRM-223): 15. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_733957995424.
+INFO (XSTRM-223): 16. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_733957995425.
+INFO (XSTRM-223): 17. Translating cellview ADC/div_fixed/layout as STRUCTURE div_fixed.
+INFO (XSTRM-223): 18. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_733957995426.
+INFO (XSTRM-223): 19. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_733957995427.
+INFO (XSTRM-223): 20. Translating cellview ADC/inv14f/layout as STRUCTURE inv14f.
+INFO (XSTRM-223): 21. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_733957995428.
+INFO (XSTRM-223): 22. Translating cellview ADC/inv11f/layout as STRUCTURE inv11f.
+INFO (XSTRM-223): 23. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_733957995429.
+INFO (XSTRM-223): 24. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7339579954210.
+INFO (XSTRM-223): 25. Translating cellview ADC/inv10f/layout as STRUCTURE inv10f.
+INFO (XSTRM-223): 26. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7339579954211.
+INFO (XSTRM-223): 27. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7339579954212.
+INFO (XSTRM-223): 28. Translating cellview ADC/inv08f/layout as STRUCTURE inv08f.
+INFO (XSTRM-223): 29. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7339579954213.
+INFO (XSTRM-223): 30. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7339579954214.
+INFO (XSTRM-223): 31. Translating cellview ADC/inv05f/layout as STRUCTURE inv05f.
+INFO (XSTRM-223): 32. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7339579954215.
+INFO (XSTRM-223): 33. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7339579954216.
+INFO (XSTRM-223): 34. Translating cellview ADC/inv02f/layout as STRUCTURE inv02f.
+INFO (XSTRM-223): 35. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7339579954217.
+INFO (XSTRM-223): 36. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7339579954218.
+INFO (XSTRM-223): 37. Translating cellview ADC/inv07f/layout as STRUCTURE inv07f.
+INFO (XSTRM-223): 38. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7339579954219.
+INFO (XSTRM-223): 39. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7339579954220.
+INFO (XSTRM-223): 40. Translating cellview ADC/inv04f/layout as STRUCTURE inv04f.
+INFO (XSTRM-223): 41. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7339579954221.
+INFO (XSTRM-223): 42. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7339579954222.
+INFO (XSTRM-223): 43. Translating cellview ADC/inv13f/layout as STRUCTURE inv13f.
+INFO (XSTRM-223): 44. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7339579954223.
+INFO (XSTRM-223): 45. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7339579954224.
+INFO (XSTRM-223): 46. Translating cellview ADC/inv09f/layout as STRUCTURE inv09f.
+INFO (XSTRM-223): 47. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7339579954225.
+INFO (XSTRM-223): 48. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7339579954226.
+INFO (XSTRM-223): 49. Translating cellview ADC/inv06f/layout as STRUCTURE inv06f.
+INFO (XSTRM-223): 50. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7339579954227.
+INFO (XSTRM-223): 51. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7339579954228.
+INFO (XSTRM-223): 52. Translating cellview ADC/inv03f/layout as STRUCTURE inv03f.
+INFO (XSTRM-223): 53. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7339579954229.
+INFO (XSTRM-223): 54. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7339579954230.
+INFO (XSTRM-223): 55. Translating cellview ADC/inv01f/layout as STRUCTURE inv01f.
+INFO (XSTRM-223): 56. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7339579954231.
+INFO (XSTRM-223): 57. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7339579954232.
+INFO (XSTRM-223): 58. Translating cellview ADC/preamp1F/layout as STRUCTURE preamp1F.
+INFO (XSTRM-223): 59. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_733957995428.
+INFO (XSTRM-223): 60. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7339579954233.
+INFO (XSTRM-223): 61. Translating cellview ADC/preampF/layout as STRUCTURE preampF.
 INFO (XSTRM-223): 62. Translating cellview ADC/pre_therm/layout as STRUCTURE pre_therm.
 
 Summary of Objects Translated:
@@ -102,7 +102,7 @@ Summary of Objects Translated:
 	Array Instances:                        0
 	Polygons:                               0
 	Paths:                                  0
-	Rectangles:                             1261
+	Rectangles:                             1244
 	Lines:                                  0
 	Arcs:                                   0
 	Donuts:                                 0
@@ -115,13 +115,13 @@ Summary of Objects Translated:
 	Markers:                                0
 	Rows:                                   0
 	Stitch:                                 0
-	Standard Vias                           126
+	Standard Vias                           115
 	Custom Vias:                            0
 	CdsGen Vias:                            0
 	Pathsegs:                               19
-	Text:                                   141
+	Text:                                   164
 	TextDisplay:                            0
 	Cells:                                  62
 
-Elapsed Time: 0.3s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 38936KB
+Elapsed Time: 0.4s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 38968KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '2' warning(s) found.

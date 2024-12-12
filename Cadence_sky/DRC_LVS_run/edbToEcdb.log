@@ -3,15 +3,15 @@
 ========================================================================
 
 Delete EDB      : N
-EDB Library dir : pre_therm_1956610.db
+EDB Library dir : pre_therm_2159787.db
 ECDB dir        : ./
 Top Cell        : pre_therm
-CDL netlist     : /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/svdb/pre_therm.net
-Layer map file  : /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/svdb/pre_therm.ecdbmap
-Text map file   : /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/svdb/pre_therm.ports
+CDL netlist     : ./pre_therm.net
+Layer map file  : ./pre_therm.ecdbmap
+Text map file   : ./pre_therm.ports
 Dependency map  : pre_therm.lmap.perc
-Lvs file        : /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/svdb/pre_therm.lvsfile
+Lvs file        : ./pre_therm.lvsfile
 Float net file  : .pre_therm.info.softchk
 threads         : 32
 debug           : 0
-Source Library  : pre_therm_1956610
+Source Library  : pre_therm_2159787

@@ -1,6 +1,8 @@
 //Verilog HDL for "ADC", "preampF_comm_B" "functional"
 
-`include "verilog.v"
+//`include "verilog.v"
+`include "/eda/cadence/pdks/sky130/sky130_scl_9T_0_0_5/verilog/sky130_scl_9T.v"
+`include "/home/cae3/Desktop/ADC/ASIC_ADC/Synthesis/outputs/post_synth_therm_netlist.v"
 module therm_tb ();
 	wire	[3:0] b;
 	reg	[14:0] Y;

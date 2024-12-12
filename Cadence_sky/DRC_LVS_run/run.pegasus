@@ -4,9 +4,13 @@
 pwd_d=`pwd`
 cd /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run ;\
 /eda/cadence/2023-24/RHELx86/PEGASUS_23.11.000/bin/pegasus \
-	--log_dir LOGS \
+	-lvs \
 	-top_cell pre_therm \
+	-log_dir LOGS \
+	-source_top_cell pre_therm \
+	-spice /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/pre_therm.spi \
+	-control /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/pegasuslvsctl \
 	-ui_data \
-	--control /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/pegasusdrcctl \
+	-gdb_data \
 	/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/.technology.rul
 cd $pwd_d

@@ -1,0 +1,34 @@
+##############################################################################################################
+#####  
+#####                                       Pegasus LVS COMPARISON
+#####  
+#####  Version                       :   23.11-s009
+#####  NVN Run Start                 :   Thu Dec 12 00:00:08 2024
+#####  ERC Summary File              :   pre_therm.sum
+#####  Extraction Report File        :   pre_therm.rep
+#####  Comparison Report File        :   pre_therm.rep.cls
+#####  Top Cell                      :   pre_therm  <vs>  pre_therm
+#####  
+#####  Run Result                    :   MATCH
+#####  
+#####  Run Summary                   :   [INFO]  ERC Results: Empty
+#####                                :   [INFO]  Extraction Clean
+#####  
+#####  Layout Design                 :   ADC pre_therm layout
+#####  Schematic File                :   /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/pre_therm.cdl (cdl)
+#####  Rules File                    :   /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/.technology.rul
+#####  Pin Swap File                 :   pre_therm.rep.cps
+#####  
+#####  Extraction CPU Time           :   0h 0m 1s - (1s)
+#####  Extraction Exec Time          :   0h 0m 2s - (2s)
+#####  Extraction Peak Memory Usage  :   26.00MB
+#####  NVN CPU Time                  :   0h 0m 0s - (0s)                 
+#####  NVN Exec Time                 :   0h 0m 0s - (0s)                 
+#####  NVN Peak Memory Usage         :   262.40MB
+#####  LVS Total CPU Time            :   0h 0m 1s - (1s)                 
+#####  LVS Total Exec Time           :   0h 0m 2s - (2s)                 
+#####  LVS Total Peak Memory Usage   :   262.40MB
+#####  
+##############################################################################################################
+
+

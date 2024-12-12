@@ -1,10 +1,10 @@
-Pegasus 23.11-s009 FbGK7KjMGPhkNci2o09sLg 2024-12-09 01:55:01 1957305 cae-europractice1.othr.de
+Pegasus 23.11-s009 FbGK7KjMGPhkNci2o09sLg 2024-12-11 23:59:59 2159787 cae-europractice1.othr.de
 Copyright 2023 Cadence Design Systems, Inc.
 All rights reserved worldwide.
 
-INFO:    Command Line Options: --log_dir LOGS -top_cell pre_therm -ui_data --control /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/pegasusdrcctl /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/.technology.rul
+INFO:    Command Line Options: -lvs -top_cell pre_therm -log_dir LOGS -source_top_cell pre_therm -spice /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/pre_therm.spi -control /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/pegasuslvsctl -ui_data -gdb_data /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/.technology.rul
 INFO:    Launch host CPU: Model: AMD Ryzen Threadripper PRO 5975WX 32-Cores, OS: Oracle Linux Server release 8.10, Logical cores: 16, Physical cores: 16, Cache: 512 KB, CPU Speed: 3593.24 MHz
-         Launch host Memory: MemTotal: 31806 MB,  MemFree: 573 MB,  SwapTotal: 0 MB,  SwapFree: 0 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 87 MB
+         Launch host Memory: MemTotal: 31806 MB,  MemFree: 626 MB,  SwapTotal: 0 MB,  SwapFree: 0 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 87 MB
 INFO:    Current path: /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run
 INFO:    Run directory same as current path
 INFO:    Log directory: /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/LOGS

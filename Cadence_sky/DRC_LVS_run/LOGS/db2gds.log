@@ -7,16 +7,16 @@ All rights reserved worldwide.
 
 Build O/S:       Linux x86_64 3.10.0-693.el7.x86_64
 Executed on:     cae-europractice1.othr.de (Linux x86_64 5.15.0-210.163.7.el8uek.x86_64)
-Process Id:      1956822
-Starting Time:   Mon Dec  9 01:54:37 2024 (Mon Dec  9 00:54:37 2024 GMT)
-With parameters: pre_therm_1956610 /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/svdb/pre_therm.agf pre_therm -lmap lmaprj4AIF -netmap /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/svdb/pre_therm.lnn -property_nqrc -gds_scale 1000 -vircolon 
+Process Id:      2153423
+Starting Time:   Wed Dec 11 23:34:15 2024 (Wed Dec 11 22:34:15 2024 GMT)
+With parameters: pre_therm_2153213 /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/svdb/pre_therm.agf pre_therm -lmap lmapWOG1Y4 -netmap /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/svdb/pre_therm.lnn -property_nqrc -gds_scale 1000 -vircolon 
 ********************************************************************************
 
-Library name: pre_therm_1956610
+Library name: pre_therm_2153213
 GDSII file name: /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/svdb/pre_therm.agf
 Cells to be written out: pre_therm
-Source Library: pre_therm_1956610
-Layer mapping file(GDS <- DMC): lmaprj4AIF
+Source Library: pre_therm_2153213
+Layer mapping file(GDS <- DMC): lmapWOG1Y4
     38 (dt:0 tt:0) <- 38
     42 (dt:0 tt:0) <- 42
     44 (dt:0 tt:0) <- 44
@@ -87,112 +87,58 @@ Option: output object property for new qrc flow
                 Object Statistics of Cells                            
 Cell Name         Box  Polygon     Path   Label Instance Array    Total
 ----------------------------------------------------------------------
-pre_therm          20       22        0       0    72      0       114
-M1M2_C_CDNS_733705663440        3        0        0       0     0      0         3
-M2M3_C_CDNS_733705663441        4        0        0       0     0      0         4
-M1M2_C_CDNS_733705663442        4        0        0       0     0      0         4
-M3M4_C_CDNS_733705663443        4        0        0       0     0      0         4
-inv01f             22        4        0       0     6      0        32
+pre_therm           3        3        0       0     4      0        10
+M1M2_C_CDNS_733956442880        3        0        0       0     0      0         3
+inv01f             25        4        0       0     5      0        34
 preampF            21        5        0       0     7      0        33
-inv02f             22        4        0       0     6      0        32
-preamp1F           23        4        0       0     5      0        32
-inv03f             22        4        0       0     6      0        32
-inv04f             22        4        0       0     6      0        32
-inv05f             21        5        0       0     6      0        32
-inv06f             22        4        0       0     6      0        32
-inv07f             22        4        0       0     6      0        32
-inv08f             21        5        0       0     6      0        32
-inv09f             21        5        0       0     6      0        32
-div_fixed          19        5        0       0     6      0        30
-inv10f             22        4        0       0     6      0        32
-inv11f             23        4        0       0     6      0        33
-inv12f             22        4        0       0     6      0        32
-inv13f             22        4        0       0     6      0        32
-inv14f             22        4        0       0     6      0        32
-inv15f             24        3        0       0     6      0        33
-PYL1CON_C_CDNS_733705663444        3        0        0       0     0      0         3
-L1M1_C_CDNS_733705663445        3        0        0       0     0      0         3
-L1M1_C_CDNS_733705663446        4        0        0       0     0      0         4
-L1M1_C_CDNS_733705663447        3        0        0       0     0      0         3
-nfet_01v8_CDNS_733705663440       13        0        0       0     0      0        13
-pfet_01v8_CDNS_733705663441       17        0        0       0     0      0        17
-L1M1_C_CDNS_733705663448        5        0        0       0     0      0         5
-pfet_01v8_CDNS_733705663442       13        0        0       0     0      0        13
-nfet_01v8_CDNS_733705663443       21        0        0       0     0      0        21
-pfet_01v8_CDNS_733705663444       17        0        0       0     0      0        17
-nfet_01v8_CDNS_733705663445       13        0        0       0     0      0        13
-pfet_01v8_CDNS_733705663446       13        0        0       0     0      0        13
-nfet_01v8_CDNS_733705663447       13        0        0       0     0      0        13
-pfet_01v8_CDNS_733705663448       13        0        0       0     0      0        13
-nfet_01v8_CDNS_733705663449       13        0        0       0     0      0        13
-pfet_01v8_CDNS_7337056634410       13        0        0       0     0      0        13
-nfet_01v8_CDNS_7337056634411       17        0        0       0     0      0        17
-pfet_01v8_CDNS_7337056634412       17        0        0       0     0      0        17
-nfet_01v8_CDNS_7337056634413       13        0        0       0     0      0        13
-nfet_01v8_CDNS_7337056634414       17        0        0       0     0      0        17
-pfet_01v8_CDNS_7337056634415       13        0        0       0     0      0        13
-nfet_01v8_CDNS_7337056634416       17        0        0       0     0      0        17
-pfet_01v8_CDNS_7337056634417       13        0        0       0     0      0        13
-nfet_01v8_CDNS_7337056634418       13        0        0       0     0      0        13
-pfet_01v8_CDNS_7337056634419       17        0        0       0     0      0        17
-nfet_01v8_CDNS_7337056634420       13        0        0       0     0      0        13
-pfet_01v8_CDNS_7337056634421       27        0        0       0     0      0        27
-pfet_01v8_CDNS_7337056634422       17        0        0       0     0      0        17
-nfet_01v8_CDNS_7337056634423       17        0        0       0     0      0        17
-pfet_01v8_CDNS_7337056634424       17        0        0       0     0      0        17
-nfet_01v8_CDNS_7337056634425       13        0        0       0     0      0        13
-pfet_01v8_CDNS_7337056634426       17        0        0       0     0      0        17
-nfet_01v8_CDNS_7337056634427       17        0        0       0     0      0        17
-pfet_01v8_CDNS_7337056634428       17        0        0       0     0      0        17
-nfet_01v8_CDNS_7337056634429       13        0        0       0     0      0        13
-pfet_01v8_CDNS_7337056634430       17        0        0       0     0      0        17
-nfet_01v8_CDNS_7337056634431       13        0        0       0     0      0        13
-pfet_01v8_CDNS_7337056634432       17        0        0       0     0      0        17
-pfet_01v8_CDNS_7337056634433       17        0        0       0     0      0        17
+PYL1CON_C_CDNS_733956442881        3        0        0       0     0      0         3
+L1M1_C_CDNS_733956442882        3        0        0       0     0      0         3
+L1M1_C_CDNS_733956442884        3        0        0       0     0      0         3
+nfet_01v8_CDNS_733956442880       13        0        0       0     0      0        13
+pfet_01v8_CDNS_733956442881       17        0        0       0     0      0        17
+L1M1_C_CDNS_733956442885        5        0        0       0     0      0         5
+pfet_01v8_CDNS_733956442882       13        0        0       0     0      0        13
+nfet_01v8_CDNS_733956442883       21        0        0       0     0      0        21
 ----------------------------------------------------------------------
 
 Object Statistics of Layers
 Layer   Objects
 ----------------
-   7          19
-   8          19
-   9          37
-  11          32
-  12          38
-  15         181
-  21          16
-  23          19
-  31           2
-  35           3
-  36           4
-  37          28
-  38         181
-  39          85
-  40         127
-  41          36
-  42          79
-  43          37
-  44           3
-  45           2
-  52          54
-  53          35
-  69          16
-  70          19
+   7           2
+   8           2
+   9           4
+  11           4
+  12           4
+  15          23
+  21           2
+  23           2
+  37           3
+  38          23
+  39          15
+  40          18
+  41           4
+  42          15
+  43           5
+  44           1
+  52           7
+  53           4
+  69           2
+  70           2
 ----------------
 
 Object Summary
 ------------------
-     Box       974
- Polygon        98
+     Box       130
+ Polygon        12
     Path         0
    Label         0
-Instance       180
+Instance        16
    Array         0
 ------------------
-   Total      1252
+   Total       158
 
 
-Output property: 1252
+Output property: 158
 Total CPU Time          : 0(s)
 Total Real Time         : 0(s)
 Peak Memory Used        : 9(M)
