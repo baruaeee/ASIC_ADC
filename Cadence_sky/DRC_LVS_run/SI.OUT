@@ -13,7 +13,7 @@ Loaded sky130_fd_pr_main/libInit.il successfully!
 Loading hnlInit.cxt 
 Running Artist Hierarchical Netlisting ...
 Loading cdf.cxt 
-End netlisting Dec 11 23:59:56 2024
+End netlisting Dec 13 18:39:16 2024
 
 Running simin
 
@@ -21,8 +21,8 @@ Running runSim()...
 
 
 Running runsim with simulator: "auCdl"
-Begin simulation:    Dec 11 23:59:56 2024
+Begin simulation:    Dec 13 18:39:17 2024
 
 auCdl netlisting completed
-End simulation:      Dec 11 23:59:56 2024
+End simulation:      Dec 13 18:39:17 2024
 INFO (AUCDL-21): (Analog) CDL netlisting completed successfully.

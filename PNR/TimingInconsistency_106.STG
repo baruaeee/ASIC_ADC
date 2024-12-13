@@ -1,0 +1,324 @@
+NODE therm1/g961__3680/B (input) Id 38  :
+  VIEW VIEW_SETUP :
+    SLACK rise=9647 fall=10044
+    SLEW rise=32 fall=32
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 38 Pol 1 AT rise=200 fall=200 RT rise=10724 fall=11121
+  EDGE TO therm1/g961__3680/Y (output) Id 17  IsDelay 1 IsNet 0 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=<NA> RF=334 (derating=1.000000) FR=1003 (derating=1.000000) FF=<NA>
+
+NODE therm1/g935__1881/A (input) Id 37  :
+  VIEW VIEW_SETUP :
+    SLACK rise=9535 fall=8489
+    SLEW rise=33 fall=33
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 37 Pol 1 AT rise=200 fall=200 RT rise=10612 fall=9566
+  EDGE TO therm1/g935__1881/Y (output) Id 15  IsDelay 1 IsNet 0 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=<NA> RF=450 (derating=1.000000) FR=2159 (derating=1.000000) FF=<NA>
+
+NODE therm1/g935__1881/C (input) Id 36  :
+  VIEW VIEW_SETUP :
+    SLACK rise=499 fall=-243
+    SLEW rise=1459 fall=819
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 36 Pol 1 AT rise=8694 fall=9379 RT rise=10070 fall=10013
+  EDGE TO therm1/g935__1881/Y (output) Id 15  IsDelay 1 IsNet 0 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=<NA> RF=992 (derating=1.000000) FR=1712 (derating=1.000000) FF=<NA>
+
+NODE therm1/g934__6131/B (input) Id 35  :
+  VIEW VIEW_SETUP :
+    SLACK rise=3702 fall=5461
+    SLEW rise=672 fall=579
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 35 Pol 1 AT rise=8336 fall=7316 RT rise=12915 fall=13654
+  EDGE TO therm1/g934__6131/Y (output) Id 14  IsDelay 1 IsNet 0 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=<NA> RF=1675 (derating=1.000000) FR=1476 (derating=1.000000) FF=<NA>
+
+NODE therm1/g943__9315/A (input) Id 34  :
+  VIEW VIEW_SETUP :
+    SLACK rise=5243 fall=7425
+    SLEW rise=32 fall=32
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 34 Pol 1 AT rise=200 fall=200 RT rise=6320 fall=8502
+  EDGE TO therm1/g943__9315/Y (output) Id 13  IsDelay 1 IsNet 0 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=<NA> RF=1188 (derating=1.000000) FR=718 (derating=1.000000) FF=<NA>
+
+NODE therm1/g943__9315/B (input) Id 33  :
+  VIEW VIEW_SETUP :
+    SLACK rise=5316 fall=7493
+    SLEW rise=33 fall=33
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 33 Pol 1 AT rise=200 fall=200 RT rise=6393 fall=8570
+  EDGE TO therm1/g943__9315/Y (output) Id 13  IsDelay 1 IsNet 0 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=<NA> RF=1115 (derating=1.000000) FR=650 (derating=1.000000) FF=<NA>
+
+NODE therm1/g959/A (input) Id 32  :
+  VIEW VIEW_SETUP :
+    SLACK rise=3749 fall=-344
+    SLEW rise=602 fall=573
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 32 Pol 1 AT rise=789 fall=868 RT rise=5415 fall=1401
+  EDGE TO therm1/g959/Y (output) Id 11  IsDelay 1 IsNet 0 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=<NA> RF=554 (derating=1.000000) FR=658 (derating=1.000000) FF=<NA>
+
+NODE therm1/g920__5107/C (input) Id 31  :
+  VIEW VIEW_SETUP :
+    SLACK rise=3726 fall=1849
+    SLEW rise=1176 fall=1355
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 31 Pol 1 AT rise=10814 fall=13026 RT rise=15417 fall=15752
+
+NODE therm1/FE_RC_0_0/A (input) Id 30  :
+  VIEW VIEW_SETUP :
+    SLACK rise=4253 fall=1939
+    SLEW rise=1176 fall=1355
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 30 Pol 1 AT rise=10814 fall=13026 RT rise=15944 fall=15842
+
+NODE therm1/g932__8246/A (input) Id 29  :
+  VIEW VIEW_SETUP :
+    SLACK rise=9893 fall=9577
+    SLEW rise=1195 fall=382
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 29 Pol 1 AT rise=1355 fall=605 RT rise=12125 fall=11059
+
+NODE therm1/g931__5122/A (input) Id 28  :
+  VIEW VIEW_SETUP :
+    SLACK rise=12045 fall=12859
+    SLEW rise=512 fall=282
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 28 Pol 1 AT rise=670 fall=511 RT rise=13592 fall=14247
+
+NODE therm1/g932__8246/B (input) Id 27  :
+  VIEW VIEW_SETUP :
+    SLACK rise=-243 fall=499
+    SLEW rise=2060 fall=557
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 27 Pol 1 AT rise=11094 fall=9689 RT rise=11728 fall=11065
+
+NODE therm1/g931__5122/C (input) Id 26  :
+  VIEW VIEW_SETUP :
+    SLACK rise=1151 fall=3713
+    SLEW rise=2060 fall=557
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 26 Pol 1 AT rise=11094 fall=9689 RT rise=13122 fall=14279
+
+NODE therm1/g929__1705/B (input) Id 25  :
+  VIEW VIEW_SETUP :
+    SLACK rise=1849 fall=3726
+    SLEW rise=2060 fall=557
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 25 Pol 1 AT rise=11094 fall=9689 RT rise=13820 fall=14292
+  EDGE TO therm1/g929__1705/Y (output) Id 18  IsDelay 1 IsNet 0 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=<NA> RF=1930 (derating=1.000000) FR=1123 (derating=1.000000) FF=<NA>
+
+NODE therm1/g922__4319/B (input) Id 24  :
+  VIEW VIEW_SETUP :
+    SLACK rise=5954 fall=4804
+    SLEW rise=1678 fall=1691
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 24 Pol 1 AT rise=8794 fall=10014 RT rise=15625 fall=15695
+
+NODE therm1/g920__5107/B (input) Id 23  :
+  VIEW VIEW_SETUP :
+    SLACK rise=5461 fall=4641
+    SLEW rise=1678 fall=1691
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 23 Pol 1 AT rise=8794 fall=10014 RT rise=15132 fall=15532
+
+NODE therm1/g919__2398/A1 (input) Id 22  :
+  VIEW VIEW_SETUP :
+    SLACK rise=5723 fall=3702
+    SLEW rise=1678 fall=1691
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 22 Pol 1 AT rise=8794 fall=10014 RT rise=15394 fall=14593
+
+NODE therm1/g941/A (input) Id 21  :
+  VIEW VIEW_SETUP :
+    SLACK rise=3749 fall=-344
+    SLEW rise=779 fall=1145
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 21 Pol 1 AT rise=4596 fall=6977 RT rise=9222 fall=7510
+
+NODE therm1/g937__5115/C (input) Id 20  :
+  VIEW VIEW_SETUP :
+    SLACK rise=8247 fall=4602
+    SLEW rise=779 fall=1145
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 20 Pol 1 AT rise=4596 fall=6977 RT rise=13720 fall=12456
+
+NODE therm1/g927__1617/A1 (input) Id 19  :
+  VIEW VIEW_SETUP :
+    SLACK rise=5918 fall=3239
+    SLEW rise=779 fall=1145
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 19 Pol 1 AT rise=4596 fall=6977 RT rise=11391 fall=11093
+
+NODE therm1/g929__1705/Y (output) Id 18  :
+  VIEW VIEW_SETUP :
+    SLACK rise=3726 fall=1849
+    SLEW rise=1176 fall=1355
+    CAP 9.01542
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 18 Pol 1 AT rise=10812 fall=13024 RT rise=15415 fall=15750
+  EDGE TO therm1/FE_RC_0_0/A (input) Id 30  IsDelay 1 IsNet 1 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=2 (derating=1.000000) RF=<NA> FR=<NA> FF=2 (derating=1.000000)
+  EDGE TO therm1/g920__5107/C (input) Id 31  IsDelay 1 IsNet 1 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=2 (derating=1.000000) RF=<NA> FR=<NA> FF=2 (derating=1.000000)
+
+NODE therm1/g961__3680/Y (output) Id 17  :
+  VIEW VIEW_SETUP :
+    SLACK rise=9893 fall=9577
+    SLEW rise=1194 fall=382
+    CAP 3.63419
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 17 Pol 1 AT rise=1354 fall=604 RT rise=12124 fall=11058
+  EDGE TO therm1/g932__8246/A (input) Id 29  IsDelay 1 IsNet 1 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=1 (derating=1.000000) RF=<NA> FR=<NA> FF=1 (derating=1.000000)
+
+NODE therm1/g966/Y (output) Id 16  :
+  VIEW VIEW_SETUP :
+    SLACK rise=12045 fall=12859
+    SLEW rise=512 fall=282
+    CAP 3.69172
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 16 Pol 1 AT rise=669 fall=510 RT rise=13591 fall=14246
+  EDGE TO therm1/g931__5122/A (input) Id 28  IsDelay 1 IsNet 1 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=1 (derating=1.000000) RF=<NA> FR=<NA> FF=1 (derating=1.000000)
+
+NODE therm1/g935__1881/Y (output) Id 15  :
+  VIEW VIEW_SETUP :
+    SLACK rise=-243 fall=499
+    SLEW rise=2059 fall=557
+    CAP 14.4555
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 15 Pol 1 AT rise=11091 fall=9686 RT rise=11725 fall=11062
+  EDGE TO therm1/g929__1705/B (input) Id 25  IsDelay 1 IsNet 1 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=3 (derating=1.000000) RF=<NA> FR=<NA> FF=3 (derating=1.000000)
+  EDGE TO therm1/g931__5122/C (input) Id 26  IsDelay 1 IsNet 1 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=3 (derating=1.000000) RF=<NA> FR=<NA> FF=3 (derating=1.000000)
+  EDGE TO therm1/g932__8246/B (input) Id 27  IsDelay 1 IsNet 1 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=3 (derating=1.000000) RF=<NA> FR=<NA> FF=3 (derating=1.000000)
+
+NODE therm1/g934__6131/Y (output) Id 14  :
+  VIEW VIEW_SETUP :
+    SLACK rise=5461 fall=3702
+    SLEW rise=1677 fall=1691
+    CAP 13.9011
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 14 Pol 1 AT rise=8792 fall=10011 RT rise=15130 fall=14590
+  EDGE TO therm1/g919__2398/A1 (input) Id 22  IsDelay 1 IsNet 1 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=2 (derating=1.000000) RF=<NA> FR=<NA> FF=3 (derating=1.000000)
+  EDGE TO therm1/g920__5107/B (input) Id 23  IsDelay 1 IsNet 1 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=2 (derating=1.000000) RF=<NA> FR=<NA> FF=3 (derating=1.000000)
+  EDGE TO therm1/g922__4319/B (input) Id 24  IsDelay 1 IsNet 1 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=2 (derating=1.000000) RF=<NA> FR=<NA> FF=3 (derating=1.000000)
+
+NODE therm1/g943__9315/Y (output) Id 13  :
+  VIEW VIEW_SETUP :
+    SLACK rise=3749 fall=-344
+    SLEW rise=779 fall=1144
+    CAP 14.8298
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 13 Pol 1 AT rise=4594 fall=6975 RT rise=9220 fall=7508
+  EDGE TO therm1/g927__1617/A1 (input) Id 19  IsDelay 1 IsNet 1 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=2 (derating=1.000000) RF=<NA> FR=<NA> FF=2 (derating=1.000000)
+  EDGE TO therm1/g937__5115/C (input) Id 20  IsDelay 1 IsNet 1 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=2 (derating=1.000000) RF=<NA> FR=<NA> FF=2 (derating=1.000000)
+  EDGE TO therm1/g941/A (input) Id 21  IsDelay 1 IsNet 1 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=2 (derating=1.000000) RF=<NA> FR=<NA> FF=2 (derating=1.000000)
+
+NODE therm1/g929__1705/A (input) Id 12  :
+  VIEW VIEW_SETUP :
+    SLACK rise=12086 fall=12105
+    SLEW rise=477 fall=299
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 12 Pol 1 AT rise=1527 fall=1344 RT rise=14490 fall=14326
+  EDGE TO therm1/g929__1705/Y (output) Id 18  IsDelay 1 IsNet 0 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=<NA> RF=1260 (derating=1.000000) FR=1089 (derating=1.000000) FF=<NA>
+
+NODE therm1/g959/Y (output) Id 11  :
+  VIEW VIEW_SETUP :
+    SLACK rise=-344 fall=3749
+    SLEW rise=477 fall=299
+    CAP 6.19433
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 11 Pol 1 AT rise=1526 fall=1343 RT rise=2059 fall=5969
+  EDGE TO therm1/g945__2883/C (input) Id 10  IsDelay 1 IsNet 1 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=1 (derating=1.000000) RF=<NA> FR=<NA> FF=1 (derating=1.000000)
+  EDGE TO therm1/g929__1705/A (input) Id 12  IsDelay 1 IsNet 1 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=1 (derating=1.000000) RF=<NA> FR=<NA> FF=1 (derating=1.000000)
+
+NODE therm1/g945__2883/C (input) Id 10  :
+  VIEW VIEW_SETUP :
+    SLACK rise=-344 fall=3749
+    SLEW rise=477 fall=299
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 11 Pol 1 AT rise=1527 fall=1344 RT rise=2060 fall=5970
+  EDGE TO therm1/g945__2883/Y (output) Id 0  IsDelay 1 IsNet 0 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=3869 (derating=1.000000) RF=<NA> FR=<NA> FF=2312 (derating=1.000000)
+
+NODE pretherm/Y13 (output) Id 9  :
+  VIEW VIEW_SETUP :
+    SLACK rise=2305843009213693074 fall=2305843009213693074
+    SLEW rise=30 fall=30
+    CAP 13.5136
+    DRIVE DELAY rise=0 fall=0
+  EDGE TO therm1/g945__2883/B (input) Id 6  IsDelay 1 IsNet 1 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=1 (derating=1.000000) RF=<NA> FR=<NA> FF=1 (derating=1.000000)
+  EDGE TO therm1/g966/A (input) Id 7  IsDelay 1 IsNet 1 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=1 (derating=1.000000) RF=<NA> FR=<NA> FF=1 (derating=1.000000)
+  EDGE TO therm1/g961__3680/A (input) Id 8  IsDelay 1 IsNet 1 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=1 (derating=1.000000) RF=<NA> FR=<NA> FF=1 (derating=1.000000)
+
+NODE therm1/g961__3680/A (input) Id 8  :
+  VIEW VIEW_SETUP :
+    SLACK rise=9577 fall=9893
+    SLEW rise=31 fall=31
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 8 Pol 1 AT rise=200 fall=200 RT rise=10654 fall=10970
+  EDGE TO therm1/g961__3680/Y (output) Id 17  IsDelay 1 IsNet 0 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=<NA> RF=404 (derating=1.000000) FR=1154 (derating=1.000000) FF=<NA>
+
+NODE therm1/g966/A (input) Id 7  :
+  VIEW VIEW_SETUP :
+    SLACK rise=12859 fall=12045
+    SLEW rise=31 fall=31
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 7 Pol 1 AT rise=200 fall=200 RT rise=13936 fall=13122
+  EDGE TO therm1/g966/Y (output) Id 16  IsDelay 1 IsNet 0 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=<NA> RF=310 (derating=1.000000) FR=469 (derating=1.000000) FF=<NA>
+
+NODE therm1/g945__2883/B (input) Id 6  :
+  VIEW VIEW_SETUP :
+    SLACK rise=1007 fall=4912
+    SLEW rise=31 fall=31
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 6 Pol 1 AT rise=200 fall=200 RT rise=2084 fall=5989
+  EDGE TO therm1/g945__2883/Y (output) Id 0  IsDelay 1 IsNet 0 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=3845 (derating=1.000000) RF=<NA> FR=<NA> FF=2293 (derating=1.000000)
+
+NODE pretherm/Y12 (output) Id 5  :
+  VIEW VIEW_SETUP :
+    SLACK rise=2305843009213693074 fall=2305843009213693074
+    SLEW rise=30 fall=30
+    CAP 16.5086
+    DRIVE DELAY rise=0 fall=0
+  EDGE TO therm1/g945__2883/A (input) Id 3  IsDelay 1 IsNet 1 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=2 (derating=1.000000) RF=<NA> FR=<NA> FF=2 (derating=1.000000)
+  EDGE TO therm1/g935__1881/B (input) Id 4  IsDelay 1 IsNet 1 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=2 (derating=1.000000) RF=<NA> FR=<NA> FF=2 (derating=1.000000)
+
+NODE therm1/g935__1881/B (input) Id 4  :
+  VIEW VIEW_SETUP :
+    SLACK rise=9536 fall=8673
+    SLEW rise=32 fall=32
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 4 Pol 1 AT rise=200 fall=200 RT rise=10613 fall=9750
+  EDGE TO therm1/g935__1881/Y (output) Id 15  IsDelay 1 IsNet 0 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=<NA> RF=449 (derating=1.000000) FR=1975 (derating=1.000000) FF=<NA>
+
+NODE therm1/g945__2883/A (input) Id 3  :
+  VIEW VIEW_SETUP :
+    SLACK rise=946 fall=4823
+    SLEW rise=32 fall=32
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 3 Pol 1 AT rise=200 fall=200 RT rise=2023 fall=5900
+  EDGE TO therm1/g945__2883/Y (output) Id 0  IsDelay 1 IsNet 0 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=3906 (derating=1.000000) RF=<NA> FR=<NA> FF=2382 (derating=1.000000)
+
+NODE therm1/g934__6131/A (input) Id 2  :
+  VIEW VIEW_SETUP :
+    SLACK rise=6213 fall=8877
+    SLEW rise=1596 fall=883
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 2 Pol 1 AT rise=5400 fall=3660 RT rise=12490 fall=13414
+  EDGE TO therm1/g934__6131/Y (output) Id 14  IsDelay 1 IsNet 0 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=<NA> RF=2100 (derating=1.000000) FR=1716 (derating=1.000000) FF=<NA>
+
+NODE therm1/g943__9315/C (input) Id 1  :
+  VIEW VIEW_SETUP :
+    SLACK rise=-344 fall=3749
+    SLEW rise=1596 fall=883
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 1 Pol 1 AT rise=5400 fall=3660 RT rise=5933 fall=8286
+  EDGE TO therm1/g943__9315/Y (output) Id 13  IsDelay 1 IsNet 0 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=<NA> RF=1575 (derating=1.000000) FR=934 (derating=1.000000) FF=<NA>
+
+NODE therm1/g945__2883/Y (output) Id 0  :
+  VIEW VIEW_SETUP :
+    SLACK rise=-344 fall=3749
+    SLEW rise=1596 fall=883
+    CAP 19.1971
+   0 PHASE clk(D)(P)(VIEW_SETUP)* Id 3 Pol 1 AT rise=4106 fall=2582 RT rise=5929 fall=8282
+   1 PHASE clk(D)(P)(VIEW_SETUP)* Id 6 Pol 1 AT rise=4045 fall=2493 RT rise=5929 fall=8282
+   2 PHASE clk(D)(P)(VIEW_SETUP)* Id 11 Pol 1 AT rise=5396 fall=3656 RT rise=5929 fall=8282
+  EDGE TO therm1/g943__9315/C (input) Id 1  IsDelay 1 IsNet 1 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=4 (derating=1.000000) RF=<NA> FR=<NA> FF=4 (derating=1.000000)
+  EDGE TO therm1/g934__6131/A (input) Id 2  IsDelay 1 IsNet 1 Disabled 0 LatchFlush 0
+    DELAYS view=VIEW_SETUP RR=4 (derating=1.000000) RF=<NA> FR=<NA> FF=4 (derating=1.000000)
+

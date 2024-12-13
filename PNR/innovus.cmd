@@ -1,7 +1,7 @@
 #######################################################
 #                                                     
 #  Innovus Command Logging File                     
-#  Created on Thu Dec 12 00:07:55 2024                
+#  Created on Fri Dec 13 18:53:01 2024                
 #                                                     
 #######################################################
 
@@ -93,7 +93,36 @@ set init_verilog_tolerate_port_mismatch 0
 set lefdefInputCheckColoredShape 0
 set load_netlist_ignore_undefined_cell 1
 init_design
-floorPlan -site CoreSite -r 0.9375 0.695833 8.28 8.28 8.28 8.28
+floorPlan -site CoreSite -r 1 0.65 8.28 8.28 8.28 8.28
+zoomBox -2.91900 -4.70900 36.75900 30.81100
+zoomBox -4.54900 -7.10100 42.13100 34.68800
+zoomBox -6.46800 -9.91400 48.45000 39.24900
+zoomBox -8.72500 -13.22500 55.88500 44.61500
+getIoFlowFlag
+setIoFlowFlag 0
+floorPlan -site CoreSite -r 1 0.648021 8.28 8.28 8.28 8.28
+uiSetTool select
+getIoFlowFlag
+fit
+setIoFlowFlag 0
+floorPlan -site CoreSite -r 1 0.648021 8.28 8.28 8.28 8.28
+uiSetTool select
+getIoFlowFlag
+fit
+setIoFlowFlag 0
+floorPlan -site CoreSite -r 0.99 0.6 8.28 8.28 8.28 8.28
+uiSetTool select
+getIoFlowFlag
+fit
+setIoFlowFlag 0
+floorPlan -site CoreSite -r 0.940298507463 0.596898 8.28 8.28 8.28 8.28
+uiSetTool select
+getIoFlowFlag
+fit
+getIoFlowFlag
+floorPlan -site CoreSite -r 1 0.6 8.28 8.28 8.28 8.28
+zoomBox -4.68500 -5.85500 61.14800 53.08000
+setDesignMode -process 130
 globalNetConnect VDD -type pgpin -pin VDD -override -verbose -netlistOverride
 globalNetConnect VSS -type pgpin -pin VSS -override -verbose -netlistOverride
 setPinAssignMode -pinEditInBatch true
@@ -110,219 +139,78 @@ setEndCapMode -reset
 setEndCapMode -boundary_tap false
 setUsefulSkewMode -noBoundary false -maxAllowedDelay 1
 setMultiCpuUsage -localCpu 8 -cpuPerRemoteHost 1 -remoteHost 0 -keepLicense true
-zoomBox -2.12700 -3.14300 35.90800 30.90600
-zoomBox -3.91600 -4.02000 40.83100 36.03800
-zoomBox -6.02000 -5.05200 46.62300 42.07500
-zoomBox -8.49700 -6.26600 53.43700 49.17800
 setPlaceMode -fp false
 place_design
-zoomBox -5.30000 -2.92500 47.34400 44.20300
-zoomBox -2.58300 -0.08500 42.16500 39.97400
-selectInst pretherm
-zoomBox 2.86800 5.18600 30.34900 29.78700
-zoomBox 4.16900 6.44400 27.52800 27.35500
-zoomBox 5.61000 7.52200 25.46600 25.29700
-zoomBox 6.83500 8.43900 23.71300 23.54800
-zoomBox 7.87600 9.21700 22.22300 22.06100
-zoomBox 6.83400 8.43800 23.71300 23.54800
-zoomBox 5.60900 7.52100 25.46600 25.29700
-zoomBox 4.22600 5.38900 27.58800 26.30300
-zoomBox 2.59900 2.88200 30.08400 27.48700
-zoomBox 9.54100 9.13800 26.42100 24.24900
-zoomBox 12.73400 11.90100 24.93000 22.81900
-zoomBox 13.98100 12.98000 24.34800 22.26100
-zoomBox 15.94100 14.67700 23.43200 21.38300
-deselectAll
-selectVia 20.4850 18.5500 21.9050 19.9700 5 {int[8]}
-zoomBox 15.03600 13.92700 23.84900 21.81700
-zoomBox 13.97100 13.04600 24.34000 22.32800
-deselectAll
-selectWire 16.0900 18.4600 25.6850 20.0600 5 {int[11]}
-zoomBox 12.64100 12.59900 24.83900 23.51900
-zoomBox 11.07800 12.06400 25.42900 24.91100
-zoomBox 9.24000 11.43400 26.12400 26.54900
-zoomBox 7.07800 10.69400 26.94100 28.47600
-zoomBox 7.71200 14.54400 22.06400 27.39200
-zoomBox 8.17000 17.32600 18.54000 26.60900
-zoomBox 8.34900 18.41200 17.16400 26.30300
-zoomBox 8.50100 19.33500 15.99400 26.04300
-zoomBox 8.63000 20.11900 15.00000 25.82200
-zoomBox 8.73900 20.78600 14.15400 25.63400
-zoomBox 7.82900 19.79200 15.32500 26.50300
-zoomBox 6.56900 18.41200 16.94600 27.70200
-zoomBox 5.70000 17.61400 17.90800 28.54300
-zoomBox 4.67700 16.67200 19.04000 29.53000
-deselectAll
-selectInst pretherm
-zoomBox 2.25700 14.16000 22.13700 31.95700
-zoomBox 0.71800 12.56200 24.10700 33.50000
-zoomBox -1.09200 10.68300 26.42400 35.31600
-zoomBox -3.69900 9.43300 28.67300 38.41300
-zoomBox -6.76600 7.96200 31.31900 42.05600
-zoomBox -10.37400 6.23100 34.43200 46.34200
-deselectAll
+timeDesign -preCTS
+optDesign -preCTS
+set_ccopt_property buffer_cells {CLKBUFX8 CLKBUFX4 CLKBUFX2}
+create_ccopt_clock_tree_spec
+ccopt_design
+zoomBox -0.62300 -3.59400 55.33600 46.50100
+zoomBox 2.83000 -1.67200 50.39500 40.90900
+zoomBox 8.29400 1.65800 42.66000 32.42300
+zoomBox 10.42700 2.95800 39.63900 29.10900
+zoomBox 15.09300 5.80200 33.03300 21.86200
+zoomBox 16.20700 6.48100 31.45600 20.13200
+zoomBox 17.95800 7.54700 28.97700 17.41100
+zoomBox 18.64200 7.96300 28.00800 16.34800
+zoomBox 19.22300 8.31700 27.18500 15.44500
+zoomBox 19.71700 8.61800 26.48500 14.67700
+zoomBox 20.13700 8.87400 25.89000 14.02400
+zoomBox 18.64000 7.96200 28.00800 16.34800
+zoomBox 16.20400 6.47600 31.45800 20.13200
+zoomBox 13.77800 4.99700 34.89200 23.89900
+zoomBox 12.23400 4.05600 37.07600 26.29500
+timeDesign -postCTS
+optDesign -postCTS
+timeDesign -postCTS
+zoomBox 14.13800 5.96000 35.25400 24.86300
+zoomBox 15.75600 7.57800 33.70500 23.64600
+zoomBox 14.13700 5.95900 35.25400 24.86300
+zoomBox 12.23300 4.05500 37.07600 26.29500
+zoomBox 9.99300 1.81500 39.22000 27.97900
+zoomBox 4.25600 -3.92200 44.70900 32.29200
+zoomBox 0.60800 -7.57000 48.20000 35.03500
+zoomBox -3.68400 -11.86200 52.30700 38.26200
 fit
-zoomBox 0.23600 2.49500 43.67600 41.38300
-zoomBox 2.41100 6.46500 39.33500 39.52000
-zoomBox 4.26000 9.84000 35.64500 37.93600
-selectInst {therm1/out_reg[0]}
-zoomBox -6.03200 1.85500 37.40800 40.74300
-zoomBox -12.57700 -3.22300 38.52900 42.52800
-zoomBox -20.27800 -9.19700 39.84700 44.62800
-zoomBox -36.97900 -24.28400 46.24000 50.21500
-zoomBox -61.85000 -44.95900 53.33300 58.15400
-zoomBox -77.60200 -58.10700 57.90800 63.20300
-zoomBox -61.32600 -45.24900 53.85800 57.86500
-zoomBox -24.01600 -20.97500 46.72100 42.35000
-zoomBox -1.41700 -6.10900 42.02400 32.78000
-zoomBox 7.19000 0.58100 38.57700 28.67900
-zoomBox 15.08800 8.98400 31.47300 23.65200
-deselectAll
-selectInst therm1/g311
-deselectAll
-selectInst therm1/g317
-deselectAll
-selectInst therm1/g302__4319
-zoomBox 10.49500 5.35200 33.17500 25.65500
-deselectAll
-selectInst therm1/g312
-zoomBox 7.79700 3.63700 34.48000 27.52400
-zoomBox 4.62300 1.62000 36.01500 29.72300
-deselectAll
-selectInst therm1/g301__6260
-deselectAll
-selectInst therm1/g310
-deselectAll
-selectInst therm1/g314
+setNanoRouteMode -quiet -drouteFixAntenna 1
+setNanoRouteMode -quiet -routeInsertAntennaDiode 0
+setNanoRouteMode -quiet -routeWithTimingDriven 0
+setNanoRouteMode -quiet -routeWithEco 0
+setNanoRouteMode -quiet -routeWithLithoDriven 0
+setNanoRouteMode -quiet -droutePostRouteLithoRepair 0
+setNanoRouteMode -quiet -routeWithSiDriven 0
+setNanoRouteMode -quiet -drouteAutoStop 1
+setNanoRouteMode -quiet -routeSelectedNetOnly 0
+setNanoRouteMode -quiet -routeTopRoutingLayer 5
+setNanoRouteMode -quiet -routeBottomRoutingLayer 1
+setNanoRouteMode -quiet -drouteEndIteration 1
+setNanoRouteMode -quiet -routeWithTimingDriven false
+setNanoRouteMode -quiet -routeWithSiDriven false
+routeDesign -globalDetail
+zoomBox -1.47700 0.77300 46.08800 43.35400
+zoomBox 0.91300 3.36700 41.34400 39.56100
+selectInst pretherm
 deselectAll
 selectInst therm1/g305__6783
 deselectAll
 selectInst therm1/g316
-zoomBox 1.22500 0.00700 38.15800 33.07000
-zoomBox -2.77200 -1.89000 40.67900 37.00800
-zoomBox -7.47500 -4.12200 43.64500 41.64100
-zoomBox -13.00700 -6.74800 47.13400 47.09100
+deselectAll
+selectVia 27.8950 22.1250 28.2250 22.4950 3 {int[13]}
+deselectAll
+selectInst therm1/g300__5107
+deselectAll
+selectInst {therm1/out_reg[1]}
+deselectAll
+selectInst therm1/g309
+setDelayCalMode -SIAware false
+setAnalysisMode -analysisType onChipVariation
+timeDesign -postRoute
+optDesign -postRoute
+optDesign -postRoute
+selectInst pretherm
+deselectAll
 fit
-zoomBox -0.41900 0.72000 43.02100 39.60800
-zoomBox 1.19900 3.18000 38.12400 36.23600
-zoomBox 4.68200 8.59900 27.35900 28.90000
-zoomBox 5.51300 9.89300 24.78900 27.14900
-zoomBox 6.82100 11.92700 20.74800 24.39500
-zoomBox 7.33200 12.72100 19.17000 23.31900
-zoomBox 6.81900 11.92600 20.74800 24.39500
-zoomBox 6.21800 10.99100 22.60500 25.66100
-zoomBox 5.51100 9.89100 24.79000 27.15000
-deselectAll
-selectWire 11.1700 14.8000 20.1500 16.4000 5 {int[4]}
-zoomBox 6.05700 11.34600 22.44400 26.01600
-zoomBox 6.52000 12.58300 20.45000 25.05300
-zoomBox 6.91400 13.63400 18.75500 24.23400
-zoomBox 7.24500 14.40600 17.31000 23.41600
-zoomBox 7.52600 15.06200 16.08200 22.72100
-zoomBox 8.35700 17.13000 12.15400 20.52900
-deselectAll
-selectWire 0.3100 19.1100 9.8100 19.4100 3 IN
-zoomBox 8.71700 17.59300 11.46200 20.05000
-zoomBox 8.85700 17.77400 11.19100 19.86300
-zoomBox 8.71600 17.59300 11.46200 20.05100
-zoomBox 8.55000 17.38000 11.78100 20.27200
-zoomBox 8.35400 17.12800 12.15600 20.53200
-deselectAll
-selectWire 9.5100 19.7200 18.2700 20.0200 3 {int[5]}
-zoomBox 9.17500 18.16600 11.51100 20.25700
-zoomBox 9.37100 18.41300 11.35700 20.19100
-zoomBox 9.53800 18.62400 11.22600 20.13500
-zoomBox 9.37100 18.41300 11.35700 20.19100
-zoomBox 9.17400 18.16500 11.51100 20.25700
-zoomBox 8.94300 17.87300 11.69200 20.33400
-zoomBox 8.35100 17.12600 12.15600 20.53200
-zoomBox 6.39800 14.65900 13.68800 21.18500
-zoomBox 5.67700 13.74800 14.25400 21.42600
-zoomBox 4.82900 12.67600 14.92000 21.71000
-zoomBox 1.27600 8.18800 17.70900 22.89900
-zoomBox -4.50800 0.88100 22.25100 24.83600
-zoomBox -10.26600 -6.39300 26.77200 26.76400
-deselectAll
-selectInst therm1/g301__6260
-zoomBox -6.01200 -3.56900 25.47100 24.61500
-zoomBox 3.27500 1.72600 22.61100 19.03600
-zoomBox 7.37700 4.06500 21.34800 16.57200
-zoomBox 5.49200 2.99000 21.92800 17.70400
-zoomBox 3.27400 1.72500 22.61100 19.03600
-zoomBox 0.66400 0.23700 23.41400 20.60300
-zoomBox -6.01700 -3.57200 25.47100 24.61600
-zoomBox -1.75600 2.91600 20.99400 23.28200
-zoomBox -0.09200 5.44900 19.24600 22.76100
-zoomBox 2.52500 9.43400 16.49700 21.94200
-zoomBox 3.54700 10.99000 15.42300 21.62200
-zoomBox 0.00300 5.58300 19.34300 22.89600
-zoomBox -5.76700 -3.22100 25.72600 24.97200
-zoomBox -8.40600 -7.24800 28.64500 25.92100
-zoomBox -11.51100 -11.98500 32.08000 27.03800
-pan 0.62000 10.35300
-zoomBox -7.05100 2.80900 30.00200 35.97900
-zoomBox -1.01300 9.04700 25.75800 33.01300
-zoomBox 1.34400 11.48300 24.10100 31.85500
-zoomBox 3.68800 15.37900 20.13100 30.09900
-zoomBox 2.61000 13.58800 21.95500 30.90600
-zoomBox 1.34200 11.48100 24.10200 31.85600
-deselectAll
-selectVia 10.5750 27.6100 10.9050 27.9900 4 therm1/n_4
-zoomBox 2.68500 13.66300 22.03100 30.98200
-zoomBox 3.82600 15.51800 20.27000 30.23900
-zoomBox 4.79500 17.09400 18.77300 29.60700
-zoomBox 5.62000 18.43400 17.50100 29.07000
-deselectAll
-selectVia 9.9900 26.9800 10.2500 27.3000 2 {int[12]}
-zoomBox 4.73800 17.01000 18.71600 29.52300
-zoomBox 3.70100 15.33400 20.14600 30.05600
-zoomBox 2.48100 13.36300 21.82800 30.68300
-deselectAll
-selectInst therm1/g313
-pan 5.05600 8.35400
-zoomBox 5.43400 9.58900 28.19600 29.96600
-zoomBox 2.96000 8.12400 29.73900 32.09700
-zoomBox 0.06200 6.44200 31.56700 34.64600
-zoomBox 3.19500 7.35800 25.95800 27.73600
-zoomBox 4.41900 7.71600 23.76700 25.03700
-zoomBox 5.45900 8.02000 21.90500 22.74300
-zoomBox 7.73100 8.68400 17.83300 17.72700
-zoomBox 8.27400 8.84200 16.86100 16.52900
-zoomBox 8.73600 8.97700 16.03500 15.51100
-deselectAll
-selectWire 11.8900 10.6500 12.0300 12.4900 2 {int[0]}
-deselectAll
-selectVia 11.8300 10.4200 12.0900 10.7400 2 {int[4]}
-deselectAll
-selectWire 10.9700 10.6500 11.1100 11.5700 2 therm1/n_3
-deselectAll
-selectWire 10.9700 10.6500 11.1100 11.5700 2 therm1/n_3
-deselectAll
-selectWire 12.3500 10.0400 12.4900 11.5700 2 therm1/n_7
-zoomBox 8.18100 8.65700 16.76800 16.34400
-deselectAll
-selectVia 13.1550 12.3850 13.5250 12.7150 3 {int[1]}
-pan 3.35500 0.64200
-zoomBox 11.01800 8.29300 21.12100 17.33700
-zoomBox 10.40900 7.66900 22.29500 18.31000
-zoomBox 9.67500 6.92500 23.66000 19.44500
-zoomBox 8.81200 6.05000 25.26600 20.78000
-zoomBox 7.79800 5.02100 27.15500 22.35000
-zoomBox 6.60500 3.81000 29.37800 24.19700
-zoomBox 5.20100 2.38500 31.99300 26.37000
-zoomBox 3.54900 0.70900 35.07000 28.92700
-zoomBox 1.60600 -1.26300 38.69000 31.93500
-zoomBox -0.68100 -3.58300 42.94800 35.47400
-zoomBox -3.37000 -6.31300 47.95800 39.63700
-zoomBox 3.90000 -3.10600 47.53000 35.95200
-zoomBox 15.31800 1.93600 46.84100 30.15600
-zoomBox 19.81400 3.95500 46.60900 27.94200
-zoomBox 23.67700 5.68600 46.45300 26.07500
-zoomBox 26.96100 7.15800 46.32000 24.48800
-zoomBox 29.75200 8.40800 46.20700 23.13900
-zoomBox 23.76600 5.62800 46.54200 26.01700
-zoomBox 19.96000 3.86000 46.75500 27.84700
-zoomBox 15.48200 1.77900 47.00600 30.00000
-zoomBox 10.21400 -0.66800 47.30100 32.53300
-zoomBox -3.27600 -6.93400 48.05600 39.01900
-zoomBox -11.85400 -10.91900 48.53700 43.14400
+saveDesign adc
+saveDesign adc.enc
+verifyConnectivity -type all -geomConnect -error 1000 -warning 50

@@ -32,51 +32,6 @@ INFO (ABS-10511): Saving current option settings for library ADC to the file /ho
 INFO (ABS-11900): Cell pre_therm: Step Pins started
 INFO (ABS-12015): Cell pre_therm: The PR boundary does not enclose all cellview geometries. This is because not all layers with geometry for calculating PR boundary have been specified in the "Using geometry on layers" field on the "Boundary" tab. Ensure that all the required layers have been specified in this field.
 INFO (ABS-12042): Cell pre_therm: Deleting nets and terminals with no pins because these are not relevant for layout tools.
-*WARNING* (ABS-12027): Cell pre_therm: the existing terminal Y12 specified in the "Exclude existing pins on layers" field does not have have any pin shape. This terminal will be deleted. The equivalent terminal will be created based on the value specified in the "Map text labels to pins" field on the "Map" tab.
-INFO (ABS-12001): Cell pre_therm: There are 17 existing terminals. No pins will be added for them.
-INFO (ABS-12002): Cell pre_therm: No terminals have been created. Use the Map text labels to pins option in the Map tab of the Pins step to define cell pins.
-INFO (ABS-11901): Cell pre_therm: Step Pins finished
-INFO (ABS-10509): Saving existing options file for library ADC to /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/.abstract/ADC/.abstract.options.prev
-INFO (ABS-10511): Saving current option settings for library ADC to the file /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/.abstract/ADC/.abstract.options.
-INFO (ABS-11900): Cell pre_therm: Step Extract started
-INFO (ABS-13002): Cell pre_therm: extracting 17 nets
-INFO (ABS-13004): Cell pre_therm: extracting the net Y15, 1 of 17.
-INFO (ABS-13004): Cell pre_therm: extracting the net Y14, 2 of 17.
-INFO (ABS-13004): Cell pre_therm: extracting the net Y13, 3 of 17.
-INFO (ABS-13011): Cell pre_therm: the must join terminal Y13_mj1 has been created.
-INFO (ABS-13004): Cell pre_therm: extracting the net Y11, 4 of 17.
-INFO (ABS-13004): Cell pre_therm: extracting the net Y10, 5 of 17.
-INFO (ABS-13004): Cell pre_therm: extracting the net Y09, 6 of 17.
-INFO (ABS-13004): Cell pre_therm: extracting the net Y08, 7 of 17.
-INFO (ABS-13004): Cell pre_therm: extracting the net Y07, 8 of 17.
-INFO (ABS-13004): Cell pre_therm: extracting the net Y06, 9 of 17.
-INFO (ABS-13004): Cell pre_therm: extracting the net Y05, 10 of 17.
-INFO (ABS-13004): Cell pre_therm: extracting the net Y04, 11 of 17.
-INFO (ABS-13004): Cell pre_therm: extracting the net Y03, 12 of 17.
-INFO (ABS-13004): Cell pre_therm: extracting the net Y02, 13 of 17.
-INFO (ABS-13004): Cell pre_therm: extracting the net Y01, 14 of 17.
-INFO (ABS-13004): Cell pre_therm: extracting the net IN, 15 of 17.
-INFO (ABS-12052): Cell pre_therm: Extracting Power nets. Checking for shorts, if any. Once short detection is complete, the individual progress of net extraction will be reported.
-INFO (ABS-12054): Cell pre_therm: Checking short for power net VSS, 17 of 18.
-INFO (ABS-12054): Cell pre_therm: Checking short for power net VDD, 18 of 18.
-INFO (ABS-12053): Cell pre_therm: The power nets do not have any shorts.
-INFO (ABS-13004): Cell pre_therm: extracting the net VSS, 17 of 18.
-INFO (ABS-13004): Cell pre_therm: extracting the net VDD, 18 of 18.
-INFO (ABS-11901): Cell pre_therm: Step Extract finished
-INFO (ABS-10509): Saving existing options file for library ADC to /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/.abstract/ADC/.abstract.options.prev
-INFO (ABS-10511): Saving current option settings for library ADC to the file /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/.abstract/ADC/.abstract.options.
-INFO (ABS-11900): Cell pre_therm: Step Pins started
-INFO (ABS-12015): Cell pre_therm: The PR boundary does not enclose all cellview geometries. This is because not all layers with geometry for calculating PR boundary have been specified in the "Using geometry on layers" field on the "Boundary" tab. Ensure that all the required layers have been specified in this field.
-INFO (ABS-12042): Cell pre_therm: Deleting nets and terminals with no pins because these are not relevant for layout tools.
-*WARNING* (ABS-12027): Cell pre_therm: the existing terminal Y12 specified in the "Exclude existing pins on layers" field does not have have any pin shape. This terminal will be deleted. The equivalent terminal will be created based on the value specified in the "Map text labels to pins" field on the "Map" tab.
-INFO (ABS-12001): Cell pre_therm: There are 17 existing terminals. No pins will be added for them.
-INFO (ABS-12002): Cell pre_therm: No terminals have been created. Use the Map text labels to pins option in the Map tab of the Pins step to define cell pins.
-INFO (ABS-11901): Cell pre_therm: Step Pins finished
-INFO (ABS-10509): Saving existing options file for library ADC to /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/.abstract/ADC/.abstract.options.prev
-INFO (ABS-10511): Saving current option settings for library ADC to the file /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/.abstract/ADC/.abstract.options.
-INFO (ABS-11900): Cell pre_therm: Step Pins started
-INFO (ABS-12015): Cell pre_therm: The PR boundary does not enclose all cellview geometries. This is because not all layers with geometry for calculating PR boundary have been specified in the "Using geometry on layers" field on the "Boundary" tab. Ensure that all the required layers have been specified in this field.
-INFO (ABS-12042): Cell pre_therm: Deleting nets and terminals with no pins because these are not relevant for layout tools.
 INFO (ABS-12001): Cell pre_therm: There are 18 existing terminals. No pins will be added for them.
 INFO (ABS-12002): Cell pre_therm: No terminals have been created. Use the Map text labels to pins option in the Map tab of the Pins step to define cell pins.
 INFO (ABS-11901): Cell pre_therm: Step Pins finished
@@ -110,9 +65,9 @@ INFO (ABS-11901): Cell pre_therm: Step Extract finished
 INFO (ABS-10509): Saving existing options file for library ADC to /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/.abstract/ADC/.abstract.options.prev
 INFO (ABS-10511): Saving current option settings for library ADC to the file /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/.abstract/ADC/.abstract.options.
 INFO (ABS-11900): Cell pre_therm: Step Abstract started
+INFO (ABS-19026): Cell pre_therm: Generating detailed blockages for layer via
 INFO (ABS-19026): Cell pre_therm: Generating detailed blockages for layer mcon
 INFO (ABS-19026): Cell pre_therm: Generating detailed blockages for layer met1
-INFO (ABS-19026): Cell pre_therm: Generating detailed blockages for layer via
 INFO (ABS-19026): Cell pre_therm: Generating detailed blockages for layer met2
 INFO (ABS-19026): Cell pre_therm: Generating detailed blockages for layer via2
 INFO (ABS-19026): Cell pre_therm: Generating detailed blockages for layer met3
@@ -124,14 +79,14 @@ INFO (ABS-19026): Cell pre_therm: Generating detailed blockages for layer met5
 INFO (ABS-11901): Cell pre_therm: Step Abstract finished
 *WARNING* (ABS-20045): Failed to create the 'CoreSite' site on disk. File '/mnt/cae_storage_sw/eda/cadence/pdks/sky130/sky130_release_004a/libs/sky130_fd_pr_main/tech.db' is not writable.
 INFO (ABS-10014): Created the CoreSite site in VM
-Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.06s.
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.05s.
 INFO (DB-120008): oaSocket connection timeout value was set to 2 seconds.
 
 ********************************************************************************
 Product   : Virtuoso(R) LEF Out 
 Program   : @(#)$CDS: lefout version IC23.1-64b 09/20/2023 08:14 (cpgbld16) $
 SubVersion: sub-version  IC23.1-64b.ISR2.29 
-Started at: 12-Dec-2024  00:05:34
+Started at: 13-Dec-2024  18:42:16
 User Name : cae3
 Host Name : cae-europractice1.othr.de
 Directory : /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky
@@ -149,7 +104,7 @@ Loading sky130_fd_pr_main/libInit.il ...
 done!
 Loaded sky130_fd_pr_main/libInit.il successfully!
 
-Elapsed Time: 1.4s
+Elapsed Time: 0.6s
 
 lefout translation completed (errors: 0, warnings: 0).
 INFO (ABS-10508): Library ADC closing /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC

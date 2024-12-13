@@ -36,7 +36,7 @@ Virtuoso Framework License (111) was checked out successfully. Total checkout ti
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version IC23.1-64b 09/20/2023 08:16 (cpgbld16) $
           : sub-version  IC23.1-64b.ISR2.29 
-Started at: 11-Dec-2024  23:59:55
+Started at: 13-Dec-2024  18:39:15
 User Name : cae3
 Host Name : cae-europractice1.othr.de
 Directory : /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky
@@ -76,66 +76,66 @@ case                                    Preserve
 convertDot                              node
 
 INFO (XSTRM-180): You have not used the '-objectMap' option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the '-objectMap' option to translate/preserve these objects using XStream.
-INFO (XSTRM-223): 1. Translating stdVia sky130_fd_pr_main/M3M4_C/layout as STRUCTURE M3M4_C_CDNS_733957995420.
-INFO (XSTRM-223): 2. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_733957995421.
-INFO (XSTRM-223): 3. Translating stdVia sky130_fd_pr_main/M2M3_C/layout as STRUCTURE M2M3_C_CDNS_733957995422.
-INFO (XSTRM-223): 4. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_733957995423.
-INFO (XSTRM-223): 5. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_733957995424.
-INFO (XSTRM-223): 6. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_733957995425.
-INFO (XSTRM-223): 7. Translating stdVia sky130_fd_pr_main/PYL1CON_C/layout as STRUCTURE PYL1CON_C_CDNS_733957995426.
-INFO (XSTRM-223): 8. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_733957995420.
-INFO (XSTRM-223): 9. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_733957995421.
+INFO (XSTRM-223): 1. Translating stdVia sky130_fd_pr_main/M3M4_C/layout as STRUCTURE M3M4_C_CDNS_734111555970.
+INFO (XSTRM-223): 2. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_734111555971.
+INFO (XSTRM-223): 3. Translating stdVia sky130_fd_pr_main/M2M3_C/layout as STRUCTURE M2M3_C_CDNS_734111555972.
+INFO (XSTRM-223): 4. Translating stdVia sky130_fd_pr_main/M1M2_C/layout as STRUCTURE M1M2_C_CDNS_734111555973.
+INFO (XSTRM-223): 5. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_734111555974.
+INFO (XSTRM-223): 6. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_734111555975.
+INFO (XSTRM-223): 7. Translating stdVia sky130_fd_pr_main/PYL1CON_C/layout as STRUCTURE PYL1CON_C_CDNS_734111555976.
+INFO (XSTRM-223): 8. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_734111555970.
+INFO (XSTRM-223): 9. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_734111555971.
 INFO (XSTRM-223): 10. Translating cellview ADC/inv12f/layout as STRUCTURE inv12f.
-INFO (XSTRM-223): 11. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_733957995427.
-INFO (XSTRM-223): 12. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_733957995422.
-INFO (XSTRM-223): 13. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_733957995423.
+INFO (XSTRM-223): 11. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_734111555977.
+INFO (XSTRM-223): 12. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_734111555972.
+INFO (XSTRM-223): 13. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_734111555973.
 INFO (XSTRM-223): 14. Translating cellview ADC/inv15f/layout as STRUCTURE inv15f.
-INFO (XSTRM-223): 15. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_733957995424.
-INFO (XSTRM-223): 16. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_733957995425.
+INFO (XSTRM-223): 15. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_734111555974.
+INFO (XSTRM-223): 16. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_734111555975.
 INFO (XSTRM-223): 17. Translating cellview ADC/div_fixed/layout as STRUCTURE div_fixed.
-INFO (XSTRM-223): 18. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_733957995426.
-INFO (XSTRM-223): 19. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_733957995427.
+INFO (XSTRM-223): 18. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_734111555976.
+INFO (XSTRM-223): 19. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_734111555977.
 INFO (XSTRM-223): 20. Translating cellview ADC/inv14f/layout as STRUCTURE inv14f.
-INFO (XSTRM-223): 21. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_733957995428.
+INFO (XSTRM-223): 21. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_734111555978.
 INFO (XSTRM-223): 22. Translating cellview ADC/inv11f/layout as STRUCTURE inv11f.
-INFO (XSTRM-223): 23. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_733957995429.
-INFO (XSTRM-223): 24. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7339579954210.
+INFO (XSTRM-223): 23. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_734111555979.
+INFO (XSTRM-223): 24. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7341115559710.
 INFO (XSTRM-223): 25. Translating cellview ADC/inv10f/layout as STRUCTURE inv10f.
-INFO (XSTRM-223): 26. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7339579954211.
-INFO (XSTRM-223): 27. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7339579954212.
+INFO (XSTRM-223): 26. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7341115559711.
+INFO (XSTRM-223): 27. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7341115559712.
 INFO (XSTRM-223): 28. Translating cellview ADC/inv08f/layout as STRUCTURE inv08f.
-INFO (XSTRM-223): 29. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7339579954213.
-INFO (XSTRM-223): 30. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7339579954214.
+INFO (XSTRM-223): 29. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7341115559713.
+INFO (XSTRM-223): 30. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7341115559714.
 INFO (XSTRM-223): 31. Translating cellview ADC/inv05f/layout as STRUCTURE inv05f.
-INFO (XSTRM-223): 32. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7339579954215.
-INFO (XSTRM-223): 33. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7339579954216.
+INFO (XSTRM-223): 32. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7341115559715.
+INFO (XSTRM-223): 33. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7341115559716.
 INFO (XSTRM-223): 34. Translating cellview ADC/inv02f/layout as STRUCTURE inv02f.
-INFO (XSTRM-223): 35. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7339579954217.
-INFO (XSTRM-223): 36. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7339579954218.
+INFO (XSTRM-223): 35. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7341115559717.
+INFO (XSTRM-223): 36. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7341115559718.
 INFO (XSTRM-223): 37. Translating cellview ADC/inv07f/layout as STRUCTURE inv07f.
-INFO (XSTRM-223): 38. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7339579954219.
-INFO (XSTRM-223): 39. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7339579954220.
+INFO (XSTRM-223): 38. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7341115559719.
+INFO (XSTRM-223): 39. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7341115559720.
 INFO (XSTRM-223): 40. Translating cellview ADC/inv04f/layout as STRUCTURE inv04f.
-INFO (XSTRM-223): 41. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7339579954221.
-INFO (XSTRM-223): 42. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7339579954222.
+INFO (XSTRM-223): 41. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7341115559721.
+INFO (XSTRM-223): 42. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7341115559722.
 INFO (XSTRM-223): 43. Translating cellview ADC/inv13f/layout as STRUCTURE inv13f.
-INFO (XSTRM-223): 44. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7339579954223.
-INFO (XSTRM-223): 45. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7339579954224.
+INFO (XSTRM-223): 44. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7341115559723.
+INFO (XSTRM-223): 45. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7341115559724.
 INFO (XSTRM-223): 46. Translating cellview ADC/inv09f/layout as STRUCTURE inv09f.
-INFO (XSTRM-223): 47. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7339579954225.
-INFO (XSTRM-223): 48. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7339579954226.
+INFO (XSTRM-223): 47. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7341115559725.
+INFO (XSTRM-223): 48. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7341115559726.
 INFO (XSTRM-223): 49. Translating cellview ADC/inv06f/layout as STRUCTURE inv06f.
-INFO (XSTRM-223): 50. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7339579954227.
-INFO (XSTRM-223): 51. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7339579954228.
+INFO (XSTRM-223): 50. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7341115559727.
+INFO (XSTRM-223): 51. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7341115559728.
 INFO (XSTRM-223): 52. Translating cellview ADC/inv03f/layout as STRUCTURE inv03f.
-INFO (XSTRM-223): 53. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7339579954229.
-INFO (XSTRM-223): 54. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7339579954230.
+INFO (XSTRM-223): 53. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7341115559729.
+INFO (XSTRM-223): 54. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7341115559730.
 INFO (XSTRM-223): 55. Translating cellview ADC/inv01f/layout as STRUCTURE inv01f.
-INFO (XSTRM-223): 56. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7339579954231.
-INFO (XSTRM-223): 57. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7339579954232.
+INFO (XSTRM-223): 56. Translating cellview sky130_fd_pr_main/pfet_01v8/layout as STRUCTURE pfet_01v8_CDNS_7341115559731.
+INFO (XSTRM-223): 57. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7341115559732.
 INFO (XSTRM-223): 58. Translating cellview ADC/preamp1F/layout as STRUCTURE preamp1F.
-INFO (XSTRM-223): 59. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_733957995428.
-INFO (XSTRM-223): 60. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7339579954233.
+INFO (XSTRM-223): 59. Translating stdVia sky130_fd_pr_main/L1M1_C/layout as STRUCTURE L1M1_C_CDNS_734111555978.
+INFO (XSTRM-223): 60. Translating cellview sky130_fd_pr_main/nfet_01v8/layout as STRUCTURE nfet_01v8_CDNS_7341115559733.
 INFO (XSTRM-223): 61. Translating cellview ADC/preampF/layout as STRUCTURE preampF.
 INFO (XSTRM-223): 62. Translating cellview ADC/pre_therm/layout as STRUCTURE pre_therm.
 
@@ -144,7 +144,7 @@ Summary of Objects Translated:
 	Array Instances:                        0
 	Polygons:                               0
 	Paths:                                  0
-	Rectangles:                             1244
+	Rectangles:                             1245
 	Lines:                                  0
 	Arcs:                                   0
 	Donuts:                                 0
@@ -157,7 +157,7 @@ Summary of Objects Translated:
 	Markers:                                0
 	Rows:                                   0
 	Stitch:                                 0
-	Standard Vias                           115
+	Standard Vias                           114
 	Custom Vias:                            0
 	CdsGen Vias:                            0
 	Pathsegs:                               19
@@ -165,7 +165,7 @@ Summary of Objects Translated:
 	TextDisplay:                            0
 	Cells:                                  62
 
-Elapsed Time: 0.4s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 38968KB
+Elapsed Time: 0.4s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 39004KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '2' warning(s) found.
 
 Creation of CDL for ADC/pre_therm/schematic is started
@@ -185,7 +185,7 @@ Loaded sky130_fd_pr_main/libInit.il successfully!
 Loading hnlInit.cxt 
 Running Artist Hierarchical Netlisting ...
 Loading cdf.cxt 
-End netlisting Dec 11 23:59:56 2024
+End netlisting Dec 13 18:39:16 2024
 
 Running simin
 
@@ -193,19 +193,19 @@ Running runSim()...
 
 
 Running runsim with simulator: "auCdl"
-Begin simulation:    Dec 11 23:59:56 2024
+Begin simulation:    Dec 13 18:39:17 2024
 
 auCdl netlisting completed
-End simulation:      Dec 11 23:59:56 2024
+End simulation:      Dec 13 18:39:17 2024
 INFO (AUCDL-21): (Analog) CDL netlisting completed successfully.
 
-Pegasus 23.11-s009 FbGK7KjMGPhkNci2o09sLg 2024-12-11 23:59:59 2159787 cae-europractice1.othr.de
+Pegasus 23.11-s009 FbGK7KjMGPhkNci2o09sLg 2024-12-13 18:39:20 2416743 cae-europractice1.othr.de
 Copyright 2023 Cadence Design Systems, Inc.
 All rights reserved worldwide.
 
 INFO:    Command Line Options: -lvs -top_cell pre_therm -log_dir LOGS -source_top_cell pre_therm -spice /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/pre_therm.spi -control /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/pegasuslvsctl -ui_data -gdb_data /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/.technology.rul
 INFO:    Launch host CPU: Model: AMD Ryzen Threadripper PRO 5975WX 32-Cores, OS: Oracle Linux Server release 8.10, Logical cores: 16, Physical cores: 16, Cache: 512 KB, CPU Speed: 3593.24 MHz
-         Launch host Memory: MemTotal: 31806 MB,  MemFree: 626 MB,  SwapTotal: 0 MB,  SwapFree: 0 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 87 MB
+         Launch host Memory: MemTotal: 31806 MB,  MemFree: 2813 MB,  SwapTotal: 0 MB,  SwapFree: 0 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 85 MB
 INFO:    Current path: /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run
 INFO:    Run directory same as current path
 INFO:    Log directory: /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/LOGS
@@ -227,14 +227,14 @@ WARNING: LVS_RECOGNIZE_GATES at line 972 in file /home/cae3/Desktop/ADC/ASIC_ADC
 INFO:    See "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/LOGS/pvl.log" for additional details.
 
 INFO:    Checking out 1 license(s) of feature: 'Pegasus_LVS' version 23.1
-INFO:    License checkout successful ... 2024-12-12 00:00:02
+INFO:    License checkout successful ... 2024-12-13 18:39:23
 
 INFO:    Checking out 1 license(s) of feature: 'Pegasus_16nm' version 23.1
-INFO:    License checkout successful ... 2024-12-12 00:00:02
+INFO:    License checkout successful ... 2024-12-13 18:39:23
 WARNING: Neither hcell nor -automatch option is specified.
 INFO:    Worker 0 started on host cae-europractice1.othr.de with 1 cpu(s)
          CPU: Model: AMD Ryzen Threadripper PRO 5975WX 32-Cores, OS: Oracle Linux Server release 8.10, Logical cores: 16, Physical cores: 16, Cache: 512 KB, CPU Speed: 3593.24 MHz
-         Memory: MemTotal: 31806 MB,  MemFree: 468 MB,  SwapTotal: 0 MB,  SwapFree: 0 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 87 MB
+         Memory: MemTotal: 31806 MB,  MemFree: 2801 MB,  SwapTotal: 0 MB,  SwapFree: 0 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 85 MB
 INFO:    LVS report file: /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/pre_therm.rep 
 INFO:    Extracted layout netlist: /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/pre_therm.spi 
 INFO:    Setting LAYOUT_PATH to: /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/pre_therm.gds.gz 
@@ -244,11 +244,11 @@ INFO:    Setting SCHEMATIC_PRIMARY to: pre_therm
 
 INFO:    Gdsii input summary
          File name: /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/pre_therm.gds.gz
-         File size: 14461
+         File size: 14553
          Version: 5.0
          Library name: ADC
-         Last modified: 2024-12-9 2:26:6
-         Last accessed: 2024-12-11 23:59:55
+         Last modified: 2024-12-13 16:8:28
+         Last accessed: 2024-12-13 18:39:16
          Database unit in user units: 0.001
          Database unit in meters: 1e-09
          Magnification: 1 
@@ -257,70 +257,70 @@ INFO:    Cell Summary:
          ----------------------------------------------------------------------------
              CELL                            INSTANCE    GEOMETRY      LABELS        HREF        FREF
          ----------------------------------------------------------------------------
-         M3M4_C_CDNS_733957995420                   0           4           0           2           2
-         M1M2_C_CDNS_733957995421                   0           3           0          33          33
-         M2M3_C_CDNS_733957995422                   0           4           0           4           4
-         M1M2_C_CDNS_733957995423                   0           4           0           4           4
-         L1M1_C_CDNS_733957995424                   0           3           0          18          18
-         L1M1_C_CDNS_733957995425                   0           4           0          21          21
-         PYL1CON_C_CDNS_733957995426                0           3           0          18          18
-         nfet_01v8_CDNS_733957995420                0          15           0           1           1
-         pfet_01v8_CDNS_733957995421                0          16           0           1           1
+         M3M4_C_CDNS_734111555970                   0           4           0           2           2
+         M1M2_C_CDNS_734111555971                   0           3           0          32          32
+         M2M3_C_CDNS_734111555972                   0           4           0           4           4
+         M1M2_C_CDNS_734111555973                   0           4           0           4           4
+         L1M1_C_CDNS_734111555974                   0           3           0          18          18
+         L1M1_C_CDNS_734111555975                   0           4           0          21          21
+         PYL1CON_C_CDNS_734111555976                0           3           0          18          18
+         nfet_01v8_CDNS_734111555970                0          15           0           1           1
+         pfet_01v8_CDNS_734111555971                0          16           0           1           1
          inv12f                                     6          34           4           1           1
-         L1M1_C_CDNS_733957995427                   0           3           0          13          13
-         nfet_01v8_CDNS_733957995422                0          13           0           2           2
-         pfet_01v8_CDNS_733957995423                0          16           0           1           1
+         L1M1_C_CDNS_734111555977                   0           3           0          13          13
+         nfet_01v8_CDNS_734111555972                0          13           0           2           2
+         pfet_01v8_CDNS_734111555973                0          16           0           1           1
          inv15f                                     6          33           4           1           1
-         pfet_01v8_CDNS_733957995424                0          16           0           1           1
-         pfet_01v8_CDNS_733957995425                0          14           0           2           2
+         pfet_01v8_CDNS_734111555974                0          16           0           1           1
+         pfet_01v8_CDNS_734111555975                0          14           0           2           2
          div_fixed                                  6          35           3           1           1
-         nfet_01v8_CDNS_733957995426                0          13           0           1           1
-         pfet_01v8_CDNS_733957995427                0          16           0           1           1
+         nfet_01v8_CDNS_734111555976                0          13           0           1           1
+         pfet_01v8_CDNS_734111555977                0          16           0           1           1
          inv14f                                     6          33           4           1           1
-         pfet_01v8_CDNS_733957995428                0          16           0           1           1
+         pfet_01v8_CDNS_734111555978                0          16           0           1           1
          inv11f                                     6          33           4           1           1
-         nfet_01v8_CDNS_733957995429                0          15           0           1           1
-         pfet_01v8_CDNS_7339579954210               0          16           0           1           1
+         nfet_01v8_CDNS_734111555979                0          15           0           1           1
+         pfet_01v8_CDNS_7341115559710               0          16           0           1           1
          inv10f                                     6          34           4           1           1
-         nfet_01v8_CDNS_7339579954211               0          13           0           1           1
-         pfet_01v8_CDNS_7339579954212               0          16           0           1           1
+         nfet_01v8_CDNS_7341115559711               0          13           0           1           1
+         pfet_01v8_CDNS_7341115559712               0          16           0           1           1
          inv08f                                     6          35           4           1           1
-         pfet_01v8_CDNS_7339579954213               0          16           0           1           1
-         nfet_01v8_CDNS_7339579954214               0          13           0           1           1
+         pfet_01v8_CDNS_7341115559713               0          16           0           1           1
+         nfet_01v8_CDNS_7341115559714               0          13           0           1           1
          inv05f                                     6          35           4           1           1
-         pfet_01v8_CDNS_7339579954215               0          16           0           1           1
-         nfet_01v8_CDNS_7339579954216               0          13           0           1           1
+         pfet_01v8_CDNS_7341115559715               0          16           0           1           1
+         nfet_01v8_CDNS_7341115559716               0          13           0           1           1
          inv02f                                     6          34           4           1           1
-         nfet_01v8_CDNS_7339579954217               0          15           0           1           1
-         pfet_01v8_CDNS_7339579954218               0          14           0           1           1
+         nfet_01v8_CDNS_7341115559717               0          15           0           1           1
+         pfet_01v8_CDNS_7341115559718               0          14           0           1           1
          inv07f                                     6          34           4           1           1
-         pfet_01v8_CDNS_7339579954219               0          14           0           1           1
-         nfet_01v8_CDNS_7339579954220               0          15           0           1           1
+         pfet_01v8_CDNS_7341115559719               0          14           0           1           1
+         nfet_01v8_CDNS_7341115559720               0          15           0           1           1
          inv04f                                     6          34           4           1           1
-         nfet_01v8_CDNS_7339579954221               0          13           0           1           1
-         pfet_01v8_CDNS_7339579954222               0          16           0           1           1
+         nfet_01v8_CDNS_7341115559721               0          13           0           1           1
+         pfet_01v8_CDNS_7341115559722               0          16           0           1           1
          inv13f                                     6          33           4           1           1
-         nfet_01v8_CDNS_7339579954223               0          13           0           1           1
-         pfet_01v8_CDNS_7339579954224               0          26           0           1           1
+         nfet_01v8_CDNS_7341115559723               0          13           0           1           1
+         pfet_01v8_CDNS_7341115559724               0          26           0           1           1
          inv09f                                     6          37           4           1           1
-         nfet_01v8_CDNS_7339579954225               0          15           0           1           1
-         pfet_01v8_CDNS_7339579954226               0          14           0           1           1
+         nfet_01v8_CDNS_7341115559725               0          15           0           1           1
+         pfet_01v8_CDNS_7341115559726               0          14           0           1           1
          inv06f                                     6          34           4           1           1
-         pfet_01v8_CDNS_7339579954227               0          14           0           1           1
-         nfet_01v8_CDNS_7339579954228               0          13           0           1           1
+         pfet_01v8_CDNS_7341115559727               0          14           0           1           1
+         nfet_01v8_CDNS_7341115559728               0          13           0           1           1
          inv03f                                     6          34           4           1           1
-         nfet_01v8_CDNS_7339579954229               0          13           0           1           1
-         pfet_01v8_CDNS_7339579954230               0          16           0           1           1
+         nfet_01v8_CDNS_7341115559729               0          13           0           1           1
+         pfet_01v8_CDNS_7341115559730               0          16           0           1           1
          inv01f                                     6          34           4           1           1
-         pfet_01v8_CDNS_7339579954231               0          14           0           1           1
-         nfet_01v8_CDNS_7339579954232               0          13           0           1           1
+         pfet_01v8_CDNS_7341115559731               0          14           0           1           1
+         nfet_01v8_CDNS_7341115559732               0          13           0           1           1
          preamp1F                                   5          35           4           1           1
-         L1M1_C_CDNS_733957995428                   0           5           0           2           2
-         nfet_01v8_CDNS_7339579954233               0          17           0           1           1
+         L1M1_C_CDNS_734111555978                   0           5           0           2           2
+         nfet_01v8_CDNS_7341115559733               0          17           0           1           1
          preampF                                    7          36           4           1           1
-         pre_therm                                 61         105          18           1           1
+         pre_therm                                 60         106          18           1           1
          ----------------------------------------------------------------------------
-         TOTAL CELL = 62;  INSTANCE = 169;  GEOMETRY = 1263;  LABEL = 89
+         TOTAL CELL = 62;  INSTANCE = 168;  GEOMETRY = 1264;  LABEL = 89
 
 INFO:    Layer Summary:
          ----------------------------------------------------------------------------
@@ -341,9 +341,9 @@ INFO:    Layer Summary:
          licon1                             1022       181         0       202         0
          li1_in                             1023       172         0       226         0
          mcon                               1025        79         0       151         0
-         met1_in                            1026       126         0       211         0
-         via                                1028         3         0        41         0
-         met2_in                            1029        45         0        83         0
+         met1_in                            1026       126         0       210         0
+         via                                1028         3         0        40         0
+         met2_in                            1029        46         0        83         0
          via2                               1031         2         0         8         0
          met3_in                            1032         3         0         7         0
          via3_in                            1034         2         0         4         0
@@ -356,8 +356,8 @@ INFO:    Layer Summary:
          poly_res                           1091         0         0         0         0
          diff_res                           1092         0         0         0         0
          li1_label                          1115         0         0         0         0
-         met1_label                         1116         0        73         0        73
-         met2_label                         1117         0        16         0        16
+         met1_label                         1116         0        75         0        75
+         met2_label                         1117         0        14         0        14
          met3_label                         1118         0         0         0         0
          met4_label                         1119         0         0         0         0
          met5_label                         1120         0         0         0         0
@@ -365,8 +365,8 @@ INFO:    Layer Summary:
          pwell_label                        1124         0         0         0         0
          nwell_label                        1128         0         0         0         0
          li1_pin                            1139         0         0         0         0
-         met1_pin                           1141        73         0        73         0
-         met2_pin                           1143        16         0        16         0
+         met1_pin                           1141        75         0        75         0
+         met2_pin                           1143        14         0        14         0
          met3_pin                           1145         0         0         0         0
          met4_pin                           1147         0         0         0         0
          met5_pin                           1149         0         0         0         0
@@ -379,7 +379,7 @@ INFO:    Layer Summary:
          met5_res                           1269         0         0         0         0
          ----------------------------------------------------------------------------
 
-INFO:    CHIP EXTENT: -1180 -1265 11965 13840
+INFO:    CHIP EXTENT: 0 -265 12570 12725
 
 
 INFO:    Ports ...
@@ -387,24 +387,24 @@ INFO:    Ports ...
 
 INFO:    Texts For Connectivity ...
          ========================================================================
-         VSS (8.945, 0.030) 1116 pre_therm
-         VDD (8.005, 4.155) 1116 pre_therm
-         Y15 (8.470, 13.580) 1117 pre_therm
-         Y14 (11.720, 7.440) 1117 pre_therm
-         Y13 (11.720, 5.570) 1117 pre_therm
-         Y12 (11.720, 4.870) 1117 pre_therm
-         Y11 (6.560, 13.705) 1117 pre_therm
-         Y10 (4.825, 13.630) 1117 pre_therm
-         Y09 (3.965, 13.630) 1117 pre_therm
-         Y08 (2.975, 13.585) 1117 pre_therm
-         Y07 (0.600, 13.710) 1117 pre_therm
-         Y06 (-0.920, 7.430) 1117 pre_therm
-         Y05 (11.705, 0.720) 1117 pre_therm
-         Y04 (8.945, -1.115) 1117 pre_therm
-         Y03 (7.175, -1.015) 1117 pre_therm
-         Y02 (4.015, -1.095) 1117 pre_therm
-         Y01 (2.745, -1.080) 1117 pre_therm
-         IN (-0.935, 5.960) 1117 pre_therm
+         Y03 (8.530, 0.765) 1116 pre_therm
+         Y01 (4.080, 0.740) 1116 pre_therm
+         VSS (10.125, 0.030) 1116 pre_therm
+         VDD (9.185, 4.155) 1116 pre_therm
+         Y15 (10.720, 11.625) 1117 pre_therm
+         Y14 (12.310, 7.440) 1117 pre_therm
+         Y13 (12.325, 5.695) 1117 pre_therm
+         Y12 (12.320, 4.870) 1117 pre_therm
+         Y11 (10.945, 9.530) 1117 pre_therm
+         Y10 (6.125, 11.510) 1117 pre_therm
+         Y09 (3.570, 10.850) 1117 pre_therm
+         Y08 (3.360, 9.645) 1117 pre_therm
+         Y07 (2.665, 9.075) 1117 pre_therm
+         Y06 (2.390, 7.225) 1117 pre_therm
+         Y05 (12.325, 0.720) 1117 pre_therm
+         Y04 (10.125, 0.510) 1117 pre_therm
+         Y02 (4.935, 0.865) 1117 pre_therm
+         IN (0.245, 5.960) 1117 pre_therm
          Y (1.095, 0.895) 1116 preampF
          VSS (0.320, -0.010) 1116 preampF
          VDD (0.370, 4.135) 1116 preampF
@@ -496,8 +496,8 @@ INFO:    Layer Summary(Texts For Connectivity):
          ----------------------------------------------------------------------------
              LAYER                            ID       TEXTS
          ----------------------------------------------------------------------------
-         met1_label                         1116        73
-         met2_label                         1117        16
+         met1_label                         1116        75
+         met2_label                         1117        14
          ----------------------------------------------------------------------------
 
 INFO:    Layer Summary(Texts For SELECT -LABEL):
@@ -519,14 +519,14 @@ INFO:    Layer Summary(Texts For DFM_TEXT):
          ----------------------------------------------------------------------------
 
 INFO:    Expanded Cell Summary
-INFO:    Status: Runset 100% complete as of 2024-12-12 00:00:03   Elapsed: 00:00:01
+INFO:    Status: Runset 100% complete as of 2024-12-13 18:39:24   Elapsed: 00:00:01
          Worker: Active CPUs  Total Mem(MB)  Active Mem(MB)  CPU time(s)
               0:    1 /   1             25              15            1
-INFO:	 Status: Finishing as of 2024-12-12 00:00:03   Elapsed: 00:00:01   CPU time[s]: 1
+INFO:	 Status: Finishing as of 2024-12-13 18:39:24   Elapsed: 00:00:01   CPU time[s]: 1
 INFO:    Resource usage by worker at exit:
                   CPU      Elapsed  CPUs       CPU       Peak        Peak engine
          Worker:  time[s]  time[s]  Allocated  usage[%]  Memory[MB]  Memory[MB]
-              0:        1        1          1     80.59          25           15
+              0:        1        1          1     77.37          25           15
          Worker resource usage  summary: Total CPU[s]: 1  Run duration[s]: 1  Max peak memory[MB]: 25
          Worker CPU utilization summary: 1 of 1 available CPU seconds (100.00%) with 1 average available CPU(s)
 INFO:    Extraction result: CLEAN (Reporter)
@@ -534,12 +534,12 @@ INFO:    Generating summary in /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_L
 INFO:    All selected rules completed
          Total CPU Time                    : 1(s)
          Total Real Time                   : 2(s)
-         Total Original Geometry           : 1263(1637)
+         Total Original Geometry           : 1264(1635)
          Total ERC RuleChecks              : 0
          Total ERC Results                 : 0 (0)
 INFO:    Pegasus extracted connectivity database creation started
-INFO:    CmdLine: /mnt/cae_storage_sw/eda/cadence/2023-24/RHELx86/PEGASUS_23.11.000/tools.lnx86/Pegasus/bin/64bit/edbToEcdb -kf -edb pre_therm_2159787.db -ecdb ./ -topcell pre_therm -netlist ./pre_therm.net -layermap ./pre_therm.ecdbmap -textmap ./pre_therm.ports -dependmap pre_therm.lmap.perc -kvp ifs:zXN -lvsfile ./pre_therm.lvsfile -saveFloatingNets .pre_therm.info.softchk 
-INFO:    Opening layer file 'pre_therm_2159787.db/__layer'...
+INFO:    CmdLine: /mnt/cae_storage_sw/eda/cadence/2023-24/RHELx86/PEGASUS_23.11.000/tools.lnx86/Pegasus/bin/64bit/edbToEcdb -kf -edb pre_therm_2416743.db -ecdb ./ -topcell pre_therm -netlist ./pre_therm.net -layermap ./pre_therm.ecdbmap -textmap ./pre_therm.ports -dependmap pre_therm.lmap.perc -kvp ifs:tZN -lvsfile ./pre_therm.lvsfile -saveFloatingNets .pre_therm.info.softchk 
+INFO:    Opening layer file 'pre_therm_2416743.db/__layer'...
 INFO:    Loading layer map file './pre_therm.ecdbmap'...
 INFO:    Loading text map file './pre_therm.ports'...
 INFO:    Loading dependency map file 'pre_therm.lmap.perc'...
@@ -551,71 +551,71 @@ INFO:    Transfering cdl structures to ecdb structures...
 INFO:    Read Netlist (32 threads)...
 INFO:      DONE - (2s)
 INFO:    Process (32 threads)...
-INFO:    Cell(      45):   1% Done...(2s), inv09f                                  
-INFO:    Cell(      58):   3% Done...(2s), L1M1_C_CDNS_733957995428                
-INFO:    Cell(      52):   4% Done...(2s), nfet_01v8_CDNS_7339579954229            
-INFO:    Cell(      28):   6% Done...(2s), pfet_01v8_CDNS_7339579954213            
-INFO:    Cell(      32):   8% Done...(2s), nfet_01v8_CDNS_7339579954216            
-INFO:    Cell(      27):   9% Done...(2s), inv08f                                  
-INFO:    Cell(      14):  11% Done...(2s), pfet_01v8_CDNS_733957995424             
-INFO:    Cell(       6):  12% Done...(2s), PYL1CON_C_CDNS_733957995426             
-INFO:    Cell(      23):  14% Done...(2s), pfet_01v8_CDNS_7339579954210            
-INFO:    Cell(       3):  16% Done...(2s), M1M2_C_CDNS_733957995423                
-INFO:    Cell(      18):  17% Done...(2s), pfet_01v8_CDNS_733957995427             
-INFO:    Cell(       9):  19% Done...(2s), inv12f                                  
-INFO:    Cell(      16):  20% Done...(2s), div_fixed                               
-INFO:    Cell(      39):  22% Done...(2s), inv04f                                  
-INFO:    Cell(      10):  24% Done...(2s), L1M1_C_CDNS_733957995427                
-INFO:    Cell(       7):  25% Done...(2s), nfet_01v8_CDNS_733957995420             
-INFO:    Cell(      15):  27% Done...(2s), pfet_01v8_CDNS_733957995425             
-INFO:    Cell(      31):  29% Done...(2s), pfet_01v8_CDNS_7339579954215            
-INFO:    Cell(      60):  30% Done...(2s), preampF                                 
-INFO:    Cell(      49):  32% Done...(2s), pfet_01v8_CDNS_7339579954227            
-INFO:    Cell(      55):  33% Done...(2s), pfet_01v8_CDNS_7339579954231            
-INFO:    Cell(      13):  35% Done...(2s), inv15f                                  
-INFO:    Cell(       1):  37% Done...(2s), M1M2_C_CDNS_733957995421                
-INFO:    Cell(       4):  38% Done...(2s), L1M1_C_CDNS_733957995424                
-INFO:    Cell(      36):  40% Done...(2s), inv07f                                  
-INFO:    Cell(      40):  41% Done...(2s), nfet_01v8_CDNS_7339579954221            
-INFO:    Cell(      26):  43% Done...(2s), pfet_01v8_CDNS_7339579954212            
-INFO:    Cell(      25):  45% Done...(2s), nfet_01v8_CDNS_7339579954211            
-INFO:    Cell(      22):  46% Done...(2s), nfet_01v8_CDNS_733957995429             
-INFO:    Cell(      41):  48% Done...(2s), pfet_01v8_CDNS_7339579954222            
-INFO:    Cell(      11):  50% Done...(2s), nfet_01v8_CDNS_733957995422             
-INFO:    Cell(       0):  51% Done...(2s), M3M4_C_CDNS_733957995420                
-INFO:    Cell(      21):  53% Done...(2s), inv11f                                  
-INFO:    Cell(       2):  54% Done...(2s), M2M3_C_CDNS_733957995422                
-INFO:    Cell(      35):  56% Done...(2s), pfet_01v8_CDNS_7339579954218            
-INFO:    Cell(       5):  58% Done...(2s), L1M1_C_CDNS_733957995425                
-INFO:    Cell(      43):  59% Done...(2s), nfet_01v8_CDNS_7339579954223            
-INFO:    Cell(      38):  61% Done...(2s), nfet_01v8_CDNS_7339579954220            
-INFO:    Cell(      29):  62% Done...(2s), nfet_01v8_CDNS_7339579954214            
-INFO:    Cell(       8):  64% Done...(2s), pfet_01v8_CDNS_733957995421             
-INFO:    Cell(      24):  66% Done...(2s), inv10f                                  
-INFO:    Cell(      61):  67% Done...(2s), pre_therm                               
-INFO:    Cell(      30):  69% Done...(2s), inv05f                                  
-INFO:    Cell(      19):  70% Done...(2s), inv14f                                  
-INFO:    Cell(      37):  72% Done...(2s), pfet_01v8_CDNS_7339579954219            
-INFO:    Cell(      46):  74% Done...(2s), nfet_01v8_CDNS_7339579954225            
-INFO:    Cell(      50):  75% Done...(2s), nfet_01v8_CDNS_7339579954228            
-INFO:    Cell(      47):  77% Done...(2s), pfet_01v8_CDNS_7339579954226            
-INFO:    Cell(      57):  79% Done...(2s), preamp1F                                
-INFO:    Cell(      53):  80% Done...(2s), pfet_01v8_CDNS_7339579954230            
-INFO:    Cell(      20):  82% Done...(2s), pfet_01v8_CDNS_733957995428             
-INFO:    Cell(      56):  83% Done...(2s), nfet_01v8_CDNS_7339579954232            
-INFO:    Cell(      59):  85% Done...(2s), nfet_01v8_CDNS_7339579954233            
-INFO:    Cell(      54):  87% Done...(2s), inv01f                                  
-INFO:    Cell(      17):  88% Done...(2s), nfet_01v8_CDNS_733957995426             
-INFO:    Cell(      33):  90% Done...(2s), inv02f                                  
-INFO:    Cell(      48):  91% Done...(2s), inv06f                                  
-INFO:    Cell(      51):  93% Done...(2s), inv03f                                  
-INFO:    Cell(      34):  95% Done...(3s), nfet_01v8_CDNS_7339579954217            
-INFO:    Cell(      44):  96% Done...(3s), pfet_01v8_CDNS_7339579954224            
-INFO:    Cell(      12):  98% Done...(3s), pfet_01v8_CDNS_733957995423             
-INFO:    Cell(      42): 100% Done...(3s), inv13f                                  
-INFO:      DONE - (1s)
-INFO:    Cells creation time: (3s)
-INFO:    Write netlist items...         (3s)
+INFO:    Cell(      57):   1% Done...(2s), preamp1F                                
+INFO:    Cell(      47):   3% Done...(2s), pfet_01v8_CDNS_7341115559726            
+INFO:    Cell(      12):   4% Done...(2s), pfet_01v8_CDNS_734111555973             
+INFO:    Cell(      27):   6% Done...(2s), inv08f                                  
+INFO:    Cell(       2):   8% Done...(2s), M2M3_C_CDNS_734111555972                
+INFO:    Cell(      14):   9% Done...(2s), pfet_01v8_CDNS_734111555974             
+INFO:    Cell(       6):  11% Done...(2s), PYL1CON_C_CDNS_734111555976             
+INFO:    Cell(      20):  12% Done...(2s), pfet_01v8_CDNS_734111555978             
+INFO:    Cell(      23):  14% Done...(2s), pfet_01v8_CDNS_7341115559710            
+INFO:    Cell(      18):  16% Done...(2s), pfet_01v8_CDNS_734111555977             
+INFO:    Cell(      43):  17% Done...(2s), nfet_01v8_CDNS_7341115559723            
+INFO:    Cell(      41):  19% Done...(2s), pfet_01v8_CDNS_7341115559722            
+INFO:    Cell(      39):  20% Done...(2s), inv04f                                  
+INFO:    Cell(       7):  22% Done...(2s), nfet_01v8_CDNS_734111555970             
+INFO:    Cell(      36):  24% Done...(2s), inv07f                                  
+INFO:    Cell(      33):  25% Done...(2s), inv02f                                  
+INFO:    Cell(      32):  27% Done...(2s), nfet_01v8_CDNS_7341115559716            
+INFO:    Cell(      26):  29% Done...(2s), pfet_01v8_CDNS_7341115559712            
+INFO:    Cell(      13):  30% Done...(2s), inv15f                                  
+INFO:    Cell(      58):  32% Done...(2s), L1M1_C_CDNS_734111555978                
+INFO:    Cell(      29):  33% Done...(2s), nfet_01v8_CDNS_7341115559714            
+INFO:    Cell(      40):  35% Done...(2s), nfet_01v8_CDNS_7341115559721            
+INFO:    Cell(      35):  37% Done...(2s), pfet_01v8_CDNS_7341115559718            
+INFO:    Cell(      31):  38% Done...(2s), pfet_01v8_CDNS_7341115559715            
+INFO:    Cell(       9):  40% Done...(2s), inv12f                                  
+INFO:    Cell(      28):  41% Done...(2s), pfet_01v8_CDNS_7341115559713            
+INFO:    Cell(      25):  43% Done...(2s), nfet_01v8_CDNS_7341115559711            
+INFO:    Cell(       8):  45% Done...(2s), pfet_01v8_CDNS_734111555971             
+INFO:    Cell(       4):  46% Done...(2s), L1M1_C_CDNS_734111555974                
+INFO:    Cell(      11):  48% Done...(2s), nfet_01v8_CDNS_734111555972             
+INFO:    Cell(       0):  50% Done...(2s), M3M4_C_CDNS_734111555970                
+INFO:    Cell(       3):  51% Done...(2s), M1M2_C_CDNS_734111555973                
+INFO:    Cell(       5):  53% Done...(2s), L1M1_C_CDNS_734111555975                
+INFO:    Cell(      53):  54% Done...(2s), pfet_01v8_CDNS_7341115559730            
+INFO:    Cell(      49):  56% Done...(2s), pfet_01v8_CDNS_7341115559727            
+INFO:    Cell(      17):  58% Done...(2s), nfet_01v8_CDNS_734111555976             
+INFO:    Cell(       1):  59% Done...(2s), M1M2_C_CDNS_734111555971                
+INFO:    Cell(      59):  61% Done...(2s), nfet_01v8_CDNS_7341115559733            
+INFO:    Cell(      10):  62% Done...(2s), L1M1_C_CDNS_734111555977                
+INFO:    Cell(      34):  64% Done...(2s), nfet_01v8_CDNS_7341115559717            
+INFO:    Cell(      46):  66% Done...(2s), nfet_01v8_CDNS_7341115559725            
+INFO:    Cell(      54):  67% Done...(2s), inv01f                                  
+INFO:    Cell(      22):  69% Done...(2s), nfet_01v8_CDNS_734111555979             
+INFO:    Cell(      37):  70% Done...(2s), pfet_01v8_CDNS_7341115559719            
+INFO:    Cell(      15):  72% Done...(2s), pfet_01v8_CDNS_734111555975             
+INFO:    Cell(      51):  74% Done...(2s), inv03f                                  
+INFO:    Cell(      21):  75% Done...(2s), inv11f                                  
+INFO:    Cell(      48):  77% Done...(2s), inv06f                                  
+INFO:    Cell(      30):  79% Done...(2s), inv05f                                  
+INFO:    Cell(      61):  80% Done...(2s), pre_therm                               
+INFO:    Cell(      50):  82% Done...(2s), nfet_01v8_CDNS_7341115559728            
+INFO:    Cell(      52):  83% Done...(2s), nfet_01v8_CDNS_7341115559729            
+INFO:    Cell(      44):  85% Done...(2s), pfet_01v8_CDNS_7341115559724            
+INFO:    Cell(      56):  87% Done...(3s), nfet_01v8_CDNS_7341115559732            
+INFO:    Cell(      60):  88% Done...(3s), preampF                                 
+INFO:    Cell(      16):  90% Done...(3s), div_fixed                               
+INFO:    Cell(      45):  91% Done...(3s), inv09f                                  
+INFO:    Cell(      24):  93% Done...(3s), inv10f                                  
+INFO:    Cell(      19):  95% Done...(3s), inv14f                                  
+INFO:    Cell(      38):  96% Done...(3s), nfet_01v8_CDNS_7341115559720            
+INFO:    Cell(      42):  98% Done...(4s), inv13f                                  
+INFO:    Cell(      55): 100% Done...(5s), pfet_01v8_CDNS_7341115559731            
+INFO:      DONE - (3s)
+INFO:    Cells creation time: (5s)
+INFO:    Write netlist items...         (5s)
 INFO:    Saving name table to db...
 INFO:    Save device templates to the db...
 INFO:    Save connect rules to the db...
@@ -624,52 +624,52 @@ INFO:    Erasing cdl subckts...          (0s)
 
 INFO:    edbToEcdb Header Information:
   ECDB file version   : 38
-  DevTmpl offset      : 65262
-  Connect offset      : 65586
-  NameTable offset    : 62179
+  DevTmpl offset      : 65234
+  Connect offset      : 65558
+  NameTable offset    : 62155
   Layer Map offset    : 167
-  Cell Start offset   : 57839
-  Cell End offset     : 62179
-  Aux Data offset     : 65950
+  Cell Start offset   : 57815
+  Cell End offset     : 62155
+  Aux Data offset     : 65922
   Labels     offset   : 0
   Layer RW   offset   : 0
   NVP                 : ifs:0.01 
   Scale               : 4000
   GDS Scale           : 1000
-  File size (static)  : 70169
+  File size (static)  : 70142
   File size (dynamic) : 0
   Cell count          : 62
-  ECDB create time    : 3
+  ECDB create time    : 5
   EDB info            : 10
   Top Cell            : pre_therm
   EDB info (Trans)    : WRITTEN_64 W_NOT_NET_ORDER 
 
 INFO:    edbToEcdb Sizes written to disk (MB):
-  NameTbl             :     0.003083
-  Layers              :     0.007573
-  Shapes              :     0.018803
-  XYTree              :     0.015270
-  LookUpTbls          :     0.003162
+  NameTbl             :     0.003079
+  Layers              :     0.007587
+  Shapes              :     0.018779
+  XYTree              :     0.015281
+  LookUpTbls          :     0.003161
   Cells               :     0.005187
-  Insts               :     0.003672
-  Ports               :     0.002922
+  Insts               :     0.003654
+  Ports               :     0.002916
   Nets                :     0.002168
   Pins                :     0.000767
   Labels              :     0.002492
   DevTmpl             :     0.000324
   Connect             :     0.000360
   Header              :     0.000167
-  AuxData             :     0.004217
+  AuxData             :     0.004218
   NvnLabels           :     0.000002
 ---------------------------------
-  Total               :     0.070169
+  Total               :     0.070142
 
-INFO:    Manager summary: CPU(s): 0 Elapsed(s): 3 Peak memory(MB): 2107.64
-INFO:    Pegasus extracted connectivity database creation completed. 2024-12-12 00:00:07
+INFO:    Manager summary: CPU(s): 1 Elapsed(s): 5 Peak memory(MB): 2171.64
+INFO:    Pegasus extracted connectivity database creation completed. 2024-12-13 18:39:29
 INFO:    Pegasus REPORTDB creation started...
 INFO:    Processing file pre_therm.rep
 INFO:    Manager summary: CPU(s): 0 Elapsed(s): 0 Peak memory(MB): 0.00
-INFO:    Pegasus REPORTDB creation completed. 2024-12-12 00:00:07
+INFO:    Pegasus REPORTDB creation completed. 2024-12-13 18:39:29
 
 
 INFO:    Comparing netlists ...
@@ -843,13 +843,13 @@ INFO:    Extraction Run Summary
 
 INFO:    NVN Run Summary
          Total CPU Time        : 1(s)
-         Total Real Time       : 0(s)
+         Total Real Time       : 1(s)
          Peak Memory Used      : 262.40(M)
 
 
 INFO:    LVS Summary
          Total CPU Time        : 2(s)
-         Total Real Time       : 2(s)
+         Total Real Time       : 3(s)
          Peak Memory Used      : 262.40(M)
 
     ########################################################
@@ -867,6 +867,6 @@ INFO:    LVS Summary
 
 INFO:    Checking in all SoftShare licenses.
 
-Pegasus finished normally. 2024-12-12 00:00:08
+Pegasus finished normally. 2024-12-13 18:39:30
 
 

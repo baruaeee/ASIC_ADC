@@ -39,4 +39,4 @@ write_hdl > outputs/post_synth_adc_netlist.v
 write_sdc > outputs/post_synth_adc_sdc.sdc
 write_sdf -timescale ns -nonegchecks -recrem split -edges check_edge  -setuphold split > outputs/delays.sdf
 write_design
-exit
+#exit

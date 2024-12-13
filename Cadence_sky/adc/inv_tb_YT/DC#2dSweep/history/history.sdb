@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<setupdb version="7">history
+	<active>Active Setup</active>
+	<history>History
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.0
+			<timestamp>Oct 21 13:49:48 2024</timestamp>
+			<uuid>{2242a4c5-581a-4044-aadb-a9f84d277f72}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/inv_tb_YT/DC#2dSweep/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/inv_tb_YT/DC#2dSweep/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/home/cae3/simulation/ADC/inv_tb_YT/DC-Sweep/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/ADC/inv_tb_YT/DC-Sweep/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
+			<timestamp>Oct 21 15:13:59 2024</timestamp>
+			<uuid>{52e7ccd9-7c8d-4a4c-83a2-2a66d6f181fe}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/inv_tb_YT/DC#2dSweep/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/inv_tb_YT/DC#2dSweep/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/home/cae3/simulation/ADC/inv_tb_YT/DC-Sweep/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/ADC/inv_tb_YT/DC-Sweep/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+	</history>
+</setupdb>

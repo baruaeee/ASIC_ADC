@@ -3,7 +3,7 @@
 ========================================================================
 
 Delete EDB      : N
-EDB Library dir : pre_therm_2159787.db
+EDB Library dir : pre_therm_2416743.db
 ECDB dir        : ./
 Top Cell        : pre_therm
 CDL netlist     : ./pre_therm.net
@@ -14,4 +14,4 @@ Lvs file        : ./pre_therm.lvsfile
 Float net file  : .pre_therm.info.softchk
 threads         : 32
 debug           : 0
-Source Library  : pre_therm_2159787
+Source Library  : pre_therm_2416743

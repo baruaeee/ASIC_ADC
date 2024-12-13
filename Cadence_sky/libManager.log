@@ -116,3 +116,1242 @@
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ADC"
+\a cdsLibManager->libLineEdit->value = "ADC"
+\a cdsLibManager->cellListBox->value = "pre_therm"
+\a cdsLibManager->cellLineEdit->value = "pre_therm"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ADC"
+\a cdsLibManager->libLineEdit->value = "ADC"
+\a cdsLibManager->cellListBox->value = "pre_therm"
+\a cdsLibManager->cellLineEdit->value = "pre_therm"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "preamp"
+\a cdsLibManager->cellLineEdit->value = "preamp"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "ADC"
+\a cdsLibManager->cellLineEdit->value = "ADC"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 1)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "M3M4_PR"
+\a cdsLibManager->cellLineEdit->value = "M3M4_PR"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = "M2M3_PR"
+\a cdsLibManager->cellLineEdit->value = "M2M3_PR"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "M1M2_PR_MR"
+\a cdsLibManager->cellLineEdit->value = "M1M2_PR_MR"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "M1M2_PR"
+\a cdsLibManager->cellLineEdit->value = "M1M2_PR"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "div_fixed"
+\a cdsLibManager->cellLineEdit->value = "div_fixed"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "adc_VIA3"
+\a cdsLibManager->cellLineEdit->value = "adc_VIA3"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "adc_VIA2"
+\a cdsLibManager->cellLineEdit->value = "adc_VIA2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "ADC"
+\a cdsLibManager->cellLineEdit->value = "ADC"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 1)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "adc"
+\a cdsLibManager->cellLineEdit->value = "adc"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "ADC"
+\a cdsLibManager->cellLineEdit->value = "ADC"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "adc"
+\a cdsLibManager->cellLineEdit->value = "adc"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "ADC"
+\a cdsLibManager->cellLineEdit->value = "ADC"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "adc_VIA0"
+\a cdsLibManager->cellLineEdit->value = "adc_VIA0"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "adc_VIA1"
+\a cdsLibManager->cellLineEdit->value = "adc_VIA1"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "adc_VIA2"
+\a cdsLibManager->cellLineEdit->value = "adc_VIA2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "adc_VIA3"
+\a cdsLibManager->cellLineEdit->value = "adc_VIA3"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "div"
+\a cdsLibManager->cellLineEdit->value = "div"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "ADC"
+\a cdsLibManager->cellLineEdit->value = "ADC"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a lmgrLogShowPopup("mainListPopup2" 68 16 2 "layout")
+\a cdsLibManager->editDeleteButton->value = t
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(90 31 627 425))
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(249 169 268 91))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting view "layout" from cell "ADC" in library "ADC".
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\o Did not delete cellview 'ADC/ADC/layout'.
+\o Failed to delete view "layout" at "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/ADC/layout".
+\o Deletion of view done. 1 of 1 failed.
+\a nrResizeWindow(workingDialogForm list(137 206 268 133))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ADC"
+\a cdsLibManager->libLineEdit->value = "ADC"
+\a cdsLibManager->cellListBox->value = "ADC"
+\a cdsLibManager->cellLineEdit->value = "ADC"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "M1M2_PR"
+\a cdsLibManager->cellLineEdit->value = "M1M2_PR"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->libListBox->value = "analogLib"
+\a cdsLibManager->libLineEdit->value = "analogLib"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->libListBox->value = "ADC"
+\a cdsLibManager->libLineEdit->value = "ADC"
+\a cdsLibManager->cellListBox->value = "ADC"
+\a cdsLibManager->cellLineEdit->value = "ADC"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 13 9 2 "ADC")
+\a cdsLibManager->editDeleteButton->value = t
+\a nrSetCurrentWindow(deleteForm)
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(249 169 268 91))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting cell "ADC" from library "ADC".
+\o Did not delete cell 'ADC/ADC'.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\o Failed to delete cell "ADC" at "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/ADC".
+\o Deletion of cell done. 1 of 1 failed.
+\a nrResizeWindow(workingDialogForm list(137 206 268 133))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "ADC"
+\a cdsLibManager->libLineEdit->value = "ADC"
+\a cdsLibManager->cellListBox->value = "ADC"
+\a cdsLibManager->cellLineEdit->value = "ADC"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "M1M2_PR"
+\a cdsLibManager->cellLineEdit->value = "M1M2_PR"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 40 27 2 "M1M2_PR")
+\a cdsLibManager->editDeleteButton->value = t
+\a nrSetCurrentWindow(deleteForm)
+\a deleteForm->notDeleteListBox->value = '("ADC" )
+\a deleteForm->moveToDeleteButton->value = t
+\a deleteForm->notDeleteListBox->value = '("M1M2_PR_MR" )
+\a deleteForm->moveToDeleteButton->value = t
+\a deleteForm->notDeleteListBox->value = '("M2M3_PR" )
+\a deleteForm->moveToDeleteButton->value = t
+\a deleteForm->notDeleteListBox->value = '("M3M4_PR" )
+\a deleteForm->moveToDeleteButton->value = t
+\a deleteForm->notDeleteListBox->value = '("adc" )
+\a deleteForm->moveToDeleteButton->value = t
+\a deleteForm->notDeleteListBox->value = '("adc_VIA0" )
+\a deleteForm->moveToDeleteButton->value = t
+\a deleteForm->notDeleteListBox->value = '("adc_VIA1" )
+\a deleteForm->moveToDeleteButton->value = t
+\a deleteForm->notDeleteListBox->value = '("adc_VIA2" )
+\a deleteForm->moveToDeleteButton->value = t
+\a deleteForm->notDeleteListBox->value = '("adc_VIA3" )
+\a deleteForm->moveToDeleteButton->value = t
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 10 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(249 169 268 91))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting 10 cells from library "ADC".
+\o Deleting cell "ADC".
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\o Did not delete cell 'ADC/ADC'.
+\o Failed to delete cell "ADC" at "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/ADC".
+\o Deleting cell "M1M2_PR".
+\o Deleted cell 'ADC/M1M2_PR'.
+\o Deleting cell "M1M2_PR_MR".
+\o Deleted cell 'ADC/M1M2_PR_MR'.
+\o Deleting cell "M2M3_PR".
+\o Deleted cell 'ADC/M2M3_PR'.
+\o Deleting cell "M3M4_PR".
+\o Batching session updates...
+\o Deleted cell 'ADC/M3M4_PR'.
+\o Deleting cell "adc".
+\o Deleted cell 'ADC/adc'.
+\o Deleting cell "adc_VIA0".
+\o Deleted cell 'ADC/adc_VIA0'.
+\o Deleting cell "adc_VIA1".
+\o Deleted cell 'ADC/adc_VIA1'.
+\o Deleting cell "adc_VIA2".
+\o Deleted cell 'ADC/adc_VIA2'.
+\o Deleting cell "adc_VIA3".
+\o Deleted cell 'ADC/adc_VIA3'.
+\o Deletion of cells done. 1 of 10 failed.
+\a nrResizeWindow(workingDialogForm list(137 206 268 133))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "ADC"
+\a cdsLibManager->libLineEdit->value = "ADC"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "analogLib"
+\a cdsLibManager->libLineEdit->value = "analogLib"
+\a cdsLibManager->libListBox->value = "ADC"
+\a cdsLibManager->libLineEdit->value = "ADC"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->FileNewCVButton->value = t
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ADC"
+\a cdsLibManager->libLineEdit->value = "ADC"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->FileNewLibButton->value = t
+\a nrSetWindowVisibility(NewLibShell "show")
+\a nrSetCurrentWindow(NewLibShell)
+\a nrSetCurrentWindow(NewLibShell->subDialog)
+\a nrResizeWindow(NewLibShell list(13 27 507 559))
+\a NewLibShell->newLibNameText->value = "adc"
+\a NewLibShell->newLibOKButton->value = t
+\a nrSetCurrentWindow(workingDialogForm)
+\o Created new library "adc" at /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/adc.
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ADC"
+\a cdsLibManager->libLineEdit->value = "ADC"
+\a nrResizeWindow(workingDialogForm list(137 206 268 133))
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ADC"
+\a cdsLibManager->libLineEdit->value = "ADC"
+\a cdsLibManager->libListBox->value = "adc"
+\a cdsLibManager->libLineEdit->value = "adc"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "adc"
+\a cdsLibManager->libLineEdit->value = "adc"
+\a cdsLibManager->cellListBox->value = "adc"
+\a cdsLibManager->cellLineEdit->value = "adc"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "adc"
+\a cdsLibManager->cellLineEdit->value = "adc"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "ADC"
+\a cdsLibManager->libLineEdit->value = "ADC"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->libListBox->value = "adc"
+\a cdsLibManager->libLineEdit->value = "adc"
+\a cdsLibManager->cellListBox->value = "adc"
+\a cdsLibManager->cellLineEdit->value = "adc"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup0" 22 29 2 "adc")
+\a cdsLibManager->editChangeRefsButton->value = t
+\a nrSetCurrentWindow(changeRefDialog)
+\a nrResizeWindow(changeRefDialog list(0 27 690 533))
+\a changeRefDialog->inLibsListWidget->value = '("adc" )
+\a changeRefDialog->fromLibsListWidget->value = '("sky130_scl_9T" )
+\a changeRefDialog->toLibListWidget->value = "adc"
+\a changeRefDialog->addButton->value = t
+\a changeRefDialog->Apply->value = t
+\o QUESTION (CLM-380): 1 reference changes will be applied to 1 libraries.\n\nDo you want to continue this operation?
+\a nrSetWindowVisibility(genericDialog "show")
+\a nrSetCurrentWindow(genericDialog)
+\a nrResizeWindow(genericDialog list(179 190 323 148))
+\a genericDialog->genericYesButton->value = t
+\o Operation confirmed for 1 changes will apply to 1 libraries.
+\o Running change rule: (in: adc), (fl: sky130_scl_9T), (fv: <All>), (tl: adc), (tv: <As Is>)
+\o Performing instance update.
+\o  Info (ccp):  Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.06s.
+\o  Info (ccp):  ccpDFIIUpdtr: Starting ...
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/adc/layout
+\o  Info (ccp):      15 instances that do not match the original references library in any rule
+\o  Info (ccp):  ccpDFIIUpdtr: End running.
+\o Change Library References command finished.
+\o INFO (CLM-370): All change operations succeeded.
+\o All change operations succeeded.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(QMessageBox1)
+\a QMessageBox1->OK->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(changeRefDialog)
+\a changeRefDialog->OK->value = t
+\o QUESTION (CLM-380): 1 reference changes will be applied to 1 libraries.\n\nDo you want to continue this operation?
+\a nrSetWindowVisibility(genericDialog "show")
+\a nrSetCurrentWindow(genericDialog)
+\a nrResizeWindow(genericDialog list(179 190 323 148))
+\a genericDialog->genericYesButton->value = t
+\o Operation confirmed for 1 changes will apply to 1 libraries.
+\o Running change rule: (in: adc), (fl: sky130_scl_9T), (fv: <All>), (tl: adc), (tv: <As Is>)
+\o Performing instance update.
+\o  Info (ccp):  Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.04s.
+\o  Info (ccp):  ccpDFIIUpdtr: Starting ...
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/adc/layout
+\o  Info (ccp):      15 instances that do not match the original references library in any rule
+\o  Info (ccp):  ccpDFIIUpdtr: End running.
+\o Change Library References command finished.
+\o INFO (CLM-370): All change operations succeeded.
+\o All change operations succeeded.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(QMessageBox1)
+\a QMessageBox1->OK->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "adc"
+\a cdsLibManager->cellLineEdit->value = "adc"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "adc"
+\a cdsLibManager->libLineEdit->value = "adc"
+\a cdsLibManager->cellListBox->value = "adc"
+\a cdsLibManager->cellLineEdit->value = "adc"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "adc"
+\a cdsLibManager->cellLineEdit->value = "adc"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "ADC"
+\a cdsLibManager->libLineEdit->value = "ADC"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup0" 26 10 2 "ADC")
+\a cdsLibManager->editPropertiesButton->value = t
+\o MPS request: edit property
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "adc"
+\a cdsLibManager->libLineEdit->value = "adc"
+\a cdsLibManager->cellListBox->value = "adc"
+\a cdsLibManager->cellLineEdit->value = "adc"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 38 44 2 "adc")
+\a cdsLibManager->editDeleteButton->value = t
+\a nrSetCurrentWindow(deleteForm)
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(249 169 268 91))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting cell "adc" from library "adc".
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\o Deleted cell 'adc/adc'.
+\o Deletion of 1 cell done.
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a nrResizeWindow(workingDialogForm list(139 206 268 133))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "adc"
+\a cdsLibManager->libLineEdit->value = "adc"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "adc"
+\a cdsLibManager->libLineEdit->value = "adc"
+\a nrSetCurrentWindow(cdsLibManager)
+\a lmgrLogShowPopup("mainListPopup0" 24 26 2 "adc")
+\a cdsLibManager->editChangeRefsButton->value = t
+\a nrSetCurrentWindow(changeRefDialog)
+\a changeRefDialog->inLibsListWidget->value = '("adc" )
+\a changeRefDialog->fromLibsListWidget->value = '("sky130_fd_pr_main" )
+\a changeRefDialog->fromLibsListWidget->value = '("sky130_fd_pr_main" "sky130_scl_9T" )
+\a changeRefDialog->toLibListWidget->value = "adc"
+\a changeRefDialog->addButton->value = t
+\a changeRefDialog->Apply->value = t
+\o QUESTION (CLM-380): 1 reference changes will be applied to 1 libraries.\n\nDo you want to continue this operation?
+\a nrSetWindowVisibility(genericDialog "show")
+\a nrSetCurrentWindow(genericDialog)
+\a nrResizeWindow(genericDialog list(184 219 323 148))
+\a genericDialog->genericYesButton->value = t
+\o Operation confirmed for 1 changes will apply to 1 libraries.
+\o Running change rule: (in: adc), (fl: sky130_fd_pr_main, sky130_scl_9T), (fv: <All>), (tl: adc), (tv: <As Is>)
+\w Warning: ddGetObj: "fileName" may not contain embedded spaces, was <layout (copy 1)>.
+\w Warning: ddGetObj: "fileName" may not contain embedded spaces, was <layout (copy 1)>.
+\w Warning: ddGetObj: "fileName" may not contain embedded spaces, was <layout (copy 1)>.
+\w Warning: ddGetObj: "fileName" may not contain embedded spaces, was <layout (copy 2)>.
+\w Warning: ddGetObj: "fileName" may not contain embedded spaces, was <layout (copy 2)>.
+\w Warning: ddGetObj: "fileName" may not contain embedded spaces, was <layout (copy 2)>.
+\o Could not obtain the ViewType for View. [adc.inv02f:LEF]
+\o Could not obtain the ViewType for View. [adc.inv01f:LEF]
+\o Performing instance update.
+\o  Info (ccp):  Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.07s.
+\o  Info (ccp):  ccpDFIIUpdtr: Starting ...
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/adc/layout
+\o  Info (ccp):      15 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/TB_symbol/schematic
+\o  Info (ccp):       5 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/TB_single/schematic
+\o  Info (ccp):      22 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/pre_therm1/functional
+\o  Info (ccp):      18 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/pre_therm1/schematic
+\o  Info (ccp):      21 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/pre_therm1/layout
+\o  Info (ccp):      18 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/pre_therm/schematic
+\o  Info (ccp):      21 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/pre_therm/abstract#2epin
+\o  Info (ccp):      18 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/pre_therm/layout
+\o  Info (ccp):      18 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/pre_therm/abstract#2eext
+\o  Info (ccp):      18 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design                	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/preampF/layout    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):  Design                        	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/preampF/abstract#2eext    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):  Design                   	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/preampF/schematic    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 instances unchanged (new reference is unbound)
+\o  Info (ccp):       0 changes made
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/preampF/schematic
+\o  Info (ccp):       4 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design                        	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/preampF/abstract#2epin    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):  Design                 	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/preamp1F/layout    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):  Design                    	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/preamp1F/schematic    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 instances unchanged (new reference is unbound)
+\o  Info (ccp):       0 changes made
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/preamp1F/schematic
+\o  Info (ccp):       4 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design                  	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/preamp/schematic    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 instances unchanged (new reference is unbound)
+\o  Info (ccp):       0 changes made
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/preamp/schematic
+\o  Info (ccp):       4 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv_tb_YT/schematic
+\o  Info (ccp):       6 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv_tb_Wt_pre/schematic
+\o  Info (ccp):       5 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv_tb_W_pre/schematic
+\o  Info (ccp):       6 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv_tb/schematic
+\o  Info (ccp):      21 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv_comb/schematic
+\o  Info (ccp):       6 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design               	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv15f/layout    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design                       	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv15f/abstract#2eext    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design                  	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv15f/schematic    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 instances unchanged (new reference is unbound)
+\o  Info (ccp):       0 changes made
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv15f/schematic
+\o  Info (ccp):       4 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design                       	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv15f/abstract#2epin    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design                 	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv15/schematic    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 instances unchanged (new reference is unbound)
+\o  Info (ccp):       0 changes made
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv15/schematic
+\o  Info (ccp):       4 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design                       	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv14f/abstract#2epin    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design               	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv14f/layout    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design                  	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv14f/schematic    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 instances unchanged (new reference is unbound)
+\o  Info (ccp):       0 changes made
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv14f/schematic
+\o  Info (ccp):       4 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design                       	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv14f/abstract#2eext    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design                 	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv14/schematic    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 instances unchanged (new reference is unbound)
+\o  Info (ccp):       0 changes made
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv14/schematic
+\o  Info (ccp):       4 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design                       	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv13f/abstract#2eext    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design               	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv13f/layout    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design                  	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv13f/schematic    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 instances unchanged (new reference is unbound)
+\o  Info (ccp):       0 changes made
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv13f/schematic
+\o  Info (ccp):       4 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design                       	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv13f/abstract#2epin    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv13/schematic
+\o  Info (ccp):       5 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design                       	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv12f/abstract#2eext    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design               	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv12f/layout    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design                       	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv12f/abstract#2epin    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design                  	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv12f/schematic    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 instances unchanged (new reference is unbound)
+\o  Info (ccp):       0 changes made
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv12f/schematic
+\o  Info (ccp):       4 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv12/schematic
+\o  Info (ccp):       5 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design               	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv11f/layout    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design                  	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv11f/schematic    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 instances unchanged (new reference is unbound)
+\o  Info (ccp):       0 changes made
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv11f/schematic
+\o  Info (ccp):       4 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design                       	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv11f/abstract#2eext    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design                       	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv11f/abstract#2epin    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv11/schematic
+\o  Info (ccp):       5 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design               	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv10f/layout    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design                       	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv10f/abstract#2epin    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design                  	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv10f/schematic    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 instances unchanged (new reference is unbound)
+\o  Info (ccp):       0 changes made
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv10f/schematic
+\o  Info (ccp):       4 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design                       	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv10f/abstract#2eext    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv10/schematic
+\o  Info (ccp):       5 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design                  	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv09f/schematic    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 instances unchanged (new reference is unbound)
+\o  Info (ccp):       0 changes made
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv09f/schematic
+\o  Info (ccp):       4 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design                       	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv09f/abstract#2eext    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design                       	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv09f/abstract#2epin    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design               	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv09f/layout    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv09/schematic
+\o  Info (ccp):       5 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design               	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv08f/layout    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design                  	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv08f/schematic    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 instances unchanged (new reference is unbound)
+\o  Info (ccp):       0 changes made
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv08f/schematic
+\o  Info (ccp):       4 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design                       	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv08f/abstract#2eext    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design                       	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv08f/abstract#2epin    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv08/schematic
+\o  Info (ccp):       5 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design               	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv07f/layout    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design                       	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv07f/abstract#2eext    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design                  	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv07f/schematic    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 instances unchanged (new reference is unbound)
+\o  Info (ccp):       0 changes made
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv07f/schematic
+\o  Info (ccp):       4 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design                       	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv07f/abstract#2epin    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv07/schematic
+\o  Info (ccp):       5 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design                       	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv06f/abstract#2epin    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design                  	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv06f/schematic    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 instances unchanged (new reference is unbound)
+\o  Info (ccp):       0 changes made
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv06f/schematic
+\o  Info (ccp):       4 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design               	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv06f/layout    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design                       	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv06f/abstract#2eext    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv06/schematic
+\o  Info (ccp):       5 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design                       	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv05f/abstract#2eext    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design                  	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv05f/schematic    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 instances unchanged (new reference is unbound)
+\o  Info (ccp):       0 changes made
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv05f/schematic
+\o  Info (ccp):       4 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design                       	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv05f/abstract#2epin    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design               	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv05f/layout    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv05/schematic
+\o  Info (ccp):       5 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design               	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv04f/layout    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):  Design                       	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv04f/abstract#2eext    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design                       	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv04f/abstract#2epin    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design                  	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv04f/schematic    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 instances unchanged (new reference is unbound)
+\o  Info (ccp):       0 changes made
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv04f/schematic
+\o  Info (ccp):       4 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv04/schematic
+\o  Info (ccp):       5 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design                  	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv03f/schematic    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 instances unchanged (new reference is unbound)
+\o  Info (ccp):       0 changes made
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv03f/schematic
+\o  Info (ccp):       4 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design                       	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv03f/abstract#2eext    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design                       	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv03f/abstract#2epin    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design               	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv03f/layout    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv03/schematic
+\o  Info (ccp):       5 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design               	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv02f/layout    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):  Design                  	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv02f/schematic    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 instances unchanged (new reference is unbound)
+\o  Info (ccp):       0 changes made
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv02f/schematic
+\o  Info (ccp):       4 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design                       	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv02f/abstract#2eext    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):  Design                       	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv02f/abstract#2epin    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv02/schematic
+\o  Info (ccp):       5 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design                       	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv01f/abstract#2eext    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design               	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv01f/layout    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design                       	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv01f/abstract#2epin    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              1 nfet_01v8/layout  to  nfet_01v8/layout
+\o  Info (ccp):              1 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design                  	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv01f/schematic    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 instances unchanged (new reference is unbound)
+\o  Info (ccp):       0 changes made
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv01f/schematic
+\o  Info (ccp):       4 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design                 	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv01/schematic    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 instances unchanged (new reference is unbound)
+\o  Info (ccp):       0 changes made
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv01/schematic
+\o  Info (ccp):       4 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design               	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/inv/schematic    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 instances unchanged (new reference is unbound)
+\o  Info (ccp):       0 changes made
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/inv/schematic
+\o  Info (ccp):       4 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design                          	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/div_fixed/abstract#2eext    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              2 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design                          	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/div_fixed/abstract#2epin    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              2 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design                  	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/div_fixed/layout    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 changes made
+\o  Info (ccp):              2 pfet_01v8/layout  to  pfet_01v8/layout
+\o  Info (ccp):  Design                     	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/div_fixed/schematic    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 instances unchanged (new reference is unbound)
+\o  Info (ccp):       0 changes made
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/div_fixed/schematic
+\o  Info (ccp):       3 instances that do not match the original references library in any rule
+\o  Info (ccp):  Design               	Original Ref Lib/View      	New Ref Lib/View    	Status
+\o  Info (ccp):  adc/div/schematic    	sky130_fd_pr_main/<All>    	adc/<As Is>         	Success
+\o  Info (ccp):       2 instances examined
+\o  Info (ccp):       2 instances unchanged (new reference is unbound)
+\o  Info (ccp):       0 changes made
+\o  Info (ccp):  Design
+\o  Info (ccp):  adc/div/schematic
+\o  Info (ccp):       3 instances that do not match the original references library in any rule
+\o  Info (ccp):  ccpDFIIUpdtr: End running.
+\o Change Library References command finished.
+\o INFO (CLM-370): All change operations succeeded.
+\o All change operations succeeded.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(QMessageBox1)
+\a QMessageBox1->OK->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(changeRefDialog)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "ADC"
+\a cdsLibManager->libLineEdit->value = "ADC"
+\a cdsLibManager->libListBox->value = "adc"
+\a cdsLibManager->libLineEdit->value = "adc"
+\a cdsLibManager->cellListBox->value = "TB_single"
+\a cdsLibManager->cellLineEdit->value = "TB_single"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "pre_therm"
+\a cdsLibManager->cellLineEdit->value = "pre_therm"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 4 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "adc"
+\a cdsLibManager->libLineEdit->value = "adc"
+\a cdsLibManager->cellListBox->value = "pre_therm"
+\a cdsLibManager->cellLineEdit->value = "pre_therm"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "cdl"
+\a cdsLibManager->viewLineEdit->value = "cdl"
+\a cdsLibManager->cellListBox->value = "inv_tb"
+\a cdsLibManager->cellLineEdit->value = "inv_tb"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "pfet_01v8"
+\a cdsLibManager->cellLineEdit->value = "pfet_01v8"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "adc"
+\a cdsLibManager->cellLineEdit->value = "adc"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 7)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)

@@ -1,0 +1,38 @@
+xrun: 23.03-s007: (c) Copyright 1995-2023 Cadence Design Systems, Inc.
+TOOL:	xrun	23.03-s007: Started on Dec 10, 2024 at 01:58:36 CET
+xrun
+	verilog_testbench.v
+	-access +rwc
+	-gui
+xmsim: *W,NOMTDGUI: Multi-Threaded Dumping is disabled for interactive debug mode.
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /eda/cadence/2023-24/RHELx86/XCELIUM_23.03.007/tools/xcelium/files/xmsimrc
+xcelium> database -open waves -into waves.shm -default
+Created default SHM database waves
+xcelium> probe -create -shm therm_tb.Y therm_tb.b therm_tb.clk therm_tb.rst
+Created probe 1
+xcelium> run
+Input: 111111111111111, Output: 0000, Clock: 1, Reset: 0
+Input: 111111111111110, Output: 0001, Clock: 0, Reset: 0
+Input: 111111111111100, Output: 0010, Clock: 1, Reset: 0
+Input: 111111111111000, Output: 0011, Clock: 0, Reset: 0
+Input: 111111111110000, Output: 0100, Clock: 1, Reset: 0
+Input: 111111111100000, Output: 0101, Clock: 0, Reset: 0
+Input: 111111111000000, Output: 0110, Clock: 1, Reset: 0
+Input: 111111110000000, Output: 0111, Clock: 0, Reset: 0
+Input: 111111100000000, Output: 1000, Clock: 1, Reset: 0
+Input: 111111000000000, Output: 1001, Clock: 0, Reset: 0
+Input: 111110000000000, Output: 1010, Clock: 1, Reset: 0
+Input: 111100000000000, Output: 1011, Clock: 0, Reset: 0
+Input: 111000000000000, Output: 1100, Clock: 1, Reset: 0
+Input: 110000000000000, Output: 1101, Clock: 0, Reset: 0
+Input: 100000000000000, Output: 1110, Clock: 1, Reset: 0
+Input: 000000000000000, Output: 1111, Clock: 0, Reset: 0
+Simulation complete via $finish(1) at time 510 NS + 0
+./verilog_testbench.v:112 		$finish;
+xcelium> ^C
+xcelium> exit
+TOOL:	xrun	23.03-s007: Exiting on Dec 10, 2024 at 02:00:52 CET  (total: 00:02:16)

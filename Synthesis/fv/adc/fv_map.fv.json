@@ -262,20 +262,20 @@
 "object":"/designs/adc/instances_hier/therm1/instances_seq/out_reg[3]",
 "type":"instance"},
 {"index": "1", 
- "date": "Wed Dec 11 01:35:26 UTC 2024",
- "seconds": 1733880926.2161238,
+ "date": "Thu Dec 12 21:24:19 UTC 2024",
+ "seconds": 1734038659.9742498,
  "netlist": "fv/adc/fv_map.v.gz", 
  "netlist_exists": "1", 
  "netlist_normalize": "/home/cae3/Desktop/ADC/ASIC_ADC/Synthesis/fv/adc/fv_map.v.gz", 
- "netlist_mtime": "1733880925", 
- "netlist_timestamp": "Wed Dec 11 01:35:25 UTC 2024", 
+ "netlist_mtime": "1734038659", 
+ "netlist_timestamp": "Thu Dec 12 21:24:19 UTC 2024", 
  "netlist_size": "897", 
- "netlist_cksum": "2126542806", 
+ "netlist_cksum": "4018904936", 
  "design_name": "adc", 
  "synth_workdir": "/home/cae3/Desktop/ADC/ASIC_ADC/Synthesis", 
  "synthesis_command":"",
  "current_label": "fv_map", 
  "previous_label": "rtl", 
- "write_verif_file_runtime": 0.654911 
+ "write_verif_file_runtime": 0.688323 
  }
 ]

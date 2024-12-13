@@ -1,0 +1,14 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Wed Oct 16 22:09:11 2024 
+Best design point: 1
+Design specs: 
+	ADC_TB_single_1	corner	Nominal - 
+	cross(VDC("/OUT") 0.54 1 "either" nil nil nil)		Error	No
+Design parameters: 
+
+Interactive.2
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.2 completed. 
+Current time: Wed Oct 16 22:09:39 2024 

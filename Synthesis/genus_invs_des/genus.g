@@ -1,6 +1,6 @@
 ######################################################################
 
-# Created by Genus(TM) Synthesis Solution 22.13-s093_1 on Wed Dec 11 02:35:26 CET 2024
+# Created by Genus(TM) Synthesis Solution 22.13-s093_1 on Thu Dec 12 22:24:20 CET 2024
 
 # This file contains the Genus script for design:adc
 
@@ -13,11 +13,11 @@ set_db -quiet phys_use_invs_extraction true
 set_db -quiet phys_route_time_out 120.0
 set_db -quiet capacitance_per_unit_length_mmmc {}
 set_db -quiet resistance_per_unit_length_mmmc {}
-set_db -quiet runtime_by_stage {{PBS_Generic-Start 0 10 0.0 7.0} {to_generic 0 10 0 8} {first_condense 0 11 0 8} {PBS_Generic_Opt-Post 1 11 0.9892339999999997 7.989234} {{PBS_Generic-Postgen HBO Optimizations} 0 11 0.0 7.989234} {PBS_TechMap-Start 0 11 0.0 7.989234} {{PBS_TechMap-Premap HBO Optimizations} 0 11 0.0 7.989234} {first_condense 0 11 0 8} {reify 0 11 0 8} {global_incr_map 0 11 0 8} {{PBS_Techmap-Global Mapping} 0 11 -0.026431000000000537 8.962803} {{PBS_TechMap-Datapath Postmap Operations} 1 12 0.0 8.962803} {{PBS_TechMap-Postmap HBO Optimizations} 0 12 0.0 8.962803} {{PBS_TechMap-Postmap Clock Gating} 0 12 0.0 8.962803} {{PBS_TechMap-Postmap Cleanup} 0 12 -0.0003979999999987882 8.962405} {PBS_Techmap-Post_MBCI 0 12 0.0 8.962405} {incr_opt 0 12 0 9} }
+set_db -quiet runtime_by_stage {{PBS_Generic-Start 0 23 0.0 8.0} {to_generic 1 24 0 8} {first_condense 0 24 0 8} {PBS_Generic_Opt-Post 1 24 0.9900500000000001 8.99005} {{PBS_Generic-Postgen HBO Optimizations} 0 24 0.0 8.99005} {PBS_TechMap-Start 0 24 0.0 8.99005} {{PBS_TechMap-Premap HBO Optimizations} 0 25 0.0 8.99005} {first_condense 0 25 0 9} {reify 0 25 0 9} {global_incr_map 0 25 0 9} {{PBS_Techmap-Global Mapping} 0 25 -0.027003000000000554 8.963047} {{PBS_TechMap-Datapath Postmap Operations} 0 25 1.0 9.963047} {{PBS_TechMap-Postmap HBO Optimizations} 1 26 -0.0003719999999987067 9.962675} {{PBS_TechMap-Postmap Clock Gating} 0 26 0.0 9.962675} {{PBS_TechMap-Postmap Cleanup} 0 26 -0.0003109999999999502 9.962364} {PBS_Techmap-Post_MBCI 0 26 0.0 9.962364} {incr_opt 0 26 0 10} }
 set_db -quiet timing_adjust_tns_of_complex_flops false
 set_db -quiet tinfo_tstamp_file .rs_cae3.tstamp
 set_db -quiet metric_enable true
-set_db -quiet flow_metrics_snapshot_uuid 3dccb0a3-3b09-4866-9e2e-a08a2a6b3117
+set_db -quiet flow_metrics_snapshot_uuid 0cfb54fb-b2cf-4f88-91b1-a413da4fefa6
 set_db -quiet syn_map_effort medium
 set_db -quiet syn_opt_effort medium
 set_db -quiet {hpin:adc/therm1/Y[14]} .break_timing_paths true
@@ -88,7 +88,7 @@ set_db -quiet dft_scan_style muxed_scan
 set_db -quiet dft_scanbit_waveform_analysis false
 # END DFT SECTION
 set_db -quiet design:adc .seq_reason_deleted_internal {}
-set_db -quiet design:adc .qos_by_stage {{to_generic {wns -11111111} {tns -111111111} {vep -111111111} {area 710} {cell_count 61} {utilization  0.00} {runtime 0 10 0 8} }{first_condense {wns -11111111} {tns -111111111} {vep -111111111} {area 428} {cell_count 27} {utilization  0.00} {runtime 0 11 0 8} }{first_condense {wns -11111111} {tns -111111111} {vep -111111111} {area 428} {cell_count 27} {utilization  0.00} {runtime 0 11 0 8} }{reify {wns 384} {tns 0} {vep 0} {area 445} {cell_count 25} {utilization  0.00} {runtime 0 11 0 8} }{global_incr_map {wns 295} {tns 0} {vep 0} {area 377} {cell_count 25} {utilization  0.00} {runtime 0 11 0 8} }{incr_opt {wns 214748365} {tns 0} {vep 0} {area 377} {cell_count 25} {utilization  0.00} {runtime 0 12 0 9} }}
+set_db -quiet design:adc .qos_by_stage {{to_generic {wns -11111111} {tns -111111111} {vep -111111111} {area 710} {cell_count 61} {utilization  0.00} {runtime 1 24 0 8} }{first_condense {wns -11111111} {tns -111111111} {vep -111111111} {area 428} {cell_count 27} {utilization  0.00} {runtime 0 24 0 8} }{first_condense {wns -11111111} {tns -111111111} {vep -111111111} {area 428} {cell_count 27} {utilization  0.00} {runtime 0 25 0 9} }{reify {wns 384} {tns 0} {vep 0} {area 445} {cell_count 25} {utilization  0.00} {runtime 0 25 0 9} }{global_incr_map {wns 295} {tns 0} {vep 0} {area 377} {cell_count 25} {utilization  0.00} {runtime 0 25 0 9} }{incr_opt {wns 214748365} {tns 0} {vep 0} {area 377} {cell_count 25} {utilization  0.00} {runtime 0 26 0 10} }}
 set_db -quiet design:adc .seq_mbci_coverage 0.0
 set_db -quiet design:adc .hdl_user_name adc
 set_db -quiet design:adc .hdl_filelist {{default -v2001 {SYNTHESIS} {ADC.v} {} {}}}
@@ -176,7 +176,7 @@ set_db -quiet source_verbose true
 ##
 ## Written by Genus(TM) Synthesis Solution version 22.13-s093_1
 ## flowkit v22.11-s006_1
-## Written on 02:35:27 11-Dec 2024
+## Written on 22:24:20 12-Dec 2024
 #############################################################
 #####   Flow Definitions   ##################################
 
@@ -231,7 +231,7 @@ if {[is_attribute flow_step_next -obj_type root]} {set_db flow_step_next {}}
 if {[is_attribute flow_working_directory -obj_type root]} {set_db flow_working_directory .}
 if {[is_attribute flow_branch -obj_type root]} {set_db flow_branch {}}
 if {[is_attribute flow_caller_data -obj_type root]} {set_db flow_caller_data {}}
-if {[is_attribute flow_metrics_snapshot_uuid -obj_type root]} {set_db flow_metrics_snapshot_uuid 3dccb0a3-3b09-4866-9e2e-a08a2a6b3117}
+if {[is_attribute flow_metrics_snapshot_uuid -obj_type root]} {set_db flow_metrics_snapshot_uuid 0cfb54fb-b2cf-4f88-91b1-a413da4fefa6}
 if {[is_attribute flow_starting_db -obj_type root]} {set_db flow_starting_db {}}
 if {[is_attribute flow_db_directory -obj_type root]} {set_db flow_db_directory dbs}
 if {[is_attribute flow_report_directory -obj_type root]} {set_db flow_report_directory reports}

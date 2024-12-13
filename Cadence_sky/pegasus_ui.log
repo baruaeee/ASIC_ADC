@@ -40,3 +40,63 @@ Checking in SoftShare license Pegasus_UI ... succeeded (1s).
 INFO:    Checking out 1 license(s) of feature: 'Pegasus_UI' version 23.1
 INFO:    License checkout successful ... 2024-12-11 23:59:51
 Checking in SoftShare license Pegasus_UI ... succeeded (1s).
+
+INFO:    Checking out 1 license(s) of feature: 'Pegasus_UI' version 23.1
+INFO:    License checkout successful ... 2024-12-13 02:52:28
+Checking in SoftShare license Pegasus_UI ... succeeded (1s).
+
+INFO:    Checking out 1 license(s) of feature: 'Pegasus_UI' version 23.1
+INFO:    License checkout successful ... 2024-12-13 02:53:00
+Checking in SoftShare license Pegasus_UI ... succeeded (1s).
+
+INFO:    Checking out 1 license(s) of feature: 'Pegasus_UI' version 23.1
+INFO:    License checkout successful ... 2024-12-13 02:57:04
+WARNING: In technology 'sky130_pvs', the rule set 'default' is not a Pegasus rule set.
+It will be accepted for this run but should be changed to a pegasusRuleSet.
+Checking in SoftShare license Pegasus_UI ... succeeded (1s).
+
+INFO:    Checking out 1 license(s) of feature: 'Pegasus_UI' version 23.1
+INFO:    License checkout successful ... 2024-12-13 02:59:40
+WARNING: In technology 'sky130_pvs', the rule set 'default' is not a Pegasus rule set.
+It will be accepted for this run but should be changed to a pegasusRuleSet.
+Checking in SoftShare license Pegasus_UI ... succeeded (1s).
+
+INFO:    Checking out 1 license(s) of feature: 'Pegasus_UI' version 23.1
+INFO:    License checkout successful ... 2024-12-13 03:03:42
+WARNING: In technology 'sky130_pvs', the rule set 'default' is not a Pegasus rule set.
+It will be accepted for this run but should be changed to a pegasusRuleSet.
+Checking in SoftShare license Pegasus_UI ... succeeded (1s).
+
+INFO:    Checking out 1 license(s) of feature: 'Pegasus_UI' version 23.1
+INFO:    License checkout successful ... 2024-12-13 03:04:18
+Checking in SoftShare license Pegasus_UI ... succeeded (1s).
+
+INFO:    Checking out 1 license(s) of feature: 'Pegasus_UI' version 23.1
+INFO:    License checkout successful ... 2024-12-13 18:27:36
+Checking in SoftShare license Pegasus_UI ... succeeded (1s).
+
+INFO:    Checking out 1 license(s) of feature: 'Pegasus_UI' version 23.1
+INFO:    License checkout successful ... 2024-12-13 18:28:05
+Checking in SoftShare license Pegasus_UI ... succeeded (1s).
+
+INFO:    Checking out 1 license(s) of feature: 'Pegasus_UI' version 23.1
+INFO:    License checkout successful ... 2024-12-13 18:37:40
+WARNING: In technology 'sky130_pvs', the rule set 'default' is not a Pegasus rule set.
+It will be accepted for this run but should be changed to a pegasusRuleSet.
+Checking in SoftShare license Pegasus_UI ... succeeded (1s).
+
+INFO:    Checking out 1 license(s) of feature: 'Pegasus_UI' version 23.1
+INFO:    License checkout successful ... 2024-12-13 18:38:17
+WARNING: In technology 'sky130_pvs', the rule set 'default' is not a Pegasus rule set.
+It will be accepted for this run but should be changed to a pegasusRuleSet.
+Checking in SoftShare license Pegasus_UI ... succeeded (1s).
+
+INFO:    Checking out 1 license(s) of feature: 'Pegasus_UI' version 23.1
+INFO:    License checkout successful ... 2024-12-13 18:39:12
+WARNING: In technology 'sky130_pvs', the rule set 'default' is not a Pegasus rule set.
+It will be accepted for this run but should be changed to a pegasusRuleSet.
+Checking in SoftShare license Pegasus_UI ... succeeded (1s).
+
+INFO:    Checking out 1 license(s) of feature: 'Pegasus_UI' version 23.1
+INFO:    License checkout successful ... 2024-12-13 18:39:38
+Checking in SoftShare license Pegasus_UI ... succeeded (1s).

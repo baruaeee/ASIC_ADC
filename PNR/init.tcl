@@ -1,4 +1,6 @@
-floorPlan -site CoreSite -r 0.9375 0.695833 8.28 8.28 8.28 8.28
+floorPlan -site CoreSite -r 1 0.7 8.28 8.28 8.28 8.28
+
+setDesignMode -process 130
 
 globalNetConnect VDD -type pgpin -pin VDD -override -verbose -netlistOverride
 globalNetConnect VSS -type pgpin -pin VSS -override -verbose -netlistOverride
@@ -34,5 +36,50 @@ setEndCapMode -boundary_tap false
 setUsefulSkewMode -noBoundary false -maxAllowedDelay 1
 setMultiCpuUsage -localCpu 8 -cpuPerRemoteHost 1 -remoteHost 0 -keepLicense true
 
+## Place STD cells
+setPlaceMode -fp false
+place_design
 
- 
+
+## Pre-CTS optimization
+timeDesign -preCTS
+optDesign -preCTS
+
+## Clock Tree Synthesis (CTS)
+set_ccopt_property buffer_cells "CLKBUFX8 CLKBUFX4 CLKBUFX2"
+create_ccopt_clock_tree_spec
+# get_ccopt_clock_trees *
+ccopt_design
+
+## Post CTS Optimization
+timeDesign -postCTS
+optDesign -postCTS
+timeDesign -postCTS
+
+## Routing
+setNanoRouteMode -quiet -drouteFixAntenna 1
+setNanoRouteMode -quiet -routeInsertAntennaDiode 0
+setNanoRouteMode -quiet -routeWithTimingDriven 0
+setNanoRouteMode -quiet -routeWithEco 0
+setNanoRouteMode -quiet -routeWithLithoDriven 0
+setNanoRouteMode -quiet -droutePostRouteLithoRepair 0
+setNanoRouteMode -quiet -routeWithSiDriven 0
+setNanoRouteMode -quiet -drouteAutoStop 1
+setNanoRouteMode -quiet -routeSelectedNetOnly 0
+setNanoRouteMode -quiet -routeTopRoutingLayer 5
+setNanoRouteMode -quiet -routeBottomRoutingLayer 1
+setNanoRouteMode -quiet -drouteEndIteration 1
+setNanoRouteMode -quiet -routeWithTimingDriven false
+setNanoRouteMode -quiet -routeWithSiDriven false
+routeDesign -globalDetail
+
+## post-route timing
+setDelayCalMode -SIAware false
+setAnalysisMode -analysisType onChipVariation
+timeDesign -postRoute
+optDesign -postRoute
+
+## Power
+#report_power
+
+#verifyGeometry -allowSameCellViols -noSameNet -noOverlap -report Geom.rpt
