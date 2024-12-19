@@ -1,0 +1,11 @@
+DEFINE analogLib $CDSHOME/tools/dfII/etc/cdslib/artist/analogLib
+DEFINE basic $CDSHOME/tools/dfII/etc/cdslib/basic
+DEFINE sky130_fd_pr_main $CDSHOME/../../../pdks/sky130/sky130_release_004a/libs/sky130_fd_pr_main
+DEFINE sky130_scl_9T $CDSHOME/../../../pdks/sky130/sky130_scl_9T_0_0_5/oa/sky130_scl_9T
+DEFINE gpdk045_v_6_0 $CDSHOME/../../../pdks/gpdk045/gpdk045_v_6_0/gpdk045
+SOFTINCLUDE $CDSHOME/../../../pdks/gpdk045/gsclib045_all_v4_4/cds.lib
+SOFTINCLUDE /home/cae1/Desktop/PDK/giolib045_v3_3/cds.lib
+SOFTINCLUDE 
+DEFINE avTech /eda/cadence/2023-24/RHELx86/ASSURA_04.16.115_231/tools.lnx86/assura/etc/avtech/avTech /eda/cadence/pdks/gpdk045/gsclib045_all_v4_4/gsclib045_tech/cds.lib
+
+DEFINE IORINGDB /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/glclib/IORINGDB

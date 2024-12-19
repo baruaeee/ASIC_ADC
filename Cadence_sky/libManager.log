@@ -1,6 +1,6 @@
 \o Program:		@(#)$CDS: libManager version 23.1 - CAT38 08/24/2023 05:06 (sjfdcl1184) $
 \o Sub version:		sub-version  p306 
-\o Arguments:		-unmapped -mpssession virtuoso922099 -mpshost cae-europractice1.othr.de -masterPID 922099 -ADVM 
+\o Arguments:		-unmapped -mpssession virtuoso1077051 -mpshost cae-europractice1.othr.de -masterPID 1077051 -ADVM 
 \o Working Directory:	cae-europractice1.othr.de:/home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky
 \o 64-bit offsets
 \o Qt version: 		5.15.9
@@ -14,11 +14,17 @@
 \o MPS service: map window
 \a nrSetCurrentWindow(cdsLibManager)
 \o Library Manager customization server connected.
-\a nrResizeWindow(cdsLibManager list(0 145 833 533))
+\a nrResizeWindow(cdsLibManager list(38 139 833 533))
 \a cdsLibManager->libListBox->value = "OpenFPGA"
 \a cdsLibManager->libLineEdit->value = "OpenFPGA"
+\a cdsLibManager->cellListBox->value = "sky130_fd_io__com_bus_hookup"
+\a cdsLibManager->cellLineEdit->value = "sky130_fd_io__com_bus_hookup"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
 \a cdsLibManager->cellListBox->value = "sky130_fd_io__top_power_hvc_wpadv2"
 \a cdsLibManager->cellLineEdit->value = "sky130_fd_io__top_power_hvc_wpadv2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "layout"
 \a cdsLibManager->viewLineEdit->value = "layout"
 \a cdsLibManager->viewListBox->value = nil
@@ -76,12 +82,76 @@
 \a cdsLibManager->viewListBox->value = "layout"
 \a cdsLibManager->viewLineEdit->value = "layout"
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "sky130_fd_io__esd_rcclamp_nfetcap"
-\a cdsLibManager->cellLineEdit->value = "sky130_fd_io__esd_rcclamp_nfetcap"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "sky130_fd_io__pad_esd"
+\a cdsLibManager->cellLineEdit->value = "sky130_fd_io__pad_esd"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "layout"
 \a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "sky130_fd_io__hvc_clampv2"
+\a cdsLibManager->cellLineEdit->value = "sky130_fd_io__hvc_clampv2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "sky130_fd_io__pad_esd"
+\a cdsLibManager->cellLineEdit->value = "sky130_fd_io__pad_esd"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "sky130_fd_io__hvc_clampv2"
+\a cdsLibManager->cellLineEdit->value = "sky130_fd_io__hvc_clampv2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "sky130_fd_io__top_power_hvc_wpadv2"
+\a cdsLibManager->cellLineEdit->value = "sky130_fd_io__top_power_hvc_wpadv2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "sky130_fd_io__pad_esd"
+\a cdsLibManager->cellLineEdit->value = "sky130_fd_io__pad_esd"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "sky130_fd_io__hvc_clampv2"
+\a cdsLibManager->cellLineEdit->value = "sky130_fd_io__hvc_clampv2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libListBox->value = "analogLib"
 \a cdsLibManager->libLineEdit->value = "analogLib"
@@ -100,101 +170,15 @@
 \a cdsLibManager->libListBox->value = "OpenFPGA"
 \a cdsLibManager->libLineEdit->value = "OpenFPGA"
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "sky130_fd_io__overlay_vddio_hvc"
-\a cdsLibManager->cellLineEdit->value = "sky130_fd_io__overlay_vddio_hvc"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "sky130_fd_io__com_bus_slice"
-\a cdsLibManager->cellLineEdit->value = "sky130_fd_io__com_bus_slice"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "sky130_fd_io__com_bus_hookup"
-\a cdsLibManager->cellLineEdit->value = "sky130_fd_io__com_bus_hookup"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "sky130_fd_io__overlay_vddio_hvc"
-\a cdsLibManager->cellLineEdit->value = "sky130_fd_io__overlay_vddio_hvc"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "sky130_fd_io__com_bus_slice"
-\a cdsLibManager->cellLineEdit->value = "sky130_fd_io__com_bus_slice"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "sky130_fd_io__com_bus_hookup"
-\a cdsLibManager->cellLineEdit->value = "sky130_fd_io__com_bus_hookup"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "analogLib"
+\a cdsLibManager->libLineEdit->value = "analogLib"
 \a cdsLibManager->libListBox->value = "OpenFPGA"
 \a cdsLibManager->libLineEdit->value = "OpenFPGA"
-\a cdsLibManager->cellListBox->value = "sky130_fd_io__com_bus_hookup"
-\a cdsLibManager->cellLineEdit->value = "sky130_fd_io__com_bus_hookup"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "sky130_fd_io__top_ground_hvc_wpad"
-\a cdsLibManager->cellLineEdit->value = "sky130_fd_io__top_ground_hvc_wpad"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "sky130_fd_io__top_ground_hvc_wpad"
-\a cdsLibManager->cellLineEdit->value = "sky130_fd_io__top_ground_hvc_wpad"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->cellListBox 6 0)
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->libListBox->value = "OpenFPGA"
 \a cdsLibManager->libLineEdit->value = "OpenFPGA"
-\a cdsLibManager->cellListBox->value = "sky130_fd_io__top_ground_hvc_wpad"
-\a cdsLibManager->cellLineEdit->value = "sky130_fd_io__top_ground_hvc_wpad"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
-\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "OpenFPGA"
+\a cdsLibManager->libLineEdit->value = "OpenFPGA"

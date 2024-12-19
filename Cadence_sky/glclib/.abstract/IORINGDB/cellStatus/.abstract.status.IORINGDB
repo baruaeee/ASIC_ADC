@@ -1,0 +1,6 @@
+cUiSelectCellP {IORINGDB}
+cUiSetViewStatus {IORINGDB} {layout} {1}
+cUiSetViewStatus {IORINGDB} {logical} {0}
+cUiSetViewStatus {IORINGDB} {abstract.pin} {3}
+cUiSetViewStatus {IORINGDB} {abstract.ext} {3}
+cUiSetViewStatus {IORINGDB} {abstract} {3}
