@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream In
 Program   : @(#)$CDS: strmin version IC23.1-64b 09/20/2023 08:14 (cpgbld16) $
           : sub-version  IC23.1-64b.ISR2.29 
-Started at: 26-Nov-2024  14:50:20
+Started at: 02-Dec-2024  20:31:11
 User Name : cae1
 Host Name : cae-europractice1.othr.de
 Directory : /home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky
@@ -10,69 +10,21 @@ CADENCE Design Systems, Inc.
 ********************************************************************************
 Info: Cellview Rev Num:99,  Tech Rev Num:59
 
-WARNING (XSTRM-75): Target library 'OpenFPGA' is attached to the technology library 'sky130_fd_pr_main'. Therefore, the technology file is opened in read-only mode. All the undefined layer-purpose pairs will be dropped.
 WARNING (XSTRM-107): Existing cells in the target library will be overwritten if the cell names in the Stream file and the target library are the same. To prevent this, set the '-writeMode' option to 'noOverwrite'.
 INFO (XSTRM-217): Reading the layer map file, /mnt/cae_storage_sw/eda/cadence/pdks/sky130/sky130_release_004a/libs/sky130_fd_pr_main/sky130_fd_pr_main.layermap
 WARNING (XSTRM-333): The '-enableColoring' option will be ignored during XStream In. This is because there is no color entry in the layer map and the object map file.
 INFO (XSTRM-163): You have not used the '-viaMap' option. If a viaMap file, corresponding technology file or technology library exist, then use the '-viaMap' option for creating oaVia instances in the Streamed-In library. Using the '-viaMap' option improves performance and VM usage of applications using the Streamed-In design.
 
 Summary of Options:
-	library				OpenFPGA
-	strmFile			/home/cae1/Desktop/PDK/skywater-pdk/libraries/sky130_fd_io/latest/cells/top_ground_hvc_wpad/sky130_fd_io__top_ground_hvc_wpad.gds
+	library				sky130_fd_pr_main
+	strmFile			/home/cae1/Desktop/FPGA-OpenFPGA/ASIC_ADC/Cadence_sky/OpenFPGA/sky130_fd_sc_hs__buf_1.gds
 	logFile				strmIn.log
-	topCell				sky130_fd_io__top_ground_hvc_wpad
+	topCell				sky130_fd_sc_hs__buf_1
 	view				layout
 	case				Preserve
 	layerMap			/mnt/cae_storage_sw/eda/cadence/pdks/sky130/sky130_release_004a/libs/sky130_fd_pr_main/sky130_fd_pr_main.layermap
 	propSeparator			,
 
-INFO (XSTRM-220): 1. Translating STRUCTURE sky130_fd_pr__hvdfl1sd__example_5595914180851 as cellView OpenFPGA/sky130_fd_pr__hvdfl1sd__example_5595914180851/layout.
-INFO (XSTRM-220): 2. Translating STRUCTURE sky130_fd_pr__model__nfet_highvoltage__example_55959141808664 as cellView OpenFPGA/sky130_fd_pr__model__nfet_highvoltage__example_55959141808664/layout.
-INFO (XSTRM-220): 3. Translating STRUCTURE sky130_fd_io__sio_clamp_pcap_4x5 as cellView OpenFPGA/sky130_fd_io__sio_clamp_pcap_4x5/layout.
-INFO (XSTRM-220): 4. Translating STRUCTURE sky130_fd_pr__model__nfet_highvoltage__example_55959141808680 as cellView OpenFPGA/sky130_fd_pr__model__nfet_highvoltage__example_55959141808680/layout.
-INFO (XSTRM-220): 5. Translating STRUCTURE sky130_fd_io__esd_rcclamp_nfetcap as cellView OpenFPGA/sky130_fd_io__esd_rcclamp_nfetcap/layout.
-INFO (XSTRM-220): 6. Translating STRUCTURE sky130_fd_pr__dfl1sd2__example_55959141808666 as cellView OpenFPGA/sky130_fd_pr__dfl1sd2__example_55959141808666/layout.
-INFO (XSTRM-220): 7. Translating STRUCTURE sky130_fd_pr__dfl1sd__example_55959141808336 as cellView OpenFPGA/sky130_fd_pr__dfl1sd__example_55959141808336/layout.
-INFO (XSTRM-220): 8. Translating STRUCTURE sky130_fd_pr__pfet_01v8__example_55959141808665 as cellView OpenFPGA/sky130_fd_pr__pfet_01v8__example_55959141808665/layout.
-INFO (XSTRM-220): 9. Translating STRUCTURE sky130_fd_pr__dfl1sd2__example_55959141808679 as cellView OpenFPGA/sky130_fd_pr__dfl1sd2__example_55959141808679/layout.
-INFO (XSTRM-220): 10. Translating STRUCTURE sky130_fd_pr__dfl1sd__example_55959141808678 as cellView OpenFPGA/sky130_fd_pr__dfl1sd__example_55959141808678/layout.
-INFO (XSTRM-220): 11. Translating STRUCTURE sky130_fd_pr__nfet_01v8__example_55959141808677 as cellView OpenFPGA/sky130_fd_pr__nfet_01v8__example_55959141808677/layout.
-INFO (XSTRM-220): 12. Translating STRUCTURE sky130_fd_pr__dfl1__example_55959141808663 as cellView OpenFPGA/sky130_fd_pr__dfl1__example_55959141808663/layout.
-INFO (XSTRM-220): 13. Translating STRUCTURE sky130_fd_pr__hvdftpl1s2__example_55959141808672 as cellView OpenFPGA/sky130_fd_pr__hvdftpl1s2__example_55959141808672/layout.
-INFO (XSTRM-220): 14. Translating STRUCTURE sky130_fd_pr__hvdftpl1s__example_55959141808671 as cellView OpenFPGA/sky130_fd_pr__hvdftpl1s__example_55959141808671/layout.
-INFO (XSTRM-220): 15. Translating STRUCTURE sky130_fd_pr__nfet_01v8__example_55959141808673 as cellView OpenFPGA/sky130_fd_pr__nfet_01v8__example_55959141808673/layout.
-INFO (XSTRM-220): 16. Translating STRUCTURE sky130_fd_pr__nfet_01v8__example_55959141808670 as cellView OpenFPGA/sky130_fd_pr__nfet_01v8__example_55959141808670/layout.
-INFO (XSTRM-220): 17. Translating STRUCTURE sky130_fd_pr__via_pol1__example_5595914180839 as cellView OpenFPGA/sky130_fd_pr__via_pol1__example_5595914180839/layout.
-INFO (XSTRM-220): 18. Translating STRUCTURE sky130_fd_pr__res_bent_po__example_55959141808668 as cellView OpenFPGA/sky130_fd_pr__res_bent_po__example_55959141808668/layout.
-INFO (XSTRM-220): 19. Translating STRUCTURE sky130_fd_pr__dfl1__example_55959141808662 as cellView OpenFPGA/sky130_fd_pr__dfl1__example_55959141808662/layout.
-INFO (XSTRM-220): 20. Translating STRUCTURE sky130_fd_pr__hvdftpl1s2__example_55959141808676 as cellView OpenFPGA/sky130_fd_pr__hvdftpl1s2__example_55959141808676/layout.
-INFO (XSTRM-220): 21. Translating STRUCTURE sky130_fd_pr__hvdftpl1s__example_55959141808675 as cellView OpenFPGA/sky130_fd_pr__hvdftpl1s__example_55959141808675/layout.
-INFO (XSTRM-220): 22. Translating STRUCTURE sky130_fd_pr__nfet_01v8__example_55959141808674 as cellView OpenFPGA/sky130_fd_pr__nfet_01v8__example_55959141808674/layout.
-INFO (XSTRM-220): 23. Translating STRUCTURE sky130_fd_io__com_bus_slice as cellView OpenFPGA/sky130_fd_io__com_bus_slice/layout.
-INFO (XSTRM-220): 24. Translating STRUCTURE sky130_fd_io__com_bus_hookup as cellView OpenFPGA/sky130_fd_io__com_bus_hookup/layout.
-INFO (XSTRM-220): 25. Translating STRUCTURE sky130_fd_pr__genrivetdlring__example_559591418082 as cellView OpenFPGA/sky130_fd_pr__genrivetdlring__example_559591418082/layout.
-INFO (XSTRM-220): 26. Translating STRUCTURE sky130_fd_pr__gendlring__example_559591418081 as cellView OpenFPGA/sky130_fd_pr__gendlring__example_559591418081/layout.
-INFO (XSTRM-220): 27. Translating STRUCTURE sky130_fd_pr__padplhp__example_559591418080 as cellView OpenFPGA/sky130_fd_pr__padplhp__example_559591418080/layout.
-INFO (XSTRM-220): 28. Translating STRUCTURE sky130_fd_io__pad_esd as cellView OpenFPGA/sky130_fd_io__pad_esd/layout.
-INFO (XSTRM-220): 29. Translating STRUCTURE sky130_fd_io__com_busses_esd as cellView OpenFPGA/sky130_fd_io__com_busses_esd/layout.
-INFO (XSTRM-220): 30. Translating STRUCTURE sky130_fd_pr__res_bent_po__example_55959141808667 as cellView OpenFPGA/sky130_fd_pr__res_bent_po__example_55959141808667/layout.
-INFO (XSTRM-220): 31. Translating STRUCTURE sky130_fd_pr__res_bent_po__example_55959141808669 as cellView OpenFPGA/sky130_fd_pr__res_bent_po__example_55959141808669/layout.
-INFO (XSTRM-220): 32. Translating STRUCTURE sky130_fd_io__top_ground_hvc_wpad as cellView OpenFPGA/sky130_fd_io__top_ground_hvc_wpad/layout.
-
-Summary of Objects Translated:
-	Instances:                              203
-	CustomVias:                             0
-	StandardVias:                           93
-	CdsGenVias:                             0
-	Arrays:                                 18
-	Polygons:                               224
-	Paths:                                  0
-	PathSegs:                               0
-	Rectangles:                             66728
-	Text:                                   273
-	Node:                                   0
-	Line:                                   0
-	Cells:                                  32
-
-Elapsed Time: 0.3s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 15164KB  CPUs Used: 2
-INFO (XSTRM-234): Translation completed. '0' error(s) and '3' warning(s) found.
+ERROR (XSTRM-3042): Translation Failed - Received exception from oaDMFileSys plug-in when accessing library sky130_fd_pr_main: #9016: Error in creating a cell 'sky130_fd_sc_hs__buf_1'. Unable to create directory '/mnt/cae_storage_sw/eda/cadence/pdks/sky130/sky130_release_004a/libs/sky130_fd_pr_main/sky130_fd_sc_hs__buf_1'. OS error code: '30': "Read-only file system".. ..
+If problem persists, contact the Cadence Customer Support.
+INFO (XSTRM-273): Translation failed. '1' error(s) and '2' warning(s) found.
