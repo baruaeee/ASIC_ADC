@@ -1,0 +1,14 @@
+
+
+vuipreRcxFormTable = '(
+	runName  "inv02f"
+	runDir  "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/svdb"
+	assuraTech  "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/Sky130_DRC/pvtech.lib"
+	tech  "sky130_pvs"
+	mapFile  ""
+	netProp  5
+	instProp  6
+	devProp  7
+)
+
+

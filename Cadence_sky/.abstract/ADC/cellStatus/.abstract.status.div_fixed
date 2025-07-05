@@ -1,0 +1,5 @@
+cUiSetViewStatus {div_fixed} {layout} {1}
+cUiSetViewStatus {div_fixed} {logical} {0}
+cUiSetViewStatus {div_fixed} {abstract.pin} {19}
+cUiSetViewStatus {div_fixed} {abstract.ext} {17}
+cUiSetViewStatus {div_fixed} {abstract} {19}

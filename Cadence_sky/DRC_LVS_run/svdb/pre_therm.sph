@@ -1,0 +1,13 @@
+# Placement Hierarchy File (sph)
+# 
+# 
+# 
+% inv01f 4
+MNM1 MN 4
+MPM1 MP 4
+% preampF 4
+MNM0 MN 4
+MPM1 MP 4
+% pre_therm 4
+XI0 preampF 4
+XI01 inv01f 4

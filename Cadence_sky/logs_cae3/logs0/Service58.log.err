@@ -1,0 +1,6 @@
+2024/11/07 14:41:59 System is not a supported distribution
+2024/11/07 14:41:59 An error occurred. We don't recognize OS 
+2024/11/07 14:41:59 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2024/11/07 14:41:59 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+log4cxx: No appender could be found for logger (cadence.virtuoso.ade.gui).
+log4cxx: Please initialize the log4cxx system properly.

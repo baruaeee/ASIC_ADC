@@ -1,0 +1,9 @@
+Type,Name,Value,Enabled,Tags,Notes
+variable,n15L,250n:50n:550n,enabled,,
+variable,n15W,640n:5n:690n,enabled,,
+variable,p15L,150n,enabled,,
+variable,p15W,620n:5n:700n,enabled,,
+variable,pre_n_L,550n,enabled,,
+variable,pre_n_W,420n,enabled,,
+variable,pre_p_L,250n,enabled,,
+variable,pre_p_W,550n,enabled,,

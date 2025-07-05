@@ -1,0 +1,5 @@
+cUiSetViewStatus {pre_therm1} {layout} {1}
+cUiSetViewStatus {pre_therm1} {logical} {0}
+cUiSetViewStatus {pre_therm1} {abstract.pin} {0}
+cUiSetViewStatus {pre_therm1} {abstract.ext} {0}
+cUiSetViewStatus {pre_therm1} {abstract} {0}

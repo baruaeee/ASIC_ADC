@@ -1,8 +1,0 @@
-DEFINE analogLib $IC_HOME/tools/dfII/etc/cdslib/artist/analogLib
-DEFINE US_8ths   $IC_HOME/tools/dfII/etc/cdslib/sheets/US_8ths
-DEFINE basic     $IC_HOME/tools/dfII/etc/cdslib/basic
-DEFINE cdsDefTechLib $IC_HOME/tools/dfII/etc/cdsDefTechLib
-DEFINE NCSU_TechLib_FreePDK45  $PDK_DIR/ncsu_basekit/lib/NCSU_TechLib_FreePDK45
-DEFINE NCSU_Devices_FreePDK45  $PDK_DIR/ncsu_basekit/lib/NCSU_Devices_FreePDK45
-#Removed by ddDeleteObj: DEFINE ADC /home/exotic/Desktop/ADC_FreePDK45/ADC
-DEFINE ADC /home/exotic/Desktop/ASIC_ADC/Cadence_FreePdk045/ADC_FreePDK45/ADC/

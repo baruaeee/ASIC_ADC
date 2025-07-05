@@ -1,0 +1,44 @@
+TOOL:	xrun(64)	23.03-s007: Started on Dec 04, 2024 at 01:51:34 CET
+xrun
+	-compile
+	-nocopy
+	-nostdout
+	-nowarn DLNOHV
+	-nowarn SPDUSD
+	-messages
+	-update
+	-log /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/.cadence/dfII/TextSupport/Logs/Parser/verilog/ADC/functional/compile15.log
+	-incdir "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/"
+	-cdslib /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/cds.lib
+	-makelib ADC
+	-view functional
+	-SPECIFICUNIT div_fixed
+	/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/div_fixed/functional/verilog.v
+	-endlib
+TOOL:	xrun(64)	23.03-s007: Exiting on Dec 04, 2024 at 01:51:34 CET  (total: 00:00:00)
+
+
+
+ ========================================================================================================
+		                  HDL IMPORT QUICK STATUS REPORT
+ ========================================================================================================
+ HDL SETUP MODE	: 0 - IMPROVED LEGACY FLOW
+ ========================================================================================================
+ HDL SETUP STATUS	: SUCCESS
+ ========================================================================================================
+ cds.lib USED	: "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/cds.lib"
+ ========================================================================================================
+ COMPILER OPTIONS	: ""
+ ========================================================================================================
+ PCDB DM CHECKS	: SUCCESS
+ ========================================================================================================
+ PCDB UPDATE REQUIRED	: NO
+ ========================================================================================================
+ IMPORT CONFIGURATION	: CHECK BELOW SETTINGS
+		: generateShadow(false)
+		: enableBlackBox(false)
+		: enableSpecificUnit(true)
+		: updateCDF(false)
+ ========================================================================================================
+ OVERALL IMPORT STATUS	: SUCCESS
+ ========================================================================================================

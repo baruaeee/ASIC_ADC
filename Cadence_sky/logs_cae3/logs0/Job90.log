@@ -1,0 +1,70 @@
+[Simulation Monitor: 90]
+[2024-10-24 12:53:19.611 +0200] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulation Monitor has successfully started up. Trying to set up communication channels to other components ... {"hostname": "cae-europractice1.othr.de", "processid": 4007549, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Job90.log"}
+[2024-10-24 12:53:19.612 +0200] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Communication channels have been successfully set up. Start processing events ... {"hostname": "cae-europractice1.othr.de", "processid": 4007549, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Job90.log"}
+[2024-10-24 12:53:19.612 +0200] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Considering to start history {"hostname": "cae-europractice1.othr.de", "processid": 4007549, "history": "ExplorerRun.0", "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Job90.log"}
+[2024-10-24 12:53:19.614 +0200] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - HostInfo:
+Host name (type):	cae-europractice1.othr.de (x86_64)
+Operating system:	Linux 5.15.0-210.163.7.el8uek.x86_64 #2 SMP Tue Sep 10 18:31:09 PDT 2024 {"hostname": "cae-europractice1.othr.de", "processid": 4007549, "history": "ExplorerRun.0", "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Job90.log", "nodename": "cae-europractice1.othr.de", "domainname": "(none)", "machine": "x86_64", "sysname": "Linux", "release": "5.15.0-210.163.7.el8uek.x86_64", "version": "#2 SMP Tue Sep 10 18:31:09 PDT 2024"}
+[2024-10-24 12:53:19.615 +0200] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - UsageInfo:
+pid=4007549
+totalPhysicalMemory=31.061058GB,Used=26.782688GB,totalVirtualMemory=31.061058GB,Used=26.782688GB
+Cpu: Cores=16, Load average:0.240000,0.250000,0.260000 {"hostname": "cae-europractice1.othr.de", "processid": 4007549, "history": "ExplorerRun.0", "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Job90.log", "pid": "4007549", "totalPhysicalMemory": "31.061058", "physicalMemoryUsed": "26.782688", "totalVirtualMemory": "31.061058", "virtualMemoryUsed": "26.782688", "cpuCores": "16", "processes": "3513", "loadAverage1": "0.240000", "loadAverage5": "0.250000", "loadAverage15": "0.260000", "loadAverage1Percent": "0.015000"}
+[2024-10-24 12:53:19.615 +0200] [EVENT] [cadence.virtuoso.ade.simulationMonitor] - NewPoint {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_TB_single_1", "cornername": "Nominal", "event": "NewPoint", "EventSource": "Simulation Monitor", "HistoryName": "ExplorerRun.0", "logFile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Job90.log", "logFileSize": "1591"}
+[2024-10-24 12:53:19.818 +0200] [EVENT] [cadence.virtuoso.ade.simulationMonitor] - NewPoint {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_TB_single_1", "cornername": "Nominal", "event": "NewPoint", "EventSource": "spectre", "HistoryName": "ExplorerRun.0", "logFile": "/home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/1/ADC_TB_single_1/psf/spectre.out", "logFileSize": "-1"}
+[2024-10-24 12:53:19.835 +0200] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulator launched {"hostname": "cae-europractice1.othr.de", "processid": 4007549, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "cornername": "Nominal", "point": 1, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Job90.log", "simid": "1", "event": "launch", "category": "simulation"}
+[2024-10-24 12:53:19.838 +0200] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Expression evaluator launched {"hostname": "cae-europractice1.othr.de", "processid": 4007549, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "cornername": "Nominal", "point": 1, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Job90.log"}
+[2024-10-24 12:53:19.980 +0200] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Started Simulation {"hostname": "cae-europractice1.othr.de", "processid": 4007549, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "cornername": "Nominal", "point": 1, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Job90.log", "event": "start", "category": "simulation"}
+[2024-10-24 12:53:36.496 +0200] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 181 Mbytes. {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_TB_single_1", "cornername": "Nominal"}
+[2024-10-24 12:53:36.496 +0200] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 193 Mbytes. {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_TB_single_1", "cornername": "Nominal"}
+[2024-10-24 12:53:36.496 +0200] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during hierarchy flattening.
+    The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option. {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_TB_single_1", "cornername": "Nominal"}
+[2024-10-24 12:53:36.496 +0200] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 194 Mbytes. {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_TB_single_1", "cornername": "Nominal"}
+[2024-10-24 12:53:41.499 +0200] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during initial setup.
+    Multithreading is disabled due to the size of the design being too small. {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_TB_single_1", "cornername": "Nominal"}
+[2024-10-24 12:53:41.499 +0200] [INFO] [cadence.virtuoso.ade.simulationMonitor] -               nodes 10 {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_TB_single_1", "cornername": "Nominal"}
+[2024-10-24 12:53:41.499 +0200] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during initial setup.
+    APS enabled. {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_TB_single_1", "cornername": "Nominal"}
+[2024-10-24 12:53:41.499 +0200] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 197 Mbytes. {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_TB_single_1", "cornername": "Nominal"}
+[2024-10-24 12:53:41.499 +0200] [INFO] [cadence.virtuoso.ade.simulationMonitor] -    -   (APS) Multi-threading. The recommended number of threads is 1, consider adding +mt=1 on command line. {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_TB_single_1", "cornername": "Nominal"}
+[2024-10-24 12:53:41.499 +0200] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for dc analysis `dcOp': CPU = 2.343 ms, elapsed = 2.99001 ms, util. = 78.4%. {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_TB_single_1", "cornername": "Nominal"}
+[2024-10-24 12:53:41.499 +0200] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 200 Mbytes. {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_TB_single_1", "cornername": "Nominal"}
+[2024-10-24 12:53:41.500 +0200] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at dc = 3.6 mV during DC analysis `dc'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(div_out) = 137.561 uV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_TB_single_1", "cornername": "Nominal"}
+[2024-10-24 12:53:41.500 +0200] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at dc = 7.2 mV during DC analysis `dc'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(div_out) = 280.956 uV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_TB_single_1", "cornername": "Nominal"}
+[2024-10-24 12:53:41.500 +0200] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at dc = 10.8 mV during DC analysis `dc'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(div_out) = 430.159 uV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_TB_single_1", "cornername": "Nominal"}
+[2024-10-24 12:53:41.500 +0200] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at dc = 14.4 mV during DC analysis `dc'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(div_out) = 585.124 uV
+        Use the `gmin_check' option to eliminate or expand this report. {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_TB_single_1", "cornername": "Nominal"}
+[2024-10-24 12:53:41.500 +0200] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at dc = 18 mV during DC analysis `dc'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        Further occurrences of this notice will be suppressed.
+        dV(div_out) = 745.797 uV
+        Further occurrences of this notice will be suppressed.
+        Use the `gmin_check' option to eliminate or expand this report.
+        Further occurrences of this notice will be suppressed. {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_TB_single_1", "cornername": "Nominal"}
+[2024-10-24 12:53:41.500 +0200] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at dc = 1.8 V during DC analysis `dc'.
+    The value of parameter 'dc' has been reset to the original value 0.6. {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_TB_single_1", "cornername": "Nominal"}
+[2024-10-24 12:53:41.500 +0200] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for dc analysis `dc': CPU = 39.736 ms, elapsed = 40.3402 ms, util. = 98.5%. {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_TB_single_1", "cornername": "Nominal"}
+[2024-10-24 12:53:41.500 +0200] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 200 Mbytes. {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_TB_single_1", "cornername": "Nominal"}
+[2024-10-24 12:53:41.500 +0200] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre.
+    151 notices suppressed. {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_TB_single_1", "cornername": "Nominal"}
+[2024-10-24 12:53:41.500 +0200] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Time used: CPU = 878 ms, elapsed = 20.9 s, util. = 4.2%. {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_TB_single_1", "cornername": "Nominal"}
+[2024-10-24 12:53:41.500 +0200] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Time spent in licensing: elapsed = 29.3 ms. {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_TB_single_1", "cornername": "Nominal"}
+[2024-10-24 12:53:41.500 +0200] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak memory used = 209 Mbytes. {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_TB_single_1", "cornername": "Nominal"}
+[2024-10-24 12:53:41.501 +0200] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulation started at: 12:53:20 PM, Thur Oct 24, 2024, ended at: 12:53:41 PM, Thur Oct 24, 2024, with elapsed time (wall clock): 20.9 s. {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_TB_single_1", "cornername": "Nominal"}
+[2024-10-24 12:53:41.501 +0200] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - spectre completes with 0 errors, 0 warnings, and 11 notices. {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_TB_single_1", "cornername": "Nominal"}
+[2024-10-24 12:53:41.501 +0200] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Finished simulating for one point {"hostname": "cae-europractice1.othr.de", "processid": 4007549, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "cornername": "Nominal", "point": 1, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Job90.log", "simid": "1", "event": "finish", "category": "simulation"}
+[2024-10-24 12:53:41.501 +0200] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulator exited {"hostname": "cae-europractice1.othr.de", "processid": 4007549, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "cornername": "Nominal", "point": 1, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Job90.log", "exitStatus": "0"}
+[2024-10-24 12:53:41.501 +0200] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Finished Simulation {"hostname": "cae-europractice1.othr.de", "processid": 4007549, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "cornername": "Nominal", "point": 1, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Job90.log", "simid": "1", "event": "finish", "category": "simulation"}
+[2024-10-24 12:53:42.502 +0200] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Point Finished {"hostname": "cae-europractice1.othr.de", "processid": 4007549, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "cornername": "Nominal", "point": 1, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Job90.log"}
+[2024-10-24 12:58:42.962 +0200] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Current memory used: 82.3867 MBytes, peak memory used: 82.3867 MBytes {"hostname": "cae-europractice1.othr.de", "processid": 4007549, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "cornername": "Nominal", "point": 1, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Job90.log"}
+[2024-10-24 12:58:42.962 +0200] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulation Monitor process exits. {"hostname": "cae-europractice1.othr.de", "processid": 4007549, "history": "ExplorerRun.0", "testname": "ADC_TB_single_1", "cornername": "Nominal", "point": 1, "logfile": "/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Job90.log"}

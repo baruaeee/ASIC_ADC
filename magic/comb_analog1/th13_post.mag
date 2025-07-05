@@ -1,9 +1,0 @@
-magic
-tech sky130A
-magscale 1 2
-timestamp 1705440829
-use th13  x1
-timestamp 1705440792
-transform 1 0 53 0 1 1800
-box 240 -1200 2062 556
-<< end >>

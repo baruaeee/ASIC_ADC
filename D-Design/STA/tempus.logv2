@@ -1,0 +1,437 @@
+[02/09 18:10:55      0s] 
+[02/09 18:10:55      0s] Cadence Tempus(TM) Timing Solution.
+[02/09 18:10:55      0s] Copyright 2024 Cadence Design Systems, Inc. All rights reserved worldwide.
+[02/09 18:10:55      0s] 
+[02/09 18:10:55      0s] Version:	v23.11-s111_1, built Thu May 16 09:07:16 PDT 2024
+[02/09 18:10:55      0s] Options:	
+[02/09 18:10:55      0s] Date:		Sun Feb  9 18:10:55 2025
+[02/09 18:10:55      0s] Host:		cae-europractice1.othr.de (x86_64 w/Linux 5.15.0-210.163.7.el8uek.x86_64) (1core*16cpus*AMD Ryzen Threadripper PRO 5975WX 32-Cores 512KB)
+[02/09 18:10:55      0s] OS:		Oracle Linux Server 8.10
+[02/09 18:10:55      0s] 
+[02/09 18:10:55      0s] License:
+[02/09 18:10:55      0s] 		[18:10:55.483236] Configured Lic search path (23.02-s005): 5280@hs-lic3.oth-regensburg.de:27003@hs-lic1.oth-regensburg.de:27003@hs-lic1.oth-regensburg.de:
+
+[02/09 18:10:55      0s] 		tpsxl	Tempus Timing Signoff Solution XL	23.1	checkout succeeded
+[02/09 18:10:55      0s] 		16 CPU jobs allowed with the current license(s). Use set_multi_cpu_usage to set your required CPU count.
+[02/09 18:10:58      1s] {{{ isCertus 0,  isCertusOrDistOptClient = 0, isInnovusCertusClient = 0}}}
+[02/09 18:11:22     15s] Reset Parastics called with the command setExtractRCMode -reset@(#)CDS: Tempus Timing Solution v23.11-s111_1 (64bit) 05/16/2024 09:07 (Linux 3.10.0-693.el7.x86_64)
+[02/09 18:11:25     17s] @(#)CDS: NanoRoute 23.11-s111_1 NR240401-0735/23_11-UB (database version 18.20.622) {superthreading v2.20}
+[02/09 18:11:25     17s] @(#)CDS: AAE 23.11-s031 (64bit) 05/16/2024 (Linux 3.10.0-693.el7.x86_64)
+[02/09 18:11:25     17s] @(#)CDS: CTE 23.11-s025_1 () May 16 2024 01:47:36 ( )
+[02/09 18:11:25     17s] @(#)CDS: SYNTECH 23.11-s010_1 () Apr  5 2024 04:21:08 ( )
+[02/09 18:11:25     17s] @(#)CDS: CPE v23.11-s059
+[02/09 18:11:25     17s] @(#)CDS: OA 22.61-p011 Thu Nov 30 12:26:13 2023
+[02/09 18:11:25     17s] @(#)CDS: SGN 23.10-d005 (03-Oct-2023) (64 bit executable, TkQt5.15.9)
+[02/09 18:11:25     17s] @(#)CDS: RCDB 11.15.0
+[02/09 18:11:25     17s] @(#)CDS: STYLUS 23.10-a010_1 (02/06/2024 03:59 PST)
+[02/09 18:11:25     17s] Change the soft stacksize limit to 0.2%RAM (63 mbytes). Set global soft_stack_size_limit to change the value.
+[02/09 18:11:25     17s] **INFO: (TMPDIR-1001): Create and set the environment variable TMPDIR to '/tmp/ssv_tmpdir_1719172_TYKVP8'.
+environment variable TMPDIR is '/tmp/ssv_tmpdir_1719172_TYKVP8'.
+[02/09 18:11:26     18s] <CMD> ::stop_gui -keepDgui
+[02/09 18:11:26     18s] Has not load the powerDB, will keep enalbed
+[02/09 18:11:26     18s] Has not load the powerDB, will keep enalbed
+[02/09 18:12:58     23s] <CMD> read_lib -max lib/sky130_ss_1.62_125_nldm.lib
+[02/09 18:12:58     24s] <CMD> read_lib -min lib/sky130_ff_1.98_0_nldm.lib
+[02/09 18:12:58     24s] <CMD> read_lib lib/sky130_tt_1.8_25_nldm.lib
+[02/09 18:12:59     24s] <CMD> read_verilog SRC/Thermometer_netlist.v
+[02/09 18:12:59     24s] <CMD> read_sdc post_synth_Thermometer.sdc
+[02/09 18:12:59     24s] **ERROR: Design must be in memory before running this command.
+[02/09 18:12:59     24s] Design must be in memory before running this command
+[02/09 18:12:59     24s] <CMD> set_top_module thermometer
+[02/09 18:12:59     25s] #% Begin Load MMMC data ... (date=02/09 18:12:59, mem=1737.7M)
+[02/09 18:12:59     25s] Number of views requested 1 are allowed with the current licenses... continuing with set_analysis_view.
+[02/09 18:12:59     25s] #% End Load MMMC data ... (date=02/09 18:12:59, total cpu=0:00:00.0, real=0:00:00.0, peak res=1739.0M, current mem=1739.0M)
+[02/09 18:12:59     25s] Loading view definition file from .ssv_emulate_view_definition_1719172_7a649be5-8c9b-47a3-92da-2ceaebcabbfe.tcl
+[02/09 18:12:59     25s] Reading default_emulate_libset_max timing library '/home/cae1/Desktop/D-Design/STA/lib/sky130_ss_1.62_125_nldm.lib' ...
+[02/09 18:13:00     25s] Read 109 cells in library 'sky130_ss_1.62_125' 
+[02/09 18:13:00     25s] Reading default_emulate_libset_max timing library '/home/cae1/Desktop/D-Design/STA/lib/sky130_tt_1.8_25_nldm.lib' ...
+[02/09 18:13:00     25s] Read 109 cells in library 'sky130_tt_1.8_25' 
+[02/09 18:13:00     25s] Reading default_emulate_libset_min timing library '/home/cae1/Desktop/D-Design/STA/lib/sky130_ff_1.98_0_nldm.lib' ...
+[02/09 18:13:00     25s] Read 109 cells in library 'sky130_ff_1.98_0' 
+[02/09 18:13:00     25s] Ending "PreSetAnalysisView" (total cpu=0:00:00.6, real=0:00:01.0, peak res=1799.6M, current mem=1747.1M)
+[02/09 18:13:00     25s] *** End library_loading (cpu=0.01min, real=0.02min, mem=40.0M, fe_cpu=0.45min, fe_real=2.08min, fe_mem=1690.9M) ***
+[02/09 18:13:00     25s] #% Begin Load netlist data ... (date=02/09 18:13:00, mem=1747.1M)
+[02/09 18:13:00     26s] *** Begin netlist parsing (mem=1690.9M) ***
+[02/09 18:13:01     26s] Reading verilog netlist 'SRC/Thermometer_netlist.v'
+[02/09 18:13:01     26s] 
+[02/09 18:13:01     26s] *** Memory Usage v#2 (Current mem = 2054.953M, initial mem = 840.258M) ***
+[02/09 18:13:01     26s] *** End netlist parsing (cpu=0:00:00.1, real=0:00:01.0, mem=2055.0M) ***
+[02/09 18:13:01     26s] #% End Load netlist data ... (date=02/09 18:13:01, total cpu=0:00:00.4, real=0:00:01.0, peak res=1876.0M, current mem=1868.0M)
+[02/09 18:13:01     26s] Set top cell to thermometer.
+[02/09 18:13:01     26s] Has not load the powerDB, will keep enalbed
+[02/09 18:13:01     26s] Has not load the powerDB, will keep enalbed
+[02/09 18:13:01     26s] Starting consistency checks on late and early library sets of delay corner 'default_emulate_delay_corner'
+[02/09 18:13:01     26s] late library set: default_emulate_libset_max
+[02/09 18:13:01     26s] early library set: default_emulate_libset_min
+[02/09 18:13:01     26s] Completed consistency checks. Status: Successful
+[02/09 18:13:01     26s] Starting consistency checks on late and early library sets of delay corner 'default_emulate_delay_corner'
+[02/09 18:13:01     26s] late library set: default_emulate_libset_max
+[02/09 18:13:01     26s] early library set: default_emulate_libset_min
+[02/09 18:13:01     26s] Completed consistency checks. Status: Successful
+[02/09 18:13:01     26s] Ending "BindLib:" (total cpu=0:00:00.1, real=0:00:00.0, peak res=1905.0M, current mem=1905.0M)
+[02/09 18:13:01     26s] *** Estimate the number of flat objects and h-objects before Flatten ***
+[02/09 18:13:01     26s] 	flat insts : 24
+[02/09 18:13:01     26s] 	flat terms : 82
+[02/09 18:13:01     26s] 	HNets : 0
+[02/09 18:13:01     26s] 	HInsts : 0
+[02/09 18:13:01     26s] 	HTerms : 0
+[02/09 18:13:01     26s] Building hierarchical netlist for Cell thermometer ...
+[02/09 18:13:01     26s] ***** UseNewTieNetMode *****.
+[02/09 18:13:01     26s] *** Netlist is unique.
+[02/09 18:13:01     26s] ** info: there are 328 modules.
+[02/09 18:13:01     26s] ** info: there are 24 stdCell insts.
+[02/09 18:13:01     26s] ** info: there are 24 stdCell insts with at least one signal pin.
+[02/09 18:13:01     26s] 
+[02/09 18:13:01     26s] *** Memory Usage v#2 (Current mem = 2435.898M, initial mem = 840.258M) ***
+[02/09 18:13:01     26s] Set Default Input Pin Transition as 0.1 ps.
+[02/09 18:13:01     26s] Has not load the powerDB, will keep enalbed
+[02/09 18:13:01     26s] Has not load the powerDB, will keep enalbed
+[02/09 18:13:01     26s] Has not load the powerDB, will keep enalbed
+[02/09 18:13:01     26s] Has not load the powerDB, will keep enalbed
+[02/09 18:13:01     26s] Has not load the powerDB, will keep enalbed
+[02/09 18:13:01     26s] Has not load the powerDB, will keep enalbed
+[02/09 18:13:02     26s] Extraction setup Started for TopCell thermometer 
+[02/09 18:13:02     27s] Summary of Active RC-Corners : 
+[02/09 18:13:02     27s]  
+[02/09 18:13:02     27s]  Analysis View: default_emulate_view
+[02/09 18:13:02     27s]     RC-Corner Name        : default_emulate_rc_corner
+[02/09 18:13:02     27s]     RC-Corner Index       : 0
+[02/09 18:13:02     27s]     RC-Corner Temperature : 25 Celsius
+[02/09 18:13:02     27s]     RC-Corner Cap Table   : ''
+[02/09 18:13:02     27s]     RC-Corner PostRoute Res Factor        : 1
+[02/09 18:13:02     27s]     RC-Corner PostRoute Cap Factor        : 1
+[02/09 18:13:02     27s]     RC-Corner PostRoute XCap Factor       : 1
+[02/09 18:13:02     27s] Starting consistency checks on late and early library sets of delay corner 'default_emulate_delay_corner'
+[02/09 18:13:02     27s] late library set: default_emulate_libset_max
+[02/09 18:13:02     27s] early library set: default_emulate_libset_min
+[02/09 18:13:02     27s] Completed consistency checks. Status: Successful
+[02/09 18:13:02     27s] Ending "SetAnalysisView" (total cpu=0:00:00.1, real=0:00:00.0, peak res=2417.2M, current mem=2173.5M)
+[02/09 18:13:02     27s] Reading timing constraints file '/dev/null' ...
+[02/09 18:13:02     27s] Current (total cpu=0:00:28.4, real=0:02:07, peak res=2530.0M, current mem=2491.1M)
+[02/09 18:13:02     27s] Tech dependent Parameter, Build TLibAnalyzer for: cellAreaConsiderPadding
+[02/09 18:13:02     27s] 
+[02/09 18:13:02     27s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) Begin ...
+[02/09 18:13:02     27s] Summary for sequential cells identification: 
+[02/09 18:13:02     27s]   Identified SBFF number: 16
+[02/09 18:13:02     27s]   Identified MBFF number: 0
+[02/09 18:13:02     27s]   Identified SB Latch number: 2
+[02/09 18:13:02     27s]   Identified MB Latch number: 0
+[02/09 18:13:02     27s]   Not identified SBFF number: 0
+[02/09 18:13:02     27s]   Not identified MBFF number: 0
+[02/09 18:13:02     27s]   Not identified SB Latch number: 0
+[02/09 18:13:02     27s]   Not identified MB Latch number: 0
+[02/09 18:13:02     27s]   Number of sequential cells which are not FFs: 1
+[02/09 18:13:02     27s] Total number of combinational cells: 87
+[02/09 18:13:02     27s] Total number of sequential cells: 19
+[02/09 18:13:02     27s] Total number of tristate cells: 3
+[02/09 18:13:02     27s] Total number of level shifter cells: 0
+[02/09 18:13:02     27s] Total number of power gating cells: 0
+[02/09 18:13:02     27s] Total number of isolation cells: 0
+[02/09 18:13:02     27s] Total number of power switch cells: 0
+[02/09 18:13:02     27s] Total number of pulse generator cells: 0
+[02/09 18:13:02     27s] Total number of always on buffers: 0
+[02/09 18:13:02     27s] Total number of retention cells: 0
+[02/09 18:13:02     27s] Total number of physical cells: 0
+[02/09 18:13:02     27s] List of usable buffers: BUFX16 BUFX2 BUFX4 BUFX8 CLKBUFX2 CLKBUFX4 CLKBUFX8
+[02/09 18:13:02     27s] Total number of usable buffers: 7
+[02/09 18:13:02     27s] List of unusable buffers:
+[02/09 18:13:02     27s] Total number of unusable buffers: 0
+[02/09 18:13:02     27s] List of usable inverters: CLKINVX1 CLKINVX2 CLKINVX4 CLKINVX8 INVX1 INVX16 INVX2 INVX8 INVX4
+[02/09 18:13:02     27s] Total number of usable inverters: 9
+[02/09 18:13:02     27s] List of unusable inverters:
+[02/09 18:13:02     27s] Total number of unusable inverters: 0
+[02/09 18:13:02     27s] List of identified usable delay cells: DLY1X1 DLY1X4 DLY4X4 DLY2X4
+[02/09 18:13:02     27s] Total number of identified usable delay cells: 4
+[02/09 18:13:02     27s] List of identified unusable delay cells:
+[02/09 18:13:02     27s] Total number of identified unusable delay cells: 0
+[02/09 18:13:02     27s] 
+[02/09 18:13:02     27s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) End ...
+[02/09 18:13:02     27s] 
+[02/09 18:13:02     27s] TimeStamp Deleting Cell Server Begin ...
+[02/09 18:13:02     27s] 
+[02/09 18:13:02     27s] TimeStamp Deleting Cell Server End ...
+[02/09 18:13:02     27s] Ending "Cell type marking" (total cpu=0:00:00.0, real=0:00:00.0, peak res=2519.8M, current mem=2519.8M)
+[02/09 18:13:02     27s] 
+[02/09 18:13:02     27s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) Begin ...
+[02/09 18:13:02     27s] Summary for sequential cells identification: 
+[02/09 18:13:02     27s]   Identified SBFF number: 16
+[02/09 18:13:02     27s]   Identified MBFF number: 0
+[02/09 18:13:02     27s]   Identified SB Latch number: 2
+[02/09 18:13:02     27s]   Identified MB Latch number: 0
+[02/09 18:13:02     27s]   Not identified SBFF number: 0
+[02/09 18:13:02     27s]   Not identified MBFF number: 0
+[02/09 18:13:02     27s]   Not identified SB Latch number: 0
+[02/09 18:13:02     27s]   Not identified MB Latch number: 0
+[02/09 18:13:02     27s]   Number of sequential cells which are not FFs: 1
+[02/09 18:13:02     27s]  Visiting view : default_emulate_view
+[02/09 18:13:02     27s]    : PowerDomain = none : Weighted F : unweighted  = 48.00 (1.000) with rcCorner = 0
+[02/09 18:13:02     27s]    : PowerDomain = none : Weighted F : unweighted  = 48.00 (1.000) with rcCorner = -1
+[02/09 18:13:02     27s]  Visiting view : default_emulate_view
+[02/09 18:13:02     27s]    : PowerDomain = none : Weighted F : unweighted  = 48.00 (1.000) with rcCorner = 0
+[02/09 18:13:02     27s]    : PowerDomain = none : Weighted F : unweighted  = 48.00 (1.000) with rcCorner = -1
+[02/09 18:13:02     27s] TLC MultiMap info (StdDelay):
+[02/09 18:13:02     27s]   : default_emulate_delay_corner + default_emulate_libset_max + 1 + no RcCorner := 48ps
+[02/09 18:13:02     27s]   : default_emulate_delay_corner + default_emulate_libset_max + 1 + default_emulate_rc_corner := 48ps
+[02/09 18:13:02     27s]  Setting StdDelay to: 48ps
+[02/09 18:13:02     27s] 
+[02/09 18:13:02     27s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) End ...
+[02/09 18:13:02     27s] 
+[02/09 18:13:02     27s] TimeStamp Deleting Cell Server Begin ...
+[02/09 18:13:02     27s] 
+[02/09 18:13:02     27s] TimeStamp Deleting Cell Server End ...
+[02/09 18:13:02     27s] Extraction setup Started for TopCell thermometer 
+[02/09 18:13:02     27s] Summary of Active RC-Corners : 
+[02/09 18:13:02     27s]  
+[02/09 18:13:02     27s]  Analysis View: default_emulate_view
+[02/09 18:13:02     27s]     RC-Corner Name        : default_emulate_rc_corner
+[02/09 18:13:02     27s]     RC-Corner Index       : 0
+[02/09 18:13:02     27s]     RC-Corner Temperature : 125 Celsius
+[02/09 18:13:02     27s]     RC-Corner Cap Table   : ''
+[02/09 18:13:02     27s]     RC-Corner PostRoute Res Factor        : 1
+[02/09 18:13:02     27s]     RC-Corner PostRoute Cap Factor        : 1
+[02/09 18:13:02     27s]     RC-Corner PostRoute XCap Factor       : 1
+[02/09 18:13:02     27s] Extraction setup Started for TopCell thermometer 
+[02/09 18:13:02     27s] Summary of Active RC-Corners : 
+[02/09 18:13:02     27s]  
+[02/09 18:13:02     27s]  Analysis View: default_emulate_view
+[02/09 18:13:02     27s]     RC-Corner Name        : default_emulate_rc_corner
+[02/09 18:13:02     27s]     RC-Corner Index       : 0
+[02/09 18:13:02     27s]     RC-Corner Temperature : 125 Celsius
+[02/09 18:13:02     27s]     RC-Corner Cap Table   : ''
+[02/09 18:13:02     27s]     RC-Corner PostRoute Res Factor        : 1
+[02/09 18:13:02     27s]     RC-Corner PostRoute Cap Factor        : 1
+[02/09 18:13:02     27s]     RC-Corner PostRoute XCap Factor       : 1
+[02/09 18:13:02     27s] Extraction setup Started for TopCell thermometer 
+[02/09 18:13:02     27s] Summary of Active RC-Corners : 
+[02/09 18:13:02     27s]  
+[02/09 18:13:02     27s]  Analysis View: default_emulate_view
+[02/09 18:13:02     27s]     RC-Corner Name        : default_emulate_rc_corner
+[02/09 18:13:02     27s]     RC-Corner Index       : 0
+[02/09 18:13:02     27s]     RC-Corner Temperature : 125 Celsius
+[02/09 18:13:02     27s]     RC-Corner Cap Table   : ''
+[02/09 18:13:02     27s]     RC-Corner PostRoute Res Factor        : 1
+[02/09 18:13:02     27s]     RC-Corner PostRoute Cap Factor        : 1
+[02/09 18:13:02     27s]     RC-Corner PostRoute XCap Factor       : 1
+[02/09 18:13:02     27s] Loading  (thermometer)
+[02/09 18:13:02     27s] Traverse HInst (thermometer)
+[02/09 18:13:02     27s] Tech dependent Parameter, Build TLibAnalyzer for: cellAreaConsiderPadding
+[02/09 18:13:02     27s] 
+[02/09 18:13:02     27s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) Begin ...
+[02/09 18:13:02     27s] Summary for sequential cells identification: 
+[02/09 18:13:02     27s]   Identified SBFF number: 16
+[02/09 18:13:02     27s]   Identified MBFF number: 0
+[02/09 18:13:02     27s]   Identified SB Latch number: 2
+[02/09 18:13:02     27s]   Identified MB Latch number: 0
+[02/09 18:13:02     27s]   Not identified SBFF number: 0
+[02/09 18:13:02     27s]   Not identified MBFF number: 0
+[02/09 18:13:02     27s]   Not identified SB Latch number: 0
+[02/09 18:13:02     27s]   Not identified MB Latch number: 0
+[02/09 18:13:02     27s]   Number of sequential cells which are not FFs: 1
+[02/09 18:13:02     27s]  Visiting view : default_emulate_view
+[02/09 18:13:02     27s]    : PowerDomain = none : Weighted F : unweighted  = 48.00 (1.000) with rcCorner = 0
+[02/09 18:13:02     27s]    : PowerDomain = none : Weighted F : unweighted  = 48.00 (1.000) with rcCorner = -1
+[02/09 18:13:02     27s]  Visiting view : default_emulate_view
+[02/09 18:13:02     27s]    : PowerDomain = none : Weighted F : unweighted  = 48.00 (1.000) with rcCorner = 0
+[02/09 18:13:02     27s]    : PowerDomain = none : Weighted F : unweighted  = 48.00 (1.000) with rcCorner = -1
+[02/09 18:13:02     27s] TLC MultiMap info (StdDelay):
+[02/09 18:13:02     27s]   : default_emulate_delay_corner + default_emulate_libset_max + 1 + no RcCorner := 48ps
+[02/09 18:13:02     27s]   : default_emulate_delay_corner + default_emulate_libset_max + 1 + default_emulate_rc_corner := 48ps
+[02/09 18:13:02     27s]  Setting StdDelay to: 48ps
+[02/09 18:13:02     27s] 
+[02/09 18:13:02     27s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) End ...
+[02/09 18:13:22     28s] <CMD> report_timing
+[02/09 18:13:22     28s] AAE_INFO: opIsDesignInPostRouteState() is 0
+[02/09 18:13:22     29s] AAE DB initialization (MEM=2829.83 CPU=0:00:00.0 REAL=0:00:00.0) 
+[02/09 18:13:22     29s] #################################################################################
+[02/09 18:13:22     29s] # Design Name: thermometer
+[02/09 18:13:22     29s] # Design Mode: 65nm
+[02/09 18:13:22     29s] # Analysis Mode: MMMC OCV 
+[02/09 18:13:22     29s] # Parasitics Mode: No SPEF/RCDB 
+[02/09 18:13:22     29s] # Signoff Settings: SI Off 
+[02/09 18:13:22     29s] #################################################################################
+[02/09 18:13:23     29s] Topological Sorting (REAL = 0:00:00.0, MEM = 2918.3M, InitMEM = 2916.3M)
+[02/09 18:13:23     29s] Start delay calculation (fullDC) (1 T). (MEM=2467.28)
+[02/09 18:13:23     29s] Start AAE Lib Loading. (MEM=2927.87)
+[02/09 18:13:23     29s] End AAE Lib Loading. (MEM=3147.95 CPU=0:00:00.0 Real=0:00:00.0)
+[02/09 18:13:23     29s] End AAE Lib Interpolated Model. (MEM=3147.95 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[02/09 18:13:23     29s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[02/09 18:13:23     29s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[02/09 18:13:23     29s] End delay calculation. (MEM=2561.62 CPU=0:00:00.1 REAL=0:00:00.0)
+[02/09 18:13:23     29s] Begin loading slews from CTE ...
+[02/09 18:13:23     29s] Loading slews from CTE completed...
+[02/09 18:13:23     29s] End delay calculation (fullDC). (MEM=2558.88 CPU=0:00:00.2 REAL=0:00:00.0)
+[02/09 18:13:23     29s] *** CDM Built up (cpu=0:00:00.7  real=0:00:01.0  mem= 3315.5M) ***
+[02/09 18:13:23     29s] Has not load the powerDB, will keep enalbed
+[02/09 18:13:23     29s] Has not load the powerDB, will keep enalbed
+[02/09 18:14:00     31s] <CMD> read_verilog SRC/Thermometer_netlist.v
+[02/09 18:14:01     32s] **ERROR: (UI-2004):	Can not read_verilog because design is already loaded, skip this read_verilog command.
+[02/09 18:14:01     32s] <CMD> read_sdc post_synth_Thermometer.sdc
+[02/09 18:14:01     32s] Current (total cpu=0:00:33.3, real=0:03:06, peak res=2620.3M, current mem=2548.9M)
+[02/09 18:14:01     32s] **WARN: (TCLCMD-1461):	Skipped unsupported command: set_units (File post_synth_Thermometer.sdc, Line 9).
+[02/09 18:14:01     32s] 
+[02/09 18:14:01     32s] **WARN: (TCLCMD-1461):	Skipped unsupported command: set_units (File post_synth_Thermometer.sdc, Line 10).
+[02/09 18:14:01     32s] 
+[02/09 18:14:01     32s] **ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 62).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 63).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 64).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 65).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 66).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 67).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 68).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 69).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 70).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 71).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 72).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 73).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 74).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 75).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 76).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 77).
+
+INFO (CTE): Reading of timing constraints file post_synth_Thermometer.sdc completed, with 2 Warnings and 16 Errors.
+[02/09 18:14:01     32s] Ending "Constraint file reading stats" (total cpu=0:00:00.1, real=0:00:00.0, peak res=2548.9M, current mem=2457.9M)
+[02/09 18:14:01     32s] Current (total cpu=0:00:33.4, real=0:03:06, peak res=2620.3M, current mem=2457.9M)
+[02/09 18:14:01     32s] <CMD> set_top_module thermometer
+[02/09 18:14:01     32s] **ERROR: (UI-2004):	Can not set_top_module because design is already loaded, skip this set_top_module command.
+[02/09 18:14:01     32s] 
+[02/09 18:14:13     33s] <CMD> report_timing
+[02/09 18:14:13     33s] AAE_INFO: opIsDesignInPostRouteState() is 0
+[02/09 18:14:13     33s] #################################################################################
+[02/09 18:14:13     33s] # Design Name: thermometer
+[02/09 18:14:13     33s] # Design Mode: 65nm
+[02/09 18:14:13     33s] # Analysis Mode: MMMC OCV 
+[02/09 18:14:13     33s] # Parasitics Mode: No SPEF/RCDB 
+[02/09 18:14:13     33s] # Signoff Settings: SI Off 
+[02/09 18:14:13     33s] #################################################################################
+[02/09 18:14:13     33s] Topological Sorting (REAL = 0:00:00.0, MEM = 3226.1M, InitMEM = 3226.1M)
+[02/09 18:14:13     33s] Start delay calculation (fullDC) (1 T). (MEM=2496.58)
+[02/09 18:14:13     33s] End AAE Lib Interpolated Model. (MEM=3226.12 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[02/09 18:14:13     34s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[02/09 18:14:13     34s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[02/09 18:14:13     34s] End delay calculation. (MEM=2630.82 CPU=0:00:00.8 REAL=0:00:00.0)
+[02/09 18:14:13     34s] Begin loading slews from CTE ...
+[02/09 18:14:13     34s] Loading slews from CTE completed...
+[02/09 18:14:13     34s] End delay calculation (fullDC). (MEM=2630.82 CPU=0:00:00.8 REAL=0:00:00.0)
+[02/09 18:14:13     34s] *** CDM Built up (cpu=0:00:01.3  real=0:00:00.0  mem= 3421.5M) ***
+[02/09 18:14:13     34s] Has not load the powerDB, will keep enalbed
+[02/09 18:14:13     34s] Has not load the powerDB, will keep enalbed
+[02/09 18:16:31     43s] <CMD> read_sdc post_synth_Thermometer.sdc
+[02/09 18:16:31     43s] Current (total cpu=0:00:44.4, real=0:05:36, peak res=2685.1M, current mem=2607.0M)
+[02/09 18:16:31     43s] **WARN: (TCLCMD-1461):	Skipped unsupported command: set_units (File post_synth_Thermometer.sdc, Line 9).
+[02/09 18:16:31     43s] 
+[02/09 18:16:31     43s] **WARN: (TCLCMD-1461):	Skipped unsupported command: set_units (File post_synth_Thermometer.sdc, Line 10).
+[02/09 18:16:31     43s] 
+[02/09 18:16:31     43s] **WARN: (TCLCMD-1594):	A clock with name clk was already defined in the design. Previously defined clock definition of clk will be overwritten. (File post_synth_Thermometer.sdc, Line 15).
+[02/09 18:16:31     43s] 
+[02/09 18:16:31     43s] **WARN: (TCLCMD-958):	Previously defined source objects for clock 'clk' have been overwritten. To avoid overwrite, ensure that all source objects are passed to the 'create_clock' command at once. (File post_synth_Thermometer.sdc, Line 15).
+[02/09 18:16:31     43s] 
+[02/09 18:16:31     43s] **ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 62).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 63).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 64).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 65).
+
+Message <TCLCMD-307> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit. (File post_synth_Thermometer.sdc, Line 66).
+[02/09 18:16:31     43s] 
+[02/09 18:16:31     43s] INFO (CTE): Reading of timing constraints file post_synth_Thermometer.sdc completed, with 4 Warnings and 4 Errors.
+[02/09 18:16:31     43s] Ending "Constraint file reading stats" (total cpu=0:00:00.1, real=0:00:00.0, peak res=2607.0M, current mem=2509.3M)
+[02/09 18:16:31     43s] Current (total cpu=0:00:44.5, real=0:05:36, peak res=2685.1M, current mem=2509.3M)
+[02/09 18:17:30     46s] <CMD> read_sdc post_synth_Thermometer.sdc
+[02/09 18:17:30     46s] Current (total cpu=0:00:47.4, real=0:06:35, peak res=2685.1M, current mem=2509.3M)
+[02/09 18:17:30     46s] **WARN: (TCLCMD-1461):	Skipped unsupported command: set_units (File post_synth_Thermometer.sdc, Line 9).
+[02/09 18:17:30     46s] 
+[02/09 18:17:30     46s] **WARN: (TCLCMD-1461):	Skipped unsupported command: set_units (File post_synth_Thermometer.sdc, Line 10).
+[02/09 18:17:30     46s] 
+[02/09 18:17:30     46s] **WARN: (TCLCMD-1594):	A clock with name clk was already defined in the design. Previously defined clock definition of clk will be overwritten. (File post_synth_Thermometer.sdc, Line 15).
+[02/09 18:17:30     46s] 
+[02/09 18:17:30     46s] **WARN: (TCLCMD-958):	Previously defined source objects for clock 'clk' have been overwritten. To avoid overwrite, ensure that all source objects are passed to the 'create_clock' command at once. (File post_synth_Thermometer.sdc, Line 15).
+[02/09 18:17:30     46s] 
+[02/09 18:17:30     46s] INFO (CTE): Reading of timing constraints file post_synth_Thermometer.sdc completed, with 4 WARNING
+[02/09 18:17:30     46s] Ending "Constraint file reading stats" (total cpu=0:00:00.1, real=0:00:00.0, peak res=2509.7M, current mem=2509.7M)
+[02/09 18:17:30     46s] Current (total cpu=0:00:47.5, real=0:06:35, peak res=2685.1M, current mem=2509.7M)
+[02/09 18:17:38     46s] <CMD> report_timing
+[02/09 18:17:38     46s] AAE_INFO: opIsDesignInPostRouteState() is 0
+[02/09 18:17:38     46s] #################################################################################
+[02/09 18:17:38     46s] # Design Name: thermometer
+[02/09 18:17:38     46s] # Design Mode: 65nm
+[02/09 18:17:38     46s] # Analysis Mode: MMMC OCV 
+[02/09 18:17:38     46s] # Parasitics Mode: No SPEF/RCDB 
+[02/09 18:17:38     46s] # Signoff Settings: SI Off 
+[02/09 18:17:38     46s] #################################################################################
+[02/09 18:17:39     47s] Topological Sorting (REAL = 0:00:00.0, MEM = 3308.0M, InitMEM = 3308.0M)
+[02/09 18:17:39     47s] Start delay calculation (fullDC) (1 T). (MEM=2551.75)
+[02/09 18:17:39     47s] End AAE Lib Interpolated Model. (MEM=3308 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[02/09 18:17:39     47s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[02/09 18:17:39     48s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[02/09 18:17:39     48s] End delay calculation. (MEM=2679.35 CPU=0:00:00.8 REAL=0:00:00.0)
+[02/09 18:17:39     48s] Begin loading slews from CTE ...
+[02/09 18:17:39     48s] Loading slews from CTE completed...
+[02/09 18:17:39     48s] End delay calculation (fullDC). (MEM=2679.35 CPU=0:00:00.8 REAL=0:00:00.0)
+[02/09 18:17:39     48s] *** CDM Built up (cpu=0:00:01.3  real=0:00:01.0  mem= 3459.9M) ***
+[02/09 18:17:39     48s] Has not load the powerDB, will keep enalbed
+[02/09 18:17:39     48s] Has not load the powerDB, will keep enalbed
+[02/09 18:17:58     49s] <CMD> read_sdc post_synth_Thermometer.sdc
+[02/09 18:17:58     49s] Current (total cpu=0:00:50.5, real=0:07:03, peak res=2732.3M, current mem=2650.1M)
+[02/09 18:17:58     49s] **WARN: (TCLCMD-1461):	Skipped unsupported command: set_units (File post_synth_Thermometer.sdc, Line 9).
+[02/09 18:17:58     49s] 
+[02/09 18:17:58     49s] **WARN: (TCLCMD-1461):	Skipped unsupported command: set_units (File post_synth_Thermometer.sdc, Line 10).
+[02/09 18:17:58     49s] 
+[02/09 18:17:58     49s] **WARN: (TCLCMD-1594):	A clock with name clk was already defined in the design. Previously defined clock definition of clk will be overwritten. (File post_synth_Thermometer.sdc, Line 15).
+[02/09 18:17:58     49s] 
+[02/09 18:17:58     49s] **WARN: (TCLCMD-958):	Previously defined source objects for clock 'clk' have been overwritten. To avoid overwrite, ensure that all source objects are passed to the 'create_clock' command at once. (File post_synth_Thermometer.sdc, Line 15).
+[02/09 18:17:58     49s] 
+[02/09 18:17:58     49s] INFO (CTE): Reading of timing constraints file post_synth_Thermometer.sdc completed, with 4 WARNING
+[02/09 18:17:58     49s] Ending "Constraint file reading stats" (total cpu=0:00:00.1, real=0:00:00.0, peak res=2650.1M, current mem=2551.6M)
+[02/09 18:17:58     49s] Current (total cpu=0:00:50.6, real=0:07:03, peak res=2732.3M, current mem=2551.6M)
+[02/09 18:18:00     49s] <CMD> report_timing
+[02/09 18:18:00     49s] AAE_INFO: opIsDesignInPostRouteState() is 0
+[02/09 18:18:00     49s] #################################################################################
+[02/09 18:18:00     49s] # Design Name: thermometer
+[02/09 18:18:00     49s] # Design Mode: 65nm
+[02/09 18:18:00     49s] # Analysis Mode: MMMC OCV 
+[02/09 18:18:00     49s] # Parasitics Mode: No SPEF/RCDB 
+[02/09 18:18:00     49s] # Signoff Settings: SI Off 
+[02/09 18:18:00     49s] #################################################################################
+[02/09 18:18:01     50s] Topological Sorting (REAL = 0:00:00.0, MEM = 3350.9M, InitMEM = 3350.9M)
+[02/09 18:18:01     50s] Start delay calculation (fullDC) (1 T). (MEM=2609.41)
+[02/09 18:18:01     50s] End AAE Lib Interpolated Model. (MEM=3350.88 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[02/09 18:18:01     51s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[02/09 18:18:01     51s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[02/09 18:18:01     51s] End delay calculation. (MEM=2735.44 CPU=0:00:01.1 REAL=0:00:00.0)
+[02/09 18:18:01     51s] Begin loading slews from CTE ...
+[02/09 18:18:01     51s] Loading slews from CTE completed...
+[02/09 18:18:01     51s] End delay calculation (fullDC). (MEM=2735.44 CPU=0:00:01.1 REAL=0:00:00.0)
+[02/09 18:18:01     51s] *** CDM Built up (cpu=0:00:01.7  real=0:00:01.0  mem= 3496.7M) ***
+[02/09 18:18:01     51s] Has not load the powerDB, will keep enalbed
+[02/09 18:18:01     51s] Has not load the powerDB, will keep enalbed
+[02/09 18:19:47     57s] <CMD> exit
+[02/09 18:19:48     57s] 
+[02/09 18:19:48     57s] *** Memory Usage v#2 (Current mem = 3496.750M, initial mem = 840.258M) ***
+[02/09 18:19:48     57s] 
+[02/09 18:19:48     57s] *** Summary of all messages that are not suppressed in this session:
+[02/09 18:19:48     57s] Severity  ID               Count  Summary                                  
+[02/09 18:19:48     57s] ERROR     UI-2004              2  %s design is already loaded, skip this %...
+[02/09 18:19:48     57s] ERROR     TCLCMD-307          32  %s: No timing arc exists between specifi...
+[02/09 18:19:48     57s] WARNING   TCLCMD-958           3  Previously defined source objects for cl...
+[02/09 18:19:48     57s] WARNING   TCLCMD-1461          8  Skipped unsupported command: %s          
+[02/09 18:19:48     57s] WARNING   TCLCMD-1594          3  A clock with name %s was already defined...
+[02/09 18:19:48     57s] *** Message Summary: 14 warning(s), 34 error(s)
+[02/09 18:19:48     57s] 
+[02/09 18:19:48     57s] --- Ending "Tempus Timing Solution" (totcpu=0:00:58.1, real=0:08:53, mem=3496.8M) ---

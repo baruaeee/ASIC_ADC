@@ -1,0 +1,296 @@
+xrun(64): 24.03-s004: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	24.03-s004: Started on Feb 09, 2025 at 18:51:50 CET
+xrun
+	Thermometer_testbench.v
+	-access +rwc
+	-gui
+Recompiling... reason: file './Thermometer_testbench.v' is newer than expected.
+	expected: Sun Feb  9 18:08:22 2025
+	actual:   Sun Feb  9 18:51:23 2025
+file: Thermometer_testbench.v
+input OUT;
+        |
+xmvlog: *W,NODNTW (/home/cae1/Desktop/PDK/skywater-pdk/libraries/sky130_fd_io/latest/cells/top_gpio_ovtv2/sky130_fd_io__top_gpio_ovtv2.behavioral.v,23|8): Implicit net port (OUT) is not allowed since `default_nettype is declared as 'none'; 'wire' used instead [19.2(IEEE 2001)].
+input OE_N;
+         |
+xmvlog: *W,NODNTW (/home/cae1/Desktop/PDK/skywater-pdk/libraries/sky130_fd_io/latest/cells/top_gpio_ovtv2/sky130_fd_io__top_gpio_ovtv2.behavioral.v,24|9): Implicit net port (OE_N) is not allowed since `default_nettype is declared as 'none'; 'wire' used instead [19.2(IEEE 2001)].
+input HLD_H_N;
+            |
+xmvlog: *W,NODNTW (/home/cae1/Desktop/PDK/skywater-pdk/libraries/sky130_fd_io/latest/cells/top_gpio_ovtv2/sky130_fd_io__top_gpio_ovtv2.behavioral.v,25|12): Implicit net port (HLD_H_N) is not allowed since `default_nettype is declared as 'none'; 'wire' used instead [19.2(IEEE 2001)].
+input ENABLE_H;
+             |
+xmvlog: *W,NODNTW (/home/cae1/Desktop/PDK/skywater-pdk/libraries/sky130_fd_io/latest/cells/top_gpio_ovtv2/sky130_fd_io__top_gpio_ovtv2.behavioral.v,26|13): Implicit net port (ENABLE_H) is not allowed since `default_nettype is declared as 'none'; 'wire' used instead [19.2(IEEE 2001)].
+input ENABLE_INP_H;
+                 |
+xmvlog: *W,NODNTW (/home/cae1/Desktop/PDK/skywater-pdk/libraries/sky130_fd_io/latest/cells/top_gpio_ovtv2/sky130_fd_io__top_gpio_ovtv2.behavioral.v,27|17): Implicit net port (ENABLE_INP_H) is not allowed since `default_nettype is declared as 'none'; 'wire' used instead [19.2(IEEE 2001)].
+input ENABLE_VDDA_H;
+                  |
+xmvlog: *W,NODNTW (/home/cae1/Desktop/PDK/skywater-pdk/libraries/sky130_fd_io/latest/cells/top_gpio_ovtv2/sky130_fd_io__top_gpio_ovtv2.behavioral.v,28|18): Implicit net port (ENABLE_VDDA_H) is not allowed since `default_nettype is declared as 'none'; 'wire' used instead [19.2(IEEE 2001)].
+input ENABLE_VDDIO;
+                 |
+xmvlog: *W,NODNTW (/home/cae1/Desktop/PDK/skywater-pdk/libraries/sky130_fd_io/latest/cells/top_gpio_ovtv2/sky130_fd_io__top_gpio_ovtv2.behavioral.v,29|17): Implicit net port (ENABLE_VDDIO) is not allowed since `default_nettype is declared as 'none'; 'wire' used instead [19.2(IEEE 2001)].
+input ENABLE_VSWITCH_H;
+                     |
+xmvlog: *W,NODNTW (/home/cae1/Desktop/PDK/skywater-pdk/libraries/sky130_fd_io/latest/cells/top_gpio_ovtv2/sky130_fd_io__top_gpio_ovtv2.behavioral.v,30|21): Implicit net port (ENABLE_VSWITCH_H) is not allowed since `default_nettype is declared as 'none'; 'wire' used instead [19.2(IEEE 2001)].
+input INP_DIS;
+            |
+xmvlog: *W,NODNTW (/home/cae1/Desktop/PDK/skywater-pdk/libraries/sky130_fd_io/latest/cells/top_gpio_ovtv2/sky130_fd_io__top_gpio_ovtv2.behavioral.v,31|12): Implicit net port (INP_DIS) is not allowed since `default_nettype is declared as 'none'; 'wire' used instead [19.2(IEEE 2001)].
+input VTRIP_SEL;
+              |
+xmvlog: *W,NODNTW (/home/cae1/Desktop/PDK/skywater-pdk/libraries/sky130_fd_io/latest/cells/top_gpio_ovtv2/sky130_fd_io__top_gpio_ovtv2.behavioral.v,32|14): Implicit net port (VTRIP_SEL) is not allowed since `default_nettype is declared as 'none'; 'wire' used instead [19.2(IEEE 2001)].
+input HYS_TRIM;
+             |
+xmvlog: *W,NODNTW (/home/cae1/Desktop/PDK/skywater-pdk/libraries/sky130_fd_io/latest/cells/top_gpio_ovtv2/sky130_fd_io__top_gpio_ovtv2.behavioral.v,33|13): Implicit net port (HYS_TRIM) is not allowed since `default_nettype is declared as 'none'; 'wire' used instead [19.2(IEEE 2001)].
+input SLOW;
+         |
+xmvlog: *W,NODNTW (/home/cae1/Desktop/PDK/skywater-pdk/libraries/sky130_fd_io/latest/cells/top_gpio_ovtv2/sky130_fd_io__top_gpio_ovtv2.behavioral.v,34|9): Implicit net port (SLOW) is not allowed since `default_nettype is declared as 'none'; 'wire' used instead [19.2(IEEE 2001)].
+input [1:0] SLEW_CTL;
+                   |
+xmvlog: *W,NODNTW (/home/cae1/Desktop/PDK/skywater-pdk/libraries/sky130_fd_io/latest/cells/top_gpio_ovtv2/sky130_fd_io__top_gpio_ovtv2.behavioral.v,35|19): Implicit net port (SLEW_CTL) is not allowed since `default_nettype is declared as 'none'; 'wire' used instead [19.2(IEEE 2001)].
+input HLD_OVR;
+            |
+xmvlog: *W,NODNTW (/home/cae1/Desktop/PDK/skywater-pdk/libraries/sky130_fd_io/latest/cells/top_gpio_ovtv2/sky130_fd_io__top_gpio_ovtv2.behavioral.v,36|12): Implicit net port (HLD_OVR) is not allowed since `default_nettype is declared as 'none'; 'wire' used instead [19.2(IEEE 2001)].
+input ANALOG_EN;
+              |
+xmvlog: *W,NODNTW (/home/cae1/Desktop/PDK/skywater-pdk/libraries/sky130_fd_io/latest/cells/top_gpio_ovtv2/sky130_fd_io__top_gpio_ovtv2.behavioral.v,37|14): Implicit net port (ANALOG_EN) is not allowed since `default_nettype is declared as 'none'; 'wire' used instead [19.2(IEEE 2001)].
+input ANALOG_SEL;
+               |
+xmvlog: *W,NODNTW (/home/cae1/Desktop/PDK/skywater-pdk/libraries/sky130_fd_io/latest/cells/top_gpio_ovtv2/sky130_fd_io__top_gpio_ovtv2.behavioral.v,38|15): Implicit net port (ANALOG_SEL) is not allowed since `default_nettype is declared as 'none'; 'wire' used instead [19.2(IEEE 2001)].
+input ANALOG_POL;
+               |
+xmvlog: *W,NODNTW (/home/cae1/Desktop/PDK/skywater-pdk/libraries/sky130_fd_io/latest/cells/top_gpio_ovtv2/sky130_fd_io__top_gpio_ovtv2.behavioral.v,39|15): Implicit net port (ANALOG_POL) is not allowed since `default_nettype is declared as 'none'; 'wire' used instead [19.2(IEEE 2001)].
+input [2:0] DM;
+             |
+xmvlog: *W,NODNTW (/home/cae1/Desktop/PDK/skywater-pdk/libraries/sky130_fd_io/latest/cells/top_gpio_ovtv2/sky130_fd_io__top_gpio_ovtv2.behavioral.v,40|13): Implicit net port (DM) is not allowed since `default_nettype is declared as 'none'; 'wire' used instead [19.2(IEEE 2001)].
+input [1:0] IB_MODE_SEL;
+                      |
+xmvlog: *W,NODNTW (/home/cae1/Desktop/PDK/skywater-pdk/libraries/sky130_fd_io/latest/cells/top_gpio_ovtv2/sky130_fd_io__top_gpio_ovtv2.behavioral.v,41|22): Implicit net port (IB_MODE_SEL) is not allowed since `default_nettype is declared as 'none'; 'wire' used instead [19.2(IEEE 2001)].
+input VINREF;
+           |
+xmvlog: *W,NODNTW (/home/cae1/Desktop/PDK/skywater-pdk/libraries/sky130_fd_io/latest/cells/top_gpio_ovtv2/sky130_fd_io__top_gpio_ovtv2.behavioral.v,42|11): Implicit net port (VINREF) is not allowed since `default_nettype is declared as 'none'; 'wire' used instead [19.2(IEEE 2001)].
+inout PAD;
+        |
+xmvlog: *W,NODNTW (/home/cae1/Desktop/PDK/skywater-pdk/libraries/sky130_fd_io/latest/cells/top_gpio_ovtv2/sky130_fd_io__top_gpio_ovtv2.behavioral.v,55|8): Implicit net port (PAD) is not allowed since `default_nettype is declared as 'none'; 'wire' used instead [19.2(IEEE 2001)].
+inout PAD_A_NOESD_H,PAD_A_ESD_0_H,PAD_A_ESD_1_H;
+                  |
+xmvlog: *W,NODNTW (/home/cae1/Desktop/PDK/skywater-pdk/libraries/sky130_fd_io/latest/cells/top_gpio_ovtv2/sky130_fd_io__top_gpio_ovtv2.behavioral.v,56|18): Implicit net port (PAD_A_NOESD_H) is not allowed since `default_nettype is declared as 'none'; 'wire' used instead [19.2(IEEE 2001)].
+inout PAD_A_NOESD_H,PAD_A_ESD_0_H,PAD_A_ESD_1_H;
+                                |
+xmvlog: *W,NODNTW (/home/cae1/Desktop/PDK/skywater-pdk/libraries/sky130_fd_io/latest/cells/top_gpio_ovtv2/sky130_fd_io__top_gpio_ovtv2.behavioral.v,56|32): Implicit net port (PAD_A_ESD_0_H) is not allowed since `default_nettype is declared as 'none'; 'wire' used instead [19.2(IEEE 2001)].
+inout PAD_A_NOESD_H,PAD_A_ESD_0_H,PAD_A_ESD_1_H;
+                                              |
+xmvlog: *W,NODNTW (/home/cae1/Desktop/PDK/skywater-pdk/libraries/sky130_fd_io/latest/cells/top_gpio_ovtv2/sky130_fd_io__top_gpio_ovtv2.behavioral.v,56|46): Implicit net port (PAD_A_ESD_1_H) is not allowed since `default_nettype is declared as 'none'; 'wire' used instead [19.2(IEEE 2001)].
+inout AMUXBUS_A;
+              |
+xmvlog: *W,NODNTW (/home/cae1/Desktop/PDK/skywater-pdk/libraries/sky130_fd_io/latest/cells/top_gpio_ovtv2/sky130_fd_io__top_gpio_ovtv2.behavioral.v,57|14): Implicit net port (AMUXBUS_A) is not allowed since `default_nettype is declared as 'none'; 'wire' used instead [19.2(IEEE 2001)].
+inout AMUXBUS_B;
+              |
+xmvlog: *W,NODNTW (/home/cae1/Desktop/PDK/skywater-pdk/libraries/sky130_fd_io/latest/cells/top_gpio_ovtv2/sky130_fd_io__top_gpio_ovtv2.behavioral.v,58|14): Implicit net port (AMUXBUS_B) is not allowed since `default_nettype is declared as 'none'; 'wire' used instead [19.2(IEEE 2001)].
+output IN;
+        |
+xmvlog: *W,NODNTW (/home/cae1/Desktop/PDK/skywater-pdk/libraries/sky130_fd_io/latest/cells/top_gpio_ovtv2/sky130_fd_io__top_gpio_ovtv2.behavioral.v,59|8): Implicit net port (IN) is not allowed since `default_nettype is declared as 'none'; 'wire' used instead [19.2(IEEE 2001)].
+output IN_H;
+          |
+xmvlog: *W,NODNTW (/home/cae1/Desktop/PDK/skywater-pdk/libraries/sky130_fd_io/latest/cells/top_gpio_ovtv2/sky130_fd_io__top_gpio_ovtv2.behavioral.v,60|10): Implicit net port (IN_H) is not allowed since `default_nettype is declared as 'none'; 'wire' used instead [19.2(IEEE 2001)].
+output TIE_HI_ESD, TIE_LO_ESD;
+                |
+xmvlog: *W,NODNTW (/home/cae1/Desktop/PDK/skywater-pdk/libraries/sky130_fd_io/latest/cells/top_gpio_ovtv2/sky130_fd_io__top_gpio_ovtv2.behavioral.v,61|16): Implicit net port (TIE_HI_ESD) is not allowed since `default_nettype is declared as 'none'; 'wire' used instead [19.2(IEEE 2001)].
+output TIE_HI_ESD, TIE_LO_ESD;
+                            |
+xmvlog: *W,NODNTW (/home/cae1/Desktop/PDK/skywater-pdk/libraries/sky130_fd_io/latest/cells/top_gpio_ovtv2/sky130_fd_io__top_gpio_ovtv2.behavioral.v,61|28): Implicit net port (TIE_LO_ESD) is not allowed since `default_nettype is declared as 'none'; 'wire' used instead [19.2(IEEE 2001)].
+	module worklib.thermometer:v
+		errors: 0, warnings: 0
+	module worklib.therm_tb:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		ADDFX1
+		ADDHX1
+		AND2X1
+		AND2X2
+		AND3X1
+		AND3X2
+		AND4X1
+		AND4X2
+		AOI211X1
+		AOI211X2
+		AOI21X2
+		AOI221X1
+		AOI221X2
+		AOI222X1
+		AOI222X2
+		AOI22X2
+		BUFX2
+		BUFX4
+		BUFX8
+		CLKAND2X2
+		CLKBUFX2
+		CLKBUFX4
+		CLKBUFX8
+		CLKINVX4
+		CLKINVX8
+		CLKMX2X2
+		CLKXOR2X1
+		DFFRX4
+		DFFSRX1
+		DFFSRX4
+		DFFSX1
+		DFFSX4
+		DFFX1
+		DFFX4
+		DLY1X1
+		DLY1X4
+		DLY2X4
+		DLY4X4
+		ICGX1
+		INVX16
+		INVX2
+		INVX4
+		INVX8
+		MX2X1
+		MX2X4
+		MX4X1
+		MX4X4
+		NAND2X1
+		NAND2X2
+		NAND2X4
+		NAND3X1
+		NAND3X2
+		NAND3X4
+		NAND4X2
+		NAND4X4
+		NOR2X1
+		NOR2X2
+		NOR2X4
+		NOR3X1
+		NOR3X2
+		NOR3X4
+		NOR4X1
+		NOR4X2
+		NOR4X4
+		OAI211X1
+		OAI211X2
+		OAI21X2
+		OAI221X2
+		OAI222X1
+		OAI222X2
+		OAI22X1
+		OAI22X2
+		OR2X1
+		OR2X2
+		OR3X1
+		OR3X2
+		OR4X1
+		OR4X2
+		SDFFRX1
+		SDFFRX4
+		SDFFSRX1
+		SDFFSRX4
+		SDFFSX1
+		SDFFSX4
+		SDFFX1
+		SDFFX4
+		TBUFX1
+		TBUFX4
+		TBUFX8
+		TIEHI
+		TIELO
+		TLATSRX1
+		TLATX1
+		XNOR2X1
+		XNOR2X2
+		XNOR2X4
+		XOR2X1
+		XOR2X2
+		XOR2X4
+		sky130_fd_io__top_gpio_ovtv2
+		therm_tb
+	Reading SDF file from location "/home/cae1/Desktop/D-Design/PNR/post_layout_thermometer.sdf"
+	Compiled SDF file "post_layout_thermometer.sdf.X" older than source SDF file "/home/cae1/Desktop/D-Design/PNR/post_layout_thermometer.sdf".
+	Recompiling.
+	Writing compiled SDF file to "post_layout_thermometer.sdf.X".
+	Annotating SDF timing data:
+		Compiled SDF file:     post_layout_thermometer.sdf.X
+		Log file:              
+		Backannotation scope:  therm_tb.dut
+		Configuration file:    
+		MTM control:           
+		Scale factors:         
+		Scale type:            
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (RECREM (posedge RN) (COND adacond_D (posedge CK)) () ()) of instance therm_tb.dut.\out_reg[0]  of module DFFRX1 <../PNR/post_layout_thermometer.sdf, line 139>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (RECREM (posedge RN) (COND adacond_D (posedge CK)) () ()) of instance therm_tb.dut.\out_reg[1]  of module DFFRX1 <../PNR/post_layout_thermometer.sdf, line 166>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (RECREM (posedge RN) (COND adacond_D (posedge CK)) () ()) of instance therm_tb.dut.\out_reg[2]  of module DFFRX1 <../PNR/post_layout_thermometer.sdf, line 206>.
+xmelab: *W,SDFNET: Unable to annotate to non-existent timing check (RECREM (posedge RN) (COND adacond_D (posedge CK)) () ()) of instance therm_tb.dut.\out_reg[3]  of module DFFRX1 <../PNR/post_layout_thermometer.sdf, line 387>.
+	Annotation completed with 0 Errors and 4 Warnings
+	SDF statistics: 
+		 No. of Pathdelays = 1108    	 No. of Disabled Pathdelays = 0        Annotated = 13.27% (147/1108) 
+		 No. of Tchecks    = 300     	 No. of Disabled Tchecks    = 0        Annotated = 0.00% (0/300) 
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.OAI21X1:v <0x01851f1b>
+			streams:   0, words:     0
+		worklib.AOI22X1:v <0x2f69a54b>
+			streams:   0, words:     0
+		worklib.AOI21X1:v <0x7dfe9fa3>
+			streams:   0, words:     0
+		worklib.OAI221X1:v <0x3c3af045>
+			streams:   0, words:     0
+		worklib.DFFRX1:v <0x3a0a4d7c>
+			streams:   0, words:     0
+		worklib.therm_tb:v <0x588cf149>
+			streams:   5, words: 20576
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                   Instances  Unique
+		Modules:                 126     112
+		UDPs:                     41      14
+		Primitives:              631       7
+		Timing outputs:          146     109
+		Registers:                73      84
+		Scalar wires:            649       -
+		Expanded wires:           15       1
+		Vectored wires:            4       -
+		Named events:             13      13
+		Always blocks:            35      35
+		Initial blocks:           10      10
+		Cont. assignments:        28      60
+		Pseudo assignments:       10       -
+		Timing checks:           475      17
+		Interconnect:             58      41
+		Delayed tcheck signals:   87      82
+		Simulation timescale:    1ps
+	Writing initial simulation snapshot: worklib.ADDFX1:v
+xmsim: *W,NOMTDGUI: Multi-Threaded Dumping is disabled for interactive debug mode.
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /eda/cadence/2024-25/RHELx86/XCELIUM_24.03.004/tools/xcelium/files/xmsimrc
+xcelium> database -open waves -into waves.shm -default
+Created default SHM database waves
+xcelium> probe -create -shm therm_tb.Y therm_tb.b therm_tb.clk therm_tb.rst
+Created probe 1
+xcelium> run
+    0 010
+    1 110
+    3 210
+    7 310
+   15 410
+   31 510
+   63 610
+  127 710
+  255 810
+  511 910
+ 10231010
+ 20471110
+ 40951210
+ 81911310
+163831410
+327671510
+Simulation complete via $finish(1) at time 680 NS + 0
+./Thermometer_testbench.v:122 		$finish;
+xcelium> ^C
+xcelium> exit
+TOOL:	xrun(64)	24.03-s004: Exiting on Feb 09, 2025 at 18:53:23 CET  (total: 00:01:33)

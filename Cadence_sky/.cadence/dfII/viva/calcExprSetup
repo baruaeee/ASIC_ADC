@@ -1,0 +1,7 @@
+artistResMgrCalcExprSetup("false" "plot" "E6" "getData("/LL" ?result 'dc)")
+artistResMgrCalcExprSetup("false" "plot" "E7" "getData("/IN" ?result 'dc)")
+artistResMgrCalcExprSetup("false" "plot" "E8" "getData("/div_out" ?result 'dc)")
+artistResMgrCalcExprSetup("false" "plot" "E9" "getData("/OUT15" ?result 'dc)")
+artistResMgrCalcExprSetup("false" "plot" "E10" "getData("/OUT14" ?result 'dc)")
+artistResMgrCalcExprSetup("true" "plot" "E11" "xval(intersect(getData("/OUT15" ?result 'dc) getData("/LL" ?result 'dc) ))")
+artistResMgrCalcExprSetup("true" "plot" "E12" "xval(intersect(getData("/OUT14" ?result 'dc) getData("/LL" ?result 'dc) ))")

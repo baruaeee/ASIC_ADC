@@ -1,0 +1,5 @@
+cUiSetViewStatus {preamp1F} {layout} {1}
+cUiSetViewStatus {preamp1F} {logical} {0}
+cUiSetViewStatus {preamp1F} {abstract.pin} {0}
+cUiSetViewStatus {preamp1F} {abstract.ext} {0}
+cUiSetViewStatus {preamp1F} {abstract} {0}

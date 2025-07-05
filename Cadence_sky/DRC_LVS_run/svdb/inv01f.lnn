@@ -1,0 +1,9 @@
+# SVDB: Layout Netlist Names (lnn)
+# SVDB: Layout Primary inv01f
+% nfet_01v8_CDNS_733693291110 3
+% pfet_01v8_CDNS_733693291111 3
+% inv01f 4
+1 VSS
+2 Y
+3 A
+4 VDD

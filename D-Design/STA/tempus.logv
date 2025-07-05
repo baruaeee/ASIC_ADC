@@ -1,0 +1,480 @@
+[02/08 11:02:27      0s] 
+[02/08 11:02:27      0s] Cadence Tempus(TM) Timing Solution.
+[02/08 11:02:27      0s] Copyright 2024 Cadence Design Systems, Inc. All rights reserved worldwide.
+[02/08 11:02:27      0s] 
+[02/08 11:02:27      0s] Version:	v23.11-s111_1, built Thu May 16 09:07:16 PDT 2024
+[02/08 11:02:27      0s] Options:	
+[02/08 11:02:27      0s] Date:		Sat Feb  8 11:02:27 2025
+[02/08 11:02:27      0s] Host:		cae-europractice1.othr.de (x86_64 w/Linux 5.15.0-210.163.7.el8uek.x86_64) (1core*16cpus*AMD Ryzen Threadripper PRO 5975WX 32-Cores 512KB)
+[02/08 11:02:27      0s] OS:		Oracle Linux Server 8.10
+[02/08 11:02:27      0s] 
+[02/08 11:02:27      0s] License:
+[02/08 11:02:27      0s] 		[11:02:27.483180] Configured Lic search path (23.02-s005): 5280@hs-lic3.oth-regensburg.de:27003@hs-lic1.oth-regensburg.de:27003@hs-lic1.oth-regensburg.de:
+
+[02/08 11:02:27      0s] 		tpsxl	Tempus Timing Signoff Solution XL	23.1	checkout succeeded
+[02/08 11:02:27      0s] 		16 CPU jobs allowed with the current license(s). Use set_multi_cpu_usage to set your required CPU count.
+[02/08 11:02:30      2s] {{{ isCertus 0,  isCertusOrDistOptClient = 0, isInnovusCertusClient = 0}}}
+[02/08 11:02:55     15s] Reset Parastics called with the command setExtractRCMode -reset@(#)CDS: Tempus Timing Solution v23.11-s111_1 (64bit) 05/16/2024 09:07 (Linux 3.10.0-693.el7.x86_64)
+[02/08 11:02:57     17s] @(#)CDS: NanoRoute 23.11-s111_1 NR240401-0735/23_11-UB (database version 18.20.622) {superthreading v2.20}
+[02/08 11:02:57     17s] @(#)CDS: AAE 23.11-s031 (64bit) 05/16/2024 (Linux 3.10.0-693.el7.x86_64)
+[02/08 11:02:57     17s] @(#)CDS: CTE 23.11-s025_1 () May 16 2024 01:47:36 ( )
+[02/08 11:02:57     17s] @(#)CDS: SYNTECH 23.11-s010_1 () Apr  5 2024 04:21:08 ( )
+[02/08 11:02:57     17s] @(#)CDS: CPE v23.11-s059
+[02/08 11:02:57     17s] @(#)CDS: OA 22.61-p011 Thu Nov 30 12:26:13 2023
+[02/08 11:02:57     17s] @(#)CDS: SGN 23.10-d005 (03-Oct-2023) (64 bit executable, TkQt5.15.9)
+[02/08 11:02:57     17s] @(#)CDS: RCDB 11.15.0
+[02/08 11:02:57     17s] @(#)CDS: STYLUS 23.10-a010_1 (02/06/2024 03:59 PST)
+[02/08 11:02:57     17s] Change the soft stacksize limit to 0.2%RAM (63 mbytes). Set global soft_stack_size_limit to change the value.
+[02/08 11:02:57     17s] **INFO: (TMPDIR-1001): Create and set the environment variable TMPDIR to '/tmp/ssv_tmpdir_1545864_KgFPls'.
+environment variable TMPDIR is '/tmp/ssv_tmpdir_1545864_KgFPls'.
+[02/08 11:02:58     18s] <CMD> ::stop_gui -keepDgui
+[02/08 11:02:58     18s] Has not load the powerDB, will keep enalbed
+[02/08 11:02:58     18s] Has not load the powerDB, will keep enalbed
+[02/08 11:04:59     28s] <CMD> read_lib -max lib/sky130_ss_1.62_125_nldm.lib
+[02/08 11:04:59     29s] <CMD> read_lib -min lib/sky130_ff_1.98_0_nldm.lib
+[02/08 11:05:00     29s] <CMD> read_lib lib/sky130_tt_1.8_25_nldm.lib
+[02/08 11:05:00     29s] <CMD> read_verilog SRC/Thermometer_netlist.v
+[02/08 11:05:00     30s] <CMD> set_top_module thermometer
+[02/08 11:05:00     30s] #% Begin Load MMMC data ... (date=02/08 11:05:00, mem=1713.9M)
+[02/08 11:05:00     30s] Number of views requested 1 are allowed with the current licenses... continuing with set_analysis_view.
+[02/08 11:05:00     30s] #% End Load MMMC data ... (date=02/08 11:05:00, total cpu=0:00:00.0, real=0:00:00.0, peak res=1714.9M, current mem=1714.9M)
+[02/08 11:05:00     30s] Loading view definition file from .ssv_emulate_view_definition_1545864_617e6bcd-6202-4254-b5c6-d89a7bae850f.tcl
+[02/08 11:05:00     30s] Reading default_emulate_libset_max timing library '/home/cae1/Desktop/D-Design/STA/lib/sky130_ss_1.62_125_nldm.lib' ...
+[02/08 11:05:01     30s] Read 109 cells in library 'sky130_ss_1.62_125' 
+[02/08 11:05:01     30s] Reading default_emulate_libset_max timing library '/home/cae1/Desktop/D-Design/STA/lib/sky130_tt_1.8_25_nldm.lib' ...
+[02/08 11:05:01     30s] Read 109 cells in library 'sky130_tt_1.8_25' 
+[02/08 11:05:01     30s] Reading default_emulate_libset_min timing library '/home/cae1/Desktop/D-Design/STA/lib/sky130_ff_1.98_0_nldm.lib' ...
+[02/08 11:05:01     30s] Read 109 cells in library 'sky130_ff_1.98_0' 
+[02/08 11:05:01     30s] Ending "PreSetAnalysisView" (total cpu=0:00:00.6, real=0:00:01.0, peak res=1774.9M, current mem=1723.4M)
+[02/08 11:05:01     30s] *** End library_loading (cpu=0.01min, real=0.02min, mem=31.0M, fe_cpu=0.53min, fe_real=2.57min, fe_mem=1693.0M) ***
+[02/08 11:05:01     30s] #% Begin Load netlist data ... (date=02/08 11:05:01, mem=1723.4M)
+[02/08 11:05:01     31s] *** Begin netlist parsing (mem=1693.0M) ***
+[02/08 11:05:01     31s] Reading verilog netlist 'SRC/Thermometer_netlist.v'
+[02/08 11:05:01     31s] 
+[02/08 11:05:01     31s] *** Memory Usage v#2 (Current mem = 2060.051M, initial mem = 832.258M) ***
+[02/08 11:05:01     31s] *** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=2060.1M) ***
+[02/08 11:05:01     31s] #% End Load netlist data ... (date=02/08 11:05:01, total cpu=0:00:00.4, real=0:00:00.0, peak res=1855.4M, current mem=1847.4M)
+[02/08 11:05:01     31s] Set top cell to thermometer.
+[02/08 11:05:01     31s] Has not load the powerDB, will keep enalbed
+[02/08 11:05:01     31s] Has not load the powerDB, will keep enalbed
+[02/08 11:05:01     31s] Starting consistency checks on late and early library sets of delay corner 'default_emulate_delay_corner'
+[02/08 11:05:01     31s] late library set: default_emulate_libset_max
+[02/08 11:05:01     31s] early library set: default_emulate_libset_min
+[02/08 11:05:01     31s] Completed consistency checks. Status: Successful
+[02/08 11:05:01     31s] Starting consistency checks on late and early library sets of delay corner 'default_emulate_delay_corner'
+[02/08 11:05:01     31s] late library set: default_emulate_libset_max
+[02/08 11:05:01     31s] early library set: default_emulate_libset_min
+[02/08 11:05:01     31s] Completed consistency checks. Status: Successful
+[02/08 11:05:01     31s] Ending "BindLib:" (total cpu=0:00:00.1, real=0:00:00.0, peak res=1884.3M, current mem=1884.3M)
+[02/08 11:05:01     31s] *** Estimate the number of flat objects and h-objects before Flatten ***
+[02/08 11:05:01     31s] 	flat insts : 24
+[02/08 11:05:01     31s] 	flat terms : 82
+[02/08 11:05:01     31s] 	HNets : 0
+[02/08 11:05:01     31s] 	HInsts : 0
+[02/08 11:05:01     31s] 	HTerms : 0
+[02/08 11:05:01     31s] Building hierarchical netlist for Cell thermometer ...
+[02/08 11:05:01     31s] ***** UseNewTieNetMode *****.
+[02/08 11:05:02     31s] *** Netlist is unique.
+[02/08 11:05:02     31s] ** info: there are 328 modules.
+[02/08 11:05:02     31s] ** info: there are 24 stdCell insts.
+[02/08 11:05:02     31s] ** info: there are 24 stdCell insts with at least one signal pin.
+[02/08 11:05:02     31s] 
+[02/08 11:05:02     31s] *** Memory Usage v#2 (Current mem = 2436.996M, initial mem = 832.258M) ***
+[02/08 11:05:02     31s] Set Default Input Pin Transition as 0.1 ps.
+[02/08 11:05:02     31s] Has not load the powerDB, will keep enalbed
+[02/08 11:05:02     31s] Has not load the powerDB, will keep enalbed
+[02/08 11:05:02     31s] Has not load the powerDB, will keep enalbed
+[02/08 11:05:02     31s] Has not load the powerDB, will keep enalbed
+[02/08 11:05:02     31s] Has not load the powerDB, will keep enalbed
+[02/08 11:05:02     31s] Has not load the powerDB, will keep enalbed
+[02/08 11:05:02     31s] Extraction setup Started for TopCell thermometer 
+[02/08 11:05:02     31s] Summary of Active RC-Corners : 
+[02/08 11:05:02     31s]  
+[02/08 11:05:02     31s]  Analysis View: default_emulate_view
+[02/08 11:05:02     31s]     RC-Corner Name        : default_emulate_rc_corner
+[02/08 11:05:02     31s]     RC-Corner Index       : 0
+[02/08 11:05:02     31s]     RC-Corner Temperature : 25 Celsius
+[02/08 11:05:02     31s]     RC-Corner Cap Table   : ''
+[02/08 11:05:02     31s]     RC-Corner PostRoute Res Factor        : 1
+[02/08 11:05:02     31s]     RC-Corner PostRoute Cap Factor        : 1
+[02/08 11:05:02     31s]     RC-Corner PostRoute XCap Factor       : 1
+[02/08 11:05:02     31s] Starting consistency checks on late and early library sets of delay corner 'default_emulate_delay_corner'
+[02/08 11:05:02     31s] late library set: default_emulate_libset_max
+[02/08 11:05:02     31s] early library set: default_emulate_libset_min
+[02/08 11:05:02     31s] Completed consistency checks. Status: Successful
+[02/08 11:05:02     31s] Ending "SetAnalysisView" (total cpu=0:00:00.1, real=0:00:00.0, peak res=2385.4M, current mem=2032.8M)
+[02/08 11:05:03     32s] Reading timing constraints file '/dev/null' ...
+[02/08 11:05:03     32s] Current (total cpu=0:00:33.3, real=0:02:36, peak res=2385.4M, current mem=2267.7M)
+[02/08 11:05:03     32s] Tech dependent Parameter, Build TLibAnalyzer for: cellAreaConsiderPadding
+[02/08 11:05:03     32s] 
+[02/08 11:05:03     32s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) Begin ...
+[02/08 11:05:03     32s] Summary for sequential cells identification: 
+[02/08 11:05:03     32s]   Identified SBFF number: 16
+[02/08 11:05:03     32s]   Identified MBFF number: 0
+[02/08 11:05:03     32s]   Identified SB Latch number: 2
+[02/08 11:05:03     32s]   Identified MB Latch number: 0
+[02/08 11:05:03     32s]   Not identified SBFF number: 0
+[02/08 11:05:03     32s]   Not identified MBFF number: 0
+[02/08 11:05:03     32s]   Not identified SB Latch number: 0
+[02/08 11:05:03     32s]   Not identified MB Latch number: 0
+[02/08 11:05:03     32s]   Number of sequential cells which are not FFs: 1
+[02/08 11:05:03     32s] Total number of combinational cells: 87
+[02/08 11:05:03     32s] Total number of sequential cells: 19
+[02/08 11:05:03     32s] Total number of tristate cells: 3
+[02/08 11:05:03     32s] Total number of level shifter cells: 0
+[02/08 11:05:03     32s] Total number of power gating cells: 0
+[02/08 11:05:03     32s] Total number of isolation cells: 0
+[02/08 11:05:03     32s] Total number of power switch cells: 0
+[02/08 11:05:03     32s] Total number of pulse generator cells: 0
+[02/08 11:05:03     32s] Total number of always on buffers: 0
+[02/08 11:05:03     32s] Total number of retention cells: 0
+[02/08 11:05:03     32s] Total number of physical cells: 0
+[02/08 11:05:03     32s] List of usable buffers: BUFX16 BUFX2 BUFX4 BUFX8 CLKBUFX2 CLKBUFX4 CLKBUFX8
+[02/08 11:05:03     32s] Total number of usable buffers: 7
+[02/08 11:05:03     32s] List of unusable buffers:
+[02/08 11:05:03     32s] Total number of unusable buffers: 0
+[02/08 11:05:03     32s] List of usable inverters: CLKINVX1 CLKINVX2 CLKINVX4 CLKINVX8 INVX1 INVX16 INVX2 INVX8 INVX4
+[02/08 11:05:03     32s] Total number of usable inverters: 9
+[02/08 11:05:03     32s] List of unusable inverters:
+[02/08 11:05:03     32s] Total number of unusable inverters: 0
+[02/08 11:05:03     32s] List of identified usable delay cells: DLY1X1 DLY1X4 DLY4X4 DLY2X4
+[02/08 11:05:03     32s] Total number of identified usable delay cells: 4
+[02/08 11:05:03     32s] List of identified unusable delay cells:
+[02/08 11:05:03     32s] Total number of identified unusable delay cells: 0
+[02/08 11:05:03     32s] 
+[02/08 11:05:03     32s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) End ...
+[02/08 11:05:03     32s] 
+[02/08 11:05:03     32s] TimeStamp Deleting Cell Server Begin ...
+[02/08 11:05:03     32s] 
+[02/08 11:05:03     32s] TimeStamp Deleting Cell Server End ...
+[02/08 11:05:03     32s] Ending "Cell type marking" (total cpu=0:00:00.0, real=0:00:00.0, peak res=2288.8M, current mem=2288.8M)
+[02/08 11:05:03     32s] 
+[02/08 11:05:03     32s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) Begin ...
+[02/08 11:05:03     32s] Summary for sequential cells identification: 
+[02/08 11:05:03     32s]   Identified SBFF number: 16
+[02/08 11:05:03     32s]   Identified MBFF number: 0
+[02/08 11:05:03     32s]   Identified SB Latch number: 2
+[02/08 11:05:03     32s]   Identified MB Latch number: 0
+[02/08 11:05:03     32s]   Not identified SBFF number: 0
+[02/08 11:05:03     32s]   Not identified MBFF number: 0
+[02/08 11:05:03     32s]   Not identified SB Latch number: 0
+[02/08 11:05:03     32s]   Not identified MB Latch number: 0
+[02/08 11:05:03     32s]   Number of sequential cells which are not FFs: 1
+[02/08 11:05:03     32s]  Visiting view : default_emulate_view
+[02/08 11:05:03     32s]    : PowerDomain = none : Weighted F : unweighted  = 48.00 (1.000) with rcCorner = 0
+[02/08 11:05:03     32s]    : PowerDomain = none : Weighted F : unweighted  = 48.00 (1.000) with rcCorner = -1
+[02/08 11:05:03     32s]  Visiting view : default_emulate_view
+[02/08 11:05:03     32s]    : PowerDomain = none : Weighted F : unweighted  = 48.00 (1.000) with rcCorner = 0
+[02/08 11:05:03     32s]    : PowerDomain = none : Weighted F : unweighted  = 48.00 (1.000) with rcCorner = -1
+[02/08 11:05:03     32s] TLC MultiMap info (StdDelay):
+[02/08 11:05:03     32s]   : default_emulate_delay_corner + default_emulate_libset_max + 1 + no RcCorner := 48ps
+[02/08 11:05:03     32s]   : default_emulate_delay_corner + default_emulate_libset_max + 1 + default_emulate_rc_corner := 48ps
+[02/08 11:05:03     32s]  Setting StdDelay to: 48ps
+[02/08 11:05:03     32s] 
+[02/08 11:05:03     32s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) End ...
+[02/08 11:05:03     32s] 
+[02/08 11:05:03     32s] TimeStamp Deleting Cell Server Begin ...
+[02/08 11:05:03     32s] 
+[02/08 11:05:03     32s] TimeStamp Deleting Cell Server End ...
+[02/08 11:05:03     32s] Extraction setup Started for TopCell thermometer 
+[02/08 11:05:03     32s] Summary of Active RC-Corners : 
+[02/08 11:05:03     32s]  
+[02/08 11:05:03     32s]  Analysis View: default_emulate_view
+[02/08 11:05:03     32s]     RC-Corner Name        : default_emulate_rc_corner
+[02/08 11:05:03     32s]     RC-Corner Index       : 0
+[02/08 11:05:03     32s]     RC-Corner Temperature : 125 Celsius
+[02/08 11:05:03     32s]     RC-Corner Cap Table   : ''
+[02/08 11:05:03     32s]     RC-Corner PostRoute Res Factor        : 1
+[02/08 11:05:03     32s]     RC-Corner PostRoute Cap Factor        : 1
+[02/08 11:05:03     32s]     RC-Corner PostRoute XCap Factor       : 1
+[02/08 11:05:03     32s] Extraction setup Started for TopCell thermometer 
+[02/08 11:05:03     32s] Summary of Active RC-Corners : 
+[02/08 11:05:03     32s]  
+[02/08 11:05:03     32s]  Analysis View: default_emulate_view
+[02/08 11:05:03     32s]     RC-Corner Name        : default_emulate_rc_corner
+[02/08 11:05:03     32s]     RC-Corner Index       : 0
+[02/08 11:05:03     32s]     RC-Corner Temperature : 125 Celsius
+[02/08 11:05:03     32s]     RC-Corner Cap Table   : ''
+[02/08 11:05:03     32s]     RC-Corner PostRoute Res Factor        : 1
+[02/08 11:05:03     32s]     RC-Corner PostRoute Cap Factor        : 1
+[02/08 11:05:03     32s]     RC-Corner PostRoute XCap Factor       : 1
+[02/08 11:05:03     32s] Extraction setup Started for TopCell thermometer 
+[02/08 11:05:03     32s] Summary of Active RC-Corners : 
+[02/08 11:05:03     32s]  
+[02/08 11:05:03     32s]  Analysis View: default_emulate_view
+[02/08 11:05:03     32s]     RC-Corner Name        : default_emulate_rc_corner
+[02/08 11:05:03     32s]     RC-Corner Index       : 0
+[02/08 11:05:03     32s]     RC-Corner Temperature : 125 Celsius
+[02/08 11:05:03     32s]     RC-Corner Cap Table   : ''
+[02/08 11:05:03     32s]     RC-Corner PostRoute Res Factor        : 1
+[02/08 11:05:03     32s]     RC-Corner PostRoute Cap Factor        : 1
+[02/08 11:05:03     32s]     RC-Corner PostRoute XCap Factor       : 1
+[02/08 11:05:03     32s] <CMD> read_sdc post_synth_Thermometer.sdc
+[02/08 11:05:03     32s] Current (total cpu=0:00:33.6, real=0:02:36, peak res=2385.4M, current mem=2251.4M)
+[02/08 11:05:03     32s] **WARN: (TCLCMD-1461):	Skipped unsupported command: set_units (File post_synth_Thermometer.sdc, Line 9).
+[02/08 11:05:03     32s] 
+[02/08 11:05:03     32s] **WARN: (TCLCMD-1461):	Skipped unsupported command: set_units (File post_synth_Thermometer.sdc, Line 10).
+[02/08 11:05:03     32s] 
+[02/08 11:05:03     32s] INFO (CTE): Reading of timing constraints file post_synth_Thermometer.sdc completed, with 2 WARNING
+[02/08 11:05:03     32s] Ending "Constraint file reading stats" (total cpu=0:00:00.1, real=0:00:00.0, peak res=2259.7M, current mem=2259.7M)
+[02/08 11:05:03     32s] Current (total cpu=0:00:33.7, real=0:02:36, peak res=2385.4M, current mem=2259.7M)
+[02/08 11:05:04     32s] Loading  (thermometer)
+[02/08 11:05:04     32s] Traverse HInst (thermometer)
+[02/08 11:05:04     32s] Tech dependent Parameter, Build TLibAnalyzer for: cellAreaConsiderPadding
+[02/08 11:05:04     32s] 
+[02/08 11:05:04     32s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) Begin ...
+[02/08 11:05:04     32s] Summary for sequential cells identification: 
+[02/08 11:05:04     32s]   Identified SBFF number: 16
+[02/08 11:05:04     32s]   Identified MBFF number: 0
+[02/08 11:05:04     32s]   Identified SB Latch number: 2
+[02/08 11:05:04     32s]   Identified MB Latch number: 0
+[02/08 11:05:04     32s]   Not identified SBFF number: 0
+[02/08 11:05:04     32s]   Not identified MBFF number: 0
+[02/08 11:05:04     32s]   Not identified SB Latch number: 0
+[02/08 11:05:04     32s]   Not identified MB Latch number: 0
+[02/08 11:05:04     32s]   Number of sequential cells which are not FFs: 1
+[02/08 11:05:04     32s]  Visiting view : default_emulate_view
+[02/08 11:05:04     32s]    : PowerDomain = none : Weighted F : unweighted  = 48.00 (1.000) with rcCorner = 0
+[02/08 11:05:04     32s]    : PowerDomain = none : Weighted F : unweighted  = 48.00 (1.000) with rcCorner = -1
+[02/08 11:05:04     32s]  Visiting view : default_emulate_view
+[02/08 11:05:04     32s]    : PowerDomain = none : Weighted F : unweighted  = 48.00 (1.000) with rcCorner = 0
+[02/08 11:05:04     32s]    : PowerDomain = none : Weighted F : unweighted  = 48.00 (1.000) with rcCorner = -1
+[02/08 11:05:04     32s] TLC MultiMap info (StdDelay):
+[02/08 11:05:04     32s]   : default_emulate_delay_corner + default_emulate_libset_max + 1 + no RcCorner := 48ps
+[02/08 11:05:04     32s]   : default_emulate_delay_corner + default_emulate_libset_max + 1 + default_emulate_rc_corner := 48ps
+[02/08 11:05:04     32s]  Setting StdDelay to: 48ps
+[02/08 11:05:04     32s] 
+[02/08 11:05:04     32s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) End ...
+[02/08 11:05:37     34s] <CMD> report_timing
+[02/08 11:05:37     34s] AAE_INFO: opIsDesignInPostRouteState() is 0
+[02/08 11:05:38     34s] AAE DB initialization (MEM=2826.1 CPU=0:00:00.0 REAL=0:00:00.0) 
+[02/08 11:05:38     34s] #################################################################################
+[02/08 11:05:38     34s] # Design Name: thermometer
+[02/08 11:05:38     34s] # Design Mode: 65nm
+[02/08 11:05:38     35s] # Analysis Mode: MMMC OCV 
+[02/08 11:05:38     35s] # Parasitics Mode: No SPEF/RCDB 
+[02/08 11:05:38     35s] # Signoff Settings: SI Off 
+[02/08 11:05:38     35s] #################################################################################
+[02/08 11:05:38     35s] Topological Sorting (REAL = 0:00:00.0, MEM = 2915.9M, InitMEM = 2913.9M)
+[02/08 11:05:38     35s] Start delay calculation (fullDC) (1 T). (MEM=1978.21)
+[02/08 11:05:38     35s] Start AAE Lib Loading. (MEM=2933.39)
+[02/08 11:05:38     35s] End AAE Lib Loading. (MEM=3153.47 CPU=0:00:00.0 Real=0:00:00.0)
+[02/08 11:05:38     35s] End AAE Lib Interpolated Model. (MEM=3153.47 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[02/08 11:05:38     35s] **WARN: (IMPMSMV-1810):	Net Y[14], driver Y[14] (cell thermometer) voltage 1.8 does not match receiver g274__6260/B0 (cell AOI21X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:05:38     35s] **WARN: (IMPMSMV-1810):	Net Y[13], driver Y[13] (cell thermometer) voltage 1.8 does not match receiver g284/A (cell INVX1) voltage 1.62 for view default_emulate_view.
+[02/08 11:05:38     35s] **WARN: (IMPMSMV-1810):	Net Y[13], driver Y[13] (cell thermometer) voltage 1.8 does not match receiver g272__3680/B0 (cell AOI21X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:05:38     35s] **WARN: (IMPMSMV-1810):	Net Y[12], driver Y[12] (cell thermometer) voltage 1.8 does not match receiver g276__8428/B0 (cell AOI22X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:05:38     35s] **WARN: (IMPMSMV-1810):	Net Y[11], driver Y[11] (cell thermometer) voltage 1.8 does not match receiver g281/A (cell CLKINVX2) voltage 1.62 for view default_emulate_view.
+[02/08 11:05:38     35s] **WARN: (IMPMSMV-1810):	Net Y[11], driver Y[11] (cell thermometer) voltage 1.8 does not match receiver g271__5107/B0 (cell OAI221X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:05:38     35s] **WARN: (IMPMSMV-1810):	Net Y[10], driver Y[10] (cell thermometer) voltage 1.8 does not match receiver g277__6783/B0 (cell AOI22X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:05:38     35s] **WARN: (IMPMSMV-1810):	Net Y[9], driver Y[9] (cell thermometer) voltage 1.8 does not match receiver g285/A (cell CLKINVX2) voltage 1.62 for view default_emulate_view.
+[02/08 11:05:38     35s] **WARN: (IMPMSMV-1810):	Net Y[8], driver Y[8] (cell thermometer) voltage 1.8 does not match receiver g277__6783/A0 (cell AOI22X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:05:38     35s] **WARN: (IMPMSMV-1810):	Net Y[7], driver Y[7] (cell thermometer) voltage 1.8 does not match receiver g287/A (cell CLKINVX2) voltage 1.62 for view default_emulate_view.
+[02/08 11:05:38     35s] **WARN: (IMPMSMV-1810):	Net Y[7], driver Y[7] (cell thermometer) voltage 1.8 does not match receiver out_reg[3]/D (cell DFFRX1) voltage 1.62 for view default_emulate_view.
+[02/08 11:05:38     35s] **WARN: (IMPMSMV-1810):	Net Y[7], driver Y[7] (cell thermometer) voltage 1.8 does not match receiver g273__5526/A0 (cell OAI21X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:05:38     35s] **WARN: (IMPMSMV-1810):	Net Y[7], driver Y[7] (cell thermometer) voltage 1.8 does not match receiver g271__5107/A0 (cell OAI221X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:05:38     35s] **WARN: (IMPMSMV-1810):	Net Y[6], driver Y[6] (cell thermometer) voltage 1.8 does not match receiver g275__4319/B0 (cell AOI22X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:05:38     35s] **WARN: (IMPMSMV-1810):	Net Y[5], driver Y[5] (cell thermometer) voltage 1.8 does not match receiver g283/A (cell CLKINVX2) voltage 1.62 for view default_emulate_view.
+[02/08 11:05:38     35s] **WARN: (IMPMSMV-1810):	Net Y[4], driver Y[4] (cell thermometer) voltage 1.8 does not match receiver g274__6260/A0 (cell AOI21X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:05:38     35s] **WARN: (IMPMSMV-1810):	Net Y[3], driver Y[3] (cell thermometer) voltage 1.8 does not match receiver g282/A (cell CLKINVX2) voltage 1.62 for view default_emulate_view.
+[02/08 11:05:38     35s] **WARN: (IMPMSMV-1810):	Net Y[2], driver Y[2] (cell thermometer) voltage 1.8 does not match receiver g275__4319/A0 (cell AOI22X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:05:38     35s] **WARN: (IMPMSMV-1810):	Net Y[1], driver Y[1] (cell thermometer) voltage 1.8 does not match receiver g280/A (cell INVX1) voltage 1.62 for view default_emulate_view.
+[02/08 11:05:38     35s] **WARN: (IMPMSMV-1810):	Net Y[1], driver Y[1] (cell thermometer) voltage 1.8 does not match receiver g272__3680/A0 (cell AOI21X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:05:38     35s] **WARN: (EMS-62):	Message <IMPMSMV-1810> has exceeded the default message display limit of 20.
+[02/08 11:05:38     35s] To avoid this warning, increase the display limit per unique message by
+[02/08 11:05:38     35s] using the set_message -limit <number> command.
+[02/08 11:05:38     35s] The message limit can be removed by using the set_message -no_limit command.
+[02/08 11:05:38     35s] Note that setting a very large number using the set_message -limit command
+[02/08 11:05:38     35s] or removing the message limit using the set_message -no_limit command can
+[02/08 11:05:38     35s] significantly increase the log file size.
+[02/08 11:05:38     35s] To suppress a message, use the set_message -suppress command.
+[02/08 11:05:39     35s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[02/08 11:05:39     35s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[02/08 11:05:39     35s] End delay calculation. (MEM=2081.95 CPU=0:00:00.1 REAL=0:00:01.0)
+[02/08 11:05:39     35s] Begin loading slews from CTE ...
+[02/08 11:05:39     35s] Loading slews from CTE completed...
+[02/08 11:05:39     35s] End delay calculation (fullDC). (MEM=2078.83 CPU=0:00:00.2 REAL=0:00:01.0)
+[02/08 11:05:39     35s] *** CDM Built up (cpu=0:00:01.0  real=0:00:01.0  mem= 3318.0M) ***
+[02/08 11:05:39     35s] Has not load the powerDB, will keep enalbed
+[02/08 11:05:39     35s] Has not load the powerDB, will keep enalbed
+[02/08 11:06:40     38s] <CMD> report_timing
+[02/08 11:07:05     40s] <CMD> read_sdc post_synth_Thermometer.sdc
+[02/08 11:07:05     40s] Current (total cpu=0:00:41.1, real=0:04:38, peak res=2385.4M, current mem=2049.7M)
+[02/08 11:07:05     40s] **WARN: (TCLCMD-1461):	Skipped unsupported command: set_units (File post_synth_Thermometer.sdc, Line 9).
+[02/08 11:07:05     40s] 
+[02/08 11:07:05     40s] **WARN: (TCLCMD-1461):	Skipped unsupported command: set_units (File post_synth_Thermometer.sdc, Line 10).
+[02/08 11:07:05     40s] 
+[02/08 11:07:05     40s] **WARN: (TCLCMD-1594):	A clock with name clk was already defined in the design. Previously defined clock definition of clk will be overwritten. (File post_synth_Thermometer.sdc, Line 15).
+[02/08 11:07:05     40s] 
+[02/08 11:07:05     40s] **WARN: (TCLCMD-958):	Previously defined source objects for clock 'clk' have been overwritten. To avoid overwrite, ensure that all source objects are passed to the 'create_clock' command at once. (File post_synth_Thermometer.sdc, Line 15).
+[02/08 11:07:05     40s] 
+[02/08 11:07:05     40s] **ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 62).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 63).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 64).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 65).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 66).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 67).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 68).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 69).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 70).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 71).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 72).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 73).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 74).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 75).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 76).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 77).
+
+INFO (CTE): Reading of timing constraints file post_synth_Thermometer.sdc completed, with 4 Warnings and 16 Errors.
+[02/08 11:07:05     40s] Ending "Constraint file reading stats" (total cpu=0:00:00.1, real=0:00:00.0, peak res=2049.7M, current mem=1956.0M)
+[02/08 11:07:05     40s] Current (total cpu=0:00:41.2, real=0:04:38, peak res=2385.4M, current mem=1956.0M)
+[02/08 11:07:11     40s] <CMD> report_timing
+[02/08 11:07:11     40s] AAE_INFO: opIsDesignInPostRouteState() is 0
+[02/08 11:07:11     40s] #################################################################################
+[02/08 11:07:11     40s] # Design Name: thermometer
+[02/08 11:07:11     40s] # Design Mode: 65nm
+[02/08 11:07:11     40s] # Analysis Mode: MMMC OCV 
+[02/08 11:07:11     40s] # Parasitics Mode: No SPEF/RCDB 
+[02/08 11:07:11     40s] # Signoff Settings: SI Off 
+[02/08 11:07:11     40s] #################################################################################
+[02/08 11:07:11     40s] Topological Sorting (REAL = 0:00:00.0, MEM = 3228.7M, InitMEM = 3228.7M)
+[02/08 11:07:11     40s] Start delay calculation (fullDC) (1 T). (MEM=1988.84)
+[02/08 11:07:11     40s] End AAE Lib Interpolated Model. (MEM=3228.66 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[02/08 11:07:11     40s] **WARN: (IMPMSMV-1810):	Net Y[14], driver Y[14] (cell thermometer) voltage 1.8 does not match receiver g274__6260/B0 (cell AOI21X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:11     40s] **WARN: (IMPMSMV-1810):	Net Y[13], driver Y[13] (cell thermometer) voltage 1.8 does not match receiver g284/A (cell INVX1) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:11     40s] **WARN: (IMPMSMV-1810):	Net Y[13], driver Y[13] (cell thermometer) voltage 1.8 does not match receiver g272__3680/B0 (cell AOI21X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:11     40s] **WARN: (IMPMSMV-1810):	Net Y[12], driver Y[12] (cell thermometer) voltage 1.8 does not match receiver g276__8428/B0 (cell AOI22X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:11     40s] **WARN: (IMPMSMV-1810):	Net Y[11], driver Y[11] (cell thermometer) voltage 1.8 does not match receiver g281/A (cell CLKINVX2) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:11     40s] **WARN: (IMPMSMV-1810):	Net Y[11], driver Y[11] (cell thermometer) voltage 1.8 does not match receiver g271__5107/B0 (cell OAI221X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:11     40s] **WARN: (IMPMSMV-1810):	Net Y[10], driver Y[10] (cell thermometer) voltage 1.8 does not match receiver g277__6783/B0 (cell AOI22X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:11     40s] **WARN: (IMPMSMV-1810):	Net Y[9], driver Y[9] (cell thermometer) voltage 1.8 does not match receiver g285/A (cell CLKINVX2) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:11     40s] **WARN: (IMPMSMV-1810):	Net Y[8], driver Y[8] (cell thermometer) voltage 1.8 does not match receiver g277__6783/A0 (cell AOI22X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:11     40s] **WARN: (IMPMSMV-1810):	Net Y[7], driver Y[7] (cell thermometer) voltage 1.8 does not match receiver g287/A (cell CLKINVX2) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:11     40s] **WARN: (IMPMSMV-1810):	Net Y[7], driver Y[7] (cell thermometer) voltage 1.8 does not match receiver out_reg[3]/D (cell DFFRX1) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:11     40s] **WARN: (IMPMSMV-1810):	Net Y[7], driver Y[7] (cell thermometer) voltage 1.8 does not match receiver g273__5526/A0 (cell OAI21X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:11     40s] **WARN: (IMPMSMV-1810):	Net Y[7], driver Y[7] (cell thermometer) voltage 1.8 does not match receiver g271__5107/A0 (cell OAI221X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:11     40s] **WARN: (IMPMSMV-1810):	Net Y[6], driver Y[6] (cell thermometer) voltage 1.8 does not match receiver g275__4319/B0 (cell AOI22X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:11     40s] **WARN: (IMPMSMV-1810):	Net Y[5], driver Y[5] (cell thermometer) voltage 1.8 does not match receiver g283/A (cell CLKINVX2) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:11     40s] **WARN: (IMPMSMV-1810):	Net Y[4], driver Y[4] (cell thermometer) voltage 1.8 does not match receiver g274__6260/A0 (cell AOI21X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:11     40s] **WARN: (IMPMSMV-1810):	Net Y[3], driver Y[3] (cell thermometer) voltage 1.8 does not match receiver g282/A (cell CLKINVX2) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:11     40s] **WARN: (IMPMSMV-1810):	Net Y[2], driver Y[2] (cell thermometer) voltage 1.8 does not match receiver g275__4319/A0 (cell AOI22X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:11     40s] **WARN: (IMPMSMV-1810):	Net Y[1], driver Y[1] (cell thermometer) voltage 1.8 does not match receiver g280/A (cell INVX1) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:11     40s] **WARN: (IMPMSMV-1810):	Net Y[1], driver Y[1] (cell thermometer) voltage 1.8 does not match receiver g272__3680/A0 (cell AOI21X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:11     40s] **WARN: (EMS-62):	Message <IMPMSMV-1810> has exceeded the default message display limit of 20.
+[02/08 11:07:11     40s] To avoid this warning, increase the display limit per unique message by
+[02/08 11:07:11     40s] using the set_message -limit <number> command.
+[02/08 11:07:11     40s] The message limit can be removed by using the set_message -no_limit command.
+[02/08 11:07:11     40s] Note that setting a very large number using the set_message -limit command
+[02/08 11:07:11     40s] or removing the message limit using the set_message -no_limit command can
+[02/08 11:07:11     40s] significantly increase the log file size.
+[02/08 11:07:11     40s] To suppress a message, use the set_message -suppress command.
+[02/08 11:07:12     42s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[02/08 11:07:12     42s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[02/08 11:07:12     42s] End delay calculation. (MEM=2114.48 CPU=0:00:01.6 REAL=0:00:01.0)
+[02/08 11:07:12     42s] Begin loading slews from CTE ...
+[02/08 11:07:12     42s] Loading slews from CTE completed...
+[02/08 11:07:12     42s] End delay calculation (fullDC). (MEM=2114.48 CPU=0:00:01.6 REAL=0:00:01.0)
+[02/08 11:07:12     42s] *** CDM Built up (cpu=0:00:02.3  real=0:00:01.0  mem= 3413.8M) ***
+[02/08 11:07:12     42s] Has not load the powerDB, will keep enalbed
+[02/08 11:07:12     42s] Has not load the powerDB, will keep enalbed
+[02/08 11:07:26     43s] <CMD> read_sdc post_synth_Thermometer.sdc
+[02/08 11:07:26     43s] Current (total cpu=0:00:44.7, real=0:04:59, peak res=2385.4M, current mem=2067.2M)
+[02/08 11:07:26     43s] **WARN: (TCLCMD-1461):	Skipped unsupported command: set_units (File post_synth_Thermometer.sdc, Line 9).
+[02/08 11:07:26     43s] 
+[02/08 11:07:26     43s] **WARN: (TCLCMD-1461):	Skipped unsupported command: set_units (File post_synth_Thermometer.sdc, Line 10).
+[02/08 11:07:26     43s] 
+[02/08 11:07:26     43s] **WARN: (TCLCMD-1594):	A clock with name clk was already defined in the design. Previously defined clock definition of clk will be overwritten. (File post_synth_Thermometer.sdc, Line 15).
+[02/08 11:07:26     43s] 
+[02/08 11:07:26     43s] **WARN: (TCLCMD-958):	Previously defined source objects for clock 'clk' have been overwritten. To avoid overwrite, ensure that all source objects are passed to the 'create_clock' command at once. (File post_synth_Thermometer.sdc, Line 15).
+[02/08 11:07:26     43s] 
+[02/08 11:07:26     43s] **ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 62).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 63).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 64).
+
+**ERROR: (TCLCMD-307):	set_driving_cell: No timing arc exists between specified source and sink pins. (File post_synth_Thermometer.sdc, Line 65).
+
+Message <TCLCMD-307> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit. (File post_synth_Thermometer.sdc, Line 66).
+[02/08 11:07:26     43s] 
+[02/08 11:07:26     43s] INFO (CTE): Reading of timing constraints file post_synth_Thermometer.sdc completed, with 4 Warnings and 4 Errors.
+[02/08 11:07:26     43s] Ending "Constraint file reading stats" (total cpu=0:00:00.1, real=0:00:00.0, peak res=2067.2M, current mem=1972.1M)
+[02/08 11:07:26     43s] Current (total cpu=0:00:44.8, real=0:04:59, peak res=2385.4M, current mem=1972.1M)
+[02/08 11:07:27     43s] <CMD> report_timing
+[02/08 11:07:27     43s] AAE_INFO: opIsDesignInPostRouteState() is 0
+[02/08 11:07:27     43s] #################################################################################
+[02/08 11:07:27     43s] # Design Name: thermometer
+[02/08 11:07:27     43s] # Design Mode: 65nm
+[02/08 11:07:27     43s] # Analysis Mode: MMMC OCV 
+[02/08 11:07:27     43s] # Parasitics Mode: No SPEF/RCDB 
+[02/08 11:07:27     43s] # Signoff Settings: SI Off 
+[02/08 11:07:27     43s] #################################################################################
+[02/08 11:07:28     44s] Topological Sorting (REAL = 0:00:00.0, MEM = 3306.8M, InitMEM = 3306.8M)
+[02/08 11:07:28     44s] Start delay calculation (fullDC) (1 T). (MEM=2026.42)
+[02/08 11:07:28     44s] End AAE Lib Interpolated Model. (MEM=3306.82 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[02/08 11:07:28     44s] **WARN: (IMPMSMV-1810):	Net Y[14], driver Y[14] (cell thermometer) voltage 1.8 does not match receiver g274__6260/B0 (cell AOI21X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:28     44s] **WARN: (IMPMSMV-1810):	Net Y[13], driver Y[13] (cell thermometer) voltage 1.8 does not match receiver g284/A (cell INVX1) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:28     44s] **WARN: (IMPMSMV-1810):	Net Y[13], driver Y[13] (cell thermometer) voltage 1.8 does not match receiver g272__3680/B0 (cell AOI21X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:28     44s] **WARN: (IMPMSMV-1810):	Net Y[12], driver Y[12] (cell thermometer) voltage 1.8 does not match receiver g276__8428/B0 (cell AOI22X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:28     44s] **WARN: (IMPMSMV-1810):	Net Y[11], driver Y[11] (cell thermometer) voltage 1.8 does not match receiver g281/A (cell CLKINVX2) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:28     44s] **WARN: (IMPMSMV-1810):	Net Y[11], driver Y[11] (cell thermometer) voltage 1.8 does not match receiver g271__5107/B0 (cell OAI221X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:28     44s] **WARN: (IMPMSMV-1810):	Net Y[10], driver Y[10] (cell thermometer) voltage 1.8 does not match receiver g277__6783/B0 (cell AOI22X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:28     44s] **WARN: (IMPMSMV-1810):	Net Y[9], driver Y[9] (cell thermometer) voltage 1.8 does not match receiver g285/A (cell CLKINVX2) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:28     44s] **WARN: (IMPMSMV-1810):	Net Y[8], driver Y[8] (cell thermometer) voltage 1.8 does not match receiver g277__6783/A0 (cell AOI22X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:28     44s] **WARN: (IMPMSMV-1810):	Net Y[7], driver Y[7] (cell thermometer) voltage 1.8 does not match receiver g287/A (cell CLKINVX2) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:28     44s] **WARN: (IMPMSMV-1810):	Net Y[7], driver Y[7] (cell thermometer) voltage 1.8 does not match receiver out_reg[3]/D (cell DFFRX1) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:28     44s] **WARN: (IMPMSMV-1810):	Net Y[7], driver Y[7] (cell thermometer) voltage 1.8 does not match receiver g273__5526/A0 (cell OAI21X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:28     44s] **WARN: (IMPMSMV-1810):	Net Y[7], driver Y[7] (cell thermometer) voltage 1.8 does not match receiver g271__5107/A0 (cell OAI221X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:28     44s] **WARN: (IMPMSMV-1810):	Net Y[6], driver Y[6] (cell thermometer) voltage 1.8 does not match receiver g275__4319/B0 (cell AOI22X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:28     44s] **WARN: (IMPMSMV-1810):	Net Y[5], driver Y[5] (cell thermometer) voltage 1.8 does not match receiver g283/A (cell CLKINVX2) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:28     44s] **WARN: (IMPMSMV-1810):	Net Y[4], driver Y[4] (cell thermometer) voltage 1.8 does not match receiver g274__6260/A0 (cell AOI21X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:28     44s] **WARN: (IMPMSMV-1810):	Net Y[3], driver Y[3] (cell thermometer) voltage 1.8 does not match receiver g282/A (cell CLKINVX2) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:28     44s] **WARN: (IMPMSMV-1810):	Net Y[2], driver Y[2] (cell thermometer) voltage 1.8 does not match receiver g275__4319/A0 (cell AOI22X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:28     44s] **WARN: (IMPMSMV-1810):	Net Y[1], driver Y[1] (cell thermometer) voltage 1.8 does not match receiver g280/A (cell INVX1) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:28     44s] **WARN: (IMPMSMV-1810):	Net Y[1], driver Y[1] (cell thermometer) voltage 1.8 does not match receiver g272__3680/A0 (cell AOI21X1) voltage 1.62 for view default_emulate_view.
+[02/08 11:07:28     44s] **WARN: (EMS-62):	Message <IMPMSMV-1810> has exceeded the default message display limit of 20.
+[02/08 11:07:28     44s] To avoid this warning, increase the display limit per unique message by
+[02/08 11:07:28     44s] using the set_message -limit <number> command.
+[02/08 11:07:28     44s] The message limit can be removed by using the set_message -no_limit command.
+[02/08 11:07:28     44s] Note that setting a very large number using the set_message -limit command
+[02/08 11:07:28     44s] or removing the message limit using the set_message -no_limit command can
+[02/08 11:07:28     44s] significantly increase the log file size.
+[02/08 11:07:28     44s] To suppress a message, use the set_message -suppress command.
+[02/08 11:07:28     46s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[02/08 11:07:28     46s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[02/08 11:07:28     46s] End delay calculation. (MEM=2139.94 CPU=0:00:01.7 REAL=0:00:00.0)
+[02/08 11:07:28     46s] Begin loading slews from CTE ...
+[02/08 11:07:28     46s] Loading slews from CTE completed...
+[02/08 11:07:28     46s] End delay calculation (fullDC). (MEM=2139.94 CPU=0:00:01.7 REAL=0:00:00.0)
+[02/08 11:07:28     46s] *** CDM Built up (cpu=0:00:02.5  real=0:00:01.0  mem= 3455.6M) ***
+[02/08 11:07:28     46s] Has not load the powerDB, will keep enalbed
+[02/08 11:07:28     46s] Has not load the powerDB, will keep enalbed
+[02/08 11:22:33     90s] <CMD> exit
+[02/08 11:22:33     90s] 
+[02/08 11:22:33     90s] *** Memory Usage v#2 (Current mem = 3454.621M, initial mem = 832.258M) ***
+[02/08 11:22:33     90s] 
+[02/08 11:22:33     90s] *** Summary of all messages that are not suppressed in this session:
+[02/08 11:22:33     90s] Severity  ID               Count  Summary                                  
+[02/08 11:22:33     90s] WARNING   IMPMSMV-1810       132  Net %s, driver %s (cell %s) voltage %g d...
+[02/08 11:22:33     90s] ERROR     TCLCMD-307          32  %s: No timing arc exists between specifi...
+[02/08 11:22:33     90s] WARNING   TCLCMD-958           2  Previously defined source objects for cl...
+[02/08 11:22:33     90s] WARNING   TCLCMD-1461          6  Skipped unsupported command: %s          
+[02/08 11:22:33     90s] WARNING   TCLCMD-1594          2  A clock with name %s was already defined...
+[02/08 11:22:33     90s] *** Message Summary: 142 warning(s), 32 error(s)
+[02/08 11:22:33     90s] 
+[02/08 11:22:33     90s] --- Ending "Tempus Timing Solution" (totcpu=0:01:32, real=0:20:06, mem=3454.6M) ---

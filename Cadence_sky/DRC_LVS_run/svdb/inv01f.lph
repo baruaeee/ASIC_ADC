@@ -1,0 +1,11 @@
+# Placement Hierarchy File (lph)
+# 
+# 
+# 
+% pfet_01v8_CDNS_733693291111 3
+M0 MP 4
+% nfet_01v8_CDNS_733693291110 3
+M0 MN 4
+% inv01f 4
+X0 nfet_01v8_CDNS_733693291110 3
+X1 pfet_01v8_CDNS_733693291111 3

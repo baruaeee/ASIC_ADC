@@ -1,0 +1,102 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = ADC
+	Cell         = TB_single
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = ExplorerRun.0
+	Results DB   = /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/TB_single/maestro/results/maestro/ExplorerRun.0.rdb
+	Results Dir  = /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/1/ADC_TB_single_1
+	Results Loc  = /home/cae3/simulation/ADC/TB_single/maestro/results/maestro
+	Project Dir  = /home/cae3/simulation
+	Setup DB loc = /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/ADC/TB_single/maestro
+	File Encoding = 0
+
+
+*Info*    The simulation mode in Spectre has been changed from
+          'interactive' to 'batch' mode because ICLP.
+
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (14 1) on testbench [
+          ADC_TB_single_1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var n15L = "295n"
+Setting var n15W = "765n"
+Setting var p15L = "345n"
+Setting var p15W = "630n"
+Setting var pre_n_L = "1.05u"
+Setting var pre_n_W = "550n"
+Setting var pre_p_L = "150n"
+Setting var pre_p_W = "1.02u"
+Setting var temperature = "27"
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/1/ADC_TB_single_1/netlist
+
+
+*Info*    Data Directory    =
+          /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/1/ADC_TB_single_1
+
+
+*Info*    Creating Netlist for Point ID (14 1)
+
+generate netlist...
+Begin Incremental Netlisting Dec  6 23:54:15 2024
+End netlisting Dec  6 23:54:15 2024
+
+Netlisting Statistics:
+	Number of components:    2
+
+	Elapsed time:          0.0s
+Errors: 0	Warnings: 0
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [ ADC_TB_single_1 ] for
+          Point ID (14 1).
+
+Delete psf data in /home/cae3/simulation/ADC/TB_single/maestro/results/maestro/ExplorerRun.0/1/ADC_TB_single_1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
+
+
+*Info*    Run complete for Point ID (14 1) on testbench [
+          ADC_TB_single_1 ].
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.

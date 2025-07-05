@@ -1,0 +1,103 @@
+\# Program start time:     UTC 2024.10.24 08:03:10.537
+\# Local time: GMT+02:00 (UTC+02:00) 2024.10.24 10:03:10.537
+\o Program:		@(#)$CDS: virtuoso version IC23.1-64b 09/20/2023 08:29 (cpgbld16) $
+\o Hierarchy:		/mnt/cae_storage_sw/eda/cadence/2023-24/RHELx86/IC_23.10.020/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC23.1-64b.ISR2.29  (64-bit addresses)
+\# Command line:	/eda/cadence/2023-24/RHELx86/IC_23.10.020/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost cae-europractice1.othr.de -beanport 11867 -beanbinlog  -beanLogFile /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/amps_Service87.log -mpssession virtuoso1190405 -mpshost cae-europractice1.othr.de -davinciService DaVinciService_1190405_1729093354 -axlSession fnxSession14 -axlServiceIdFlag 87 -uuid 840a2d79-cc71-4a67-89fc-e0510b2b3c73 -heartbeat /dev/shm/swift-heartbeat.G51HPtXVyZ -log /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/logs_cae3/logs0/Service87.log -adeBrokerAddress cae-europractice1.othr.de:36615 -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D03D0EC7EFC06BC4D66BB9E118E69D9383DB1CC43CF28867C66E3BF1FFC06BC4D66E38F1FFC06BC4D01FA702B0332DB5400001E5D -interactive -offlineExprEval -upfrontMode -fenixMode explorer -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
+\# Host name (type):	cae-europractice1.othr.de (x86_64)
+\# Operating system:	Linux 5.15.0-210.163.7.el8uek.x86_64 #2 SMP Tue Sep 10 18:31:09 PDT 2024
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:2380 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        682 MB
+\# Available memory:	     25,609 MB
+\# System memory:	     31,807 MB
+\# Maximum memory size:	     31,285 MB
+\# Max mem available:	     25,770 MB
+\# Initial memory used:	        160 MB
+\#        process size:	      1,627 MB
+\# Thread usage limits (effective/default):	maxthreads 127001/127001 maxload 16.00/16.00
+\# Qt version:		5.15.9
+\# Window Manager:	other
+\# User Name:		cae3
+\o Working Directory:	cae-europractice1.othr.de:/home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky
+\# Process Id:		3960450
+\o 
+\o COPYRIGHT (C) 1992-2023  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2023  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Load shared object file /eda/cadence/2023-24/RHELx86/PEGASUSDFM_23.11.000/tools.lnx86/ret/lib/64bit/libretboot.so
+\o Load shared object file /eda/cadence/2023-24/RHELx86/PEGASUSDFM_23.11.000/tools.lnx86/lpa/lib/64bit/libretclef.so
+\o 
+\o Load shared object file /eda/cadence/2023-24/RHELx86/PEGASUSDFM_23.11.000/tools.lnx86/lpa/lib/64bit/libretmb.so
+\o 
+\o Hotspot Browser 1.0.0 (May  5 2016 12:15:38)
+\o Loading /eda/cadence/2023-24/RHELx86/PEGASUSDFM_23.11.000/tools.lnx86/mmg/bin/64bit/etc/context/6.1.0/64bit/ccp.cxt
+\o Loading pegasusui.cxt
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading layers.cxt 
+\o Loading drv.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\# Available memory:         25,550 MB at UTC 2024.10.24 08:03:21.398
+\# Memory report: Maximum memory size now 25,814 MB at UTC 2024.10.24 08:03:21.398
+\# Thread usage report: 10 active threads, active load 1.40 at UTC 2024.10.24 08:03:21.398
+\# Memory report: using         264 MB, process size 1,738 MB at UTC 2024.10.24 08:03:21.398
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o Loading sipLayout.cxt 
+\o INFO (ELI-00333) Client process connection mode is LSCS.
+\# [10:03:10.381740] Configured Lic search path (23.02-s003): 5280@hs-lic3.oth-regensburg.de:27003@hs-lic1.oth-regensburg.de:27003@hs-lic1.oth-regensburg.de:
+\p > 
+\o Loading tilp.cxt 
+\o Loading validator.cxt 
+\o Loading vrf.cxt 
+\o Loading multiTechPlugin.cxt 
+\o Loading exportDie.cxt 
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\# The Health Monitor tool is installed. You can access it from CIW - Tools - Diagnostic Center or use the shell command 'cdsPerfDiag -p 3960450' to open it when Virtuoso freezes.
+\o Loading diagCenter.cxt 
+\# (PerfDiag): Use backtrace from GLIBC.

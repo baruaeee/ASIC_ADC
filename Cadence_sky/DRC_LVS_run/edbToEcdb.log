@@ -1,0 +1,17 @@
+
+/mnt/cae_storage_sw/eda/cadence/2023-24/RHELx86/PEGASUS_23.11.000/tools.lnx86/Pegasus/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : pre_therm_2416743.db
+ECDB dir        : ./
+Top Cell        : pre_therm
+CDL netlist     : ./pre_therm.net
+Layer map file  : ./pre_therm.ecdbmap
+Text map file   : ./pre_therm.ports
+Dependency map  : pre_therm.lmap.perc
+Lvs file        : ./pre_therm.lvsfile
+Float net file  : .pre_therm.info.softchk
+threads         : 32
+debug           : 0
+Source Library  : pre_therm_2416743

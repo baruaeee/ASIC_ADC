@@ -1,0 +1,6 @@
+cUiSelectCellP {pre_therm}
+cUiSetViewStatus {pre_therm} {layout} {1}
+cUiSetViewStatus {pre_therm} {logical} {0}
+cUiSetViewStatus {pre_therm} {abstract.pin} {1}
+cUiSetViewStatus {pre_therm} {abstract.ext} {1}
+cUiSetViewStatus {pre_therm} {abstract} {3}

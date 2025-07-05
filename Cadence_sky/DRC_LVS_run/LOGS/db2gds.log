@@ -1,0 +1,144 @@
+********************************************************************************
+db2gds 23.11-s009 64 bit (Thu Aug 31 12:45:19 PDT 2023)
+Build Ref No.: 028 Release Candidate (08-31-2023) [2311_pgs]
+
+Copyright 2023 Cadence Design Systems, Inc.
+All rights reserved worldwide.
+
+Build O/S:       Linux x86_64 3.10.0-693.el7.x86_64
+Executed on:     cae-europractice1.othr.de (Linux x86_64 5.15.0-210.163.7.el8uek.x86_64)
+Process Id:      2153423
+Starting Time:   Wed Dec 11 23:34:15 2024 (Wed Dec 11 22:34:15 2024 GMT)
+With parameters: pre_therm_2153213 /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/svdb/pre_therm.agf pre_therm -lmap lmapWOG1Y4 -netmap /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/svdb/pre_therm.lnn -property_nqrc -gds_scale 1000 -vircolon 
+********************************************************************************
+
+Library name: pre_therm_2153213
+GDSII file name: /home/cae3/Desktop/ADC/ASIC_ADC/Cadence_sky/DRC_LVS_run/svdb/pre_therm.agf
+Cells to be written out: pre_therm
+Source Library: pre_therm_2153213
+Layer mapping file(GDS <- DMC): lmapWOG1Y4
+    38 (dt:0 tt:0) <- 38
+    42 (dt:0 tt:0) <- 42
+    44 (dt:0 tt:0) <- 44
+    45 (dt:0 tt:0) <- 45
+    46 (dt:0 tt:0) <- 46
+    58 (dt:0 tt:0) <- 58
+    47 (dt:0 tt:0) <- 47
+    48 (dt:0 tt:0) <- 48
+    49 (dt:0 tt:0) <- 49
+    50 (dt:0 tt:0) <- 50
+    51 (dt:0 tt:0) <- 51
+    31 (dt:0 tt:0) <- 31
+    34 (dt:0 tt:0) <- 34
+    35 (dt:0 tt:0) <- 35
+    36 (dt:0 tt:0) <- 36
+    37 (dt:0 tt:0) <- 37
+    39 (dt:0 tt:0) <- 39
+    40 (dt:0 tt:0) <- 40
+    41 (dt:0 tt:0) <- 41
+    43 (dt:0 tt:0) <- 43
+    52 (dt:0 tt:0) <- 52
+    53 (dt:0 tt:0) <- 53
+    54 (dt:0 tt:0) <- 54
+    66 (dt:0 tt:0) <- 66
+    67 (dt:0 tt:0) <- 67
+    69 (dt:0 tt:0) <- 69
+    70 (dt:0 tt:0) <- 70
+    71 (dt:0 tt:0) <- 71
+    2 (dt:0 tt:0) <- 2
+    7 (dt:0 tt:0) <- 7
+    8 (dt:0 tt:0) <- 8
+    9 (dt:0 tt:0) <- 9
+    11 (dt:0 tt:0) <- 11
+    12 (dt:0 tt:0) <- 12
+    15 (dt:0 tt:0) <- 15
+    16 (dt:0 tt:0) <- 16
+    17 (dt:0 tt:0) <- 17
+    18 (dt:0 tt:0) <- 18
+    20 (dt:0 tt:0) <- 20
+    55 (dt:0 tt:0) <- 55
+    56 (dt:0 tt:0) <- 56
+    57 (dt:0 tt:0) <- 57
+    59 (dt:0 tt:0) <- 59
+    60 (dt:0 tt:0) <- 60
+    61 (dt:0 tt:0) <- 61
+    62 (dt:0 tt:0) <- 62
+    63 (dt:0 tt:0) <- 63
+    64 (dt:0 tt:0) <- 64
+    65 (dt:0 tt:0) <- 65
+    68 (dt:0 tt:0) <- 68
+    19 (dt:0 tt:0) <- 19
+    21 (dt:0 tt:0) <- 21
+    22 (dt:0 tt:0) <- 22
+    23 (dt:0 tt:0) <- 23
+    24 (dt:0 tt:0) <- 24
+    25 (dt:0 tt:0) <- 25
+    26 (dt:0 tt:0) <- 26
+    27 (dt:0 tt:0) <- 27
+    28 (dt:0 tt:0) <- 28
+    29 (dt:0 tt:0) <- 29
+    30 (dt:0 tt:0) <- 30
+    32 (dt:0 tt:0) <- 32
+    33 (dt:0 tt:0) <- 33
+Cell name case: PRESERVE
+Option: output object property for new qrc flow
+
+
+                Object Statistics of Cells                            
+Cell Name         Box  Polygon     Path   Label Instance Array    Total
+----------------------------------------------------------------------
+pre_therm           3        3        0       0     4      0        10
+M1M2_C_CDNS_733956442880        3        0        0       0     0      0         3
+inv01f             25        4        0       0     5      0        34
+preampF            21        5        0       0     7      0        33
+PYL1CON_C_CDNS_733956442881        3        0        0       0     0      0         3
+L1M1_C_CDNS_733956442882        3        0        0       0     0      0         3
+L1M1_C_CDNS_733956442884        3        0        0       0     0      0         3
+nfet_01v8_CDNS_733956442880       13        0        0       0     0      0        13
+pfet_01v8_CDNS_733956442881       17        0        0       0     0      0        17
+L1M1_C_CDNS_733956442885        5        0        0       0     0      0         5
+pfet_01v8_CDNS_733956442882       13        0        0       0     0      0        13
+nfet_01v8_CDNS_733956442883       21        0        0       0     0      0        21
+----------------------------------------------------------------------
+
+Object Statistics of Layers
+Layer   Objects
+----------------
+   7           2
+   8           2
+   9           4
+  11           4
+  12           4
+  15          23
+  21           2
+  23           2
+  37           3
+  38          23
+  39          15
+  40          18
+  41           4
+  42          15
+  43           5
+  44           1
+  52           7
+  53           4
+  69           2
+  70           2
+----------------
+
+Object Summary
+------------------
+     Box       130
+ Polygon        12
+    Path         0
+   Label         0
+Instance        16
+   Array         0
+------------------
+   Total       158
+
+
+Output property: 158
+Total CPU Time          : 0(s)
+Total Real Time         : 0(s)
+Peak Memory Used        : 9(M)

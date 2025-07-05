@@ -1,0 +1,9 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(09Feb2025:18:03:27):( xrun Thermometer_testbench.v -access +rwc -gui )&&(./xcelium.d/env.d/env.history.09Feb2025_18_03_27)
+s2::(09Feb2025:18:05:39):( xrun Thermometer_testbench.v -access +rwc -gui )&&(./xcelium.d/env.d/env.history.09Feb2025_18_05_39)
+s3::(09Feb2025:18:06:40):( xrun Thermometer_testbench.v -access +rwc -gui )&&(./xcelium.d/env.d/env.history.09Feb2025_18_06_40)
+s4::(09Feb2025:18:08:47):( xrun Thermometer_testbench.v -access +rwc -gui )&&(./xcelium.d/env.d/env.history.09Feb2025_18_08_47)
+s5::(09Feb2025:18:51:50):( xrun Thermometer_testbench.v -access +rwc -gui )&&(./xcelium.d/env.d/env.history.09Feb2025_18_51_50)
